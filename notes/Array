@@ -1,0 +1,112 @@
+Ahh good thinking 💡 — you want a mini dictionary of important JavaScript string & array methods (like slice, join) that often come in interviews and coding exercises.
+I’ll give you a practical list with short explanations + examples.
+
+🔑 Important String Methods
+Method	What it Does	Example
+charAt(i)	Returns character at index	"apple".charAt(0) → "a"
+toUpperCase() / toLowerCase()	Changes case	"apple".toUpperCase() → "APPLE"
+slice(start, end?)	Extracts part of string	"banana".slice(1, 4) → "ana"
+substring(start, end?)	Similar to slice, but doesn’t allow negative indexes	"banana".substring(1, 4) → "ana"
+split(separator)	Splits string into array	"a,b,c".split(",") → ["a","b","c"]
+includes(sub)	Checks if substring exists	"hello".includes("he") → true
+replace(old, new)	Replace part of string	"hi hi".replace("hi","bye") → "bye hi"
+trim()	Removes spaces from start & end	" hello ".trim() → "hello"
+🔑 Important Array Methods
+Method	What it Does	Example
+push()	Add element at end	[1,2].push(3) → [1,2,3] -- Return value is new length
+pop()	Remove element from end	[1,2,3].pop() → [1,2] -- return is the last removed element
+unshift()	Add element at start	[2,3].unshift(1) → [1,2,3]
+shift()	Remove element from start	[1,2,3].shift() → [2,3]
+join(sep)	Joins array into string	["a","b"].join("-") → "a-b"
+concat()	Combines arrays	[1,2].concat([3,4]) → [1,2,3,4]
+@@= slice(start,end)	Extracts part of array	[1,2,3,4].slice(1,3) → [2,3]
+@@= splice(start, count, ...items)	Add/remove at specific index	arr.splice(1,1,"x")
+@@= map()	Transform each element → new array	[1,2].map(x=>x*2) → [2,4]
+@@= filter()	Keep only matching elements	[1,2,3].filter(x=>x>1) → [2,3]
+@@= reduce()	Reduce array to single value	[1,2,3].reduce((a,b)=>a+b,0) → 6
+find()	Find first matching element	[1,2,3].find(x=>x>1) → 2
+findIndex()	Find index of element	[1,2,3].findIndex(x=>x>1) → 1
+@@= sort()	Sort elements (default = string sort)	[10,2,5].sort() → [10,2,5] (⚠️ need custom compare)
+reverse()	Reverse array order	[1,2,3].reverse() → [3,2,1]
+includes()	Checks if value exists	[1,2,3].includes(2) → true
+
+✅ With just these methods, you can solve 90% of JS coding interview tasks.
+
+============================================================================================================
+
+🔹 Methods that CHANGE the existing (mutating)
+
+push() → adds elements to end of array
+
+pop() → removes last element
+
+shift() → removes first element
+
+unshift() → adds elements to beginning
+
+splice() → add/remove/replace elements
+
+sort() → sorts array in place
+
+🔹 Methods that RETURN a NEW (non-mutating)
+
+slice() → extracts portion (new array/string)
+
+substring() → extracts portion (new string)
+
+split() → splits string into array
+
+replace() → returns new string with replaced value
+
+trim() → returns new string without spaces
+
+includes() → returns boolean (true/false)
+
+join() → returns string from array
+
+map() → returns new array
+
+filter() → returns new array
+
+reduce() → returns a single value
+
+charAt() → returns character at index
+
+toUpperCase() / toLowerCase() → returns new string
+
+⚡ Quick memory hack:
+
+If it changes length/order/content of array → mutating. (Changes the existing array)
+
+If it just reads or gives copy → non-mutating. (returns new array)
+
+
+
+
+================================================================================================================
+charAt()
+toUpperCase()
+toLowerCase()
+slice()
+substring()
+split()
+includes()
+replace()
+trim()
+==================================================================================================================
+push()
+pop()
+unshift()
+shift()
+join()
+concat()
+slice()
+splice()
+map()
+filter()
+reduce()
+find()
+findIndex()
+sort()
+reverse()
+includes()

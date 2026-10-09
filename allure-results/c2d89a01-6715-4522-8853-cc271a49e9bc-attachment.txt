@@ -1,0 +1,8 @@
+[
+  'Estrela Do Mar Beach Resort',
+  'Ananta Spa & Resort, Pushkar',
+  'Adaaran Club Rannalhi',
+  'SALT of Palmar, an adult-only boutique Hotel',
+  'Eros Hotel New Delhi, Nehru Place'
+]
+[ 'Estrela Do Mar Beach Resort', 'Ananta Spa & Resort, Pushkar' ]

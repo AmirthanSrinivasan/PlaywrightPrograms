@@ -1,0 +1,2906 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e7]:
+      - link "trivago logo" [ref=e8] [cursor=pointer]:
+        - /url: /en-IN
+        - img [ref=e9] [cursor=pointer]
+      - navigation [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - button "Recently viewed" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23] [cursor=pointer]:
+                - img
+              - generic [ref=e25] [cursor=pointer]: Recently viewed
+          - listitem [ref=e26]:
+            - link "Favorites" [ref=e28] [cursor=pointer]:
+              - /url: /en-IN/profile/favorites/
+              - generic [ref=e29] [cursor=pointer]:
+                - img
+              - generic [ref=e31] [cursor=pointer]: Favorites
+          - listitem [ref=e32]:
+            - button "EN · ₹" [ref=e33] [cursor=pointer]:
+              - generic [ref=e34] [cursor=pointer]:
+                - img
+              - generic [ref=e36] [cursor=pointer]: EN · ₹
+          - listitem [ref=e37]:
+            - button "Log in" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40] [cursor=pointer]:
+                - img
+              - generic [ref=e42] [cursor=pointer]: Log in
+          - listitem [ref=e43]:
+            - button "Menu" [ref=e45] [cursor=pointer]:
+              - generic [ref=e46] [cursor=pointer]:
+                - img
+              - generic [ref=e48] [cursor=pointer]: Menu
+    - main [ref=e49]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - combobox [ref=e55]:
+            - button "Destination Clear" [ref=e57] [cursor=pointer]:
+              - generic [ref=e59] [cursor=pointer]:
+                - img
+              - generic [ref=e60] [cursor=pointer]:
+                - generic [ref=e61]: Destination
+                - searchbox "Destination" [ref=e62]: Mussoorie
+              - button "Clear" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64] [cursor=pointer]:
+                  - img
+          - group [ref=e65]:
+            - button "Check-in/out 20 Oct - 26 Oct" [ref=e66] [cursor=pointer]:
+              - generic [ref=e67] [cursor=pointer]:
+                - generic [ref=e68] [cursor=pointer]:
+                  - img
+                - generic [ref=e69] [cursor=pointer]:
+                  - generic [ref=e70] [cursor=pointer]: Check-in/out
+                  - generic [ref=e71] [cursor=pointer]: 20 Oct - 26 Oct
+          - button "Guests and rooms 2 Guests, 1 Room" [ref=e74] [cursor=pointer]:
+            - generic [ref=e75] [cursor=pointer]:
+              - generic [ref=e76] [cursor=pointer]:
+                - img
+              - generic [ref=e77] [cursor=pointer]:
+                - generic [ref=e78] [cursor=pointer]: Guests and rooms
+                - generic [ref=e79] [cursor=pointer]: 2 Guests, 1 Room
+        - button "Search" [ref=e80] [cursor=pointer]:
+          - generic [ref=e82] [cursor=pointer]: Search
+        - region [ref=e83]:
+          - generic [ref=e85]:
+            - button "Close" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87] [cursor=pointer]: Close
+              - generic [ref=e88] [cursor=pointer]:
+                - img
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - heading "Select your check-in date" [level=3] [ref=e91]
+                - paragraph [ref=e92]: See prices and availability for your dates
+              - generic [ref=e94]:
+                - button "previous" [ref=e95] [cursor=pointer]:
+                  - generic [ref=e96] [cursor=pointer]:
+                    - img
+                - button "next" [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98] [cursor=pointer]:
+                    - img
+                - generic [ref=e99]:
+                  - generic [ref=e100]:
+                    - heading "October 2025" [level=3] [ref=e101]
+                    - generic [ref=e102]:
+                      - generic [ref=e103]:
+                        - generic [ref=e104]: Monday
+                        - generic [ref=e105]: Mo
+                      - generic [ref=e106]:
+                        - generic [ref=e107]: Tuesday
+                        - generic [ref=e108]: Tu
+                      - generic [ref=e109]:
+                        - generic [ref=e110]: Wednesday
+                        - generic [ref=e111]: We
+                      - generic [ref=e112]:
+                        - generic [ref=e113]: Thursday
+                        - generic [ref=e114]: Th
+                      - generic [ref=e115]:
+                        - generic [ref=e116]: Friday
+                        - generic [ref=e117]: Fr
+                      - generic [ref=e118]:
+                        - generic [ref=e119]: Saturday
+                        - generic [ref=e120]: Sa
+                      - generic [ref=e121]:
+                        - generic [ref=e122]: Sunday
+                        - generic [ref=e123]: Su
+                    - generic [ref=e124]:
+                      - button "1" [ref=e125] [cursor=pointer]:
+                        - time [ref=e126] [cursor=pointer]: "1"
+                      - button "2" [ref=e127] [cursor=pointer]:
+                        - time [ref=e128] [cursor=pointer]: "2"
+                      - button "3" [ref=e129] [cursor=pointer]:
+                        - time [ref=e130] [cursor=pointer]: "3"
+                      - button "4" [ref=e131] [cursor=pointer]:
+                        - time [ref=e132] [cursor=pointer]: "4"
+                      - button "5" [ref=e133] [cursor=pointer]:
+                        - time [ref=e134] [cursor=pointer]: "5"
+                      - button "6" [ref=e135] [cursor=pointer]:
+                        - time [ref=e136] [cursor=pointer]: "6"
+                      - button "7" [ref=e137] [cursor=pointer]:
+                        - time [ref=e138] [cursor=pointer]: "7"
+                      - button "8" [ref=e139] [cursor=pointer]:
+                        - time [ref=e140] [cursor=pointer]: "8"
+                      - button "9" [ref=e141] [cursor=pointer]:
+                        - time [ref=e142] [cursor=pointer]: "9"
+                      - button "10" [ref=e143] [cursor=pointer]:
+                        - time [ref=e144] [cursor=pointer]: "10"
+                      - button "11" [ref=e145] [cursor=pointer]:
+                        - time [ref=e146] [cursor=pointer]: "11"
+                      - button "12" [ref=e147] [cursor=pointer]:
+                        - time [ref=e148] [cursor=pointer]: "12"
+                      - button "13" [ref=e149] [cursor=pointer]:
+                        - time [ref=e150] [cursor=pointer]: "13"
+                      - button "14" [ref=e151] [cursor=pointer]:
+                        - time [ref=e152] [cursor=pointer]: "14"
+                      - button "15" [ref=e153] [cursor=pointer]:
+                        - time [ref=e154] [cursor=pointer]: "15"
+                      - button "16" [ref=e155] [cursor=pointer]:
+                        - time [ref=e156] [cursor=pointer]: "16"
+                      - button "17" [ref=e157] [cursor=pointer]:
+                        - time [ref=e158] [cursor=pointer]: "17"
+                      - button "18" [ref=e159] [cursor=pointer]:
+                        - time [ref=e160] [cursor=pointer]: "18"
+                      - button "19" [ref=e161] [cursor=pointer]:
+                        - time [ref=e162] [cursor=pointer]: "19"
+                      - button "20" [active] [ref=e163] [cursor=pointer]:
+                        - time [ref=e164] [cursor=pointer]: "20"
+                      - button "21" [ref=e165] [cursor=pointer]:
+                        - time [ref=e166] [cursor=pointer]: "21"
+                      - button "22" [ref=e167] [cursor=pointer]:
+                        - time [ref=e168] [cursor=pointer]: "22"
+                      - button "23" [ref=e169] [cursor=pointer]:
+                        - time [ref=e170] [cursor=pointer]: "23"
+                      - button "24" [ref=e171] [cursor=pointer]:
+                        - time [ref=e172] [cursor=pointer]: "24"
+                      - button "25" [ref=e173] [cursor=pointer]:
+                        - time [ref=e174] [cursor=pointer]: "25"
+                      - button "26" [ref=e175] [cursor=pointer]:
+                        - time [ref=e176] [cursor=pointer]: "26"
+                      - button "27" [ref=e177] [cursor=pointer]:
+                        - time [ref=e178] [cursor=pointer]: "27"
+                      - button "28" [ref=e179] [cursor=pointer]:
+                        - time [ref=e180] [cursor=pointer]: "28"
+                      - button "29" [ref=e181] [cursor=pointer]:
+                        - time [ref=e182] [cursor=pointer]: "29"
+                      - button "30" [ref=e183] [cursor=pointer]:
+                        - time [ref=e184] [cursor=pointer]: "30"
+                      - button "31" [ref=e185] [cursor=pointer]:
+                        - time [ref=e186] [cursor=pointer]: "31"
+                  - generic [ref=e187]:
+                    - heading "November 2025" [level=3] [ref=e188]
+                    - generic [ref=e189]:
+                      - generic [ref=e190]:
+                        - generic [ref=e191]: Monday
+                        - generic [ref=e192]: Mo
+                      - generic [ref=e193]:
+                        - generic [ref=e194]: Tuesday
+                        - generic [ref=e195]: Tu
+                      - generic [ref=e196]:
+                        - generic [ref=e197]: Wednesday
+                        - generic [ref=e198]: We
+                      - generic [ref=e199]:
+                        - generic [ref=e200]: Thursday
+                        - generic [ref=e201]: Th
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: Friday
+                        - generic [ref=e204]: Fr
+                      - generic [ref=e205]:
+                        - generic [ref=e206]: Saturday
+                        - generic [ref=e207]: Sa
+                      - generic [ref=e208]:
+                        - generic [ref=e209]: Sunday
+                        - generic [ref=e210]: Su
+                    - generic [ref=e211]:
+                      - button "1" [ref=e212] [cursor=pointer]:
+                        - time [ref=e213] [cursor=pointer]: "1"
+                      - button "2" [ref=e214] [cursor=pointer]:
+                        - time [ref=e215] [cursor=pointer]: "2"
+                      - button "3" [ref=e216] [cursor=pointer]:
+                        - time [ref=e217] [cursor=pointer]: "3"
+                      - button "4" [ref=e218] [cursor=pointer]:
+                        - time [ref=e219] [cursor=pointer]: "4"
+                      - button "5" [ref=e220] [cursor=pointer]:
+                        - time [ref=e221] [cursor=pointer]: "5"
+                      - button "6" [ref=e222] [cursor=pointer]:
+                        - time [ref=e223] [cursor=pointer]: "6"
+                      - button "7" [ref=e224] [cursor=pointer]:
+                        - time [ref=e225] [cursor=pointer]: "7"
+                      - button "8" [ref=e226] [cursor=pointer]:
+                        - time [ref=e227] [cursor=pointer]: "8"
+                      - button "9" [ref=e228] [cursor=pointer]:
+                        - time [ref=e229] [cursor=pointer]: "9"
+                      - button "10" [ref=e230] [cursor=pointer]:
+                        - time [ref=e231] [cursor=pointer]: "10"
+                      - button "11" [ref=e232] [cursor=pointer]:
+                        - time [ref=e233] [cursor=pointer]: "11"
+                      - button "12" [ref=e234] [cursor=pointer]:
+                        - time [ref=e235] [cursor=pointer]: "12"
+                      - button "13" [ref=e236] [cursor=pointer]:
+                        - time [ref=e237] [cursor=pointer]: "13"
+                      - button "14" [ref=e238] [cursor=pointer]:
+                        - time [ref=e239] [cursor=pointer]: "14"
+                      - button "15" [ref=e240] [cursor=pointer]:
+                        - time [ref=e241] [cursor=pointer]: "15"
+                      - button "16" [ref=e242] [cursor=pointer]:
+                        - time [ref=e243] [cursor=pointer]: "16"
+                      - button "17" [ref=e244] [cursor=pointer]:
+                        - time [ref=e245] [cursor=pointer]: "17"
+                      - button "18" [ref=e246] [cursor=pointer]:
+                        - time [ref=e247] [cursor=pointer]: "18"
+                      - button "19" [ref=e248] [cursor=pointer]:
+                        - time [ref=e249] [cursor=pointer]: "19"
+                      - button "20" [ref=e250] [cursor=pointer]:
+                        - time [ref=e251] [cursor=pointer]: "20"
+                      - button "21" [ref=e252] [cursor=pointer]:
+                        - time [ref=e253] [cursor=pointer]: "21"
+                      - button "22" [ref=e254] [cursor=pointer]:
+                        - time [ref=e255] [cursor=pointer]: "22"
+                      - button "23" [ref=e256] [cursor=pointer]:
+                        - time [ref=e257] [cursor=pointer]: "23"
+                      - button "24" [ref=e258] [cursor=pointer]:
+                        - time [ref=e259] [cursor=pointer]: "24"
+                      - button "25" [ref=e260] [cursor=pointer]:
+                        - time [ref=e261] [cursor=pointer]: "25"
+                      - button "26" [ref=e262] [cursor=pointer]:
+                        - time [ref=e263] [cursor=pointer]: "26"
+                      - button "27" [ref=e264] [cursor=pointer]:
+                        - time [ref=e265] [cursor=pointer]: "27"
+                      - button "28" [ref=e266] [cursor=pointer]:
+                        - time [ref=e267] [cursor=pointer]: "28"
+                      - button "29" [ref=e268] [cursor=pointer]:
+                        - time [ref=e269] [cursor=pointer]: "29"
+                      - button "30" [ref=e270] [cursor=pointer]:
+                        - time [ref=e271] [cursor=pointer]: "30"
+              - list [ref=e273]:
+                - listitem [ref=e274]:
+                  - generic [ref=e275] [cursor=pointer]:
+                    - generic [ref=e276] [cursor=pointer]:
+                      - img
+                    - text: Tonight
+                - listitem [ref=e277]:
+                  - generic [ref=e278] [cursor=pointer]:
+                    - generic [ref=e279] [cursor=pointer]:
+                      - img
+                    - text: Tomorrow night
+                - listitem [ref=e280]:
+                  - generic [ref=e281] [cursor=pointer]:
+                    - generic [ref=e282] [cursor=pointer]:
+                      - img
+                    - text: This weekend
+                - listitem [ref=e283]:
+                  - generic [ref=e284] [cursor=pointer]:
+                    - generic [ref=e285] [cursor=pointer]:
+                      - img
+                    - text: Next weekend
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - button "Sort by Featured stays" [ref=e293] [cursor=pointer]:
+            - strong [ref=e294] [cursor=pointer]: Sort by
+            - generic [ref=e295] [cursor=pointer]:
+              - generic [ref=e297] [cursor=pointer]: Featured stays
+              - generic [ref=e298] [cursor=pointer]:
+                - img
+          - button "Filters 1 Free cancellation" [ref=e301] [cursor=pointer]:
+            - strong [ref=e302] [cursor=pointer]: Filters
+            - generic [ref=e303] [cursor=pointer]:
+              - generic [ref=e304] [cursor=pointer]:
+                - generic [ref=e306] [cursor=pointer]: "1"
+                - generic [ref=e307] [cursor=pointer]: Free cancellation
+              - generic [ref=e308] [cursor=pointer]:
+                - img
+          - button "Price Select" [ref=e312] [cursor=pointer]:
+            - strong [ref=e313] [cursor=pointer]: Price
+            - generic [ref=e314] [cursor=pointer]:
+              - generic [ref=e316] [cursor=pointer]: Select
+              - generic [ref=e317] [cursor=pointer]:
+                - img
+          - button "Location Select" [ref=e320] [cursor=pointer]:
+            - strong [ref=e321] [cursor=pointer]: Location
+            - generic [ref=e322] [cursor=pointer]:
+              - generic [ref=e324] [cursor=pointer]: Select
+              - generic [ref=e325] [cursor=pointer]:
+                - img
+        - generic [ref=e327]:
+          - list [ref=e328]:
+            - listitem [ref=e329]:
+              - checkbox "Hotels"
+              - generic [ref=e330] [cursor=pointer]: Hotels
+            - listitem [ref=e331]:
+              - 'checkbox "Rating: 8.0+"'
+              - generic [ref=e333] [cursor=pointer]: "Rating: 8.0+"
+            - listitem [ref=e334]:
+              - checkbox "Near city centre"
+              - generic [ref=e335] [cursor=pointer]: Near city centre
+            - listitem [ref=e336]:
+              - checkbox "Breakfast included"
+              - generic [ref=e338] [cursor=pointer]: Breakfast included
+            - listitem [ref=e339]:
+              - checkbox "Free cancellation" [checked]
+              - generic [ref=e340] [cursor=pointer]:
+                - generic [ref=e341] [cursor=pointer]: Free cancellation
+                - generic [ref=e342] [cursor=pointer]:
+                  - img
+            - listitem [ref=e343]:
+              - checkbox "Free WiFi"
+              - generic [ref=e345] [cursor=pointer]: Free WiFi
+            - listitem [ref=e346]:
+              - checkbox "Parking"
+              - generic [ref=e348] [cursor=pointer]: Parking
+            - listitem [ref=e349]:
+              - checkbox "Restaurant"
+              - generic [ref=e351] [cursor=pointer]: Restaurant
+            - listitem [ref=e352]:
+              - checkbox "Pet friendly"
+              - generic [ref=e354] [cursor=pointer]: Pet friendly
+          - button "next" [ref=e355] [cursor=pointer]:
+            - generic [ref=e356] [cursor=pointer]:
+              - img
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - generic [ref=e360]:
+            - generic [ref=e365]:
+              - generic [ref=e368]:
+                - text: We found
+                - strong [ref=e369]: "450"
+                - text: hotels from
+                - strong [ref=e370]: "168"
+                - text: sites
+              - link "How payments to us affect ranking" [ref=e373] [cursor=pointer]:
+                - /url: https://support.trivago.com/hc/en-in/sections/360000014707
+                - generic [ref=e374] [cursor=pointer]:
+                  - img
+                - paragraph [ref=e375] [cursor=pointer]: How payments to us affect ranking
+            - generic [ref=e377]:
+              - list [ref=e378]:
+                - listitem [ref=e379]:
+                  - article [ref=e381]:
+                    - generic [ref=e382]:
+                      - generic [ref=e383]:
+                        - button "Zone Connect by The Park Mussoorie, (Mussoorie, India) 1 / 33" [ref=e384] [cursor=pointer]:
+                          - img "Zone Connect by The Park Mussoorie, (Mussoorie, India)" [ref=e385] [cursor=pointer]
+                          - generic [ref=e386] [cursor=pointer]: 1 / 33
+                        - button "Add to favorites" [ref=e391] [cursor=pointer]:
+                          - img [ref=e392] [cursor=pointer]
+                          - generic [ref=e394] [cursor=pointer]: Add to favorites
+                      - list [ref=e396]:
+                        - listitem [ref=e397]:
+                          - button "Popular choice" [ref=e400] [cursor=pointer]:
+                            - generic [ref=e401] [cursor=pointer]: Popular choice
+                    - generic [ref=e402]:
+                      - generic [ref=e403]:
+                        - heading "Zone Connect by The Park Mussoorie" [level=2] [ref=e405]:
+                          - button "Zone Connect by The Park Mussoorie" [ref=e406] [cursor=pointer]
+                        - button "Hotel" [ref=e409] [cursor=pointer]:
+                          - generic [ref=e410] [cursor=pointer]:
+                            - generic [ref=e411] [cursor=pointer]:
+                              - generic [ref=e412] [cursor=pointer]:
+                                - img
+                              - generic [ref=e413] [cursor=pointer]:
+                                - img
+                              - generic [ref=e414] [cursor=pointer]:
+                                - img
+                              - generic [ref=e415] [cursor=pointer]:
+                                - img
+                            - generic [ref=e416] [cursor=pointer]: Hotel
+                        - button "Valley Views from Cozy Rooms, Delicious Food and Tasty Buffet" [ref=e417] [cursor=pointer]:
+                          - generic [ref=e419] [cursor=pointer]:
+                            - generic [ref=e420] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e421] [cursor=pointer]: Valley Views from Cozy Rooms, Delicious Food and Tasty Buffet
+                        - button "Mussoorie, 0.4 km to City centre" [ref=e423] [cursor=pointer]:
+                          - generic [ref=e424] [cursor=pointer]:
+                            - generic [ref=e425] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.4 km to City centre
+                        - button "8.5 Excellent (16551 ratings)" [ref=e426] [cursor=pointer]:
+                          - generic [ref=e428] [cursor=pointer]:
+                            - generic [ref=e429] [cursor=pointer]: "8.5"
+                            - generic [ref=e430] [cursor=pointer]:
+                              - strong [ref=e431] [cursor=pointer]: Excellent
+                              - generic [ref=e432] [cursor=pointer]: (16551 ratings)
+                      - generic [ref=e433]:
+                        - button "33% lower than other sites Our lowest price MakeMyTrip Free cancellation Breakfast included ₹4,040 6 nights for ₹24,241 View Deal" [ref=e434] [cursor=pointer]:
+                          - generic [ref=e435] [cursor=pointer]:
+                            - generic [ref=e436] [cursor=pointer]:
+                              - button "33% lower than other sites" [ref=e437] [cursor=pointer]:
+                                - generic [ref=e442] [cursor=pointer]: 33% lower than other sites
+                              - generic [ref=e445] [cursor=pointer]: Our lowest price
+                            - generic [ref=e446] [cursor=pointer]:
+                              - list [ref=e451] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e452] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e453] [cursor=pointer]:
+                                    - generic [ref=e454] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e456] [cursor=pointer]: Free cancellation
+                                - listitem "Breakfast included" [ref=e457] [cursor=pointer]:
+                                  - button "Breakfast included" [ref=e458] [cursor=pointer]:
+                                    - generic [ref=e459] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e461] [cursor=pointer]: Breakfast included
+                              - generic [ref=e462] [cursor=pointer]:
+                                - generic [ref=e463] [cursor=pointer]:
+                                  - generic [ref=e467] [cursor=pointer]: ₹4,040
+                                  - paragraph [ref=e468] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e469] [cursor=pointer]: ₹24,241
+                                - button "View Deal" [ref=e470] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e471] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e472] [cursor=pointer]:
+                          - generic [ref=e475] [cursor=pointer]: ₹6,021
+                          - generic [ref=e478] [cursor=pointer]:
+                            - img
+                - listitem [ref=e479]:
+                  - article [ref=e481]:
+                    - generic [ref=e482]:
+                      - generic [ref=e483]:
+                        - button "Sterling Mussoorie, (Mussoorie, India) 1 / 39" [ref=e484] [cursor=pointer]:
+                          - img "Sterling Mussoorie, (Mussoorie, India)" [ref=e485] [cursor=pointer]
+                          - generic [ref=e486] [cursor=pointer]: 1 / 39
+                        - button "Add to favorites" [ref=e491] [cursor=pointer]:
+                          - img [ref=e492] [cursor=pointer]
+                          - generic [ref=e494] [cursor=pointer]: Add to favorites
+                      - list [ref=e496]:
+                        - listitem [ref=e497]:
+                          - button "Popular choice" [ref=e500] [cursor=pointer]:
+                            - generic [ref=e501] [cursor=pointer]: Popular choice
+                    - generic [ref=e502]:
+                      - generic [ref=e503]:
+                        - heading "Sterling Mussoorie" [level=2] [ref=e505]:
+                          - button "Sterling Mussoorie" [ref=e506] [cursor=pointer]
+                        - button "Resort" [ref=e509] [cursor=pointer]:
+                          - generic [ref=e510] [cursor=pointer]:
+                            - generic [ref=e511] [cursor=pointer]:
+                              - generic [ref=e512] [cursor=pointer]:
+                                - img
+                              - generic [ref=e513] [cursor=pointer]:
+                                - img
+                              - generic [ref=e514] [cursor=pointer]:
+                                - img
+                              - generic [ref=e515] [cursor=pointer]:
+                                - img
+                            - generic [ref=e516] [cursor=pointer]: Resort
+                        - button "Breathtaking Valley Views, Rejuvenating spa and steam room" [ref=e517] [cursor=pointer]:
+                          - generic [ref=e519] [cursor=pointer]:
+                            - generic [ref=e520] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e521] [cursor=pointer]: Breathtaking Valley Views, Rejuvenating spa and steam room
+                        - button "Mussoorie, 2.2 km to Zone Connect by The Park Mussoorie" [ref=e523] [cursor=pointer]:
+                          - generic [ref=e524] [cursor=pointer]:
+                            - generic [ref=e525] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 2.2 km to Zone Connect by The Park Mussoorie
+                        - button "8.7 Excellent (10822 ratings)" [ref=e526] [cursor=pointer]:
+                          - generic [ref=e528] [cursor=pointer]:
+                            - generic [ref=e529] [cursor=pointer]: "8.7"
+                            - generic [ref=e530] [cursor=pointer]:
+                              - strong [ref=e531] [cursor=pointer]: Excellent
+                              - generic [ref=e532] [cursor=pointer]: (10822 ratings)
+                      - generic [ref=e533]:
+                        - button "Our lowest price Prestigia Free cancellationbefore 9 Oct Breakfast included ₹9,673 6 nights for ₹58,037 View Deal" [ref=e534] [cursor=pointer]:
+                          - generic [ref=e535] [cursor=pointer]:
+                            - generic [ref=e539] [cursor=pointer]: Our lowest price
+                            - generic [ref=e540] [cursor=pointer]:
+                              - list [ref=e545] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e546] [cursor=pointer]:
+                                  - button "Free cancellationbefore 9 Oct" [ref=e547] [cursor=pointer]:
+                                    - generic [ref=e548] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e549] [cursor=pointer]:
+                                      - generic [ref=e550] [cursor=pointer]: Free cancellation
+                                      - generic [ref=e551] [cursor=pointer]: before 9 Oct
+                                - listitem "Breakfast included" [ref=e552] [cursor=pointer]:
+                                  - button "Breakfast included" [ref=e553] [cursor=pointer]:
+                                    - generic [ref=e554] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e556] [cursor=pointer]: Breakfast included
+                              - generic [ref=e557] [cursor=pointer]:
+                                - generic [ref=e558] [cursor=pointer]:
+                                  - generic [ref=e562] [cursor=pointer]: ₹9,673
+                                  - paragraph [ref=e563] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e564] [cursor=pointer]: ₹58,037
+                                - button "View Deal" [ref=e565] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e566] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e567] [cursor=pointer]:
+                          - generic [ref=e570] [cursor=pointer]: ₹10,068
+                          - generic [ref=e575] [cursor=pointer]: ₹10,068
+                          - generic [ref=e578] [cursor=pointer]:
+                            - img
+                - listitem [ref=e579]:
+                  - article [ref=e581]:
+                    - generic [ref=e583]:
+                      - button "Hotel Rock Stone, (Mussoorie, India) 1 / 7" [ref=e584] [cursor=pointer]:
+                        - img "Hotel Rock Stone, (Mussoorie, India)" [ref=e585] [cursor=pointer]
+                        - generic [ref=e586] [cursor=pointer]: 1 / 7
+                      - button "Add to favorites" [ref=e591] [cursor=pointer]:
+                        - img [ref=e592] [cursor=pointer]
+                        - generic [ref=e594] [cursor=pointer]: Add to favorites
+                    - generic [ref=e595]:
+                      - generic [ref=e596]:
+                        - heading "Hotel Rock Stone" [level=2] [ref=e598]:
+                          - button "Hotel Rock Stone" [ref=e599] [cursor=pointer]
+                        - button "Hotel" [ref=e602] [cursor=pointer]:
+                          - generic [ref=e603] [cursor=pointer]:
+                            - generic [ref=e604] [cursor=pointer]:
+                              - generic [ref=e605] [cursor=pointer]:
+                                - img
+                              - generic [ref=e606] [cursor=pointer]:
+                                - img
+                            - generic [ref=e607] [cursor=pointer]: Hotel
+                        - button "Airport Transportation Assistance, Fresh Garments with Laundry Service" [ref=e608] [cursor=pointer]:
+                          - generic [ref=e610] [cursor=pointer]:
+                            - generic [ref=e611] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e612] [cursor=pointer]: Airport Transportation Assistance, Fresh Garments with Laundry Service
+                        - button "Mussoorie, 0.1 km to Zone Connect by The Park Mussoorie" [ref=e614] [cursor=pointer]:
+                          - generic [ref=e615] [cursor=pointer]:
+                            - generic [ref=e616] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.1 km to Zone Connect by The Park Mussoorie
+                        - button "7.4 (404 ratings)" [ref=e617] [cursor=pointer]:
+                          - generic [ref=e619] [cursor=pointer]:
+                            - generic [ref=e620] [cursor=pointer]: "7.4"
+                            - generic [ref=e622] [cursor=pointer]: (404 ratings)
+                      - generic [ref=e623]:
+                        - button "35% lower than popular sites Our lowest price MakeMyTrip Free cancellation ₹1,052 6 nights for ₹6,313 View Deal" [ref=e624] [cursor=pointer]:
+                          - generic [ref=e625] [cursor=pointer]:
+                            - generic [ref=e626] [cursor=pointer]:
+                              - button "35% lower than popular sites" [ref=e627] [cursor=pointer]:
+                                - generic [ref=e632] [cursor=pointer]: 35% lower than popular sites
+                              - generic [ref=e635] [cursor=pointer]: Our lowest price
+                            - generic [ref=e636] [cursor=pointer]:
+                              - list [ref=e641] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e642] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e643] [cursor=pointer]:
+                                    - generic [ref=e644] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e646] [cursor=pointer]: Free cancellation
+                              - generic [ref=e647] [cursor=pointer]:
+                                - generic [ref=e648] [cursor=pointer]:
+                                  - generic [ref=e652] [cursor=pointer]: ₹1,052
+                                  - paragraph [ref=e653] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e654] [cursor=pointer]: ₹6,313
+                                - button "View Deal" [ref=e655] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e656] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e657] [cursor=pointer]:
+                          - generic [ref=e660] [cursor=pointer]: ₹1,624
+                          - generic [ref=e665] [cursor=pointer]: ₹2,170
+                          - generic [ref=e668] [cursor=pointer]:
+                            - img
+                - listitem [ref=e669]:
+                  - article [ref=e671]:
+                    - generic [ref=e673]:
+                      - button "Fortune Resort Grace, Mussoorie - Member ITC's Hotel Group, (Mussoorie, India) 1 / 52" [ref=e674] [cursor=pointer]:
+                        - img "Fortune Resort Grace, Mussoorie - Member ITC's Hotel Group, (Mussoorie, India)" [ref=e675] [cursor=pointer]
+                        - generic [ref=e676] [cursor=pointer]: 1 / 52
+                      - button "Add to favorites" [ref=e681] [cursor=pointer]:
+                        - img [ref=e682] [cursor=pointer]
+                        - generic [ref=e684] [cursor=pointer]: Add to favorites
+                    - generic [ref=e685]:
+                      - generic [ref=e686]:
+                        - heading "Fortune Resort Grace, Mussoorie - Member ITC's Hotel Group" [level=2] [ref=e688]:
+                          - button "Fortune Resort Grace, Mussoorie - Member ITC's Hotel Group" [ref=e689] [cursor=pointer]
+                        - button "Resort" [ref=e692] [cursor=pointer]:
+                          - generic [ref=e693] [cursor=pointer]:
+                            - generic [ref=e694] [cursor=pointer]:
+                              - generic [ref=e695] [cursor=pointer]:
+                                - img
+                              - generic [ref=e696] [cursor=pointer]:
+                                - img
+                              - generic [ref=e697] [cursor=pointer]:
+                                - img
+                              - generic [ref=e698] [cursor=pointer]:
+                                - img
+                            - generic [ref=e699] [cursor=pointer]: Resort
+                        - button "Rooms with Breathtaking Mountain Views, Spa Services for Relaxation" [ref=e700] [cursor=pointer]:
+                          - generic [ref=e702] [cursor=pointer]:
+                            - generic [ref=e703] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e704] [cursor=pointer]: Rooms with Breathtaking Mountain Views, Spa Services for Relaxation
+                        - button "Mussoorie, 1.4 km to Zone Connect by The Park Mussoorie" [ref=e706] [cursor=pointer]:
+                          - generic [ref=e707] [cursor=pointer]:
+                            - generic [ref=e708] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.4 km to Zone Connect by The Park Mussoorie
+                        - button "8.6 Excellent (9003 ratings)" [ref=e709] [cursor=pointer]:
+                          - generic [ref=e711] [cursor=pointer]:
+                            - generic [ref=e712] [cursor=pointer]: "8.6"
+                            - generic [ref=e713] [cursor=pointer]:
+                              - strong [ref=e714] [cursor=pointer]: Excellent
+                              - generic [ref=e715] [cursor=pointer]: (9003 ratings)
+                      - generic [ref=e716]:
+                        - button "Our lowest price MakeMyTrip Free cancellation Breakfast included ₹11,150 6 nights for ₹66,900 View Deal" [ref=e717] [cursor=pointer]:
+                          - generic [ref=e718] [cursor=pointer]:
+                            - generic [ref=e722] [cursor=pointer]: Our lowest price
+                            - generic [ref=e723] [cursor=pointer]:
+                              - list [ref=e728] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e729] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e730] [cursor=pointer]:
+                                    - generic [ref=e731] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e733] [cursor=pointer]: Free cancellation
+                                - listitem "Breakfast included" [ref=e734] [cursor=pointer]:
+                                  - button "Breakfast included" [ref=e735] [cursor=pointer]:
+                                    - generic [ref=e736] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e738] [cursor=pointer]: Breakfast included
+                              - generic [ref=e739] [cursor=pointer]:
+                                - generic [ref=e740] [cursor=pointer]:
+                                  - generic [ref=e744] [cursor=pointer]: ₹11,150
+                                  - paragraph [ref=e745] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e746] [cursor=pointer]: ₹66,900
+                                - button "View Deal" [ref=e747] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e748] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e749] [cursor=pointer]:
+                          - generic [ref=e752] [cursor=pointer]: ₹11,769
+                          - generic [ref=e757] [cursor=pointer]: ₹14,848
+                          - generic [ref=e760] [cursor=pointer]:
+                            - img
+                - listitem [ref=e761]:
+                  - article [ref=e763]:
+                    - generic [ref=e764]:
+                      - generic [ref=e765]:
+                        - button "Hotel Vishnu Palace, (Mussoorie, India) 1 / 67" [ref=e766] [cursor=pointer]:
+                          - img "Hotel Vishnu Palace, (Mussoorie, India)" [ref=e767] [cursor=pointer]
+                          - generic [ref=e768] [cursor=pointer]: 1 / 67
+                        - button "Add to favorites" [ref=e773] [cursor=pointer]:
+                          - img [ref=e774] [cursor=pointer]
+                          - generic [ref=e776] [cursor=pointer]: Add to favorites
+                      - list [ref=e778]:
+                        - listitem [ref=e779]:
+                          - button "Popular choice" [ref=e782] [cursor=pointer]:
+                            - generic [ref=e783] [cursor=pointer]: Popular choice
+                    - generic [ref=e784]:
+                      - generic [ref=e785]:
+                        - heading "Hotel Vishnu Palace" [level=2] [ref=e787]:
+                          - button "Hotel Vishnu Palace" [ref=e788] [cursor=pointer]
+                        - button "Hotel" [ref=e791] [cursor=pointer]:
+                          - generic [ref=e792] [cursor=pointer]:
+                            - generic [ref=e793] [cursor=pointer]:
+                              - generic [ref=e794] [cursor=pointer]:
+                                - img
+                              - generic [ref=e795] [cursor=pointer]:
+                                - img
+                              - generic [ref=e796] [cursor=pointer]:
+                                - img
+                            - generic [ref=e797] [cursor=pointer]: Hotel
+                        - button "Himalayan Mountain Backdrop, Informal On-Site Restaurant" [ref=e798] [cursor=pointer]:
+                          - generic [ref=e800] [cursor=pointer]:
+                            - generic [ref=e801] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e802] [cursor=pointer]: Himalayan Mountain Backdrop, Informal On-Site Restaurant
+                        - button "Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie" [ref=e804] [cursor=pointer]:
+                          - generic [ref=e805] [cursor=pointer]:
+                            - generic [ref=e806] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie
+                        - button "8.7 Excellent (7481 ratings)" [ref=e807] [cursor=pointer]:
+                          - generic [ref=e809] [cursor=pointer]:
+                            - generic [ref=e810] [cursor=pointer]: "8.7"
+                            - generic [ref=e811] [cursor=pointer]:
+                              - strong [ref=e812] [cursor=pointer]: Excellent
+                              - generic [ref=e813] [cursor=pointer]: (7481 ratings)
+                      - generic [ref=e814]:
+                        - button "Booking.com Free cancellationbefore 16 Oct Breakfast included ₹5,906 6 nights for ₹35,437 View Deal" [ref=e815] [cursor=pointer]:
+                          - generic [ref=e817] [cursor=pointer]:
+                            - list [ref=e822] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e823] [cursor=pointer]:
+                                - button "Free cancellationbefore 16 Oct" [ref=e824] [cursor=pointer]:
+                                  - generic [ref=e825] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e826] [cursor=pointer]:
+                                    - generic [ref=e827] [cursor=pointer]: Free cancellation
+                                    - generic [ref=e828] [cursor=pointer]: before 16 Oct
+                              - listitem "Breakfast included" [ref=e829] [cursor=pointer]:
+                                - button "Breakfast included" [ref=e830] [cursor=pointer]:
+                                  - generic [ref=e831] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e833] [cursor=pointer]: Breakfast included
+                            - generic [ref=e834] [cursor=pointer]:
+                              - generic [ref=e835] [cursor=pointer]:
+                                - generic [ref=e839] [cursor=pointer]: ₹5,906
+                                - paragraph [ref=e840] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e841] [cursor=pointer]: ₹35,437
+                              - button "View Deal" [ref=e842] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e843] [cursor=pointer]:
+                                  - img
+                        - button "Show all prices" [ref=e844] [cursor=pointer]:
+                          - generic [ref=e847] [cursor=pointer]: ₹4,908
+                          - generic [ref=e852] [cursor=pointer]: ₹6,328
+                          - generic [ref=e855] [cursor=pointer]:
+                            - img
+                - listitem [ref=e856]:
+                  - article [ref=e858]:
+                    - generic [ref=e860]:
+                      - button "Lemon Tree Resort, Mussoorie, (Mussoorie, India)" [ref=e861] [cursor=pointer]:
+                        - img "Lemon Tree Resort, Mussoorie, (Mussoorie, India)" [ref=e862] [cursor=pointer]
+                      - button "Add to favorites" [ref=e867] [cursor=pointer]:
+                        - img [ref=e868] [cursor=pointer]
+                        - generic [ref=e870] [cursor=pointer]: Add to favorites
+                    - generic [ref=e871]:
+                      - generic [ref=e872]:
+                        - heading "Lemon Tree Resort, Mussoorie" [level=2] [ref=e874]:
+                          - button "Lemon Tree Resort, Mussoorie" [ref=e875] [cursor=pointer]
+                        - button "Hotel" [ref=e878] [cursor=pointer]:
+                          - generic [ref=e879] [cursor=pointer]:
+                            - generic [ref=e880] [cursor=pointer]:
+                              - generic [ref=e881] [cursor=pointer]:
+                                - img
+                              - generic [ref=e882] [cursor=pointer]:
+                                - img
+                              - generic [ref=e883] [cursor=pointer]:
+                                - img
+                            - generic [ref=e884] [cursor=pointer]: Hotel
+                        - button "Scenic Valley Views from Rooms, Delicious Food and Varied Menu" [ref=e885] [cursor=pointer]:
+                          - generic [ref=e887] [cursor=pointer]:
+                            - generic [ref=e888] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e889] [cursor=pointer]: Scenic Valley Views from Rooms, Delicious Food and Varied Menu
+                        - button "Mussoorie, 1.2 km to Zone Connect by The Park Mussoorie" [ref=e891] [cursor=pointer]:
+                          - generic [ref=e892] [cursor=pointer]:
+                            - generic [ref=e893] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.2 km to Zone Connect by The Park Mussoorie
+                        - button "9.0 Excellent (372 ratings)" [ref=e894] [cursor=pointer]:
+                          - generic [ref=e896] [cursor=pointer]:
+                            - generic [ref=e897] [cursor=pointer]: "9.0"
+                            - generic [ref=e898] [cursor=pointer]:
+                              - strong [ref=e899] [cursor=pointer]: Excellent
+                              - generic [ref=e900] [cursor=pointer]: (372 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹5,813 6 nights for ₹34,876 View Deal" [ref=e902] [cursor=pointer]:
+                        - generic [ref=e903] [cursor=pointer]:
+                          - generic [ref=e907] [cursor=pointer]: Our lowest price
+                          - generic [ref=e908] [cursor=pointer]:
+                            - list [ref=e913] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e914] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e915] [cursor=pointer]:
+                                  - generic [ref=e916] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e918] [cursor=pointer]: Free cancellation
+                            - generic [ref=e919] [cursor=pointer]:
+                              - generic [ref=e920] [cursor=pointer]:
+                                - generic [ref=e924] [cursor=pointer]: ₹5,813
+                                - paragraph [ref=e925] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e926] [cursor=pointer]: ₹34,876
+                              - button "View Deal" [ref=e927] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e928] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e929]:
+                  - button "54% less than similar stays" [ref=e931] [cursor=pointer]:
+                    - generic [ref=e934] [cursor=pointer]:
+                      - generic [ref=e935] [cursor=pointer]:
+                        - img
+                      - text: 54% less than similar stays
+                  - article [ref=e937]:
+                    - generic [ref=e939]:
+                      - button "The Himalaya Retreat Resort, (Mussoorie, India) 1 / 65" [ref=e940] [cursor=pointer]:
+                        - img "The Himalaya Retreat Resort, (Mussoorie, India)" [ref=e941] [cursor=pointer]
+                        - generic [ref=e942] [cursor=pointer]: 1 / 65
+                      - button "Add to favorites" [ref=e947] [cursor=pointer]:
+                        - img [ref=e948] [cursor=pointer]
+                        - generic [ref=e950] [cursor=pointer]: Add to favorites
+                    - generic [ref=e951]:
+                      - generic [ref=e952]:
+                        - heading "The Himalaya Retreat Resort" [level=2] [ref=e954]:
+                          - button "The Himalaya Retreat Resort" [ref=e955] [cursor=pointer]
+                        - button "Hotel" [ref=e958] [cursor=pointer]:
+                          - generic [ref=e959] [cursor=pointer]:
+                            - generic [ref=e960] [cursor=pointer]:
+                              - generic [ref=e961] [cursor=pointer]:
+                                - img
+                              - generic [ref=e962] [cursor=pointer]:
+                                - img
+                              - generic [ref=e963] [cursor=pointer]:
+                                - img
+                            - generic [ref=e964] [cursor=pointer]: Hotel
+                        - button "On-site Restaurant, Terrace with Mountain Views" [ref=e965] [cursor=pointer]:
+                          - generic [ref=e967] [cursor=pointer]:
+                            - generic [ref=e968] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e969] [cursor=pointer]: On-site Restaurant, Terrace with Mountain Views
+                        - button "Mussoorie, 4.7 km to Zone Connect by The Park Mussoorie" [ref=e971] [cursor=pointer]:
+                          - generic [ref=e972] [cursor=pointer]:
+                            - generic [ref=e973] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 4.7 km to Zone Connect by The Park Mussoorie
+                        - button "9.0 Excellent (60 ratings)" [ref=e974] [cursor=pointer]:
+                          - generic [ref=e976] [cursor=pointer]:
+                            - generic [ref=e977] [cursor=pointer]: "9.0"
+                            - generic [ref=e978] [cursor=pointer]:
+                              - strong [ref=e979] [cursor=pointer]: Excellent
+                              - generic [ref=e980] [cursor=pointer]: (60 ratings)
+                      - button "Our lowest price Booking.com Free cancellationbefore 20 Oct Pay at the property ₹1,773 6 nights for ₹10,640 View Deal" [ref=e982] [cursor=pointer]:
+                        - generic [ref=e983] [cursor=pointer]:
+                          - generic [ref=e987] [cursor=pointer]: Our lowest price
+                          - generic [ref=e988] [cursor=pointer]:
+                            - list [ref=e993] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e994] [cursor=pointer]:
+                                - button "Free cancellationbefore 20 Oct" [ref=e995] [cursor=pointer]:
+                                  - generic [ref=e996] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e997] [cursor=pointer]:
+                                    - generic [ref=e998] [cursor=pointer]: Free cancellation
+                                    - generic [ref=e999] [cursor=pointer]: before 20 Oct
+                              - listitem "Pay at the property" [ref=e1000] [cursor=pointer]:
+                                - button "Pay at the property" [ref=e1001] [cursor=pointer]:
+                                  - generic [ref=e1002] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1004] [cursor=pointer]: Pay at the property
+                            - generic [ref=e1005] [cursor=pointer]:
+                              - generic [ref=e1006] [cursor=pointer]:
+                                - generic [ref=e1010] [cursor=pointer]: ₹1,773
+                                - paragraph [ref=e1011] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1012] [cursor=pointer]: ₹10,640
+                              - button "View Deal" [ref=e1013] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1014] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e1015]:
+                  - article [ref=e1017]:
+                    - generic [ref=e1019]:
+                      - button "Natraj Palace, (Mussoorie, India) 1 / 11" [ref=e1020] [cursor=pointer]:
+                        - img "Natraj Palace, (Mussoorie, India)" [ref=e1021] [cursor=pointer]
+                        - generic [ref=e1022] [cursor=pointer]: 1 / 11
+                      - button "Add to favorites" [ref=e1027] [cursor=pointer]:
+                        - img [ref=e1028] [cursor=pointer]
+                        - generic [ref=e1030] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1031]:
+                      - generic [ref=e1032]:
+                        - heading "Natraj Palace" [level=2] [ref=e1034]:
+                          - button "Natraj Palace" [ref=e1035] [cursor=pointer]
+                        - button "Hotel" [ref=e1038]
+                        - button "Walking distance to Mall Road, Dedicated Room Service" [ref=e1039] [cursor=pointer]:
+                          - generic [ref=e1041] [cursor=pointer]:
+                            - generic [ref=e1042] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1043] [cursor=pointer]: Walking distance to Mall Road, Dedicated Room Service
+                        - button "Mussoorie, 0.4 km to Zone Connect by The Park Mussoorie" [ref=e1045] [cursor=pointer]:
+                          - generic [ref=e1046] [cursor=pointer]:
+                            - generic [ref=e1047] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.4 km to Zone Connect by The Park Mussoorie
+                        - button "6.7 (715 ratings)" [ref=e1048] [cursor=pointer]:
+                          - generic [ref=e1050] [cursor=pointer]:
+                            - generic [ref=e1051] [cursor=pointer]: "6.7"
+                            - generic [ref=e1053] [cursor=pointer]: (715 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹552 6 nights for ₹3,313 View Deal" [ref=e1055] [cursor=pointer]:
+                        - generic [ref=e1056] [cursor=pointer]:
+                          - generic [ref=e1060] [cursor=pointer]: Our lowest price
+                          - generic [ref=e1061] [cursor=pointer]:
+                            - list [ref=e1066] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e1067] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e1068] [cursor=pointer]:
+                                  - generic [ref=e1069] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1071] [cursor=pointer]: Free cancellation
+                            - generic [ref=e1072] [cursor=pointer]:
+                              - generic [ref=e1073] [cursor=pointer]:
+                                - generic [ref=e1077] [cursor=pointer]: ₹552
+                                - paragraph [ref=e1078] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1079] [cursor=pointer]: ₹3,313
+                              - button "View Deal" [ref=e1080] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1081] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e1082]:
+                  - article [ref=e1084]:
+                    - generic [ref=e1085]:
+                      - generic [ref=e1086]:
+                        - button "Hotel Wild Wood, (Mussoorie, India) 1 / 30" [ref=e1087] [cursor=pointer]:
+                          - img "Hotel Wild Wood, (Mussoorie, India)" [ref=e1088] [cursor=pointer]
+                          - generic [ref=e1089] [cursor=pointer]: 1 / 30
+                        - button "Add to favorites" [ref=e1094] [cursor=pointer]:
+                          - img [ref=e1095] [cursor=pointer]
+                          - generic [ref=e1097] [cursor=pointer]: Add to favorites
+                      - list [ref=e1099]:
+                        - listitem [ref=e1100]:
+                          - button "Popular choice" [ref=e1103] [cursor=pointer]:
+                            - generic [ref=e1104] [cursor=pointer]: Popular choice
+                    - generic [ref=e1105]:
+                      - generic [ref=e1106]:
+                        - heading "Hotel Wild Wood" [level=2] [ref=e1108]:
+                          - button "Hotel Wild Wood" [ref=e1109] [cursor=pointer]
+                        - button "Hotel" [ref=e1112] [cursor=pointer]:
+                          - generic [ref=e1113] [cursor=pointer]:
+                            - generic [ref=e1114] [cursor=pointer]:
+                              - generic [ref=e1115] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1116] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1117] [cursor=pointer]: Hotel
+                        - button "Doon Valley Panoramic Views, On-Site Restaurant with Room Service" [ref=e1118] [cursor=pointer]:
+                          - generic [ref=e1120] [cursor=pointer]:
+                            - generic [ref=e1121] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1122] [cursor=pointer]: Doon Valley Panoramic Views, On-Site Restaurant with Room Service
+                        - button "Mussoorie, 0.2 km to Zone Connect by The Park Mussoorie" [ref=e1124] [cursor=pointer]:
+                          - generic [ref=e1125] [cursor=pointer]:
+                            - generic [ref=e1126] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.2 km to Zone Connect by The Park Mussoorie
+                        - button "7.9 Good (1123 ratings)" [ref=e1127] [cursor=pointer]:
+                          - generic [ref=e1129] [cursor=pointer]:
+                            - generic [ref=e1130] [cursor=pointer]: "7.9"
+                            - generic [ref=e1131] [cursor=pointer]:
+                              - strong [ref=e1132] [cursor=pointer]: Good
+                              - generic [ref=e1133] [cursor=pointer]: (1123 ratings)
+                      - generic [ref=e1134]:
+                        - button "Our lowest price MakeMyTrip Free cancellation ₹2,079 6 nights for ₹12,472 View Deal" [ref=e1135] [cursor=pointer]:
+                          - generic [ref=e1136] [cursor=pointer]:
+                            - generic [ref=e1140] [cursor=pointer]: Our lowest price
+                            - generic [ref=e1141] [cursor=pointer]:
+                              - list [ref=e1146] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e1147] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e1148] [cursor=pointer]:
+                                    - generic [ref=e1149] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1151] [cursor=pointer]: Free cancellation
+                              - generic [ref=e1152] [cursor=pointer]:
+                                - generic [ref=e1153] [cursor=pointer]:
+                                  - generic [ref=e1157] [cursor=pointer]: ₹2,079
+                                  - paragraph [ref=e1158] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e1159] [cursor=pointer]: ₹12,472
+                                - button "View Deal" [ref=e1160] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e1161] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e1162] [cursor=pointer]:
+                          - generic [ref=e1165] [cursor=pointer]: ₹2,511
+                          - generic [ref=e1170] [cursor=pointer]: ₹2,652
+                          - generic [ref=e1173] [cursor=pointer]:
+                            - img
+                - article [ref=e1174]:
+                  - generic [ref=e1175]:
+                    - generic [ref=e1177]:
+                      - img
+                    - heading "Haven’t found a good match yet?" [level=4] [ref=e1178]
+                    - heading "Add filters to narrow down your search" [level=5] [ref=e1179]
+                  - generic [ref=e1181]:
+                    - button "previous" [disabled]:
+                      - generic:
+                        - img
+                    - generic [ref=e1184]:
+                      - button "Breakfast included" [ref=e1185] [cursor=pointer]:
+                        - generic [ref=e1186] [cursor=pointer]:
+                          - generic [ref=e1187] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1188] [cursor=pointer]: Breakfast included
+                      - button "Parking" [ref=e1189] [cursor=pointer]:
+                        - generic [ref=e1190] [cursor=pointer]:
+                          - generic [ref=e1191] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1192] [cursor=pointer]: Parking
+                      - button "Free cancellation" [ref=e1193] [cursor=pointer]:
+                        - generic [ref=e1194] [cursor=pointer]:
+                          - generic [ref=e1195] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1196] [cursor=pointer]: Free cancellation
+                      - button "Resort" [ref=e1197] [cursor=pointer]:
+                        - generic [ref=e1199] [cursor=pointer]: Resort
+                      - button "Hotel" [ref=e1200] [cursor=pointer]:
+                        - generic [ref=e1201] [cursor=pointer]:
+                          - generic [ref=e1202] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1203] [cursor=pointer]: Hotel
+                      - button "Pool" [ref=e1204] [cursor=pointer]:
+                        - generic [ref=e1205] [cursor=pointer]:
+                          - generic [ref=e1206] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1207] [cursor=pointer]: Pool
+                      - button "Balcony" [ref=e1208] [cursor=pointer]:
+                        - generic [ref=e1209] [cursor=pointer]:
+                          - generic [ref=e1210] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1211] [cursor=pointer]: Balcony
+                      - button "Serviced apartment" [ref=e1212] [cursor=pointer]:
+                        - generic [ref=e1213] [cursor=pointer]:
+                          - generic [ref=e1214] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1215] [cursor=pointer]: Serviced apartment
+                      - button "Free WiFi" [ref=e1216] [cursor=pointer]:
+                        - generic [ref=e1217] [cursor=pointer]:
+                          - generic [ref=e1218] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1219] [cursor=pointer]: Free WiFi
+                      - button "Pet friendly" [ref=e1220] [cursor=pointer]:
+                        - generic [ref=e1221] [cursor=pointer]:
+                          - generic [ref=e1222] [cursor=pointer]:
+                            - img
+                          - generic [ref=e1223] [cursor=pointer]: Pet friendly
+                    - button "next" [ref=e1224] [cursor=pointer]:
+                      - generic [ref=e1225] [cursor=pointer]:
+                        - img
+                - listitem [ref=e1226]:
+                  - article [ref=e1228]:
+                    - generic [ref=e1230]:
+                      - button "Hotel Himalayan Club, (Mussoorie, India) 1 / 3" [ref=e1231] [cursor=pointer]:
+                        - img "Hotel Himalayan Club, (Mussoorie, India)" [ref=e1232] [cursor=pointer]
+                        - generic [ref=e1233] [cursor=pointer]: 1 / 3
+                      - button "Add to favorites" [ref=e1238] [cursor=pointer]:
+                        - img [ref=e1239] [cursor=pointer]
+                        - generic [ref=e1241] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1242]:
+                      - generic [ref=e1243]:
+                        - heading "Hotel Himalayan Club" [level=2] [ref=e1245]:
+                          - button "Hotel Himalayan Club" [ref=e1246] [cursor=pointer]
+                        - button "Hotel" [ref=e1249] [cursor=pointer]:
+                          - generic [ref=e1250] [cursor=pointer]:
+                            - generic [ref=e1251] [cursor=pointer]:
+                              - generic [ref=e1252] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1253] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1254] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1255] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 0.7 km to Zone Connect by The Park Mussoorie" [ref=e1257] [cursor=pointer]:
+                          - generic [ref=e1258] [cursor=pointer]:
+                            - generic [ref=e1259] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.7 km to Zone Connect by The Park Mussoorie
+                        - button "8.1 Very good (2563 ratings)" [ref=e1260] [cursor=pointer]:
+                          - generic [ref=e1262] [cursor=pointer]:
+                            - generic [ref=e1263] [cursor=pointer]: "8.1"
+                            - generic [ref=e1264] [cursor=pointer]:
+                              - strong [ref=e1265] [cursor=pointer]: Very good
+                              - generic [ref=e1266] [cursor=pointer]: (2563 ratings)
+                      - generic [ref=e1267]:
+                        - button "Our lowest price MakeMyTrip Free cancellation ₹1,353 6 nights for ₹8,116 View Deal" [ref=e1268] [cursor=pointer]:
+                          - generic [ref=e1269] [cursor=pointer]:
+                            - generic [ref=e1273] [cursor=pointer]: Our lowest price
+                            - generic [ref=e1274] [cursor=pointer]:
+                              - list [ref=e1279] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e1280] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e1281] [cursor=pointer]:
+                                    - generic [ref=e1282] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1284] [cursor=pointer]: Free cancellation
+                              - generic [ref=e1285] [cursor=pointer]:
+                                - generic [ref=e1286] [cursor=pointer]:
+                                  - generic [ref=e1290] [cursor=pointer]: ₹1,353
+                                  - paragraph [ref=e1291] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e1292] [cursor=pointer]: ₹8,116
+                                - button "View Deal" [ref=e1293] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e1294] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e1295] [cursor=pointer]:
+                          - generic [ref=e1298] [cursor=pointer]: ₹1,646
+                          - generic [ref=e1301] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1302]:
+                  - article [ref=e1304]:
+                    - generic [ref=e1306]:
+                      - button "Ilbert Manor, (Mussoorie, India) 1 / 55" [ref=e1307] [cursor=pointer]:
+                        - img "Ilbert Manor, (Mussoorie, India)" [ref=e1308] [cursor=pointer]
+                        - generic [ref=e1309] [cursor=pointer]: 1 / 55
+                      - button "Add to favorites" [ref=e1314] [cursor=pointer]:
+                        - img [ref=e1315] [cursor=pointer]
+                        - generic [ref=e1317] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1318]:
+                      - generic [ref=e1319]:
+                        - heading "Ilbert Manor" [level=2] [ref=e1321]:
+                          - button "Ilbert Manor" [ref=e1322] [cursor=pointer]
+                        - button "Hotel" [ref=e1325] [cursor=pointer]:
+                          - generic [ref=e1326] [cursor=pointer]:
+                            - generic [ref=e1327] [cursor=pointer]:
+                              - generic [ref=e1328] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1329] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1330] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1331] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1332] [cursor=pointer]: Hotel
+                        - button "Breathtaking Himalayan Mountain Views, Relaxing Massage and Spa Services" [ref=e1333] [cursor=pointer]:
+                          - generic [ref=e1335] [cursor=pointer]:
+                            - generic [ref=e1336] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1337] [cursor=pointer]: Breathtaking Himalayan Mountain Views, Relaxing Massage and Spa Services
+                        - button "Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie" [ref=e1339] [cursor=pointer]:
+                          - generic [ref=e1340] [cursor=pointer]:
+                            - generic [ref=e1341] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie
+                        - button "8.2 Very good (117 ratings)" [ref=e1342] [cursor=pointer]:
+                          - generic [ref=e1344] [cursor=pointer]:
+                            - generic [ref=e1345] [cursor=pointer]: "8.2"
+                            - generic [ref=e1346] [cursor=pointer]:
+                              - strong [ref=e1347] [cursor=pointer]: Very good
+                              - generic [ref=e1348] [cursor=pointer]: (117 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹4,150 6 nights for ₹24,899 View Deal" [ref=e1350] [cursor=pointer]:
+                        - generic [ref=e1351] [cursor=pointer]:
+                          - generic [ref=e1355] [cursor=pointer]: Our lowest price
+                          - generic [ref=e1356] [cursor=pointer]:
+                            - list [ref=e1361] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e1362] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e1363] [cursor=pointer]:
+                                  - generic [ref=e1364] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1366] [cursor=pointer]: Free cancellation
+                            - generic [ref=e1367] [cursor=pointer]:
+                              - generic [ref=e1368] [cursor=pointer]:
+                                - generic [ref=e1372] [cursor=pointer]: ₹4,150
+                                - paragraph [ref=e1373] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1374] [cursor=pointer]: ₹24,899
+                              - button "View Deal" [ref=e1375] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1376] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e1377]:
+                  - article [ref=e1379]:
+                    - generic [ref=e1381]:
+                      - button "The Palm Aryan Mussoorie _ a Boutique Hotel, (Mussoorie, India) 1 / 23" [ref=e1382] [cursor=pointer]:
+                        - img "The Palm Aryan Mussoorie _ a Boutique Hotel, (Mussoorie, India)" [ref=e1383] [cursor=pointer]
+                        - generic [ref=e1384] [cursor=pointer]: 1 / 23
+                      - button "Add to favorites" [ref=e1389] [cursor=pointer]:
+                        - img [ref=e1390] [cursor=pointer]
+                        - generic [ref=e1392] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1393]:
+                      - generic [ref=e1394]:
+                        - heading "The Palm Aryan Mussoorie _ a Boutique Hotel" [level=2] [ref=e1396]:
+                          - button "The Palm Aryan Mussoorie _ a Boutique Hotel" [ref=e1397] [cursor=pointer]
+                        - button "Hotel" [ref=e1400]
+                        - button "Breathtaking Valley Vista Rooms, Delicious and Tasty Food Options" [ref=e1401] [cursor=pointer]:
+                          - generic [ref=e1403] [cursor=pointer]:
+                            - generic [ref=e1404] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1405] [cursor=pointer]: Breathtaking Valley Vista Rooms, Delicious and Tasty Food Options
+                        - button "Mussoorie, 0.5 km to Zone Connect by The Park Mussoorie" [ref=e1407] [cursor=pointer]:
+                          - generic [ref=e1408] [cursor=pointer]:
+                            - generic [ref=e1409] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.5 km to Zone Connect by The Park Mussoorie
+                        - button "8.6 Excellent (484 ratings)" [ref=e1410] [cursor=pointer]:
+                          - generic [ref=e1412] [cursor=pointer]:
+                            - generic [ref=e1413] [cursor=pointer]: "8.6"
+                            - generic [ref=e1414] [cursor=pointer]:
+                              - strong [ref=e1415] [cursor=pointer]: Excellent
+                              - generic [ref=e1416] [cursor=pointer]: (484 ratings)
+                      - generic [ref=e1417]:
+                        - button "MakeMyTrip Free cancellation ₹2,836 6 nights for ₹17,014 View Deal" [ref=e1418] [cursor=pointer]:
+                          - generic [ref=e1420] [cursor=pointer]:
+                            - list [ref=e1425] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e1426] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e1427] [cursor=pointer]:
+                                  - generic [ref=e1428] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1430] [cursor=pointer]: Free cancellation
+                            - generic [ref=e1431] [cursor=pointer]:
+                              - generic [ref=e1432] [cursor=pointer]:
+                                - generic [ref=e1436] [cursor=pointer]: ₹2,836
+                                - paragraph [ref=e1437] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1438] [cursor=pointer]: ₹17,014
+                              - button "View Deal" [ref=e1439] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1440] [cursor=pointer]:
+                                  - img
+                        - button "Show all prices" [ref=e1441] [cursor=pointer]:
+                          - generic [ref=e1444] [cursor=pointer]: ₹2,053
+                          - generic [ref=e1449] [cursor=pointer]: ₹5,718
+                          - generic [ref=e1452] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1453]:
+                  - article [ref=e1455]:
+                    - generic [ref=e1457]:
+                      - button "Bulaakh Resort, (Mussoorie, India) 1 / 25" [ref=e1458] [cursor=pointer]:
+                        - img "Bulaakh Resort, (Mussoorie, India)" [ref=e1459] [cursor=pointer]
+                        - generic [ref=e1460] [cursor=pointer]: 1 / 25
+                      - button "Add to favorites" [ref=e1465] [cursor=pointer]:
+                        - img [ref=e1466] [cursor=pointer]
+                        - generic [ref=e1468] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1469]:
+                      - generic [ref=e1470]:
+                        - heading "Bulaakh Resort" [level=2] [ref=e1472]:
+                          - button "Bulaakh Resort" [ref=e1473] [cursor=pointer]
+                        - button "Resort" [ref=e1476] [cursor=pointer]:
+                          - generic [ref=e1477] [cursor=pointer]:
+                            - generic [ref=e1478] [cursor=pointer]:
+                              - generic [ref=e1479] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1480] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1481] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1482] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1483] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1484] [cursor=pointer]: Resort
+                        - button "Breathtaking Views from Balconies, Delicious Food and Hygienic Kitchen" [ref=e1485] [cursor=pointer]:
+                          - generic [ref=e1487] [cursor=pointer]:
+                            - generic [ref=e1488] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1489] [cursor=pointer]: Breathtaking Views from Balconies, Delicious Food and Hygienic Kitchen
+                        - button "Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie" [ref=e1491] [cursor=pointer]:
+                          - generic [ref=e1492] [cursor=pointer]:
+                            - generic [ref=e1493] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie
+                        - button "8.5 Excellent (652 ratings)" [ref=e1494] [cursor=pointer]:
+                          - generic [ref=e1496] [cursor=pointer]:
+                            - generic [ref=e1497] [cursor=pointer]: "8.5"
+                            - generic [ref=e1498] [cursor=pointer]:
+                              - strong [ref=e1499] [cursor=pointer]: Excellent
+                              - generic [ref=e1500] [cursor=pointer]: (652 ratings)
+                      - generic [ref=e1501]:
+                        - button "32% lower than other sites Our lowest price MakeMyTrip Free cancellation Breakfast included ₹5,007 6 nights for ₹30,041 View Deal" [ref=e1502] [cursor=pointer]:
+                          - generic [ref=e1503] [cursor=pointer]:
+                            - generic [ref=e1504] [cursor=pointer]:
+                              - button "32% lower than other sites" [ref=e1505] [cursor=pointer]:
+                                - generic [ref=e1510] [cursor=pointer]: 32% lower than other sites
+                              - generic [ref=e1513] [cursor=pointer]: Our lowest price
+                            - generic [ref=e1514] [cursor=pointer]:
+                              - list [ref=e1519] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e1520] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e1521] [cursor=pointer]:
+                                    - generic [ref=e1522] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1524] [cursor=pointer]: Free cancellation
+                                - listitem "Breakfast included" [ref=e1525] [cursor=pointer]:
+                                  - button "Breakfast included" [ref=e1526] [cursor=pointer]:
+                                    - generic [ref=e1527] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1529] [cursor=pointer]: Breakfast included
+                              - generic [ref=e1530] [cursor=pointer]:
+                                - generic [ref=e1531] [cursor=pointer]:
+                                  - generic [ref=e1535] [cursor=pointer]: ₹5,007
+                                  - paragraph [ref=e1536] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e1537] [cursor=pointer]: ₹30,041
+                                - button "View Deal" [ref=e1538] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e1539] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e1540] [cursor=pointer]:
+                          - generic [ref=e1543] [cursor=pointer]: ₹7,337
+                          - generic [ref=e1546] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1547]:
+                  - article [ref=e1549]:
+                    - generic [ref=e1551]:
+                      - button "Vaydantaa Mussoorie, (Mussoorie, India) 1 / 58" [ref=e1552] [cursor=pointer]:
+                        - img "Vaydantaa Mussoorie, (Mussoorie, India)" [ref=e1553] [cursor=pointer]
+                        - generic [ref=e1554] [cursor=pointer]: 1 / 58
+                      - button "Add to favorites" [ref=e1559] [cursor=pointer]:
+                        - img [ref=e1560] [cursor=pointer]
+                        - generic [ref=e1562] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1563]:
+                      - generic [ref=e1564]:
+                        - heading "Vaydantaa Mussoorie" [level=2] [ref=e1566]:
+                          - button "Vaydantaa Mussoorie" [ref=e1567] [cursor=pointer]
+                        - button "Bed & Breakfast" [ref=e1570]
+                        - button "Mussoorie, 1.1 km to Zone Connect by The Park Mussoorie" [ref=e1572] [cursor=pointer]:
+                          - generic [ref=e1573] [cursor=pointer]:
+                            - generic [ref=e1574] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.1 km to Zone Connect by The Park Mussoorie
+                        - button "8.5 Excellent (50 ratings)" [ref=e1575] [cursor=pointer]:
+                          - generic [ref=e1577] [cursor=pointer]:
+                            - generic [ref=e1578] [cursor=pointer]: "8.5"
+                            - generic [ref=e1579] [cursor=pointer]:
+                              - strong [ref=e1580] [cursor=pointer]: Excellent
+                              - generic [ref=e1581] [cursor=pointer]: (50 ratings)
+                      - generic [ref=e1582]:
+                        - button "MakeMyTrip Free cancellation ₹4,600 6 nights for ₹27,597 View Deal" [ref=e1583] [cursor=pointer]:
+                          - generic [ref=e1585] [cursor=pointer]:
+                            - list [ref=e1590] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e1591] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e1592] [cursor=pointer]:
+                                  - generic [ref=e1593] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1595] [cursor=pointer]: Free cancellation
+                            - generic [ref=e1596] [cursor=pointer]:
+                              - generic [ref=e1597] [cursor=pointer]:
+                                - generic [ref=e1601] [cursor=pointer]: ₹4,600
+                                - paragraph [ref=e1602] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1603] [cursor=pointer]: ₹27,597
+                              - button "View Deal" [ref=e1604] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1605] [cursor=pointer]:
+                                  - img
+                        - button "Show all prices" [ref=e1606] [cursor=pointer]:
+                          - generic [ref=e1609] [cursor=pointer]: ₹3,948
+                          - generic [ref=e1614] [cursor=pointer]: ₹4,032
+                          - generic [ref=e1617] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1618]:
+                  - article [ref=e1620]:
+                    - generic [ref=e1622]:
+                      - button "Hotel Mussoorie Heights, (Mussoorie, India) 1 / 14" [ref=e1623] [cursor=pointer]:
+                        - img "Hotel Mussoorie Heights, (Mussoorie, India)" [ref=e1624] [cursor=pointer]
+                        - generic [ref=e1625] [cursor=pointer]: 1 / 14
+                      - button "Add to favorites" [ref=e1630] [cursor=pointer]:
+                        - img [ref=e1631] [cursor=pointer]
+                        - generic [ref=e1633] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1634]:
+                      - generic [ref=e1635]:
+                        - heading "Hotel Mussoorie Heights" [level=2] [ref=e1637]:
+                          - button "Hotel Mussoorie Heights" [ref=e1638] [cursor=pointer]
+                        - button "Hotel" [ref=e1641] [cursor=pointer]:
+                          - generic [ref=e1642] [cursor=pointer]:
+                            - generic [ref=e1643] [cursor=pointer]:
+                              - generic [ref=e1644] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1645] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1646] [cursor=pointer]: Hotel
+                        - button "Breathtaking Valley Vista Rooms, Scooter Rentals for Sightseeing" [ref=e1647] [cursor=pointer]:
+                          - generic [ref=e1649] [cursor=pointer]:
+                            - generic [ref=e1650] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1651] [cursor=pointer]: Breathtaking Valley Vista Rooms, Scooter Rentals for Sightseeing
+                        - button "Mussoorie, 0.4 km to Zone Connect by The Park Mussoorie" [ref=e1653] [cursor=pointer]:
+                          - generic [ref=e1654] [cursor=pointer]:
+                            - generic [ref=e1655] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.4 km to Zone Connect by The Park Mussoorie
+                        - button "8.3 Very good (268 ratings)" [ref=e1656] [cursor=pointer]:
+                          - generic [ref=e1658] [cursor=pointer]:
+                            - generic [ref=e1659] [cursor=pointer]: "8.3"
+                            - generic [ref=e1660] [cursor=pointer]:
+                              - strong [ref=e1661] [cursor=pointer]: Very good
+                              - generic [ref=e1662] [cursor=pointer]: (268 ratings)
+                      - generic [ref=e1663]:
+                        - button "MakeMyTrip Free cancellation ₹1,718 6 nights for ₹10,306 View Deal" [ref=e1664] [cursor=pointer]:
+                          - generic [ref=e1666] [cursor=pointer]:
+                            - list [ref=e1671] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e1672] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e1673] [cursor=pointer]:
+                                  - generic [ref=e1674] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1676] [cursor=pointer]: Free cancellation
+                            - generic [ref=e1677] [cursor=pointer]:
+                              - generic [ref=e1678] [cursor=pointer]:
+                                - generic [ref=e1682] [cursor=pointer]: ₹1,718
+                                - paragraph [ref=e1683] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1684] [cursor=pointer]: ₹10,306
+                              - button "View Deal" [ref=e1685] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1686] [cursor=pointer]:
+                                  - img
+                        - button "Show all prices" [ref=e1687] [cursor=pointer]:
+                          - generic [ref=e1690] [cursor=pointer]: ₹1,509
+                          - generic [ref=e1695] [cursor=pointer]: ₹2,091
+                          - generic [ref=e1698] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1699]:
+                  - article [ref=e1701]:
+                    - generic [ref=e1703]:
+                      - button "Hotel Naaz, (Mussoorie, India) 1 / 14" [ref=e1704] [cursor=pointer]:
+                        - img "Hotel Naaz, (Mussoorie, India)" [ref=e1705] [cursor=pointer]
+                        - generic [ref=e1706] [cursor=pointer]: 1 / 14
+                      - button "Add to favorites" [ref=e1711] [cursor=pointer]:
+                        - img [ref=e1712] [cursor=pointer]
+                        - generic [ref=e1714] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1715]:
+                      - generic [ref=e1716]:
+                        - heading "Hotel Naaz" [level=2] [ref=e1718]:
+                          - button "Hotel Naaz" [ref=e1719] [cursor=pointer]
+                        - button "Hotel" [ref=e1722] [cursor=pointer]:
+                          - generic [ref=e1723] [cursor=pointer]:
+                            - generic [ref=e1724] [cursor=pointer]:
+                              - generic [ref=e1725] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1726] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1727] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 0.2 km to Zone Connect by The Park Mussoorie" [ref=e1729] [cursor=pointer]:
+                          - generic [ref=e1730] [cursor=pointer]:
+                            - generic [ref=e1731] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.2 km to Zone Connect by The Park Mussoorie
+                        - button "7.6 Good (330 ratings)" [ref=e1732] [cursor=pointer]:
+                          - generic [ref=e1734] [cursor=pointer]:
+                            - generic [ref=e1735] [cursor=pointer]: "7.6"
+                            - generic [ref=e1736] [cursor=pointer]:
+                              - strong [ref=e1737] [cursor=pointer]: Good
+                              - generic [ref=e1738] [cursor=pointer]: (330 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹1,290 6 nights for ₹7,742 View Deal" [ref=e1740] [cursor=pointer]:
+                        - generic [ref=e1741] [cursor=pointer]:
+                          - generic [ref=e1745] [cursor=pointer]: Our lowest price
+                          - generic [ref=e1746] [cursor=pointer]:
+                            - list [ref=e1751] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e1752] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e1753] [cursor=pointer]:
+                                  - generic [ref=e1754] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e1756] [cursor=pointer]: Free cancellation
+                            - generic [ref=e1757] [cursor=pointer]:
+                              - generic [ref=e1758] [cursor=pointer]:
+                                - generic [ref=e1762] [cursor=pointer]: ₹1,290
+                                - paragraph [ref=e1763] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e1764] [cursor=pointer]: ₹7,742
+                              - button "View Deal" [ref=e1765] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e1766] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e1767]:
+                  - article [ref=e1769]:
+                    - generic [ref=e1771]:
+                      - button "The Claridges Nabha Residence, (Mussoorie, India) 1 / 96" [ref=e1772] [cursor=pointer]:
+                        - img "The Claridges Nabha Residence, (Mussoorie, India)" [ref=e1773] [cursor=pointer]
+                        - generic [ref=e1774] [cursor=pointer]: 1 / 96
+                      - button "Add to favorites" [ref=e1779] [cursor=pointer]:
+                        - img [ref=e1780] [cursor=pointer]
+                        - generic [ref=e1782] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1783]:
+                      - generic [ref=e1784]:
+                        - heading "The Claridges Nabha Residence" [level=2] [ref=e1786]:
+                          - button "The Claridges Nabha Residence" [ref=e1787] [cursor=pointer]
+                        - button "Hotel" [ref=e1790] [cursor=pointer]:
+                          - generic [ref=e1791] [cursor=pointer]:
+                            - generic [ref=e1792] [cursor=pointer]:
+                              - generic [ref=e1793] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1794] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1795] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1796] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1797] [cursor=pointer]: Hotel
+                        - button "Scenic Mountain Views, Full-service spa and salon" [ref=e1798] [cursor=pointer]:
+                          - generic [ref=e1800] [cursor=pointer]:
+                            - generic [ref=e1801] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e1802] [cursor=pointer]: Scenic Mountain Views, Full-service spa and salon
+                        - button "Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie" [ref=e1804] [cursor=pointer]:
+                          - generic [ref=e1805] [cursor=pointer]:
+                            - generic [ref=e1806] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie
+                        - button "8.8 Excellent (1588 ratings)" [ref=e1807] [cursor=pointer]:
+                          - generic [ref=e1809] [cursor=pointer]:
+                            - generic [ref=e1810] [cursor=pointer]: "8.8"
+                            - generic [ref=e1811] [cursor=pointer]:
+                              - strong [ref=e1812] [cursor=pointer]: Excellent
+                              - generic [ref=e1813] [cursor=pointer]: (1588 ratings)
+                      - generic [ref=e1814]:
+                        - button "21% lower than other sites Our lowest price Algotels Free cancellation ₹8,703 6 nights for ₹52,218 View Deal" [ref=e1815] [cursor=pointer]:
+                          - generic [ref=e1816] [cursor=pointer]:
+                            - generic [ref=e1817] [cursor=pointer]:
+                              - button "21% lower than other sites" [ref=e1818] [cursor=pointer]:
+                                - generic [ref=e1823] [cursor=pointer]: 21% lower than other sites
+                              - generic [ref=e1826] [cursor=pointer]: Our lowest price
+                            - generic [ref=e1827] [cursor=pointer]:
+                              - list [ref=e1832] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e1833] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e1834] [cursor=pointer]:
+                                    - generic [ref=e1835] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1837] [cursor=pointer]: Free cancellation
+                              - generic [ref=e1838] [cursor=pointer]:
+                                - generic [ref=e1839] [cursor=pointer]:
+                                  - generic [ref=e1843] [cursor=pointer]: ₹8,703
+                                  - paragraph [ref=e1844] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e1845] [cursor=pointer]: ₹52,218
+                                - button "View Deal" [ref=e1846] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e1847] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e1848] [cursor=pointer]:
+                          - generic [ref=e1849] [cursor=pointer]:
+                            - generic [ref=e1851] [cursor=pointer]: ₹10,974
+                            - generic [ref=e1853] [cursor=pointer]:
+                              - img
+                          - generic [ref=e1857] [cursor=pointer]: ₹10,974
+                          - generic [ref=e1860] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1861]:
+                  - article [ref=e1863]:
+                    - generic [ref=e1865]:
+                      - button "City Castle Mussoorie, (Mussoorie, India) 1 / 8" [ref=e1866] [cursor=pointer]:
+                        - img "City Castle Mussoorie, (Mussoorie, India)" [ref=e1867] [cursor=pointer]
+                        - generic [ref=e1868] [cursor=pointer]: 1 / 8
+                      - button "Add to favorites" [ref=e1873] [cursor=pointer]:
+                        - img [ref=e1874] [cursor=pointer]
+                        - generic [ref=e1876] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1877]:
+                      - generic [ref=e1878]:
+                        - heading "City Castle Mussoorie" [level=2] [ref=e1880]:
+                          - button "City Castle Mussoorie" [ref=e1881] [cursor=pointer]
+                        - button "Hotel" [ref=e1884] [cursor=pointer]:
+                          - generic [ref=e1885] [cursor=pointer]:
+                            - generic [ref=e1886] [cursor=pointer]:
+                              - generic [ref=e1887] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1888] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1889] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 2.3 km to Zone Connect by The Park Mussoorie" [ref=e1891] [cursor=pointer]:
+                          - generic [ref=e1892] [cursor=pointer]:
+                            - generic [ref=e1893] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 2.3 km to Zone Connect by The Park Mussoorie
+                        - button "7.5 Good (915 ratings)" [ref=e1894] [cursor=pointer]:
+                          - generic [ref=e1896] [cursor=pointer]:
+                            - generic [ref=e1897] [cursor=pointer]: "7.5"
+                            - generic [ref=e1898] [cursor=pointer]:
+                              - strong [ref=e1899] [cursor=pointer]: Good
+                              - generic [ref=e1900] [cursor=pointer]: (915 ratings)
+                      - generic [ref=e1901]:
+                        - button "Our lowest price MakeMyTrip Free cancellation ₹1,296 6 nights for ₹7,776 View Deal" [ref=e1902] [cursor=pointer]:
+                          - generic [ref=e1903] [cursor=pointer]:
+                            - generic [ref=e1907] [cursor=pointer]: Our lowest price
+                            - generic [ref=e1908] [cursor=pointer]:
+                              - list [ref=e1913] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e1914] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e1915] [cursor=pointer]:
+                                    - generic [ref=e1916] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1918] [cursor=pointer]: Free cancellation
+                              - generic [ref=e1919] [cursor=pointer]:
+                                - generic [ref=e1920] [cursor=pointer]:
+                                  - generic [ref=e1924] [cursor=pointer]: ₹1,296
+                                  - paragraph [ref=e1925] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e1926] [cursor=pointer]: ₹7,776
+                                - button "View Deal" [ref=e1927] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e1928] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e1929] [cursor=pointer]:
+                          - generic [ref=e1932] [cursor=pointer]: ₹1,958
+                          - generic [ref=e1935] [cursor=pointer]:
+                            - img
+                - listitem [ref=e1936]:
+                  - article [ref=e1938]:
+                    - generic [ref=e1940]:
+                      - button "Castle view, (Mussoorie, India) 1 / 14" [ref=e1941] [cursor=pointer]:
+                        - img "Castle view, (Mussoorie, India)" [ref=e1942] [cursor=pointer]
+                        - generic [ref=e1943] [cursor=pointer]: 1 / 14
+                      - button "Add to favorites" [ref=e1948] [cursor=pointer]:
+                        - img [ref=e1949] [cursor=pointer]
+                        - generic [ref=e1951] [cursor=pointer]: Add to favorites
+                    - generic [ref=e1952]:
+                      - generic [ref=e1953]:
+                        - heading "Castle view" [level=2] [ref=e1955]:
+                          - button "Castle view" [ref=e1956] [cursor=pointer]
+                        - button "Hotel" [ref=e1959] [cursor=pointer]:
+                          - generic [ref=e1960] [cursor=pointer]:
+                            - generic [ref=e1961] [cursor=pointer]:
+                              - generic [ref=e1962] [cursor=pointer]:
+                                - img
+                              - generic [ref=e1963] [cursor=pointer]:
+                                - img
+                            - generic [ref=e1964] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 0.9 km to Zone Connect by The Park Mussoorie" [ref=e1966] [cursor=pointer]:
+                          - generic [ref=e1967] [cursor=pointer]:
+                            - generic [ref=e1968] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.9 km to Zone Connect by The Park Mussoorie
+                        - button "6.9 (151 ratings)" [ref=e1969] [cursor=pointer]:
+                          - generic [ref=e1971] [cursor=pointer]:
+                            - generic [ref=e1972] [cursor=pointer]: "6.9"
+                            - generic [ref=e1974] [cursor=pointer]: (151 ratings)
+                      - generic [ref=e1975]:
+                        - button "Our lowest price MakeMyTrip Free cancellation ₹1,345 6 nights for ₹8,070 View Deal" [ref=e1976] [cursor=pointer]:
+                          - generic [ref=e1977] [cursor=pointer]:
+                            - generic [ref=e1981] [cursor=pointer]: Our lowest price
+                            - generic [ref=e1982] [cursor=pointer]:
+                              - list [ref=e1987] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e1988] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e1989] [cursor=pointer]:
+                                    - generic [ref=e1990] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e1992] [cursor=pointer]: Free cancellation
+                              - generic [ref=e1993] [cursor=pointer]:
+                                - generic [ref=e1994] [cursor=pointer]:
+                                  - generic [ref=e1998] [cursor=pointer]: ₹1,345
+                                  - paragraph [ref=e1999] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e2000] [cursor=pointer]: ₹8,070
+                                - button "View Deal" [ref=e2001] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e2002] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e2003] [cursor=pointer]:
+                          - generic [ref=e2006] [cursor=pointer]: ₹2,017
+                          - generic [ref=e2009] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2010]:
+                  - article [ref=e2012]:
+                    - generic [ref=e2014]:
+                      - button "StudioZ Paradise Hills Mussoorie, (Mussoorie, India) 1 / 97" [ref=e2015] [cursor=pointer]:
+                        - img "StudioZ Paradise Hills Mussoorie, (Mussoorie, India)" [ref=e2016] [cursor=pointer]
+                        - generic [ref=e2017] [cursor=pointer]: 1 / 97
+                      - button "Add to favorites" [ref=e2022] [cursor=pointer]:
+                        - img [ref=e2023] [cursor=pointer]
+                        - generic [ref=e2025] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2026]:
+                      - generic [ref=e2027]:
+                        - heading "StudioZ Paradise Hills Mussoorie" [level=2] [ref=e2029]:
+                          - button "StudioZ Paradise Hills Mussoorie" [ref=e2030] [cursor=pointer]
+                        - button "Bed & Breakfast" [ref=e2033]
+                        - button "Picturesque Mountain Vista Balconies, Tranquil sun terrace retreat" [ref=e2034] [cursor=pointer]:
+                          - generic [ref=e2036] [cursor=pointer]:
+                            - generic [ref=e2037] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2038] [cursor=pointer]: Picturesque Mountain Vista Balconies, Tranquil sun terrace retreat
+                        - button "Mussoorie, 1.2 km to Zone Connect by The Park Mussoorie" [ref=e2040] [cursor=pointer]:
+                          - generic [ref=e2041] [cursor=pointer]:
+                            - generic [ref=e2042] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.2 km to Zone Connect by The Park Mussoorie
+                        - button "8.7 Excellent (221 ratings)" [ref=e2043] [cursor=pointer]:
+                          - generic [ref=e2045] [cursor=pointer]:
+                            - generic [ref=e2046] [cursor=pointer]: "8.7"
+                            - generic [ref=e2047] [cursor=pointer]:
+                              - strong [ref=e2048] [cursor=pointer]: Excellent
+                              - generic [ref=e2049] [cursor=pointer]: (221 ratings)
+                      - generic [ref=e2050]:
+                        - button "MakeMyTrip Free cancellation ₹2,142 6 nights for ₹12,850 View Deal" [ref=e2051] [cursor=pointer]:
+                          - generic [ref=e2053] [cursor=pointer]:
+                            - list [ref=e2058] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2059] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e2060] [cursor=pointer]:
+                                  - generic [ref=e2061] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2063] [cursor=pointer]: Free cancellation
+                            - generic [ref=e2064] [cursor=pointer]:
+                              - generic [ref=e2065] [cursor=pointer]:
+                                - generic [ref=e2069] [cursor=pointer]: ₹2,142
+                                - paragraph [ref=e2070] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e2071] [cursor=pointer]: ₹12,850
+                              - button "View Deal" [ref=e2072] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e2073] [cursor=pointer]:
+                                  - img
+                        - button "Show all prices" [ref=e2074] [cursor=pointer]:
+                          - generic [ref=e2077] [cursor=pointer]: ₹1,984
+                          - generic [ref=e2082] [cursor=pointer]: ₹2,744
+                          - generic [ref=e2085] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2086]:
+                  - article [ref=e2088]:
+                    - generic [ref=e2089]:
+                      - generic [ref=e2090]:
+                        - button "The Hosteller Mussoorie, Mall Road, (Mussoorie, India) 1 / 93" [ref=e2091] [cursor=pointer]:
+                          - img "The Hosteller Mussoorie, Mall Road, (Mussoorie, India)" [ref=e2092] [cursor=pointer]
+                          - generic [ref=e2093] [cursor=pointer]: 1 / 93
+                        - button "Add to favorites" [ref=e2098] [cursor=pointer]:
+                          - img [ref=e2099] [cursor=pointer]
+                          - generic [ref=e2101] [cursor=pointer]: Add to favorites
+                      - list [ref=e2103]:
+                        - listitem [ref=e2104]:
+                          - button "Popular choice" [ref=e2107] [cursor=pointer]:
+                            - generic [ref=e2108] [cursor=pointer]: Popular choice
+                    - generic [ref=e2109]:
+                      - generic [ref=e2110]:
+                        - heading "The Hosteller Mussoorie, Mall Road" [level=2] [ref=e2112]:
+                          - button "The Hosteller Mussoorie, Mall Road" [ref=e2113] [cursor=pointer]
+                        - button "Hostel" [ref=e2116] [cursor=pointer]:
+                          - generic [ref=e2117] [cursor=pointer]:
+                            - generic [ref=e2118] [cursor=pointer]:
+                              - generic [ref=e2119] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2120] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2121] [cursor=pointer]: Hostel
+                        - button "Himalayan Valley Views, Rooms with Private Balconies" [ref=e2122] [cursor=pointer]:
+                          - generic [ref=e2124] [cursor=pointer]:
+                            - generic [ref=e2125] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2126] [cursor=pointer]: Himalayan Valley Views, Rooms with Private Balconies
+                        - button "Mussoorie, 0.8 km to Zone Connect by The Park Mussoorie" [ref=e2128] [cursor=pointer]:
+                          - generic [ref=e2129] [cursor=pointer]:
+                            - generic [ref=e2130] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.8 km to Zone Connect by The Park Mussoorie
+                        - button "9.2 Excellent (3103 ratings)" [ref=e2131] [cursor=pointer]:
+                          - generic [ref=e2133] [cursor=pointer]:
+                            - generic [ref=e2134] [cursor=pointer]: "9.2"
+                            - generic [ref=e2135] [cursor=pointer]:
+                              - strong [ref=e2136] [cursor=pointer]: Excellent
+                              - generic [ref=e2137] [cursor=pointer]: (3103 ratings)
+                      - generic [ref=e2138]:
+                        - button "47% lower than other sites Our lowest price MakeMyTrip Free cancellation ₹1,752 6 nights for ₹10,513 View Deal" [ref=e2139] [cursor=pointer]:
+                          - generic [ref=e2140] [cursor=pointer]:
+                            - generic [ref=e2141] [cursor=pointer]:
+                              - button "47% lower than other sites" [ref=e2142] [cursor=pointer]:
+                                - generic [ref=e2147] [cursor=pointer]: 47% lower than other sites
+                              - generic [ref=e2150] [cursor=pointer]: Our lowest price
+                            - generic [ref=e2151] [cursor=pointer]:
+                              - list [ref=e2156] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e2157] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e2158] [cursor=pointer]:
+                                    - generic [ref=e2159] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e2161] [cursor=pointer]: Free cancellation
+                              - generic [ref=e2162] [cursor=pointer]:
+                                - generic [ref=e2163] [cursor=pointer]:
+                                  - generic [ref=e2167] [cursor=pointer]: ₹1,752
+                                  - paragraph [ref=e2168] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e2169] [cursor=pointer]: ₹10,513
+                                - button "View Deal" [ref=e2170] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e2171] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e2172] [cursor=pointer]:
+                          - generic [ref=e2175] [cursor=pointer]: ₹3,328
+                          - generic [ref=e2180] [cursor=pointer]: ₹3,610
+                          - generic [ref=e2183] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2184]:
+                  - article [ref=e2186]:
+                    - generic [ref=e2188]:
+                      - button "Hotel Jain Regency, (Mussoorie, India) 1 / 65" [ref=e2189] [cursor=pointer]:
+                        - img "Hotel Jain Regency, (Mussoorie, India)" [ref=e2190] [cursor=pointer]
+                        - generic [ref=e2191] [cursor=pointer]: 1 / 65
+                      - button "Add to favorites" [ref=e2196] [cursor=pointer]:
+                        - img [ref=e2197] [cursor=pointer]
+                        - generic [ref=e2199] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2200]:
+                      - generic [ref=e2201]:
+                        - heading "Hotel Jain Regency" [level=2] [ref=e2203]:
+                          - button "Hotel Jain Regency" [ref=e2204] [cursor=pointer]
+                        - button "Hotel" [ref=e2207] [cursor=pointer]:
+                          - generic [ref=e2208] [cursor=pointer]:
+                            - generic [ref=e2209] [cursor=pointer]:
+                              - generic [ref=e2210] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2211] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2212] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2213] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 0.9 km to Zone Connect by The Park Mussoorie" [ref=e2215] [cursor=pointer]:
+                          - generic [ref=e2216] [cursor=pointer]:
+                            - generic [ref=e2217] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.9 km to Zone Connect by The Park Mussoorie
+                        - button "7.9 Good (86 ratings)" [ref=e2218] [cursor=pointer]:
+                          - generic [ref=e2220] [cursor=pointer]:
+                            - generic [ref=e2221] [cursor=pointer]: "7.9"
+                            - generic [ref=e2222] [cursor=pointer]:
+                              - strong [ref=e2223] [cursor=pointer]: Good
+                              - generic [ref=e2224] [cursor=pointer]: (86 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹1,815 6 nights for ₹10,890 View Deal" [ref=e2226] [cursor=pointer]:
+                        - generic [ref=e2227] [cursor=pointer]:
+                          - generic [ref=e2231] [cursor=pointer]: Our lowest price
+                          - generic [ref=e2232] [cursor=pointer]:
+                            - list [ref=e2237] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2238] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e2239] [cursor=pointer]:
+                                  - generic [ref=e2240] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2242] [cursor=pointer]: Free cancellation
+                            - generic [ref=e2243] [cursor=pointer]:
+                              - generic [ref=e2244] [cursor=pointer]:
+                                - generic [ref=e2248] [cursor=pointer]: ₹1,815
+                                - paragraph [ref=e2249] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e2250] [cursor=pointer]: ₹10,890
+                              - button "View Deal" [ref=e2251] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e2252] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e2253]:
+                  - button "26% less than similar stays" [ref=e2255] [cursor=pointer]:
+                    - generic [ref=e2258] [cursor=pointer]:
+                      - generic [ref=e2259] [cursor=pointer]:
+                        - img
+                      - text: 26% less than similar stays
+                  - article [ref=e2261]:
+                    - generic [ref=e2263]:
+                      - button "FabExpress Sapphire, (Mussoorie, India)" [ref=e2264] [cursor=pointer]:
+                        - img "FabExpress Sapphire, (Mussoorie, India)" [ref=e2265] [cursor=pointer]
+                      - button "Add to favorites" [ref=e2270] [cursor=pointer]:
+                        - img [ref=e2271] [cursor=pointer]
+                        - generic [ref=e2273] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2274]:
+                      - generic [ref=e2275]:
+                        - heading "FabExpress Sapphire" [level=2] [ref=e2277]:
+                          - button "FabExpress Sapphire" [ref=e2278] [cursor=pointer]
+                        - button "Hotel" [ref=e2281] [cursor=pointer]:
+                          - generic [ref=e2282] [cursor=pointer]:
+                            - generic [ref=e2283] [cursor=pointer]:
+                              - generic [ref=e2284] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2285] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2286] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2287] [cursor=pointer]: Hotel
+                        - button "Delicious and Tasty Food, Shared Lounge for Relaxation" [ref=e2288] [cursor=pointer]:
+                          - generic [ref=e2290] [cursor=pointer]:
+                            - generic [ref=e2291] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2292] [cursor=pointer]: Delicious and Tasty Food, Shared Lounge for Relaxation
+                        - button "Mussoorie, 0.1 km to Zone Connect by The Park Mussoorie" [ref=e2294] [cursor=pointer]:
+                          - generic [ref=e2295] [cursor=pointer]:
+                            - generic [ref=e2296] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.1 km to Zone Connect by The Park Mussoorie
+                        - button "8.4 Very good (546 ratings)" [ref=e2297] [cursor=pointer]:
+                          - generic [ref=e2299] [cursor=pointer]:
+                            - generic [ref=e2300] [cursor=pointer]: "8.4"
+                            - generic [ref=e2301] [cursor=pointer]:
+                              - strong [ref=e2302] [cursor=pointer]: Very good
+                              - generic [ref=e2303] [cursor=pointer]: (546 ratings)
+                      - generic [ref=e2304]:
+                        - button "Our lowest price Booking.com Free cancellationbefore 18 Oct ₹1,505 6 nights for ₹9,030 View Deal" [ref=e2305] [cursor=pointer]:
+                          - generic [ref=e2306] [cursor=pointer]:
+                            - generic [ref=e2310] [cursor=pointer]: Our lowest price
+                            - generic [ref=e2311] [cursor=pointer]:
+                              - list [ref=e2316] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e2317] [cursor=pointer]:
+                                  - button "Free cancellationbefore 18 Oct" [ref=e2318] [cursor=pointer]:
+                                    - generic [ref=e2319] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e2320] [cursor=pointer]:
+                                      - generic [ref=e2321] [cursor=pointer]: Free cancellation
+                                      - generic [ref=e2322] [cursor=pointer]: before 18 Oct
+                              - generic [ref=e2323] [cursor=pointer]:
+                                - generic [ref=e2324] [cursor=pointer]:
+                                  - generic [ref=e2328] [cursor=pointer]: ₹1,505
+                                  - paragraph [ref=e2329] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e2330] [cursor=pointer]: ₹9,030
+                                - button "View Deal" [ref=e2331] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e2332] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e2333] [cursor=pointer]:
+                          - generic [ref=e2336] [cursor=pointer]: ₹1,536
+                          - generic [ref=e2339] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2340]:
+                  - article [ref=e2342]:
+                    - generic [ref=e2344]:
+                      - button "OYO 1385 Hotel Dream Palace, (Mussoorie, India)" [ref=e2345] [cursor=pointer]:
+                        - img "OYO 1385 Hotel Dream Palace, (Mussoorie, India)" [ref=e2346] [cursor=pointer]
+                      - button "Add to favorites" [ref=e2351] [cursor=pointer]:
+                        - img [ref=e2352] [cursor=pointer]
+                        - generic [ref=e2354] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2355]:
+                      - generic [ref=e2356]:
+                        - heading "OYO 1385 Hotel Dream Palace" [level=2] [ref=e2358]:
+                          - button "OYO 1385 Hotel Dream Palace" [ref=e2359] [cursor=pointer]
+                        - button "Hotel" [ref=e2362] [cursor=pointer]:
+                          - generic [ref=e2363] [cursor=pointer]:
+                            - generic [ref=e2364] [cursor=pointer]:
+                              - generic [ref=e2365] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2366] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2367] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2368] [cursor=pointer]: Hotel
+                        - button "Refreshing Swimming Pool, On-Site Restaurant with Diverse Cuisine" [ref=e2369] [cursor=pointer]:
+                          - generic [ref=e2371] [cursor=pointer]:
+                            - generic [ref=e2372] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2373] [cursor=pointer]: Refreshing Swimming Pool, On-Site Restaurant with Diverse Cuisine
+                        - button "Mussoorie, 0.6 km to Zone Connect by The Park Mussoorie" [ref=e2375] [cursor=pointer]:
+                          - generic [ref=e2376] [cursor=pointer]:
+                            - generic [ref=e2377] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.6 km to Zone Connect by The Park Mussoorie
+                        - button "7.8 Good (467 ratings)" [ref=e2378] [cursor=pointer]:
+                          - generic [ref=e2380] [cursor=pointer]:
+                            - generic [ref=e2381] [cursor=pointer]: "7.8"
+                            - generic [ref=e2382] [cursor=pointer]:
+                              - strong [ref=e2383] [cursor=pointer]: Good
+                              - generic [ref=e2384] [cursor=pointer]: (467 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹1,463 6 nights for ₹8,775 View Deal" [ref=e2386] [cursor=pointer]:
+                        - generic [ref=e2387] [cursor=pointer]:
+                          - generic [ref=e2391] [cursor=pointer]: Our lowest price
+                          - generic [ref=e2392] [cursor=pointer]:
+                            - list [ref=e2397] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2398] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e2399] [cursor=pointer]:
+                                  - generic [ref=e2400] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2402] [cursor=pointer]: Free cancellation
+                            - generic [ref=e2403] [cursor=pointer]:
+                              - generic [ref=e2404] [cursor=pointer]:
+                                - generic [ref=e2408] [cursor=pointer]: ₹1,463
+                                - paragraph [ref=e2409] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e2410] [cursor=pointer]: ₹8,775
+                              - button "View Deal" [ref=e2411] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e2412] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e2413]:
+                  - button "18% less than similar stays" [ref=e2415] [cursor=pointer]:
+                    - generic [ref=e2418] [cursor=pointer]:
+                      - generic [ref=e2419] [cursor=pointer]:
+                        - img
+                      - text: 18% less than similar stays
+                  - article [ref=e2421]:
+                    - generic [ref=e2423]:
+                      - button "Hotel Dev Palace, (Mussoorie, India) 1 / 89" [ref=e2424] [cursor=pointer]:
+                        - img "Hotel Dev Palace, (Mussoorie, India)" [ref=e2425] [cursor=pointer]
+                        - generic [ref=e2426] [cursor=pointer]: 1 / 89
+                      - button "Add to favorites" [ref=e2431] [cursor=pointer]:
+                        - img [ref=e2432] [cursor=pointer]
+                        - generic [ref=e2434] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2435]:
+                      - generic [ref=e2436]:
+                        - heading "Hotel Dev Palace" [level=2] [ref=e2438]:
+                          - button "Hotel Dev Palace" [ref=e2439] [cursor=pointer]
+                        - button "Hotel" [ref=e2442] [cursor=pointer]:
+                          - generic [ref=e2443] [cursor=pointer]:
+                            - generic [ref=e2444] [cursor=pointer]:
+                              - generic [ref=e2445] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2446] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2447] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2448] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 1.1 km to Zone Connect by The Park Mussoorie" [ref=e2450] [cursor=pointer]:
+                          - generic [ref=e2451] [cursor=pointer]:
+                            - generic [ref=e2452] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.1 km to Zone Connect by The Park Mussoorie
+                        - button "9.5 Excellent (84 ratings)" [ref=e2453] [cursor=pointer]:
+                          - generic [ref=e2455] [cursor=pointer]:
+                            - generic [ref=e2456] [cursor=pointer]: "9.5"
+                            - generic [ref=e2457] [cursor=pointer]:
+                              - strong [ref=e2458] [cursor=pointer]: Excellent
+                              - generic [ref=e2459] [cursor=pointer]: (84 ratings)
+                      - button "Our lowest price Booking.com Free cancellationbefore 18 Oct Pay at the property ₹1,714 6 nights for ₹10,282 View Deal" [ref=e2461] [cursor=pointer]:
+                        - generic [ref=e2462] [cursor=pointer]:
+                          - generic [ref=e2466] [cursor=pointer]: Our lowest price
+                          - generic [ref=e2467] [cursor=pointer]:
+                            - list [ref=e2472] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2473] [cursor=pointer]:
+                                - button "Free cancellationbefore 18 Oct" [ref=e2474] [cursor=pointer]:
+                                  - generic [ref=e2475] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2476] [cursor=pointer]:
+                                    - generic [ref=e2477] [cursor=pointer]: Free cancellation
+                                    - generic [ref=e2478] [cursor=pointer]: before 18 Oct
+                              - listitem "Pay at the property" [ref=e2479] [cursor=pointer]:
+                                - button "Pay at the property" [ref=e2480] [cursor=pointer]:
+                                  - generic [ref=e2481] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2483] [cursor=pointer]: Pay at the property
+                            - generic [ref=e2484] [cursor=pointer]:
+                              - generic [ref=e2485] [cursor=pointer]:
+                                - generic [ref=e2489] [cursor=pointer]: ₹1,714
+                                - paragraph [ref=e2490] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e2491] [cursor=pointer]: ₹10,282
+                              - button "View Deal" [ref=e2492] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e2493] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e2494]:
+                  - article [ref=e2496]:
+                    - generic [ref=e2498]:
+                      - button "Saiva Hill Resort, (Mussoorie, India) 1 / 99" [ref=e2499] [cursor=pointer]:
+                        - img "Saiva Hill Resort, (Mussoorie, India)" [ref=e2500] [cursor=pointer]
+                        - generic [ref=e2501] [cursor=pointer]: 1 / 99
+                      - button "Add to favorites" [ref=e2506] [cursor=pointer]:
+                        - img [ref=e2507] [cursor=pointer]
+                        - generic [ref=e2509] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2510]:
+                      - generic [ref=e2511]:
+                        - heading "Saiva Hill Resort" [level=2] [ref=e2513]:
+                          - button "Saiva Hill Resort" [ref=e2514] [cursor=pointer]
+                        - button "Hotel" [ref=e2517] [cursor=pointer]:
+                          - generic [ref=e2518] [cursor=pointer]:
+                            - generic [ref=e2519] [cursor=pointer]:
+                              - generic [ref=e2520] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2521] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2522] [cursor=pointer]: Hotel
+                        - button "Picturesque Valley and Mountain Views, 360-Degree View Restaurant" [ref=e2523] [cursor=pointer]:
+                          - generic [ref=e2525] [cursor=pointer]:
+                            - generic [ref=e2526] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2527] [cursor=pointer]: Picturesque Valley and Mountain Views, 360-Degree View Restaurant
+                        - button "Mussoorie, 2.4 km to Zone Connect by The Park Mussoorie" [ref=e2529] [cursor=pointer]:
+                          - generic [ref=e2530] [cursor=pointer]:
+                            - generic [ref=e2531] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 2.4 km to Zone Connect by The Park Mussoorie
+                        - button "9.1 Excellent (580 ratings)" [ref=e2532] [cursor=pointer]:
+                          - generic [ref=e2534] [cursor=pointer]:
+                            - generic [ref=e2535] [cursor=pointer]: "9.1"
+                            - generic [ref=e2536] [cursor=pointer]:
+                              - strong [ref=e2537] [cursor=pointer]: Excellent
+                              - generic [ref=e2538] [cursor=pointer]: (580 ratings)
+                      - generic [ref=e2539]:
+                        - button "Our lowest price MakeMyTrip Free cancellation ₹2,071 6 nights for ₹12,427 View Deal" [ref=e2540] [cursor=pointer]:
+                          - generic [ref=e2541] [cursor=pointer]:
+                            - generic [ref=e2545] [cursor=pointer]: Our lowest price
+                            - generic [ref=e2546] [cursor=pointer]:
+                              - list [ref=e2551] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e2552] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e2553] [cursor=pointer]:
+                                    - generic [ref=e2554] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e2556] [cursor=pointer]: Free cancellation
+                              - generic [ref=e2557] [cursor=pointer]:
+                                - generic [ref=e2558] [cursor=pointer]:
+                                  - generic [ref=e2562] [cursor=pointer]: ₹2,071
+                                  - paragraph [ref=e2563] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e2564] [cursor=pointer]: ₹12,427
+                                - button "View Deal" [ref=e2565] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e2566] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e2567] [cursor=pointer]:
+                          - generic [ref=e2570] [cursor=pointer]: ₹2,800
+                          - generic [ref=e2575] [cursor=pointer]: ₹2,863
+                          - generic [ref=e2578] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2579]:
+                  - article [ref=e2581]:
+                    - generic [ref=e2582]:
+                      - generic [ref=e2583]:
+                        - button "Basera Hotel, (Mussoorie, India) 1 / 19" [ref=e2584] [cursor=pointer]:
+                          - img "Basera Hotel, (Mussoorie, India)" [ref=e2585] [cursor=pointer]
+                          - generic [ref=e2586] [cursor=pointer]: 1 / 19
+                        - button "Add to favorites" [ref=e2591] [cursor=pointer]:
+                          - img [ref=e2592] [cursor=pointer]
+                          - generic [ref=e2594] [cursor=pointer]: Add to favorites
+                      - list [ref=e2596]:
+                        - listitem [ref=e2597]:
+                          - button "Popular choice" [ref=e2600] [cursor=pointer]:
+                            - generic [ref=e2601] [cursor=pointer]: Popular choice
+                    - generic [ref=e2602]:
+                      - generic [ref=e2603]:
+                        - heading "Basera Hotel" [level=2] [ref=e2605]:
+                          - button "Basera Hotel" [ref=e2606] [cursor=pointer]
+                        - button "Hotel" [ref=e2609] [cursor=pointer]:
+                          - generic [ref=e2610] [cursor=pointer]:
+                            - generic [ref=e2611] [cursor=pointer]:
+                              - generic [ref=e2612] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2613] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2614] [cursor=pointer]: Hotel
+                        - button "Scenic Valley View Rooms, On-Site Restaurant Dining" [ref=e2615] [cursor=pointer]:
+                          - generic [ref=e2617] [cursor=pointer]:
+                            - generic [ref=e2618] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2619] [cursor=pointer]: Scenic Valley View Rooms, On-Site Restaurant Dining
+                        - button "Mussoorie, 1.5 km to Zone Connect by The Park Mussoorie" [ref=e2621] [cursor=pointer]:
+                          - generic [ref=e2622] [cursor=pointer]:
+                            - generic [ref=e2623] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.5 km to Zone Connect by The Park Mussoorie
+                        - button "7.5 Good (1847 ratings)" [ref=e2624] [cursor=pointer]:
+                          - generic [ref=e2626] [cursor=pointer]:
+                            - generic [ref=e2627] [cursor=pointer]: "7.5"
+                            - generic [ref=e2628] [cursor=pointer]:
+                              - strong [ref=e2629] [cursor=pointer]: Good
+                              - generic [ref=e2630] [cursor=pointer]: (1847 ratings)
+                      - generic [ref=e2631]:
+                        - button "Our lowest price Booking.com Free cancellationbefore 20 Oct Pay at the property ₹2,238 6 nights for ₹13,427 View Deal" [ref=e2632] [cursor=pointer]:
+                          - generic [ref=e2633] [cursor=pointer]:
+                            - generic [ref=e2637] [cursor=pointer]: Our lowest price
+                            - generic [ref=e2638] [cursor=pointer]:
+                              - list [ref=e2643] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e2644] [cursor=pointer]:
+                                  - button "Free cancellationbefore 20 Oct" [ref=e2645] [cursor=pointer]:
+                                    - generic [ref=e2646] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e2647] [cursor=pointer]:
+                                      - generic [ref=e2648] [cursor=pointer]: Free cancellation
+                                      - generic [ref=e2649] [cursor=pointer]: before 20 Oct
+                                - listitem "Pay at the property" [ref=e2650] [cursor=pointer]:
+                                  - button "Pay at the property" [ref=e2651] [cursor=pointer]:
+                                    - generic [ref=e2652] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e2654] [cursor=pointer]: Pay at the property
+                              - generic [ref=e2655] [cursor=pointer]:
+                                - generic [ref=e2656] [cursor=pointer]:
+                                  - generic [ref=e2660] [cursor=pointer]: ₹2,238
+                                  - paragraph [ref=e2661] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e2662] [cursor=pointer]: ₹13,427
+                                - button "View Deal" [ref=e2663] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e2664] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e2665] [cursor=pointer]:
+                          - generic [ref=e2668] [cursor=pointer]: ₹2,238
+                          - generic [ref=e2673] [cursor=pointer]: ₹4,812
+                          - generic [ref=e2676] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2677]:
+                  - article [ref=e2679]:
+                    - generic [ref=e2681]:
+                      - button "Hotel Devlok Primal, (Mussoorie, India) 1 / 54" [ref=e2682] [cursor=pointer]:
+                        - img "Hotel Devlok Primal, (Mussoorie, India)" [ref=e2683] [cursor=pointer]
+                        - generic [ref=e2684] [cursor=pointer]: 1 / 54
+                      - button "Add to favorites" [ref=e2689] [cursor=pointer]:
+                        - img [ref=e2690] [cursor=pointer]
+                        - generic [ref=e2692] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2693]:
+                      - generic [ref=e2694]:
+                        - heading "Hotel Devlok Primal" [level=2] [ref=e2696]:
+                          - button "Hotel Devlok Primal" [ref=e2697] [cursor=pointer]
+                        - button "Hotel" [ref=e2700] [cursor=pointer]:
+                          - generic [ref=e2701] [cursor=pointer]:
+                            - generic [ref=e2702] [cursor=pointer]:
+                              - generic [ref=e2703] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2704] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2705] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2706] [cursor=pointer]: Hotel
+                        - button "Himalayan and Garhwal Range views, Balcony or terrace in select rooms" [ref=e2707] [cursor=pointer]:
+                          - generic [ref=e2709] [cursor=pointer]:
+                            - generic [ref=e2710] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2711] [cursor=pointer]: Himalayan and Garhwal Range views, Balcony or terrace in select rooms
+                        - button "Mussoorie, 1.5 km to Zone Connect by The Park Mussoorie" [ref=e2713] [cursor=pointer]:
+                          - generic [ref=e2714] [cursor=pointer]:
+                            - generic [ref=e2715] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.5 km to Zone Connect by The Park Mussoorie
+                        - button "7.8 Good (1162 ratings)" [ref=e2716] [cursor=pointer]:
+                          - generic [ref=e2718] [cursor=pointer]:
+                            - generic [ref=e2719] [cursor=pointer]: "7.8"
+                            - generic [ref=e2720] [cursor=pointer]:
+                              - strong [ref=e2721] [cursor=pointer]: Good
+                              - generic [ref=e2722] [cursor=pointer]: (1162 ratings)
+                      - generic [ref=e2723]:
+                        - button "25% lower than popular sites Our lowest price MakeMyTrip Free cancellation ₹2,762 6 nights for ₹16,573 View Deal" [ref=e2724] [cursor=pointer]:
+                          - generic [ref=e2725] [cursor=pointer]:
+                            - generic [ref=e2726] [cursor=pointer]:
+                              - button "25% lower than popular sites" [ref=e2727] [cursor=pointer]:
+                                - generic [ref=e2732] [cursor=pointer]: 25% lower than popular sites
+                              - generic [ref=e2735] [cursor=pointer]: Our lowest price
+                            - generic [ref=e2736] [cursor=pointer]:
+                              - list [ref=e2741] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e2742] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e2743] [cursor=pointer]:
+                                    - generic [ref=e2744] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e2746] [cursor=pointer]: Free cancellation
+                              - generic [ref=e2747] [cursor=pointer]:
+                                - generic [ref=e2748] [cursor=pointer]:
+                                  - generic [ref=e2752] [cursor=pointer]: ₹2,762
+                                  - paragraph [ref=e2753] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e2754] [cursor=pointer]: ₹16,573
+                                - button "View Deal" [ref=e2755] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e2756] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e2757] [cursor=pointer]:
+                          - generic [ref=e2760] [cursor=pointer]: ₹3,696
+                          - generic [ref=e2765] [cursor=pointer]: ₹3,696
+                          - generic [ref=e2768] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2769]:
+                  - article [ref=e2771]:
+                    - generic [ref=e2773]:
+                      - button "Park Hotel, (Mussoorie, India) 1 / 5" [ref=e2774] [cursor=pointer]:
+                        - img "Park Hotel, (Mussoorie, India)" [ref=e2775] [cursor=pointer]
+                        - generic [ref=e2776] [cursor=pointer]: 1 / 5
+                      - button "Add to favorites" [ref=e2781] [cursor=pointer]:
+                        - img [ref=e2782] [cursor=pointer]
+                        - generic [ref=e2784] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2785]:
+                      - generic [ref=e2786]:
+                        - heading "Park Hotel" [level=2] [ref=e2788]:
+                          - button "Park Hotel" [ref=e2789] [cursor=pointer]
+                        - button "Hotel" [ref=e2792] [cursor=pointer]:
+                          - generic [ref=e2793] [cursor=pointer]:
+                            - generic [ref=e2794] [cursor=pointer]:
+                              - generic [ref=e2795] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2796] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2797] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 0.5 km to Zone Connect by The Park Mussoorie" [ref=e2799] [cursor=pointer]:
+                          - generic [ref=e2800] [cursor=pointer]:
+                            - generic [ref=e2801] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.5 km to Zone Connect by The Park Mussoorie
+                        - button "7.4 (317 ratings)" [ref=e2802] [cursor=pointer]:
+                          - generic [ref=e2804] [cursor=pointer]:
+                            - generic [ref=e2805] [cursor=pointer]: "7.4"
+                            - generic [ref=e2807] [cursor=pointer]: (317 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹2,752 6 nights for ₹16,513 View Deal" [ref=e2809] [cursor=pointer]:
+                        - generic [ref=e2810] [cursor=pointer]:
+                          - generic [ref=e2814] [cursor=pointer]: Our lowest price
+                          - generic [ref=e2815] [cursor=pointer]:
+                            - list [ref=e2820] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2821] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e2822] [cursor=pointer]:
+                                  - generic [ref=e2823] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2825] [cursor=pointer]: Free cancellation
+                            - generic [ref=e2826] [cursor=pointer]:
+                              - generic [ref=e2827] [cursor=pointer]:
+                                - generic [ref=e2831] [cursor=pointer]: ₹2,752
+                                - paragraph [ref=e2832] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e2833] [cursor=pointer]: ₹16,513
+                              - button "View Deal" [ref=e2834] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e2835] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e2836]:
+                  - article [ref=e2838]:
+                    - generic [ref=e2840]:
+                      - button "La Hill Vista, (Mussoorie, India) 1 / 30" [ref=e2841] [cursor=pointer]:
+                        - img "La Hill Vista, (Mussoorie, India)" [ref=e2842] [cursor=pointer]
+                        - generic [ref=e2843] [cursor=pointer]: 1 / 30
+                      - button "Add to favorites" [ref=e2848] [cursor=pointer]:
+                        - img [ref=e2849] [cursor=pointer]
+                        - generic [ref=e2851] [cursor=pointer]: Add to favorites
+                    - generic [ref=e2852]:
+                      - generic [ref=e2853]:
+                        - heading "La Hill Vista" [level=2] [ref=e2855]:
+                          - button "La Hill Vista" [ref=e2856] [cursor=pointer]
+                        - button "Hotel" [ref=e2859] [cursor=pointer]:
+                          - generic [ref=e2860] [cursor=pointer]:
+                            - generic [ref=e2861] [cursor=pointer]:
+                              - generic [ref=e2862] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2863] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2864] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2865] [cursor=pointer]: Hotel
+                        - button "Tranquil Balcony Views, Family-Friendly Amenities" [ref=e2866] [cursor=pointer]:
+                          - generic [ref=e2868] [cursor=pointer]:
+                            - generic [ref=e2869] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2870] [cursor=pointer]: Tranquil Balcony Views, Family-Friendly Amenities
+                        - button "Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie" [ref=e2872] [cursor=pointer]:
+                          - generic [ref=e2873] [cursor=pointer]:
+                            - generic [ref=e2874] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie
+                        - button "8.3 Very good (184 ratings)" [ref=e2875] [cursor=pointer]:
+                          - generic [ref=e2877] [cursor=pointer]:
+                            - generic [ref=e2878] [cursor=pointer]: "8.3"
+                            - generic [ref=e2879] [cursor=pointer]:
+                              - strong [ref=e2880] [cursor=pointer]: Very good
+                              - generic [ref=e2881] [cursor=pointer]: (184 ratings)
+                      - generic [ref=e2882]:
+                        - button "MakeMyTrip Free cancellation ₹2,301 6 nights for ₹13,803 View Deal" [ref=e2883] [cursor=pointer]:
+                          - generic [ref=e2885] [cursor=pointer]:
+                            - list [ref=e2890] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2891] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e2892] [cursor=pointer]:
+                                  - generic [ref=e2893] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2895] [cursor=pointer]: Free cancellation
+                            - generic [ref=e2896] [cursor=pointer]:
+                              - generic [ref=e2897] [cursor=pointer]:
+                                - generic [ref=e2901] [cursor=pointer]: ₹2,301
+                                - paragraph [ref=e2902] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e2903] [cursor=pointer]: ₹13,803
+                              - button "View Deal" [ref=e2904] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e2905] [cursor=pointer]:
+                                  - img
+                        - button "Show all prices" [ref=e2906] [cursor=pointer]:
+                          - generic [ref=e2909] [cursor=pointer]: ₹2,028
+                          - generic [ref=e2914] [cursor=pointer]: ₹2,740
+                          - generic [ref=e2917] [cursor=pointer]:
+                            - img
+                - listitem [ref=e2918]:
+                  - article [ref=e2920]:
+                    - generic [ref=e2921]:
+                      - generic [ref=e2922]:
+                        - button "EllBee Mussoorie Hills, (Mussoorie, India) 1 / 40" [ref=e2923] [cursor=pointer]:
+                          - img "EllBee Mussoorie Hills, (Mussoorie, India)" [ref=e2924] [cursor=pointer]
+                          - generic [ref=e2925] [cursor=pointer]: 1 / 40
+                        - button "Add to favorites" [ref=e2930] [cursor=pointer]:
+                          - img [ref=e2931] [cursor=pointer]
+                          - generic [ref=e2933] [cursor=pointer]: Add to favorites
+                      - list [ref=e2935]:
+                        - listitem [ref=e2936]:
+                          - button "Popular choice" [ref=e2939] [cursor=pointer]:
+                            - generic [ref=e2940] [cursor=pointer]: Popular choice
+                    - generic [ref=e2941]:
+                      - generic [ref=e2942]:
+                        - heading "EllBee Mussoorie Hills" [level=2] [ref=e2944]:
+                          - button "EllBee Mussoorie Hills" [ref=e2945] [cursor=pointer]
+                        - button "Hotel" [ref=e2948] [cursor=pointer]:
+                          - generic [ref=e2949] [cursor=pointer]:
+                            - generic [ref=e2950] [cursor=pointer]:
+                              - generic [ref=e2951] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2952] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2953] [cursor=pointer]:
+                                - img
+                              - generic [ref=e2954] [cursor=pointer]:
+                                - img
+                            - generic [ref=e2955] [cursor=pointer]: Hotel
+                        - button "Picturesque Mountain Vista Rooms, Curated Excursions and Adventures" [ref=e2956] [cursor=pointer]:
+                          - generic [ref=e2958] [cursor=pointer]:
+                            - generic [ref=e2959] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e2960] [cursor=pointer]: Picturesque Mountain Vista Rooms, Curated Excursions and Adventures
+                        - button "Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie" [ref=e2962] [cursor=pointer]:
+                          - generic [ref=e2963] [cursor=pointer]:
+                            - generic [ref=e2964] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.3 km to Zone Connect by The Park Mussoorie
+                        - button "9.3 Excellent (6957 ratings)" [ref=e2965] [cursor=pointer]:
+                          - generic [ref=e2967] [cursor=pointer]:
+                            - generic [ref=e2968] [cursor=pointer]: "9.3"
+                            - generic [ref=e2969] [cursor=pointer]:
+                              - strong [ref=e2970] [cursor=pointer]: Excellent
+                              - generic [ref=e2971] [cursor=pointer]: (6957 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation Breakfast included ₹5,937 6 nights for ₹35,621 View Deal" [ref=e2973] [cursor=pointer]:
+                        - generic [ref=e2974] [cursor=pointer]:
+                          - generic [ref=e2978] [cursor=pointer]: Our lowest price
+                          - generic [ref=e2979] [cursor=pointer]:
+                            - list [ref=e2984] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e2985] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e2986] [cursor=pointer]:
+                                  - generic [ref=e2987] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2989] [cursor=pointer]: Free cancellation
+                              - listitem "Breakfast included" [ref=e2990] [cursor=pointer]:
+                                - button "Breakfast included" [ref=e2991] [cursor=pointer]:
+                                  - generic [ref=e2992] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e2994] [cursor=pointer]: Breakfast included
+                            - generic [ref=e2995] [cursor=pointer]:
+                              - generic [ref=e2996] [cursor=pointer]:
+                                - generic [ref=e3000] [cursor=pointer]: ₹5,937
+                                - paragraph [ref=e3001] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e3002] [cursor=pointer]: ₹35,621
+                              - button "View Deal" [ref=e3003] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e3004] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e3005]:
+                  - article [ref=e3007]:
+                    - generic [ref=e3009]:
+                      - button "Parvatiya Homestay, (Mussoorie, India) 1 / 34" [ref=e3010] [cursor=pointer]:
+                        - img "Parvatiya Homestay, (Mussoorie, India)" [ref=e3011] [cursor=pointer]
+                        - generic [ref=e3012] [cursor=pointer]: 1 / 34
+                      - button "Add to favorites" [ref=e3017] [cursor=pointer]:
+                        - img [ref=e3018] [cursor=pointer]
+                        - generic [ref=e3020] [cursor=pointer]: Add to favorites
+                    - generic [ref=e3021]:
+                      - generic [ref=e3022]:
+                        - heading "Parvatiya Homestay" [level=2] [ref=e3024]:
+                          - button "Parvatiya Homestay" [ref=e3025] [cursor=pointer]
+                        - button "Guesthouse" [ref=e3028]
+                        - button "Picturesque mountain vistas, Genuine Cultural Immersion" [ref=e3029] [cursor=pointer]:
+                          - generic [ref=e3031] [cursor=pointer]:
+                            - generic [ref=e3032] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e3033] [cursor=pointer]: Picturesque mountain vistas, Genuine Cultural Immersion
+                        - button "Mussoorie, 5.0 km to Zone Connect by The Park Mussoorie" [ref=e3035] [cursor=pointer]:
+                          - generic [ref=e3036] [cursor=pointer]:
+                            - generic [ref=e3037] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 5.0 km to Zone Connect by The Park Mussoorie
+                        - button "9.1 Excellent (27 ratings)" [ref=e3038] [cursor=pointer]:
+                          - generic [ref=e3040] [cursor=pointer]:
+                            - generic [ref=e3041] [cursor=pointer]: "9.1"
+                            - generic [ref=e3042] [cursor=pointer]:
+                              - strong [ref=e3043] [cursor=pointer]: Excellent
+                              - generic [ref=e3044] [cursor=pointer]: (27 ratings)
+                      - button "Our lowest price Booking.com Free cancellationbefore 17 Oct ₹1,344 6 nights for ₹8,064 View Deal" [ref=e3046] [cursor=pointer]:
+                        - generic [ref=e3047] [cursor=pointer]:
+                          - generic [ref=e3051] [cursor=pointer]: Our lowest price
+                          - generic [ref=e3052] [cursor=pointer]:
+                            - list [ref=e3057] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e3058] [cursor=pointer]:
+                                - button "Free cancellationbefore 17 Oct" [ref=e3059] [cursor=pointer]:
+                                  - generic [ref=e3060] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e3061] [cursor=pointer]:
+                                    - generic [ref=e3062] [cursor=pointer]: Free cancellation
+                                    - generic [ref=e3063] [cursor=pointer]: before 17 Oct
+                            - generic [ref=e3064] [cursor=pointer]:
+                              - generic [ref=e3065] [cursor=pointer]:
+                                - generic [ref=e3069] [cursor=pointer]: ₹1,344
+                                - paragraph [ref=e3070] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e3071] [cursor=pointer]: ₹8,064
+                              - button "View Deal" [ref=e3072] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e3073] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e3074]:
+                  - article [ref=e3076]:
+                    - generic [ref=e3078]:
+                      - button "Amar Guest House-mussoorie, (Mussoorie, India) 1 / 15" [ref=e3079] [cursor=pointer]:
+                        - img "Amar Guest House-mussoorie, (Mussoorie, India)" [ref=e3080] [cursor=pointer]
+                        - generic [ref=e3081] [cursor=pointer]: 1 / 15
+                      - button "Add to favorites" [ref=e3086] [cursor=pointer]:
+                        - img [ref=e3087] [cursor=pointer]
+                        - generic [ref=e3089] [cursor=pointer]: Add to favorites
+                    - generic [ref=e3090]:
+                      - generic [ref=e3091]:
+                        - heading "Amar Guest House-mussoorie" [level=2] [ref=e3093]:
+                          - button "Amar Guest House-mussoorie" [ref=e3094] [cursor=pointer]
+                        - button "Guesthouse" [ref=e3097]
+                        - button "Mussoorie, 0.4 km to Zone Connect by The Park Mussoorie" [ref=e3099] [cursor=pointer]:
+                          - generic [ref=e3100] [cursor=pointer]:
+                            - generic [ref=e3101] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.4 km to Zone Connect by The Park Mussoorie
+                        - button "8.3 Very good (15 ratings)" [ref=e3102] [cursor=pointer]:
+                          - generic [ref=e3104] [cursor=pointer]:
+                            - generic [ref=e3105] [cursor=pointer]: "8.3"
+                            - generic [ref=e3106] [cursor=pointer]:
+                              - strong [ref=e3107] [cursor=pointer]: Very good
+                              - generic [ref=e3108] [cursor=pointer]: (15 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹3,344 6 nights for ₹20,061 View Deal" [ref=e3110] [cursor=pointer]:
+                        - generic [ref=e3111] [cursor=pointer]:
+                          - generic [ref=e3115] [cursor=pointer]: Our lowest price
+                          - generic [ref=e3116] [cursor=pointer]:
+                            - list [ref=e3121] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e3122] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e3123] [cursor=pointer]:
+                                  - generic [ref=e3124] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e3126] [cursor=pointer]: Free cancellation
+                            - generic [ref=e3127] [cursor=pointer]:
+                              - generic [ref=e3128] [cursor=pointer]:
+                                - generic [ref=e3132] [cursor=pointer]: ₹3,344
+                                - paragraph [ref=e3133] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e3134] [cursor=pointer]: ₹20,061
+                              - button "View Deal" [ref=e3135] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e3136] [cursor=pointer]:
+                                  - img
+                - listitem [ref=e3137]:
+                  - article [ref=e3139]:
+                    - generic [ref=e3141]:
+                      - button "Club Mahindra Mussoorie, (Mussoorie, India) 1 / 21" [ref=e3142] [cursor=pointer]:
+                        - img "Club Mahindra Mussoorie, (Mussoorie, India)" [ref=e3143] [cursor=pointer]
+                        - generic [ref=e3144] [cursor=pointer]: 1 / 21
+                      - button "Add to favorites" [ref=e3149] [cursor=pointer]:
+                        - img [ref=e3150] [cursor=pointer]
+                        - generic [ref=e3152] [cursor=pointer]: Add to favorites
+                    - generic [ref=e3153]:
+                      - generic [ref=e3154]:
+                        - heading "Club Mahindra Mussoorie" [level=2] [ref=e3156]:
+                          - button "Club Mahindra Mussoorie" [ref=e3157] [cursor=pointer]
+                        - button "Resort" [ref=e3160] [cursor=pointer]:
+                          - generic [ref=e3161] [cursor=pointer]:
+                            - generic [ref=e3162] [cursor=pointer]:
+                              - generic [ref=e3163] [cursor=pointer]:
+                                - img
+                              - generic [ref=e3164] [cursor=pointer]:
+                                - img
+                              - generic [ref=e3165] [cursor=pointer]:
+                                - img
+                              - generic [ref=e3166] [cursor=pointer]:
+                                - img
+                            - generic [ref=e3167] [cursor=pointer]: Resort
+                        - button "Picturesque Views Overlooking Mussoorie, Relaxing Sauna Experience" [ref=e3168] [cursor=pointer]:
+                          - generic [ref=e3170] [cursor=pointer]:
+                            - generic [ref=e3171] [cursor=pointer]:
+                              - img
+                            - paragraph [ref=e3172] [cursor=pointer]: Picturesque Views Overlooking Mussoorie, Relaxing Sauna Experience
+                        - button "Mussoorie, 0.6 km to Zone Connect by The Park Mussoorie" [ref=e3174] [cursor=pointer]:
+                          - generic [ref=e3175] [cursor=pointer]:
+                            - generic [ref=e3176] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 0.6 km to Zone Connect by The Park Mussoorie
+                        - button "8.7 Excellent (7410 ratings)" [ref=e3177] [cursor=pointer]:
+                          - generic [ref=e3179] [cursor=pointer]:
+                            - generic [ref=e3180] [cursor=pointer]: "8.7"
+                            - generic [ref=e3181] [cursor=pointer]:
+                              - strong [ref=e3182] [cursor=pointer]: Excellent
+                              - generic [ref=e3183] [cursor=pointer]: (7410 ratings)
+                      - generic [ref=e3184]:
+                        - button "17% lower than other sites Our lowest price Algotels Free cancellation ₹10,321 6 nights for ₹61,926 View Deal" [ref=e3185] [cursor=pointer]:
+                          - generic [ref=e3186] [cursor=pointer]:
+                            - generic [ref=e3187] [cursor=pointer]:
+                              - button "17% lower than other sites" [ref=e3188] [cursor=pointer]:
+                                - generic [ref=e3193] [cursor=pointer]: 17% lower than other sites
+                              - generic [ref=e3196] [cursor=pointer]: Our lowest price
+                            - generic [ref=e3197] [cursor=pointer]:
+                              - list [ref=e3202] [cursor=pointer]:
+                                - listitem "Free cancellation" [ref=e3203] [cursor=pointer]:
+                                  - button "Free cancellation" [ref=e3204] [cursor=pointer]:
+                                    - generic [ref=e3205] [cursor=pointer]:
+                                      - img
+                                    - generic [ref=e3207] [cursor=pointer]: Free cancellation
+                              - generic [ref=e3208] [cursor=pointer]:
+                                - generic [ref=e3209] [cursor=pointer]:
+                                  - generic [ref=e3213] [cursor=pointer]: ₹10,321
+                                  - paragraph [ref=e3214] [cursor=pointer]:
+                                    - text: 6 nights for
+                                    - strong [ref=e3215] [cursor=pointer]: ₹61,926
+                                - button "View Deal" [ref=e3216] [cursor=pointer]:
+                                  - text: View Deal
+                                  - generic [ref=e3217] [cursor=pointer]:
+                                    - img
+                        - button "Show all prices" [ref=e3218] [cursor=pointer]:
+                          - generic [ref=e3221] [cursor=pointer]: ₹12,426
+                          - generic [ref=e3226] [cursor=pointer]: ₹12,626
+                          - generic [ref=e3229] [cursor=pointer]:
+                            - img
+                - listitem [ref=e3230]:
+                  - article [ref=e3232]:
+                    - generic [ref=e3234]:
+                      - button "Ashiyana Continental Hotel, (Mussoorie, India)" [ref=e3235] [cursor=pointer]:
+                        - img "Ashiyana Continental Hotel, (Mussoorie, India)" [ref=e3236] [cursor=pointer]
+                      - button "Add to favorites" [ref=e3241] [cursor=pointer]:
+                        - img [ref=e3242] [cursor=pointer]
+                        - generic [ref=e3244] [cursor=pointer]: Add to favorites
+                    - generic [ref=e3245]:
+                      - generic [ref=e3246]:
+                        - heading "Ashiyana Continental Hotel" [level=2] [ref=e3248]:
+                          - button "Ashiyana Continental Hotel" [ref=e3249] [cursor=pointer]
+                        - button "Hotel" [ref=e3252] [cursor=pointer]:
+                          - generic [ref=e3253] [cursor=pointer]:
+                            - generic [ref=e3254] [cursor=pointer]:
+                              - generic [ref=e3255] [cursor=pointer]:
+                                - img
+                              - generic [ref=e3256] [cursor=pointer]:
+                                - img
+                              - generic [ref=e3257] [cursor=pointer]:
+                                - img
+                            - generic [ref=e3258] [cursor=pointer]: Hotel
+                        - button "Mussoorie, 1.2 km to Zone Connect by The Park Mussoorie" [ref=e3260] [cursor=pointer]:
+                          - generic [ref=e3261] [cursor=pointer]:
+                            - generic [ref=e3262] [cursor=pointer]:
+                              - img
+                            - text: Mussoorie, 1.2 km to Zone Connect by The Park Mussoorie
+                        - button "7.8 Good (54 ratings)" [ref=e3263] [cursor=pointer]:
+                          - generic [ref=e3265] [cursor=pointer]:
+                            - generic [ref=e3266] [cursor=pointer]: "7.8"
+                            - generic [ref=e3267] [cursor=pointer]:
+                              - strong [ref=e3268] [cursor=pointer]: Good
+                              - generic [ref=e3269] [cursor=pointer]: (54 ratings)
+                      - button "Our lowest price MakeMyTrip Free cancellation ₹5,257 6 nights for ₹31,539 View Deal" [ref=e3271] [cursor=pointer]:
+                        - generic [ref=e3272] [cursor=pointer]:
+                          - generic [ref=e3276] [cursor=pointer]: Our lowest price
+                          - generic [ref=e3277] [cursor=pointer]:
+                            - list [ref=e3282] [cursor=pointer]:
+                              - listitem "Free cancellation" [ref=e3283] [cursor=pointer]:
+                                - button "Free cancellation" [ref=e3284] [cursor=pointer]:
+                                  - generic [ref=e3285] [cursor=pointer]:
+                                    - img
+                                  - generic [ref=e3287] [cursor=pointer]: Free cancellation
+                            - generic [ref=e3288] [cursor=pointer]:
+                              - generic [ref=e3289] [cursor=pointer]:
+                                - generic [ref=e3293] [cursor=pointer]: ₹5,257
+                                - paragraph [ref=e3294] [cursor=pointer]:
+                                  - text: 6 nights for
+                                  - strong [ref=e3295] [cursor=pointer]: ₹31,539
+                              - button "View Deal" [ref=e3296] [cursor=pointer]:
+                                - text: View Deal
+                                - generic [ref=e3297] [cursor=pointer]:
+                                  - img
+              - navigation "wrapper" [ref=e3299]:
+                - list [ref=e3300]:
+                  - listitem [ref=e3301]:
+                    - button "1" [ref=e3302] [cursor=pointer]
+                  - listitem [ref=e3303]:
+                    - button "2" [ref=e3304] [cursor=pointer]
+                  - listitem [ref=e3305]:
+                    - button "3" [ref=e3306] [cursor=pointer]
+                  - listitem [ref=e3307]:
+                    - button "4" [ref=e3308] [cursor=pointer]
+                  - listitem [ref=e3309]:
+                    - generic [ref=e3310]: ...
+                    - button "13" [ref=e3311] [cursor=pointer]
+                  - listitem [ref=e3312]:
+                    - button "next" [ref=e3313] [cursor=pointer]:
+                      - generic [ref=e3314] [cursor=pointer]:
+                        - img
+                - button [ref=e3315] [cursor=pointer]:
+                  - generic [ref=e3316] [cursor=pointer]:
+                    - img
+              - generic [ref=e3319]:
+                - generic [ref=e3320]:
+                  - img
+                - paragraph [ref=e3322]: The prices and availability we receive from booking sites change constantly. This means you may not always find the exact same offer you saw on trivago when you land on the booking site.
+          - generic [ref=e3324]:
+            - generic [ref=e3325]:
+              - img [ref=e3326]
+              - list [ref=e3335]:
+                - listitem [ref=e3336]:
+                  - link "Facebook" [ref=e3337] [cursor=pointer]:
+                    - /url: https://www.facebook.com/trivago
+                    - generic [ref=e3338] [cursor=pointer]:
+                      - img
+                    - generic [ref=e3339] [cursor=pointer]: Facebook
+                - listitem [ref=e3340]:
+                  - link "Twitter" [ref=e3341] [cursor=pointer]:
+                    - /url: https://twitter.com/trivago
+                    - generic [ref=e3342] [cursor=pointer]:
+                      - img
+                    - generic [ref=e3343] [cursor=pointer]: Twitter
+                - listitem [ref=e3344]:
+                  - link "Instagram" [ref=e3345] [cursor=pointer]:
+                    - /url: https://instagram.com/trivago/
+                    - generic [ref=e3346] [cursor=pointer]:
+                      - img
+                    - generic [ref=e3347] [cursor=pointer]: Instagram
+                - listitem [ref=e3348]:
+                  - link "Youtube" [ref=e3349] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/trivago
+                    - generic [ref=e3350] [cursor=pointer]:
+                      - img
+                    - generic [ref=e3351] [cursor=pointer]: Youtube
+                - listitem [ref=e3352]:
+                  - link "Linkedin" [ref=e3353] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/trivagonv/
+                    - generic [ref=e3354] [cursor=pointer]:
+                      - img
+                    - generic [ref=e3355] [cursor=pointer]: Linkedin
+            - generic [ref=e3357]:
+              - combobox [ref=e3358] [cursor=pointer]:
+                - option "Arab World (العالم العربي)"
+                - option "Argentina"
+                - option "Australia"
+                - option "Austria (Österreich)"
+                - option "Belgium (België)"
+                - option "Brazil (Brasil)"
+                - option "Bulgaria (България)"
+                - option "Canada"
+                - option "Chile"
+                - option "Colombia"
+                - option "Croatia (Hrvatska)"
+                - option "Czechia (Česko)"
+                - option "Denmark (Danmark)"
+                - option "Ecuador"
+                - option "Finland (Suomi)"
+                - option "France"
+                - option "Germany (Deutschland)"
+                - option "Greece (Ελλάδα)"
+                - option "Hong Kong (香港)"
+                - option "Hungary (Magyarország)"
+                - option "India" [selected]
+                - option "Indonesia"
+                - option "Ireland"
+                - option "Israel (ישראל)"
+                - option "Italy (Italia)"
+                - option "Japan (日本)"
+                - option "Korea (한국)"
+                - option "Malaysia"
+                - option "Mexico (México)"
+                - option "Netherlands (Nederland)"
+                - option "New Zealand"
+                - option "Norway (Norge)"
+                - option "Peru (Perú)"
+                - option "Philippines (Pilipinas)"
+                - option "Poland (Polska)"
+                - option "Portugal"
+                - option "Romania (România)"
+                - option "Serbia (Srbija)"
+                - option "Singapore"
+                - option "Slovakia (Slovensko)"
+                - option "Slovenia (Slovenija)"
+                - option "South Africa"
+                - option "Spain (España)"
+                - option "Sweden (Sverige)"
+                - option "Switzerland (Schweiz)"
+                - option "Taiwan (台灣)"
+                - option "Thailand (ประเทศไทย)"
+                - option "Turkey (Türkiye)"
+                - option "UAE"
+                - option "United Kingdom"
+                - option "Uruguay"
+                - option "USA"
+                - option "Vietnam (Việt Nam)"
+              - generic:
+                - img
+            - generic [ref=e3359]:
+              - generic [ref=e3360]:
+                - generic [ref=e3361]:
+                  - list [ref=e3362]:
+                    - listitem [ref=e3363]:
+                      - link "Company" [ref=e3364] [cursor=pointer]:
+                        - /url: https://company.trivago.com/
+                    - listitem [ref=e3365]:
+                      - link "Jobs" [ref=e3366] [cursor=pointer]:
+                        - /url: https://company.trivago.com/open-positions/?gh_src=21d449cf2
+                    - listitem [ref=e3367]:
+                      - link "Press" [ref=e3368] [cursor=pointer]:
+                        - /url: https://company.trivago.com/press/
+                    - listitem [ref=e3369]:
+                      - link "Investor relations" [ref=e3370] [cursor=pointer]:
+                        - /url: https://ir.trivago.com/
+                  - list [ref=e3371]:
+                    - listitem [ref=e3372]:
+                      - link "Mobile apps - searching on the go" [ref=e3373] [cursor=pointer]:
+                        - /url: https://www.trivago.in/en-IN/app
+                    - listitem [ref=e3374]:
+                      - link "trivago for hoteliers" [ref=e3375] [cursor=pointer]:
+                        - /url: https://studio.trivago.com/home
+                - list [ref=e3376]:
+                  - listitem [ref=e3377]:
+                    - link "Help" [ref=e3378] [cursor=pointer]:
+                      - /url: https://support.trivago.com/hc/en-in
+                  - listitem [ref=e3379]:
+                    - link "Learn how trivago works" [ref=e3380] [cursor=pointer]:
+                      - /url: https://support.trivago.com/hc/en-in/sections/360000014707
+                  - listitem [ref=e3381]:
+                    - link "Terms and conditions" [ref=e3382] [cursor=pointer]:
+                      - /url: https://www.trivago.in/en-IN/st/terms-of-service
+                  - listitem [ref=e3383]:
+                    - link "Legal information" [ref=e3384] [cursor=pointer]:
+                      - /url: https://www.trivago.in/en-IN/sl/legal-information
+                  - listitem [ref=e3385]:
+                    - button "Do Not Sell My Personal Information" [ref=e3386] [cursor=pointer]
+                  - listitem [ref=e3387]:
+                    - link "Privacy notice" [ref=e3388] [cursor=pointer]:
+                      - /url: https://www.trivago.in/en-IN/sp/privacy-policy
+                  - listitem [ref=e3389]:
+                    - link "DSA information" [ref=e3390] [cursor=pointer]:
+                      - /url: https://company.trivago.com/dsa-information/
+                  - listitem [ref=e3391]:
+                    - link "Cybersecurity" [ref=e3392] [cursor=pointer]:
+                      - /url: https://www.trivago.in/en-IN/scs/cyber-security
+                  - listitem [ref=e3393]:
+                    - link "Vulnerability Disclosure Programme" [ref=e3394] [cursor=pointer]:
+                      - /url: https://vdp.trivago.com
+              - generic [ref=e3395]:
+                - generic [ref=e3396]:
+                  - heading "Get exclusive inspiration for your next stay – subscribe to our newsletter." [level=2] [ref=e3397]:
+                    - generic [ref=e3398]: Get exclusive inspiration for your next stay – subscribe to our newsletter.
+                  - generic [ref=e3399]:
+                    - textbox "Email address" [ref=e3400]
+                    - generic [ref=e3401]: Email address
+                    - button "Subscribe" [ref=e3402] [cursor=pointer]
+                - generic [ref=e3403]:
+                  - paragraph [ref=e3404]:
+                    - strong [ref=e3405]: trivago N.V.
+                    - text: ", Kesselstraße 5 – 7, 40221 Düsseldorf, Germany"
+                  - paragraph [ref=e3406]: Copyright 2025 trivago | All rights reserved.
+        - generic [ref=e3409]:
+          - generic [ref=e3410]:
+            - button "Expand map" [ref=e3411] [cursor=pointer]:
+              - generic [ref=e3412] [cursor=pointer]:
+                - img
+              - generic: Expand map
+            - button [ref=e3413] [cursor=pointer]:
+              - generic [ref=e3414] [cursor=pointer]:
+                - img
+          - generic [ref=e3416]:
+            - generic:
+              - button "Keyboard shortcuts"
+            - region "Map" [ref=e3417]
+            - generic [ref=e3418]:
+              - generic [ref=e3420]:
+                - generic:
+                  - generic:
+                    - button "₹4,040" [ref=e3423] [cursor=pointer]:
+                      - strong [ref=e3424] [cursor=pointer]: ₹4,040
+                    - button "₹9,673" [ref=e3426] [cursor=pointer]:
+                      - strong [ref=e3427] [cursor=pointer]: ₹9,673
+                    - button "₹1,052" [ref=e3429] [cursor=pointer]:
+                      - strong [ref=e3430] [cursor=pointer]: ₹1,052
+                    - button "₹11,150" [ref=e3432] [cursor=pointer]:
+                      - strong [ref=e3433] [cursor=pointer]: ₹11,150
+                    - button "₹5,906" [ref=e3435] [cursor=pointer]:
+                      - strong [ref=e3436] [cursor=pointer]: ₹5,906
+                    - button "₹5,813" [ref=e3438] [cursor=pointer]:
+                      - strong [ref=e3439] [cursor=pointer]: ₹5,813
+                    - button "₹1,773" [ref=e3441] [cursor=pointer]:
+                      - strong [ref=e3442] [cursor=pointer]: ₹1,773
+                    - button "₹552" [ref=e3444] [cursor=pointer]:
+                      - strong [ref=e3445] [cursor=pointer]: ₹552
+                    - button "₹2,079" [ref=e3447] [cursor=pointer]:
+                      - strong [ref=e3448] [cursor=pointer]: ₹2,079
+                    - button "₹1,353" [ref=e3450] [cursor=pointer]:
+                      - strong [ref=e3451] [cursor=pointer]: ₹1,353
+                    - button "₹4,150" [ref=e3453] [cursor=pointer]:
+                      - strong [ref=e3454] [cursor=pointer]: ₹4,150
+                    - button "₹2,836" [ref=e3456] [cursor=pointer]:
+                      - strong [ref=e3457] [cursor=pointer]: ₹2,836
+                    - button "₹5,007" [ref=e3459] [cursor=pointer]:
+                      - strong [ref=e3460] [cursor=pointer]: ₹5,007
+                    - button "₹4,600" [ref=e3462] [cursor=pointer]:
+                      - strong [ref=e3463] [cursor=pointer]: ₹4,600
+                    - button "₹1,718" [ref=e3465] [cursor=pointer]:
+                      - strong [ref=e3466] [cursor=pointer]: ₹1,718
+                    - button "₹1,290" [ref=e3468] [cursor=pointer]:
+                      - strong [ref=e3469] [cursor=pointer]: ₹1,290
+                    - button "₹8,703" [ref=e3471] [cursor=pointer]:
+                      - strong [ref=e3472] [cursor=pointer]: ₹8,703
+                    - button "₹1,296" [ref=e3474] [cursor=pointer]:
+                      - strong [ref=e3475] [cursor=pointer]: ₹1,296
+                    - button "₹1,345" [ref=e3477] [cursor=pointer]:
+                      - strong [ref=e3478] [cursor=pointer]: ₹1,345
+                    - button "₹2,142" [ref=e3480] [cursor=pointer]:
+                      - strong [ref=e3481] [cursor=pointer]: ₹2,142
+                    - button "₹1,752" [ref=e3483] [cursor=pointer]:
+                      - strong [ref=e3484] [cursor=pointer]: ₹1,752
+                    - button "₹1,815" [ref=e3486] [cursor=pointer]:
+                      - strong [ref=e3487] [cursor=pointer]: ₹1,815
+                    - button "₹1,505" [ref=e3489] [cursor=pointer]:
+                      - strong [ref=e3490] [cursor=pointer]: ₹1,505
+                    - button "₹1,463" [ref=e3492] [cursor=pointer]:
+                      - strong [ref=e3493] [cursor=pointer]: ₹1,463
+                    - button "₹1,714" [ref=e3495] [cursor=pointer]:
+                      - strong [ref=e3496] [cursor=pointer]: ₹1,714
+                    - button "₹2,071" [ref=e3498] [cursor=pointer]:
+                      - strong [ref=e3499] [cursor=pointer]: ₹2,071
+                    - button "₹2,238" [ref=e3501] [cursor=pointer]:
+                      - strong [ref=e3502] [cursor=pointer]: ₹2,238
+                    - button "₹2,762" [ref=e3504] [cursor=pointer]:
+                      - strong [ref=e3505] [cursor=pointer]: ₹2,762
+                    - button "₹2,752" [ref=e3507] [cursor=pointer]:
+                      - strong [ref=e3508] [cursor=pointer]: ₹2,752
+                    - button "₹2,301" [ref=e3510] [cursor=pointer]:
+                      - strong [ref=e3511] [cursor=pointer]: ₹2,301
+                    - button "₹5,937" [ref=e3513] [cursor=pointer]:
+                      - strong [ref=e3514] [cursor=pointer]: ₹5,937
+                    - button "₹1,344" [ref=e3516] [cursor=pointer]:
+                      - strong [ref=e3517] [cursor=pointer]: ₹1,344
+                    - button "₹3,344" [ref=e3519] [cursor=pointer]:
+                      - strong [ref=e3520] [cursor=pointer]: ₹3,344
+                    - button "₹10,321" [ref=e3522] [cursor=pointer]:
+                      - strong [ref=e3523] [cursor=pointer]: ₹10,321
+                    - button "₹5,257" [ref=e3525] [cursor=pointer]:
+                      - strong [ref=e3526] [cursor=pointer]: ₹5,257
+                    - button [ref=e3528] [cursor=pointer]:
+                      - img [ref=e3529] [cursor=pointer]
+                      - generic:
+                        - img
+              - iframe [ref=e3535]:
+                
+              - generic [ref=e3537] [cursor=pointer]:
+                - button "Zoom in" [ref=e3538] [cursor=pointer]
+                - button "Zoom out" [ref=e3540] [cursor=pointer]
+              - generic [ref=e3542]:
+                - text: Location data from
+                - generic [ref=e3543] [cursor=pointer]: OpenStreetMaps
+              - link "Open this area in Google Maps (opens a new window)" [ref=e3545] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?ll=30.459952,78.060898&z=13.227640499260453&t=m&hl=en&gl=IN&mapclient=apiv3
+                - img "Google" [ref=e3547] [cursor=pointer]
+              - generic [ref=e3548]:
+                - button "Keyboard shortcuts" [ref=e3554] [cursor=pointer]
+                - generic [ref=e3560]: Map Data ©2025
+                - 'button "Map Scale: 1 km per 71 pixels" [ref=e3561] [cursor=pointer]':
+                  - generic [ref=e3565] [cursor=pointer]: 1 km
+                - link "Terms (opens in new tab)" [ref=e3577] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/en_IN/help/terms_maps.html
+                  - text: Terms
+                - link "Report a map error" [ref=e3582] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/@30.4599523,78.0608978,13.23z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+  - alert [ref=e3583]: Hotel Zone Connect by The Park Mussoorie, India - www.trivago.in
+  - complementary
+```

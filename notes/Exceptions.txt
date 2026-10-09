@@ -1,0 +1,29 @@
+TimeoutError → Thrown when an action (like click, fill, goto) or assertion does not complete within the specified timeout.
+
+Selector not found → Raised when Playwright cannot find the element using the given locator or selector.
+
+Strict mode violation → Occurs when a selector matches more than one element while Playwright expects a single element.
+
+Element not visible → Happens when trying to interact with an element that exists in the DOM but is hidden.
+
+Element detached from DOM → Triggered when the element disappears or reloads before the action finishes.
+
+Navigation failed → Raised if page.goto() or navigation doesn’t succeed (e.g., 404, timeout, connection issue).
+
+Target page, context, or browser has been closed → Happens if you try to use a page after it is closed or context/browser is disposed.
+
+NotConnectedError → Thrown when Playwright loses connection to the browser (rare, usually environment issue).
+
+UnexpectedValue / Protocol errors → Occurs when invalid input or unsupported action is passed to a Playwright API.
+
+| **Exception**                   | **Cause**                                      | **How to Handle**                                                                          |
+| ------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **TimeoutError**                | Action or assertion took longer than timeout   | Increase timeout, use `await expect()` before actions, or set `page.setDefaultTimeout(…)`. |
+| **Selector not found**          | Wrong or missing locator                       | Fix locator (`getByRole`, `getByText`), add waits like `await page.waitForSelector()`.     |
+| **Strict mode violation**       | Selector matches multiple elements             | Use a more specific locator or index: `page.locator('button').nth(1)`.                     |
+| **Element not visible**         | Element is hidden in DOM                       | Wait for visibility: `await expect(locator).toBeVisible()`.                                |
+| **Element detached from DOM**   | Element reloads/disappears before action       | Re-locate the element just before interaction.                                             |
+| **Navigation failed**           | Page didn’t load (404, timeout, network issue) | Use `await page.goto(url, { waitUntil: 'domcontentloaded' })`, check URL or network.       |
+| **Page/Context/Browser closed** | Trying to use after closing                    | Ensure page is still open (`if (!page.isClosed())`), don’t close early.                    |
+| **NotConnectedError**           | Lost browser connection                        | Restart browser/context, check environment stability.                                      |
+| **Protocol/Unexpected Value**   | Invalid input to Playwright API                | Validate inputs, pass correct selector, options, or parameters.                            |

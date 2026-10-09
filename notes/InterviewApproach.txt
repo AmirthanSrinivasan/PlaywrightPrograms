@@ -1,0 +1,22 @@
+You’re very close—this is a solid approach. You already do the 3 big things right:
+
+## scope to a common list → filter by name (regex) → act inside the same card.
+Below are small upgrades to make it interview-perfect (stable, readable, reusable).
+
+What to tweak (quick checklist)
+
+Wait for the right thing after login (the cards), not just the click.
+
+Assert uniqueness of the filtered card (catch ambiguous matches).
+
+Click by role for CTAs (more stable than CSS).
+
+Normalize text consistently (helper: digits/trim) before assertions.
+
+Wait for navigation/URL after clicks (Cart, Checkout).
+
+Prefer textContent()+trim for simple text reads (faster/less layout work than innerText()), unless you specifically need rendered text.
+
+Remove page.pause() from the final version (keep it only for local debug).
+
+(Optional) Wrap into steps and helpers for readability.

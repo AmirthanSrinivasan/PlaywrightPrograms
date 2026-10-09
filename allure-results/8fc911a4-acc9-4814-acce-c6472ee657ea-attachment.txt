@@ -1,0 +1,7 @@
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 10152,
+  [Symbol(trigger_async_id_symbol)]: 9933,
+  [Symbol(kResourceStore)]: undefined
+}
+The count is: 5

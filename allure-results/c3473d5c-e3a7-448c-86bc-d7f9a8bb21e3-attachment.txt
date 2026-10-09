@@ -1,0 +1,8 @@
+Columns :4
+Rows :5
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 3007,
+  [Symbol(trigger_async_id_symbol)]: 2925,
+  [Symbol(kResourceStore)]: undefined
+}

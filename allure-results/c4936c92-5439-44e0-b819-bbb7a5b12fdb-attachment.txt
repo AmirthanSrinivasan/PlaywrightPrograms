@@ -1,0 +1,8 @@
+[
+  'Hotel Presa di Goa',
+  'Taj Club House',
+  'Bali Dynasty Resort',
+  'The Metropolitan Hotel & Spa New Delhi',
+  'Aamby Valley City'
+]
+[ 'Bali Dynasty Resort' ]

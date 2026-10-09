@@ -1,0 +1,8 @@
+ProductName: IPHONE 13 PRO
+Product Price : $ 55000
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 16044,
+  [Symbol(trigger_async_id_symbol)]: 11361,
+  [Symbol(kResourceStore)]: undefined
+}

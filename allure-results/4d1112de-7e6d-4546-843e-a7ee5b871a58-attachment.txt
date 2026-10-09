@@ -1,0 +1,12 @@
+[
+  'Estrela Do Mar Beach Resort',
+  'Jaisalmer Marriott Resort & Spa',
+  'NH Collection Maldives Havodda Resort',
+  'Centaur Hotel IGI Airport',
+  'The Oberoi, Mumbai'
+]
+[
+  'Estrela Do Mar Beach Resort',
+  'Jaisalmer Marriott Resort & Spa',
+  'NH Collection Maldives Havodda Resort'
+]

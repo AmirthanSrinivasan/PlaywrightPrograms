@@ -1,0 +1,31 @@
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 7498,
+  [Symbol(trigger_async_id_symbol)]: 7115,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 7516,
+  [Symbol(trigger_async_id_symbol)]: 7115,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 7534,
+  [Symbol(trigger_async_id_symbol)]: 7115,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 7552,
+  [Symbol(trigger_async_id_symbol)]: 7115,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 7570,
+  [Symbol(trigger_async_id_symbol)]: 7115,
+  [Symbol(kResourceStore)]: undefined
+}
+The count is: 5

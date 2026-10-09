@@ -1,0 +1,8 @@
+Prime or Not
+    if(input<2){
+        return False
+    }
+    for(forward starting with i =2)
+        if(input%2==0){
+            isPrime =false
+        }

@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://www.tutorialspoint.com
+      - img [ref=e6] [cursor=pointer]
+    - heading "Selenium - Automation Practice Form" [level=1] [ref=e25]
+    - link "Selenium Tutorial" [ref=e27] [cursor=pointer]:
+      - /url: /selenium/index.htm
+      - img [ref=e28] [cursor=pointer]
+      - text: Selenium Tutorial
+  - main [ref=e30]:
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - heading "Elements" [level=2] [ref=e36]:
+          - button "Elements" [ref=e37] [cursor=pointer]:
+            - img [ref=e38] [cursor=pointer]
+            - text: Elements
+        - heading "Forms" [level=2] [ref=e41]:
+          - button "Forms" [ref=e42] [cursor=pointer]:
+            - img [ref=e43] [cursor=pointer]
+            - text: Forms
+        - generic [ref=e45]:
+          - heading "Alerts, Frames & Windows" [level=2] [ref=e46]:
+            - button "Alerts, Frames & Windows" [ref=e47] [cursor=pointer]:
+              - img [ref=e48] [cursor=pointer]
+              - text: Alerts, Frames & Windows
+          - list [ref=e52]:
+            - listitem [ref=e53]:
+              - link "Browser Windows" [ref=e54] [cursor=pointer]:
+                - /url: browser-windows.php
+                - img [ref=e55] [cursor=pointer]
+                - text: Browser Windows
+            - listitem [ref=e57]:
+              - link "Alerts" [ref=e58] [cursor=pointer]:
+                - /url: alerts.php
+                - img [ref=e59] [cursor=pointer]
+                - text: Alerts
+            - listitem [ref=e61]:
+              - link "Frames" [ref=e62] [cursor=pointer]:
+                - /url: frames.php
+                - img [ref=e63] [cursor=pointer]
+                - text: Frames
+            - listitem [ref=e65]:
+              - link "Nested Frames" [ref=e66] [cursor=pointer]:
+                - /url: nestedframes.php
+                - img [ref=e67] [cursor=pointer]
+                - text: Nested Frames
+            - listitem [ref=e69]:
+              - link "Modal Dialogs" [ref=e70] [cursor=pointer]:
+                - /url: modal-dialogs.php
+                - img [ref=e71] [cursor=pointer]
+                - text: Modal Dialogs
+        - heading "Widgets" [level=2] [ref=e74]:
+          - button "Widgets" [ref=e75] [cursor=pointer]:
+            - img [ref=e76] [cursor=pointer]
+            - text: Widgets
+        - heading "Interaction" [level=2] [ref=e79]:
+          - button "Interaction" [ref=e80] [cursor=pointer]:
+            - img [ref=e81] [cursor=pointer]
+            - text: Interaction
+      - generic [ref=e83]:
+        - heading "Frames" [level=1] [ref=e84]
+        - paragraph [ref=e85]: Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below
+        - heading "Iframe 1" [level=2] [ref=e86]
+        - iframe [ref=e87]:
+          - generic [active] [ref=f1e1]:
+            - banner [ref=f1e3]:
+              - link [ref=f1e5] [cursor=pointer]:
+                - /url: https://www.tutorialspoint.com
+                - img [ref=f1e6] [cursor=pointer]
+              - heading "Selenium - Automation Practice Form" [level=1] [ref=f1e25]
+              - link "Selenium Tutorial" [ref=f1e27] [cursor=pointer]:
+                - /url: /selenium/index.htm
+                - img [ref=f1e28] [cursor=pointer]
+                - text: Selenium Tutorial
+            - main [ref=f1e30]:
+              - generic [ref=f1e32]:
+                - heading "New Tab" [level=1] [ref=f1e33]
+                - text: Sample New Tab
+        - heading "Iframe 2" [level=2] [ref=e88]
+        - iframe [ref=e89]:
+          - generic [active] [ref=f2e1]:
+            - banner [ref=f2e3]:
+              - link [ref=f2e5] [cursor=pointer]:
+                - /url: https://www.tutorialspoint.com
+                - img [ref=f2e6] [cursor=pointer]
+              - heading "Selenium - Automation Practice Form" [level=1] [ref=f2e25]
+              - link "Selenium Tutorial" [ref=f2e27] [cursor=pointer]:
+                - /url: /selenium/index.htm
+                - img [ref=f2e28] [cursor=pointer]
+                - text: Selenium Tutorial
+            - main [ref=f2e30]:
+              - generic [ref=f2e32]:
+                - heading "New Tab" [level=1] [ref=f2e33]
+                - text: Sample New Tab
+```

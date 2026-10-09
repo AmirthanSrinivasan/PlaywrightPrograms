@@ -1,0 +1,7 @@
+IPHONE 13 PRO
+locator('.card-body').filter({ has: locator('b:has-text(\'iphone 13 pro\')') })
+IPHONE 13 PRO
+$ 55000
+locator('.card-body').locator('b:has-text(\'iphone 13 pro\')')
+------------
+locator('.card-body').locator('b:has-text(\'iphone 13 pro\')').locator('.text-muted')

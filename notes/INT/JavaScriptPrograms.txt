@@ -1,0 +1,30 @@
+//## Fibonacci
+Declaration:
+            number, first, second
+ForLoop (i)
+            print first
+Reassigning
+            next = first + second
+            first = second
+            second = next
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//## Reverse Integer
+
+Declarations:
+            input
+            Reverse
+While Loop
+            while(input!=0)
+
+Statements inside Loop
+            let digit = input%10
+            reverse = reverse *10 + digit
+            input = input/10
+            input = Math.floor(input)
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Swap 2 numbers
+
+first = first + second
+second = first - second
+first = first - second

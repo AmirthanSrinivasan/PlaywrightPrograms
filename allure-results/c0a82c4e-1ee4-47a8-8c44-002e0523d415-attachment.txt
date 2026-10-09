@@ -1,0 +1,6 @@
+locator('//ul[@class=\'KB_WWi\']//li//div[@class=\'VGvZ9a\']//button//span').first()
+locator('//ul[@class=\'KB_WWi\']//li//div[@class=\'VGvZ9a\']//button//span').nth(1)
+locator('//ul[@class=\'KB_WWi\']//li//div[@class=\'VGvZ9a\']//button//span').nth(2)
+locator('//ul[@class=\'KB_WWi\']//li//div[@class=\'VGvZ9a\']//button//span').nth(3)
+locator('//ul[@class=\'KB_WWi\']//li//div[@class=\'VGvZ9a\']//button//span').nth(4)
+The count is: 5

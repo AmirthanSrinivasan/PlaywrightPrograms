@@ -1,0 +1,22 @@
+[
+  locator('//article[@class=\'product_pod\']//h3//a').first(),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(1),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(2),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(3),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(4),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(5),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(6),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(7),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(8),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(9),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(10),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(11),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(12),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(13),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(14),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(15),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(16),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(17),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(18),
+  locator('//article[@class=\'product_pod\']//h3//a').nth(19)
+]

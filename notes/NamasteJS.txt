@@ -1,0 +1,133 @@
+Season 1
+
+
+"Hoisting":
+Hoisting is JavaScript’s behavior of moving variable and function declarations to the top of their scope 
+before code execution. With var, they are initialized as undefined; with let/const, 
+they remain in the Temporal Dead Zone; and function declarations are fully hoisted.
+==========================================================================================================
+
+"Temporal Dead Zone":
+The Temporal Dead Zone (TDZ) is the time between when a variable is hoisted 
+and when it is initialized, during which you cannot access the variable.
+
+Applies to let and const variables.
+
+If you try to access them before their declaration line → you get a ReferenceError.
+==========================================================================================================
+
+EP: 1
+How JavaScript Works 🔥& Execution Context | Namaste JavaScript Ep.1
+
+
+Everything in javascript happens in execution context.
+
+execution context has two component : 
+1) Memory Component or variable environment  and 
+2) Code  Component or Thread  of execution
+
+Variable environment -  It is component where all the variables and functions are stored as key value pairs.
+
+Code component -  It is a component where code is executed line by line.
+
+Javascript is a synchronous single threaded language.
+
+synchronous  means in specific order .
+
+single threaded means execute command line to line.
+Hence synchronous single threaded  means it execute command line to line in a  specific order.
+
+==========================================================================================================
+
+Ep. 4
+How functions work in JS ❤️ & Variable Environment | Namaste JavaScript 
+
+Great revisiting again, to get the answer for the below code. Got the answer with this great knowledge. Appreciate your effort!
+function foo() {
+    function bar() {  
+      return 5
+    }
+    return bar()
+    function bar() {
+      return 10
+    }
+  }
+console.log(foo());
+
+==========================================================================================================
+
+Ep: 5
+SHORTEST JS Program 🔥window & this keyword | Namaste JavaScript 
+Notes:
+	• window object is created by the JS engines of the respective browsers when global execution context is created.
+	• whenever an execution context is created a "this" variable is also created.
+	• at the global level "this" points to the global object( window object in case of browsers).
+	• anything that is not inside a function is the "global space".
+	• whenever we create any variables or functions in the "global space", they get attached to the global object( window object in case of browsers).
+	
+	so to access the variables/function defined in the global space , 
+	we can use any of the below:
+		console.log(window.a);
+		console.log(a);
+		console.log(this.a)             //at the global space level, where this points to the window object
+
+==========================================================================================================
+EP: 6
+1. Undefined is an Special Keyword and Placeholder Which is kept inside the Variable until some Values are not defined to it. It will stay inside the variables if  no value is not Assigned.
+2. undefined!=not defined, Because undefined means variable is declared but no value is Assigned and not defined means Variable is not even declared.
+3. JS is an Loosely Typed Language or Weakly Typed Language, You can Use same variable to store String, Integer, Boolean type Values in same.
+Example: 
+var a;
+console.log(a);
+a=10;
+console.log(a);
+a="hello JS";
+console.log(a);
+==========================================================================================================
+EP: 7
+The Scope Chain, 🔥Scope & Lexical Environment | Namaste JavaScript Ep. 7
+
+1. Scope of a variable is directly dependent on the lexical environment.
+2. Whenever an execution context is created, a lexical environment is created. Lexical environment is the local memory along with the lexical environment of its parent. Lexical as a term means in hierarchy or in sequence.
+3. Having the reference of parent's lexical environment means, the child or the local function can access all the variables and functions defined in the memory space of its lexical parent.
+4. The JS engine first searches for a variable in the current local memory space, if its not found here it searches for the variable in the lexical environment of its parent, and if its still not found, then it searches that variable in the subsequent lexical environments, and the sequence goes on until the variable is found in some lexical environment or the lexical environment becomes NULL.
+5. The mechanism of searching variables in the subsequent lexical environments is known as Scope Chain. If a variable is not found anywhere, then we say that the variable is not present in the scope chain.
+
+
+
+==========================================================================================================
+EP:8
+let & const in JS 🔥Temporal Dead Zone | | Namaste JavaScript Ep. 8
+
+1. let and const are hoisted but its memory is allocated at other place than window which cannot be accessed before initialisation.
+2. Temporal Dead Zone exists until variable is declared and assigned a value.
+3. window.variable OR this.variable will not give value of variable defined using let or const.
+4. We cannot redeclare the same variable with let/const(even with using var the second time).
+5. const variable declaration and initialisation must be done on the same line.
+6. There are three types of error: [1] referenceError {given where variable does not have memory allocation} [2] typeError {given when we change type that is not supposed to be changed} [3] syntaxError {when proper syntax(way of writing a statement) is not used}.
+7. Use const wherever possible followed by let, Use var as little as possible(only if you have to). It helps avoid error.
+8. Initialising variables at the top is good idea, helps shrinks TDZ to zero.
+==========================================================================================================
+EP: 9
+BLOCK SCOPE & Shadowing in JS 🔥| Namaste JavaScript 🙏 Ep. 9
+
+1. Code inside curly bracket is called block.
+2. Multiple statements are grouped inside a block so it can be written where JS expects single statements like in if, else, loop, function etc.
+3. Block values are stored inside separate memory than global. They are stored in block. (the reason let and const are called block scope)
+4. Shadowing of variables using var, let and const.
+5. The shadow should not cross the scope of original otherwise it will give error.
+6. shadowing let with var is illegal shadowing and gives error.
+7. var value is stored in nearest outer function or global scope and hence can be accessed outside block as well whereas same is not the case with let and const
+
+==========================================================================================================
+EP: 10
+Closures in JS 🔥 | Namaste JavaScript Episode 10
+
+
+Closure :Function bundled with its lexical environment is known as a closure. 
+Whenever function is returned, even if its vanished in execution context 
+but still it remembers the reference it was pointing to. 
+Its not just that function alone it returns but the entire closure 
+and that's where it becomes interesting !!
+
+==========================================================================================================

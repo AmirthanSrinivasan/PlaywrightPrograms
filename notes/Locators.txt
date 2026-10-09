@@ -1,0 +1,65 @@
+CSS:
+ELEMENT: ----> routerlink="/dashboard/cart"/
+🔹 If You Want to Match by Partial Value
+
+Starts with /dashboard:
+
+[routerlink^="/dashboard"]
+
+
+Ends with /cart:
+
+[routerlink$="/cart"]
+
+
+Contains dashboard anywhere:
+
+[routerlink*="dashboard"]
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+filter to the product name by selecting a common card
+
+const iphoneCard = page.locator('.card-body').filter({
+  has: page.locator("b:has-text('iphone 13 pro')")})
+
+
+
+  ////////////
+  [IMPORTANT]
+
+  const iPhone15_256_Blue = productWidgets.filter({
+     
+     //has: page.locator("span", { hasText: /^\s*Apple iPhone 15 \(256 GB\) - Blue\s*$/i })
+     //has: page.locator("span", { hasText: /^Apple iPhone 15 \(256 GB\) - Blue$/ })  //----> Exact Match, case sensitive
+    has: page.locator("span", { hasText: /^Apple iPhone 15 \(256 GB\) - blue$/i })  //----> caseInsensitive
+    //has: page.locator("span", { hasText: /iPhone 15.*256.*Blue/i }) //----> Partial Match
+})
+
+
+
+  //////////////////////////////////////////////////////////////////////////////////
+
+//in this string, the partial match should filter "iPhone 15", "Blue", "256" can you write a locator
+
+  Using locator.filter with multiple hasText conditions
+const product = page.locator("[data-component-type='s-search-result']").filter({
+  has: page.locator("span", { hasText: /iPhone 15/ }),
+}).filter({
+  has: page.locator("span", { hasText: /256/ }),
+}).filter({
+  has: page.locator("span", { hasText: /Blue/ }),
+});
+
+await product.first().click();
+
+
+
+
+
+
+[2]
+
+const product = page.getByText(/iPhone 15.*256.*Blue/i);
+await product.click();

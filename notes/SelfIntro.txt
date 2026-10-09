@@ -1,0 +1,19 @@
+I have overall 7 years of experience in Software Testing — about 3 years in Manual Testing 
+and 4 years in Automation.
+
+I began my career at Amazon Chennai, 
+where I tested the Amazon retail website across 17 global locales, ///*****"performing extensive cross-browser 
+and device testing for both Android and iOS apps."*****///
+
+Later, I joined SLK Software, Bangalore, worked for the client CNA (Chicago-based bank). 
+///****"There, I gained strong hands-on experience in Java Selenium automation for insurance domain applications."*****////
+
+Later I pitched into Capgemini, Bangalore, for the client ANZ Bank (it is Australia & Newzealand Bank)  Home Lending applications. 
+/////*****"Here, I’ve been deeply involved in Playwright JavaScript automation, 
+including migrating the framework from Selenium to Playwright, designing it from scratch using Page Object Model 
+and Data-Driven approach, and then for every monthly releases we will be scripting Progression scenarios, 
+and the previous releases P0 scenarios we will be adding into the regression suite.
+
+
+
+-----------and maintaining progression and regression suites for monthly releases.

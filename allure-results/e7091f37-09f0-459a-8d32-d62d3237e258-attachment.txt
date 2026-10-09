@@ -1,0 +1,11 @@
+Hotels under "Hot hotel deals right now": [
+  'De Alturas Resort',
+  'Free cancellation',
+  'Della Resorts',
+  'Breakfast included',
+  'Adaaran Select Meedhupparu',
+  'Avani+ Palm View Dubai Hotel & Suites',
+  'Free cancellation',
+  'Centaur Hotel IGI Airport',
+  'Free cancellation'
+]

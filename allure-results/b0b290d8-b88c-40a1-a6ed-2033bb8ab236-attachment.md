@@ -1,0 +1,2756 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14]:
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53] [cursor=pointer]:
+            - generic [ref=e54] [cursor=pointer]: Show/Hide shortcuts
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e56] [cursor=pointer]: shift
+              - generic [ref=e57] [cursor=pointer]: +
+              - generic [ref=e58] [cursor=pointer]: alt
+              - generic [ref=e59] [cursor=pointer]: +
+              - generic [ref=e60] [cursor=pointer]: Z
+    - generic [ref=e67]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e68]:
+    - navigation "Primary" [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link "Amazon.in" [ref=e73] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Bengaluru 562114 Update location" [ref=e76] [cursor=pointer]:
+            - generic [ref=e78] [cursor=pointer]:
+              - generic [ref=e79] [cursor=pointer]: Delivering to Bengaluru 562114
+              - generic [ref=e80] [cursor=pointer]: Update location
+        - search [ref=e83]:
+          - generic [ref=e86]:
+            - generic [ref=e88]: All
+            - combobox "Select the department you want to search in" [ref=e90] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e93]: iPhone 15
+          - button "Go" [ref=e97] [cursor=pointer]
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e101] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e104] [cursor=pointer]:
+                - img "India" [ref=e105] [cursor=pointer]
+                - generic [ref=e106] [cursor=pointer]: EN
+            - button "Expand to Change Language or Country" [ref=e107] [cursor=pointer]
+          - generic [ref=e108]:
+            - link "Hello, sign in Account & Lists" [ref=e109] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3DiPhone%2B15%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e111] [cursor=pointer]: Hello, sign in
+              - generic [ref=e112] [cursor=pointer]: Account & Lists
+            - button "Expand Account and Lists" [ref=e113] [cursor=pointer]
+          - link "Returns & Orders" [ref=e114] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e115] [cursor=pointer]: Returns
+            - generic [ref=e116] [cursor=pointer]: "& Orders"
+          - link "0 items in cart" [ref=e117] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e119] [cursor=pointer]: "0"
+            - generic [ref=e122] [cursor=pointer]: Cart
+      - generic [ref=e123]:
+        - button "Open All Categories Menu" [ref=e125] [cursor=pointer]:
+          - generic [ref=e127] [cursor=pointer]: All
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - generic [ref=e133]:
+              - link "Fresh" [ref=e134] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+                - generic [ref=e135] [cursor=pointer]: Fresh
+              - button "Fresh Details" [ref=e136] [cursor=pointer]
+          - listitem [ref=e137]:
+            - link "MX Player" [ref=e139] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e140]:
+            - link "Sell" [ref=e142] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e143]:
+            - link "Bestsellers" [ref=e145] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e146]:
+            - link "Today's Deals" [ref=e148] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e149]:
+            - link "Mobiles" [ref=e151] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e152]:
+            - link "Electronics" [ref=e154] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e155]:
+            - link "New Releases" [ref=e157] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e158]:
+            - generic [ref=e159]:
+              - link "Prime" [ref=e160] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+                - generic [ref=e161] [cursor=pointer]: Prime
+              - button "Prime Details" [ref=e162] [cursor=pointer]
+          - listitem [ref=e163]:
+            - link "Customer Service" [ref=e165] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e166]:
+            - link "Fashion" [ref=e168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e169]:
+            - link "Home & Kitchen" [ref=e171] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e172]:
+            - link "Amazon Pay" [ref=e174] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e175]:
+            - link "Computers" [ref=e177] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e178]:
+            - link "Home Improvement" [ref=e180] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e181]:
+            - link "Books" [ref=e183] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e184]:
+            - link "Beauty & Personal Care" [ref=e186] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e187]:
+            - link "Car & Motorbike" [ref=e189] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e190]:
+            - link "Toys & Games" [ref=e192] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e193]:
+            - link "Video Games" [ref=e195] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e196]:
+            - link "Gift Cards" [ref=e198] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e199]:
+            - link "Sports, Fitness & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Custom Products" [ref=e204] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e205]:
+            - link "Grocery & Gourmet Foods" [ref=e207] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e208]:
+            - link "Health, Household & Personal Care" [ref=e210] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e211]:
+            - link "Audible" [ref=e213] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e214]:
+            - link "AmazonBasics" [ref=e216] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e217]:
+            - link "Pet Supplies" [ref=e219] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e220]:
+            - link "Baby" [ref=e222] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e223]:
+            - link "Subscribe & Save" [ref=e225] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e226]:
+            - link "Gift Ideas" [ref=e228] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e229]:
+            - link "Flights" [ref=e231] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+        - link "Big Savings, More Happiness" [ref=e235] [cursor=pointer]:
+          - /url: /events/greatindianfestival/?_encoding=UTF8&ref_=nav_swm_swm_gd&pf_rd_p=37c60729-11e4-49d4-b0d3-281b35b6a9ed&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=YSHBEGB43D9J6Q7HWSY0
+          - img "Big Savings, More Happiness" [ref=e236] [cursor=pointer]
+      - dialog [ref=e237]
+  - generic [ref=e241]:
+    - 'heading "1-16 of over 50,000 results for \"iPhone 15\" Sort by: Featured" [level=1] [ref=e244]':
+      - generic [ref=e245]:
+        - heading "1-16 of over 50,000 results for \"iPhone 15\"" [level=2] [ref=e250]:
+          - generic [ref=e251]: 1-16 of over 50,000 results for
+          - generic [ref=e253]: "\"iPhone 15\""
+        - generic [ref=e258]:
+          - generic [ref=e259]: "Sort by:"
+          - combobox "Sort by:" [ref=e260]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e263] [cursor=pointer]:
+            - generic [ref=e264] [cursor=pointer]: "Sort by:"
+            - generic [ref=e265] [cursor=pointer]: Featured
+    - generic [ref=e267]:
+      - generic [ref=e269]:
+        - generic [ref=e271]:
+          - generic [ref=e276]:
+            - link [ref=e277] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/stores/page/9505ACAA-EF13-4AE6-AB5E-F14749A7822E/?_encoding=UTF8&store_ref=SB_A07238331WIA35PCKI3BN-A0896911WL2Y1NGL6KS8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&lp_asins=B0CHX3TW6X%2CB0CHX6NQMD%2CB0CHX2WQLX&lp_query=iPhone%2015&lp_slot=auto-sparkle-hsa-tetris&aref=OJQANVIoeN&ref_=sbx_be_s_sparkle_dlcd_bkgd&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+            - generic [ref=e279]:
+              - link [ref=e280] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/stores/page/9505ACAA-EF13-4AE6-AB5E-F14749A7822E/?_encoding=UTF8&store_ref=SB_A07238331WIA35PCKI3BN-A0896911WL2Y1NGL6KS8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&lp_asins=B0CHX3TW6X%2CB0CHX6NQMD%2CB0CHX2WQLX&lp_query=iPhone%2015&lp_slot=auto-sparkle-hsa-tetris&aref=OJQANVIoeN&ref_=sbx_be_s_sparkle_dlcd_bkgd&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+              - generic [ref=e281]:
+                - link "apple iphone logo - the iphone store" [ref=e282] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/stores/page/9505ACAA-EF13-4AE6-AB5E-F14749A7822E/?_encoding=UTF8&store_ref=SB_A07238331WIA35PCKI3BN-A0896911WL2Y1NGL6KS8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&lp_asins=B0CHX3TW6X%2CB0CHX6NQMD%2CB0CHX2WQLX&lp_query=iPhone%2015&lp_slot=auto-sparkle-hsa-tetris&aref=OJQANVIoeN&ref_=sbx_be_s_sparkle_dlcd_logo&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                  - img "apple iphone logo - the iphone store" [ref=e283] [cursor=pointer]
+                - generic [ref=e284]:
+                  - heading "iPhone 15. Newphoria" [level=2] [ref=e285] [cursor=pointer]:
+                    - generic [ref=e286] [cursor=pointer]:
+                      - generic [ref=e287] [cursor=pointer]: iPhone 15. Newphoria
+                      - generic [ref=e288] [cursor=pointer]: iPhone 15. Newphoria
+                  - link "Save up to 31% on Apple" [ref=e289] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/stores/page/9505ACAA-EF13-4AE6-AB5E-F14749A7822E/?_encoding=UTF8&store_ref=SB_A07238331WIA35PCKI3BN-A0896911WL2Y1NGL6KS8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&lp_asins=B0CHX3TW6X%2CB0CHX6NQMD%2CB0CHX2WQLX&lp_query=iPhone%2015&lp_slot=auto-sparkle-hsa-tetris&aref=OJQANVIoeN&ref_=sbx_be_s_sparkle_dlcd_cta&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                    - generic [ref=e292] [cursor=pointer]:
+                      - generic [ref=e293] [cursor=pointer]: Save up to 31% on
+                      - generic [ref=e294] [cursor=pointer]:
+                        - text: Apple
+                        - img [ref=e295] [cursor=pointer]
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - link [ref=e299] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/stores/page/9505ACAA-EF13-4AE6-AB5E-F14749A7822E/?_encoding=UTF8&store_ref=SB_A07238331WIA35PCKI3BN-A0896911WL2Y1NGL6KS8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&lp_asins=B0CHX3TW6X%2CB0CHX6NQMD%2CB0CHX2WQLX&lp_query=iPhone%2015&lp_slot=auto-sparkle-hsa-tetris&aref=OJQANVIoeN&ref_=sbx_be_s_sparkle_dlcd_bkgd&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                  - link "Dark blue smartphone with triple rear camera system. Screen displays image of a person holding a white folding fan against a blue background." [ref=e301] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/stores/page/9505ACAA-EF13-4AE6-AB5E-F14749A7822E/?_encoding=UTF8&store_ref=SB_A07238331WIA35PCKI3BN-A0896911WL2Y1NGL6KS8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&lp_asins=B0CHX3TW6X%2CB0CHX6NQMD%2CB0CHX2WQLX&lp_query=iPhone%2015&lp_slot=auto-sparkle-hsa-tetris&aref=OJQANVIoeN&ref_=sbx_be_s_sparkle_dlcd_ls_dpc&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                    - img "Dark blue smartphone with triple rear camera system. Screen displays image of a person holding a white folding fan against a blue background." [ref=e303] [cursor=pointer]
+                - list "Products":
+                  - listitem:
+                    - generic [ref=e304]:
+                      - link [ref=e305] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX3TW6X/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_0_bkgd&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                      - link "Apple iPhone 15 (128 GB) - Pink" [ref=e307] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX3TW6X/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_0_img&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                        - img "Apple iPhone 15 (128 GB) - Pink" [ref=e309] [cursor=pointer]
+                      - generic [ref=e310]:
+                        - link "Great Indian Festival" [ref=e311] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX3TW6X/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_0_badge&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                          - generic [ref=e313] [cursor=pointer]: Great Indian Festival
+                        - link "₹47,999 Eligible for Prime. ₹69,900 (31% off)" [ref=e314] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX3TW6X/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_0_price&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                          - generic [ref=e315] [cursor=pointer]:
+                            - generic [ref=e316] [cursor=pointer]:
+                              - generic [ref=e317] [cursor=pointer]: ₹47,999
+                              - generic [ref=e318] [cursor=pointer]:
+                                - generic [ref=e319] [cursor=pointer]: ₹
+                                - generic [ref=e320] [cursor=pointer]: 47,999
+                            - img "Eligible for Prime." [ref=e321] [cursor=pointer]
+                          - generic [ref=e322] [cursor=pointer]:
+                            - generic [ref=e323] [cursor=pointer]:
+                              - generic [ref=e324] [cursor=pointer]: ₹69,900
+                              - generic [ref=e325] [cursor=pointer]: ₹69,900
+                            - generic [ref=e326] [cursor=pointer]: (31% off)
+                  - listitem:
+                    - generic [ref=e327]:
+                      - link [ref=e328] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX6NQMD/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_1_bkgd&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                      - link "Apple iPhone 15 (128 GB) - Green" [ref=e330] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX6NQMD/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_1_img&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                        - img "Apple iPhone 15 (128 GB) - Green" [ref=e332] [cursor=pointer]
+                      - generic [ref=e333]:
+                        - link "Great Indian Festival" [ref=e334] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX6NQMD/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_1_badge&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                          - generic [ref=e336] [cursor=pointer]: Great Indian Festival
+                        - link "₹47,999 Eligible for Prime. ₹69,900 (31% off)" [ref=e337] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX6NQMD/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_1_price&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                          - generic [ref=e338] [cursor=pointer]:
+                            - generic [ref=e339] [cursor=pointer]:
+                              - generic [ref=e340] [cursor=pointer]: ₹47,999
+                              - generic [ref=e341] [cursor=pointer]:
+                                - generic [ref=e342] [cursor=pointer]: ₹
+                                - generic [ref=e343] [cursor=pointer]: 47,999
+                            - img "Eligible for Prime." [ref=e344] [cursor=pointer]
+                          - generic [ref=e345] [cursor=pointer]:
+                            - generic [ref=e346] [cursor=pointer]:
+                              - generic [ref=e347] [cursor=pointer]: ₹69,900
+                              - generic [ref=e348] [cursor=pointer]: ₹69,900
+                            - generic [ref=e349] [cursor=pointer]: (31% off)
+                  - listitem:
+                    - generic [ref=e350]:
+                      - link [ref=e351] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX2WQLX/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_2_bkgd&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                      - link "Apple iPhone 15 (256 GB) - Black" [ref=e353] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX2WQLX/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_2_img&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                        - img "Apple iPhone 15 (256 GB) - Black" [ref=e355] [cursor=pointer]
+                      - generic [ref=e356]:
+                        - link "Great Indian Festival" [ref=e357] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX2WQLX/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_2_badge&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                          - generic [ref=e359] [cursor=pointer]: Great Indian Festival
+                        - link "₹58,499 Eligible for Prime. ₹79,900 (27% off)" [ref=e360] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JCtxkGL5slesp6-YeEzDiasAAAGZpAO9BQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCmouRh/clv1_CEuOPUxokZA0iHrVebwC-hPORWFFDKszrsoHqQCv0MFs138JhRGQD_018HHz9hvVjq0yzpNb3X7OfU0yAmcAJBNMDhCPE9vNTVALfBxxF2eEO6RlokfB8IkGXCQ9UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqDLKNmJN8Et39FyYR80q7MS2OpuNrRmzlMgFlmo_yWr3JYqfnqDdhxLjmOcuEwl_RPYKemsSGxJf7rzhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15DpJ5lx8Y2YrGPjB6ZnozhOt845wwI38gZ36Sh0pAhQ_zAcJ0_BkF1mU24doY_sklFHGALX8MzrbSKsrg_PjmG3wYKS3q2TX2ao5VmhxUzOcQEP6AsKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsF_ksP-uUEni8SKCMu2xOL7h22o32-T93A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FAgPJinklgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwLZ5wU5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8ctmNJzT0T4JbefB7RmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS5wGKW5UlCfLrtPtWhRIKW9tsvtntYqZtb-kGg5AudkvlshYmw6eeDUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyJrSJDyZASTAXuc38WGPJ8mN07cc6pNe0bt4vIeVs58_iW-PaMlfxRTZedukFB4GPBnIsndAn_-QZ6rCyygp9ANQifyVn2ieOBm7k-UMsN9VDtBO0Il5of7Cm8rJtBKP5dfYJy9nN2OcjlyHLWKPSUJzbEn821Tqi61p4H794XT82SsPBXkQAXZvdFGbwQ_d3wFCjKM5HHjKh0Y_ueSJpaRDE3jkZNzOrraLK9rFp5d72kyNcws9z0cw9xg5OB8zd1aibIT_aesABV19I4D-ztsZE6nUYzbTRo_svCX4l86i65ShZFnITsY2Q6H_Xv15Gwb6KuJ1LbuOJiMGuDZL0zHyPPEe_aPyg5S92EXrzzt0XB80xjBY5KCzxeZNM5_VlOp6nispGogtd_MqN9kGWs7gzqyDFv8VuT7pK_lcFENd380WRk1Tn-grX44aE6VHH3VzrmdzFyR975nI2IYvsQxlZRDPy-Hts0DHHacq4unIIn4UCkSzQqhy0tVjs-ZQe_KBju7TXMFpa-kTo-n06CXM9IW7EqapfyTNvSGvRdZSxQCAMAlpenFr7zudbiipdnOI9Y_fOB88sXpgo67_b_Amp99L02YJoEpViNEvWCGoLEnKNwPUKMSZKil0erk0s4yNh2PMMKtQ-yQyQ6zjmNHUPRBvBJ/https://www.amazon.in/gp/aw/d/B0CHX2WQLX/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=2daa504300ab4b0e8f96efbc91b5c388&hsa_cr_id=0&qid=1759393332&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_dlcd_asin_2_price&pd_rd_w=uvEM4&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=AcvEE&pd_rd_r=c43ec3f1-3674-48da-8e38-539b8bc521ae
+                          - generic [ref=e361] [cursor=pointer]:
+                            - generic [ref=e362] [cursor=pointer]:
+                              - generic [ref=e363] [cursor=pointer]: ₹58,499
+                              - generic [ref=e364] [cursor=pointer]:
+                                - generic [ref=e365] [cursor=pointer]: ₹
+                                - generic [ref=e366] [cursor=pointer]: 58,499
+                            - img "Eligible for Prime." [ref=e367] [cursor=pointer]
+                          - generic [ref=e368] [cursor=pointer]:
+                            - generic [ref=e369] [cursor=pointer]:
+                              - generic [ref=e370] [cursor=pointer]: ₹79,900
+                              - generic [ref=e371] [cursor=pointer]: ₹79,900
+                            - generic [ref=e372] [cursor=pointer]: (27% off)
+              - button "Leave feedback on Sponsored ad" [ref=e377] [cursor=pointer]: Sponsored
+          - generic [ref=e380]:
+            - generic [ref=e383]:
+              - heading "Results" [level=2] [ref=e384]
+              - generic [ref=e386]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e387]:
+                  - generic [ref=e395]:
+                    - generic [ref=e397]:
+                      - group "Best sellerin Electronics" [ref=e403]
+                      - link [ref=e409] [cursor=pointer]:
+                        - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMDU0MzQ1OTQ3NjMyOjowOjo&url=%2FApple-iPhone-15-128-GB%2Fdp%2FB0CHX1W1XY%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1LIYsrGPDM&sp_cr=ZAZ
+                        - img [ref=e411] [cursor=pointer]
+                    - generic [ref=e414]:
+                      - generic [ref=e415]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e418] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e420] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - Apple iPhone 15 (128 GB) - Black" [ref=e422] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMDU0MzQ1OTQ3NjMyOjowOjo&url=%2FApple-iPhone-15-128-GB%2Fdp%2FB0CHX1W1XY%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1LIYsrGPDM&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Apple iPhone 15 (128 GB) - Black" [level=2] [ref=e423] [cursor=pointer]:
+                            - generic [ref=e424] [cursor=pointer]: Apple iPhone 15 (128 GB) - Black
+                      - generic [ref=e425]:
+                        - generic [ref=e426]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e428] [cursor=pointer]:
+                            - generic [ref=e430] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e432] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMDU0MzQ1OTQ3NjMyOjowOjo&url=%2FApple-iPhone-15-128-GB%2Fdp%2FB0CHX1W1XY%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1LIYsrGPDM&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e433] [cursor=pointer]: 5,709
+                        - generic [ref=e435]: 5K+ bought in past month
+                      - generic [ref=e438]:
+                        - generic [ref=e439]:
+                          - link "Great Indian Festival" [ref=e441] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e445] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e447]:
+                            - generic [ref=e448]: Price, product page
+                            - 'link "₹47,999 M.R.P: ₹69,900 M.R.P: ₹69,900" [ref=e449] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMDU0MzQ1OTQ3NjMyOjowOjo&url=%2FApple-iPhone-15-128-GB%2Fdp%2FB0CHX1W1XY%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1LIYsrGPDM&sp_cr=ZAZ
+                              - generic [ref=e450] [cursor=pointer]:
+                                - generic [ref=e451] [cursor=pointer]: ₹47,999
+                                - generic [ref=e452] [cursor=pointer]:
+                                  - generic [ref=e453] [cursor=pointer]: ₹
+                                  - generic [ref=e454] [cursor=pointer]: 47,999
+                              - generic [ref=e455] [cursor=pointer]: "M.R.P: ₹69,900"
+                              - generic [ref=e456] [cursor=pointer]:
+                                - generic [ref=e457] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e458] [cursor=pointer]:
+                                  - generic [ref=e459] [cursor=pointer]: ₹69,900
+                                  - generic [ref=e460] [cursor=pointer]: ₹69,900
+                            - generic [ref=e461]: (31% off)
+                          - generic [ref=e465]:
+                            - generic [ref=e466]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e467]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e469]:
+                          - img "Amazon Prime" [ref=e473]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e475]:
+                            - generic [ref=e476]: FREE delivery
+                            - generic [ref=e477]: Sun, 5 Oct
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e479]:
+                            - generic [ref=e480]: Or fastest delivery
+                            - generic [ref=e481]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e494] [cursor=pointer]
+                        - group "colours available" [ref=e496]:
+                          - list
+                          - link "+4 other colors/patterns" [ref=e498] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMDU0MzQ1OTQ3NjMyOjowOjo&url=%2FApple-iPhone-15-128-GB%2Fdp%2FB0CHX1W1XY%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1LIYsrGPDM&sp_cr=ZAZ
+                            - generic [ref=e499] [cursor=pointer]: +4 other colors/patterns
+                - listitem [ref=e502]:
+                  - generic [ref=e510]:
+                    - link [ref=e516] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMzM0MjUyNjIzNDMyOjowOjo&url=%2FiPhone-16-128-GB-Control%2Fdp%2FB0DGHZWBYB%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=LYY0l5JoGH&sp_cr=ZAZ
+                      - img [ref=e518] [cursor=pointer]
+                    - generic [ref=e521]:
+                      - generic [ref=e522]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e525] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e527] [cursor=pointer]: Sponsored
+                        - 'link "Sponsored Ad - iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; White" [ref=e529] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMzM0MjUyNjIzNDMyOjowOjo&url=%2FiPhone-16-128-GB-Control%2Fdp%2FB0DGHZWBYB%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=LYY0l5JoGH&sp_cr=ZAZ
+                          - 'heading "Sponsored Ad - iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; White" [level=2] [ref=e530] [cursor=pointer]':
+                            - generic [ref=e531] [cursor=pointer]: "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; White"
+                      - generic [ref=e532]:
+                        - generic [ref=e533]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e535] [cursor=pointer]:
+                            - generic [ref=e537] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "1,502 ratings" [ref=e539] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMzM0MjUyNjIzNDMyOjowOjo&url=%2FiPhone-16-128-GB-Control%2Fdp%2FB0DGHZWBYB%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=LYY0l5JoGH&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e540] [cursor=pointer]: 1,502
+                        - generic [ref=e542]: 500+ bought in past month
+                      - generic [ref=e545]:
+                        - generic [ref=e546]:
+                          - generic [ref=e548]:
+                            - generic [ref=e549]: Price, product page
+                            - 'link "₹66,990 M.R.P: ₹79,900 M.R.P: ₹79,900" [ref=e550] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMzM0MjUyNjIzNDMyOjowOjo&url=%2FiPhone-16-128-GB-Control%2Fdp%2FB0DGHZWBYB%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=LYY0l5JoGH&sp_cr=ZAZ
+                              - generic [ref=e551] [cursor=pointer]:
+                                - generic [ref=e552] [cursor=pointer]: ₹66,990
+                                - generic [ref=e553] [cursor=pointer]:
+                                  - generic [ref=e554] [cursor=pointer]: ₹
+                                  - generic [ref=e555] [cursor=pointer]: 66,990
+                              - generic [ref=e556] [cursor=pointer]: "M.R.P: ₹79,900"
+                              - generic [ref=e557] [cursor=pointer]:
+                                - generic [ref=e558] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e559] [cursor=pointer]:
+                                  - generic [ref=e560] [cursor=pointer]: ₹79,900
+                                  - generic [ref=e561] [cursor=pointer]: ₹79,900
+                            - generic [ref=e562]: (16% off)
+                          - generic [ref=e566]:
+                            - generic [ref=e567]: Additional Flat INR 3000 Off on SBI Cards
+                            - generic [ref=e568]: Additional Flat INR 3000 Off on SBI...
+                        - generic [ref=e570]:
+                          - img "Amazon Prime" [ref=e574]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e576]:
+                            - generic [ref=e577]: FREE delivery
+                            - generic [ref=e578]: Sun, 5 Oct
+                        - button "Add to cart" [ref=e591] [cursor=pointer]
+                        - group "colours available" [ref=e593]:
+                          - list
+                          - link "+4 other colors/patterns" [ref=e595] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9hdGY6MzAwMzM0MjUyNjIzNDMyOjowOjo&url=%2FiPhone-16-128-GB-Control%2Fdp%2FB0DGHZWBYB%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=LYY0l5JoGH&sp_cr=ZAZ
+                            - generic [ref=e596] [cursor=pointer]: +4 other colors/patterns
+                - listitem [ref=e599]:
+                  - generic [ref=e605]:
+                    - generic [ref=e607]:
+                      - group "Best sellerin Electronics" [ref=e613]
+                      - link [ref=e619] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                        - img [ref=e621] [cursor=pointer]
+                    - generic [ref=e624]:
+                      - link "Apple iPhone 15 (128 GB) - Black" [ref=e626] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                        - heading "Apple iPhone 15 (128 GB) - Black" [level=2] [ref=e627] [cursor=pointer]:
+                          - generic [ref=e628] [cursor=pointer]: Apple iPhone 15 (128 GB) - Black
+                      - generic [ref=e629]:
+                        - generic [ref=e630]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e632] [cursor=pointer]:
+                            - generic [ref=e634] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e636] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3#customerReviews
+                            - generic [ref=e637] [cursor=pointer]: 5,709
+                        - generic [ref=e639]: 5K+ bought in past month
+                      - generic [ref=e642]:
+                        - generic [ref=e643]:
+                          - link "Great Indian Festival" [ref=e645] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e649] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e651]:
+                            - generic [ref=e652]: Price, product page
+                            - 'link "₹47,999 M.R.P: ₹69,900 M.R.P: ₹69,900" [ref=e653] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=sr_1_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                              - generic [ref=e654] [cursor=pointer]:
+                                - generic [ref=e655] [cursor=pointer]: ₹47,999
+                                - generic [ref=e656] [cursor=pointer]:
+                                  - generic [ref=e657] [cursor=pointer]: ₹
+                                  - generic [ref=e658] [cursor=pointer]: 47,999
+                              - generic [ref=e659] [cursor=pointer]: "M.R.P: ₹69,900"
+                              - generic [ref=e660] [cursor=pointer]:
+                                - generic [ref=e661] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e662] [cursor=pointer]:
+                                  - generic [ref=e663] [cursor=pointer]: ₹69,900
+                                  - generic [ref=e664] [cursor=pointer]: ₹69,900
+                            - generic [ref=e665]: (31% off)
+                          - generic [ref=e669]:
+                            - generic [ref=e670]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e671]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e673]:
+                          - img "Amazon Prime" [ref=e677]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e679]:
+                            - generic [ref=e680]: FREE delivery
+                            - generic [ref=e681]: Sun, 5 Oct
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e683]:
+                            - generic [ref=e684]: Or fastest delivery
+                            - generic [ref=e685]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e698] [cursor=pointer]
+                        - group "colours available" [ref=e700]:
+                          - list [ref=e701]:
+                            - generic [ref=e702]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                            - generic [ref=e705]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                            - generic [ref=e708]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                            - generic [ref=e711]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                            - generic [ref=e714]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-3
+                - listitem [ref=e719]:
+                  - generic [ref=e725]:
+                    - generic [ref=e727]:
+                      - group "Best sellerin Electronics" [ref=e733]
+                      - link [ref=e739] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                        - img [ref=e741] [cursor=pointer]
+                    - generic [ref=e744]:
+                      - link "Apple iPhone 15 (128 GB) - Blue" [ref=e746] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                        - heading "Apple iPhone 15 (128 GB) - Blue" [level=2] [ref=e747] [cursor=pointer]:
+                          - generic [ref=e748] [cursor=pointer]: Apple iPhone 15 (128 GB) - Blue
+                      - generic [ref=e749]:
+                        - generic [ref=e750]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e752] [cursor=pointer]:
+                            - generic [ref=e754] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e756] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4#customerReviews
+                            - generic [ref=e757] [cursor=pointer]: 5,709
+                        - generic [ref=e759]: 5K+ bought in past month
+                      - generic [ref=e762]:
+                        - generic [ref=e763]:
+                          - link "Great Indian Festival" [ref=e765] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e769] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e771]:
+                            - generic [ref=e772]: Price, product page
+                            - 'link "₹48,499 M.R.P: ₹69,900 M.R.P: ₹69,900" [ref=e773] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=sr_1_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                              - generic [ref=e774] [cursor=pointer]:
+                                - generic [ref=e775] [cursor=pointer]: ₹48,499
+                                - generic [ref=e776] [cursor=pointer]:
+                                  - generic [ref=e777] [cursor=pointer]: ₹
+                                  - generic [ref=e778] [cursor=pointer]: 48,499
+                              - generic [ref=e779] [cursor=pointer]: "M.R.P: ₹69,900"
+                              - generic [ref=e780] [cursor=pointer]:
+                                - generic [ref=e781] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e782] [cursor=pointer]:
+                                  - generic [ref=e783] [cursor=pointer]: ₹69,900
+                                  - generic [ref=e784] [cursor=pointer]: ₹69,900
+                            - generic [ref=e785]: (31% off)
+                          - generic [ref=e789]:
+                            - generic [ref=e790]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e791]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e793]:
+                          - img "Amazon Prime" [ref=e797]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e799]:
+                            - generic [ref=e800]: FREE delivery
+                            - generic [ref=e801]: Tue, 7 Oct
+                          - generic "Or fastest delivery Mon, 6 Oct" [ref=e803]:
+                            - generic [ref=e804]: Or fastest delivery
+                            - generic [ref=e805]: Mon, 6 Oct
+                        - button "Add to cart" [ref=e818] [cursor=pointer]
+                        - group "colours available" [ref=e820]:
+                          - list [ref=e821]:
+                            - generic [ref=e822]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                            - generic [ref=e825]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                            - generic [ref=e828]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                            - generic [ref=e831]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                            - generic [ref=e834]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-4
+                - listitem [ref=e839]:
+                  - generic [ref=e845]:
+                    - generic [ref=e847]:
+                      - group "Best sellerin Electronics" [ref=e853]
+                      - link [ref=e859] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=sr_1_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                        - img [ref=e861] [cursor=pointer]
+                    - generic [ref=e864]:
+                      - link "Apple iPhone 15 (256 GB) - Pink" [ref=e866] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=sr_1_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                        - heading "Apple iPhone 15 (256 GB) - Pink" [level=2] [ref=e867] [cursor=pointer]:
+                          - generic [ref=e868] [cursor=pointer]: Apple iPhone 15 (256 GB) - Pink
+                      - generic [ref=e869]:
+                        - generic [ref=e870]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e872] [cursor=pointer]:
+                            - generic [ref=e874] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e876] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=sr_1_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5#customerReviews
+                            - generic [ref=e877] [cursor=pointer]: 5,709
+                        - generic [ref=e879]: 5K+ bought in past month
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - link "Great Indian Festival" [ref=e885] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e889] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e891]:
+                            - generic [ref=e892]: Price, product page
+                            - 'link "₹58,499 M.R.P: ₹79,900 M.R.P: ₹79,900" [ref=e893] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=sr_1_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                              - generic [ref=e894] [cursor=pointer]:
+                                - generic [ref=e895] [cursor=pointer]: ₹58,499
+                                - generic [ref=e896] [cursor=pointer]:
+                                  - generic [ref=e897] [cursor=pointer]: ₹
+                                  - generic [ref=e898] [cursor=pointer]: 58,499
+                              - generic [ref=e899] [cursor=pointer]: "M.R.P: ₹79,900"
+                              - generic [ref=e900] [cursor=pointer]:
+                                - generic [ref=e901] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e902] [cursor=pointer]:
+                                  - generic [ref=e903] [cursor=pointer]: ₹79,900
+                                  - generic [ref=e904] [cursor=pointer]: ₹79,900
+                            - generic [ref=e905]: (27% off)
+                          - generic [ref=e909]:
+                            - generic [ref=e910]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e911]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e913]:
+                          - img "Amazon Prime" [ref=e917]
+                          - generic "FREE delivery 4 - 22 Oct" [ref=e919]:
+                            - generic [ref=e920]: FREE delivery
+                            - generic [ref=e921]: 4 - 22 Oct
+                        - button "Add to cart" [ref=e934] [cursor=pointer]
+                        - group "colours available" [ref=e936]:
+                          - list [ref=e937]:
+                            - generic [ref=e938]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                            - generic [ref=e941]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                            - generic [ref=e944]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                            - generic [ref=e947]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                            - generic [ref=e950]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-5
+                - listitem [ref=e955]:
+                  - generic [ref=e961]:
+                    - generic [ref=e963]:
+                      - group "Best sellerin Electronics" [ref=e969]
+                      - link [ref=e975] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=sr_1_6?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                        - img [ref=e977] [cursor=pointer]
+                    - generic [ref=e980]:
+                      - link "Apple iPhone 15 (128 GB) - Pink" [ref=e982] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=sr_1_6?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                        - heading "Apple iPhone 15 (128 GB) - Pink" [level=2] [ref=e983] [cursor=pointer]:
+                          - generic [ref=e984] [cursor=pointer]: Apple iPhone 15 (128 GB) - Pink
+                      - generic [ref=e985]:
+                        - generic [ref=e986]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e988] [cursor=pointer]:
+                            - generic [ref=e990] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e992] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=sr_1_6?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6#customerReviews
+                            - generic [ref=e993] [cursor=pointer]: 5,709
+                        - generic [ref=e995]: 5K+ bought in past month
+                      - generic [ref=e998]:
+                        - generic [ref=e999]:
+                          - link "Great Indian Festival" [ref=e1001] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1005] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1007]:
+                            - generic [ref=e1008]: Price, product page
+                            - 'link "₹47,999 M.R.P: ₹69,900 M.R.P: ₹69,900" [ref=e1009] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=sr_1_6?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                              - generic [ref=e1010] [cursor=pointer]:
+                                - generic [ref=e1011] [cursor=pointer]: ₹47,999
+                                - generic [ref=e1012] [cursor=pointer]:
+                                  - generic [ref=e1013] [cursor=pointer]: ₹
+                                  - generic [ref=e1014] [cursor=pointer]: 47,999
+                              - generic [ref=e1015] [cursor=pointer]: "M.R.P: ₹69,900"
+                              - generic [ref=e1016] [cursor=pointer]:
+                                - generic [ref=e1017] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1018] [cursor=pointer]:
+                                  - generic [ref=e1019] [cursor=pointer]: ₹69,900
+                                  - generic [ref=e1020] [cursor=pointer]: ₹69,900
+                            - generic [ref=e1021]: (31% off)
+                          - generic [ref=e1025]:
+                            - generic [ref=e1026]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1027]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1029]:
+                          - img "Amazon Prime" [ref=e1033]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e1035]:
+                            - generic [ref=e1036]: FREE delivery
+                            - generic [ref=e1037]: Sun, 5 Oct
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e1039]:
+                            - generic [ref=e1040]: Or fastest delivery
+                            - generic [ref=e1041]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e1054] [cursor=pointer]
+                        - group "colours available" [ref=e1056]:
+                          - list [ref=e1057]:
+                            - generic [ref=e1058]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                            - generic [ref=e1061]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                            - generic [ref=e1064]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                            - generic [ref=e1067]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                            - generic [ref=e1070]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-6
+                - listitem [ref=e1075]:
+                  - generic [ref=e1081]:
+                    - generic [ref=e1083]:
+                      - group "Amazon's Choice for \"iPhone 15\"" [ref=e1089]:
+                        - generic [ref=e1091]:
+                          - generic [ref=e1092]: Amazon's
+                          - generic [ref=e1093]: Choice
+                      - link [ref=e1097] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=sr_1_7?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                        - img [ref=e1099] [cursor=pointer]
+                    - generic [ref=e1102]:
+                      - link "Apple iPhone 15 (256 GB) - Blue" [ref=e1104] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=sr_1_7?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                        - heading "Apple iPhone 15 (256 GB) - Blue" [level=2] [ref=e1105] [cursor=pointer]:
+                          - generic [ref=e1106] [cursor=pointer]: Apple iPhone 15 (256 GB) - Blue
+                      - generic [ref=e1107]:
+                        - generic [ref=e1108]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1110] [cursor=pointer]:
+                            - generic [ref=e1112] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1114] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=sr_1_7?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7#customerReviews
+                            - generic [ref=e1115] [cursor=pointer]: 5,709
+                        - generic [ref=e1117]: 5K+ bought in past month
+                      - generic [ref=e1120]:
+                        - generic [ref=e1121]:
+                          - link "Great Indian Festival" [ref=e1123] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1127] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1129]:
+                            - generic [ref=e1130]: Price, product page
+                            - 'link "₹58,999 M.R.P: ₹79,900 M.R.P: ₹79,900" [ref=e1131] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=sr_1_7?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                              - generic [ref=e1132] [cursor=pointer]:
+                                - generic [ref=e1133] [cursor=pointer]: ₹58,999
+                                - generic [ref=e1134] [cursor=pointer]:
+                                  - generic [ref=e1135] [cursor=pointer]: ₹
+                                  - generic [ref=e1136] [cursor=pointer]: 58,999
+                              - generic [ref=e1137] [cursor=pointer]: "M.R.P: ₹79,900"
+                              - generic [ref=e1138] [cursor=pointer]:
+                                - generic [ref=e1139] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1140] [cursor=pointer]:
+                                  - generic [ref=e1141] [cursor=pointer]: ₹79,900
+                                  - generic [ref=e1142] [cursor=pointer]: ₹79,900
+                            - generic [ref=e1143]: (26% off)
+                          - generic [ref=e1147]:
+                            - generic [ref=e1148]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1149]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1151]:
+                          - img "Amazon Prime" [ref=e1155]
+                          - generic "FREE delivery 4 - 12 Oct" [ref=e1157]:
+                            - generic [ref=e1158]: FREE delivery
+                            - generic [ref=e1159]: 4 - 12 Oct
+                        - button "Add to cart" [ref=e1172] [cursor=pointer]
+                        - group "colours available" [ref=e1174]:
+                          - list [ref=e1175]:
+                            - generic [ref=e1176]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                            - generic [ref=e1179]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                            - generic [ref=e1182]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                            - generic [ref=e1185]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                            - generic [ref=e1188]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-7
+                - listitem [ref=e1193]:
+                  - generic [ref=e1199]:
+                    - generic [ref=e1201]:
+                      - group "Best sellerin Electronics" [ref=e1207]
+                      - link [ref=e1213] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                        - img [ref=e1215] [cursor=pointer]
+                    - generic [ref=e1218]:
+                      - link "Apple iPhone 15 (256 GB) - Green" [ref=e1220] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                        - heading "Apple iPhone 15 (256 GB) - Green" [level=2] [ref=e1221] [cursor=pointer]:
+                          - generic [ref=e1222] [cursor=pointer]: Apple iPhone 15 (256 GB) - Green
+                      - generic [ref=e1223]:
+                        - generic [ref=e1224]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1226] [cursor=pointer]:
+                            - generic [ref=e1228] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1230] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8#customerReviews
+                            - generic [ref=e1231] [cursor=pointer]: 5,709
+                        - generic [ref=e1233]: 4K+ bought in past month
+                      - generic [ref=e1236]:
+                        - generic [ref=e1237]:
+                          - link "Great Indian Festival" [ref=e1239] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1243] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1245]:
+                            - generic [ref=e1246]: Price, product page
+                            - 'link "₹58,499 M.R.P: ₹79,900 M.R.P: ₹79,900" [ref=e1247] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=sr_1_8?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                              - generic [ref=e1248] [cursor=pointer]:
+                                - generic [ref=e1249] [cursor=pointer]: ₹58,499
+                                - generic [ref=e1250] [cursor=pointer]:
+                                  - generic [ref=e1251] [cursor=pointer]: ₹
+                                  - generic [ref=e1252] [cursor=pointer]: 58,499
+                              - generic [ref=e1253] [cursor=pointer]: "M.R.P: ₹79,900"
+                              - generic [ref=e1254] [cursor=pointer]:
+                                - generic [ref=e1255] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1256] [cursor=pointer]:
+                                  - generic [ref=e1257] [cursor=pointer]: ₹79,900
+                                  - generic [ref=e1258] [cursor=pointer]: ₹79,900
+                            - generic [ref=e1259]: (27% off)
+                          - generic [ref=e1263]:
+                            - generic [ref=e1264]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1265]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1267]:
+                          - img "Amazon Prime" [ref=e1271]
+                          - generic "FREE delivery 4 - 12 Oct" [ref=e1273]:
+                            - generic [ref=e1274]: FREE delivery
+                            - generic [ref=e1275]: 4 - 12 Oct
+                        - button "Add to cart" [ref=e1288] [cursor=pointer]
+                        - generic [ref=e1290]:
+                          - generic [ref=e1291]: More Buying Choices
+                          - generic [ref=e1292]: ₹57,999
+                          - link "(2 new offers)" [ref=e1294] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0CHX41VNZ/ref=sr_1_8_olp?keywords=iPhone+15&dib_tag=se&dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&qid=1759393332&sr=8-8
+                        - group "colours available" [ref=e1296]:
+                          - list [ref=e1297]:
+                            - generic [ref=e1298]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                            - generic [ref=e1301]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                            - generic [ref=e1304]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                            - generic [ref=e1307]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                            - generic [ref=e1310]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-8
+                - listitem [ref=e1315]:
+                  - generic [ref=e1321]:
+                    - generic [ref=e1323]:
+                      - group "Best sellerin Electronics" [ref=e1329]
+                      - link [ref=e1335] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=sr_1_9?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                        - img [ref=e1337] [cursor=pointer]
+                    - generic [ref=e1340]:
+                      - link "Apple iPhone 15 (128 GB) - Green" [ref=e1342] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=sr_1_9?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                        - heading "Apple iPhone 15 (128 GB) - Green" [level=2] [ref=e1343] [cursor=pointer]:
+                          - generic [ref=e1344] [cursor=pointer]: Apple iPhone 15 (128 GB) - Green
+                      - generic [ref=e1345]:
+                        - generic [ref=e1346]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1348] [cursor=pointer]:
+                            - generic [ref=e1350] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1352] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=sr_1_9?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9#customerReviews
+                            - generic [ref=e1353] [cursor=pointer]: 5,709
+                        - generic [ref=e1355]: 5K+ bought in past month
+                      - generic [ref=e1358]:
+                        - generic [ref=e1359]:
+                          - link "Great Indian Festival" [ref=e1361] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1365] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1367]:
+                            - generic [ref=e1368]: Price, product page
+                            - 'link "₹47,999 M.R.P: ₹69,900 M.R.P: ₹69,900" [ref=e1369] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=sr_1_9?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                              - generic [ref=e1370] [cursor=pointer]:
+                                - generic [ref=e1371] [cursor=pointer]: ₹47,999
+                                - generic [ref=e1372] [cursor=pointer]:
+                                  - generic [ref=e1373] [cursor=pointer]: ₹
+                                  - generic [ref=e1374] [cursor=pointer]: 47,999
+                              - generic [ref=e1375] [cursor=pointer]: "M.R.P: ₹69,900"
+                              - generic [ref=e1376] [cursor=pointer]:
+                                - generic [ref=e1377] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1378] [cursor=pointer]:
+                                  - generic [ref=e1379] [cursor=pointer]: ₹69,900
+                                  - generic [ref=e1380] [cursor=pointer]: ₹69,900
+                            - generic [ref=e1381]: (31% off)
+                          - generic [ref=e1385]:
+                            - generic [ref=e1386]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1387]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1389]:
+                          - img "Amazon Prime" [ref=e1393]
+                          - generic "FREE delivery 4 - 10 Oct" [ref=e1395]:
+                            - generic [ref=e1396]: FREE delivery
+                            - generic [ref=e1397]: 4 - 10 Oct
+                        - button "Add to cart" [ref=e1410] [cursor=pointer]
+                        - group "colours available" [ref=e1412]:
+                          - list [ref=e1413]:
+                            - generic [ref=e1414]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                            - generic [ref=e1417]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                            - generic [ref=e1420]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                            - generic [ref=e1423]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                            - generic [ref=e1426]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-9
+                - listitem [ref=e1431]:
+                  - generic [ref=e1437]:
+                    - generic [ref=e1439]:
+                      - group "Best sellerin Electronics" [ref=e1445]
+                      - link [ref=e1451] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=sr_1_10?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                        - img [ref=e1453] [cursor=pointer]
+                    - generic [ref=e1456]:
+                      - link "Apple iPhone 15 (256 GB) - Black" [ref=e1458] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=sr_1_10?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                        - heading "Apple iPhone 15 (256 GB) - Black" [level=2] [ref=e1459] [cursor=pointer]:
+                          - generic [ref=e1460] [cursor=pointer]: Apple iPhone 15 (256 GB) - Black
+                      - generic [ref=e1461]:
+                        - generic [ref=e1462]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1464] [cursor=pointer]:
+                            - generic [ref=e1466] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1468] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=sr_1_10?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10#customerReviews
+                            - generic [ref=e1469] [cursor=pointer]: 5,709
+                        - generic [ref=e1471]: 5K+ bought in past month
+                      - generic [ref=e1474]:
+                        - generic [ref=e1475]:
+                          - link "Great Indian Festival" [ref=e1477] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1481] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1483]:
+                            - generic [ref=e1484]: Price, product page
+                            - 'link "₹58,499 M.R.P: ₹79,900 M.R.P: ₹79,900" [ref=e1485] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=sr_1_10?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                              - generic [ref=e1486] [cursor=pointer]:
+                                - generic [ref=e1487] [cursor=pointer]: ₹58,499
+                                - generic [ref=e1488] [cursor=pointer]:
+                                  - generic [ref=e1489] [cursor=pointer]: ₹
+                                  - generic [ref=e1490] [cursor=pointer]: 58,499
+                              - generic [ref=e1491] [cursor=pointer]: "M.R.P: ₹79,900"
+                              - generic [ref=e1492] [cursor=pointer]:
+                                - generic [ref=e1493] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1494] [cursor=pointer]:
+                                  - generic [ref=e1495] [cursor=pointer]: ₹79,900
+                                  - generic [ref=e1496] [cursor=pointer]: ₹79,900
+                            - generic [ref=e1497]: (27% off)
+                          - generic [ref=e1501]:
+                            - generic [ref=e1502]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1503]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1505]:
+                          - img "Amazon Prime" [ref=e1509]
+                          - generic "FREE delivery 4 - 12 Oct" [ref=e1511]:
+                            - generic [ref=e1512]: FREE delivery
+                            - generic [ref=e1513]: 4 - 12 Oct
+                        - button "Add to cart" [ref=e1526] [cursor=pointer]
+                        - group "colours available" [ref=e1528]:
+                          - list [ref=e1529]:
+                            - generic [ref=e1530]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                            - generic [ref=e1533]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                            - generic [ref=e1536]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                            - generic [ref=e1539]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                            - generic [ref=e1542]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-10
+                - listitem [ref=e1547]:
+                  - generic [ref=e1553]:
+                    - generic [ref=e1555]:
+                      - group "Best sellerin Electronics" [ref=e1561]
+                      - link [ref=e1567] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=sr_1_11?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                        - img [ref=e1569] [cursor=pointer]
+                    - generic [ref=e1572]:
+                      - link "Apple iPhone 15 (128 GB) - Yellow" [ref=e1574] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=sr_1_11?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                        - heading "Apple iPhone 15 (128 GB) - Yellow" [level=2] [ref=e1575] [cursor=pointer]:
+                          - generic [ref=e1576] [cursor=pointer]: Apple iPhone 15 (128 GB) - Yellow
+                      - generic [ref=e1577]:
+                        - generic [ref=e1578]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1580] [cursor=pointer]:
+                            - generic [ref=e1582] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1584] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=sr_1_11?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11#customerReviews
+                            - generic [ref=e1585] [cursor=pointer]: 5,709
+                        - generic [ref=e1587]: 1K+ bought in past month
+                      - generic [ref=e1590]:
+                        - generic [ref=e1591]:
+                          - link "Great Indian Festival" [ref=e1593] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1597] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1599]:
+                            - generic [ref=e1600]: Price, product page
+                            - 'link "₹48,499 M.R.P: ₹69,900 M.R.P: ₹69,900" [ref=e1601] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=sr_1_11?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                              - generic [ref=e1602] [cursor=pointer]:
+                                - generic [ref=e1603] [cursor=pointer]: ₹48,499
+                                - generic [ref=e1604] [cursor=pointer]:
+                                  - generic [ref=e1605] [cursor=pointer]: ₹
+                                  - generic [ref=e1606] [cursor=pointer]: 48,499
+                              - generic [ref=e1607] [cursor=pointer]: "M.R.P: ₹69,900"
+                              - generic [ref=e1608] [cursor=pointer]:
+                                - generic [ref=e1609] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1610] [cursor=pointer]:
+                                  - generic [ref=e1611] [cursor=pointer]: ₹69,900
+                                  - generic [ref=e1612] [cursor=pointer]: ₹69,900
+                            - generic [ref=e1613]: (31% off)
+                          - generic [ref=e1617]:
+                            - generic [ref=e1618]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1619]: Up to 5% back with Amazon Pay ICI...
+                        - generic "FREE delivery 6 - 11 Oct" [ref=e1622]:
+                          - generic [ref=e1623]: FREE delivery
+                          - generic [ref=e1624]: 6 - 11 Oct
+                        - button "Add to cart" [ref=e1637] [cursor=pointer]
+                        - group "colours available" [ref=e1639]:
+                          - list [ref=e1640]:
+                            - generic [ref=e1641]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX7NG26/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                            - generic [ref=e1644]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                            - generic [ref=e1647]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                            - generic [ref=e1650]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX6NQMD/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                            - generic [ref=e1653]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-128-GB/dp/B0CHX3TW6X/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-11
+                - listitem [ref=e1658]:
+                  - generic [ref=e1664]:
+                    - generic [ref=e1666]:
+                      - group "Best sellerin Electronics" [ref=e1672]
+                      - link [ref=e1678] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=sr_1_12?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                        - img [ref=e1680] [cursor=pointer]
+                    - generic [ref=e1683]:
+                      - link "Apple iPhone 15 (256 GB) - Yellow" [ref=e1685] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=sr_1_12?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                        - heading "Apple iPhone 15 (256 GB) - Yellow" [level=2] [ref=e1686] [cursor=pointer]:
+                          - generic [ref=e1687] [cursor=pointer]: Apple iPhone 15 (256 GB) - Yellow
+                      - generic [ref=e1688]:
+                        - generic [ref=e1689]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1691] [cursor=pointer]:
+                            - generic [ref=e1693] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1695] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=sr_1_12?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12#customerReviews
+                            - generic [ref=e1696] [cursor=pointer]: 5,709
+                        - generic [ref=e1698]: 500+ bought in past month
+                      - generic [ref=e1701]:
+                        - generic [ref=e1702]:
+                          - link "Great Indian Festival" [ref=e1704] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1708] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1710]:
+                            - generic [ref=e1711]: Price, product page
+                            - 'link "₹58,499 M.R.P: ₹89,900 M.R.P: ₹89,900" [ref=e1712] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=sr_1_12?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                              - generic [ref=e1713] [cursor=pointer]:
+                                - generic [ref=e1714] [cursor=pointer]: ₹58,499
+                                - generic [ref=e1715] [cursor=pointer]:
+                                  - generic [ref=e1716] [cursor=pointer]: ₹
+                                  - generic [ref=e1717] [cursor=pointer]: 58,499
+                              - generic [ref=e1718] [cursor=pointer]: "M.R.P: ₹89,900"
+                              - generic [ref=e1719] [cursor=pointer]:
+                                - generic [ref=e1720] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1721] [cursor=pointer]:
+                                  - generic [ref=e1722] [cursor=pointer]: ₹89,900
+                                  - generic [ref=e1723] [cursor=pointer]: ₹89,900
+                            - generic [ref=e1724]: (35% off)
+                          - generic [ref=e1728]:
+                            - generic [ref=e1729]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1730]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1732]:
+                          - img "Amazon Prime" [ref=e1736]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e1738]:
+                            - generic [ref=e1739]: FREE delivery
+                            - generic [ref=e1740]: Sun, 5 Oct
+                        - button "Add to cart" [ref=e1753] [cursor=pointer]
+                        - group "colours available" [ref=e1755]:
+                          - list [ref=e1756]:
+                            - generic [ref=e1757]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX8JCXN/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                            - generic [ref=e1760]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX2WQLX/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                            - generic [ref=e1763]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX6N27Y/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                            - generic [ref=e1766]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX41VNZ/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                            - generic [ref=e1769]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-256-GB/dp/B0CHX4CRND/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-12
+                - listitem [ref=e1774]:
+                  - generic [ref=e1780]:
+                    - generic [ref=e1782]:
+                      - group "Best sellerin Electronics" [ref=e1788]
+                      - link [ref=e1794] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-512-GB/dp/B0CHX9MF1L/ref=sr_1_13?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                        - img [ref=e1796] [cursor=pointer]
+                    - generic [ref=e1799]:
+                      - link "Apple iPhone 15 (512 GB) - Black" [ref=e1801] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-512-GB/dp/B0CHX9MF1L/ref=sr_1_13?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                        - heading "Apple iPhone 15 (512 GB) - Black" [level=2] [ref=e1802] [cursor=pointer]:
+                          - generic [ref=e1803] [cursor=pointer]: Apple iPhone 15 (512 GB) - Black
+                      - generic [ref=e1804]:
+                        - generic [ref=e1805]:
+                          - button "4.5 out of 5 stars, rating details" [ref=e1807] [cursor=pointer]:
+                            - generic [ref=e1809] [cursor=pointer]: 4.5 out of 5 stars
+                          - link "5,709 ratings" [ref=e1811] [cursor=pointer]:
+                            - /url: /Apple-iPhone-15-512-GB/dp/B0CHX9MF1L/ref=sr_1_13?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13#customerReviews
+                            - generic [ref=e1812] [cursor=pointer]: 5,709
+                        - generic [ref=e1814]: 100+ bought in past month
+                      - generic [ref=e1817]:
+                        - generic [ref=e1818]:
+                          - link "Great Indian Festival" [ref=e1820] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1824] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1826]:
+                            - generic [ref=e1827]: Price, product page
+                            - 'link "₹76,999 M.R.P: ₹1,09,600 M.R.P: ₹1,09,600" [ref=e1828] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-512-GB/dp/B0CHX9MF1L/ref=sr_1_13?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                              - generic [ref=e1829] [cursor=pointer]:
+                                - generic [ref=e1830] [cursor=pointer]: ₹76,999
+                                - generic [ref=e1831] [cursor=pointer]:
+                                  - generic [ref=e1832] [cursor=pointer]: ₹
+                                  - generic [ref=e1833] [cursor=pointer]: 76,999
+                              - generic [ref=e1834] [cursor=pointer]: "M.R.P: ₹1,09,600"
+                              - generic [ref=e1835] [cursor=pointer]:
+                                - generic [ref=e1836] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1837] [cursor=pointer]:
+                                  - generic [ref=e1838] [cursor=pointer]: ₹1,09,600
+                                  - generic [ref=e1839] [cursor=pointer]: ₹1,09,600
+                            - generic [ref=e1840]: (30% off)
+                          - generic [ref=e1844]:
+                            - generic [ref=e1845]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1846]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1848]:
+                          - img "Amazon Prime" [ref=e1852]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e1854]:
+                            - generic [ref=e1855]: FREE delivery
+                            - generic [ref=e1856]: Sun, 5 Oct
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e1858]:
+                            - generic [ref=e1859]: Or fastest delivery
+                            - generic [ref=e1860]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e1873] [cursor=pointer]
+                        - group "colours available" [ref=e1875]:
+                          - list [ref=e1876]:
+                            - generic [ref=e1877]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHX9MF1L/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                            - generic [ref=e1880]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHXB1PT6/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                            - generic [ref=e1883]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHX2XFJJ/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                            - generic [ref=e1886]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHWWNKS6/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                            - generic [ref=e1889]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHX3QB9M/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-13
+                - listitem [ref=e1894]:
+                  - generic [ref=e1900]:
+                    - generic [ref=e1902]:
+                      - group "Best sellerin Electronics" [ref=e1908]
+                      - link [ref=e1914] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-512-GB/dp/B0CHX2XFJJ/ref=sr_1_14?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                        - img [ref=e1916] [cursor=pointer]
+                    - generic [ref=e1919]:
+                      - link "Apple iPhone 15 (512 GB) - Green" [ref=e1921] [cursor=pointer]:
+                        - /url: /Apple-iPhone-15-512-GB/dp/B0CHX2XFJJ/ref=sr_1_14?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                        - heading "Apple iPhone 15 (512 GB) - Green" [level=2] [ref=e1922] [cursor=pointer]:
+                          - generic [ref=e1923] [cursor=pointer]: Apple iPhone 15 (512 GB) - Green
+                      - generic [ref=e1925]:
+                        - button "4.5 out of 5 stars, rating details" [ref=e1927] [cursor=pointer]:
+                          - generic [ref=e1929] [cursor=pointer]: 4.5 out of 5 stars
+                        - link "5,709 ratings" [ref=e1931] [cursor=pointer]:
+                          - /url: /Apple-iPhone-15-512-GB/dp/B0CHX2XFJJ/ref=sr_1_14?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14#customerReviews
+                          - generic [ref=e1932] [cursor=pointer]: 5,709
+                      - generic [ref=e1935]:
+                        - generic [ref=e1936]:
+                          - link "Great Indian Festival" [ref=e1938] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1942] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1944]:
+                            - generic [ref=e1945]: Price, product page
+                            - 'link "₹76,999 M.R.P: ₹99,900 M.R.P: ₹99,900" [ref=e1946] [cursor=pointer]':
+                              - /url: /Apple-iPhone-15-512-GB/dp/B0CHX2XFJJ/ref=sr_1_14?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                              - generic [ref=e1947] [cursor=pointer]:
+                                - generic [ref=e1948] [cursor=pointer]: ₹76,999
+                                - generic [ref=e1949] [cursor=pointer]:
+                                  - generic [ref=e1950] [cursor=pointer]: ₹
+                                  - generic [ref=e1951] [cursor=pointer]: 76,999
+                              - generic [ref=e1952] [cursor=pointer]: "M.R.P: ₹99,900"
+                              - generic [ref=e1953] [cursor=pointer]:
+                                - generic [ref=e1954] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1955] [cursor=pointer]:
+                                  - generic [ref=e1956] [cursor=pointer]: ₹99,900
+                                  - generic [ref=e1957] [cursor=pointer]: ₹99,900
+                            - generic [ref=e1958]: (23% off)
+                          - generic [ref=e1962]:
+                            - generic [ref=e1963]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1964]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1966]:
+                          - img "Amazon Prime" [ref=e1970]
+                          - generic "FREE delivery Mon, 6 Oct" [ref=e1972]:
+                            - generic [ref=e1973]: FREE delivery
+                            - generic [ref=e1974]: Mon, 6 Oct
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e1976]:
+                            - generic [ref=e1977]: Or fastest delivery
+                            - generic [ref=e1978]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e1991] [cursor=pointer]
+                        - group "colours available" [ref=e1993]:
+                          - list [ref=e1994]:
+                            - generic [ref=e1995]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHX2XFJJ/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                            - generic [ref=e1998]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHX9MF1L/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                            - generic [ref=e2001]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHXB1PT6/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                            - generic [ref=e2004]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHWWNKS6/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                            - generic [ref=e2007]:
+                              - listitem:
+                                - link "Yellow":
+                                  - /url: /Apple-iPhone-15-512-GB/dp/B0CHX3QB9M/ref=cs_sr_dp_5?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-14
+                - listitem [ref=e2012]:
+                  - generic [ref=e2018]:
+                    - link [ref=e2024] [cursor=pointer]:
+                      - /url: /dp/B0FQFJGP8S/ref=sr_1_15?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                      - img [ref=e2026] [cursor=pointer]
+                    - generic [ref=e2029]:
+                      - 'link "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Sky Blue" [ref=e2031] [cursor=pointer]':
+                        - /url: /dp/B0FQFJGP8S/ref=sr_1_15?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                        - 'heading "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Sky Blue" [level=2] [ref=e2032] [cursor=pointer]':
+                          - generic [ref=e2033] [cursor=pointer]: "iPhone Air 256 GB: Thinnest iPhone Ever, 16.63 cm (6.5″) Display with Promotion up to 120Hz, Powerful A19 Pro Chip, Center Stage Front Camera, All-Day Battery Life; Sky Blue"
+                      - generic [ref=e2035]:
+                        - button "3.0 out of 5 stars, rating details" [ref=e2037] [cursor=pointer]:
+                          - generic [ref=e2039] [cursor=pointer]: 3.0 out of 5 stars
+                        - link "5 ratings" [ref=e2041] [cursor=pointer]:
+                          - /url: /dp/B0FQFJGP8S/ref=sr_1_15?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15#customerReviews
+                          - generic [ref=e2042] [cursor=pointer]: "5"
+                      - generic [ref=e2045]:
+                        - generic [ref=e2046]:
+                          - generic [ref=e2048]:
+                            - generic [ref=e2049]: Price, product page
+                            - link "₹1,19,900" [ref=e2050] [cursor=pointer]:
+                              - /url: /dp/B0FQFJGP8S/ref=sr_1_15?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                              - generic [ref=e2051] [cursor=pointer]:
+                                - generic [ref=e2052] [cursor=pointer]: ₹1,19,900
+                                - generic [ref=e2053] [cursor=pointer]:
+                                  - generic [ref=e2054] [cursor=pointer]: ₹
+                                  - generic [ref=e2055] [cursor=pointer]: 1,19,900
+                          - generic [ref=e2059]:
+                            - generic [ref=e2060]: Additional Flat INR 3000 Off on SBI Cards
+                            - generic [ref=e2061]: Additional Flat INR 3000 Off on SBI...
+                        - generic [ref=e2063]:
+                          - img "Amazon Prime" [ref=e2067]
+                          - generic "FREE delivery Sun, 5 Oct" [ref=e2069]:
+                            - generic [ref=e2070]: FREE delivery
+                            - generic [ref=e2071]: Sun, 5 Oct
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e2073]:
+                            - generic [ref=e2074]: Or fastest delivery
+                            - generic [ref=e2075]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e2088] [cursor=pointer]
+                        - group "colours available" [ref=e2090]:
+                          - list [ref=e2091]:
+                            - generic [ref=e2092]:
+                              - listitem:
+                                - link "Sky Blue":
+                                  - /url: /dp/B0FQFJGP8S/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                            - generic [ref=e2095]:
+                              - listitem:
+                                - link "Cloud White":
+                                  - /url: /dp/B0FQFLWN5Z/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                            - generic [ref=e2098]:
+                              - listitem:
+                                - link "Light Gold":
+                                  - /url: /dp/B0FQFTV1NP/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                            - generic [ref=e2101]:
+                              - listitem:
+                                - link "Space Black":
+                                  - /url: /dp/B0FQFBDQJ1/ref=cs_sr_dp_4?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-15
+                - listitem [ref=e2106]:
+                  - generic [ref=e2112]:
+                    - generic [ref=e2114]:
+                      - group "Best sellerin Mobile Screen Guards" [ref=e2120]
+                      - link [ref=e2126] [cursor=pointer]:
+                        - /url: /POPIO-Privacy-Compatible-iPhone-Installation/dp/B0DSWFMWQC/ref=sr_1_16?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-16
+                        - img [ref=e2128] [cursor=pointer]
+                    - generic [ref=e2131]:
+                      - link "POPIO Privacy Military-Grade Tempered Glass for iPhone 15 – Anti Spy Screen Protector Guard (Pack of 1)" [ref=e2133] [cursor=pointer]:
+                        - /url: /POPIO-Privacy-Compatible-iPhone-Installation/dp/B0DSWFMWQC/ref=sr_1_16?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-16
+                        - heading "POPIO Privacy Military-Grade Tempered Glass for iPhone 15 – Anti Spy Screen Protector Guard (Pack of 1)" [level=2] [ref=e2134] [cursor=pointer]:
+                          - generic [ref=e2135] [cursor=pointer]: POPIO Privacy Military-Grade Tempered Glass for iPhone 15 – Anti Spy Screen Protector Guard (Pack of 1)
+                      - generic [ref=e2136]:
+                        - generic [ref=e2137]:
+                          - button "4.0 out of 5 stars, rating details" [ref=e2139] [cursor=pointer]:
+                            - generic [ref=e2141] [cursor=pointer]: 4.0 out of 5 stars
+                          - link "25,393 ratings" [ref=e2143] [cursor=pointer]:
+                            - /url: /POPIO-Privacy-Compatible-iPhone-Installation/dp/B0DSWFMWQC/ref=sr_1_16?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-16#customerReviews
+                            - generic [ref=e2144] [cursor=pointer]: 25,393
+                        - generic [ref=e2146]: 1K+ bought in past month
+                      - generic [ref=e2149]:
+                        - generic [ref=e2150]:
+                          - link "Great Indian Festival" [ref=e2152] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2156] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2158]:
+                            - generic [ref=e2159]: Price, product page
+                            - 'link "₹251 M.R.P: ₹599 M.R.P: ₹599" [ref=e2160] [cursor=pointer]':
+                              - /url: /POPIO-Privacy-Compatible-iPhone-Installation/dp/B0DSWFMWQC/ref=sr_1_16?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-16
+                              - generic [ref=e2161] [cursor=pointer]:
+                                - generic [ref=e2162] [cursor=pointer]: ₹251
+                                - generic [ref=e2163] [cursor=pointer]:
+                                  - generic [ref=e2164] [cursor=pointer]: ₹
+                                  - generic [ref=e2165] [cursor=pointer]: "251"
+                              - generic [ref=e2166] [cursor=pointer]: "M.R.P: ₹599"
+                              - generic [ref=e2167] [cursor=pointer]:
+                                - generic [ref=e2168] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2169] [cursor=pointer]:
+                                  - generic [ref=e2170] [cursor=pointer]: ₹599
+                                  - generic [ref=e2171] [cursor=pointer]: ₹599
+                            - generic [ref=e2172]: (58% off)
+                          - generic [ref=e2174]: Buy 2 items, get 5% off
+                        - generic [ref=e2176]:
+                          - generic "FREE delivery Sun, 5 Oct on first order" [ref=e2178]:
+                            - generic [ref=e2179]: FREE delivery
+                            - generic [ref=e2180]: Sun, 5 Oct
+                            - generic [ref=e2181]: on first order
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e2183]:
+                            - generic [ref=e2184]: Or fastest delivery
+                            - generic [ref=e2185]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e2198] [cursor=pointer]
+                - listitem [ref=e2201]:
+                  - generic [ref=e2207]:
+                    - link [ref=e2213] [cursor=pointer]:
+                      - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPQ862X/ref=sr_1_17?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17
+                      - img [ref=e2215] [cursor=pointer]
+                    - generic [ref=e2218]:
+                      - link "amazon basics Luxury Paper Thin Case Cover for iPhone 15 | Matte Finish | Compatible with magsafe | (Black, iPhone 15)" [ref=e2220] [cursor=pointer]:
+                        - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPQ862X/ref=sr_1_17?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17
+                        - heading "amazon basics Luxury Paper Thin Case Cover for iPhone 15 | Matte Finish | Compatible with magsafe | (Black, iPhone 15)" [level=2] [ref=e2221] [cursor=pointer]:
+                          - generic [ref=e2222] [cursor=pointer]: amazon basics Luxury Paper Thin Case Cover for iPhone 15 | Matte Finish | Compatible with magsafe | (Black, iPhone 15)
+                      - generic [ref=e2223]:
+                        - generic [ref=e2224]:
+                          - button "4.1 out of 5 stars, rating details" [ref=e2226] [cursor=pointer]:
+                            - generic [ref=e2228] [cursor=pointer]: 4.1 out of 5 stars
+                          - link "416 ratings" [ref=e2230] [cursor=pointer]:
+                            - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPQ862X/ref=sr_1_17?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17#customerReviews
+                            - generic [ref=e2231] [cursor=pointer]: "416"
+                        - generic [ref=e2233]: 900+ bought in past month
+                      - generic [ref=e2236]:
+                        - generic [ref=e2237]:
+                          - link "Great Indian Festival" [ref=e2239] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2243] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2245]:
+                            - generic [ref=e2246]: Price, product page
+                            - 'link "₹227 M.R.P: ₹799 M.R.P: ₹799" [ref=e2247] [cursor=pointer]':
+                              - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPQ862X/ref=sr_1_17?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17
+                              - generic [ref=e2248] [cursor=pointer]:
+                                - generic [ref=e2249] [cursor=pointer]: ₹227
+                                - generic [ref=e2250] [cursor=pointer]:
+                                  - generic [ref=e2251] [cursor=pointer]: ₹
+                                  - generic [ref=e2252] [cursor=pointer]: "227"
+                              - generic [ref=e2253] [cursor=pointer]: "M.R.P: ₹799"
+                              - generic [ref=e2254] [cursor=pointer]:
+                                - generic [ref=e2255] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2256] [cursor=pointer]:
+                                  - generic [ref=e2257] [cursor=pointer]: ₹799
+                                  - generic [ref=e2258] [cursor=pointer]: ₹799
+                            - generic [ref=e2259]: (72% off)
+                        - generic [ref=e2261]:
+                          - generic "FREE delivery Sun, 5 Oct on first order" [ref=e2263]:
+                            - generic [ref=e2264]: FREE delivery
+                            - generic [ref=e2265]: Sun, 5 Oct
+                            - generic [ref=e2266]: on first order
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e2268]:
+                            - generic [ref=e2269]: Or fastest delivery
+                            - generic [ref=e2270]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e2283] [cursor=pointer]
+                        - group "colours available" [ref=e2285]:
+                          - list [ref=e2286]:
+                            - generic [ref=e2287]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPQ862X/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17
+                            - generic [ref=e2290]:
+                              - listitem:
+                                - link "Blue":
+                                  - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPRQH42/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17
+                            - generic [ref=e2293]:
+                              - listitem:
+                                - link "Pink":
+                                  - /url: /amazon-basics-iPhone-15-Compatible/dp/B0DTPSTLZ3/ref=cs_sr_dp_3?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-17
+                - listitem [ref=e2298]:
+                  - generic [ref=e2304]:
+                    - link [ref=e2310] [cursor=pointer]:
+                      - /url: /EGOTUDE-Transparent-Polycarbonate-Case-Stand/dp/B0FGD9F3ND/ref=sr_1_18?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-18
+                      - img [ref=e2312] [cursor=pointer]
+                    - generic [ref=e2315]:
+                      - link "EGOTUDE Clear Transparent Polycarbonate Hard Back Cover Case with Stand for iPhone 15 & iPhone 14" [ref=e2317] [cursor=pointer]:
+                        - /url: /EGOTUDE-Transparent-Polycarbonate-Case-Stand/dp/B0FGD9F3ND/ref=sr_1_18?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-18
+                        - heading "EGOTUDE Clear Transparent Polycarbonate Hard Back Cover Case with Stand for iPhone 15 & iPhone 14" [level=2] [ref=e2318] [cursor=pointer]:
+                          - generic [ref=e2319] [cursor=pointer]: EGOTUDE Clear Transparent Polycarbonate Hard Back Cover Case with Stand for iPhone 15 & iPhone 14
+                      - generic [ref=e2320]:
+                        - generic [ref=e2321]:
+                          - button "4.3 out of 5 stars, rating details" [ref=e2323] [cursor=pointer]:
+                            - generic [ref=e2325] [cursor=pointer]: 4.3 out of 5 stars
+                          - link "34 ratings" [ref=e2327] [cursor=pointer]:
+                            - /url: /EGOTUDE-Transparent-Polycarbonate-Case-Stand/dp/B0FGD9F3ND/ref=sr_1_18?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-18#customerReviews
+                            - generic [ref=e2328] [cursor=pointer]: "34"
+                        - generic [ref=e2330]: 300+ bought in past month
+                      - generic [ref=e2333]:
+                        - generic [ref=e2334]:
+                          - link "Great Indian Festival" [ref=e2336] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2340] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2342]:
+                            - generic [ref=e2343]: Price, product page
+                            - 'link "₹284 M.R.P: ₹999 M.R.P: ₹999" [ref=e2344] [cursor=pointer]':
+                              - /url: /EGOTUDE-Transparent-Polycarbonate-Case-Stand/dp/B0FGD9F3ND/ref=sr_1_18?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-18
+                              - generic [ref=e2345] [cursor=pointer]:
+                                - generic [ref=e2346] [cursor=pointer]: ₹284
+                                - generic [ref=e2347] [cursor=pointer]:
+                                  - generic [ref=e2348] [cursor=pointer]: ₹
+                                  - generic [ref=e2349] [cursor=pointer]: "284"
+                              - generic [ref=e2350] [cursor=pointer]: "M.R.P: ₹999"
+                              - generic [ref=e2351] [cursor=pointer]:
+                                - generic [ref=e2352] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2353] [cursor=pointer]:
+                                  - generic [ref=e2354] [cursor=pointer]: ₹999
+                                  - generic [ref=e2355] [cursor=pointer]: ₹999
+                            - generic [ref=e2356]: (72% off)
+                          - generic [ref=e2358]: Buy 2 items, get 5% off
+                        - generic [ref=e2360]:
+                          - generic "FREE delivery Sun, 5 Oct on first order" [ref=e2362]:
+                            - generic [ref=e2363]: FREE delivery
+                            - generic [ref=e2364]: Sun, 5 Oct
+                            - generic [ref=e2365]: on first order
+                          - generic "Or fastest delivery Sat, 4 Oct" [ref=e2367]:
+                            - generic [ref=e2368]: Or fastest delivery
+                            - generic [ref=e2369]: Sat, 4 Oct
+                        - button "Add to cart" [ref=e2382] [cursor=pointer]
+                        - group "colours available" [ref=e2384]:
+                          - list [ref=e2385]:
+                            - generic [ref=e2386]:
+                              - listitem:
+                                - link "Clear":
+                                  - /url: /EGOTUDE-Transparent-Polycarbonate-Case-Stand/dp/B0FGD9F3ND/ref=cs_sr_dp_1?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-18
+                            - generic [ref=e2389]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /EGOTUDE-Transparent-Polycarbonate-Case-Stand/dp/B0FHKMH4KQ/ref=cs_sr_dp_2?dib=eyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg&dib_tag=se&keywords=iPhone+15&qid=1759393332&sr=8-18
+                - listitem [ref=e2394]:
+                  - generic [ref=e2402]:
+                    - link [ref=e2408] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9idGY6MzAwMTQ3NDA5MjMyOTMyOjowOjo&url=%2FSamsung-Awesome-Iceblue-Storage-Nightography%2Fdp%2FB0CWPC2W5V%2Fref%3Dsr_1_19_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-19-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=PkbA4197Gr&sp_cr=ZAZ
+                      - img [ref=e2410] [cursor=pointer]
+                    - generic [ref=e2413]:
+                      - generic [ref=e2414]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2417] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e2419] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=e2421] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9idGY6MzAwMTQ3NDA5MjMyOTMyOjowOjo&url=%2FSamsung-Awesome-Iceblue-Storage-Nightography%2Fdp%2FB0CWPC2W5V%2Fref%3Dsr_1_19_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-19-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=PkbA4197Gr&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [level=2] [ref=e2422] [cursor=pointer]:
+                            - generic [ref=e2423] [cursor=pointer]: Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display
+                      - generic [ref=e2424]:
+                        - generic [ref=e2425]:
+                          - button "4.2 out of 5 stars, rating details" [ref=e2427] [cursor=pointer]:
+                            - generic [ref=e2429] [cursor=pointer]: 4.2 out of 5 stars
+                          - link "2,839 ratings" [ref=e2431] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9idGY6MzAwMTQ3NDA5MjMyOTMyOjowOjo&url=%2FSamsung-Awesome-Iceblue-Storage-Nightography%2Fdp%2FB0CWPC2W5V%2Fref%3Dsr_1_19_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-19-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=PkbA4197Gr&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e2432] [cursor=pointer]: 2,839
+                        - generic [ref=e2434]: 5K+ bought in past month
+                      - generic [ref=e2437]:
+                        - generic [ref=e2438]:
+                          - link "Great Indian Festival" [ref=e2440] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2444] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2446]:
+                            - generic [ref=e2447]: Price, product page
+                            - 'link "₹23,999 M.R.P: ₹42,999 M.R.P: ₹42,999" [ref=e2448] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9idGY6MzAwMTQ3NDA5MjMyOTMyOjowOjo&url=%2FSamsung-Awesome-Iceblue-Storage-Nightography%2Fdp%2FB0CWPC2W5V%2Fref%3Dsr_1_19_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-19-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=PkbA4197Gr&sp_cr=ZAZ
+                              - generic [ref=e2449] [cursor=pointer]:
+                                - generic [ref=e2450] [cursor=pointer]: ₹23,999
+                                - generic [ref=e2451] [cursor=pointer]:
+                                  - generic [ref=e2452] [cursor=pointer]: ₹
+                                  - generic [ref=e2453] [cursor=pointer]: 23,999
+                              - generic [ref=e2454] [cursor=pointer]: "M.R.P: ₹42,999"
+                              - generic [ref=e2455] [cursor=pointer]:
+                                - generic [ref=e2456] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2457] [cursor=pointer]:
+                                  - generic [ref=e2458] [cursor=pointer]: ₹42,999
+                                  - generic [ref=e2459] [cursor=pointer]: ₹42,999
+                            - generic [ref=e2460]: (44% off)
+                          - generic [ref=e2464]:
+                            - generic [ref=e2465]: Save extra with No Cost EMI
+                            - generic [ref=e2466]: Save extra with No Cost EMI
+                        - generic [ref=e2468]:
+                          - img "Amazon Prime" [ref=e2472]
+                          - generic "FREE delivery 4 - 10 Oct" [ref=e2474]:
+                            - generic [ref=e2475]: FREE delivery
+                            - generic [ref=e2476]: 4 - 10 Oct
+                        - button "Add to cart" [ref=e2489] [cursor=pointer]
+                        - group "colours available" [ref=e2491]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e2493] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1MDY1Njc3NzE1OTgzNzM6MTc1OTM5MzMzMjpzcF9idGY6MzAwMTQ3NDA5MjMyOTMyOjowOjo&url=%2FSamsung-Awesome-Iceblue-Storage-Nightography%2Fdp%2FB0CWPC2W5V%2Fref%3Dsr_1_19_sspa%3Fdib%3DeyJ2IjoiMSJ9.8-aKrERwPzdGyJWfWOa56NRxCobuTwuLY669tfKhpj64nrBHk0q7-6xivRGXMniwKyQ_nktDI7kGrnJr6WcwXNO0ctmpirowH0dlh4zFrwWDs38L5cb6e_FigEiXTXQ2n7ISdzqUx7Uu_WBfcA0ucrXeQlSx9qKoTl2zbjAfIEBTHl-miz5_v0dWVRHu2A8i3lmY3568QGZxfsZhAJQX6jLU_HzaNI8veAOBh7Goe3g.7CMa1M0ErFexrJsa61rF59MdW-6MVcB3HyD8EwSuLeg%26dib_tag%3Dse%26keywords%3DiPhone%2B15%26qid%3D1759393332%26sr%3D8-19-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=PkbA4197Gr&sp_cr=ZAZ
+                            - generic [ref=e2494] [cursor=pointer]: +1 other color/pattern
+          - generic [ref=e2504]:
+            - link "Sponsored video; click to navigate to featured product page. Panasonic 1.5 Ton 3 Star Premium Wi-Fi Inverter Smart Split AC (Matter Enabled, Higher Airflow, Copper Condenser, 7in1 Convertible, True AI, 2-Way, PM 0.1 Filter, CS/CU-SU18AKY3W, White)" [ref=e2508] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JGGVt920Fo1LmzkIs9o4iFUAAAGZpAO9EAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICA5v_1S/clv1_CEuOPUxokZA0iHrVa9USmHnaeU95b6c_k64G52aI9sJL8X8PhRGQD_018HHz9hvVjq0yzpNb3X7OfU1JBWcANnpcbHqbL_XxLlwHQXhwWQGjHadChEfB8IkGXCQwUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTnFsmRG-N26N96RwcCka8lg_pxHZh-8WZFCnaZ1SWr3JYqfnqDdhxLjmOcuEwxtBD2LaOtZkZJfIT3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGch64QwHz5n0OSRtdn8wh9Yh45w0JHwnTXmEukoLhg_zTMJn0QYF-Hkz4OQx6t4iEHKDF3wY2ov8ad3N7LTnG3BSPj7q2DbPZdZW7B9Gz-QXSf6QiflcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawIyWs8DJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9cxN_WrnG6w_NJlkeDjaj241V7lQYZLIQ26STlkdCtSF3DsmYhExf4IFvkAx3CmWCfpGOJzj2T4FuKPRCSWqSVp_SGmg5C7GWQpynnc33fyHQ3rVpV9ABBz1rNrLFCHyNIeJb_QheNIqHrOPXmsoiTdriq2g9B-EQ_FEnYlY6eMntHUr2MJEFt7f8pInC6ReMj3b7wYgXgjlvY_sdL32FAG2m6F3fGxsHiAXvLsKYzsB3oohh6jGJ2bpLG1rBNmUZUlq_xU65hC0UOKvVKeoToPejbUb8SZJIf8UlrEcy18BClLKT8wiYqRKrCND2d-pob9_Rn-wdowiG97QSNvUaVj-s7Ub21u4LdVgc3f3u5oU6-VlcT8p0O_RMids_jFepGVOQuMm2PULPcIxcThTxVGGjWyDEXhYZUomIU9KptDOLaV5e55c0w97hmz4TTDN69qUiKtclDzXtPCOloD8LAnjnspaoxT77RzXAZ36SxRuUZu0Pk7EVnPct0kEeoXDOCkuANmB61-I1oOGyoCfCdg8RQ-hJaKPZWsU3Xwv9o-bkNEnYEX2Id6gJgvey58Sh06CyOaRwA48Sq8xqQ5_OCW3t5ZPHXvjQH1g_TA1M3NTx0I1y8Iz9z3Tc_uywfWfDFFWMuwZZmlhUR7bnTHDIRH7I5LkJVnbWtj5EyakNdBW6akYGHLRDh_M9Wdr0K9Z-q5TeeVtwyPjpvduDnfx-KLHBu0B0pFjAm4YkDgLywAlxqC2bloNBMmuZyALy09vkm7k8NqR3_1byJ-0IlJMj5ymurJRdLv9PR4dP4FYrLOLUnXbvVO6WCirIn5KpT5Hfyrg68MIOQcKGvvMigVoudONGGM0PgcriJXjjCp6GprMOc8eaW8JbbiFpiCJ_kd37ZKa6gH86SKnWyfwJjdziQhNfkMio0DcRRDbKKuaErhN30tAoV4_1s6Nql00SLjRv2MjvcYZ77BS6FBBzi57BTSZiHOWp0LyFUb6VEnyHtP1iM1W4YK43EjfRKrLkFy9DL4SRb56HpB_4rk9hEfp2fh5lUY8yjVlfqMLlscfmtNVPKc2VGeR5GHuB-l6XHgjauzNywVj7YZrmNeMDEsKohK9QQnRFvoxXf_mQIRJpA5zjgIydffwTkBpRTaL8RNZsEyzWaLc2xMRsrEanTyQsjGIoIms6dhGtIXC86SaZCp2jyjwp3k3cAc9bTLIid8CqEdrSC61QPTMBQTc1punwRu7XiqH_rrJCcrgi4N2j1Ix9oTwh--v7cmpMwvMPfqoyQxy44IH_ZCCB4UQOaBLqabSOrFHXjRhEC50lAqq1LXaTlGA26NmB5rrc5nDYxGi7_9LA3w/https://www.amazon.in/dp/B0DSVS6P6G?pd_rd_i=B0DSVS6P6G&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_w=UD4fC&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4
+            - generic [ref=e2517]:
+              - link [ref=e2523] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JGGVt920Fo1LmzkIs9o4iFUAAAGZpAO9EAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICA5v_1S/clv1_CEuOPUxokZA0iHrVa9USmHnaeU95b6c_k64G52aI9sJL8X8PhRGQD_018HHz9hvVjq0yzpNb3X7OfU1JBWcANnpcbHqbL_XxLlwHQXhwWQGjHadChEfB8IkGXCQwUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTnFsmRG-N26N96RwcCka8lg_pxHZh-8WZFCnaZ1SWr3JYqfnqDdhxLjmOcuEwxtBD2LaOtZkZJfIT3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGch64QwHz5n0OSRtdn8wh9Yh45w0JHwnTXmEukoLhg_zTMJn0QYF-Hkz4OQx6t4iEHKDF3wY2ov8ad3N7LTnG3BSPj7q2DbPZdZW7B9Gz-QXSf6QiflcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawIyWs8DJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9cxN_WrnG6w_NJlkeDjaj241V7lQYZLIQ26STlkdCtSF3DsmYhExf4IFvkAx3CmWCfpGOJzj2T4FuKPRCSWqSVp_SGmg5C7GWQpynnc33fyHQ3rVpV9ABBz1rNrLFCHyNIeJb_QheNIqHrOPXmsoiTdriq2g9B-EQ_FEnYlY6eMntHUr2MJEFt7f8pInC6ReMj3b7wYgXgjlvY_sdL32FAG2m6F3fGxsHiAXvLsKYzsB3oohh6jGJ2bpLG1rBNmUZUlq_xU65hC0UOKvVKeoToPejbUb8SZJIf8UlrEcy18BClLKT8wiYqRKrCND2d-pob9_Rn-wdowiG97QSNvUaVj-s7Ub21u4LdVgc3f3u5oU6-VlcT8p0O_RMids_jFepGVOQuMm2PULPcIxcThTxVGGjWyDEXhYZUomIU9KptDOLaV5e55c0w97hmz4TTDN69qUiKtclDzXtPCOloD8LAnjnspaoxT77RzXAZ36SxRuUZu0Pk7EVnPct0kEeoXDOCkuANmB61-I1oOGyoCfCdg8RQ-hJaKPZWsU3Xwv9o-bkNEnYEX2Id6gJgvey58Sh06CyOaRwA48Sq8xqQ5_OCW3t5ZPHXvjQH1g_TA1M3NTx0I1y8Iz9z3Tc_uywfWfDFFWMuwZZmlhUR7bnTHDIRH7I5LkJVnbWtj5EyakNdBW6akYGHLRDh_M9Wdr0K9Z-q5TeeVtwyPjpvduDnfx-KLHBu0B0pFjAm4YkDgLywAlxqC2bloNBMmuZyALy09vkm7k8NqR3_1byJ-0IlJMj5ymurJRdLv9PR4dP4FYrLOLUnXbvVO6WCirIn5KpT5Hfyrg68MIOQcKGvvMigVoudONGGM0PgcriJXjjCp6GprMOc8eaW8JbbiFpiCJ_kd37ZKa6gH86SKnWyfwJjdziQhNfkMio0DcRRDbKKuaErhN30tAoV4_1s6Nql00SLjRv2MjvcYZ77BS6FBBzi57BTSZiHOWp0LyFUb6VEnyHtP1iM1W4YK43EjfRKrLkFy9DL4SRb56HpB_4rk9hEfp2fh5lUY8yjVlfqMLlscfmtNVPKc2VGeR5GHuB-l6XHgjauzNywVj7YZrmNeMDEsKohK9QQnRFvoxXf_mQIRJpA5zjgIydffwTkBpRTaL8RNZsEyzWaLc2xMRsrEanTyQsjGIoIms6dhGtIXC86SaZCp2jyjwp3k3cAc9bTLIid8CqEdrSC61QPTMBQTc1punwRu7XiqH_rrJCcrgi4N2j1Ix9oTwh--v7cmpMwvMPfqoyQxy44IH_ZCCB4UQOaBLqabSOrFHXjRhEC50lAqq1LXaTlGA26NmB5rrc5nDYxGi7_9LA3w/https://www.amazon.in/Panasonic-Condenser-Convertible-CS-CU-SU18AKY3W/dp/B0DSVS6P6G/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=iPhone+15&keywords=iPhone+15&pd_rd_i=B0DSVS6P6G&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&pd_rd_w=UD4fC&pd_rd_wg=5aro5&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&qid=1759393332&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                - img [ref=e2525] [cursor=pointer]
+              - generic [ref=e2528]:
+                - generic [ref=e2529]:
+                  - generic [ref=e2533] [cursor=pointer]: Sponsored
+                  - link "Panasonic 1.5 Ton 3 Star Premium Wi-Fi Inverter Smart Split AC (Matter Enabled, Higher Airflow, Copper Condenser, 7in1 Convertible, True AI, 2-Way, PM 0.1 Filter, CS/CU-SU18AKY3W, White)" [ref=e2535] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JGGVt920Fo1LmzkIs9o4iFUAAAGZpAO9EAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICA5v_1S/clv1_CEuOPUxokZA0iHrVa9USmHnaeU95b6c_k64G52aI9sJL8X8PhRGQD_018HHz9hvVjq0yzpNb3X7OfU1JBWcANnpcbHqbL_XxLlwHQXhwWQGjHadChEfB8IkGXCQwUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTnFsmRG-N26N96RwcCka8lg_pxHZh-8WZFCnaZ1SWr3JYqfnqDdhxLjmOcuEwxtBD2LaOtZkZJfIT3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGch64QwHz5n0OSRtdn8wh9Yh45w0JHwnTXmEukoLhg_zTMJn0QYF-Hkz4OQx6t4iEHKDF3wY2ov8ad3N7LTnG3BSPj7q2DbPZdZW7B9Gz-QXSf6QiflcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawIyWs8DJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9cxN_WrnG6w_NJlkeDjaj241V7lQYZLIQ26STlkdCtSF3DsmYhExf4IFvkAx3CmWCfpGOJzj2T4FuKPRCSWqSVp_SGmg5C7GWQpynnc33fyHQ3rVpV9ABBz1rNrLFCHyNIeJb_QheNIqHrOPXmsoiTdriq2g9B-EQ_FEnYlY6eMntHUr2MJEFt7f8pInC6ReMj3b7wYgXgjlvY_sdL32FAG2m6F3fGxsHiAXvLsKYzsB3oohh6jGJ2bpLG1rBNmUZUlq_xU65hC0UOKvVKeoToPejbUb8SZJIf8UlrEcy18BClLKT8wiYqRKrCND2d-pob9_Rn-wdowiG97QSNvUaVj-s7Ub21u4LdVgc3f3u5oU6-VlcT8p0O_RMids_jFepGVOQuMm2PULPcIxcThTxVGGjWyDEXhYZUomIU9KptDOLaV5e55c0w97hmz4TTDN69qUiKtclDzXtPCOloD8LAnjnspaoxT77RzXAZ36SxRuUZu0Pk7EVnPct0kEeoXDOCkuANmB61-I1oOGyoCfCdg8RQ-hJaKPZWsU3Xwv9o-bkNEnYEX2Id6gJgvey58Sh06CyOaRwA48Sq8xqQ5_OCW3t5ZPHXvjQH1g_TA1M3NTx0I1y8Iz9z3Tc_uywfWfDFFWMuwZZmlhUR7bnTHDIRH7I5LkJVnbWtj5EyakNdBW6akYGHLRDh_M9Wdr0K9Z-q5TeeVtwyPjpvduDnfx-KLHBu0B0pFjAm4YkDgLywAlxqC2bloNBMmuZyALy09vkm7k8NqR3_1byJ-0IlJMj5ymurJRdLv9PR4dP4FYrLOLUnXbvVO6WCirIn5KpT5Hfyrg68MIOQcKGvvMigVoudONGGM0PgcriJXjjCp6GprMOc8eaW8JbbiFpiCJ_kd37ZKa6gH86SKnWyfwJjdziQhNfkMio0DcRRDbKKuaErhN30tAoV4_1s6Nql00SLjRv2MjvcYZ77BS6FBBzi57BTSZiHOWp0LyFUb6VEnyHtP1iM1W4YK43EjfRKrLkFy9DL4SRb56HpB_4rk9hEfp2fh5lUY8yjVlfqMLlscfmtNVPKc2VGeR5GHuB-l6XHgjauzNywVj7YZrmNeMDEsKohK9QQnRFvoxXf_mQIRJpA5zjgIydffwTkBpRTaL8RNZsEyzWaLc2xMRsrEanTyQsjGIoIms6dhGtIXC86SaZCp2jyjwp3k3cAc9bTLIid8CqEdrSC61QPTMBQTc1punwRu7XiqH_rrJCcrgi4N2j1Ix9oTwh--v7cmpMwvMPfqoyQxy44IH_ZCCB4UQOaBLqabSOrFHXjRhEC50lAqq1LXaTlGA26NmB5rrc5nDYxGi7_9LA3w/https://www.amazon.in/Panasonic-Condenser-Convertible-CS-CU-SU18AKY3W/dp/B0DSVS6P6G/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=iPhone+15&keywords=iPhone+15&pd_rd_i=B0DSVS6P6G&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&pd_rd_w=UD4fC&pd_rd_wg=5aro5&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&qid=1759393332&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                    - heading "Panasonic 1.5 Ton 3 Star Premium Wi-Fi Inverter Smart Split AC (Matter Enabled, Higher Airflow, Copper Condenser, 7in1 Convertible, True AI, 2-Way, PM 0.1 Filter, CS/CU-SU18AKY3W, White)" [level=2] [ref=e2536] [cursor=pointer]:
+                      - generic [ref=e2537] [cursor=pointer]: Panasonic 1.5 Ton 3 Star Premium Wi-Fi Inverter Smart Split AC (Matter Enabled, Higher Airflow, Copper Condenser, 7in1 Convertible, True AI, 2-Way, PM 0.1 Filter, CS/CU-SU18AKY3W, White)
+                - generic [ref=e2538]:
+                  - generic [ref=e2539]:
+                    - button "4.0 out of 5 stars, rating details" [ref=e2541] [cursor=pointer]:
+                      - generic [ref=e2543] [cursor=pointer]: 4.0 out of 5 stars
+                    - link "3,415 ratings" [ref=e2545] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JGGVt920Fo1LmzkIs9o4iFUAAAGZpAO9EAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICA5v_1S/clv1_CEuOPUxokZA0iHrVa9USmHnaeU95b6c_k64G52aI9sJL8X8PhRGQD_018HHz9hvVjq0yzpNb3X7OfU1JBWcANnpcbHqbL_XxLlwHQXhwWQGjHadChEfB8IkGXCQwUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTnFsmRG-N26N96RwcCka8lg_pxHZh-8WZFCnaZ1SWr3JYqfnqDdhxLjmOcuEwxtBD2LaOtZkZJfIT3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGch64QwHz5n0OSRtdn8wh9Yh45w0JHwnTXmEukoLhg_zTMJn0QYF-Hkz4OQx6t4iEHKDF3wY2ov8ad3N7LTnG3BSPj7q2DbPZdZW7B9Gz-QXSf6QiflcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawIyWs8DJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9cxN_WrnG6w_NJlkeDjaj241V7lQYZLIQ26STlkdCtSF3DsmYhExf4IFvkAx3CmWCfpGOJzj2T4FuKPRCSWqSVp_SGmg5C7GWQpynnc33fyHQ3rVpV9ABBz1rNrLFCHyNIeJb_QheNIqHrOPXmsoiTdriq2g9B-EQ_FEnYlY6eMntHUr2MJEFt7f8pInC6ReMj3b7wYgXgjlvY_sdL32FAG2m6F3fGxsHiAXvLsKYzsB3oohh6jGJ2bpLG1rBNmUZUlq_xU65hC0UOKvVKeoToPejbUb8SZJIf8UlrEcy18BClLKT8wiYqRKrCND2d-pob9_Rn-wdowiG97QSNvUaVj-s7Ub21u4LdVgc3f3u5oU6-VlcT8p0O_RMids_jFepGVOQuMm2PULPcIxcThTxVGGjWyDEXhYZUomIU9KptDOLaV5e55c0w97hmz4TTDN69qUiKtclDzXtPCOloD8LAnjnspaoxT77RzXAZ36SxRuUZu0Pk7EVnPct0kEeoXDOCkuANmB61-I1oOGyoCfCdg8RQ-hJaKPZWsU3Xwv9o-bkNEnYEX2Id6gJgvey58Sh06CyOaRwA48Sq8xqQ5_OCW3t5ZPHXvjQH1g_TA1M3NTx0I1y8Iz9z3Tc_uywfWfDFFWMuwZZmlhUR7bnTHDIRH7I5LkJVnbWtj5EyakNdBW6akYGHLRDh_M9Wdr0K9Z-q5TeeVtwyPjpvduDnfx-KLHBu0B0pFjAm4YkDgLywAlxqC2bloNBMmuZyALy09vkm7k8NqR3_1byJ-0IlJMj5ymurJRdLv9PR4dP4FYrLOLUnXbvVO6WCirIn5KpT5Hfyrg68MIOQcKGvvMigVoudONGGM0PgcriJXjjCp6GprMOc8eaW8JbbiFpiCJ_kd37ZKa6gH86SKnWyfwJjdziQhNfkMio0DcRRDbKKuaErhN30tAoV4_1s6Nql00SLjRv2MjvcYZ77BS6FBBzi57BTSZiHOWp0LyFUb6VEnyHtP1iM1W4YK43EjfRKrLkFy9DL4SRb56HpB_4rk9hEfp2fh5lUY8yjVlfqMLlscfmtNVPKc2VGeR5GHuB-l6XHgjauzNywVj7YZrmNeMDEsKohK9QQnRFvoxXf_mQIRJpA5zjgIydffwTkBpRTaL8RNZsEyzWaLc2xMRsrEanTyQsjGIoIms6dhGtIXC86SaZCp2jyjwp3k3cAc9bTLIid8CqEdrSC61QPTMBQTc1punwRu7XiqH_rrJCcrgi4N2j1Ix9oTwh--v7cmpMwvMPfqoyQxy44IH_ZCCB4UQOaBLqabSOrFHXjRhEC50lAqq1LXaTlGA26NmB5rrc5nDYxGi7_9LA3w/https://www.amazon.in/Panasonic-Condenser-Convertible-CS-CU-SU18AKY3W/dp/B0DSVS6P6G/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=iPhone+15&keywords=iPhone+15&pd_rd_i=B0DSVS6P6G&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&pd_rd_w=UD4fC&pd_rd_wg=5aro5&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&qid=1759393332&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55#customerReviews
+                      - generic [ref=e2546] [cursor=pointer]: 3,415
+                  - generic [ref=e2548]: 2K+ bought in past month
+                - generic [ref=e2551]:
+                  - generic [ref=e2552]:
+                    - link "Great Indian Festival" [ref=e2554] [cursor=pointer]:
+                      - /url: /deals
+                      - generic [ref=e2558] [cursor=pointer]: Great Indian Festival
+                    - generic [ref=e2560]:
+                      - generic [ref=e2561]: Price, product page
+                      - 'link "₹33,490 M.R.P: ₹56,400 M.R.P: ₹56,400" [ref=e2562] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGGVt920Fo1LmzkIs9o4iFUAAAGZpAO9EAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICA5v_1S/clv1_CEuOPUxokZA0iHrVa9USmHnaeU95b6c_k64G52aI9sJL8X8PhRGQD_018HHz9hvVjq0yzpNb3X7OfU1JBWcANnpcbHqbL_XxLlwHQXhwWQGjHadChEfB8IkGXCQwUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy5CyaJsMLWWl1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTnFsmRG-N26N96RwcCka8lg_pxHZh-8WZFCnaZ1SWr3JYqfnqDdhxLjmOcuEwxtBD2LaOtZkZJfIT3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGch64QwHz5n0OSRtdn8wh9Yh45w0JHwnTXmEukoLhg_zTMJn0QYF-Hkz4OQx6t4iEHKDF3wY2ov8ad3N7LTnG3BSPj7q2DbPZdZW7B9Gz-QXSf6QiflcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawIyWs8DJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9cxN_WrnG6w_NJlkeDjaj241V7lQYZLIQ26STlkdCtSF3DsmYhExf4IFvkAx3CmWCfpGOJzj2T4FuKPRCSWqSVp_SGmg5C7GWQpynnc33fyHQ3rVpV9ABBz1rNrLFCHyNIeJb_QheNIqHrOPXmsoiTdriq2g9B-EQ_FEnYlY6eMntHUr2MJEFt7f8pInC6ReMj3b7wYgXgjlvY_sdL32FAG2m6F3fGxsHiAXvLsKYzsB3oohh6jGJ2bpLG1rBNmUZUlq_xU65hC0UOKvVKeoToPejbUb8SZJIf8UlrEcy18BClLKT8wiYqRKrCND2d-pob9_Rn-wdowiG97QSNvUaVj-s7Ub21u4LdVgc3f3u5oU6-VlcT8p0O_RMids_jFepGVOQuMm2PULPcIxcThTxVGGjWyDEXhYZUomIU9KptDOLaV5e55c0w97hmz4TTDN69qUiKtclDzXtPCOloD8LAnjnspaoxT77RzXAZ36SxRuUZu0Pk7EVnPct0kEeoXDOCkuANmB61-I1oOGyoCfCdg8RQ-hJaKPZWsU3Xwv9o-bkNEnYEX2Id6gJgvey58Sh06CyOaRwA48Sq8xqQ5_OCW3t5ZPHXvjQH1g_TA1M3NTx0I1y8Iz9z3Tc_uywfWfDFFWMuwZZmlhUR7bnTHDIRH7I5LkJVnbWtj5EyakNdBW6akYGHLRDh_M9Wdr0K9Z-q5TeeVtwyPjpvduDnfx-KLHBu0B0pFjAm4YkDgLywAlxqC2bloNBMmuZyALy09vkm7k8NqR3_1byJ-0IlJMj5ymurJRdLv9PR4dP4FYrLOLUnXbvVO6WCirIn5KpT5Hfyrg68MIOQcKGvvMigVoudONGGM0PgcriJXjjCp6GprMOc8eaW8JbbiFpiCJ_kd37ZKa6gH86SKnWyfwJjdziQhNfkMio0DcRRDbKKuaErhN30tAoV4_1s6Nql00SLjRv2MjvcYZ77BS6FBBzi57BTSZiHOWp0LyFUb6VEnyHtP1iM1W4YK43EjfRKrLkFy9DL4SRb56HpB_4rk9hEfp2fh5lUY8yjVlfqMLlscfmtNVPKc2VGeR5GHuB-l6XHgjauzNywVj7YZrmNeMDEsKohK9QQnRFvoxXf_mQIRJpA5zjgIydffwTkBpRTaL8RNZsEyzWaLc2xMRsrEanTyQsjGIoIms6dhGtIXC86SaZCp2jyjwp3k3cAc9bTLIid8CqEdrSC61QPTMBQTc1punwRu7XiqH_rrJCcrgi4N2j1Ix9oTwh--v7cmpMwvMPfqoyQxy44IH_ZCCB4UQOaBLqabSOrFHXjRhEC50lAqq1LXaTlGA26NmB5rrc5nDYxGi7_9LA3w/https://www.amazon.in/Panasonic-Condenser-Convertible-CS-CU-SU18AKY3W/dp/B0DSVS6P6G/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=iPhone+15&keywords=iPhone+15&pd_rd_i=B0DSVS6P6G&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&pd_rd_w=UD4fC&pd_rd_wg=5aro5&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&qid=1759393332&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                        - generic [ref=e2563] [cursor=pointer]:
+                          - generic [ref=e2564] [cursor=pointer]: ₹33,490
+                          - generic [ref=e2565] [cursor=pointer]:
+                            - generic [ref=e2566] [cursor=pointer]: ₹
+                            - generic [ref=e2567] [cursor=pointer]: 33,490
+                        - generic [ref=e2568] [cursor=pointer]: "M.R.P: ₹56,400"
+                        - generic [ref=e2569] [cursor=pointer]:
+                          - generic [ref=e2570] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e2571] [cursor=pointer]:
+                            - generic [ref=e2572] [cursor=pointer]: ₹56,400
+                            - generic [ref=e2573] [cursor=pointer]: ₹56,400
+                      - generic [ref=e2574]: (41% off)
+                  - generic [ref=e2575]:
+                    - generic "FREE delivery as soon as Sun, 5 Oct, 7 am - 9 pm" [ref=e2577]:
+                      - generic [ref=e2578]: FREE delivery as soon as
+                      - generic [ref=e2579]: Sun, 5 Oct, 7 am - 9 pm
+                    - generic [ref=e2582]: Only 1 left in stock.
+          - generic [ref=e2588]:
+            - heading "Related searches" [level=2] [ref=e2592]
+            - list [ref=e2594]:
+              - generic [ref=e2595]:
+                - listitem [ref=e2596]:
+                  - link "iphone 14" [ref=e2598] [cursor=pointer]:
+                    - /url: /s?k=iphone+14&ref=rsl_sug_0_0&pd_rd_w=bSkOW&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&qid=1759393332
+                    - generic [ref=e2603] [cursor=pointer]: iphone 14
+                - listitem [ref=e2604]:
+                  - link "iphone 15 pro max" [ref=e2606] [cursor=pointer]:
+                    - /url: /s?k=iphone+15+pro+max&ref=rsl_sug_0_3&pd_rd_w=bSkOW&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&qid=1759393332
+                    - generic [ref=e2611] [cursor=pointer]: iphone 15 pro max
+              - generic [ref=e2612]:
+                - listitem [ref=e2613]:
+                  - link "iphone 13" [ref=e2615] [cursor=pointer]:
+                    - /url: /s?k=iphone+13&ref=rsl_sug_0_1&pd_rd_w=bSkOW&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&qid=1759393332
+                    - generic [ref=e2620] [cursor=pointer]: iphone 13
+                - listitem [ref=e2621]:
+                  - link "iphone 14 pro" [ref=e2623] [cursor=pointer]:
+                    - /url: /s?k=iphone+14+pro&ref=rsl_sug_0_4&pd_rd_w=bSkOW&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&qid=1759393332
+                    - generic [ref=e2628] [cursor=pointer]: iphone 14 pro
+              - generic [ref=e2629]:
+                - listitem [ref=e2630]:
+                  - link "iphone 15 pro" [ref=e2632] [cursor=pointer]:
+                    - /url: /s?k=iphone+15+pro&ref=rsl_sug_0_2&pd_rd_w=bSkOW&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&qid=1759393332
+                    - generic [ref=e2637] [cursor=pointer]: iphone 15 pro
+                - listitem [ref=e2638]:
+                  - link "iphone 15 plus" [ref=e2640] [cursor=pointer]:
+                    - /url: /s?k=iphone+15+plus&ref=rsl_sug_0_5&pd_rd_w=bSkOW&content-id=amzn1.sym.b5876297-ded6-4475-876b-d315610bb575:amzn1.sym.b5876297-ded6-4475-876b-d315610bb575&pf_rd_p=b5876297-ded6-4475-876b-d315610bb575&pf_rd_r=YSHBEGB43D9J6Q7HWSY0&pd_rd_wg=5aro5&pd_rd_r=d43c1c57-de2e-442b-9bb5-0ebc88c48eb4&qid=1759393332
+                    - generic [ref=e2645] [cursor=pointer]: iphone 15 plus
+          - navigation "pagination" [ref=e2648]:
+            - list [ref=e2650]:
+              - button "Previous" [disabled] [ref=e2651]:
+                - img [ref=e2652]
+                - text: Previous
+              - listitem [ref=e2654]:
+                - button "Page 1" [ref=e2656]: "1"
+              - listitem [ref=e2657]:
+                - button "Go to page 2" [ref=e2659] [cursor=pointer]: "2"
+              - listitem [ref=e2660]:
+                - button "Go to page 3" [ref=e2662] [cursor=pointer]: "3"
+              - button [disabled] [ref=e2663]:
+                - img [ref=e2664]: ...
+              - button "20" [disabled] [ref=e2666]
+              - listitem [ref=e2667]:
+                - button "Go to next page, page 2" [ref=e2669] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e2670] [cursor=pointer]
+          - generic [ref=e2677]:
+            - heading "Need help?" [level=2] [ref=e2680]
+            - generic [ref=e2681]:
+              - link "Visit the help section" [ref=e2682] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - generic [ref=e2683]: or
+              - link "contact us" [ref=e2684] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+        - link "Go back to filtering menu" [ref=e2685] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e2686]:
+        - generic [ref=e2687]:
+          - link "Skip to main search results" [ref=e2688] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e2694]:
+            - group "Deals & Discounts" [ref=e2695]:
+              - heading "Deals & Discounts" [level=2] [ref=e2696]:
+                - generic [ref=e2697]: Deals & Discounts
+              - list "Deals & Discounts" [ref=e2698]:
+                - listitem [ref=e2699]:
+                  - link "Great Indian Festival" [ref=e2701] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_n_deal_type%3A26921224031&dc&qid=1759393332&rnid=26921223031&ref=sr_nr_p_n_deal_type_1&ds=v1%3Alc8ytncjFvxlREdazx3C6tw3%2FRsCZ%2Bd65qqlRHAzQBE
+                    - generic [ref=e2702] [cursor=pointer]: Great Indian Festival
+            - group "Delivery Day" [ref=e2703]:
+              - heading "Delivery Day" [level=2] [ref=e2704]:
+                - generic [ref=e2705]: Delivery Day
+              - list "Delivery Day" [ref=e2706]:
+                - listitem [ref=e2707]:
+                  - link "Apply the filter Get It Today to narrow results" [ref=e2709] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_90%3A6741117031&dc&qid=1759393332&rnid=6741116031&ref=sr_nr_p_90_1&ds=v1%3Awxh2Eiuv0XLWaK6118NTu67oKBYCqdZxOC0oacOzNpk
+                    - checkbox [ref=e2712] [cursor=pointer]
+                    - generic [ref=e2714] [cursor=pointer]: Get It Today
+                - listitem [ref=e2715]:
+                  - link "Apply the filter Get It by Tomorrow to narrow results" [ref=e2717] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_90%3A6741118031&dc&qid=1759393332&rnid=6741116031&ref=sr_nr_p_90_2&ds=v1%3AxtvlSG5ebII5gDDgEkPLVAiKEvKBvOw4HfLEdCtecSY
+                    - checkbox [ref=e2720] [cursor=pointer]
+                    - generic [ref=e2722] [cursor=pointer]: Get It by Tomorrow
+                - listitem [ref=e2723]:
+                  - link "Apply the filter Get It in 2 Days to narrow results" [ref=e2725] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_90%3A20912642031&dc&qid=1759393332&rnid=6741116031&ref=sr_nr_p_90_3&ds=v1%3Aot%2FyHGVgTfgUYkklzXILeDPoelGR8EvFseXkYJq6QPI
+                    - checkbox [ref=e2728] [cursor=pointer]
+                    - generic [ref=e2730] [cursor=pointer]: Get It in 2 Days
+            - group "Storage Capacity" [ref=e2731]:
+              - heading "Storage Capacity" [level=2] [ref=e2732]:
+                - generic [ref=e2733]: Storage Capacity
+              - list "Storage Capacity" [ref=e2734]:
+                - listitem [ref=e2735]:
+                  - link "Apply the filter 16 GB to narrow results" [ref=e2737] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003492455111%3A44349052031&dc&qid=1759393332&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_1&ds=v1%3AOzUlLZFy2VdpUeNM2giqrCzGvZjqjChx3%2FyZ3gm33hQ
+                    - checkbox [ref=e2740] [cursor=pointer]
+                    - generic [ref=e2742] [cursor=pointer]: 16 GB
+                - listitem [ref=e2743]:
+                  - link "Apply the filter 128 GB to narrow results" [ref=e2745] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003492455111%3A81332994031&dc&qid=1759393332&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_2&ds=v1%3AZ%2BXBYsntnczFkUfdhOpcn5MbZlIyJIIobh4c6UOupCU
+                    - checkbox [ref=e2748] [cursor=pointer]
+                    - generic [ref=e2750] [cursor=pointer]: 128 GB
+                - listitem [ref=e2751]:
+                  - link "Apply the filter 256 GB to narrow results" [ref=e2753] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003492455111%3A81332996031&dc&qid=1759393332&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_3&ds=v1%3AFrGnZrkEYggPwZVO2L83InGOH%2FSrEcCR%2F7oZulKKVF0
+                    - checkbox [ref=e2756] [cursor=pointer]
+                    - generic [ref=e2758] [cursor=pointer]: 256 GB
+                - listitem [ref=e2759]:
+                  - link "Apply the filter 512 GB & above to narrow results" [ref=e2761] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003492455111%3A92070749031&dc&qid=1759393332&rnid=44349045031&ref=sr_nr_p_n_g-1003492455111_4&ds=v1%3AG%2Fp9HqS3bLfJWqPR8vCG5aV7euLTUWJ%2Bn638Kfp45Lg
+                    - checkbox [ref=e2764] [cursor=pointer]
+                    - generic [ref=e2766] [cursor=pointer]: 512 GB & above
+            - group "Brands" [ref=e2767]:
+              - heading "Brands" [level=2] [ref=e2768]:
+                - generic [ref=e2769]: Brands
+              - list "Brands" [ref=e2770]:
+                - listitem [ref=e2771]:
+                  - link "Apply the filter Apple to narrow results" [ref=e2773] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A110955&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_1&ds=v1%3AFofNN9GlGQmJh%2FIL82hg%2Bk1tPg%2FDQe0t1o5lnWrxPqU
+                    - checkbox [ref=e2776] [cursor=pointer]
+                    - generic [ref=e2778] [cursor=pointer]: Apple
+                - listitem [ref=e2779]:
+                  - link "Apply the filter Samsung to narrow results" [ref=e2781] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A46655&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_2&ds=v1%3AyhC4wKz8j9HfN0xhW4G7v8c9TmnHT8d9uQuBW1QHHDo
+                    - checkbox [ref=e2784] [cursor=pointer]
+                    - generic [ref=e2786] [cursor=pointer]: Samsung
+                - listitem [ref=e2787]:
+                  - link "Apply the filter amazon basics to narrow results" [ref=e2789] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A234478&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_3&ds=v1%3ATSCLz3QU4YZM8CO199L6UAsJKlMwGLuBCWclQRLV7x0
+                    - checkbox [ref=e2792] [cursor=pointer]
+                    - generic [ref=e2794] [cursor=pointer]: amazon basics
+                - listitem [ref=e2795]:
+                  - link "Apply the filter mobistyle to narrow results" [ref=e2797] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A155775&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_4&ds=v1%3AY6Enf2bkPZOlY1T7Cr8h%2B7CuMvOIeKgGwuInQtbgXtA
+                    - checkbox [ref=e2800] [cursor=pointer]
+                    - generic [ref=e2802] [cursor=pointer]: mobistyle
+                - listitem [ref=e2803]:
+                  - link "Apply the filter Amazon Brand - Solimo to narrow results" [ref=e2805] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A445047&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_5&ds=v1%3AqxFdhs8I9ucDMkrfJIEcqqeC%2BRBAQtuyjueinnd%2BRRg
+                    - checkbox [ref=e2808] [cursor=pointer]
+                    - generic [ref=e2810] [cursor=pointer]: Amazon Brand - Solimo
+                - listitem [ref=e2811]:
+                  - link "Apply the filter DR VAKU to narrow results" [ref=e2813] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A629611&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_6&ds=v1%3Ap31%2BaFfi25NvoYxgaNyk7uzkMHXWQN0nZwufes8cTIo
+                    - checkbox [ref=e2816] [cursor=pointer]
+                    - generic [ref=e2818] [cursor=pointer]: DR VAKU
+                - listitem [ref=e2819]:
+                  - link "Apply the filter DIZORO to narrow results" [ref=e2821] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_123%3A3554899&dc&qid=1759393332&rnid=91049095031&ref=sr_nr_p_123_7&ds=v1%3A49BDrgFd1UwV3RrSS6Xujz5uJi3U9McvLCCCAWcyl5E
+                    - checkbox [ref=e2824] [cursor=pointer]
+                    - generic [ref=e2826] [cursor=pointer]: DIZORO
+                - listitem [ref=e2827]:
+                  - button "See more, Brands" [ref=e2830] [cursor=pointer]:
+                    - generic [ref=e2832] [cursor=pointer]: See more
+            - group "Category" [ref=e2833]:
+              - heading "Category" [level=2] [ref=e2834]:
+                - generic [ref=e2835]: Category
+              - list "Category" [ref=e2836]:
+                - listitem [ref=e2837]:
+                  - link "Smartphones & Basic Mobiles" [ref=e2839] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A1389432031&dc&qid=1759393332&rnid=3576079031&ref=sr_nr_n_1&ds=v1%3AGvlCA4UgrQtdu1dHDSbDpNkzzh5kRSXevIL%2FlE81KPE
+                    - generic [ref=e2840] [cursor=pointer]: Smartphones & Basic Mobiles
+                - listitem [ref=e2841]:
+                  - link "Smartphones" [ref=e2843] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A1389432031%2Cn%3A1805560031&dc&qid=1759393332&rnid=3576079031&ref=sr_nr_n_2&ds=v1%3AilSRX2awlUHhXKlv8qp6lpv61uFamCQ2j19nF0DX6d4
+                    - generic [ref=e2844] [cursor=pointer]: Smartphones
+            - group [ref=e2845]:
+              - generic [ref=e2846]:
+                - generic [ref=e2848]: Price
+                - generic [ref=e2851]:
+                  - generic [ref=e2852]:
+                    - generic [ref=e2854]: ₹78
+                    - generic [ref=e2856]: –
+                    - generic [ref=e2858]: ₹79,100+
+                  - generic [ref=e2859]:
+                    - generic [ref=e2860]:
+                      - generic:
+                        - slider "Minimum price": "0"
+                      - generic [ref=e2861]:
+                        - slider "Maximum price": "188"
+                    - generic [ref=e2864] [cursor=pointer]:
+                      - button "Go - Submit price range" [ref=e2865] [cursor=pointer]
+                      - generic [ref=e2867] [cursor=pointer]: Go
+            - group "Customer Review" [ref=e2868]:
+              - heading "Customer Review" [level=2] [ref=e2869]:
+                - generic [ref=e2870]: Customer Review
+              - list "Customer Review" [ref=e2871]:
+                - listitem [ref=e2872]:
+                  - link "Apply the filter 4 Stars & Up to narrow results" [ref=e2875] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_72%3A1318476031&dc&qid=1759393332&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3A2hiI8fUA0zaK1pLNtziaVyJQetHxqJSVZ4qqubNxrIY
+                    - generic [ref=e2877] [cursor=pointer]: 4 Stars
+                    - generic [ref=e2878] [cursor=pointer]: "& Up"
+            - group "Discount" [ref=e2879]:
+              - heading "Discount" [level=2] [ref=e2880]:
+                - generic [ref=e2881]: Discount
+              - list "Discount" [ref=e2882]:
+                - listitem [ref=e2883]:
+                  - link "10% Off or more" [ref=e2885] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665399031&dc&qid=1759393332&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3AvZTsgJ1WWImfThu3hkAsEuT6Wam9gokYnEgv79ddN3o
+                    - generic [ref=e2886] [cursor=pointer]: 10% Off or more
+                - listitem [ref=e2887]:
+                  - link "25% Off or more" [ref=e2889] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665400031&dc&qid=1759393332&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3Aoypesn4NiS0FQC0Bku%2BBPs8D68x4wYuPG%2B66Nys1wfM
+                    - generic [ref=e2890] [cursor=pointer]: 25% Off or more
+                - listitem [ref=e2891]:
+                  - link "35% Off or more" [ref=e2893] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665402031&dc&qid=1759393332&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3Atw2qWErbpj%2FbI0by5pm2SyVjSOmdcwEdAGglL8bFLv8
+                    - generic [ref=e2894] [cursor=pointer]: 35% Off or more
+                - listitem [ref=e2895]:
+                  - link "50% Off or more" [ref=e2897] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A2665401031&dc&qid=1759393332&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AVdB39R1Nj38h0dN5ylkPCYbbdg8oxkzns0hbyOdpxeU
+                    - generic [ref=e2898] [cursor=pointer]: 50% Off or more
+                - listitem [ref=e2899]:
+                  - link "60% Off or more" [ref=e2901] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A27060456031&dc&qid=1759393332&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AGwuH7YnUl9iuxCaPfmb7mYl8RG58eYoPxSYVCYipFVw
+                    - generic [ref=e2902] [cursor=pointer]: 60% Off or more
+                - listitem [ref=e2903]:
+                  - link "70% Off or more" [ref=e2905] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_pct-off-with-tax%3A27060457031&dc&qid=1759393332&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3AWxuNrXpWaN2gTULLYFb0yBT3Kx5wYDae%2BmHAIzmHEjs
+                    - generic [ref=e2906] [cursor=pointer]: 70% Off or more
+            - group "Item Condition" [ref=e2907]:
+              - heading "Item Condition" [level=2] [ref=e2908]:
+                - generic [ref=e2909]: Item Condition
+              - list "Item Condition" [ref=e2910]:
+                - listitem [ref=e2911]:
+                  - link "Apply the filter New to narrow results" [ref=e2913] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_condition-type%3A8609960031&dc&qid=1759393332&rnid=8609959031&ref=sr_nr_p_n_condition-type_1&ds=v1%3A1papkq6i2zHakB%2BkeXvTZCSOpy8pKxaMR9jkU8kt4EI
+                    - checkbox [ref=e2916] [cursor=pointer]
+                    - generic [ref=e2918] [cursor=pointer]: New
+            - group "Colour" [ref=e2919]:
+              - heading "Colour" [level=2] [ref=e2920]:
+                - generic [ref=e2921]: Colour
+              - list "Colour" [ref=e2922]:
+                - listitem [ref=e2923]:
+                  - generic:
+                    - link "Apply the filter Black to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15563995031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AUwb58%2FijZH7irUl7KButalByY9W02gYx5wuH1fM%2BFeU
+                - listitem [ref=e2925]:
+                  - generic:
+                    - link "Apply the filter White to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15563997031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3AM0oEzp0mZDwulvpe1%2FARX%2B0l3XIqQjYC4uakFMAdqXk
+                - listitem [ref=e2927]:
+                  - generic:
+                    - link "Apply the filter Green to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564005031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3AtxiQ%2BNtIimcqNljqNfjwBjp0KclAbS0gAI8Oj9ewgQs
+                - listitem [ref=e2929]:
+                  - generic:
+                    - link "Apply the filter Blue to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564007031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3A0x99NErauRh0OhAGYga5Cavpdxe2ZCu7iBCfaWNSS0s
+                - listitem [ref=e2931]:
+                  - generic:
+                    - link "Apply the filter Grey to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15563996031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3AqdoJtDxYGKgPyw2QQ1JvOYOltrAmxsvGncxXGwH7nwo
+                - listitem [ref=e2933]:
+                  - generic:
+                    - link "Apply the filter Red to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564000031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_6&ds=v1%3AD5PE3JvjbZTZvc3FAsjLHJAnVT3JCxgZdZZDFmHDN3Y
+                - listitem [ref=e2935]:
+                  - generic:
+                    - link "Apply the filter Pink to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564001031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_7&ds=v1%3A57sc6Q6doTvQusBaLv88zWHW3dUtQ1aM6ccADe6%2F914
+                - listitem [ref=e2937]:
+                  - generic:
+                    - link "Apply the filter Yellow to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564003031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_8&ds=v1%3A8UaArLnY8M3Ka32qGIZIzcIfY%2F0KPxGzXeIn%2F9vYQIY
+                - listitem [ref=e2939]:
+                  - generic:
+                    - link "Apply the filter Turquoise to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564006031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_9&ds=v1%3AYYrhFc54SSNoA%2FYDe1gAognIgSDk6OLIqwX%2FlBtnvzw
+                - listitem [ref=e2941]:
+                  - generic:
+                    - link "Apply the filter Purple to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564008031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_10&ds=v1%3AtimqgJw7tMP5Ar7ggQoLWV0fJdyFH2hIcijRq1byfJI
+                - listitem [ref=e2943]:
+                  - generic:
+                    - link "Apply the filter Silver to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564010031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_11&ds=v1%3AABa13RFBqEZAZqeln8wr6lIU9ACHFpbOPbQfIQw6zhQ
+                - listitem [ref=e2945]:
+                  - generic:
+                    - link "Apply the filter Multicoloured to narrow results":
+                      - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_size_two_browse-vebin%3A15564011031&dc&qid=1759393332&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_12&ds=v1%3A8CjWS3OrS03H%2FGvUk9tNEs0BZvhGzqIVVEQNKuzq%2BNQ
+            - group "Display Size" [ref=e2947]:
+              - heading "Display Size" [level=2] [ref=e2948]:
+                - generic [ref=e2949]: Display Size
+              - list "Display Size" [ref=e2950]:
+                - listitem [ref=e2951]:
+                  - link "Apply the filter 5.5 in & above to narrow results" [ref=e2953] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1004194492091%3A6631756031&dc&qid=1759393332&rnid=6631751031&ref=sr_nr_p_n_g-1004194492091_1&ds=v1%3A4lEOZYRJEU2DexTHCUuG9O5%2BwLEzCbtxC%2B15ORUwdAM
+                    - checkbox [ref=e2956] [cursor=pointer]
+                    - generic [ref=e2958] [cursor=pointer]: 5.5 in & above
+            - group "Cellular Technology" [ref=e2959]:
+              - heading "Cellular Technology" [level=2] [ref=e2960]:
+                - generic [ref=e2961]: Cellular Technology
+              - list "Cellular Technology" [ref=e2962]:
+                - listitem [ref=e2963]:
+                  - link "Apply the filter 4G to narrow results" [ref=e2965] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003469290111%3A33962379031&dc&qid=1759393332&rnid=33962288031&ref=sr_nr_p_n_g-1003469290111_1&ds=v1%3A9OpzAKZ%2FeE4Leb3xtEYSnYDScmoI9jrVq24WR3bTx%2Fw
+                    - checkbox [ref=e2968] [cursor=pointer]
+                    - generic [ref=e2970] [cursor=pointer]: 4G
+                - listitem [ref=e2971]:
+                  - link "Apply the filter 5G to narrow results" [ref=e2973] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003469290111%3A33962382031&dc&qid=1759393332&rnid=33962288031&ref=sr_nr_p_n_g-1003469290111_2&ds=v1%3Ag%2Ft0Gfh6JWD9%2BvmebbzC6hKbFnHvaOFZWz6RnZbmyig
+                    - checkbox [ref=e2976] [cursor=pointer]
+                    - generic [ref=e2978] [cursor=pointer]: 5G
+            - group "Mobile Phone Primary Camera Resolution" [ref=e2979]:
+              - heading "Mobile Phone Primary Camera Resolution" [level=2] [ref=e2980]:
+                - generic [ref=e2981]: Mobile Phone Primary Camera Resolution
+              - list "Mobile Phone Primary Camera Resolution" [ref=e2982]:
+                - listitem [ref=e2983]:
+                  - link "Apply the filter Up to 3.9 MP to narrow results" [ref=e2985] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_feature_fourteen_browse-bin%3A21329551031&dc&qid=1759393332&rnid=21345983031&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3AyLz4KFwuMmGXdmT1bDInayduGeLEKdhOs1H5IfdWqRw
+                    - checkbox [ref=e2988] [cursor=pointer]
+                    - generic [ref=e2990] [cursor=pointer]: Up to 3.9 MP
+                - listitem [ref=e2991]:
+                  - link "Apply the filter 32 MP & Above to narrow results" [ref=e2993] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_feature_fourteen_browse-bin%3A21329559031&dc&qid=1759393332&rnid=21345983031&ref=sr_nr_p_n_feature_fourteen_browse-bin_2&ds=v1%3A0TZ0TFUSDrfsRLP5P6sWn5bpjCiNLER9OLBNDIWGFE8
+                    - checkbox [ref=e2996] [cursor=pointer]
+                    - generic [ref=e2998] [cursor=pointer]: 32 MP & Above
+            - group "Pay On Delivery" [ref=e2999]:
+              - heading "Pay On Delivery" [level=2] [ref=e3000]:
+                - generic [ref=e3001]: Pay On Delivery
+              - list "Pay On Delivery" [ref=e3002]:
+                - listitem [ref=e3003]:
+                  - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e3005] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_n_is_cod_eligible%3A4931671031&dc&qid=1759393332&rnid=4931670031&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3A50K5XTnJKEkGvTFsfzTxLF%2BG2QHoz85d8bvd7dI%2FuNw
+                    - checkbox [ref=e3008] [cursor=pointer]
+                    - generic [ref=e3010] [cursor=pointer]: Eligible for Pay On Delivery
+            - group "Battery Capacity" [ref=e3011]:
+              - heading "Battery Capacity" [level=2] [ref=e3012]:
+                - generic [ref=e3013]: Battery Capacity
+              - list "Battery Capacity" [ref=e3014]:
+                - listitem [ref=e3015]:
+                  - link "Apply the filter Up to 2,999 mAh to narrow results" [ref=e3017] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015098008111%3A91805328031&dc&qid=1759393332&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_1&ds=v1%3Aiho%2B7RO6jdqJslfz5xtggvxWgfZJyz6viQosseANEas
+                    - checkbox [ref=e3020] [cursor=pointer]
+                    - generic [ref=e3022] [cursor=pointer]: Up to 2,999 mAh
+                - listitem [ref=e3023]:
+                  - link "Apply the filter 3,000 to 3,999 mAh to narrow results" [ref=e3025] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015098008111%3A91805327031&dc&qid=1759393332&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_2&ds=v1%3AzPW0Z68ID6ms1Gqa9Td5InIAelnp8wxCseTs%2Fczqbrk
+                    - checkbox [ref=e3028] [cursor=pointer]
+                    - generic [ref=e3030] [cursor=pointer]: 3,000 to 3,999 mAh
+                - listitem [ref=e3031]:
+                  - link "Apply the filter 4,000 to 4,999 mAh to narrow results" [ref=e3033] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015098008111%3A91805325031&dc&qid=1759393332&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_3&ds=v1%3AswQFSYlgkAnA8xPhkS%2BHKXB35o3YjN%2FPi3wK1OqQZA8
+                    - checkbox [ref=e3036] [cursor=pointer]
+                    - generic [ref=e3038] [cursor=pointer]: 4,000 to 4,999 mAh
+                - listitem [ref=e3039]:
+                  - link "Apply the filter 5,000 to 5,999 mAh to narrow results" [ref=e3041] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015098008111%3A91805326031&dc&qid=1759393332&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_4&ds=v1%3AnhKLMnz4qClsqhvIc6e2ige%2BA1NTTepPp8%2B9gQbCySI
+                    - checkbox [ref=e3044] [cursor=pointer]
+                    - generic [ref=e3046] [cursor=pointer]: 5,000 to 5,999 mAh
+                - listitem [ref=e3047]:
+                  - link "Apply the filter 6,000 mAh & Above to narrow results" [ref=e3049] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015098008111%3A92071917031&dc&qid=1759393332&rnid=91805324031&ref=sr_nr_p_n_g-101015098008111_5&ds=v1%3A7fYccQcbnLs4f%2Fanw%2BxJ7juzYSC17VLXKvBTPvSI7ME
+                    - checkbox [ref=e3052] [cursor=pointer]
+                    - generic [ref=e3054] [cursor=pointer]: 6,000 mAh & Above
+            - group "Operating System Version" [ref=e3055]:
+              - heading "Operating System Version" [level=2] [ref=e3056]:
+                - generic [ref=e3057]: Operating System Version
+              - list "Operating System Version" [ref=e3058]:
+                - listitem [ref=e3059]:
+                  - link "Apply the filter Android 14 to narrow results" [ref=e3061] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003517064111%3A206818075031&dc&qid=1759393332&rnid=51258619031&ref=sr_nr_p_n_g-1003517064111_1&ds=v1%3ABio4P%2F5C7JlkZI955Q0qzFxH05Mkj77WhcLBUlA2lB4
+                    - checkbox [ref=e3064] [cursor=pointer]
+                    - generic [ref=e3066] [cursor=pointer]: Android 14
+                - listitem [ref=e3067]:
+                  - link "Apply the filter Android 13.0 to narrow results" [ref=e3069] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003517064111%3A51258698031&dc&qid=1759393332&rnid=51258619031&ref=sr_nr_p_n_g-1003517064111_2&ds=v1%3AgjI%2F7e4mJHNevHyTB%2FIJ0y18jfkiDVjFNgn%2Fcqpj%2BSE
+                    - checkbox [ref=e3072] [cursor=pointer]
+                    - generic [ref=e3074] [cursor=pointer]: Android 13.0
+            - group "SIM Card Slot Count" [ref=e3075]:
+              - heading "SIM Card Slot Count" [level=2] [ref=e3076]:
+                - generic [ref=e3077]: SIM Card Slot Count
+              - list "SIM Card Slot Count" [ref=e3078]:
+                - listitem [ref=e3079]:
+                  - link "Apply the filter Dual SIM to narrow results" [ref=e3081] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002989427111%3A27179459031&dc&qid=1759393332&rnid=27179439031&ref=sr_nr_p_n_g-1002989427111_1&ds=v1%3AV%2FMXKGXyDavW7yleDPyk5ZC3dljvm5o0kacklLjWMc0
+                    - checkbox [ref=e3084] [cursor=pointer]
+                    - generic [ref=e3086] [cursor=pointer]: Dual SIM
+            - group "Features" [ref=e3087]:
+              - heading "Features" [level=2] [ref=e3088]:
+                - generic [ref=e3089]: Features
+              - list "Features" [ref=e3090]:
+                - listitem [ref=e3091]:
+                  - link "Apply the filter Primary Camera to narrow results" [ref=e3093] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1004151224091%3A1484942031&dc&qid=1759393332&rnid=1484941031&ref=sr_nr_p_n_g-1004151224091_1&ds=v1%3A6ilrTio%2Bn%2BKqrQZCwmsaUWxYxMStPDuVyVoapwVii0c
+                    - checkbox [ref=e3096] [cursor=pointer]
+                    - generic [ref=e3098] [cursor=pointer]: Primary Camera
+                - listitem [ref=e3099]:
+                  - link "Apply the filter USB to narrow results" [ref=e3101] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1004151224091%3A1484950031&dc&qid=1759393332&rnid=1484941031&ref=sr_nr_p_n_g-1004151224091_2&ds=v1%3AuHK2fA%2BPheGKZhePEnrbHCkaaDrR%2F18MmMME1TiWVAc
+                    - checkbox [ref=e3104] [cursor=pointer]
+                    - generic [ref=e3106] [cursor=pointer]: USB
+                - listitem [ref=e3107]:
+                  - link "Apply the filter Dual SIM to narrow results" [ref=e3109] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1004151224091%3A1897963031&dc&qid=1759393332&rnid=1484941031&ref=sr_nr_p_n_g-1004151224091_3&ds=v1%3A2s0EPIs1v2dBOOSgnbm777%2BTBGpFyCe%2BgSiRZkrDZbc
+                    - checkbox [ref=e3112] [cursor=pointer]
+                    - generic [ref=e3114] [cursor=pointer]: Dual SIM
+            - group "Availability" [ref=e3115]:
+              - heading "Availability" [level=2] [ref=e3116]:
+                - generic [ref=e3117]: Availability
+              - list "Availability" [ref=e3118]:
+                - listitem [ref=e3119]:
+                  - link "Apply the filter Include Out of Stock to narrow results" [ref=e3121] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_n_availability%3A1318485031&dc&qid=1759393332&rnid=1318483031&ref=sr_nr_p_n_availability_2&ds=v1%3ARARyoNM4LkfSBxOxs0OCXLR8VLhU1ethviHxmI3KwvI
+                    - checkbox [ref=e3124] [cursor=pointer]
+                    - generic [ref=e3126] [cursor=pointer]: Include Out of Stock
+            - group "RAM Size" [ref=e3127]:
+              - heading "RAM Size" [level=2] [ref=e3128]:
+                - generic [ref=e3129]: RAM Size
+              - list "RAM Size" [ref=e3130]:
+                - listitem [ref=e3131]:
+                  - link "Apply the filter 4 to 5.9 GB to narrow results" [ref=e3133] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003495121111%3A44897296031&dc&qid=1759393332&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_1&ds=v1%3ApC8pDGeWpnD1JtmZg9HUUHJ%2Bd9Br694WpjTy%2FH59SXM
+                    - checkbox [ref=e3136] [cursor=pointer]
+                    - generic [ref=e3138] [cursor=pointer]: 4 to 5.9 GB
+                - listitem [ref=e3139]:
+                  - link "Apply the filter 8 to 9.9 GB to narrow results" [ref=e3141] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003495121111%3A44897288031&dc&qid=1759393332&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_2&ds=v1%3AiRnCtiHAFkRcAqc7LLaVWOYZvhWetROIyzpjb97CQ%2Bo
+                    - checkbox [ref=e3144] [cursor=pointer]
+                    - generic [ref=e3146] [cursor=pointer]: 8 to 9.9 GB
+                - listitem [ref=e3147]:
+                  - link "Apply the filter 10 GB & Above to narrow results" [ref=e3149] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003495121111%3A44897292031&dc&qid=1759393332&rnid=44897277031&ref=sr_nr_p_n_g-1003495121111_3&ds=v1%3ADBPXrqTNysKqp2gXFPIOEr5ba7VZ8RHy9%2BcCD%2F%2BJkpw
+                    - checkbox [ref=e3152] [cursor=pointer]
+                    - generic [ref=e3154] [cursor=pointer]: 10 GB & Above
+            - group "Connector Type" [ref=e3155]:
+              - heading "Connector Type" [level=2] [ref=e3156]:
+                - generic [ref=e3157]: Connector Type
+              - list "Connector Type" [ref=e3158]:
+                - listitem [ref=e3159]:
+                  - link "Apply the filter USB Type C to narrow results" [ref=e3161] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002085485111%3A27403491031&dc&qid=1759393332&rnid=27403487031&ref=sr_nr_p_n_g-1002085485111_1&ds=v1%3AcpuD%2FOstZJQonqC%2BK8K60TK0wZ5GzIaF8tvZiA8yl%2Bc
+                    - checkbox [ref=e3164] [cursor=pointer]
+                    - generic [ref=e3166] [cursor=pointer]: USB Type C
+            - group "Rear Camera Photo Sensor Resolution" [ref=e3167]:
+              - heading "Rear Camera Photo Sensor Resolution" [level=2] [ref=e3168]:
+                - generic [ref=e3169]: Rear Camera Photo Sensor Resolution
+              - list "Rear Camera Photo Sensor Resolution" [ref=e3170]:
+                - listitem [ref=e3171]:
+                  - link "Apply the filter 16 MP & Above to narrow results" [ref=e3173] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003477899111%3A42253778031&dc&qid=1759393332&rnid=42253749031&ref=sr_nr_p_n_g-1003477899111_1&ds=v1%3AQadTjADIn4pv1N6qPbYUeGAiblHXL0XRKDEpgdefrB4
+                    - checkbox [ref=e3176] [cursor=pointer]
+                    - generic [ref=e3178] [cursor=pointer]: 16 MP & Above
+            - group "Camera Modes" [ref=e3179]:
+              - heading "Camera Modes" [level=2] [ref=e3180]:
+                - generic [ref=e3181]: Camera Modes
+              - list "Camera Modes" [ref=e3182]:
+                - listitem [ref=e3183]:
+                  - link "Apply the filter Portrait to narrow results" [ref=e3185] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002252610111%3A27316773031&dc&qid=1759393332&rnid=27316761031&ref=sr_nr_p_n_g-1002252610111_1&ds=v1%3AVCZZiGDrGjSM5F8R%2FRo6F50s78nAAIXMupUUyBuUiu8
+                    - checkbox [ref=e3188] [cursor=pointer]
+                    - generic [ref=e3190] [cursor=pointer]: Portrait
+            - group "Local Market" [ref=e3191]:
+              - heading "Local Market" [level=2] [ref=e3192]:
+                - generic [ref=e3193]: Local Market
+              - list "Local Market" [ref=e3194]:
+                - listitem [ref=e3195]:
+                  - link "Apply the filter Amazon Fresh to narrow results" [ref=e3197] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=p_n_alm_brand_id%3A17107035031&dc&qid=1759393332&rnid=17107034031&ref=sr_nr_p_n_alm_brand_id_1&ds=v1%3A0qLkA5WCt23ORKszzMuqQVMKDZ6L39ckmDbUBOLndNg
+                    - checkbox [ref=e3200] [cursor=pointer]
+                    - generic [ref=e3202] [cursor=pointer]: Amazon Fresh
+            - group "Aspect Ratio" [ref=e3203]:
+              - heading "Aspect Ratio" [level=2] [ref=e3204]:
+                - generic [ref=e3205]: Aspect Ratio
+              - list "Aspect Ratio" [ref=e3206]:
+                - listitem [ref=e3207]:
+                  - link "Apply the filter 16:9 to narrow results" [ref=e3209] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015688486111%3A204879948031&dc&qid=1759393332&rnid=204879945031&ref=sr_nr_p_n_g-101015688486111_1&ds=v1%3AybfNftpErGRQl2e5QeWq9QRQvMo7rTNAvls6ao%2FGc8I
+                    - checkbox [ref=e3212] [cursor=pointer]
+                    - generic [ref=e3214] [cursor=pointer]: 16:9
+            - group "All Top Brands" [ref=e3215]:
+              - heading "All Top Brands" [level=2] [ref=e3216]:
+                - generic [ref=e3217]: All Top Brands
+              - list "All Top Brands" [ref=e3218]:
+                - listitem [ref=e3219]:
+                  - link "Apply the filter Top Brands to narrow results" [ref=e3221] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101014971069111%3A206270883031&dc&qid=1759393332&rnid=206270882031&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3A3wFXC6V5e7jQAsGy%2FKVCjgubp53qKNu2NX80otBqSLg
+                    - checkbox [ref=e3224] [cursor=pointer]
+                    - generic [ref=e3226] [cursor=pointer]: Top Brands
+            - group "Processor Speed" [ref=e3227]:
+              - heading "Processor Speed" [level=2] [ref=e3228]:
+                - generic [ref=e3229]: Processor Speed
+              - list "Processor Speed" [ref=e3230]:
+                - listitem [ref=e3231]:
+                  - link "Apply the filter 1.5 - 1.99 GHz to narrow results" [ref=e3233] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A8561125031&dc&qid=1759393332&rnid=8561123031&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3AxlyMr1xG7ciPr19ucUmGImH3H6JF1y%2BbyNEFI6IEdDc
+                    - checkbox [ref=e3236] [cursor=pointer]
+                    - generic [ref=e3238] [cursor=pointer]: 1.5 - 1.99 GHz
+                - listitem [ref=e3239]:
+                  - link "Apply the filter 2 - 2.4 GHz to narrow results" [ref=e3241] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A8561126031&dc&qid=1759393332&rnid=8561123031&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3A52CGHGQU21uD4hX7ieqNhvczD2jndRHYxC6%2FQhVS9jY
+                    - checkbox [ref=e3244] [cursor=pointer]
+                    - generic [ref=e3246] [cursor=pointer]: 2 - 2.4 GHz
+                - listitem [ref=e3247]:
+                  - link "Apply the filter 2.5 GHz & Above to narrow results" [ref=e3249] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_feature_nine_browse-bin%3A8561127031&dc&qid=1759393332&rnid=8561123031&ref=sr_nr_p_n_feature_nine_browse-bin_3&ds=v1%3AfN93DSn5AIxur2q8Numoz143vwc3UL74zlwXzPuzIB4
+                    - checkbox [ref=e3252] [cursor=pointer]
+                    - generic [ref=e3254] [cursor=pointer]: 2.5 GHz & Above
+            - group "New Arrivals" [ref=e3255]:
+              - heading "New Arrivals" [level=2] [ref=e3256]:
+                - generic [ref=e3257]: New Arrivals
+              - list "New Arrivals" [ref=e3258]:
+                - listitem [ref=e3259]:
+                  - link "Last 30 days" [ref=e3261] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_date_first_available_absolute%3A1318487031&dc&qid=1759393332&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3ACWk8UTdhCs7%2B2UJ9wNcE8Hg%2B9JOsAiAOKnIt8%2FW2pt4
+                    - generic [ref=e3262] [cursor=pointer]: Last 30 days
+                - listitem [ref=e3263]:
+                  - link "Last 90 days" [ref=e3265] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_date_first_available_absolute%3A1318488031&dc&qid=1759393332&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AoOzTbKVXlWHcGVSIcvY3MS%2B36yRdPuw1ObG%2BO4yMaSM
+                    - generic [ref=e3266] [cursor=pointer]: Last 90 days
+            - group "Weight" [ref=e3267]:
+              - heading "Weight" [level=2] [ref=e3268]:
+                - generic [ref=e3269]: Weight
+              - list "Weight" [ref=e3270]:
+                - listitem [ref=e3271]:
+                  - link "Apply the filter 142 to 197.9 g to narrow results" [ref=e3273] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003491669111%3A42659588031&dc&qid=1759393332&rnid=42659587031&ref=sr_nr_p_n_g-1003491669111_1&ds=v1%3Ac7bwJSJi2q%2FR7C0Xasv0saK246OqFpcApZCYnpX9vh4
+                    - checkbox [ref=e3276] [cursor=pointer]
+                    - generic [ref=e3278] [cursor=pointer]: 142 to 197.9 g
+                - listitem [ref=e3279]:
+                  - link "Apply the filter 198 to 254.9 g to narrow results" [ref=e3281] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003491669111%3A42659589031&dc&qid=1759393332&rnid=42659587031&ref=sr_nr_p_n_g-1003491669111_2&ds=v1%3Ahfdx%2FECr8y6nAmA6eVrWMNxTtUpzTTonyKBXfwJNtAY
+                    - checkbox [ref=e3284] [cursor=pointer]
+                    - generic [ref=e3286] [cursor=pointer]: 198 to 254.9 g
+            - group "Seller" [ref=e3287]:
+              - heading "Seller" [level=2] [ref=e3288]:
+                - generic [ref=e3289]: Seller
+              - list "Seller" [ref=e3290]:
+                - listitem [ref=e3291]:
+                  - link "Apply the filter Cocoblu Retail to narrow results" [ref=e3293] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_6%3AA1WYWER0W24N8S&dc&qid=1759393332&rnid=1318474031&ref=sr_nr_p_6_1&ds=v1%3AUvpDlbbfeii%2BQPloZJgMteJFbqLXXH%2BjAWNk33wRgaU
+                    - checkbox [ref=e3296] [cursor=pointer]
+                    - generic [ref=e3298] [cursor=pointer]: Cocoblu Retail
+                - listitem [ref=e3299]:
+                  - link "Apply the filter NDCOM to narrow results" [ref=e3301] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_6%3AA3HFNPEOOF7M5Z&dc&qid=1759393332&rnid=1318474031&ref=sr_nr_p_6_2&ds=v1%3AD0rRI5%2FHdb1MHFy8sDInoHevdkn6B3Yv2X4RoOXBi0Q
+                    - checkbox [ref=e3304] [cursor=pointer]
+                    - generic [ref=e3306] [cursor=pointer]: NDCOM
+                - listitem [ref=e3307]:
+                  - button "See more, Seller" [ref=e3310] [cursor=pointer]:
+                    - generic [ref=e3312] [cursor=pointer]: See more
+            - group "Security Feature" [ref=e3313]:
+              - heading "Security Feature" [level=2] [ref=e3314]:
+                - generic [ref=e3315]: Security Feature
+              - list "Security Feature" [ref=e3316]:
+                - listitem [ref=e3317]:
+                  - link "Apply the filter Face Recognition to narrow results" [ref=e3319] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002085472111%3A27355807031&dc&qid=1759393332&rnid=27355796031&ref=sr_nr_p_n_g-1002085472111_1&ds=v1%3A%2F7I4ufEPPT%2FLwu1aCxvbAWDCryX4yVaUkfKIBxbFcHc
+                    - checkbox [ref=e3322] [cursor=pointer]
+                    - generic [ref=e3324] [cursor=pointer]: Face Recognition
+                - listitem [ref=e3325]:
+                  - link "Apply the filter Fingerprint Recognition to narrow results" [ref=e3327] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002085472111%3A27355812031&dc&qid=1759393332&rnid=27355796031&ref=sr_nr_p_n_g-1002085472111_2&ds=v1%3APz0SZ8rqzc23b2AcAR4%2FqV0eLsgci9bJ7uq2V65jtPk
+                    - checkbox [ref=e3330] [cursor=pointer]
+                    - generic [ref=e3332] [cursor=pointer]: Fingerprint Recognition
+            - group "Battery Type" [ref=e3333]:
+              - heading "Battery Type" [level=2] [ref=e3334]:
+                - generic [ref=e3335]: Battery Type
+              - list "Battery Type" [ref=e3336]:
+                - listitem [ref=e3337]:
+                  - link "Apply the filter Lithium-Ion to narrow results" [ref=e3339] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015500034111%3A100427319031&dc&qid=1759393332&rnid=100427310031&ref=sr_nr_p_n_g-101015500034111_1&ds=v1%3ACq3MY6PYnj9h2vfYqBC%2BPjEzMdo%2F3VFXjoMvz8dlUGI
+                    - checkbox [ref=e3342] [cursor=pointer]
+                    - generic [ref=e3344] [cursor=pointer]: Lithium-Ion
+                - listitem [ref=e3345]:
+                  - link "Apply the filter Lithium-Polymer to narrow results" [ref=e3347] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015500034111%3A100427316031&dc&qid=1759393332&rnid=100427310031&ref=sr_nr_p_n_g-101015500034111_2&ds=v1%3AE4WUKNui2ljtbjIHIkdSIZHp7TB%2BIfoHxLsmhOdGgGI
+                    - checkbox [ref=e3350] [cursor=pointer]
+                    - generic [ref=e3352] [cursor=pointer]: Lithium-Polymer
+            - group "Display Type" [ref=e3353]:
+              - heading "Display Type" [level=2] [ref=e3354]:
+                - generic [ref=e3355]: Display Type
+              - list "Display Type" [ref=e3356]:
+                - listitem [ref=e3357]:
+                  - link "Apply the filter AMOLED to narrow results" [ref=e3359] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101013595158111%3A66009619031&dc&qid=1759393332&rnid=66009617031&ref=sr_nr_p_n_g-101013595158111_1&ds=v1%3Avp4ragal8IEJYA6OpX6OydHdGCGtBfAZlPHu61SaBKk
+                    - checkbox [ref=e3362] [cursor=pointer]
+                    - generic [ref=e3364] [cursor=pointer]: AMOLED
+                - listitem [ref=e3365]:
+                  - link "Apply the filter LCD to narrow results" [ref=e3367] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101013595158111%3A66009618031&dc&qid=1759393332&rnid=66009617031&ref=sr_nr_p_n_g-101013595158111_2&ds=v1%3A9TIYYgeplcr4BtD0FJ0%2F4TtxG1bvfW%2Ft3LVjV3Qtb%2FU
+                    - checkbox [ref=e3370] [cursor=pointer]
+                    - generic [ref=e3372] [cursor=pointer]: LCD
+            - group "Input" [ref=e3373]:
+              - heading "Input" [level=2] [ref=e3374]:
+                - generic [ref=e3375]: Input
+              - list "Input" [ref=e3376]:
+                - listitem [ref=e3377]:
+                  - link "Apply the filter Touchscreen to narrow results" [ref=e3379] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002097072111%3A27362061031&dc&qid=1759393332&rnid=27362059031&ref=sr_nr_p_n_g-1002097072111_1&ds=v1%3AOMl14N2fkO10B%2FFG7HYzuQT1VdSfmEfOtNoDX0axO1w
+                    - checkbox [ref=e3382] [cursor=pointer]
+                    - generic [ref=e3384] [cursor=pointer]: Touchscreen
+                - listitem [ref=e3385]:
+                  - link "Apply the filter Buttons to narrow results" [ref=e3387] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002097072111%3A27362063031&dc&qid=1759393332&rnid=27362059031&ref=sr_nr_p_n_g-1002097072111_2&ds=v1%3A12PEtL5rcgrlj5K0ZcIZ6MmbMw3aY2pxVUMllfM%2BQB0
+                    - checkbox [ref=e3390] [cursor=pointer]
+                    - generic [ref=e3392] [cursor=pointer]: Buttons
+            - group "Wireless Network Technology" [ref=e3393]:
+              - heading "Wireless Network Technology" [level=2] [ref=e3394]:
+                - generic [ref=e3395]: Wireless Network Technology
+              - list "Wireless Network Technology" [ref=e3396]:
+                - listitem [ref=e3397]:
+                  - link "Apply the filter LTE to narrow results" [ref=e3399] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A100436153031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_1&ds=v1%3AXGJfw3SP4uaKZHhzra2GXx%2FWBzP1PNVSQZS30MTXdQ8
+                    - checkbox [ref=e3402] [cursor=pointer]
+                    - generic [ref=e3404] [cursor=pointer]: LTE
+                - listitem [ref=e3405]:
+                  - link "Apply the filter GSM to narrow results" [ref=e3407] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A100436155031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_2&ds=v1%3A4wdLWUEBBbwUl18mHlpjxBZnDTBBIZh1hrUkFx9gKXA
+                    - checkbox [ref=e3410] [cursor=pointer]
+                    - generic [ref=e3412] [cursor=pointer]: GSM
+                - listitem [ref=e3413]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=e3415] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A100436151031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_3&ds=v1%3AKd70XZ84GoE%2BtsL5gHgAhY%2FYUb2e7hnn8EOWb73LCHo
+                    - checkbox [ref=e3418] [cursor=pointer]
+                    - generic [ref=e3420] [cursor=pointer]: Wi-Fi
+                - listitem [ref=e3421]:
+                  - link "Apply the filter UMTS to narrow results" [ref=e3423] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A100436157031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_4&ds=v1%3AKnyhSs8m7411VRGVNBoy9nffOViryvq%2BWyCAphmvGG0
+                    - checkbox [ref=e3426] [cursor=pointer]
+                    - generic [ref=e3428] [cursor=pointer]: UMTS
+                - listitem [ref=e3429]:
+                  - link "Apply the filter AMPS to narrow results" [ref=e3431] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A100436154031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_5&ds=v1%3AUtHR0kL92U%2FPBo4IDiGyQpaGrrXfsrzHErTrrKpJCgs
+                    - checkbox [ref=e3434] [cursor=pointer]
+                    - generic [ref=e3436] [cursor=pointer]: AMPS
+                - listitem [ref=e3437]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=e3439] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A207962825031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_6&ds=v1%3AKRlQL0bPbaaSLdxiX3jXGN7Cs7CMGJp6BayhOEsKiA0
+                    - checkbox [ref=e3442] [cursor=pointer]
+                    - generic [ref=e3444] [cursor=pointer]: Bluetooth
+                - listitem [ref=e3445]:
+                  - link "Apply the filter Infrared to narrow results" [ref=e3447] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498571111%3A207962826031&dc&qid=1759393332&rnid=100436133031&ref=sr_nr_p_n_g-101015498571111_7&ds=v1%3Ai%2BcTyFGttCR2J5IxT%2Bf6I0P4jdJF6sTxM7bzuMeP5dA
+                    - checkbox [ref=e3450] [cursor=pointer]
+                    - generic [ref=e3452] [cursor=pointer]: Infrared
+                - listitem [ref=e3453]:
+                  - button "See more, Wireless Network Technology" [ref=e3456] [cursor=pointer]:
+                    - generic [ref=e3458] [cursor=pointer]: See more
+            - group "Display Refresh Rate" [ref=e3459]:
+              - heading "Display Refresh Rate" [level=2] [ref=e3460]:
+                - generic [ref=e3461]: Display Refresh Rate
+              - list "Display Refresh Rate" [ref=e3462]:
+                - listitem [ref=e3463]:
+                  - link "Apply the filter 105 to 120 Hz to narrow results" [ref=e3465] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003533222111%3A56163447031&dc&qid=1759393332&rnid=56162597031&ref=sr_nr_p_n_g-1003533222111_1&ds=v1%3AREH0t%2BLhzEpuQnj1XftxRiavpGm8g7MSA1eS8dugDd8
+                    - checkbox [ref=e3468] [cursor=pointer]
+                    - generic [ref=e3470] [cursor=pointer]: 105 to 120 Hz
+            - group "Sim Card Size" [ref=e3471]:
+              - heading "Sim Card Size" [level=2] [ref=e3472]:
+                - generic [ref=e3473]: Sim Card Size
+              - list "Sim Card Size" [ref=e3474]:
+                - listitem [ref=e3475]:
+                  - link "Apply the filter Nano to narrow results" [ref=e3477] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002989370111%3A27179455031&dc&qid=1759393332&rnid=27179438031&ref=sr_nr_p_n_g-1002989370111_1&ds=v1%3An4NAY0TMInq%2F51ZnbwiMyuTBjr%2BqrOT1HisvCO%2BJfTU
+                    - checkbox [ref=e3480] [cursor=pointer]
+                    - generic [ref=e3482] [cursor=pointer]: Nano
+            - group "Connectivity" [ref=e3483]:
+              - heading "Connectivity" [level=2] [ref=e3484]:
+                - generic [ref=e3485]: Connectivity
+              - list "Connectivity" [ref=e3486]:
+                - listitem [ref=e3487]:
+                  - link "Apply the filter Bluetooth to narrow results" [ref=e3489] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002112230111%3A27363277031&dc&qid=1759393332&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_1&ds=v1%3A0A%2FfxoCw8uzggACb7qoQbJsRlwS45njTLyefCi5iukA
+                    - checkbox [ref=e3492] [cursor=pointer]
+                    - generic [ref=e3494] [cursor=pointer]: Bluetooth
+                - listitem [ref=e3495]:
+                  - link "Apply the filter NFC to narrow results" [ref=e3497] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002112230111%3A27363279031&dc&qid=1759393332&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_2&ds=v1%3AsitYRMUNomUm3l2bZ8eKLJiq6%2B%2FHaCBYshmqVUNZge8
+                    - checkbox [ref=e3500] [cursor=pointer]
+                    - generic [ref=e3502] [cursor=pointer]: NFC
+                - listitem [ref=e3503]:
+                  - link "Apply the filter USB to narrow results" [ref=e3505] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002112230111%3A27363276031&dc&qid=1759393332&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_3&ds=v1%3AWLffyI1tAqt%2BV0DyghWTJbZ7eNkAQAmjpoy3iICONDM
+                    - checkbox [ref=e3508] [cursor=pointer]
+                    - generic [ref=e3510] [cursor=pointer]: USB
+                - listitem [ref=e3511]:
+                  - link "Apply the filter Wi-Fi to narrow results" [ref=e3513] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002112230111%3A27363278031&dc&qid=1759393332&rnid=27363274031&ref=sr_nr_p_n_g-1002112230111_4&ds=v1%3AiuSSgbeLFh2gwiC4f04qiiBHIjkb%2BCBqJskdnCIGvrw
+                    - checkbox [ref=e3516] [cursor=pointer]
+                    - generic [ref=e3518] [cursor=pointer]: Wi-Fi
+            - group "Supported Satellite Navigation System" [ref=e3519]:
+              - heading "Supported Satellite Navigation System" [level=2] [ref=e3520]:
+                - generic [ref=e3521]: Supported Satellite Navigation System
+              - list "Supported Satellite Navigation System" [ref=e3522]:
+                - listitem [ref=e3523]:
+                  - link "Apply the filter Galileo to narrow results" [ref=e3525] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498432111%3A100424904031&dc&qid=1759393332&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_1&ds=v1%3AWHaogkj4GKSh5BoUzrc1IF1laG9FGlkCVLPctk0P4nY
+                    - checkbox [ref=e3528] [cursor=pointer]
+                    - generic [ref=e3530] [cursor=pointer]: Galileo
+                - listitem [ref=e3531]:
+                  - link "Apply the filter BeiDou to narrow results" [ref=e3533] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498432111%3A100424900031&dc&qid=1759393332&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_2&ds=v1%3AT7lKtDyvxfbduBGqoEXbKWDr9gZIdHyGuy61XyVwq88
+                    - checkbox [ref=e3536] [cursor=pointer]
+                    - generic [ref=e3538] [cursor=pointer]: BeiDou
+                - listitem [ref=e3539]:
+                  - link "Apply the filter GLONASS to narrow results" [ref=e3541] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498432111%3A100424903031&dc&qid=1759393332&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_3&ds=v1%3AmDhO3gKnO5TLYEvcHvdqkAdbt%2FPetB933VovxHOT6NM
+                    - checkbox [ref=e3544] [cursor=pointer]
+                    - generic [ref=e3546] [cursor=pointer]: GLONASS
+                - listitem [ref=e3547]:
+                  - link "Apply the filter GPS to narrow results" [ref=e3549] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015498432111%3A100424905031&dc&qid=1759393332&rnid=100424895031&ref=sr_nr_p_n_g-101015498432111_4&ds=v1%3AY8Ou%2FOT%2BFPfQSgxf%2FptrlyTrwF%2FyP2%2BQU9zqFR%2FKl%2Bo
+                    - checkbox [ref=e3552] [cursor=pointer]
+                    - generic [ref=e3554] [cursor=pointer]: GPS
+            - group "Display Resolution" [ref=e3555]:
+              - heading "Display Resolution" [level=2] [ref=e3556]:
+                - generic [ref=e3557]: Display Resolution
+              - list "Display Resolution" [ref=e3558]:
+                - listitem [ref=e3559]:
+                  - link "Apply the filter 2340 x 1080 to narrow results" [ref=e3561] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1002090229111%3A27345192031&dc&qid=1759393332&rnid=27345181031&ref=sr_nr_p_n_g-1002090229111_1&ds=v1%3APbGy7KBtbPAiDnuXDF24BG2dJ4Jt2OcBk34mdV69SuM
+                    - checkbox [ref=e3564] [cursor=pointer]
+                    - generic [ref=e3566] [cursor=pointer]: 2340 x 1080
+            - group "Front Camera Resolution" [ref=e3567]:
+              - heading "Front Camera Resolution" [level=2] [ref=e3568]:
+                - generic [ref=e3569]: Front Camera Resolution
+              - list "Front Camera Resolution" [ref=e3570]:
+                - listitem [ref=e3571]:
+                  - link "Apply the filter 7.0 to 9.9 MP to narrow results" [ref=e3573] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003565058111%3A61505201031&dc&qid=1759393332&rnid=61505195031&ref=sr_nr_p_n_g-1003565058111_1&ds=v1%3AqEp4qhRDp7wh1nZ%2BBRzcB%2Bm3z3ol7E0mxGhOgycWS%2F0
+                    - checkbox [ref=e3576] [cursor=pointer]
+                    - generic [ref=e3578] [cursor=pointer]: 7.0 to 9.9 MP
+                - listitem [ref=e3579]:
+                  - link "Apply the filter 10.0 to 12.9 MP to narrow results" [ref=e3581] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003565058111%3A61505199031&dc&qid=1759393332&rnid=61505195031&ref=sr_nr_p_n_g-1003565058111_2&ds=v1%3A8MjRTaN32o%2F10bdSJPS3EgF3g%2FBgZXPfgHvsTP4NgDE
+                    - checkbox [ref=e3584] [cursor=pointer]
+                    - generic [ref=e3586] [cursor=pointer]: 10.0 to 12.9 MP
+                - listitem [ref=e3587]:
+                  - link "Apply the filter 13.0 MP & above to narrow results" [ref=e3589] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003565058111%3A61505197031&dc&qid=1759393332&rnid=61505195031&ref=sr_nr_p_n_g-1003565058111_3&ds=v1%3AukkqOt7WKUqTMGncP4LEHVEyUoHiHi3gDHdHBXuYlFI
+                    - checkbox [ref=e3592] [cursor=pointer]
+                    - generic [ref=e3594] [cursor=pointer]: 13.0 MP & above
+            - group "Video Capture Resolution" [ref=e3595]:
+              - heading "Video Capture Resolution" [level=2] [ref=e3596]:
+                - generic [ref=e3597]: Video Capture Resolution
+              - list "Video Capture Resolution" [ref=e3598]:
+                - listitem [ref=e3599]:
+                  - link "Apply the filter 1080p to narrow results" [ref=e3601] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003305462111%3A28430295031&dc&qid=1759393332&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_1&ds=v1%3ACJswYPDgIVLmHEm33sOD6WK0OrK%2FItR6MW%2Flp%2FVxplY
+                    - checkbox [ref=e3604] [cursor=pointer]
+                    - generic [ref=e3606] [cursor=pointer]: 1080p
+                - listitem [ref=e3607]:
+                  - link "Apply the filter 4k to narrow results" [ref=e3609] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003305462111%3A28430294031&dc&qid=1759393332&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_2&ds=v1%3AbxO3F1IUs4BEa1dA5ITdDX%2BzZbef6uCYQF%2B8T6bYBvg
+                    - checkbox [ref=e3612] [cursor=pointer]
+                    - generic [ref=e3614] [cursor=pointer]: 4k
+                - listitem [ref=e3615]:
+                  - link "Apply the filter 720p to narrow results" [ref=e3617] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003305462111%3A28430293031&dc&qid=1759393332&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_3&ds=v1%3AowRXi8fGqy8woUliZILro1zytoF6D1q%2F8dVqeLf3tbY
+                    - checkbox [ref=e3620] [cursor=pointer]
+                    - generic [ref=e3622] [cursor=pointer]: 720p
+                - listitem [ref=e3623]:
+                  - link "Apply the filter 8k to narrow results" [ref=e3625] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003305462111%3A28430296031&dc&qid=1759393332&rnid=28430291031&ref=sr_nr_p_n_g-1003305462111_4&ds=v1%3ANZXmxmsM4qI3C7sAvgnYxWZWtRw%2Bf4%2F1MvqP4Q7R7cE
+                    - checkbox [ref=e3628] [cursor=pointer]
+                    - generic [ref=e3630] [cursor=pointer]: 8k
+            - group "GPS Navigation" [ref=e3631]:
+              - heading "GPS Navigation" [level=2] [ref=e3632]:
+                - generic [ref=e3633]: GPS Navigation
+              - list "GPS Navigation" [ref=e3634]:
+                - listitem [ref=e3635]:
+                  - link "Apply the filter True to narrow results" [ref=e3637] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015364874111%3A96329643031&dc&qid=1759393332&rnid=96329629031&ref=sr_nr_p_n_g-101015364874111_1&ds=v1%3A55iFBpXE%2F%2BKiJSC3h%2Fs0wAwXmyBcMFl79o9UkogyDCM
+                    - checkbox [ref=e3640] [cursor=pointer]
+                    - generic [ref=e3642] [cursor=pointer]: "True"
+            - group "Flash" [ref=e3643]:
+              - heading "Flash" [level=2] [ref=e3644]:
+                - generic [ref=e3645]: Flash
+              - list "Flash" [ref=e3646]:
+                - listitem [ref=e3647]:
+                  - link "Apply the filter LED to narrow results" [ref=e3649] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101015500208111%3A100427321031&dc&qid=1759393332&rnid=100427311031&ref=sr_nr_p_n_g-101015500208111_1&ds=v1%3AJvby4OCIK1o4uyyra7YAzOEEMA%2FFbJ9T%2BId8RD1Er7Y
+                    - checkbox [ref=e3652] [cursor=pointer]
+                    - generic [ref=e3654] [cursor=pointer]: LED
+            - group "Inclusions" [ref=e3655]:
+              - heading "Inclusions" [level=2] [ref=e3656]:
+                - generic [ref=e3657]: Inclusions
+              - list "Inclusions" [ref=e3658]:
+                - listitem [ref=e3659]:
+                  - link "Apply the filter USB Cable to narrow results" [ref=e3661] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101013594324111%3A66008618031&dc&qid=1759393332&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_1&ds=v1%3AMCks7tQwVpv4B31J8s7hVH2UlHc7bwUVYAB0BtI59kA
+                    - checkbox [ref=e3664] [cursor=pointer]
+                    - generic [ref=e3666] [cursor=pointer]: USB Cable
+                - listitem [ref=e3667]:
+                  - link "Apply the filter SIM Tray Ejector to narrow results" [ref=e3669] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101013594324111%3A66008617031&dc&qid=1759393332&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_2&ds=v1%3AqklcdtU8Z25ZxtSZDVeZNTTzSJq0tj8EPzESJjH0NNI
+                    - checkbox [ref=e3672] [cursor=pointer]
+                    - generic [ref=e3674] [cursor=pointer]: SIM Tray Ejector
+                - listitem [ref=e3675]:
+                  - link "Apply the filter Phone Case to narrow results" [ref=e3677] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101013594324111%3A66008623031&dc&qid=1759393332&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_3&ds=v1%3ApKeQy0qK7MogSd1etB5NHLsrbuJfIOSmZLn7IhvXXYw
+                    - checkbox [ref=e3680] [cursor=pointer]
+                    - generic [ref=e3682] [cursor=pointer]: Phone Case
+                - listitem [ref=e3683]:
+                  - link "Apply the filter Power Adapter to narrow results" [ref=e3685] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-101013594324111%3A66008624031&dc&qid=1759393332&rnid=66008593031&ref=sr_nr_p_n_g-101013594324111_4&ds=v1%3AZfVNhgvnayfVYP3vGJL2zoJ1uQA1ZbwLZwgLLOPZ6MM
+                    - checkbox [ref=e3688] [cursor=pointer]
+                    - generic [ref=e3690] [cursor=pointer]: Power Adapter
+            - group "Battery Life" [ref=e3691]:
+              - heading "Battery Life" [level=2] [ref=e3692]:
+                - generic [ref=e3693]: Battery Life
+              - list "Battery Life" [ref=e3694]:
+                - listitem [ref=e3695]:
+                  - link "Apply the filter 13 to 18.9 h to narrow results" [ref=e3697] [cursor=pointer]:
+                    - /url: /s?k=iPhone+15&rh=n%3A976419031%2Cp_n_g-1003486052111%3A42062132031&dc&qid=1759393332&rnid=42062008031&ref=sr_nr_p_n_g-1003486052111_1&ds=v1%3Akcnfxhoq9TnpniaBny2NmYUdQRQS%2B5yNR926xmRD6mc
+                    - checkbox [ref=e3700] [cursor=pointer]
+                    - generic [ref=e3702] [cursor=pointer]: 13 to 18.9 h
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e3703]:
+    - button "Back to top" [ref=e3704]:
+      - generic [ref=e3706]: Back to top
+    - generic [ref=e3707]:
+      - generic [ref=e3708]:
+        - heading "Get to Know Us" [level=6] [ref=e3709]
+        - list [ref=e3710]:
+          - listitem [ref=e3711]:
+            - link "About Amazon" [ref=e3712] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3713]:
+            - link "Careers" [ref=e3714] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e3715]:
+            - link "Press Releases" [ref=e3716] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3717]:
+            - link "Amazon Science" [ref=e3718] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e3720]:
+        - heading "Connect with Us" [level=6] [ref=e3721]
+        - list [ref=e3722]:
+          - listitem [ref=e3723]:
+            - link "Facebook" [ref=e3724] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e3725]:
+            - link "Twitter" [ref=e3726] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e3727]:
+            - link "Instagram" [ref=e3728] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e3730]:
+        - heading "Make Money with Us" [level=6] [ref=e3731]
+        - list [ref=e3732]:
+          - listitem [ref=e3733]:
+            - link "Sell on Amazon" [ref=e3734] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e3735]:
+            - link "Sell under Amazon Accelerator" [ref=e3736] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e3737]:
+            - link "Protect and Build Your Brand" [ref=e3738] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e3739]:
+            - link "Amazon Global Selling" [ref=e3740] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e3741]:
+            - link "Supply to Amazon" [ref=e3742] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e3743]:
+            - link "Become an Affiliate" [ref=e3744] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e3745]:
+            - link "Fulfilment by Amazon" [ref=e3746] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e3747]:
+            - link "Advertise Your Products" [ref=e3748] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e3749]:
+            - link "Amazon Pay on Merchants" [ref=e3750] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e3752]:
+        - heading "Let Us Help You" [level=6] [ref=e3753]
+        - list [ref=e3754]:
+          - listitem [ref=e3755]:
+            - link "Your Account" [ref=e3756] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e3757]:
+            - link "Returns Centre" [ref=e3758] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e3759]:
+            - link "Recalls and Product Safety Alerts" [ref=e3760] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e3761]:
+            - link "100% Purchase Protection" [ref=e3762] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e3763]:
+            - link "Amazon App Download" [ref=e3764] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e3765]:
+            - link "Help" [ref=e3766] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e3768]:
+      - link "Amazon India Home" [ref=e3771] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e3774]:
+        - generic [ref=e3775]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e3776] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e3778] [cursor=pointer]: English
+          - button "Expand to Change Language or Country" [ref=e3779] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e3780] [cursor=pointer]:
+          - generic [ref=e3782] [cursor=pointer]: India
+    - generic "More on Amazon" [ref=e3784]:
+      - list [ref=e3785]:
+        - listitem [ref=e3786]:
+          - link "AbeBooks Books, art & collectibles" [ref=e3787] [cursor=pointer]:
+            - /url: https://www.abebooks.com/
+            - heading "AbeBooks" [level=5] [ref=e3788] [cursor=pointer]
+            - generic [ref=e3789] [cursor=pointer]:
+              - text: Books, art
+              - text: "& collectibles"
+        - listitem [ref=e3790]
+        - listitem [ref=e3791]:
+          - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e3792] [cursor=pointer]:
+            - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+            - heading "Amazon Web Services" [level=5] [ref=e3793] [cursor=pointer]
+            - generic [ref=e3794] [cursor=pointer]:
+              - text: Scalable Cloud
+              - text: Computing Services
+        - listitem [ref=e3795]
+        - listitem [ref=e3796]:
+          - link "Audible Download Audio Books" [ref=e3797] [cursor=pointer]:
+            - /url: https://www.audible.in/
+            - heading "Audible" [level=5] [ref=e3798] [cursor=pointer]
+            - generic [ref=e3799] [cursor=pointer]:
+              - text: Download
+              - text: Audio Books
+        - listitem [ref=e3800]
+        - listitem [ref=e3801]:
+          - link "IMDb Movies, TV & Celebrities" [ref=e3802] [cursor=pointer]:
+            - /url: https://www.imdb.com/
+            - heading "IMDb" [level=5] [ref=e3803] [cursor=pointer]
+            - generic [ref=e3804] [cursor=pointer]:
+              - text: Movies, TV
+              - text: "& Celebrities"
+      - list [ref=e3805]:
+        - listitem [ref=e3806]:
+          - link "Shopbop Designer Fashion Brands" [ref=e3807] [cursor=pointer]:
+            - /url: https://www.shopbop.com/
+            - heading "Shopbop" [level=5] [ref=e3808] [cursor=pointer]
+            - generic [ref=e3809] [cursor=pointer]:
+              - text: Designer
+              - text: Fashion Brands
+        - listitem [ref=e3810]
+        - listitem [ref=e3811]:
+          - link "Amazon Business Everything For Your Business" [ref=e3812] [cursor=pointer]:
+            - /url: /business?ref=footer_aingw
+            - heading "Amazon Business" [level=5] [ref=e3813] [cursor=pointer]
+            - generic [ref=e3814] [cursor=pointer]:
+              - text: Everything For
+              - text: Your Business
+        - listitem [ref=e3815]
+        - listitem [ref=e3816]:
+          - link "Prime Now 2-Hour Delivery on Everyday Items" [ref=e3817] [cursor=pointer]:
+            - /url: /now?ref=footer_amznow
+            - heading "Prime Now" [level=5] [ref=e3818] [cursor=pointer]
+            - generic [ref=e3819] [cursor=pointer]:
+              - text: 2-Hour Delivery
+              - text: on Everyday Items
+        - listitem [ref=e3820]
+        - listitem [ref=e3821]:
+          - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e3822] [cursor=pointer]:
+            - /url: /music/prime?ref=footer_apm
+            - heading "Amazon Prime Music" [level=5] [ref=e3823] [cursor=pointer]
+            - generic [ref=e3824] [cursor=pointer]:
+              - text: 100 million songs, ad-free
+              - text: Over 15 million podcast episodes
+    - generic [ref=e3825]:
+      - list [ref=e3826]:
+        - listitem [ref=e3827]:
+          - link "Conditions of Use & Sale" [ref=e3828] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e3829]:
+          - link "Privacy Notice" [ref=e3830] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e3831]:
+          - link "Interest-Based Ads" [ref=e3832] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e3833]: © 1996-2025, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e3835]:
+    - iframe [ref=f1e2]:
+      - generic [active]:
+        - img [ref=f2e1]
+        - img [ref=f2e2]
+        - img [ref=f2e3]
+        - img [ref=f2e4]
+        - img [ref=f2e5]
+        - img [ref=f2e6]
+        - img [ref=f2e7]
+        - img [ref=f2e8]
+        - img [ref=f2e9]
+        - img [ref=f2e10]
+        - img [ref=f2e11]
+        - img [ref=f2e12]
+        - img [ref=f2e13]
+        - img [ref=f2e14]
+        - img [ref=f2e15]
+        - img [ref=f2e16]
+        - img [ref=f2e17]
+        - img [ref=f2e18]
+        - img [ref=f2e19]
+        - img [ref=f2e20]
+        - img [ref=f2e21]
+        - img [ref=f2e22]
+        - img [ref=f2e23]
+        - img [ref=f2e24]
+        - img [ref=f2e25]
+        - img [ref=f2e26]
+        - img [ref=f2e27]
+        - img [ref=f2e28]
+        - img [ref=f2e29]
+        - img [ref=f2e30]
+        - img [ref=f2e31]
+        - img [ref=f2e32]
+        - img [ref=f2e33]
+        - img [ref=f2e34]
+        - img [ref=f2e35]
+        - img [ref=f2e36]
+        - img [ref=f2e37]
+        - img [ref=f2e38]
+        - img [ref=f2e39]
+        - img [ref=f2e40]
+        - img [ref=f2e41]
+        - img [ref=f2e42]
+        - img [ref=f2e43]
+        - img [ref=f2e44]
+        - img [ref=f2e45]
+        - img [ref=f2e46]
+        - img [ref=f2e47]
+```

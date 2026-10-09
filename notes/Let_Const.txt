@@ -1,0 +1,13 @@
+let city = "Chennai";
+console.log(city);  // Chennai
+
+city = "Bangalore"; // Reassignment allowed
+console.log(city);  // Bangalore
+
+
+==================================================================================================
+const country = "India";
+console.log(country);  // India
+
+country = "USA"; // ❌ Error: Assignment to constant variable
+console.log(country);

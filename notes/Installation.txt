@@ -1,0 +1,47 @@
+1. Install Node.js → https://nodejs.org
+
+2. Create project folder and initialize:
+
+npm init -y
+
+3. Install Playwright:
+
+npm install -D @playwright/test
+
+4. Install browsers (Chromium, Firefox, WebKit):
+
+npx playwright install
+
+5. (Optional) Install Allure or other reporters if you need reports.
+
+✅ After this, you can run a test:
+
+npx playwright test
+
+
+/////////////////////////////////////////
+////////////////////////////////////////
+1. Install Node JS
+2. Initialize Project Folder
+npm init -y
+
+3. Install Playwright
+npm i -D @playwright/test
+
+4. Install Browsers
+npx playwright install
+
+--------------------------------------------------------------
+
+npm i -D @playwright/test allure-playwright
+
+npm i -g allure-commandline --save-dev
+
+--------------------------------------------------------------
+
+report: [['allure-playwright', {outputFolder: ''}]]
+----------------------------------------------------------
+
+npx allure generate "allure-results" --clean -o "allure-report"
+-----------------------------------------------------------------
+

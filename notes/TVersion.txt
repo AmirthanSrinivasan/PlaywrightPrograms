@@ -1,0 +1,13 @@
+Playwright: 1.55.0
+
+JavaScript (Node.js LTS): 22.19.0
+
+Allure: 2.35.1
+
+Java (JDK LTS): 21 , latest is 25
+
+Selenium: 4.35.0
+
+Git: 2.51.0
+
+GitHub Desktop: 3.5.2

@@ -1,0 +1,4 @@
+ProductName: IPHONE 13 PRO
+Product Price : $ 55000
+IPHONE 13 PRO
+[ 'MRP $ 55000' ]

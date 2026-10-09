@@ -1,0 +1,39 @@
+{
+  "validUser": {
+    "username": "amirthan.qa@example.com",
+    "password": "Test@123"
+  },
+  "invalidUser": {
+    "username": "wronguser@example.com",
+    "password": "wrongpass"
+  },
+  "urls": {
+    "loginPage": "https://demoqa.com/login",
+    "dashboard": "https://demoqa.com/dashboard"
+  },
+  "formData": {
+    "firstName": "Amirthan",
+    "lastName": "Srinivasan",
+    "city": "Chennai",
+    "pincode": "600042"
+  }
+}
+🧩 How to Use It in Playwright
+javascript
+Copy code
+const testData = require('../testData.json');
+
+{
+    url:[
+        https:www.sit1.com,
+        https:www.sit2.com,
+        https:www.sit3.com
+    ]
+}
+
+test('Login test', async ({ page }) => {
+  await page.goto(testData.urls.loginPage);
+  await page.fill('#username', testData.validUser.username);
+  await page.fill('#password', testData.validUser.password);
+  await page.click('#loginButton');
+});

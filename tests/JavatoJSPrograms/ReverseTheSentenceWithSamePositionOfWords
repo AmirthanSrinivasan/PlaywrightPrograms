@@ -1,0 +1,15 @@
+//Reverse the sentence with same position for words. 
+
+let input = "Hi hello how are you"
+let inputArray = input.split(" ")
+let reverse = ""
+
+for(let each of inputArray){
+    for(let i=each.length-1; i>=0;i--){
+        reverse = reverse + each[i] 
+    }
+    reverse = reverse + " "
+}
+
+console.log(reverse)
+

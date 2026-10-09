@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9512","Handle multiple windows like Selenium window handles","chromium","Thu Sep 18 21:44:41 IST 2025","passed","Thu Sep 18 21:44:51 IST 2025","","InterviwePrograms\MultipleJavatoJsWindows.spec.js","",""

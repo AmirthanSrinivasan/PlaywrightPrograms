@@ -1,0 +1,9 @@
+git status → see changes
+
+git add . → stage changes
+
+git commit -m "my changes" → commit changes
+
+git pull origin Dev/Automation → sync with the base branch before pushing (to avoid conflicts)
+
+git push origin Amirthan/playwright → push your changes

@@ -1,0 +1,17 @@
+🔹 Synchronous
+
+Definition: Code runs line by line, each statement waits for the previous one to finish before moving to the next.
+
+Blocking: If one line takes time (like a heavy calculation), everything after it waits.
+
+🔹 Asynchronous
+
+Definition: Code doesn’t always run in order. Some tasks (like network calls, timers, file reads) can take time, so they run in the background.
+
+Non-blocking: JS moves to the next line immediately, and when the async task is done, its result is handled later (via callback, promise, or async/await).
+
+✅ Quick Trick to Remember
+
+Synchronous = sequential, blocking (like standing in a queue, wait your turn).
+
+Asynchronous = parallel, non-blocking (like ordering food → you can chat while it cooks).

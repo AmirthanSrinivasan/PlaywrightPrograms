@@ -1,0 +1,6 @@
+1 Apple
+2 Ball
+3 Cat
+Key: 3 Value: Cat
+Key: 2 Value: Ball
+Key: 1 Value: Apple

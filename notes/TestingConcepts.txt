@@ -1,0 +1,57 @@
+📌 SDLC (Software Development Life Cycle)
+
+Requirement Analysis
+
+Feasibility Study
+
+Design
+
+Coding / Implementation
+
+Testing
+
+Deployment
+
+Maintenance
+
+📌 STLC (Software Testing Life Cycle)
+
+Requirement Analysis
+
+Test Planning
+
+Test Case Design
+
+Environment Setup
+
+Test Execution
+
+Defect Reporting & Tracking
+
+Test Closure
+
+📌 Bug Life Cycle
+
+New
+
+Assigned
+
+Open
+
+Fixed
+
+Retested
+
+Verified
+
+Closed
+
+Reopened (if issue persists)
+
+
+===================================================
+
+| **Priority / Severity** | **High Severity**                                                                                                                            | **Low Severity**                                                                                           |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **High Priority**       | Key features failed and no workaround. <br> *E.g.* Login button is not working.                                                              | Basic feature failed but it has a huge impact on customer’s business. <br> *E.g.* Misspelled Company logo. |
+| **Low Priority**        | Key features failed but no impact on customer’s business. <br> *E.g.* Calculation fault in yearly report which end user won’t use regularly. | Cosmetic issues. <br> *E.g.* Font family mismatch in a report.                                             |

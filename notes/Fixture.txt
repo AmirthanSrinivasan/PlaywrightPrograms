@@ -1,0 +1,68 @@
+In Playwright, fixtures are a way to set up and share test context, test data, 
+or resources across multiple tests in a clean and reusable manner.
+
+They help in creating consistent test environments and reduce code duplication. 
+Fixtures can be thought of as setup/teardown logic that is automatically managed by Playwright’s test runner.
+
+
+=======================================
+
+⭐ What’s inside { page } in Playwright
+
+{ page } is a fixture object provided by Playwright’s test runner.
+
+It represents a single browser tab (or page) inside a browser context.
+
+When you write test('...', async ({ page }) => { ... }), Playwright injects the page fixture into the test automatically.
+
+🔹 What does page contain?
+
+It is an instance of the Page class with many methods and properties. Common categories:
+
+Navigation & Interaction
+
+page.goto(url) → open a URL
+
+page.click(selector) → click element
+
+page.fill(selector, value) → type into input
+
+page.selectOption(selector, value) → dropdown handling
+
+Assertions / State
+
+page.url() → current URL
+
+page.title() → page title
+
+page.isVisible(selector) → check if element is visible
+
+Waiting & Events
+
+page.waitForSelector(selector)
+
+page.on('dialog', callback)
+
+Screenshots / Recording
+
+page.screenshot()
+
+page.video() (if configured)
+
+Frames & Context
+
+page.frames() → list of frames
+
+page.context() → access to the browser context
+
+🔹 Example
+test('search in Google', async ({ page }) => {
+  // {page} is a fresh browser tab
+  await page.goto('https://www.google.com');
+  await page.fill('[name="q"]', 'Playwright JS');
+  await page.press('[name="q"]', 'Enter');
+  await expect(page).toHaveTitle(/Playwright/);
+});
+
+
+👉 Here { page } is giving us the driver object to interact with the web page.

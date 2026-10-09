@@ -1,0 +1,1891 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, alt, forward slash" [ref=e12]:
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, alt, c" [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, alt, h" [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, alt, o" [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52] [cursor=pointer]: Show/Hide shortcuts
+            - generic [ref=e53] [cursor=pointer]:
+              - generic [ref=e54] [cursor=pointer]: shift
+              - generic [ref=e55] [cursor=pointer]: +
+              - generic [ref=e56] [cursor=pointer]: alt
+              - generic [ref=e57] [cursor=pointer]: +
+              - generic [ref=e58] [cursor=pointer]: Z
+    - generic [ref=e65]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e66]:
+    - navigation "Primary" [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - link "Amazon.in" [ref=e71] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Bengaluru 562114 Update location" [ref=e74] [cursor=pointer]:
+            - generic [ref=e76] [cursor=pointer]:
+              - generic [ref=e77] [cursor=pointer]: Delivering to Bengaluru 562114
+              - generic [ref=e78] [cursor=pointer]: Update location
+        - search [ref=e81]:
+          - generic [ref=e84]:
+            - generic [ref=e86]: All
+            - combobox "Select the department you want to search in" [ref=e88] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e91]
+          - button "Go" [ref=e95] [cursor=pointer]
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e99] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e102] [cursor=pointer]:
+                - img "India" [ref=e103] [cursor=pointer]
+                - generic [ref=e104] [cursor=pointer]: EN
+            - button "Expand to Change Language or Country" [ref=e105] [cursor=pointer]
+          - generic [ref=e106]:
+            - link "Hello, sign in Account & Lists" [ref=e107] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e109] [cursor=pointer]: Hello, sign in
+              - generic [ref=e110] [cursor=pointer]: Account & Lists
+            - button "Expand Account and Lists" [ref=e111] [cursor=pointer]
+          - link "Returns & Orders" [ref=e112] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e113] [cursor=pointer]: Returns
+            - generic [ref=e114] [cursor=pointer]: "& Orders"
+          - link "0 items in cart" [ref=e115] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e117] [cursor=pointer]: "0"
+            - generic [ref=e120] [cursor=pointer]: Cart
+      - generic [ref=e121]:
+        - button "Open All Categories Menu" [ref=e123] [cursor=pointer]:
+          - generic [ref=e125] [cursor=pointer]: All
+        - list [ref=e129]:
+          - listitem [ref=e130]:
+            - generic [ref=e131]:
+              - link "Fresh" [ref=e132] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+                - generic [ref=e133] [cursor=pointer]: Fresh
+              - button "Fresh Details" [ref=e134] [cursor=pointer]
+          - listitem [ref=e135]:
+            - link "MX Player" [ref=e137] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e138]:
+            - link "Sell" [ref=e140] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e141]:
+            - link "Bestsellers" [ref=e143] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e144]:
+            - link "Today's Deals" [ref=e146] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e147]:
+            - link "Mobiles" [ref=e149] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e150]:
+            - link "Electronics" [ref=e152] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e153]:
+            - link "New Releases" [ref=e155] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e156]:
+            - generic [ref=e157]:
+              - link "Prime" [ref=e158] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+                - generic [ref=e159] [cursor=pointer]: Prime
+              - button "Prime Details" [ref=e160] [cursor=pointer]
+          - listitem [ref=e161]:
+            - link "Customer Service" [ref=e163] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e164]:
+            - link "Fashion" [ref=e166] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e167]:
+            - link "Home & Kitchen" [ref=e169] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e170]:
+            - link "Amazon Pay" [ref=e172] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e173]:
+            - link "Computers" [ref=e175] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e176]:
+            - link "Home Improvement" [ref=e178] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e179]:
+            - link "Books" [ref=e181] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e182]:
+            - link "Beauty & Personal Care" [ref=e184] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e185]:
+            - link "Car & Motorbike" [ref=e187] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e188]:
+            - link "Toys & Games" [ref=e190] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e191]:
+            - link "Video Games" [ref=e193] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e194]:
+            - link "Gift Cards" [ref=e196] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e197]:
+            - link "Sports, Fitness & Outdoors" [ref=e199] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e200]:
+            - link "Custom Products" [ref=e202] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e203]:
+            - link "Grocery & Gourmet Foods" [ref=e205] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e206]:
+            - link "Health, Household & Personal Care" [ref=e208] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e209]:
+            - link "Audible" [ref=e211] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e212]:
+            - link "AmazonBasics" [ref=e214] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e215]:
+            - link "Pet Supplies" [ref=e217] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e218]:
+            - link "Baby" [ref=e220] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e221]:
+            - link "Subscribe & Save" [ref=e223] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e224]:
+            - link "Gift Ideas" [ref=e226] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e227]:
+            - link "Flights" [ref=e229] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+        - link "Big Savings, More Happiness" [ref=e233] [cursor=pointer]:
+          - /url: /events/greatindianfestival/?_encoding=UTF8&ref_=nav_swm_swm_gd&pf_rd_p=37c60729-11e4-49d4-b0d3-281b35b6a9ed&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=JHB94SNDFVS0GXJQ8800
+          - img "Big Savings, More Happiness" [ref=e234] [cursor=pointer]
+  - main [ref=e236]:
+    - banner [ref=e238]:
+      - group "Featured content" [ref=e239]:
+        - generic [ref=e241]:
+          - button "Previous slide" [disabled] [ref=e243] [cursor=pointer]:
+            - generic [ref=e245] [cursor=pointer]: Previous slide
+          - group [ref=e247]:
+            - list [ref=e248]:
+              - listitem [ref=e249]:
+                - link "Great Indian Festival | Live now" [ref=e252] [cursor=pointer]:
+                  - /url: /events/greatindianfestival/?_encoding=UTF8&ref_=jup25_power_asins&bubble-id=deals-collection-powerasins-deals&pd_rd_w=H4cuz&content-id=amzn1.sym.11bb393e-43bd-4128-a5fd-16960798c4f5&pf_rd_p=11bb393e-43bd-4128-a5fd-16960798c4f5&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=hbBZI&pd_rd_r=66838bba-c6f0-49be-a1e4-4b2f7e397155
+                  - img "Great Indian Festival | Live now" [ref=e253] [cursor=pointer]
+          - button "Next slide" [ref=e255] [cursor=pointer]:
+            - generic [ref=e257] [cursor=pointer]: Next slide
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - generic [ref=e261]:
+          - heading "Get wholesale pricing + 10% Welcome cashback" [level=2] [ref=e263]
+          - generic [ref=e264]:
+            - generic [ref=e265]:
+              - link "Electronics" [ref=e267] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=SY8gj&content-id=amzn1.sym.6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_p=6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Electronics" [ref=e269] [cursor=pointer]
+                - generic [ref=e271] [cursor=pointer]: Electronics
+              - link "Home & Kitchen appliances" [ref=e273] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=SY8gj&content-id=amzn1.sym.6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_p=6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Home & Kitchen appliances" [ref=e275] [cursor=pointer]
+                - generic [ref=e277] [cursor=pointer]: Home & Kitchen appliances
+            - generic [ref=e278]:
+              - link "Furniture & decors" [ref=e280] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=SY8gj&content-id=amzn1.sym.6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_p=6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Furniture & decors" [ref=e282] [cursor=pointer]
+                - generic [ref=e284] [cursor=pointer]: Furniture & decors
+              - link "For Business purchases" [ref=e286] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=SY8gj&content-id=amzn1.sym.6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_p=6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "For Business purchases" [ref=e288] [cursor=pointer]
+                - generic [ref=e290] [cursor=pointer]: For Business purchases
+          - link "Get wholesale pricing + 10% Welcome cashback - See all offers" [ref=e292] [cursor=pointer]:
+            - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=SY8gj&content-id=amzn1.sym.6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_p=6718bf3d-de72-4c74-8da2-a86ba2ed18d4&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+            - generic [ref=e293] [cursor=pointer]:
+              - generic [ref=e294] [cursor=pointer]: See all offers
+              - generic [ref=e295] [cursor=pointer]: See all offers
+        - generic [ref=e297]:
+          - heading "Up to 70% off | Truly wireless earbuds , headphones & more" [level=2] [ref=e299]
+          - link "Electronics See all offers" [ref=e300] [cursor=pointer]:
+            - /url: /l/1388921031/?_encoding=UTF8&pd_rd_w=VQrK9&content-id=amzn1.sym.c380d620-f6d2-4c13-81ac-0facb70fe270&pf_rd_p=c380d620-f6d2-4c13-81ac-0facb70fe270&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+            - img "Electronics" [ref=e303] [cursor=pointer]
+            - generic [ref=e305] [cursor=pointer]:
+              - generic [ref=e306] [cursor=pointer]: See all offers
+              - generic [ref=e307] [cursor=pointer]: See all offers
+        - generic [ref=e309]:
+          - heading "Up to 80% off | Home, kitchen & more" [level=2] [ref=e311]
+          - generic [ref=e312]:
+            - generic [ref=e313]:
+              - link "Kitchen essentails" [ref=e315] [cursor=pointer]:
+                - /url: https://www.amazon.in/b/?_encoding=UTF8&_encoding=UTF8&node=4951860031&ref_=sv_top_hk_mega_1&pd_rd_w=7P52K&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73
+                - img "Kitchen essentails" [ref=e317] [cursor=pointer]
+                - generic [ref=e319] [cursor=pointer]: Kitchen essentials
+              - link "Home decor" [ref=e321] [cursor=pointer]:
+                - /url: https://www.amazon.in/b/?_encoding=UTF8&node=1380374031&pd_rd_w=7P52K&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Home decor" [ref=e323] [cursor=pointer]
+                - generic [ref=e325] [cursor=pointer]: Home decor
+            - generic [ref=e326]:
+              - link "Furniture" [ref=e328] [cursor=pointer]:
+                - /url: https://www.amazon.in/l/1380441031/?_encoding=UTF8&pd_rd_w=7P52K&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Furniture" [ref=e330] [cursor=pointer]
+                - generic [ref=e332] [cursor=pointer]: Furniture
+              - link "Home improvement" [ref=e334] [cursor=pointer]:
+                - /url: https://www.amazon.in/l/4286640031/?_encoding=UTF8&pd_rd_w=7P52K&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Home improvement" [ref=e336] [cursor=pointer]
+                - generic [ref=e338] [cursor=pointer]: Home improvement
+          - link "Up to 80% off | Home, kitchen & more - See all deals" [ref=e340] [cursor=pointer]:
+            - /url: /l/976442031/?_encoding=UTF8&pd_rd_w=7P52K&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+            - generic [ref=e341] [cursor=pointer]:
+              - generic [ref=e342] [cursor=pointer]: See all deals
+              - generic [ref=e343] [cursor=pointer]: See all deals
+        - generic [ref=e344]:
+          - generic [ref=e346]:
+            - heading "Sign in for your best experience" [level=2] [ref=e348]:
+              - generic [ref=e349]:
+                - generic [ref=e350]: Sign in for your best experience
+                - generic [ref=e351]: Sign in for your best experience
+            - link "Sign in securely" [ref=e355] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pd_rd_w%3Dya9F1%26content-id%3Damzn1.sym.4804506a-ba73-4911-aeca-d76ceaaa8808%26pf_rd_p%3D4804506a-ba73-4911-aeca-d76ceaaa8808%26pf_rd_r%3DJHB94SNDFVS0GXJQ8800%26pd_rd_wg%3DddxAZ%26pd_rd_r%3Da2707f01-56ac-4821-9cc1-b04188baaa73&openid.assoc_handle=inflex&openid.pape.max_auth_age=0
+          - generic [ref=e357]:
+            - iframe [ref=e358]:
+              - 'generic "Text reads \"SAMSUNG with Google Gemini Galaxy S25 Your creativity amplified 50MP Camera ''Suggest a witty caption for this picture.'' ''True! That sun''s shine got me warm even from there!'' *T&C apply | #Inclusive of bank and coupon offers\". Smartphone displaying sunset image and AI-generated caption." [ref=f1e3]':
+                - img [ref=f1e4]
+                - link "Click to learn more about this sponsored product" [ref=f1e6] [cursor=pointer]:
+                  - /url: https://www.amazon.in/dp/B0DSKNLFBG?aref=qJToIl2Ce2&aaxitk=ea2b468bdd521e51b8c15adc029ca5ec&th=1
+                  - generic [ref=f1e7] [cursor=pointer]: Click to learn more about this sponsored product
+            - button "Leave feedback on Sponsored advertisement" [ref=e360] [cursor=pointer]:
+              - generic [ref=e361] [cursor=pointer]: Sponsored
+        - separator [ref=e363]
+        - generic [ref=e365]:
+          - heading "Up to 80% off | Electronics & Accessories" [level=2] [ref=e367]
+          - link "Electronics See all offers" [ref=e368] [cursor=pointer]:
+            - /url: /l/976419031/?_encoding=UTF8&pd_rd_w=c46UZ&content-id=amzn1.sym.39f9f845-f446-42eb-8cab-f295effd6929&pf_rd_p=39f9f845-f446-42eb-8cab-f295effd6929&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+            - img "Electronics" [ref=e371] [cursor=pointer]
+            - generic [ref=e373] [cursor=pointer]:
+              - generic [ref=e374] [cursor=pointer]: See all offers
+              - generic [ref=e375] [cursor=pointer]: See all offers
+        - generic [ref=e377]:
+          - heading "Shop by brand | Deals on top smartphones" [level=2] [ref=e379]
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - link "Savings up to ₹12,000" [ref=e383] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=electronics&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031%2Cn%3A1805560031%2Cp_123%3A46655&dc=&ds=v1%3AIbj4z1dC8qHJ0zoNJaZ3kdzywD48ugXRyOkUNzOcuAU&qid=1739963664&rnid=1389432031&ref=tile1_SSG&pd_rd_w=ZKdJg&content-id=amzn1.sym.15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_p=15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Savings up to ₹12,000" [ref=e385] [cursor=pointer]
+                - generic [ref=e387] [cursor=pointer]: Savings up to ₹12,000
+              - link "Savings up to ₹5,000" [ref=e389] [cursor=pointer]:
+                - /url: https://www.amazon.in/s/?_encoding=UTF8&i=electronics&rh=n%3A1805560031%2Cp_123%3A568349&s=popularity-rank&dc=&qid=1743069968&rnid=91049095031&ref=sr_st_popularity-rank&ds=v1%3Au9mJJkarEAF2WYtAtEOAKkCPd2paZzzHemDdV%2B7xt5A&ref_=tile2_real&pd_rd_w=ZKdJg&content-id=amzn1.sym.15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_p=15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73
+                - img "Savings up to ₹5,000" [ref=e391] [cursor=pointer]
+                - generic [ref=e393] [cursor=pointer]: Savings up to ₹5,000
+            - generic [ref=e394]:
+              - link "Savings up to ₹4,000" [ref=e396] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=electronics&rh=n%3A1805560031%2Cp_n_condition-type%3A8609960031%2Cp_123%3A253649&s=price-asc-rank&dc=&qid=1739964310&rnid=91049095031&ref=sr_nr_p_123_2&ds=v1%3AzjU6O6w6gZHVkDi3pNIDMFv%2Fei3sFTFgJLbuudTDG8A&ref_=tile4_OP&pd_rd_w=ZKdJg&content-id=amzn1.sym.15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_p=15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73
+                - img "Savings up to ₹4,000" [ref=e398] [cursor=pointer]
+                - generic [ref=e400] [cursor=pointer]: Savings up to ₹4,000
+              - link "Savings up to ₹4,000" [ref=e402] [cursor=pointer]:
+                - /url: https://www.amazon.in/s/?_encoding=UTF8&i=electronics&rh=n%3A1805560031%2Cp_123%3A646111&s=popularity-rank&dc=&qid=1743070140&rnid=91049095031&ref=sr_nr_p_123_1&ds=v1%3ADKRWt94hPeczqBqRNH5dejat6zraEeeu%2FQ109q%2Bd65A&ref_=tile3_iQOO&pd_rd_w=ZKdJg&content-id=amzn1.sym.15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_p=15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73
+                - img "Savings up to ₹4,000" [ref=e404] [cursor=pointer]
+                - generic [ref=e406] [cursor=pointer]: Savings up to ₹4,000
+          - link "Shop by brand | Deals on top smartphones - See all offers" [ref=e408] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=1389401031&ref_=tile5_seeallCLP&pd_rd_w=ZKdJg&content-id=amzn1.sym.15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_p=15692926-7af5-4978-a095-8e6f1f81f807&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73
+            - generic [ref=e409] [cursor=pointer]:
+              - generic [ref=e410] [cursor=pointer]: See all offers
+              - generic [ref=e411] [cursor=pointer]: See all offers
+        - generic [ref=e413]:
+          - heading "Up to 65% off | Offers on home appliances" [level=2] [ref=e415]
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - link "Washing machines" [ref=e419] [cursor=pointer]:
+                - /url: https://www.amazon.in/l/1380369031/?_encoding=UTF8&pd_rd_w=eQSlE&content-id=amzn1.sym.281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_p=281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Washing machines" [ref=e421] [cursor=pointer]
+                - generic [ref=e423] [cursor=pointer]: Washing machines
+              - link "Refrigerators" [ref=e425] [cursor=pointer]:
+                - /url: https://www.amazon.in/l/1380365031/?_encoding=UTF8&pd_rd_w=eQSlE&content-id=amzn1.sym.281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_p=281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Refrigerators" [ref=e427] [cursor=pointer]
+                - generic [ref=e429] [cursor=pointer]: Refrigerators
+            - generic [ref=e430]:
+              - link "Air conditioners" [ref=e432] [cursor=pointer]:
+                - /url: https://www.amazon.in/L/3474656031/?_encoding=UTF8&pd_rd_w=eQSlE&content-id=amzn1.sym.281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_p=281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Air conditioners" [ref=e434] [cursor=pointer]
+                - generic [ref=e436] [cursor=pointer]: Air conditioners
+              - link "Chimneys" [ref=e438] [cursor=pointer]:
+                - /url: https://www.amazon.in/l/65085351031/?_encoding=UTF8&pd_rd_w=eQSlE&content-id=amzn1.sym.281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_p=281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Chimneys" [ref=e440] [cursor=pointer]
+                - generic [ref=e442] [cursor=pointer]: Chimneys
+          - link "Up to 65% off | Offers on home appliances - See all deals" [ref=e444] [cursor=pointer]:
+            - /url: https://www.amazon.in/l/1380263031/?_encoding=UTF8&pd_rd_w=eQSlE&content-id=amzn1.sym.281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_p=281e7ec1-12a7-4280-8242-74c20291b888&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+            - generic [ref=e445] [cursor=pointer]:
+              - generic [ref=e446] [cursor=pointer]: See all deals
+              - generic [ref=e447] [cursor=pointer]: See all deals
+        - generic [ref=e449]:
+          - heading "Starting ₹299 | Festive deals | Amazon brands & more" [level=2] [ref=e451]
+          - generic [ref=e452]:
+            - generic [ref=e453]:
+              - link "Min. 60% off | Home furnishing" [ref=e455] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=kitchen&rh=n%3A976442031%2Cn%3A1380442031%2Cn%3A1380447031%2Cp_n_format_browse-bin%3A19560802031&s=exact-aware-popularity-rank&hidden-keywords=-sponsored&pd_rd_w=Yl2xo&content-id=amzn1.sym.04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_p=04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Min. 60% off | Home furnishing" [ref=e457] [cursor=pointer]
+                - generic [ref=e459] [cursor=pointer]: Min. 60% off | Home furnishing
+              - link "Min. 50% off | Cookware sets" [ref=e461] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=kitchen&rh=n%3A976442031%2Cn%3A5925789031%2Cn%3A1380015031%2Cp_n_format_browse-bin%3A19560801031&s=exact-aware-popularity-rank&hidden-keywords=-sponsored&pd_rd_w=Yl2xo&content-id=amzn1.sym.04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_p=04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Min. 50% off | Cookware sets" [ref=e463] [cursor=pointer]
+                - generic [ref=e465] [cursor=pointer]: Min. 50% off | Cookware sets
+            - generic [ref=e466]:
+              - link "Min. 40% off | Daily needs" [ref=e468] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=16186117031&pd_rd_w=Yl2xo&content-id=amzn1.sym.04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_p=04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Min. 40% off | Daily needs" [ref=e470] [cursor=pointer]
+                - generic [ref=e472] [cursor=pointer]: Min. 40% off | Daily needs
+              - link "Min. 55% off | Women's ethnicwear" [ref=e474] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=210981385031&pd_rd_w=Yl2xo&content-id=amzn1.sym.04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_p=04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+                - img "Min. 55% off | Women's ethnicwear" [ref=e476] [cursor=pointer]
+                - generic [ref=e478] [cursor=pointer]: Min. 60% off | Top-rated styles
+          - link "Starting ₹299 | Festive deals | Amazon brands & more - See all offers" [ref=e480] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&ie=UTF8&node=15390370031&pd_rd_w=Yl2xo&content-id=amzn1.sym.04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_p=04f8af0b-a00a-4540-8a80-bed00b78b547&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=ddxAZ&pd_rd_r=a2707f01-56ac-4821-9cc1-b04188baaa73&ref_=pd_hp_d_atf_unk
+            - generic [ref=e481] [cursor=pointer]:
+              - generic [ref=e482] [cursor=pointer]: See all offers
+              - generic [ref=e483] [cursor=pointer]: See all offers
+      - generic [ref=e485]:
+        - generic [ref=e488]:
+          - heading "Top deals with exchange | Up to ₹74,000 off" [level=3] [ref=e491]:
+            - generic [ref=e493]: Top deals with exchange | Up to ₹74,000 off
+          - group [ref=e496]:
+            - group [ref=e500]:
+              - list [ref=e501]:
+                - listitem [ref=e502]:
+                  - 'link "iPhone 15 31% off Great Indian Festival ₹47,999.00 M.R.P: ₹69,900.00 Apple iPhone 15 (128 GB) - Black" [ref=e505] [cursor=pointer]':
+                    - /url: /Apple-iPhone-15-128-GB/dp/B0CHX1W1XY?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0CHX1W1XY&ref_=pd_hp_d_btf_unk_B0CHX1W1XY
+                    - img "iPhone 15" [ref=e507] [cursor=pointer]
+                    - generic [ref=e508] [cursor=pointer]:
+                      - generic [ref=e510] [cursor=pointer]:
+                        - generic [ref=e512] [cursor=pointer]: 31% off
+                        - generic [ref=e514] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e515] [cursor=pointer]:
+                        - generic [ref=e516] [cursor=pointer]:
+                          - generic [ref=e517] [cursor=pointer]: ₹47,999.00
+                          - generic [ref=e518] [cursor=pointer]:
+                            - generic [ref=e519] [cursor=pointer]: ₹
+                            - generic [ref=e520] [cursor=pointer]: 47,999
+                            - generic [ref=e521] [cursor=pointer]: "00"
+                        - generic [ref=e522] [cursor=pointer]:
+                          - generic [ref=e523] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e524] [cursor=pointer]:
+                            - generic [ref=e525] [cursor=pointer]: ₹69,900.00
+                            - generic [ref=e526] [cursor=pointer]: ₹69,900.00
+                      - generic [ref=e528] [cursor=pointer]: Apple iPhone 15 (128 GB) - Black
+                - listitem [ref=e529]:
+                  - 'link "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP C… 44% off Great Indian Festival ₹74,999.00 M.R.P: ₹1,34,999.00 Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery" [ref=e532] [cursor=pointer]':
+                    - /url: /Samsung-Galaxy-Smartphone-Titanium-Storage/dp/B0CS5XW6TN?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0CS5XW6TN&ref_=pd_hp_d_btf_unk_B0CS5XW6TN
+                    - img "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP C…" [ref=e534] [cursor=pointer]
+                    - generic [ref=e535] [cursor=pointer]:
+                      - generic [ref=e537] [cursor=pointer]:
+                        - generic [ref=e539] [cursor=pointer]: 44% off
+                        - generic [ref=e541] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e542] [cursor=pointer]:
+                        - generic [ref=e543] [cursor=pointer]:
+                          - generic [ref=e544] [cursor=pointer]: ₹74,999.00
+                          - generic [ref=e545] [cursor=pointer]:
+                            - generic [ref=e546] [cursor=pointer]: ₹
+                            - generic [ref=e547] [cursor=pointer]: 74,999
+                            - generic [ref=e548] [cursor=pointer]: "00"
+                        - generic [ref=e549] [cursor=pointer]:
+                          - generic [ref=e550] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e551] [cursor=pointer]:
+                            - generic [ref=e552] [cursor=pointer]: ₹1,34,999.00
+                            - generic [ref=e553] [cursor=pointer]: ₹1,34,999.00
+                      - generic [ref=e555] [cursor=pointer]: Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 256GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery
+                - listitem [ref=e556]:
+                  - 'link "iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Gra… 26% off Great Indian Festival ₹12,998.00 M.R.P: ₹17,499.00 iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Grade Durability" [ref=e559] [cursor=pointer]':
+                    - /url: /iQOO-Dimensity-Processor-Military-Grade-Durability/dp/B0F2T674FJ?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0F2T674FJ&ref_=pd_hp_d_btf_unk_B0F2T674FJ
+                    - img "iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Gra…" [ref=e561] [cursor=pointer]
+                    - generic [ref=e562] [cursor=pointer]:
+                      - generic [ref=e564] [cursor=pointer]:
+                        - generic [ref=e566] [cursor=pointer]: 26% off
+                        - generic [ref=e568] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e569] [cursor=pointer]:
+                        - generic [ref=e570] [cursor=pointer]:
+                          - generic [ref=e571] [cursor=pointer]: ₹12,998.00
+                          - generic [ref=e572] [cursor=pointer]:
+                            - generic [ref=e573] [cursor=pointer]: ₹
+                            - generic [ref=e574] [cursor=pointer]: 12,998
+                            - generic [ref=e575] [cursor=pointer]: "00"
+                        - generic [ref=e576] [cursor=pointer]:
+                          - generic [ref=e577] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e578] [cursor=pointer]:
+                            - generic [ref=e579] [cursor=pointer]: ₹17,499.00
+                            - generic [ref=e580] [cursor=pointer]: ₹17,499.00
+                      - generic [ref=e582] [cursor=pointer]: iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Grade Durability
+                - listitem [ref=e583]:
+                  - 'link "OnePlus Nord 5 | Snapdragon 8s Gen 3 | Stable 144FPS Gaming | Dual 50MP Flagship Camera | Powered by OnePlus AI | 8GB + 256… 13% off Great Indian Festival ₹30,499.00 M.R.P: ₹34,999.00 OnePlus Nord 5 | Snapdragon 8s Gen 3 | Stable 144FPS Gaming | Dual 50MP Flagship Camera | Powered by OnePlus AI | 8GB + 256GB | Marble Sands" [ref=e586] [cursor=pointer]':
+                    - /url: /OnePlus-Snapdragon-Stable-Flagship-Powered/dp/B0FC6TYPPX?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0FC6TYPPX&ref_=pd_hp_d_btf_unk_B0FC6TYPPX
+                    - img "OnePlus Nord 5 | Snapdragon 8s Gen 3 | Stable 144FPS Gaming | Dual 50MP Flagship Camera | Powered by OnePlus AI | 8GB + 256…" [ref=e588] [cursor=pointer]
+                    - generic [ref=e589] [cursor=pointer]:
+                      - generic [ref=e591] [cursor=pointer]:
+                        - generic [ref=e593] [cursor=pointer]: 13% off
+                        - generic [ref=e595] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e596] [cursor=pointer]:
+                        - generic [ref=e597] [cursor=pointer]:
+                          - generic [ref=e598] [cursor=pointer]: ₹30,499.00
+                          - generic [ref=e599] [cursor=pointer]:
+                            - generic [ref=e600] [cursor=pointer]: ₹
+                            - generic [ref=e601] [cursor=pointer]: 30,499
+                            - generic [ref=e602] [cursor=pointer]: "00"
+                        - generic [ref=e603] [cursor=pointer]:
+                          - generic [ref=e604] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e605] [cursor=pointer]:
+                            - generic [ref=e606] [cursor=pointer]: ₹34,999.00
+                            - generic [ref=e607] [cursor=pointer]: ₹34,999.00
+                      - generic [ref=e609] [cursor=pointer]: OnePlus Nord 5 | Snapdragon 8s Gen 3 | Stable 144FPS Gaming | Dual 50MP Flagship Camera | Powered by OnePlus AI | 8GB + 256GB | Marble Sands
+                - listitem [ref=e610]:
+                  - 'link "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Vi… 44% off Great Indian Festival ₹23,999.00 M.R.P: ₹42,999.00 Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=e613] [cursor=pointer]':
+                    - /url: /Samsung-Awesome-Iceblue-Storage-Nightography/dp/B0CWPC2W5V?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0CWPC2W5V&ref_=pd_hp_d_btf_unk_B0CWPC2W5V
+                    - img "Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Vi…" [ref=e615] [cursor=pointer]
+                    - generic [ref=e616] [cursor=pointer]:
+                      - generic [ref=e618] [cursor=pointer]:
+                        - generic [ref=e620] [cursor=pointer]: 44% off
+                        - generic [ref=e622] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e623] [cursor=pointer]:
+                        - generic [ref=e624] [cursor=pointer]:
+                          - generic [ref=e625] [cursor=pointer]: ₹23,999.00
+                          - generic [ref=e626] [cursor=pointer]:
+                            - generic [ref=e627] [cursor=pointer]: ₹
+                            - generic [ref=e628] [cursor=pointer]: 23,999
+                            - generic [ref=e629] [cursor=pointer]: "00"
+                        - generic [ref=e630] [cursor=pointer]:
+                          - generic [ref=e631] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e632] [cursor=pointer]:
+                            - generic [ref=e633] [cursor=pointer]: ₹42,999.00
+                            - generic [ref=e634] [cursor=pointer]: ₹42,999.00
+                      - generic [ref=e636] [cursor=pointer]: Samsung Galaxy A55 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display
+                - listitem [ref=e637]:
+                  - 'link "iQOO Z10 5G (Glacier Silver, 8GB RAM, 256GB Storage) | India''s Biggest Ever 7300 mAh Battery | Snapdragon 7s Gen 3 Processo… 18% off Great Indian Festival ₹22,998.00 M.R.P: ₹27,999.00 iQOO Z10 5G (Glacier Silver, 8GB RAM, 256GB Storage) | India''s Biggest Ever 7300 mAh Battery | Snapdragon 7s Gen 3 Processor | Brightest Quad Curved AMOLED Display in The Segment" [ref=e640] [cursor=pointer]':
+                    - /url: /iQOO-Glacier-Snapdragon-Processor-Brightest/dp/B0F2HDFMFC?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0F2HDFMFC&ref_=pd_hp_d_btf_unk_B0F2HDFMFC
+                    - img "iQOO Z10 5G (Glacier Silver, 8GB RAM, 256GB Storage) | India's Biggest Ever 7300 mAh Battery | Snapdragon 7s Gen 3 Processo…" [ref=e642] [cursor=pointer]
+                    - generic [ref=e643] [cursor=pointer]:
+                      - generic [ref=e645] [cursor=pointer]:
+                        - generic [ref=e647] [cursor=pointer]: 18% off
+                        - generic [ref=e649] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e650] [cursor=pointer]:
+                        - generic [ref=e651] [cursor=pointer]:
+                          - generic [ref=e652] [cursor=pointer]: ₹22,998.00
+                          - generic [ref=e653] [cursor=pointer]:
+                            - generic [ref=e654] [cursor=pointer]: ₹
+                            - generic [ref=e655] [cursor=pointer]: 22,998
+                            - generic [ref=e656] [cursor=pointer]: "00"
+                        - generic [ref=e657] [cursor=pointer]:
+                          - generic [ref=e658] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e659] [cursor=pointer]:
+                            - generic [ref=e660] [cursor=pointer]: ₹27,999.00
+                            - generic [ref=e661] [cursor=pointer]: ₹27,999.00
+                      - generic [ref=e663] [cursor=pointer]: iQOO Z10 5G (Glacier Silver, 8GB RAM, 256GB Storage) | India's Biggest Ever 7300 mAh Battery | Snapdragon 7s Gen 3 Processor | Brightest Quad Curved AMOLED Display in The Segment
+                - listitem [ref=e664]:
+                  - 'link "iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuT… 27% off Great Indian Festival ₹10,998.00 M.R.P: ₹14,999.00 iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu Score | IP64 Rated & Military Grade Shock-Resistance*" [ref=e667] [cursor=pointer]':
+                    - /url: /iQOO-Titanium-Dimensity-Processor-Shock-Resistance/dp/B0FC5TDB9P?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0FC5TDB9P&ref_=pd_hp_d_btf_unk_B0FC5TDB9P
+                    - img "iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuT…" [ref=e669] [cursor=pointer]
+                    - generic [ref=e670] [cursor=pointer]:
+                      - generic [ref=e672] [cursor=pointer]:
+                        - generic [ref=e674] [cursor=pointer]: 27% off
+                        - generic [ref=e676] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e677] [cursor=pointer]:
+                        - generic [ref=e678] [cursor=pointer]:
+                          - generic [ref=e679] [cursor=pointer]: ₹10,998.00
+                          - generic [ref=e680] [cursor=pointer]:
+                            - generic [ref=e681] [cursor=pointer]: ₹
+                            - generic [ref=e682] [cursor=pointer]: 10,998
+                            - generic [ref=e683] [cursor=pointer]: "00"
+                        - generic [ref=e684] [cursor=pointer]:
+                          - generic [ref=e685] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e686] [cursor=pointer]:
+                            - generic [ref=e687] [cursor=pointer]: ₹14,999.00
+                            - generic [ref=e688] [cursor=pointer]: ₹14,999.00
+                      - generic [ref=e690] [cursor=pointer]: iQOO Z10 Lite 5G (Titanium Blue, 6GB RAM, 128GB Storage) | 6000 mAh Battery | Dimensity 6300 5G Processor with 433K+* AnTuTu Score | IP64 Rated & Military Grade Shock-Resistance*
+                - listitem [ref=e691]:
+                  - 'link "iQOO Z10R 5G (Aquamarine, 8GB RAM, 128GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Pro… 17% off Great Indian Festival ₹19,498.00 M.R.P: ₹23,499.00 iQOO Z10R 5G (Aquamarine, 8GB RAM, 128GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu" [ref=e694] [cursor=pointer]':
+                    - /url: /iQOO-Aquamarine-Quad-Curved-Dimensity-Processor/dp/B0FHB5V36G?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0FHB5V36G&ref_=pd_hp_d_btf_unk_B0FHB5V36G
+                    - img "iQOO Z10R 5G (Aquamarine, 8GB RAM, 128GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Pro…" [ref=e696] [cursor=pointer]
+                    - generic [ref=e697] [cursor=pointer]:
+                      - generic [ref=e699] [cursor=pointer]:
+                        - generic [ref=e701] [cursor=pointer]: 17% off
+                        - generic [ref=e703] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e704] [cursor=pointer]:
+                        - generic [ref=e705] [cursor=pointer]:
+                          - generic [ref=e706] [cursor=pointer]: ₹19,498.00
+                          - generic [ref=e707] [cursor=pointer]:
+                            - generic [ref=e708] [cursor=pointer]: ₹
+                            - generic [ref=e709] [cursor=pointer]: 19,498
+                            - generic [ref=e710] [cursor=pointer]: "00"
+                        - generic [ref=e711] [cursor=pointer]:
+                          - generic [ref=e712] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e713] [cursor=pointer]:
+                            - generic [ref=e714] [cursor=pointer]: ₹23,499.00
+                            - generic [ref=e715] [cursor=pointer]: ₹23,499.00
+                      - generic [ref=e717] [cursor=pointer]: iQOO Z10R 5G (Aquamarine, 8GB RAM, 128GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu
+                - listitem [ref=e718]:
+                  - 'link "Samsung Galaxy M16 5G (Blush Pink, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled D… 33% off Great Indian Festival ₹11,749.00 M.R.P: ₹17,499.00 Samsung Galaxy M16 5G (Blush Pink, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled Display | AI | 25W Fast Charging | 6 Gen of OS Upgrades | Without Charger" [ref=e721] [cursor=pointer]':
+                    - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX791PX9?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0DX791PX9&ref_=pd_hp_d_btf_unk_B0DX791PX9
+                    - img "Samsung Galaxy M16 5G (Blush Pink, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled D…" [ref=e723] [cursor=pointer]
+                    - generic [ref=e724] [cursor=pointer]:
+                      - generic [ref=e726] [cursor=pointer]:
+                        - generic [ref=e728] [cursor=pointer]: 33% off
+                        - generic [ref=e730] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e731] [cursor=pointer]:
+                        - generic [ref=e732] [cursor=pointer]:
+                          - generic [ref=e733] [cursor=pointer]: ₹11,749.00
+                          - generic [ref=e734] [cursor=pointer]:
+                            - generic [ref=e735] [cursor=pointer]: ₹
+                            - generic [ref=e736] [cursor=pointer]: 11,749
+                            - generic [ref=e737] [cursor=pointer]: "00"
+                        - generic [ref=e738] [cursor=pointer]:
+                          - generic [ref=e739] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e740] [cursor=pointer]:
+                            - generic [ref=e741] [cursor=pointer]: ₹17,499.00
+                            - generic [ref=e742] [cursor=pointer]: ₹17,499.00
+                      - generic [ref=e744] [cursor=pointer]: Samsung Galaxy M16 5G (Blush Pink, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | Super Amoled Display | AI | 25W Fast Charging | 6 Gen of OS Upgrades | Without Charger
+                - listitem [ref=e745]:
+                  - 'link "HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, IPS, 300nits, … 24% off Great Indian Festival ₹61,990.00 M.R.P: ₹81,201.00 HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, IPS, 300nits, FHD, 15.6’’/39.6cm, Win11, Office24, Blue, 2.29kg, fa2190TX Gaming Laptop" [ref=e748] [cursor=pointer]':
+                    - /url: /HP-Smartchoice-i5-13420H-Processor-fa2190TX/dp/B0F6CVT23B?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0F6CVT23B&ref_=pd_hp_d_btf_unk_B0F6CVT23B
+                    - img "HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, IPS, 300nits, …" [ref=e750] [cursor=pointer]
+                    - generic [ref=e751] [cursor=pointer]:
+                      - generic [ref=e753] [cursor=pointer]:
+                        - generic [ref=e755] [cursor=pointer]: 24% off
+                        - generic [ref=e757] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e758] [cursor=pointer]:
+                        - generic [ref=e759] [cursor=pointer]:
+                          - generic [ref=e760] [cursor=pointer]: ₹61,990.00
+                          - generic [ref=e761] [cursor=pointer]:
+                            - generic [ref=e762] [cursor=pointer]: ₹
+                            - generic [ref=e763] [cursor=pointer]: 61,990
+                            - generic [ref=e764] [cursor=pointer]: "00"
+                        - generic [ref=e765] [cursor=pointer]:
+                          - generic [ref=e766] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e767] [cursor=pointer]:
+                            - generic [ref=e768] [cursor=pointer]: ₹81,201.00
+                            - generic [ref=e769] [cursor=pointer]: ₹81,201.00
+                      - generic [ref=e771] [cursor=pointer]: HP Smartchoice Victus, 13th Gen Intel Core i5-13420H, 4GB RTX 3050, 16GB DDR4(Upgradeable) 512GB SSD, 144Hz, IPS, 300nits, FHD, 15.6’’/39.6cm, Win11, Office24, Blue, 2.29kg, fa2190TX Gaming Laptop
+                - listitem [ref=e772]:
+                  - 'link "realme NARZO 80 Lite 5G (Crystal Purple, 6GB+128GB) | 6000mAh Long-Lasting Battery | MediaTek Dimensity 6300 5G | AI Assist… 34% off Great Indian Festival ₹9,898.00 M.R.P: ₹14,999.00 realme NARZO 80 Lite 5G (Crystal Purple, 6GB+128GB) | 6000mAh Long-Lasting Battery | MediaTek Dimensity 6300 5G | AI Assist | IP64 Rated Water & Dust Resistance | Military-Grade Durability" [ref=e775] [cursor=pointer]':
+                    - /url: /realme-Long-Lasting-Resistance-Military-Grade-Durability/dp/B0F9TT7Z5Q?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0F9TT7Z5Q&ref_=pd_hp_d_btf_unk_B0F9TT7Z5Q
+                    - img "realme NARZO 80 Lite 5G (Crystal Purple, 6GB+128GB) | 6000mAh Long-Lasting Battery | MediaTek Dimensity 6300 5G | AI Assist…" [ref=e777] [cursor=pointer]
+                    - generic [ref=e778] [cursor=pointer]:
+                      - generic [ref=e780] [cursor=pointer]:
+                        - generic [ref=e782] [cursor=pointer]: 34% off
+                        - generic [ref=e784] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e785] [cursor=pointer]:
+                        - generic [ref=e786] [cursor=pointer]:
+                          - generic [ref=e787] [cursor=pointer]: ₹9,898.00
+                          - generic [ref=e788] [cursor=pointer]:
+                            - generic [ref=e789] [cursor=pointer]: ₹
+                            - generic [ref=e790] [cursor=pointer]: 9,898
+                            - generic [ref=e791] [cursor=pointer]: "00"
+                        - generic [ref=e792] [cursor=pointer]:
+                          - generic [ref=e793] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e794] [cursor=pointer]:
+                            - generic [ref=e795] [cursor=pointer]: ₹14,999.00
+                            - generic [ref=e796] [cursor=pointer]: ₹14,999.00
+                      - generic [ref=e798] [cursor=pointer]: realme NARZO 80 Lite 5G (Crystal Purple, 6GB+128GB) | 6000mAh Long-Lasting Battery | MediaTek Dimensity 6300 5G | AI Assist | IP64 Rated Water & Dust Resistance | Military-Grade Durability
+                - listitem [ref=e799]:
+                  - 'link "OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage) | Lifetime Display Warranty | 5500 mAh Battery, 80W SUPERVO… 24% off Great Indian Festival ₹15,999.00 M.R.P: ₹20,999.00 OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage) | Lifetime Display Warranty | 5500 mAh Battery, 80W SUPERVOOC and Reverse Charging | 50MP Camera with OIS | 120Hz AMOLED Display" [ref=e802] [cursor=pointer]':
+                    - /url: /OnePlus-Super-Silver-128GB-Storage/dp/B0D5YCYS1G?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0D5YCYS1G&ref_=pd_hp_d_btf_unk_B0D5YCYS1G
+                    - img "OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage) | Lifetime Display Warranty | 5500 mAh Battery, 80W SUPERVO…" [ref=e804] [cursor=pointer]
+                    - generic [ref=e805] [cursor=pointer]:
+                      - generic [ref=e807] [cursor=pointer]:
+                        - generic [ref=e809] [cursor=pointer]: 24% off
+                        - generic [ref=e811] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e812] [cursor=pointer]:
+                        - generic [ref=e813] [cursor=pointer]:
+                          - generic [ref=e814] [cursor=pointer]: ₹15,999.00
+                          - generic [ref=e815] [cursor=pointer]:
+                            - generic [ref=e816] [cursor=pointer]: ₹
+                            - generic [ref=e817] [cursor=pointer]: 15,999
+                            - generic [ref=e818] [cursor=pointer]: "00"
+                        - generic [ref=e819] [cursor=pointer]:
+                          - generic [ref=e820] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e821] [cursor=pointer]:
+                            - generic [ref=e822] [cursor=pointer]: ₹20,999.00
+                            - generic [ref=e823] [cursor=pointer]: ₹20,999.00
+                      - generic [ref=e825] [cursor=pointer]: OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage) | Lifetime Display Warranty | 5500 mAh Battery, 80W SUPERVOOC and Reverse Charging | 50MP Camera with OIS | 120Hz AMOLED Display
+                - listitem [ref=e826]:
+                  - 'link "Xiaomi 138 cm (55 inch) FX Pro QLED Ultra HD 4K Smart Fire TV L55MB-FPIN 49% off Great Indian Festival ₹31,999.00 M.R.P: ₹62,999.00 Xiaomi 138 cm (55 inch) FX Pro QLED Ultra HD 4K Smart Fire TV L55MB-FPIN" [ref=e829] [cursor=pointer]':
+                    - /url: /Xiaomi-inch-Ultra-Smart-L55MB-FPIN/dp/B0F3JL33DW?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0F3JL33DW&ref_=pd_hp_d_btf_unk_B0F3JL33DW
+                    - img "Xiaomi 138 cm (55 inch) FX Pro QLED Ultra HD 4K Smart Fire TV L55MB-FPIN" [ref=e831] [cursor=pointer]
+                    - generic [ref=e832] [cursor=pointer]:
+                      - generic [ref=e834] [cursor=pointer]:
+                        - generic [ref=e836] [cursor=pointer]: 49% off
+                        - generic [ref=e838] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e839] [cursor=pointer]:
+                        - generic [ref=e840] [cursor=pointer]:
+                          - generic [ref=e841] [cursor=pointer]: ₹31,999.00
+                          - generic [ref=e842] [cursor=pointer]:
+                            - generic [ref=e843] [cursor=pointer]: ₹
+                            - generic [ref=e844] [cursor=pointer]: 31,999
+                            - generic [ref=e845] [cursor=pointer]: "00"
+                        - generic [ref=e846] [cursor=pointer]:
+                          - generic [ref=e847] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e848] [cursor=pointer]:
+                            - generic [ref=e849] [cursor=pointer]: ₹62,999.00
+                            - generic [ref=e850] [cursor=pointer]: ₹62,999.00
+                      - generic [ref=e852] [cursor=pointer]: Xiaomi 138 cm (55 inch) FX Pro QLED Ultra HD 4K Smart Fire TV L55MB-FPIN
+                - listitem [ref=e853]:
+                  - 'link "Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest D… 45% off Great Indian Festival ₹10,999.00 M.R.P: ₹19,999.00 Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [ref=e856] [cursor=pointer]':
+                    - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0D78X544X&ref_=pd_hp_d_btf_unk_B0D78X544X
+                    - img "Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest D…" [ref=e858] [cursor=pointer]
+                    - generic [ref=e859] [cursor=pointer]:
+                      - generic [ref=e861] [cursor=pointer]:
+                        - generic [ref=e863] [cursor=pointer]: 45% off
+                        - generic [ref=e865] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e866] [cursor=pointer]:
+                        - generic [ref=e867] [cursor=pointer]:
+                          - generic [ref=e868] [cursor=pointer]: ₹10,999.00
+                          - generic [ref=e869] [cursor=pointer]:
+                            - generic [ref=e870] [cursor=pointer]: ₹
+                            - generic [ref=e871] [cursor=pointer]: 10,999
+                            - generic [ref=e872] [cursor=pointer]: "00"
+                        - generic [ref=e873] [cursor=pointer]:
+                          - generic [ref=e874] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e875] [cursor=pointer]:
+                            - generic [ref=e876] [cursor=pointer]: ₹19,999.00
+                            - generic [ref=e877] [cursor=pointer]: ₹19,999.00
+                      - generic [ref=e879] [cursor=pointer]: Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment
+                - listitem [ref=e880]:
+                  - 'link "Sony 139 cm (55 inches) BRAVIA 2M2 Series 4K Ultra HD Smart LED Google TV K-55S25BM2-2 Years Warranty for Limited Period 44% off Deal with GST Savings ₹55,990.00 M.R.P: ₹99,900.00 Sony 139 cm (55 inches) BRAVIA 2M2 Series 4K Ultra HD Smart LED Google TV K-55S25BM2-2 Years Warranty for Limited Period" [ref=e883] [cursor=pointer]':
+                    - /url: /Sony-inches-BRAVIA-Google-K-55S25BM2/dp/B0F7X5FC43?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0F7X5FC43&ref_=pd_hp_d_btf_unk_B0F7X5FC43
+                    - img "Sony 139 cm (55 inches) BRAVIA 2M2 Series 4K Ultra HD Smart LED Google TV K-55S25BM2-2 Years Warranty for Limited Period" [ref=e885] [cursor=pointer]
+                    - generic [ref=e886] [cursor=pointer]:
+                      - generic [ref=e888] [cursor=pointer]:
+                        - generic [ref=e890] [cursor=pointer]: 44% off
+                        - generic [ref=e892] [cursor=pointer]: Deal with GST Savings
+                      - generic [ref=e893] [cursor=pointer]:
+                        - generic [ref=e894] [cursor=pointer]:
+                          - generic [ref=e895] [cursor=pointer]: ₹55,990.00
+                          - generic [ref=e896] [cursor=pointer]:
+                            - generic [ref=e897] [cursor=pointer]: ₹
+                            - generic [ref=e898] [cursor=pointer]: 55,990
+                            - generic [ref=e899] [cursor=pointer]: "00"
+                        - generic [ref=e900] [cursor=pointer]:
+                          - generic [ref=e901] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e902] [cursor=pointer]:
+                            - generic [ref=e903] [cursor=pointer]: ₹99,900.00
+                            - generic [ref=e904] [cursor=pointer]: ₹99,900.00
+                      - generic [ref=e906] [cursor=pointer]: Sony 139 cm (55 inches) BRAVIA 2M2 Series 4K Ultra HD Smart LED Google TV K-55S25BM2-2 Years Warranty for Limited Period
+                - listitem [ref=e907]:
+                  - 'link "Acer SmartChoice Aspire Lite, AMD Ryzen 5-5625U Processor, 16 GB/512 GB, Full HD, 15.6\"/39.62 cm, Windows 11 Home, Steel Gr… 49% off Great Indian Festival ₹29,990.00 M.R.P: ₹58,999.00 Acer SmartChoice Aspire Lite, AMD Ryzen 5-5625U Processor, 16 GB/512 GB, Full HD, 15.6\"/39.62 cm, Windows 11 Home, Steel Gray, 1.59 kg, AL15-41, Metal Body, Thin and Light Laptop" [ref=e910] [cursor=pointer]':
+                    - /url: /5-5625U-Premium-Windows-AL15-41-Display/dp/B0DG2GCTD7?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0DG2GCTD7&ref_=pd_hp_d_btf_unk_B0DG2GCTD7
+                    - img "Acer SmartChoice Aspire Lite, AMD Ryzen 5-5625U Processor, 16 GB/512 GB, Full HD, 15.6\"/39.62 cm, Windows 11 Home, Steel Gr…" [ref=e912] [cursor=pointer]
+                    - generic [ref=e913] [cursor=pointer]:
+                      - generic [ref=e915] [cursor=pointer]:
+                        - generic [ref=e917] [cursor=pointer]: 49% off
+                        - generic [ref=e919] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e920] [cursor=pointer]:
+                        - generic [ref=e921] [cursor=pointer]:
+                          - generic [ref=e922] [cursor=pointer]: ₹29,990.00
+                          - generic [ref=e923] [cursor=pointer]:
+                            - generic [ref=e924] [cursor=pointer]: ₹
+                            - generic [ref=e925] [cursor=pointer]: 29,990
+                            - generic [ref=e926] [cursor=pointer]: "00"
+                        - generic [ref=e927] [cursor=pointer]:
+                          - generic [ref=e928] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e929] [cursor=pointer]:
+                            - generic [ref=e930] [cursor=pointer]: ₹58,999.00
+                            - generic [ref=e931] [cursor=pointer]: ₹58,999.00
+                      - generic [ref=e933] [cursor=pointer]: Acer SmartChoice Aspire Lite, AMD Ryzen 5-5625U Processor, 16 GB/512 GB, Full HD, 15.6"/39.62 cm, Windows 11 Home, Steel Gray, 1.59 kg, AL15-41, Metal Body, Thin and Light Laptop
+                - listitem [ref=e934]:
+                  - 'link "Redmi A4 5G (Sparkle Purple, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual … 31% off Great Indian Festival ₹8,999.00 M.R.P: ₹12,999.00 Redmi A4 5G (Sparkle Purple, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging" [ref=e937] [cursor=pointer]':
+                    - /url: /Redmi-A4-5G-Sparkle-Charging/dp/B0FBR69B2R?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0FBR69B2R&ref_=pd_hp_d_btf_unk_B0FBR69B2R
+                    - img "Redmi A4 5G (Sparkle Purple, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual …" [ref=e939] [cursor=pointer]
+                    - generic [ref=e940] [cursor=pointer]:
+                      - generic [ref=e942] [cursor=pointer]:
+                        - generic [ref=e944] [cursor=pointer]: 31% off
+                        - generic [ref=e946] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e947] [cursor=pointer]:
+                        - generic [ref=e948] [cursor=pointer]:
+                          - generic [ref=e949] [cursor=pointer]: ₹8,999.00
+                          - generic [ref=e950] [cursor=pointer]:
+                            - generic [ref=e951] [cursor=pointer]: ₹
+                            - generic [ref=e952] [cursor=pointer]: 8,999
+                            - generic [ref=e953] [cursor=pointer]: "00"
+                        - generic [ref=e954] [cursor=pointer]:
+                          - generic [ref=e955] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e956] [cursor=pointer]:
+                            - generic [ref=e957] [cursor=pointer]: ₹12,999.00
+                            - generic [ref=e958] [cursor=pointer]: ₹12,999.00
+                      - generic [ref=e960] [cursor=pointer]: Redmi A4 5G (Sparkle Purple, 6GB RAM, 128GB Storage) | Global Debut SD 4s Gen 2 | Segment Largest 6.88in 120Hz | 50MP Dual Camera | 18W Fast Charging
+                - listitem [ref=e961]:
+                  - 'link "ASUS TUF A15 (2025), AMD Ryzen 7 7445HS, Gaming Laptop(RTX 3050,75W TGP,16GB DDR5(Upgradeable Upto 64GB )512GB SSD,FHD,15.6… 24% off Great Indian Festival ₹63,989.00 M.R.P: ₹83,990.00 ASUS TUF A15 (2025), AMD Ryzen 7 7445HS, Gaming Laptop(RTX 3050,75W TGP,16GB DDR5(Upgradeable Upto 64GB )512GB SSD,FHD,15.6\",144Hz,RGB Keyboard,48Whrs,Windows 11,Graphite Black,2.3 Kg) FA506NCG-HN199W" [ref=e964] [cursor=pointer]':
+                    - /url: /ASUS-3050-4GB-Keyboard-Graphite-FA506NCG-HN199W/dp/B0FM3C4L2F?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0FM3C4L2F&ref_=pd_hp_d_btf_unk_B0FM3C4L2F
+                    - img "ASUS TUF A15 (2025), AMD Ryzen 7 7445HS, Gaming Laptop(RTX 3050,75W TGP,16GB DDR5(Upgradeable Upto 64GB )512GB SSD,FHD,15.6…" [ref=e966] [cursor=pointer]
+                    - generic [ref=e967] [cursor=pointer]:
+                      - generic [ref=e969] [cursor=pointer]:
+                        - generic [ref=e971] [cursor=pointer]: 24% off
+                        - generic [ref=e973] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e974] [cursor=pointer]:
+                        - generic [ref=e975] [cursor=pointer]:
+                          - generic [ref=e976] [cursor=pointer]: ₹63,989.00
+                          - generic [ref=e977] [cursor=pointer]:
+                            - generic [ref=e978] [cursor=pointer]: ₹
+                            - generic [ref=e979] [cursor=pointer]: 63,989
+                            - generic [ref=e980] [cursor=pointer]: "00"
+                        - generic [ref=e981] [cursor=pointer]:
+                          - generic [ref=e982] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e983] [cursor=pointer]:
+                            - generic [ref=e984] [cursor=pointer]: ₹83,990.00
+                            - generic [ref=e985] [cursor=pointer]: ₹83,990.00
+                      - generic [ref=e987] [cursor=pointer]: ASUS TUF A15 (2025), AMD Ryzen 7 7445HS, Gaming Laptop(RTX 3050,75W TGP,16GB DDR5(Upgradeable Upto 64GB )512GB SSD,FHD,15.6",144Hz,RGB Keyboard,48Whrs,Windows 11,Graphite Black,2.3 Kg) FA506NCG-HN199W
+                - listitem [ref=e988]:
+                  - 'link "LG 8 Kg, 5 Star, Wi-Fi, Direct Drive Technology, Steam Wash, 6 Motion DD, Fully-Automatic Front Load Washing Machine (FHB12… 33% off Great Indian Festival ₹33,990.00 M.R.P: ₹50,490.00 LG 8 Kg, 5 Star, Wi-Fi, Direct Drive Technology, Steam Wash, 6 Motion DD, Fully-Automatic Front Load Washing Machine (FHB1208Z4M, Allergy Care, In-Built Heater, Touch Panel, Middle Black)" [ref=e991] [cursor=pointer]':
+                    - /url: /LG-Technology-Fully-Automatic-Washing-FHB1208Z4M/dp/B0DD45WVCM?pd_rd_w=1Kpb0&content-id=amzn1.sym.a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_p=a324903e-1f30-4243-bf0d-6da5ebc52115&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&pd_rd_i=B0DD45WVCM&ref_=pd_hp_d_btf_unk_B0DD45WVCM
+                    - img "LG 8 Kg, 5 Star, Wi-Fi, Direct Drive Technology, Steam Wash, 6 Motion DD, Fully-Automatic Front Load Washing Machine (FHB12…" [ref=e993] [cursor=pointer]
+                    - generic [ref=e994] [cursor=pointer]:
+                      - generic [ref=e996] [cursor=pointer]:
+                        - generic [ref=e998] [cursor=pointer]: 33% off
+                        - generic [ref=e1000] [cursor=pointer]: Great Indian Festival
+                      - generic [ref=e1001] [cursor=pointer]:
+                        - generic [ref=e1002] [cursor=pointer]:
+                          - generic [ref=e1003] [cursor=pointer]: ₹33,990.00
+                          - generic [ref=e1004] [cursor=pointer]:
+                            - generic [ref=e1005] [cursor=pointer]: ₹
+                            - generic [ref=e1006] [cursor=pointer]: 33,990
+                            - generic [ref=e1007] [cursor=pointer]: "00"
+                        - generic [ref=e1008] [cursor=pointer]:
+                          - generic [ref=e1009] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e1010] [cursor=pointer]:
+                            - generic [ref=e1011] [cursor=pointer]: ₹50,490.00
+                            - generic [ref=e1012] [cursor=pointer]: ₹50,490.00
+                      - generic [ref=e1014] [cursor=pointer]: LG 8 Kg, 5 Star, Wi-Fi, Direct Drive Technology, Steam Wash, 6 Motion DD, Fully-Automatic Front Load Washing Machine (FHB1208Z4M, Allergy Care, In-Built Heater, Touch Panel, Middle Black)
+        - separator [ref=e1015]
+        - generic [ref=e1018]:
+          - generic [ref=e1019]:
+            - heading "Up to 70% off | Power up with the latest gadgets from stores nearby" [level=2] [ref=e1020]:
+              - generic [ref=e1021]: Up to 70% off | Power up with the latest gadgets from stores nearby
+            - link "See more" [ref=e1023] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=28253258031&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+          - generic [ref=e1024]:
+            - list [ref=e1026]:
+              - listitem [ref=e1027]:
+                - link "GETSABLE Stainless Steel Loop Magnetic Clasp band Compatible with iwatch bands 49mm Ultra, iwatch band Series 10 46mm,..." [ref=e1029] [cursor=pointer]:
+                  - /url: /GETSABLE-Stainless-Magnetic-Compatible-iwatch/dp/B0F6K61W1R/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "GETSABLE Stainless Steel Loop Magnetic Clasp band Compatible with iwatch bands 49mm Ultra, iwatch band Series 10 46mm,..." [ref=e1030] [cursor=pointer]
+              - listitem [ref=e1031]:
+                - link "TYROCX Mobile Camera Lens, 0.45X Super Wide Angle Lens, 15X Macro Lens, Clip-On 2 in 1 Professional Kit for TIK Tok,..." [ref=e1033] [cursor=pointer]:
+                  - /url: /TYROCX-Professional-YouTube-Compatible-Smartphones/dp/B0F9YTY2DR/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "TYROCX Mobile Camera Lens, 0.45X Super Wide Angle Lens, 15X Macro Lens, Clip-On 2 in 1 Professional Kit for TIK Tok,..." [ref=e1034] [cursor=pointer]
+              - listitem [ref=e1035]:
+                - link "Alitayee One Plus 80W Charging Cable USB to Type C Warp Charger SuperVooc/Dash Fast Charge Cable for 11,11R,10..." [ref=e1037] [cursor=pointer]:
+                  - /url: /Alitayee-Charging-Charger-SuperVooc-Marchpower/dp/B0F47YTWG7/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Alitayee One Plus 80W Charging Cable USB to Type C Warp Charger SuperVooc/Dash Fast Charge Cable for 11,11R,10..." [ref=e1038] [cursor=pointer]
+              - listitem [ref=e1039]:
+                - link "APES Toofan Bluetooth Speaker, 6Hrs Playtime, Dynamic RGB LED's, TF Card, USB, and AUX (Black)" [ref=e1041] [cursor=pointer]:
+                  - /url: /APES-Bluetooth-Speaker-Playtime-Dynamic/dp/B0DTY2NF4P/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "APES Toofan Bluetooth Speaker, 6Hrs Playtime, Dynamic RGB LED's, TF Card, USB, and AUX (Black)" [ref=e1042] [cursor=pointer]
+              - listitem [ref=e1043]:
+                - link "PLAY Art Newly Launched Android 13 4K Decoding 1080 Full HD Inbuilt Speaker Bluetooth ShortThrow Auto Keystone Freestyle..." [ref=e1045] [cursor=pointer]:
+                  - /url: /PLAY-Android13-Bluetooth-ShortThrow-Freestyle/dp/B0FC7WPWNF/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "PLAY Art Newly Launched Android 13 4K Decoding 1080 Full HD Inbuilt Speaker Bluetooth ShortThrow Auto Keystone Freestyle..." [ref=e1046] [cursor=pointer]
+              - listitem [ref=e1047]:
+                - link "APES BlastOutdoor Bluetooth Party Speaker, 8Hrs Playtime, Dynamic RGB LED's, 40W Speaker (Black)" [ref=e1049] [cursor=pointer]:
+                  - /url: /APES-BlastOutdoor-Bluetooth-Speaker-Playtime/dp/B0DTL83K13/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "APES BlastOutdoor Bluetooth Party Speaker, 8Hrs Playtime, Dynamic RGB LED's, 40W Speaker (Black)" [ref=e1050] [cursor=pointer]
+              - listitem [ref=e1051]:
+                - link "PEFKO PSS33 20MM No Gap Arc Edge Silicone Watch Replacement Bands / Straps Compatible for Samsung Galaxy Watch 4 Band &..." [ref=e1053] [cursor=pointer]:
+                  - /url: /PEFKO-PSS33-Replacement-Compatible-Wristbands/dp/B0BLJ7MZMQ/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "PEFKO PSS33 20MM No Gap Arc Edge Silicone Watch Replacement Bands / Straps Compatible for Samsung Galaxy Watch 4 Band &..." [ref=e1054] [cursor=pointer]
+              - listitem [ref=e1055]:
+                - link "PLAY New Launched 4K 2K Full HD LED 180 Degree Rotation Android 13, 5000 lumens with WiFi Bluetooth inbuilt Speakers..." [ref=e1057] [cursor=pointer]:
+                  - /url: /Launched-Rotation-Bluetooth-Speakers-Projector/dp/B0DNSZ984X/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "PLAY New Launched 4K 2K Full HD LED 180 Degree Rotation Android 13, 5000 lumens with WiFi Bluetooth inbuilt Speakers..." [ref=e1058] [cursor=pointer]
+              - listitem [ref=e1059]:
+                - link "AEETZ Ultra Hybrid Case/Cover for Samsung Galaxy Z Fold 7 5g | Hard TPU Protective Back Cover for Galaxy Fold7 |..." [ref=e1061] [cursor=pointer]:
+                  - /url: /AEETZ-Protective-Anti-Slip-Yellowing-Protection/dp/B0FNS342CB/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "AEETZ Ultra Hybrid Case/Cover for Samsung Galaxy Z Fold 7 5g | Hard TPU Protective Back Cover for Galaxy Fold7 |..." [ref=e1062] [cursor=pointer]
+              - listitem [ref=e1063]:
+                - link "DeperAI 65W 3-in-1 Fast Charger Adapter, Compatible with iPhone, Samsung, Realme, Redmi, Android, Oppo, Vivo, iPad, and..." [ref=e1065] [cursor=pointer]:
+                  - /url: /DeperAI-Charger-Adapter-Compatible-Supports/dp/B0DH1Y3YXY/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "DeperAI 65W 3-in-1 Fast Charger Adapter, Compatible with iPhone, Samsung, Realme, Redmi, Android, Oppo, Vivo, iPad, and..." [ref=e1066] [cursor=pointer]
+              - listitem [ref=e1067]:
+                - link "InEar Juke Buds Pro2 TWS Bluetooth Earbuds,Upto 60Hrs Playtime, Dual Pairing, Fast Type-C Charging, Touch Controls |..." [ref=e1069] [cursor=pointer]:
+                  - /url: /InEar-Juke-Buds-Rose-Gold/dp/B0F4QXXB22/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "InEar Juke Buds Pro2 TWS Bluetooth Earbuds,Upto 60Hrs Playtime, Dual Pairing, Fast Type-C Charging, Touch Controls |..." [ref=e1070] [cursor=pointer]
+              - listitem [ref=e1071]:
+                - link "Mobile Phone Stand, Angle Height Adjustable for Desk, Foldable Cell Phone Holder, Cradle, Dock, Tablet Stand, Case..." [ref=e1073] [cursor=pointer]:
+                  - /url: /Phone-Adjustable-Desk-Holder-Compatible/dp/B0D7JYZH4G/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Mobile Phone Stand, Angle Height Adjustable for Desk, Foldable Cell Phone Holder, Cradle, Dock, Tablet Stand, Case..." [ref=e1074] [cursor=pointer]
+              - listitem [ref=e1075]:
+                - link "NEXATECH Headphone, YoYo Pods Earbuds 13mm Drivers | Headphone Upto 36Hrs Playtime,Quick Pairing, Touch Control, Fast..." [ref=e1077] [cursor=pointer]:
+                  - /url: /NEXATECH-Headphone-Playtime-Assistance-Bluetooth/dp/B0FK2KKPVF/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "NEXATECH Headphone, YoYo Pods Earbuds 13mm Drivers | Headphone Upto 36Hrs Playtime,Quick Pairing, Touch Control, Fast..." [ref=e1078] [cursor=pointer]
+              - listitem [ref=e1079]:
+                - link "NB NOIZZYBOX Starlight+ Bluetooth Speaker 5.3 EDR with Mirror Sync Technology TWS+, Liquid Flow RGB Lights,..." [ref=e1081] [cursor=pointer]:
+                  - /url: /NB-NOIZZYBOX-Starlight-Technology-High-Fidelity/dp/B0D6BYR3GX/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "NB NOIZZYBOX Starlight+ Bluetooth Speaker 5.3 EDR with Mirror Sync Technology TWS+, Liquid Flow RGB Lights,..." [ref=e1082] [cursor=pointer]
+              - listitem [ref=e1083]:
+                - link "Spline Cineview 7 x 4 Feet Tripod Projector Screen Full HD 1080P UHD-3D-4K Technology 92 Inch Diagonal 16:9 Aspect Ratio..." [ref=e1085] [cursor=pointer]:
+                  - /url: /Spline-Tripod-Projector-Screen-Height/dp/B08HJ77TLV/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Spline Cineview 7 x 4 Feet Tripod Projector Screen Full HD 1080P UHD-3D-4K Technology 92 Inch Diagonal 16:9 Aspect Ratio..." [ref=e1086] [cursor=pointer]
+              - listitem [ref=e1087]:
+                - link "Umake TWS Bluetooth 5.3 Earbuds | Premium True Wireless in-Ear Headphones with Mic, Noise Cancelling, Hi-Fi Bass, Smart..." [ref=e1089] [cursor=pointer]:
+                  - /url: /Umake-Bluetooth-Wireless-Headphones-Cancelling/dp/B0FNX5HRMK/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Umake TWS Bluetooth 5.3 Earbuds | Premium True Wireless in-Ear Headphones with Mic, Noise Cancelling, Hi-Fi Bass, Smart..." [ref=e1090] [cursor=pointer]
+              - listitem [ref=e1091]:
+                - link "InEar Pro1 Juke Buds Wireless Earbuds with Mic | Touch Control, Bluetooth 5.3, Fast Charging, 36-Hour Playtime, IPX5..." [ref=e1093] [cursor=pointer]:
+                  - /url: /InEar-Water-Resistance-Bluetooth-Assistance-Charging/dp/B0CRZ87BPX/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "InEar Pro1 Juke Buds Wireless Earbuds with Mic | Touch Control, Bluetooth 5.3, Fast Charging, 36-Hour Playtime, IPX5..." [ref=e1094] [cursor=pointer]
+              - listitem [ref=e1095]:
+                - link "Green Wireless Earbuds with LED Display Case – Noise Cancelling, Touch Control, Long Battery Life, Bluetooth 5.3 Earphones" [ref=e1097] [cursor=pointer]:
+                  - /url: /Green-Wireless-Earbuds-Display-Case/dp/B0FK254ZTG/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Green Wireless Earbuds with LED Display Case – Noise Cancelling, Touch Control, Long Battery Life, Bluetooth 5.3 Earphones" [ref=e1098] [cursor=pointer]
+              - listitem [ref=e1099]:
+                - link "Mobotize Pack Of 2 Ceramic Matte Finish Screen Guard for Xiaomi Poco C71| Flexible | 9H Hardness | Anti Shatter | Anti..." [ref=e1101] [cursor=pointer]:
+                  - /url: /Mobotize-Xiaomi-Poco-C71-Installation/dp/B0FJ7CSBSL/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Mobotize Pack Of 2 Ceramic Matte Finish Screen Guard for Xiaomi Poco C71| Flexible | 9H Hardness | Anti Shatter | Anti..." [ref=e1102] [cursor=pointer]
+              - listitem [ref=e1103]:
+                - link "Casaquin Portable Karaoke Speaker with Wireless Microphone,Bluetooth Wireless Speaker,Musical Toys for Boys Girls &..." [ref=e1105] [cursor=pointer]:
+                  - /url: /Casaquin-Microphone-Bluetooth-Connectivity-Availability/dp/B0F88CWYF8/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "Casaquin Portable Karaoke Speaker with Wireless Microphone,Bluetooth Wireless Speaker,Musical Toys for Boys Girls &..." [ref=e1106] [cursor=pointer]
+              - listitem [ref=e1107]:
+                - link "GZT Trendy Buds PRO Wireless Earbuds with Fast Charging & Premium Glossy & MATT Finish Upto 42H Playtime| Dual 10mm..." [ref=e1109] [cursor=pointer]:
+                  - /url: /Wireless-Charging-Playtime-Water-Resistance-Control/dp/B0FJ63JR1N/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "GZT Trendy Buds PRO Wireless Earbuds with Fast Charging & Premium Glossy & MATT Finish Upto 42H Playtime| Dual 10mm..." [ref=e1110] [cursor=pointer]
+              - listitem [ref=e1111]:
+                - link "UNICORN GLAZZ Wireless Earbuds with Charging Case | Bluetooth 5.3 | Touch Control | Lightweight & Compact | White" [ref=e1113] [cursor=pointer]:
+                  - /url: /UNICORN-GLAZZ-Unicornglazz-Wireless-Earbuds/dp/B0FHHQB9BF/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "UNICORN GLAZZ Wireless Earbuds with Charging Case | Bluetooth 5.3 | Touch Control | Lightweight & Compact | White" [ref=e1114] [cursor=pointer]
+              - listitem [ref=e1115]:
+                - link "GHEREL Original 120W Type-C Flash Charger Compatible With I Qoo Neo 7 Pro,I Qoo Neo 9 Pro,I Qoo 12 5G,I Qoo 9 Pro 5G,I..." [ref=e1117] [cursor=pointer]:
+                  - /url: /GHEREL-Original-Compatible-Smartphone-Anniversary/dp/B0FFZ9LX26/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "GHEREL Original 120W Type-C Flash Charger Compatible With I Qoo Neo 7 Pro,I Qoo Neo 9 Pro,I Qoo 12 5G,I Qoo 9 Pro 5G,I..." [ref=e1118] [cursor=pointer]
+              - listitem [ref=e1119]:
+                - link "GEARZTOUCH iBLAST Wired in Ear Earphones with in-line Mic for Clear Calling, 14mm Dynamic Drivers for BoostedBass, 3.5mm..." [ref=e1121] [cursor=pointer]:
+                  - /url: /GEARZTOUCH-iBLAST-BoostedBass-Lightweight-Smartphones/dp/B0FP9FG6R8/?_encoding=UTF8&pd_rd_w=IifHu&content-id=amzn1.sym.88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_p=88e470d0-4c2a-4314-be1e-b0c562be546c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LSJUP
+                  - img "GEARZTOUCH iBLAST Wired in Ear Earphones with in-line Mic for Clear Calling, 14mm Dynamic Drivers for BoostedBass, 3.5mm..." [ref=e1122] [cursor=pointer]
+            - link [ref=e1123] [cursor=pointer]:
+              - /url: "#"
+            - link [ref=e1125] [cursor=pointer]:
+              - /url: "#"
+        - separator [ref=e1129]
+        - generic [ref=e1131]:
+          - heading "Up to 75% off | Collections from Small businesses" [level=2] [ref=e1133]
+          - generic [ref=e1134]:
+            - generic [ref=e1135]:
+              - link "Home decor" [ref=e1137] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=home%20decor&i=specialty-aps&srs=100293361031&pd_rd_w=TRDap&content-id=amzn1.sym.67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_p=67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Home decor" [ref=e1139] [cursor=pointer]
+                - generic [ref=e1141] [cursor=pointer]: Home decor
+              - link "Kitchen essentials" [ref=e1143] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=kitchen&i=specialty-aps&srs=100293361031&pd_rd_w=TRDap&content-id=amzn1.sym.67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_p=67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Kitchen essentials" [ref=e1145] [cursor=pointer]
+                - generic [ref=e1147] [cursor=pointer]: Kitchen essentials
+            - generic [ref=e1148]:
+              - link "Beauty products" [ref=e1150] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=beauty&i=specialty-aps&srs=100293361031&pd_rd_w=TRDap&content-id=amzn1.sym.67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_p=67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Beauty products" [ref=e1152] [cursor=pointer]
+                - generic [ref=e1154] [cursor=pointer]: Beauty products
+              - link "Furniture" [ref=e1156] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=furniture&i=specialty-aps&srs=100293361031&pd_rd_w=TRDap&content-id=amzn1.sym.67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_p=67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Furniture" [ref=e1158] [cursor=pointer]
+                - generic [ref=e1160] [cursor=pointer]: Furniture
+          - link "Up to 75% off | Collections from Small businesses - See all offers" [ref=e1162] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=100293361031&pd_rd_w=TRDap&content-id=amzn1.sym.67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_p=67e70b6c-af16-4a59-8e7a-427297d19708&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1163] [cursor=pointer]:
+              - generic [ref=e1164] [cursor=pointer]: See all offers
+              - generic [ref=e1165] [cursor=pointer]: See all offers
+        - generic [ref=e1167]:
+          - heading "Up to 70% off | Trending favorites from stores nearby" [level=2] [ref=e1169]
+          - generic [ref=e1170]:
+            - generic [ref=e1171]:
+              - link "Gift hampers" [ref=e1173] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=specialty-aps&srs=212364356031&s=popularity-rank&fs=true&pf_rd_i=28253258031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-29&ref=QA6up10Expander_en_IN_3&pd_rd_w=MPDrr&content-id=amzn1.sym.ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_p=ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Gift hampers" [ref=e1175] [cursor=pointer]
+                - generic [ref=e1177] [cursor=pointer]: Gift hampers
+              - link "Delicious treats & sweets" [ref=e1179] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=86223226031&ref_=AF_WIN_bub_w_cml_t_4&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-5&pf_rd_t=&pf_rd_i=28253258031&pd_rd_w=MPDrr&content-id=amzn1.sym.ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_p=ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Delicious treats & sweets" [ref=e1181] [cursor=pointer]
+                - generic [ref=e1183] [cursor=pointer]: Delicious treats & sweets
+            - generic [ref=e1184]:
+              - link "Fresh flowers & blooms" [ref=e1186] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&srs=96105686031&bbn=96105686031&rh=n%3A96105686031&dc=&ds=v1%3AcgDNxGuxuZEiYIhya4qpwt37zIDsZDpbmi6IPeTWe0Y&pf_rd_i=28253258031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-22&qid=1758003742&ref=HiddenGems_AL_11&pd_rd_w=MPDrr&content-id=amzn1.sym.ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_p=ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Fresh flowers & blooms" [ref=e1188] [cursor=pointer]
+                - generic [ref=e1190] [cursor=pointer]: Fresh flowers & blooms
+              - link "Home decor" [ref=e1192] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=specialty-aps&srs=204391321031&s=popularity-rank&fs=true&qid=1759224904&xpid=iSgtVEjqtNhD8&ref=sr_pg_1&pd_rd_w=MPDrr&content-id=amzn1.sym.ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_p=ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Home decor" [ref=e1194] [cursor=pointer]
+                - generic [ref=e1196] [cursor=pointer]: Home decor
+          - link "Up to 70% off | Trending favorites from stores nearby - See all offers" [ref=e1198] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=28253258031&pd_rd_w=MPDrr&content-id=amzn1.sym.ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_p=ef11bb4b-f35b-4e67-8417-305b50a4ad3e&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1199] [cursor=pointer]:
+              - generic [ref=e1200] [cursor=pointer]: See all offers
+              - generic [ref=e1201] [cursor=pointer]: See all offers
+        - generic [ref=e1203]:
+          - heading "Up to 80% off | Treasures from Indian artisans" [level=2] [ref=e1205]
+          - generic [ref=e1206]:
+            - generic [ref=e1207]:
+              - link "Kitchen essentials & more" [ref=e1209] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0BQGQPM8H&me=A2TU81QWNUEZU2&pd_rd_w=Drtd6&content-id=amzn1.sym.7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_p=7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Kitchen essentials & more" [ref=e1211] [cursor=pointer]
+                - generic [ref=e1213] [cursor=pointer]: Kitchen essentials & more
+              - link "Handcrafted furniture" [ref=e1215] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0CR49PDYJ&me=A1CB0SE4HPHEFS&pd_rd_w=Drtd6&content-id=amzn1.sym.7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_p=7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Handcrafted furniture" [ref=e1217] [cursor=pointer]
+                - generic [ref=e1219] [cursor=pointer]: Handcrafted furniture
+            - generic [ref=e1220]:
+              - link "Women's wear" [ref=e1222] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0BBFRHZR4&me=A15IOB6GFPRJS9&pd_rd_w=Drtd6&content-id=amzn1.sym.7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_p=7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Women's wear" [ref=e1224] [cursor=pointer]
+                - generic [ref=e1226] [cursor=pointer]: Women's wear
+              - link "Toddler toys" [ref=e1228] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B095KK5F64&me=A1NXSX40ZLZJ5&pd_rd_w=Drtd6&content-id=amzn1.sym.7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_p=7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Toddler toys" [ref=e1230] [cursor=pointer]
+                - generic [ref=e1232] [cursor=pointer]: Toddler toys
+          - link "Up to 80% off | Treasures from Indian artisans - See all offers" [ref=e1234] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=16676064031&pd_rd_w=Drtd6&content-id=amzn1.sym.7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_p=7933ba8e-c97e-47ae-aa53-5cfa90b41c12&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1235] [cursor=pointer]:
+              - generic [ref=e1236] [cursor=pointer]: See all offers
+              - generic [ref=e1237] [cursor=pointer]: See all offers
+        - generic [ref=e1239]:
+          - heading "Up to 70% off | Amazon Renewed" [level=2] [ref=e1241]
+          - link "Up to 70% off | Amazon Renewed See all offers" [ref=e1242] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=12497409031&pd_rd_w=ER44u&content-id=amzn1.sym.05339c81-ca55-4f0a-9448-48bbf83a2590&pf_rd_p=05339c81-ca55-4f0a-9448-48bbf83a2590&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - img "Up to 70% off | Amazon Renewed" [ref=e1245] [cursor=pointer]
+            - generic [ref=e1247] [cursor=pointer]:
+              - generic [ref=e1248] [cursor=pointer]: See all offers
+              - generic [ref=e1249] [cursor=pointer]: See all offers
+        - separator [ref=e1250]
+        - generic [ref=e1253]:
+          - generic [ref=e1254]:
+            - heading "Min.50% off | Bestsellers from Small businesses" [level=2] [ref=e1255]:
+              - generic [ref=e1256]: Min.50% off | Bestsellers from Small businesses
+            - link "See more" [ref=e1258] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=100293361031&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+          - list [ref=e1261]:
+            - listitem [ref=e1262]:
+              - link "WOODSOME™ Decorative Glass Test Tube with Donut Wooden Holder Vase for Flower Plants Home Decor Office Living Room..." [ref=e1264] [cursor=pointer]:
+                - /url: /WOODSOMETM-Decorative-Wooden-Bedroom-Decoration/dp/B0FHFS8YL6/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "WOODSOME™ Decorative Glass Test Tube with Donut Wooden Holder Vase for Flower Plants Home Decor Office Living Room..." [ref=e1265] [cursor=pointer]
+            - listitem [ref=e1266]:
+              - 'link "MAKIFY Wooden Serving Tray | Set of 3 | Size: 16×10 Inch, 14×08 Inch, 12×06 Inch | Enamel Coated Waterproof |..." [ref=e1268] [cursor=pointer]':
+                - /url: /MAKIFY-Wooden-Serving-Tray-Size/dp/B0FHRRFW9V/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - 'img "MAKIFY Wooden Serving Tray | Set of 3 | Size: 16×10 Inch, 14×08 Inch, 12×06 Inch | Enamel Coated Waterproof |..." [ref=e1269] [cursor=pointer]'
+            - listitem [ref=e1270]:
+              - link "Do It Yourself Tulip Night Lamp Mirror LED Decorative Nights Lamp for Bedroom, Handmade Magic Cube Tulips Flower Table..." [ref=e1272] [cursor=pointer]:
+                - /url: /Yourself-Decorative-Bedroom-Handmade-Birthday/dp/B0DYK4V15Z/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Do It Yourself Tulip Night Lamp Mirror LED Decorative Nights Lamp for Bedroom, Handmade Magic Cube Tulips Flower Table..." [ref=e1273] [cursor=pointer]
+            - listitem [ref=e1274]:
+              - link "zenithink Porsche Racing Car Wall Poster,Pack Of 3-8x12 inch (A4 Size-300GSM) Included Glue dots Wall Decor Posters Wall..." [ref=e1276] [cursor=pointer]:
+                - /url: /zenithink-Porsche-Size-300GSM-Included-Room-Cardstock/dp/B0DW9G9CQS/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "zenithink Porsche Racing Car Wall Poster,Pack Of 3-8x12 inch (A4 Size-300GSM) Included Glue dots Wall Decor Posters Wall..." [ref=e1277] [cursor=pointer]
+            - listitem [ref=e1278]:
+              - link "DHARA HOME DECOR Modern Metal Floor Flower Stands Planter for Living Room Bedroom Display Plant Stand Tall Indoor Plant..." [ref=e1280] [cursor=pointer]:
+                - /url: /DHARA-HOME-DECOR-Planter-Bedroom/dp/B0CMM7TXVC/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "DHARA HOME DECOR Modern Metal Floor Flower Stands Planter for Living Room Bedroom Display Plant Stand Tall Indoor Plant..." [ref=e1281] [cursor=pointer]
+            - listitem [ref=e1282]:
+              - link "SREEPA SHOPPEE Wall Stickers DIY Wallpaper (200 X 45 CM) Black Gold Damask Luxury Self Adhesive Decals Living Room..." [ref=e1284] [cursor=pointer]:
+                - /url: /SREEPA-SHOPPEE-Stickers-Wallpaper-Decoration/dp/B0F7QLSWXN/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "SREEPA SHOPPEE Wall Stickers DIY Wallpaper (200 X 45 CM) Black Gold Damask Luxury Self Adhesive Decals Living Room..." [ref=e1285] [cursor=pointer]
+            - listitem [ref=e1286]:
+              - link "Engineered Wood Handcrafted OM Design Pooja Mandir for Home & Office | Wall Mounted Wooden Temple with Storage Cabinet |..." [ref=e1288] [cursor=pointer]:
+                - /url: /Engineered-Wood-Handcrafted-Mounted-Storage/dp/B0FCS33GJM/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Engineered Wood Handcrafted OM Design Pooja Mandir for Home & Office | Wall Mounted Wooden Temple with Storage Cabinet |..." [ref=e1289] [cursor=pointer]
+            - listitem [ref=e1290]:
+              - link "Merakiware Ceramic Tea Sugar Coffee Container Set of 3 – Vintage Airtight Kitchen Storage Jars with Lids – Decorative..." [ref=e1292] [cursor=pointer]:
+                - /url: /Merakiware-Ceramic-Sugar-Coffee-Container/dp/B0FDL6Y5CX/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Merakiware Ceramic Tea Sugar Coffee Container Set of 3 – Vintage Airtight Kitchen Storage Jars with Lids – Decorative..." [ref=e1293] [cursor=pointer]
+            - listitem [ref=e1294]:
+              - link "Downtown Girl Room Decor Wall Collage Kit, Y2K Grunge Aesthetic Posters, 10x15 cm, Vintage Music Theme Wall Art for..." [ref=e1296] [cursor=pointer]:
+                - /url: /Downtown-Collage-Aesthetic-Posters-Vintage/dp/B0FH2SMFQJ/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Downtown Girl Room Decor Wall Collage Kit, Y2K Grunge Aesthetic Posters, 10x15 cm, Vintage Music Theme Wall Art for..." [ref=e1297] [cursor=pointer]
+            - listitem [ref=e1298]:
+              - link "Fusion 3D Car Garage Key Holder – Unique Wall-Mounted Key Organizer with Mini Car Display – 3D Printed Decorative Hook..." [ref=e1300] [cursor=pointer]:
+                - /url: /Fusion-Car-Garage-Key-Holder/dp/B0F8QWYSVF/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Fusion 3D Car Garage Key Holder – Unique Wall-Mounted Key Organizer with Mini Car Display – 3D Printed Decorative Hook..." [ref=e1301] [cursor=pointer]
+            - listitem [ref=e1302]:
+              - link "TrendClock Stylish Luxury Designer Antique Analog Silent Clock for Noise-Free Timepiece for Home, Office, Living Room..." [ref=e1304] [cursor=pointer]:
+                - /url: /TrendClock-Designer-Noise-Free-Timepiece-Decoration/dp/B0F9FQ4T9S/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "TrendClock Stylish Luxury Designer Antique Analog Silent Clock for Noise-Free Timepiece for Home, Office, Living Room..." [ref=e1305] [cursor=pointer]
+            - listitem [ref=e1306]:
+              - link "INODEC Peace Lily – Live Indoor Plant for Home or Office | Easy Care, Air Purifying, Pet-Friendly | Spathiphyllum in..." [ref=e1308] [cursor=pointer]:
+                - /url: /INODEC-Size-Peace-Lily-Spathiphyllum/dp/B0FMJG8S1M/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "INODEC Peace Lily – Live Indoor Plant for Home or Office | Easy Care, Air Purifying, Pet-Friendly | Spathiphyllum in..." [ref=e1309] [cursor=pointer]
+            - listitem [ref=e1310]:
+              - link "100% Japanese Rain bow Lotus Flower Seeds, Dwarf Rainbow Flower Seed, Rainbow Lotus Flower Seeds for Home Decor Kamal..." [ref=e1312] [cursor=pointer]:
+                - /url: /Japanese-Lotus-Flower-Rainbow-Gardening/dp/B0F9WQ46ZD/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "100% Japanese Rain bow Lotus Flower Seeds, Dwarf Rainbow Flower Seed, Rainbow Lotus Flower Seeds for Home Decor Kamal..." [ref=e1313] [cursor=pointer]
+            - listitem [ref=e1314]:
+              - link "The Artisfy | Mini Easel Stand | 4 Inch | Pack of 6 | Premium Pinewood Display Standee for Mini Canvas, Photos, Place..." [ref=e1316] [cursor=pointer]:
+                - /url: /Artisfy-Premium-Pinewood-Display-Weddings/dp/B0FKSJBG7X/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "The Artisfy | Mini Easel Stand | 4 Inch | Pack of 6 | Premium Pinewood Display Standee for Mini Canvas, Photos, Place..." [ref=e1317] [cursor=pointer]
+            - listitem [ref=e1318]:
+              - link "SREEPA SHOPPEE Wall Stickers DIY Wallpaper (200 X 45 CM) Silver Rose Damask Self Adhesive Decal Living Room Bedroom Home..." [ref=e1320] [cursor=pointer]:
+                - /url: /SREEPA-SHOPPEE-Decoration-Wallpaper-Sqft-Approx/dp/B0F7R4ZTHB/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "SREEPA SHOPPEE Wall Stickers DIY Wallpaper (200 X 45 CM) Silver Rose Damask Self Adhesive Decal Living Room Bedroom Home..." [ref=e1321] [cursor=pointer]
+            - listitem [ref=e1322]:
+              - link "Blessings Polyester Sheer Net Transparent Door Single Curtain 7 Feet Long | Light Filtering Grommet Drapes for Living..." [ref=e1324] [cursor=pointer]:
+                - /url: /Blessings-Polyester-Transparent-Curtain-Filtering/dp/B0FP9M5S1F/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Blessings Polyester Sheer Net Transparent Door Single Curtain 7 Feet Long | Light Filtering Grommet Drapes for Living..." [ref=e1325] [cursor=pointer]
+            - listitem [ref=e1326]:
+              - link "ELEVEN TO ELEVEN DECOR Unique Chair Flower Pots | Cute Succulent Planters in Vintage Chair Design, Indoor & Outdoor..." [ref=e1328] [cursor=pointer]:
+                - /url: /ELEVEN-DECOR-Succulent-Planters-Vintage/dp/B0F5X5WFVK/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "ELEVEN TO ELEVEN DECOR Unique Chair Flower Pots | Cute Succulent Planters in Vintage Chair Design, Indoor & Outdoor..." [ref=e1329] [cursor=pointer]
+            - listitem [ref=e1330]:
+              - link "Chettrinyashi gifts Magic Mirror Photo Frame with Light Photos Gift Personalized Customized Frames for Valentines Day..." [ref=e1332] [cursor=pointer]:
+                - /url: /Chettrinyashi-Personalized-Customized-Valentines-Anniversary/dp/B0FJS4BBRY/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Chettrinyashi gifts Magic Mirror Photo Frame with Light Photos Gift Personalized Customized Frames for Valentines Day..." [ref=e1333] [cursor=pointer]
+            - listitem [ref=e1334]:
+              - link "BILZZ Custom Photo Prints | Personalized 5.5x8.5 Cm Photo Prints | Vintage Style Mini Prints | Ideal For Gifting..." [ref=e1336] [cursor=pointer]:
+                - /url: /BILZZ-Photo-Prints-Personalized-Scrapbooking/dp/B0F6D1ST4J/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "BILZZ Custom Photo Prints | Personalized 5.5x8.5 Cm Photo Prints | Vintage Style Mini Prints | Ideal For Gifting..." [ref=e1337] [cursor=pointer]
+            - listitem [ref=e1338]:
+              - link "Golden Metal Trim Wall Strip Stainless Steel PVD Coated 8K Mirror Gold Finish Flat Trim Strip profile 20 mm x..." [ref=e1340] [cursor=pointer]:
+                - /url: /Golden-Metal-Wall-Decoration-Highlighters/dp/B0FG3G5N6M/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Golden Metal Trim Wall Strip Stainless Steel PVD Coated 8K Mirror Gold Finish Flat Trim Strip profile 20 mm x..." [ref=e1341] [cursor=pointer]
+            - listitem [ref=e1342]:
+              - link "Xenluxe Shaggy Round Area Rug – Soft Plush Circle Solid Color Carpet for Living Room, Bedroom, Kids Room – Fluffy Fuzzy..." [ref=e1344] [cursor=pointer]:
+                - /url: /Xenluxe-Shaggy-Round-Area-Rug/dp/B0FFGZZ7K5/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Xenluxe Shaggy Round Area Rug – Soft Plush Circle Solid Color Carpet for Living Room, Bedroom, Kids Room – Fluffy Fuzzy..." [ref=e1345] [cursor=pointer]
+            - listitem [ref=e1346]:
+              - link "Luxury Brass Pooja Thali Set with Decorative Box, Gold Plated Traditional Worship Items, 7-Piece Set" [ref=e1348] [cursor=pointer]:
+                - /url: /Luxury-Decorative-Traditional-Worship-7-Piece/dp/B0FPKGK329/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Luxury Brass Pooja Thali Set with Decorative Box, Gold Plated Traditional Worship Items, 7-Piece Set" [ref=e1349] [cursor=pointer]
+            - listitem [ref=e1350]:
+              - link "Cotton Paddy Thoran for Festival Decoration 42 inch, Gold" [ref=e1352] [cursor=pointer]:
+                - /url: /Cotton-Paddy-Thoran-Festival-Decoration/dp/B0DYV1CV3H/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Cotton Paddy Thoran for Festival Decoration 42 inch, Gold" [ref=e1353] [cursor=pointer]
+            - listitem [ref=e1354]:
+              - link "Borotech Diya Glass Cover Set of 2, Heat-Resistant Borosilicate Glass,Height 4 inch Width 3 inch, Transparent Dome for..." [ref=e1356] [cursor=pointer]:
+                - /url: /Borotech-Heat-Resistant-Borosilicate-Transparent-Festive/dp/B0FL12M79J/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Borotech Diya Glass Cover Set of 2, Heat-Resistant Borosilicate Glass,Height 4 inch Width 3 inch, Transparent Dome for..." [ref=e1357] [cursor=pointer]
+            - listitem [ref=e1358]:
+              - link "DECAURA Artificial Marigold Garlands Decoration for Home Decor | Fluffy Marigold Artificial Flowers for Decoration..." [ref=e1360] [cursor=pointer]:
+                - /url: /DECAURA-Artificial-Decoration-Decorative-Multicolor/dp/B0DFTWVPLC/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "DECAURA Artificial Marigold Garlands Decoration for Home Decor | Fluffy Marigold Artificial Flowers for Decoration..." [ref=e1361] [cursor=pointer]
+            - listitem [ref=e1362]:
+              - link "2Pcs Ribbon Roll, Golden Ribbon for Gift Wrapping, Satin Ribbons for Decoration, Craft, and Party Decorations, 22 Meters..." [ref=e1364] [cursor=pointer]:
+                - /url: /Wrapping-Ribbons-Decoration-Decorations-Centimeters/dp/B0FKSWQX1T/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "2Pcs Ribbon Roll, Golden Ribbon for Gift Wrapping, Satin Ribbons for Decoration, Craft, and Party Decorations, 22 Meters..." [ref=e1365] [cursor=pointer]
+            - listitem [ref=e1366]:
+              - link "Handloom hub 9 mtrs/29 feet Jute Tassel Fringe Lace Trim Ribbons Sewing Cloth Crafts Accessories Home Party Decoration" [ref=e1368] [cursor=pointer]:
+                - /url: /Handloom-hub-Ribbons-Accessories-Decoration/dp/B0C8HLNLZ9/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Handloom hub 9 mtrs/29 feet Jute Tassel Fringe Lace Trim Ribbons Sewing Cloth Crafts Accessories Home Party Decoration" [ref=e1369] [cursor=pointer]
+            - listitem [ref=e1370]:
+              - link "Zythrem Wisteria Artificial Flowers Garland 2Pcs 5.9Ft Silk Wisteria Hanging Flowers with Lush Green Leaf for Home..." [ref=e1372] [cursor=pointer]:
+                - /url: /Zythrem-Wisteria-Artificial-Ceremony-Decorations/dp/B0DTD261L8/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Zythrem Wisteria Artificial Flowers Garland 2Pcs 5.9Ft Silk Wisteria Hanging Flowers with Lush Green Leaf for Home..." [ref=e1373] [cursor=pointer]
+            - listitem [ref=e1374]:
+              - link "Veemok Sound Activated RGB Disco Ball Party Light with Remote | 16-Color LED Strobe DJ Light for Home, Birthday,..." [ref=e1376] [cursor=pointer]:
+                - /url: /Veemok-Activated-16-Color-Christmas-Decorations/dp/B0DZHN5G81/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "Veemok Sound Activated RGB Disco Ball Party Light with Remote | 16-Color LED Strobe DJ Light for Home, Birthday,..." [ref=e1377] [cursor=pointer]
+            - listitem [ref=e1378]:
+              - link "MAKIFY Set of 2 MDF Wood Trays Enamel Coated| Round Trays | Serving Trays | Wooden Tray | Kitchen & Dining Decorative |..." [ref=e1380] [cursor=pointer]:
+                - /url: /MAKIFY-Serving-Kitchen-Decorative-Handmade/dp/B0FN4JPPB8/?_encoding=UTF8&pd_rd_w=MgIAD&content-id=amzn1.sym.72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_p=72954edd-96cf-4ac6-b6c0-20de9f6b41c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Kar
+                - img "MAKIFY Set of 2 MDF Wood Trays Enamel Coated| Round Trays | Serving Trays | Wooden Tray | Kitchen & Dining Decorative |..." [ref=e1381] [cursor=pointer]
+        - separator [ref=e1383]
+        - generic [ref=e1386]:
+          - generic [ref=e1387]:
+            - heading "Flat 10% cashback* | Bestselling home & kitchen essentials from Amazon Launchpad" [level=2] [ref=e1388]:
+              - generic [ref=e1389]: Flat 10% cashback* | Bestselling home & kitchen essentials from Amazon Launchpad
+            - link "Explore more" [ref=e1391] [cursor=pointer]:
+              - /url: /b/ref=ALJup25PC/?_encoding=UTF8&node=10894223031&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+          - list [ref=e1394]:
+            - listitem [ref=e1395]:
+              - link "HENIJ Silicone, Plastic 4 in 1 Seasoning Box with Lid and Spoons, Masala Rangoli Dabba Box Set, 4 Compartments Spice Jar..." [ref=e1397] [cursor=pointer]:
+                - /url: /Seasoning-Rangoli-Compartments-Condiment-Container/dp/B0D8B5JPQY/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "HENIJ Silicone, Plastic 4 in 1 Seasoning Box with Lid and Spoons, Masala Rangoli Dabba Box Set, 4 Compartments Spice Jar..." [ref=e1398] [cursor=pointer]
+            - listitem [ref=e1399]:
+              - link "Lorazzo Quartz Kitchen Sink (MIDNIGHT BLACK)- Single Bowl | Quartz Sink for Kitchen 24X18 | with SS 304 Coupling, Rack &..." [ref=e1401] [cursor=pointer]:
+                - /url: /Lorazzo-MIDNIGHT-Coupling-10-Years-Warranty/dp/B0DMVTT76B/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Lorazzo Quartz Kitchen Sink (MIDNIGHT BLACK)- Single Bowl | Quartz Sink for Kitchen 24X18 | with SS 304 Coupling, Rack &..." [ref=e1402] [cursor=pointer]
+            - listitem [ref=e1403]:
+              - link "MM FOAM 100% Latex Life Companion Pillow, Latex Pillow for Sleeping, Side and Stomach Sleepers- Pack of 2, White, (25.5..." [ref=e1405] [cursor=pointer]:
+                - /url: /MM-FOAM-Life-Companion-Pillow/dp/B08DP2YCZX/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "MM FOAM 100% Latex Life Companion Pillow, Latex Pillow for Sleeping, Side and Stomach Sleepers- Pack of 2, White, (25.5..." [ref=e1406] [cursor=pointer]
+            - listitem [ref=e1407]:
+              - link "DDN_R_ Shoe Organiser For Home || Transparent Lid Fits Under Bed || Shoe Storage || Cloth Organiser For Wardrobe ||..." [ref=e1409] [cursor=pointer]:
+                - /url: /DDN_R_-Stainless-Organiser-Transparent-Container/dp/B0FCBFNFVT/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "DDN_R_ Shoe Organiser For Home || Transparent Lid Fits Under Bed || Shoe Storage || Cloth Organiser For Wardrobe ||..." [ref=e1410] [cursor=pointer]
+            - listitem [ref=e1411]:
+              - link "Dreamy Walls 11'' Mini White Marble Vanity Tray for Cosmetics, Bathroom, Dressing, Kitchen | Easy Clean, Non-Slip Tray..." [ref=e1413] [cursor=pointer]:
+                - /url: /Dreamy-Walls-Natural-Marble-Tray/dp/B0CJC4KY9J/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Dreamy Walls 11'' Mini White Marble Vanity Tray for Cosmetics, Bathroom, Dressing, Kitchen | Easy Clean, Non-Slip Tray..." [ref=e1414] [cursor=pointer]
+            - listitem [ref=e1415]:
+              - link "Dreamy Walls 10.5'' Drum Lamp Shade for Bedroom, Living Room | Handcrafted Printed Faux Silk Replacement Lampshade Only..." [ref=e1417] [cursor=pointer]:
+                - /url: /Handcrafted-Replacement-Lampshade-Assembly-10-5x8-5/dp/B0F8BCCJ85/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Dreamy Walls 10.5'' Drum Lamp Shade for Bedroom, Living Room | Handcrafted Printed Faux Silk Replacement Lampshade Only..." [ref=e1418] [cursor=pointer]
+            - listitem [ref=e1419]:
+              - link "Aquaminder Stainless Steel Smart Water Bottle 750 ml with Beep & Glow Reminder for Adult,Kids Perfect for..." [ref=e1421] [cursor=pointer]:
+                - /url: /Aquaminder-Stainless-Reminder-Perfect-Certified/dp/B0DX73DHK2/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Aquaminder Stainless Steel Smart Water Bottle 750 ml with Beep & Glow Reminder for Adult,Kids Perfect for..." [ref=e1422] [cursor=pointer]
+            - listitem [ref=e1423]:
+              - link "Well Set Premium Designer Ceramic Table Top White Plan Wash Basin (Size18*13 * 5inch)" [ref=e1425] [cursor=pointer]:
+                - /url: /Well-Set-Premium-Designer-Ceramic/dp/B0CKPMC8S5/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Well Set Premium Designer Ceramic Table Top White Plan Wash Basin (Size18*13 * 5inch)" [ref=e1426] [cursor=pointer]
+            - listitem [ref=e1427]:
+              - link "VAYA Yumbytes Stainless Steel Snack Box with Spoon, Fork & Spork Cutlery Set, Leak-Proof, Durable, BPA-Free, and..." [ref=e1429] [cursor=pointer]:
+                - /url: /VAYA-Snack-Cutlery-Leak-Proof-Travel-Friendly/dp/B0F3D7FLZ2/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "VAYA Yumbytes Stainless Steel Snack Box with Spoon, Fork & Spork Cutlery Set, Leak-Proof, Durable, BPA-Free, and..." [ref=e1430] [cursor=pointer]
+            - listitem [ref=e1431]:
+              - link "Lorazzo Pulse® Bidet | Smart Toilet Attachment with Dual Nozzle (Front & Rear) | Bidet Spray for Toilet | Self-Cleaning,..." [ref=e1433] [cursor=pointer]:
+                - /url: /Lorazzo-Attachment-Self-Cleaning-Adjustable-Pressure/dp/B0FBM5893V/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Lorazzo Pulse® Bidet | Smart Toilet Attachment with Dual Nozzle (Front & Rear) | Bidet Spray for Toilet | Self-Cleaning,..." [ref=e1434] [cursor=pointer]
+            - listitem [ref=e1435]:
+              - link "DREAMY WALLS 25'' Small Asymmetric Wall HD Mirror for Living Room, Bedroom, Entryway | Handcrafted Wooden Frame with 5mm..." [ref=e1437] [cursor=pointer]:
+                - /url: /DREAMY-WALLS-Asymmetric-Irregular-Handcrafted/dp/B0CKL6XWSM/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "DREAMY WALLS 25'' Small Asymmetric Wall HD Mirror for Living Room, Bedroom, Entryway | Handcrafted Wooden Frame with 5mm..." [ref=e1438] [cursor=pointer]
+            - listitem [ref=e1439]:
+              - link "Flowers and Fillers || Golden Sunset Bunch | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom,..." [ref=e1441] [cursor=pointer]:
+                - /url: /Flowers-Fillers-Natural-Eco-Friendly-Decoration/dp/B0D8QB3ZJJ/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Flowers and Fillers || Golden Sunset Bunch | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom,..." [ref=e1442] [cursor=pointer]
+            - listitem [ref=e1443]:
+              - link "Flowers and Fillers || Ivory Dream Bunch | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom, Table..." [ref=e1445] [cursor=pointer]:
+                - /url: /Flowers-Fillers-Natural-Eco-Friendly-Decoration/dp/B0D8TDYLZ6/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Flowers and Fillers || Ivory Dream Bunch | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom, Table..." [ref=e1446] [cursor=pointer]
+            - listitem [ref=e1447]:
+              - link "Flowers and Fillers | Boho Latte Bunch | Pampas Grass | Eco-Friendly Flowers for Home, Office, Bedroom, Table Decoration..." [ref=e1449] [cursor=pointer]:
+                - /url: /Flowers-Fillers-Everylasting-Flower-Bouquet/dp/B0BWYN2GVK/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Flowers and Fillers | Boho Latte Bunch | Pampas Grass | Eco-Friendly Flowers for Home, Office, Bedroom, Table Decoration..." [ref=e1450] [cursor=pointer]
+            - listitem [ref=e1451]:
+              - link "Flowers and Fillers || Botanical Bliss Bunch | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom,..." [ref=e1453] [cursor=pointer]:
+                - /url: /Flowers-Fillers-Botanical-Eco-Friendly-Decoration/dp/B0D8QF4FN3/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Flowers and Fillers || Botanical Bliss Bunch | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom,..." [ref=e1454] [cursor=pointer]
+            - listitem [ref=e1455]:
+              - link "EKAM | Combo Pack Of 3 | Rose, Lemongrass & Jasmine Scented Plug-In Air Freshener Liquid Refill| 45Ml Each | Lasts up to..." [ref=e1457] [cursor=pointer]:
+                - /url: /EKAM-Scented-Freshener-Lemongrass-Jasmine/dp/B0CJXX19SG/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "EKAM | Combo Pack Of 3 | Rose, Lemongrass & Jasmine Scented Plug-In Air Freshener Liquid Refill| 45Ml Each | Lasts up to..." [ref=e1458] [cursor=pointer]
+            - listitem [ref=e1459]:
+              - link "SINGHAL Plastic Crate with Lid, 400x300x200 MM Multipurpose Heavy Duty Big Blue Portable Crates for storage | Shelf..." [ref=e1461] [cursor=pointer]:
+                - /url: /SINGHAL-Lid-Multipurpose-Blue-Crates/dp/B0DL3G8D96/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "SINGHAL Plastic Crate with Lid, 400x300x200 MM Multipurpose Heavy Duty Big Blue Portable Crates for storage | Shelf..." [ref=e1462] [cursor=pointer]
+            - listitem [ref=e1463]:
+              - link "Flowers and Fillers || White Lino (100 Grams) | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom,..." [ref=e1465] [cursor=pointer]:
+                - /url: /Flowers-Fillers-White-Lino-Grams/dp/B0CHBCLPNM/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Flowers and Fillers || White Lino (100 Grams) | Natural Dried Flower | Eco-Friendly Flowers for Home, Office, Bedroom,..." [ref=e1466] [cursor=pointer]
+            - listitem [ref=e1467]:
+              - link "Lorazzo S1 Health Faucet with AquaSlide® Switch and Pure Brass Cartridge (Gun only) | Jet Spray Pipe for Toilet | Faucet..." [ref=e1469] [cursor=pointer]:
+                - /url: /Lorazzo-AquaSlide%C2%AE-Cartridge-LORAZZO-Warranty/dp/B0DW4BM8RY/?_encoding=UTF8&pd_rd_w=mwLRz&content-id=amzn1.sym.f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_p=f62fe507-6e01-4556-97c3-ab259e954734&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_LPDEALS
+                - img "Lorazzo S1 Health Faucet with AquaSlide® Switch and Pure Brass Cartridge (Gun only) | Jet Spray Pipe for Toilet | Faucet..." [ref=e1470] [cursor=pointer]
+        - separator [ref=e1472]
+        - generic [ref=e1474]:
+          - heading "Up to 70% Off | Empowering Women-led brands" [level=2] [ref=e1476]
+          - generic [ref=e1477]:
+            - generic [ref=e1478]:
+              - link "Kitchen storages & more" [ref=e1480] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0CQ1XDP1T&me=A36ZY4SHL2T0M7&pd_rd_w=yhllO&content-id=amzn1.sym.ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_p=ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Kitchen storages & more" [ref=e1482] [cursor=pointer]
+                - generic [ref=e1484] [cursor=pointer]: Kitchen storages & more
+              - link "Solid furniture" [ref=e1486] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0DB1QH287&me=A1EJGE8EEAQEFM&pd_rd_w=yhllO&content-id=amzn1.sym.ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_p=ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Solid furniture" [ref=e1488] [cursor=pointer]
+                - generic [ref=e1490] [cursor=pointer]: Solid furniture
+            - generic [ref=e1491]:
+              - link "Women's wear" [ref=e1493] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0DPQY69CL&me=A10Y51W9KCX8ZU&pd_rd_w=yhllO&content-id=amzn1.sym.ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_p=ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Women's wear" [ref=e1495] [cursor=pointer]
+                - generic [ref=e1497] [cursor=pointer]: Women's wear
+              - link "Skin care & more" [ref=e1499] [cursor=pointer]:
+                - /url: /l/27943762031/?_encoding=UTF8&ie=UTF8&marketplaceID=A21TJRUUN4KGV&product=B0DZ2L5S6L&me=AAA3SBDGBTRZP&pd_rd_w=yhllO&content-id=amzn1.sym.ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_p=ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Skin care & more" [ref=e1501] [cursor=pointer]
+                - generic [ref=e1503] [cursor=pointer]: Skin care & more
+          - link "Up to 70% Off | Empowering Women-led brands - See all offers" [ref=e1505] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=14311774031&pd_rd_w=yhllO&content-id=amzn1.sym.ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_p=ec6e2637-87f2-4aab-b314-ee7fe6af2eb0&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1506] [cursor=pointer]:
+              - generic [ref=e1507] [cursor=pointer]: See all offers
+              - generic [ref=e1508] [cursor=pointer]: See all offers
+        - generic [ref=e1510]:
+          - heading "Deals on outdoor toys" [level=2] [ref=e1512]
+          - generic [ref=e1513]:
+            - generic [ref=e1514]:
+              - link "Starting ₹799 | Scooters" [ref=e1516] [cursor=pointer]:
+                - /url: /s/ref=pcqcrecscootersmayart/?_encoding=UTF8&i=toys&bbn=1378198031&rh=n%3A1350380031%2Cn%3A1378198031%2Cn%3A1378211031%2Cp_n_deal_type%3A26921224031&dc=&ds=v1%3ApiDxIYiyNPb4hPFBHL%2FLliLIC5VMcAhkdxH4F7hlguM&_encoding=UTF8&qid=1746001919&rnid=1378198031&xpid=CY0ZyY_0Cc52C&ref=sr_nr_n_6&pd_rd_w=aCGZM&content-id=amzn1.sym.2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_p=2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹799 | Scooters" [ref=e1518] [cursor=pointer]
+                - generic [ref=e1520] [cursor=pointer]: Starting ₹799 | Scooters
+              - link "Starting ₹1,599 | Slides" [ref=e1522] [cursor=pointer]:
+                - /url: /s/ref=pcqcrecslidesw44/?_encoding=UTF8&bbn=1378519031&rh=n%3A1378519031%2Cp_n_availability%3A1318485031&dc=&qid=1677162585&rnid=1318483031&ref=lp_1378519031_nr_p_n_availability_1&pd_rd_w=aCGZM&content-id=amzn1.sym.2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_p=2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹1,599 | Slides" [ref=e1524] [cursor=pointer]
+                - generic [ref=e1526] [cursor=pointer]: Starting ₹1,599 | Slides
+            - generic [ref=e1527]:
+              - link "Starting ₹599 | Play tents" [ref=e1529] [cursor=pointer]:
+                - /url: /s/ref=recplaytents/?_encoding=UTF8&hidden-keywords=B0DC43JXSW%7C%20B0CWD3SX9G%7C%20B08B8ZBV24%7C%20B0888LYKJS%7C%20B08VJ58YT9%7C%20B0CBHTC57H%7C%20B08VJ5Q11N%7C%20B08882Q4FT%7C%20B07L8H15TR%7C%20B099ZR3JTW%7C%20B08B8ZFX2W%7C%20B0CJVF8TVT%7C%20B0CFHBBMKG%7C%20B0D1KQSLQ9%7C%20B0CJJZDZ8B%7C%20B08B8YR4DN%7C%20B0B5XTS6PS%7C%20B0D3QPVT5G%7C%20B07MHLHKX5%7C%20B0BNL54YVT%7C%20B08NWX8NSC%7C%20B0D98GRKHK%7C%20B072FC9576%7C%20B0978JWJY1%7C%20B08FF86YQB%7C%20B09ZYGQ77Y%7C%20B08212VL6P%7C%20B0CH13YCHL%7C%20B0B6FTV2QY%7C%20B09GKPXV21%7C%20B0CQNPMYDN%7C%20B0CVVMK7YH%7C%20B0CRH7P37T%7C%20B0D25HDXHK%7C%20B0B6FZYZYT%7C%20B07QLFPRGV%7C%20B0B5XT6911%7C%20B0BLZFBSCQ%7C%20B0CH14DTT9%7C%20B078MJ8BDK%7C%20B07MG4RP5Q%7C%20B0BQYRZ4QJ%7C%20B0DFGP64HP%7C%20B0DF6G5CKF%7C%20B0CN8Y6JY3%7C%20B08887DJDM%7C%20B099YZYNG8%7C%20B0CH13YPKR%7C%20B0CFYPLFQR%7C%20B0CQVGSHMW%7C%20B0D92H6YYD%7C%20B0BL3JRHV1%7C%20B0BLSRJB9F%7C%20B0B5XTTH9B%7C%20B0CKBLDTLK%7C%20B0CK5M3HJV%7C%20B07QMDVS9S%7C%20B0DCSRG8MV%7C%20B0CXM3SBMC%7C%20B0CLYKRLFX%7C%20B0D3DQ62K5%7C%20B0DC3J9V99%7C%20B0CHS47VF2%7C%20B0BFX73MLB%7C%20B0D4TRF3R4%7C%20B0BYZ4YG9B%7C%20B097GNR9KY%7C%20B0CGZZV1CY%7C%20B0CT8XB6BB%7C%20B08H8Y7MXH%7C%20B0CJYDRPMT%7C%20B07Q3Z9NCD%7C%20B08HV781D9%7C%20B0CTTFPZKW%7C%20B083HHRG3D%7C%20B0DFGP2M4K%7C%20B0D1KQTGRD%7C%20B01J1PBYQI%7C%20B0BFX6FTZK%7C%20B0CJ33SNRQ%7C%20B0978KX1XB%7C%20B09294V8VM%7C%20B0CJ9365N2%7C%20B0DFGG31VB%7C%20B0918KTLHD%7C%20B0DF7KGYHS%7C%20B0DBZQS8JW%7C%20B0DBVK7VT1%7C%20B0CK5MWRFG%7C%20B089S2R3FC%7C%20B07MCLWY3J%7C%20B0CJ7V7CL3%7C%20B0DF7B8J98%7C%20B0DCSTT8SJ%7C%20B0CN8X3JQS%7C%20B0CJCHXG1J%7C%20B07M5YZMWQ%7C%20B0BLSRZ7SJ%7C%20B0DFQK3DDJ%7C%20B0CRH8Z2G7%7C%20B0CY89SH8X%7C%20B0BX9M87C1%7C%20B0DDQL2J9M%7C%20B07H8ZXM92%7C%20B0DF7G2HWD%7C%20B0DCSS1X7V%7C%20B07QMSLR9N%7C%20B0C2Q9FDGW%7C%20B0DDQKS9BK%7C%20B0DD3DGBLK%7C%20B0DFHV6W75%7C%20B0DDCJC9WG%7C%20B0DCVNQWG7%7C%20B0DFGNYKRH%7C%20B0DDCKVB9D%7C%20B0CTSN9SHX%7C%20B0DDC6D76T%7C%20B09Q95KK8Z%7C%20B0DDCMBVPK%7C%20B0DFMMKP2T%7C%20B08B8YR4DM%7C%20B0CTT5XH29%7C%20B07PK4DBMR%7C%20B0BMVY4VH9%7C%20B0DCST76R8%7C%20B0CTT83J5C%7C%20B0DFGNPX6S%7C%20B0DFW71BW9%7C%20B08FXB71ZJ%7C%20B09CVCTVNX%7C%20B0DFGS48KM%7C%20B0DF7GW3GV%7C%20B0DBQW5Y3C%7C%20B0DF7C5MXL%7C%20B0DC6KTMBV%7C%20B0CRVNJX7Q%7C%20B0D2KSYF6D%7C%20B0D4257VSP%7C%20B0DD3FPCQT%7C%20B0DCVMYV58%7C%20B0DBVKQ93P%7C%20B0DDCKKXKY%7C%20B0DDY1SZL7%7C%20B0DDBT6MQ8%7C%20B0DDCMFTM9%7C%20B0DCVP5YSQ%7C%20B08G4MD1G5%7C%20B0DCVLMQWN%7C%20B0DCVPQ9SJ%7C%20B0DCVPJHBL%7C%20B0DCSR9WDR%7C%20B0DCSQ7WQB%7C%20B0D2R1FDVC%7C%20B0DG2WYT13%7C%20B0DF7BZCB6%7C%20B0DG5Y9JNW%7C%20B0DG5Y5J6Y%7C%20B0DG5Y43GG%7C%20B0DG5Y351Y%7C%20B0DG5XT9VV%7C%20B0DG5XT9FW%7C%20B0DG5XRC4W%7C%20B0DG5XQTKG%7C%20B0DG5XPRDL%7C%20B0DG5XN458%7C%20B0DG5XH4YH%7C%20B0DG5X85W4%7C%20B0DG5X7LHV%7C%20B0DG5X7H3H%7C%20B0DG5X35YD%7C%20B0DG5WYLH3%7C%20B0DG5WXV3B%7C%20B0DG5WXNCN%7C%20B0DG5WVXND%7C%20B0DG5WV8WG%7C%20B0DG5WTR63%7C%20B0DG5WTCDQ%7C%20B0DG5WT6NW%7C%20B0DG5WRTQ9%7C%20B0DG5WRFK5%7C%20B0DG5WQSDD%7C%20B0DG5WQR3N%7C%20B0DG5WPQGF%7C%20B0DG5WNWGZ%7C%20B0DG5WLQ2K%7C%20B0DG5WJCH1%7C%20B0DG5WFGVN%7C%20B0DG5WF6PW%7C%20B0DG5WC1HK%7C%20B0DG5WBYTK%7C%20B0DG5WBNKP%7C%20B0DG5WBCC8%7C%20B0DG5W9Y43%7C%20B0DG5W5FZ6%7C%20B0DG5W5FLF%7C%20B0DG5W51WQ%7C%20B0DG5W28BH%7C%20B0DG5VYMMY%7C%20B0DG5VYDHB%7C%20B0DG5VTJ3N&ref=nb_sb_noss&pd_rd_w=aCGZM&content-id=amzn1.sym.2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_p=2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹599 | Play tents" [ref=e1531] [cursor=pointer]
+                - generic [ref=e1533] [cursor=pointer]: Starting ₹599 | Play tents
+              - link "Starting ₹3,999 | Electric ride-ons" [ref=e1535] [cursor=pointer]:
+                - /url: /s/ref=recelectricrideonsJAN25/?_encoding=UTF8&bbn=1378201031&rh=n%3A1378201031%2Cp_n_deal_type%3A26921224031&dc=&qid=1701080434&rnid=26921223031&ref=lp_1378201031_nr_p_n_deal_type_1&pd_rd_w=aCGZM&content-id=amzn1.sym.2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_p=2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹3,999 | Electric ride-ons" [ref=e1537] [cursor=pointer]
+                - generic [ref=e1539] [cursor=pointer]: Starting ₹3,999 | Electric ride-ons
+          - link "Deals on outdoor toys - See all deals" [ref=e1541] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&ie=UTF8&node=1350380031&pd_rd_w=aCGZM&content-id=amzn1.sym.2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_p=2f80ab97-8768-4297-b0c5-2583da271810&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1542] [cursor=pointer]:
+              - generic [ref=e1543] [cursor=pointer]: See all deals
+              - generic [ref=e1544] [cursor=pointer]: See all deals
+        - generic [ref=e1546]:
+          - heading "Deals on outdoor toys" [level=2] [ref=e1548]
+          - generic [ref=e1549]:
+            - generic [ref=e1550]:
+              - link "Starting ₹799 | Scooters" [ref=e1552] [cursor=pointer]:
+                - /url: /s/ref=pcqcrecscootersmayart/?_encoding=UTF8&i=toys&bbn=1378198031&rh=n%3A1350380031%2Cn%3A1378198031%2Cn%3A1378211031%2Cp_n_deal_type%3A26921224031&dc=&ds=v1%3ApiDxIYiyNPb4hPFBHL%2FLliLIC5VMcAhkdxH4F7hlguM&_encoding=UTF8&qid=1746001919&rnid=1378198031&xpid=CY0ZyY_0Cc52C&ref=sr_nr_n_6&pd_rd_w=0BZwj&content-id=amzn1.sym.2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_p=2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹799 | Scooters" [ref=e1554] [cursor=pointer]
+                - generic [ref=e1556] [cursor=pointer]: Starting ₹799 | Scooters
+              - link "Starting ₹1,599 | Slides" [ref=e1558] [cursor=pointer]:
+                - /url: /s/ref=pcqcrecslidesw44/?_encoding=UTF8&bbn=1378519031&rh=n%3A1378519031%2Cp_n_availability%3A1318485031&dc=&qid=1677162585&rnid=1318483031&ref=lp_1378519031_nr_p_n_availability_1&pd_rd_w=0BZwj&content-id=amzn1.sym.2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_p=2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹1,599 | Slides" [ref=e1560] [cursor=pointer]
+                - generic [ref=e1562] [cursor=pointer]: Starting ₹1,599 | Slides
+            - generic [ref=e1563]:
+              - link "Starting ₹599 | Play tents" [ref=e1565] [cursor=pointer]:
+                - /url: /s/ref=recplaytents/?_encoding=UTF8&hidden-keywords=B0DC43JXSW%7C%20B0CWD3SX9G%7C%20B08B8ZBV24%7C%20B0888LYKJS%7C%20B08VJ58YT9%7C%20B0CBHTC57H%7C%20B08VJ5Q11N%7C%20B08882Q4FT%7C%20B07L8H15TR%7C%20B099ZR3JTW%7C%20B08B8ZFX2W%7C%20B0CJVF8TVT%7C%20B0CFHBBMKG%7C%20B0D1KQSLQ9%7C%20B0CJJZDZ8B%7C%20B08B8YR4DN%7C%20B0B5XTS6PS%7C%20B0D3QPVT5G%7C%20B07MHLHKX5%7C%20B0BNL54YVT%7C%20B08NWX8NSC%7C%20B0D98GRKHK%7C%20B072FC9576%7C%20B0978JWJY1%7C%20B08FF86YQB%7C%20B09ZYGQ77Y%7C%20B08212VL6P%7C%20B0CH13YCHL%7C%20B0B6FTV2QY%7C%20B09GKPXV21%7C%20B0CQNPMYDN%7C%20B0CVVMK7YH%7C%20B0CRH7P37T%7C%20B0D25HDXHK%7C%20B0B6FZYZYT%7C%20B07QLFPRGV%7C%20B0B5XT6911%7C%20B0BLZFBSCQ%7C%20B0CH14DTT9%7C%20B078MJ8BDK%7C%20B07MG4RP5Q%7C%20B0BQYRZ4QJ%7C%20B0DFGP64HP%7C%20B0DF6G5CKF%7C%20B0CN8Y6JY3%7C%20B08887DJDM%7C%20B099YZYNG8%7C%20B0CH13YPKR%7C%20B0CFYPLFQR%7C%20B0CQVGSHMW%7C%20B0D92H6YYD%7C%20B0BL3JRHV1%7C%20B0BLSRJB9F%7C%20B0B5XTTH9B%7C%20B0CKBLDTLK%7C%20B0CK5M3HJV%7C%20B07QMDVS9S%7C%20B0DCSRG8MV%7C%20B0CXM3SBMC%7C%20B0CLYKRLFX%7C%20B0D3DQ62K5%7C%20B0DC3J9V99%7C%20B0CHS47VF2%7C%20B0BFX73MLB%7C%20B0D4TRF3R4%7C%20B0BYZ4YG9B%7C%20B097GNR9KY%7C%20B0CGZZV1CY%7C%20B0CT8XB6BB%7C%20B08H8Y7MXH%7C%20B0CJYDRPMT%7C%20B07Q3Z9NCD%7C%20B08HV781D9%7C%20B0CTTFPZKW%7C%20B083HHRG3D%7C%20B0DFGP2M4K%7C%20B0D1KQTGRD%7C%20B01J1PBYQI%7C%20B0BFX6FTZK%7C%20B0CJ33SNRQ%7C%20B0978KX1XB%7C%20B09294V8VM%7C%20B0CJ9365N2%7C%20B0DFGG31VB%7C%20B0918KTLHD%7C%20B0DF7KGYHS%7C%20B0DBZQS8JW%7C%20B0DBVK7VT1%7C%20B0CK5MWRFG%7C%20B089S2R3FC%7C%20B07MCLWY3J%7C%20B0CJ7V7CL3%7C%20B0DF7B8J98%7C%20B0DCSTT8SJ%7C%20B0CN8X3JQS%7C%20B0CJCHXG1J%7C%20B07M5YZMWQ%7C%20B0BLSRZ7SJ%7C%20B0DFQK3DDJ%7C%20B0CRH8Z2G7%7C%20B0CY89SH8X%7C%20B0BX9M87C1%7C%20B0DDQL2J9M%7C%20B07H8ZXM92%7C%20B0DF7G2HWD%7C%20B0DCSS1X7V%7C%20B07QMSLR9N%7C%20B0C2Q9FDGW%7C%20B0DDQKS9BK%7C%20B0DD3DGBLK%7C%20B0DFHV6W75%7C%20B0DDCJC9WG%7C%20B0DCVNQWG7%7C%20B0DFGNYKRH%7C%20B0DDCKVB9D%7C%20B0CTSN9SHX%7C%20B0DDC6D76T%7C%20B09Q95KK8Z%7C%20B0DDCMBVPK%7C%20B0DFMMKP2T%7C%20B08B8YR4DM%7C%20B0CTT5XH29%7C%20B07PK4DBMR%7C%20B0BMVY4VH9%7C%20B0DCST76R8%7C%20B0CTT83J5C%7C%20B0DFGNPX6S%7C%20B0DFW71BW9%7C%20B08FXB71ZJ%7C%20B09CVCTVNX%7C%20B0DFGS48KM%7C%20B0DF7GW3GV%7C%20B0DBQW5Y3C%7C%20B0DF7C5MXL%7C%20B0DC6KTMBV%7C%20B0CRVNJX7Q%7C%20B0D2KSYF6D%7C%20B0D4257VSP%7C%20B0DD3FPCQT%7C%20B0DCVMYV58%7C%20B0DBVKQ93P%7C%20B0DDCKKXKY%7C%20B0DDY1SZL7%7C%20B0DDBT6MQ8%7C%20B0DDCMFTM9%7C%20B0DCVP5YSQ%7C%20B08G4MD1G5%7C%20B0DCVLMQWN%7C%20B0DCVPQ9SJ%7C%20B0DCVPJHBL%7C%20B0DCSR9WDR%7C%20B0DCSQ7WQB%7C%20B0D2R1FDVC%7C%20B0DG2WYT13%7C%20B0DF7BZCB6%7C%20B0DG5Y9JNW%7C%20B0DG5Y5J6Y%7C%20B0DG5Y43GG%7C%20B0DG5Y351Y%7C%20B0DG5XT9VV%7C%20B0DG5XT9FW%7C%20B0DG5XRC4W%7C%20B0DG5XQTKG%7C%20B0DG5XPRDL%7C%20B0DG5XN458%7C%20B0DG5XH4YH%7C%20B0DG5X85W4%7C%20B0DG5X7LHV%7C%20B0DG5X7H3H%7C%20B0DG5X35YD%7C%20B0DG5WYLH3%7C%20B0DG5WXV3B%7C%20B0DG5WXNCN%7C%20B0DG5WVXND%7C%20B0DG5WV8WG%7C%20B0DG5WTR63%7C%20B0DG5WTCDQ%7C%20B0DG5WT6NW%7C%20B0DG5WRTQ9%7C%20B0DG5WRFK5%7C%20B0DG5WQSDD%7C%20B0DG5WQR3N%7C%20B0DG5WPQGF%7C%20B0DG5WNWGZ%7C%20B0DG5WLQ2K%7C%20B0DG5WJCH1%7C%20B0DG5WFGVN%7C%20B0DG5WF6PW%7C%20B0DG5WC1HK%7C%20B0DG5WBYTK%7C%20B0DG5WBNKP%7C%20B0DG5WBCC8%7C%20B0DG5W9Y43%7C%20B0DG5W5FZ6%7C%20B0DG5W5FLF%7C%20B0DG5W51WQ%7C%20B0DG5W28BH%7C%20B0DG5VYMMY%7C%20B0DG5VYDHB%7C%20B0DG5VTJ3N&ref=nb_sb_noss&pd_rd_w=0BZwj&content-id=amzn1.sym.2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_p=2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹599 | Play tents" [ref=e1567] [cursor=pointer]
+                - generic [ref=e1569] [cursor=pointer]: Starting ₹599 | Play tents
+              - link "Starting ₹3,999 | Electric ride-ons" [ref=e1571] [cursor=pointer]:
+                - /url: /s/ref=recelectricrideonsJAN25/?_encoding=UTF8&bbn=1378201031&rh=n%3A1378201031%2Cp_n_deal_type%3A26921224031&dc=&qid=1701080434&rnid=26921223031&ref=lp_1378201031_nr_p_n_deal_type_1&pd_rd_w=0BZwj&content-id=amzn1.sym.2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_p=2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹3,999 | Electric ride-ons" [ref=e1573] [cursor=pointer]
+                - generic [ref=e1575] [cursor=pointer]: Starting ₹3,999 | Electric ride-ons
+          - link "Deals on outdoor toys - See all deals" [ref=e1577] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&ie=UTF8&node=1350380031&pd_rd_w=0BZwj&content-id=amzn1.sym.2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_p=2142632a-aaa7-40bf-866f-5de92226f070&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1578] [cursor=pointer]:
+              - generic [ref=e1579] [cursor=pointer]: See all deals
+              - generic [ref=e1580] [cursor=pointer]: See all deals
+        - generic [ref=e1582]:
+          - heading "Up to 45% off | Samsung smartphones" [level=2] [ref=e1584]
+          - link "Up to 45% off | Samsung smartphones See all offers" [ref=e1585] [cursor=pointer]:
+            - /url: /l/26850977031/?_encoding=UTF8&pd_rd_w=Kzena&content-id=amzn1.sym.0c954df0-8caf-4c97-b46c-d2d8bc104736&pf_rd_p=0c954df0-8caf-4c97-b46c-d2d8bc104736&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - img "Up to 45% off | Samsung smartphones" [ref=e1588] [cursor=pointer]
+            - generic [ref=e1590] [cursor=pointer]:
+              - generic [ref=e1591] [cursor=pointer]: See all offers
+              - generic [ref=e1592] [cursor=pointer]: See all offers
+        - separator [ref=e1593]
+        - generic [ref=e1596]:
+          - generic [ref=e1597]:
+            - heading "Up to 40% off | Best Deals on flagship smartphones" [level=2] [ref=e1598]:
+              - generic [ref=e1599]: Up to 40% off | Best Deals on flagship smartphones
+            - link "Explore more" [ref=e1601] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&ie=UTF8&node=1389401031&pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+          - list [ref=e1604]:
+            - listitem [ref=e1605]:
+              - link "Shop now" [ref=e1607] [cursor=pointer]:
+                - /url: /dp/B0DPS62DYH?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1608] [cursor=pointer]
+            - listitem [ref=e1609]:
+              - link "Shop now" [ref=e1611] [cursor=pointer]:
+                - /url: /dp/B0CS5XW6TN?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1612] [cursor=pointer]
+            - listitem [ref=e1613]:
+              - link "Shop now" [ref=e1615] [cursor=pointer]:
+                - /url: /dp/B0F5WTG8RG?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1616] [cursor=pointer]
+            - listitem [ref=e1617]:
+              - link "Shop now" [ref=e1619] [cursor=pointer]:
+                - /url: /dp/B0FQFYXCC4?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1620] [cursor=pointer]
+            - listitem [ref=e1621]:
+              - link "Shop now" [ref=e1623] [cursor=pointer]:
+                - /url: /dp/B0D81JPDKX?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1624] [cursor=pointer]
+            - listitem [ref=e1625]:
+              - link "Shop now" [ref=e1627] [cursor=pointer]:
+                - /url: /dp/B0F6YNLBBK?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1628] [cursor=pointer]
+            - listitem [ref=e1629]:
+              - link "Shop now" [ref=e1631] [cursor=pointer]:
+                - /url: /dp/B0FHWMBFLJ?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1632] [cursor=pointer]
+            - listitem [ref=e1633]:
+              - link "Shop now" [ref=e1635] [cursor=pointer]:
+                - /url: /dp/B0DW47JCHW?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1636] [cursor=pointer]
+            - listitem [ref=e1637]:
+              - link "Shop now" [ref=e1639] [cursor=pointer]:
+                - /url: /dp/B0FDL3VZR8?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1640] [cursor=pointer]
+            - listitem [ref=e1641]:
+              - link "Shop now" [ref=e1643] [cursor=pointer]:
+                - /url: /dp/B0FFBGW4TT?pd_rd_w=i5pYw&content-id=amzn1.sym.71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_p=71ab7099-d310-4698-b28d-8e2453e23826&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747
+                - img "Shop now" [ref=e1644] [cursor=pointer]
+        - separator [ref=e1646]
+        - generic [ref=e1649]:
+          - heading "Up to 65% off | Deals on Smart TVs" [level=2] [ref=e1651]:
+            - generic [ref=e1652]: Up to 65% off | Deals on Smart TVs
+          - list [ref=e1655]:
+            - listitem [ref=e1656]:
+              - link "VW 80 cm (32 inches) Frameless Series HD Ready Android Smart LED TV VW32S" [ref=e1658] [cursor=pointer]:
+                - /url: /Visio-World-inches-VW32S-Ready/dp/B07MNNH484/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "VW 80 cm (32 inches) Frameless Series HD Ready Android Smart LED TV VW32S" [ref=e1659] [cursor=pointer]
+            - listitem [ref=e1660]:
+              - link "Samsung 80 cm (32 inches) HD Smart LED TV UA32H4550FUXXL" [ref=e1662] [cursor=pointer]:
+                - /url: /Samsung-inches-Smart-LED-UA32H4550FUXXL/dp/B0F84FBWQM/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Samsung 80 cm (32 inches) HD Smart LED TV UA32H4550FUXXL" [ref=e1663] [cursor=pointer]
+            - listitem [ref=e1664]:
+              - link "Redmi Xiaomi 108 cm (43 inch) F Series Ultra HD 4K LED Smart Fire TV L43MA-FVIN" [ref=e1666] [cursor=pointer]:
+                - /url: /Redmi-Xiaomi-Ultra-Smart-L43MA-FVIN/dp/B0DV8WXDNX/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Redmi Xiaomi 108 cm (43 inch) F Series Ultra HD 4K LED Smart Fire TV L43MA-FVIN" [ref=e1667] [cursor=pointer]
+            - listitem [ref=e1668]:
+              - link "VW ( Visio World. 101 cm (40 inches) OptimaX Series Full HD Smart QLED Android TV VW40AQ1 (Black)" [ref=e1670] [cursor=pointer]:
+                - /url: /VW-World-OptimaX-Android-VW40AQ1/dp/B0F8BQQQ6X/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "VW ( Visio World. 101 cm (40 inches) OptimaX Series Full HD Smart QLED Android TV VW40AQ1 (Black)" [ref=e1671] [cursor=pointer]
+            - listitem [ref=e1672]:
+              - link "Lumio Vision 7 127 cm (50 inches) 4K Ultra-HD Smart QLED Google TV FTW2-ADSG" [ref=e1674] [cursor=pointer]:
+                - /url: /Lumio-Vision-inches-Ultra-HD-FTW2-ADSG/dp/B0F397D2S6/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Lumio Vision 7 127 cm (50 inches) 4K Ultra-HD Smart QLED Google TV FTW2-ADSG" [ref=e1675] [cursor=pointer]
+            - listitem [ref=e1676]:
+              - link "Samsung 163 cm (65 inches) 4K Ultra HD Smart OLED TV QA65S95FAULXL" [ref=e1678] [cursor=pointer]:
+                - /url: /Samsung-inches-Ultra-Smart-QA65S95FAULXL/dp/B0F6VBX2SL/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Samsung 163 cm (65 inches) 4K Ultra HD Smart OLED TV QA65S95FAULXL" [ref=e1679] [cursor=pointer]
+            - listitem [ref=e1680]:
+              - link "Xiaomi 125 cm (50 inches) X Series 4K LED Smart Google TV L50MA-AUIN (Black)" [ref=e1682] [cursor=pointer]:
+                - /url: /Xiaomi-inches-Smart-Google-L50MA-AUIN/dp/B0DC6SXZG7/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Xiaomi 125 cm (50 inches) X Series 4K LED Smart Google TV L50MA-AUIN (Black)" [ref=e1683] [cursor=pointer]
+            - listitem [ref=e1684]:
+              - link "TCL 139 cm (55 inches) 4K UHD Smart QD-Mini LED Google TV 55Q6C" [ref=e1686] [cursor=pointer]:
+                - /url: /TCL-inches-QD-Mini-Google-55Q6C/dp/B0F3HWNTR1/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "TCL 139 cm (55 inches) 4K UHD Smart QD-Mini LED Google TV 55Q6C" [ref=e1687] [cursor=pointer]
+            - listitem [ref=e1688]:
+              - link "VU 108cm (43 inches) GloQLED Series 4K QLED Smart Google TV 43GLOQLED25" [ref=e1690] [cursor=pointer]:
+                - /url: /108cm-inches-GloQLED-Google-43GLOQLED25/dp/B0FG36RCLP/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "VU 108cm (43 inches) GloQLED Series 4K QLED Smart Google TV 43GLOQLED25" [ref=e1691] [cursor=pointer]
+            - listitem [ref=e1692]:
+              - link "Sony 139 cm (55 inches) BRAVIA 2 4K Ultra HD Smart LED Google TV K-55S25B (Black)-2 Years Warranty for Limited Period" [ref=e1694] [cursor=pointer]:
+                - /url: /Sony-inches-BRAVIA-Google-K-55S25B/dp/B0D3DWFY54/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Sony 139 cm (55 inches) BRAVIA 2 4K Ultra HD Smart LED Google TV K-55S25B (Black)-2 Years Warranty for Limited Period" [ref=e1695] [cursor=pointer]
+            - listitem [ref=e1696]:
+              - link "TCL 101 cms (40 inches) V5C Series Full HD Smart QLED TV Google TV 40V5C" [ref=e1698] [cursor=pointer]:
+                - /url: /TCL-inches-Smart-Google-40V5C/dp/B0DZHRYFG7/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "TCL 101 cms (40 inches) V5C Series Full HD Smart QLED TV Google TV 40V5C" [ref=e1699] [cursor=pointer]
+            - listitem [ref=e1700]:
+              - link "TCL 139 cm (55 inches) Metallic Bezel Less Series 4K Ultra HD Smart LED Google TV 55V6C (Black)" [ref=e1702] [cursor=pointer]:
+                - /url: /TCL-inches-Metallic-Google-55V6C/dp/B0F2J8RS3M/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "TCL 139 cm (55 inches) Metallic Bezel Less Series 4K Ultra HD Smart LED Google TV 55V6C (Black)" [ref=e1703] [cursor=pointer]
+            - listitem [ref=e1704]:
+              - link "VW 127 cm (50 inches) Pro Series 4K Ultra HD Smart QLED Google TV VW50GQ1" [ref=e1706] [cursor=pointer]:
+                - /url: /VW-inches-Ultra-Google-VW50GQ1/dp/B0F2FPC11M/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "VW 127 cm (50 inches) Pro Series 4K Ultra HD Smart QLED Google TV VW50GQ1" [ref=e1707] [cursor=pointer]
+            - listitem [ref=e1708]:
+              - link "Kodak 80 cm (32 inches) Special Edition Series HD Ready Smart LED TV 32SE5001BL (Black)" [ref=e1710] [cursor=pointer]:
+                - /url: /KODAK-inches-Special-Ready-32SE5001BL/dp/B0BWYSYFQS/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Kodak 80 cm (32 inches) Special Edition Series HD Ready Smart LED TV 32SE5001BL (Black)" [ref=e1711] [cursor=pointer]
+            - listitem [ref=e1712]:
+              - link "Lumio Vision 7 139 cm (55 inches) 4K Ultra-HD Smart QLED Google TV FTW3-ADSG" [ref=e1714] [cursor=pointer]:
+                - /url: /Lumio-Vision-inches-Ultra-HD-FTW3-ADSG/dp/B0F39V7TSZ/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Lumio Vision 7 139 cm (55 inches) 4K Ultra-HD Smart QLED Google TV FTW3-ADSG" [ref=e1715] [cursor=pointer]
+            - listitem [ref=e1716]:
+              - link "Sony BRAVIA 3 Series 139 cm (55 inches) 4K Ultra HD AI Smart LED Google TV K-55S30B (Black)-2 Years Warranty for Limited..." [ref=e1718] [cursor=pointer]:
+                - /url: /Sony-BRAVIA-inches-Google-K-55S30B/dp/B0D3DW1CJF/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Sony BRAVIA 3 Series 139 cm (55 inches) 4K Ultra HD AI Smart LED Google TV K-55S30B (Black)-2 Years Warranty for Limited..." [ref=e1719] [cursor=pointer]
+            - listitem [ref=e1720]:
+              - link "TCL 164 cm (65 inches) 4K UHD Smart QD-Mini LED Google TV 65Q6C" [ref=e1722] [cursor=pointer]:
+                - /url: /TCL-inches-QD-Mini-Google-65Q6C/dp/B0F3HWJXZ5/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "TCL 164 cm (65 inches) 4K UHD Smart QD-Mini LED Google TV 65Q6C" [ref=e1723] [cursor=pointer]
+            - listitem [ref=e1724]:
+              - link "Sony 108 cm (43 inches) BRAVIA 2M2 Series 4K Ultra HD Smart LED Google TV K-43S25M2-3 Years Warranty for Limited Period" [ref=e1726] [cursor=pointer]:
+                - /url: /Sony-inches-BRAVIA-Google-K-43S25M2/dp/B0F7XFCHK4/?_encoding=UTF8&pd_rd_w=xNGt2&content-id=amzn1.sym.9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_p=9deee4ef-467c-4bca-beed-0edb850caaaf&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_HETV
+                - img "Sony 108 cm (43 inches) BRAVIA 2M2 Series 4K Ultra HD Smart LED Google TV K-43S25M2-3 Years Warranty for Limited Period" [ref=e1727] [cursor=pointer]
+        - separator [ref=e1729]
+        - generic [ref=e1731]:
+          - heading "Up to 70% off | Home & kitchen essentials from Amazon Launchpad" [level=2] [ref=e1733]
+          - generic [ref=e1734]:
+            - generic [ref=e1735]:
+              - link "Up to 60% off | Home fragrance" [ref=e1737] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=specialty-aps&srs=211451945031&s=exact-aware-popularity-rank&hidden-keywords=Home%20fragrance&pd_rd_w=TTD9A&content-id=amzn1.sym.57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_p=57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Up to 60% off | Home fragrance" [ref=e1739] [cursor=pointer]
+                - generic [ref=e1741] [cursor=pointer]: Up to 60% off | Home fragrance
+              - link "Up to 60% off | Premium mattresses" [ref=e1743] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=specialty-aps&srs=211451945031&s=exact-aware-popularity-rank&hidden-keywords=mattresses&pd_rd_w=TTD9A&content-id=amzn1.sym.57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_p=57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Up to 60% off | Premium mattresses" [ref=e1745] [cursor=pointer]
+                - generic [ref=e1747] [cursor=pointer]: Up to 60% off | Premium mattresses
+            - generic [ref=e1748]:
+              - link "Up to 70% off | Storage & organizers" [ref=e1750] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=specialty-aps&srs=211451945031&s=price-asc-rank&hidden-keywords=storage%20and%20organisers&pd_rd_w=TTD9A&content-id=amzn1.sym.57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_p=57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Up to 70% off | Storage & organizers" [ref=e1752] [cursor=pointer]
+                - generic [ref=e1754] [cursor=pointer]: Up to 70% off | Storage & organizers
+              - link "Up to 70% off | Kitchen & dining needs" [ref=e1756] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=specialty-aps&srs=211451945031&s=exact-aware-popularity-rank&hidden-keywords=kitchen%20%26%20dining&pd_rd_w=TTD9A&content-id=amzn1.sym.57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_p=57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Up to 70% off | Kitchen & dining needs" [ref=e1758] [cursor=pointer]
+                - generic [ref=e1760] [cursor=pointer]: Up to 70% off | Kitchen & dining needs
+          - link "Up to 70% off | Home & kitchen essentials from Amazon Launchpad - See all offers" [ref=e1762] [cursor=pointer]:
+            - /url: /b/ref=ALJup25PCQC/?_encoding=UTF8&node=10894223031&pd_rd_w=TTD9A&content-id=amzn1.sym.57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_p=57a8ef79-38a8-42eb-a3ae-af4c550aba6c&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1763] [cursor=pointer]:
+              - generic [ref=e1764] [cursor=pointer]: See all offers
+              - generic [ref=e1765] [cursor=pointer]: See all offers
+        - generic [ref=e1767]:
+          - heading "Up to 80% off | Amazon brands & more" [level=2] [ref=e1769]
+          - generic [ref=e1770]:
+            - generic [ref=e1771]:
+              - link "Starting ₹299 | Home essentials" [ref=e1773] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=kitchen&rh=n%3A1380510031%2Cp_n_format_browse-bin%3A19560790031&s=exact-aware-popularity-rank&hidden-keywords=-sponsored%20-presto&pd_rd_w=g34Ww&content-id=amzn1.sym.ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_p=ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Starting ₹299 | Home essentials" [ref=e1775] [cursor=pointer]
+                - generic [ref=e1777] [cursor=pointer]: Starting ₹299 | Home essentials
+              - link "Min. 50% off | Kitchen essentials" [ref=e1779] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=kitchen&rh=n%3A5925789031%2Cp_n_format_browse-bin%3A19560801031&s=exact-aware-popularity-rank&hidden-keywords=-sponsored&pd_rd_w=g34Ww&content-id=amzn1.sym.ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_p=ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Min. 50% off | Kitchen essentials" [ref=e1781] [cursor=pointer]
+                - generic [ref=e1783] [cursor=pointer]: Min. 50% off | Kitchen essentials
+            - generic [ref=e1784]:
+              - link "Up to 60% off | Toys & games" [ref=e1786] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=17410462031&pd_rd_w=g34Ww&content-id=amzn1.sym.ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_p=ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Up to 60% off | Toys & games" [ref=e1788] [cursor=pointer]
+                - generic [ref=e1790] [cursor=pointer]: Up to 60% off | Toys & games
+              - link "Min. 55% off | Women's ethnicwear" [ref=e1792] [cursor=pointer]:
+                - /url: https://www.amazon.in/s/?_encoding=UTF8&i=fashion&srs=100891748031&rh=n%3A100891748031&s=date-desc-rank&fs=true&ds=v1%3Ah3ok1L2ivabA2mppaAo0Mr45pY5ZSdqbUyQ9stU%2BPx8&qid=1758439290&ref=sr_st_date-desc-rank&pd_rd_w=g34Ww&content-id=amzn1.sym.ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_p=ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Min. 55% off | Women's ethnicwear" [ref=e1794] [cursor=pointer]
+                - generic [ref=e1796] [cursor=pointer]: Min. 55% off | Women's ethnicwear
+          - link "Up to 80% off | Amazon brands & more - See all offers" [ref=e1798] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&ie=UTF8&node=15390370031&pd_rd_w=g34Ww&content-id=amzn1.sym.ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_p=ea849ddd-6362-4ae3-acfd-549ee5bd3ec8&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1799] [cursor=pointer]:
+              - generic [ref=e1800] [cursor=pointer]: See all offers
+              - generic [ref=e1801] [cursor=pointer]: See all offers
+        - generic [ref=e1803]:
+          - heading "Up to 70% off | International brands" [level=2] [ref=e1805]
+          - link "Up to 70% off | International brands See all offers" [ref=e1806] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=21469514031&pd_rd_w=Fok48&content-id=amzn1.sym.b720c37e-e1ca-4faa-bdaf-89590032e4c6&pf_rd_p=b720c37e-e1ca-4faa-bdaf-89590032e4c6&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - img "Up to 70% off | International brands" [ref=e1809] [cursor=pointer]
+            - generic [ref=e1811] [cursor=pointer]:
+              - generic [ref=e1812] [cursor=pointer]: See all offers
+              - generic [ref=e1813] [cursor=pointer]: See all offers
+        - generic [ref=e1815]:
+          - heading "Collection from Small & medium businesses" [level=2] [ref=e1817]
+          - generic [ref=e1818]:
+            - generic [ref=e1819]:
+              - link "GST bachat utsav | Products with savings" [ref=e1821] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=22477373031&pd_rd_w=hRuxS&content-id=amzn1.sym.1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_p=1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "GST bachat utsav | Products with savings" [ref=e1823] [cursor=pointer]
+                - generic [ref=e1825] [cursor=pointer]: GST bachat utsav | Products with savings
+              - link "Flat 10% cashback* | Amazon Launchpad" [ref=e1827] [cursor=pointer]:
+                - /url: /b/ref=ALCBQC1/?_encoding=UTF8&node=211451909031&pd_rd_w=hRuxS&content-id=amzn1.sym.1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_p=1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Flat 10% cashback* | Amazon Launchpad" [ref=e1829] [cursor=pointer]
+                - generic [ref=e1831] [cursor=pointer]: Flat 10% cashback* | Amazon Launchpad
+            - generic [ref=e1832]:
+              - link "Home decor from stores nearby" [ref=e1834] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=28253258031&pd_rd_w=hRuxS&content-id=amzn1.sym.1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_p=1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Home decor from stores nearby" [ref=e1836] [cursor=pointer]
+                - generic [ref=e1838] [cursor=pointer]: Home decor from stores nearby
+              - link "Kitchen products from Small businesses" [ref=e1840] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=100293361031&pd_rd_w=hRuxS&content-id=amzn1.sym.1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_p=1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+                - img "Kitchen products from Small businesses" [ref=e1842] [cursor=pointer]
+                - generic [ref=e1844] [cursor=pointer]: Kitchen products from Small businesses
+          - link "Collection from Small & medium businesses - See all offers" [ref=e1846] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=20378172031&pd_rd_w=hRuxS&content-id=amzn1.sym.1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_p=1a919e07-6538-4355-8821-2936dff70d1f&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_unk
+            - generic [ref=e1847] [cursor=pointer]:
+              - generic [ref=e1848] [cursor=pointer]: See all offers
+              - generic [ref=e1849] [cursor=pointer]: See all offers
+        - separator [ref=e1850]
+        - generic [ref=e1853]:
+          - generic [ref=e1854]:
+            - heading "Min.35% off | Top picks from Women entrepreneurs" [level=2] [ref=e1855]:
+              - generic [ref=e1856]: Min.35% off | Top picks from Women entrepreneurs
+            - link "See more" [ref=e1858] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=14311774031&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+          - list [ref=e1861]:
+            - listitem [ref=e1862]:
+              - link "GRABZ Healthy Apple and Orange Chips with Natural Flavor | Air-Cooked, Low Cholesterol, High Fiber | 0.1% Olive Oil,..." [ref=e1864] [cursor=pointer]:
+                - /url: /GRABZ-Air-Cooked-Cholesterol-Solar-Dehydrated-Friendly/dp/B0FBGTH7K9/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "GRABZ Healthy Apple and Orange Chips with Natural Flavor | Air-Cooked, Low Cholesterol, High Fiber | 0.1% Olive Oil,..." [ref=e1865] [cursor=pointer]
+            - listitem [ref=e1866]:
+              - link "TISAURA Aromatic Toilet Rolls With Plant Based Scented Bathroom Freshener - Two in One Combo..." [ref=e1868] [cursor=pointer]:
+                - /url: /TISAURA-Aromatic-Bathroom-Freshener-Rosewood/dp/B0FHWK3VTW/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "TISAURA Aromatic Toilet Rolls With Plant Based Scented Bathroom Freshener - Two in One Combo..." [ref=e1869] [cursor=pointer]
+            - listitem [ref=e1870]:
+              - link "Root Botanie FOLLIWISE Anti-Pollution Shampoo & Conditioner Combo | Anti-Dandruff Scalp Cleanser + Frizz-Control..." [ref=e1872] [cursor=pointer]:
+                - /url: /Root-botanie-Anti-Pollution-Conditioner-pH-Balanced/dp/B0FGJHZ678/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Root Botanie FOLLIWISE Anti-Pollution Shampoo & Conditioner Combo | Anti-Dandruff Scalp Cleanser + Frizz-Control..." [ref=e1873] [cursor=pointer]
+            - listitem [ref=e1874]:
+              - link "PIKHAM Art Silk Saree with Jacquard Blouse | Banarasi Style Weave | Zari Border & Zari Base | Elegant Traditional Saree..." [ref=e1876] [cursor=pointer]:
+                - /url: /PIKHAM-Jacquard-Banarasi-Traditional-ANS_21F_FIROZI/dp/B0F1916KFK/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "PIKHAM Art Silk Saree with Jacquard Blouse | Banarasi Style Weave | Zari Border & Zari Base | Elegant Traditional Saree..." [ref=e1877] [cursor=pointer]
+            - listitem [ref=e1878]:
+              - link "ZELKOVA Bio Collagen Real Deep Face Mask I Overnight Hydrating Korean Mask I Glass and Glowing Skin I Hyaluronic Acid &..." [ref=e1880] [cursor=pointer]:
+                - /url: /ZELKOVA-Hyaluronic-Galactomyces-Minimizing-Solidified/dp/B0FFQ9Y1QD/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "ZELKOVA Bio Collagen Real Deep Face Mask I Overnight Hydrating Korean Mask I Glass and Glowing Skin I Hyaluronic Acid &..." [ref=e1881] [cursor=pointer]
+            - listitem [ref=e1882]:
+              - link "Girls Ethnic Motifs Printed A-Line Kurta With Palazzo & Dupatta Set" [ref=e1884] [cursor=pointer]:
+                - /url: /Ethnic-Motifs-Printed-Palazzo-Dupatta/dp/B0FK12QZBF/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Girls Ethnic Motifs Printed A-Line Kurta With Palazzo & Dupatta Set" [ref=e1885] [cursor=pointer]
+            - listitem [ref=e1886]:
+              - link "Baby Carrier 6 in 1 Adjustable, Breathable Cotton & Ergonomic Design for All-Day Comfort with Adjustable All Positions..." [ref=e1888] [cursor=pointer]:
+                - /url: /Adjustable-Breathable-Ergonomic-Positions-Newborns/dp/B0F3NHW1J9/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Baby Carrier 6 in 1 Adjustable, Breathable Cotton & Ergonomic Design for All-Day Comfort with Adjustable All Positions..." [ref=e1889] [cursor=pointer]
+            - listitem [ref=e1890]:
+              - link "Bare Necessities Soak it Up Natural Moisturizer for Face & Body | Lightweight, Long-Lasting Hydration with Vitamin E &..." [ref=e1892] [cursor=pointer]:
+                - /url: /Bare-Necessities-Moisturizer-Long-Lasting-Non-Comedogenic/dp/B0B2PYBS3K/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Bare Necessities Soak it Up Natural Moisturizer for Face & Body | Lightweight, Long-Lasting Hydration with Vitamin E &..." [ref=e1893] [cursor=pointer]
+            - listitem [ref=e1894]:
+              - link "Alnaqi G Oud Attar -6 ml | Alcohol Free| Pack Of 1 | Original & Long Lasting Fragrance | Most Wanted Arabian Aroma |Unisex |" [ref=e1896] [cursor=pointer]:
+                - /url: /alNaqi-Original-Lasting-Fragrance-Arabian/dp/B0BXXM4HV2/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Alnaqi G Oud Attar -6 ml | Alcohol Free| Pack Of 1 | Original & Long Lasting Fragrance | Most Wanted Arabian Aroma |Unisex |" [ref=e1897] [cursor=pointer]
+            - listitem [ref=e1898]:
+              - link "Adichwal Furniture Solid Sheesham Wood 4 Seater Dining Set Dining Table Set with Cushioned Chairs for Dining Room |..." [ref=e1900] [cursor=pointer]:
+                - /url: /Adichwal-Furniture-Sheesham-Cushioned-Restaurant/dp/B0CK85XNRW/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Adichwal Furniture Solid Sheesham Wood 4 Seater Dining Set Dining Table Set with Cushioned Chairs for Dining Room |..." [ref=e1901] [cursor=pointer]
+            - listitem [ref=e1902]:
+              - link "Arezou Anti-Pigmentation Face Oil – Natural Brightening Facial Oil/Serum with Sesame & Lavender Oil for Dark Spots,..." [ref=e1904] [cursor=pointer]:
+                - /url: /Anti-Pigmentation-Brightening-Treatment-Hyperpigmentation-Solution/dp/B0DJ2VWXX9/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Arezou Anti-Pigmentation Face Oil – Natural Brightening Facial Oil/Serum with Sesame & Lavender Oil for Dark Spots,..." [ref=e1905] [cursor=pointer]
+            - listitem [ref=e1906]:
+              - link "BM Ecom Floating Led Lotus Flower for Decoration, Flowers Water Bowl, Sensor Tea Light Unbreakable Outdoor & Indoor..." [ref=e1908] [cursor=pointer]:
+                - /url: /BM-Ecom-Decoration-Unbreakable-Artificial/dp/B0B728SBH9/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "BM Ecom Floating Led Lotus Flower for Decoration, Flowers Water Bowl, Sensor Tea Light Unbreakable Outdoor & Indoor..." [ref=e1909] [cursor=pointer]
+            - listitem [ref=e1910]:
+              - 'link "Aazol Dry Garlic Coconut Chutney: Vada Pav Masala - 200g | Authentic & Spicy | Ideal with Idli, Dosa & Fried Snacks |..." [ref=e1912] [cursor=pointer]':
+                - /url: /AAZOL-Healthy-Delicious-Coconut-Chutney/dp/B09MSLXBJB/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - 'img "Aazol Dry Garlic Coconut Chutney: Vada Pav Masala - 200g | Authentic & Spicy | Ideal with Idli, Dosa & Fried Snacks |..." [ref=e1913] [cursor=pointer]'
+            - listitem [ref=e1914]:
+              - link "GOFURNISIA ® Circular Kitchen Organizer Rack Wooden, Spice Rack, Wooden Storage Organizer Counter-top for Home, Office,..." [ref=e1916] [cursor=pointer]:
+                - /url: /GOFURNISIA-Organizer-Circular-countertop-Handcrafted/dp/B0CRRT62P5/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "GOFURNISIA ® Circular Kitchen Organizer Rack Wooden, Spice Rack, Wooden Storage Organizer Counter-top for Home, Office,..." [ref=e1917] [cursor=pointer]
+            - listitem [ref=e1918]:
+              - link "GRABZ Crispy Bhindi Okra Chips| Air-Cooked, Solar-Dehydrated |Low Calorie Snacks - Roasted , Namkeen - No Transfat Diet|..." [ref=e1920] [cursor=pointer]:
+                - /url: /GRABZ-Crispy-Air-Cooked-Solar-Dehydrated-Calorie/dp/B0DTYXV8HF/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "GRABZ Crispy Bhindi Okra Chips| Air-Cooked, Solar-Dehydrated |Low Calorie Snacks - Roasted , Namkeen - No Transfat Diet|..." [ref=e1921] [cursor=pointer]
+            - listitem [ref=e1922]:
+              - link "Village Company A2 Cow Desi Ghee 500ML | Gir Ghee Vedic Bilona Method | Organic Pure Natural | Two Way Curd Churned -..." [ref=e1924] [cursor=pointer]:
+                - /url: /Village-Company-Organic-Natural-Churned/dp/B0CZ9JGDCP/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Village Company A2 Cow Desi Ghee 500ML | Gir Ghee Vedic Bilona Method | Organic Pure Natural | Two Way Curd Churned -..." [ref=e1925] [cursor=pointer]
+            - listitem [ref=e1926]:
+              - link "Dessoi Harmony Health Collection | 3 Herbal Tea and Tea Infuser | Luxury Gifts | Gifts for Men & Women" [ref=e1928] [cursor=pointer]:
+                - /url: /Dessoi-Harmony-Health-Collection-Infuser/dp/B0D72ND716/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Dessoi Harmony Health Collection | 3 Herbal Tea and Tea Infuser | Luxury Gifts | Gifts for Men & Women" [ref=e1929] [cursor=pointer]
+            - listitem [ref=e1930]:
+              - link "Pokonut Ayurvedic Stretch Mark Cream | Improves appearance of Fresh and Mature Stretch Marks | Infused with Hyaluronic..." [ref=e1932] [cursor=pointer]:
+                - /url: /POKONUT-appearance-Hyaluronic-Formulated-Cruelty-Free/dp/B0B3959HN8/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Pokonut Ayurvedic Stretch Mark Cream | Improves appearance of Fresh and Mature Stretch Marks | Infused with Hyaluronic..." [ref=e1933] [cursor=pointer]
+            - listitem [ref=e1934]:
+              - link "Earthy Sapo Handmade Baby Soft Bathing Soap (Coconut, Almond & Oat Milk, Kokum Butter) 100g, Pack of 1 | Natural, Gentle..." [ref=e1936] [cursor=pointer]:
+                - /url: /Earthy-Sapo-Baby-Soft-Bathing/dp/B01M5BT5UN/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Earthy Sapo Handmade Baby Soft Bathing Soap (Coconut, Almond & Oat Milk, Kokum Butter) 100g, Pack of 1 | Natural, Gentle..." [ref=e1937] [cursor=pointer]
+            - listitem [ref=e1938]:
+              - link "Hago Laptop Accessories - Waterproof Gaming Mouse Pad, Vegan PU Leather Table Mat, Ideal for Work and Gaming (45 * 90,..." [ref=e1940] [cursor=pointer]:
+                - /url: /HAGO-Laptop-Accessories-Waterproof-Leather/dp/B0CMTBXXMN/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Hago Laptop Accessories - Waterproof Gaming Mouse Pad, Vegan PU Leather Table Mat, Ideal for Work and Gaming (45 * 90,..." [ref=e1941] [cursor=pointer]
+            - listitem [ref=e1942]:
+              - link "Gentle Petal Aloe Vera Soap |Handmade Soap | Herbal Bathing Soap For Healthy Soft Skin | Soap For Women & Men | Suitable..." [ref=e1944] [cursor=pointer]:
+                - /url: /Gentle-Petal-Cleansing-Refreshing-Grounding/dp/B0D2TLX6FL/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Gentle Petal Aloe Vera Soap |Handmade Soap | Herbal Bathing Soap For Healthy Soft Skin | Soap For Women & Men | Suitable..." [ref=e1945] [cursor=pointer]
+            - listitem [ref=e1946]:
+              - link "Satpurush Plastic Vacuum Fridge Storage Containers - Fridge Organiser Storage Boxes Home-Freezer & Refrigerator..." [ref=e1948] [cursor=pointer]:
+                - /url: /Satpurush-Plastic-Vacuum-Storage-Containers/dp/B0FD43CXNQ/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Satpurush Plastic Vacuum Fridge Storage Containers - Fridge Organiser Storage Boxes Home-Freezer & Refrigerator..." [ref=e1949] [cursor=pointer]
+            - listitem [ref=e1950]:
+              - link "Astitva Premium Cotton 60 Inch Circular Table Cloth | Chirpy Bird Round 4 Seater Table Cover with Designed Border |..." [ref=e1952] [cursor=pointer]:
+                - /url: /Astitva-Premium-Cotton-Circular-Designed/dp/B0CB6RHN7F/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Astitva Premium Cotton 60 Inch Circular Table Cloth | Chirpy Bird Round 4 Seater Table Cover with Designed Border |..." [ref=e1953] [cursor=pointer]
+            - listitem [ref=e1954]:
+              - link "Astitva Cotton Table Runner 72 Inches Long Table Runners for Dining Table Decor, Centre Table, Wedding, Party and..." [ref=e1956] [cursor=pointer]:
+                - /url: /Astitva-Runners-Wedding-Dresser-Suitable/dp/B0C8Z2TZ12/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Astitva Cotton Table Runner 72 Inches Long Table Runners for Dining Table Decor, Centre Table, Wedding, Party and..." [ref=e1957] [cursor=pointer]
+            - listitem [ref=e1958]:
+              - link "Teural Teens 2in1 Face Cream + Mineral Sunscreen SPF 30| Tinted| Broad Spectrum| Lightweight, Plant-based, No white..." [ref=e1960] [cursor=pointer]:
+                - /url: /Sunscreen-Lightweight-Plant-based-Sensitive-Paediatric/dp/B0DZ2L5S6L/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Teural Teens 2in1 Face Cream + Mineral Sunscreen SPF 30| Tinted| Broad Spectrum| Lightweight, Plant-based, No white..." [ref=e1961] [cursor=pointer]
+            - listitem [ref=e1962]:
+              - link "Earthy Sapo Reetha Shampoo Bar for Dry Hair (100g, Pack of 1) | Handmade Ayurvedic Hair Care | Vegan, Chemical-Free,..." [ref=e1964] [cursor=pointer]:
+                - /url: /Sapo-Ayurvedic-Chemical-Free-Eco-Friendly-Nourished/dp/B06XHVZYLN/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Earthy Sapo Reetha Shampoo Bar for Dry Hair (100g, Pack of 1) | Handmade Ayurvedic Hair Care | Vegan, Chemical-Free,..." [ref=e1965] [cursor=pointer]
+            - listitem [ref=e1966]:
+              - link "Adichwal Furniture Solid Sheesham Wood 6 Seater Dining Table Set with Cushioned Chairs for Dining Room | Living Room |..." [ref=e1968] [cursor=pointer]:
+                - /url: /Adichwal-Furniture-Sheesham-Cushioned-Restaurant/dp/B0CK875515/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Adichwal Furniture Solid Sheesham Wood 6 Seater Dining Table Set with Cushioned Chairs for Dining Room | Living Room |..." [ref=e1969] [cursor=pointer]
+            - listitem [ref=e1970]:
+              - link "Roliwal Furniture Sheesham Wooden Bedside Table with Shelf & Drawer Storage for Bedroom | Solid Wood Nightstand Lamp..." [ref=e1972] [cursor=pointer]:
+                - /url: /Roliwal-Furniture-Sheesham-Nightstand-Rosewood/dp/B0DSVR1BS6/?_encoding=UTF8&pd_rd_w=K2ke9&content-id=amzn1.sym.f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_p=f0ef8c8b-a979-40a7-a991-88b07bbf6fcc&pf_rd_r=JHB94SNDFVS0GXJQ8800&pd_rd_wg=VUrqC&pd_rd_r=ff2694f3-be42-4664-a9dd-f2e3ec32e747&ref_=pd_hp_d_btf_Sah
+                - img "Roliwal Furniture Sheesham Wooden Bedside Table with Shelf & Drawer Storage for Bedroom | Solid Wood Nightstand Lamp..." [ref=e1973] [cursor=pointer]
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1975]:
+    - button "Back to top" [ref=e1976]:
+      - generic [ref=e1978]: Back to top
+    - generic [ref=e1979]:
+      - generic [ref=e1980]:
+        - heading "Get to Know Us" [level=6] [ref=e1981]
+        - list [ref=e1982]:
+          - listitem [ref=e1983]:
+            - link "About Amazon" [ref=e1984] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1985]:
+            - link "Careers" [ref=e1986] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1987]:
+            - link "Press Releases" [ref=e1988] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1989]:
+            - link "Amazon Science" [ref=e1990] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1992]:
+        - heading "Connect with Us" [level=6] [ref=e1993]
+        - list [ref=e1994]:
+          - listitem [ref=e1995]:
+            - link "Facebook" [ref=e1996] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1997]:
+            - link "Twitter" [ref=e1998] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1999]:
+            - link "Instagram" [ref=e2000] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e2002]:
+        - heading "Make Money with Us" [level=6] [ref=e2003]
+        - list [ref=e2004]:
+          - listitem [ref=e2005]:
+            - link "Sell on Amazon" [ref=e2006] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e2007]:
+            - link "Sell under Amazon Accelerator" [ref=e2008] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e2009]:
+            - link "Protect and Build Your Brand" [ref=e2010] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e2011]:
+            - link "Amazon Global Selling" [ref=e2012] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e2013]:
+            - link "Supply to Amazon" [ref=e2014] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e2015]:
+            - link "Become an Affiliate" [ref=e2016] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e2017]:
+            - link "Fulfilment by Amazon" [ref=e2018] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e2019]:
+            - link "Advertise Your Products" [ref=e2020] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e2021]:
+            - link "Amazon Pay on Merchants" [ref=e2022] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e2024]:
+        - heading "Let Us Help You" [level=6] [ref=e2025]
+        - list [ref=e2026]:
+          - listitem [ref=e2027]:
+            - link "Your Account" [ref=e2028] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2029]:
+            - link "Returns Centre" [ref=e2030] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2031]:
+            - link "Recalls and Product Safety Alerts" [ref=e2032] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2033]:
+            - link "100% Purchase Protection" [ref=e2034] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e2035]:
+            - link "Amazon App Download" [ref=e2036] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e2037]:
+            - link "Help" [ref=e2038] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e2040]:
+      - link "Amazon India Home" [ref=e2043] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e2046]:
+        - generic [ref=e2047]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e2048] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2050] [cursor=pointer]: English
+          - button "Expand to Change Language or Country" [ref=e2051] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e2052] [cursor=pointer]:
+          - generic [ref=e2054] [cursor=pointer]: India
+    - generic "More on Amazon" [ref=e2056]:
+      - list [ref=e2057]:
+        - listitem [ref=e2058]:
+          - link "AbeBooks Books, art & collectibles" [ref=e2059] [cursor=pointer]:
+            - /url: https://www.abebooks.com/
+            - heading "AbeBooks" [level=5] [ref=e2060] [cursor=pointer]
+            - generic [ref=e2061] [cursor=pointer]:
+              - text: Books, art
+              - text: "& collectibles"
+        - listitem [ref=e2062]
+        - listitem [ref=e2063]:
+          - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2064] [cursor=pointer]:
+            - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+            - heading "Amazon Web Services" [level=5] [ref=e2065] [cursor=pointer]
+            - generic [ref=e2066] [cursor=pointer]:
+              - text: Scalable Cloud
+              - text: Computing Services
+        - listitem [ref=e2067]
+        - listitem [ref=e2068]:
+          - link "Audible Download Audio Books" [ref=e2069] [cursor=pointer]:
+            - /url: https://www.audible.in/
+            - heading "Audible" [level=5] [ref=e2070] [cursor=pointer]
+            - generic [ref=e2071] [cursor=pointer]:
+              - text: Download
+              - text: Audio Books
+        - listitem [ref=e2072]
+        - listitem [ref=e2073]:
+          - link "IMDb Movies, TV & Celebrities" [ref=e2074] [cursor=pointer]:
+            - /url: https://www.imdb.com/
+            - heading "IMDb" [level=5] [ref=e2075] [cursor=pointer]
+            - generic [ref=e2076] [cursor=pointer]:
+              - text: Movies, TV
+              - text: "& Celebrities"
+      - list [ref=e2077]:
+        - listitem [ref=e2078]:
+          - link "Shopbop Designer Fashion Brands" [ref=e2079] [cursor=pointer]:
+            - /url: https://www.shopbop.com/
+            - heading "Shopbop" [level=5] [ref=e2080] [cursor=pointer]
+            - generic [ref=e2081] [cursor=pointer]:
+              - text: Designer
+              - text: Fashion Brands
+        - listitem [ref=e2082]
+        - listitem [ref=e2083]:
+          - link "Amazon Business Everything For Your Business" [ref=e2084] [cursor=pointer]:
+            - /url: /business?ref=footer_aingw
+            - heading "Amazon Business" [level=5] [ref=e2085] [cursor=pointer]
+            - generic [ref=e2086] [cursor=pointer]:
+              - text: Everything For
+              - text: Your Business
+        - listitem [ref=e2087]
+        - listitem [ref=e2088]:
+          - link "Prime Now 2-Hour Delivery on Everyday Items" [ref=e2089] [cursor=pointer]:
+            - /url: /now?ref=footer_amznow
+            - heading "Prime Now" [level=5] [ref=e2090] [cursor=pointer]
+            - generic [ref=e2091] [cursor=pointer]:
+              - text: 2-Hour Delivery
+              - text: on Everyday Items
+        - listitem [ref=e2092]
+        - listitem [ref=e2093]:
+          - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e2094] [cursor=pointer]:
+            - /url: /music/prime?ref=footer_apm
+            - heading "Amazon Prime Music" [level=5] [ref=e2095] [cursor=pointer]
+            - generic [ref=e2096] [cursor=pointer]:
+              - text: 100 million songs, ad-free
+              - text: Over 15 million podcast episodes
+    - generic [ref=e2097]:
+      - list [ref=e2098]:
+        - listitem [ref=e2099]:
+          - link "Conditions of Use & Sale" [ref=e2100] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e2101]:
+          - link "Privacy Notice" [ref=e2102] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e2103]:
+          - link "Interest-Based Ads" [ref=e2104] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e2105]: © 1996-2025, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e2107]:
+    - iframe [ref=f2e2]:
+      - generic [active]:
+        - img [ref=f3e1]
+        - img [ref=f3e2]
+        - img [ref=f3e3]
+        - img [ref=f3e4]
+        - img [ref=f3e5]
+        - img [ref=f3e6]
+        - img [ref=f3e7]
+        - img [ref=f3e8]
+        - img [ref=f3e9]
+        - img [ref=f3e10]
+        - img [ref=f3e11]
+        - img [ref=f3e12]
+        - img [ref=f3e13]
+        - img [ref=f3e14]
+        - img [ref=f3e15]
+        - img [ref=f3e16]
+        - img [ref=f3e17]
+        - img [ref=f3e18]
+        - img [ref=f3e19]
+        - img [ref=f3e20]
+        - img [ref=f3e21]
+        - img [ref=f3e22]
+        - img [ref=f3e23]
+        - img [ref=f3e24]
+        - img [ref=f3e25]
+        - img [ref=f3e26]
+        - img [ref=f3e27]
+        - img [ref=f3e28]
+        - img [ref=f3e29]
+        - img [ref=f3e30]
+        - img [ref=f3e31]
+        - img [ref=f3e32]
+        - img [ref=f3e33]
+        - img [ref=f3e34]
+        - img [ref=f3e35]
+        - img [ref=f3e36]
+        - img [ref=f3e37]
+        - img [ref=f3e38]
+        - img [ref=f3e39]
+        - img [ref=f3e40]
+        - img [ref=f3e41]
+        - img [ref=f3e42]
+        - img [ref=f3e43]
+        - img [ref=f3e44]
+        - img [ref=f3e45]
+        - img [ref=f3e46]
+        - img [ref=f3e47]
+```
