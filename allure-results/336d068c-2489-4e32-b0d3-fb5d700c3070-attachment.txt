@@ -1,6 +1,0 @@
-Hi
-Hello
-How
-Reverse Iteration :How
-Reverse Iteration :Hello
-Reverse Iteration :Hi

@@ -1,3 +1,0 @@
-Columns :4
-Rows :5
-0

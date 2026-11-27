@@ -1,2 +1,0 @@
-Column count: 4
-Rows Count : 0
