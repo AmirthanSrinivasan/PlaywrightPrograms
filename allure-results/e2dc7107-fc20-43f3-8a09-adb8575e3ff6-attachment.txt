@@ -1,0 +1,8 @@
+IPHONE 13 PRO
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 9879,
+  [Symbol(trigger_async_id_symbol)]: 9573,
+  [Symbol(kResourceStore)]: undefined
+}
+locator('.card-body').locator('b:has-text(\'iphone 13 pro\')')

@@ -1,0 +1,10 @@
+Hotels under "Hot hotel deals right now": [
+  'Centaur Hotel IGI Airport',
+  'Free cancellation',
+  'Fihalhohi Maldives',
+  'Free cancellation',
+  'DoubleTree by Hilton Dubai - Business Bay',
+  'Parakkat Nature Resort',
+  'Free cancellation',
+  'Hotel Arcadia Blue'
+]

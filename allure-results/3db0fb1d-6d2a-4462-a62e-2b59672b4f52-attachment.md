@@ -1,0 +1,1750 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e6]:
+        - link "trivago logo" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img [ref=e8] [cursor=pointer]
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Favorites" [ref=e21] [cursor=pointer]:
+                - /url: /en-IN/profile/favorites/
+                - generic [ref=e22] [cursor=pointer]:
+                  - img
+                - generic [ref=e24] [cursor=pointer]: Favorites
+            - listitem [ref=e25]:
+              - button "EN · ₹" [ref=e26] [cursor=pointer]:
+                - generic [ref=e27] [cursor=pointer]:
+                  - img
+                - generic [ref=e29] [cursor=pointer]: EN · ₹
+            - listitem [ref=e30]:
+              - button "Sign in" [ref=e32] [cursor=pointer]:
+                - generic [ref=e33] [cursor=pointer]:
+                  - img
+                - generic [ref=e35] [cursor=pointer]: Sign in
+            - listitem [ref=e36]:
+              - button "Menu" [ref=e38] [cursor=pointer]:
+                - generic [ref=e39] [cursor=pointer]:
+                  - img
+                - generic [ref=e41] [cursor=pointer]: Menu
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e46]:
+            - heading "Save up to 55% on your next hotel stay" [level=1] [ref=e47]
+            - heading "We compare hotel prices from over 100 sites" [level=2] [ref=e48]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - combobox [ref=e56]:
+                - button "Destination" [ref=e58] [cursor=pointer]:
+                  - generic [ref=e60] [cursor=pointer]:
+                    - img
+                  - generic [ref=e61] [cursor=pointer]:
+                    - generic [ref=e63]: Destination
+                    - searchbox "Destination" [active] [ref=e64]
+              - group [ref=e65]:
+                - button "Check-in/out Select dates" [ref=e66] [cursor=pointer]:
+                  - generic [ref=e67] [cursor=pointer]:
+                    - generic [ref=e68] [cursor=pointer]:
+                      - img
+                    - generic [ref=e69] [cursor=pointer]:
+                      - generic [ref=e70] [cursor=pointer]: Check-in/out
+                      - generic [ref=e71] [cursor=pointer]: Select dates
+              - button "Guests and rooms 2 Guests, 1 Room" [ref=e74] [cursor=pointer]:
+                - generic [ref=e75] [cursor=pointer]:
+                  - generic [ref=e76] [cursor=pointer]:
+                    - img
+                  - generic [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78] [cursor=pointer]: Guests and rooms
+                    - generic [ref=e79] [cursor=pointer]: 2 Guests, 1 Room
+            - button "Search" [ref=e80] [cursor=pointer]:
+              - generic [ref=e82] [cursor=pointer]: Search
+        - generic [ref=e83]:
+          - heading "Our Partners" [level=2] [ref=e84]
+          - list "Our Partners" [ref=e86]:
+            - listitem [ref=e87]:
+              - img "Agoda" [ref=e88]
+            - listitem [ref=e89]:
+              - img "Hotels.com" [ref=e90]
+            - listitem [ref=e91]:
+              - img "Booking.com" [ref=e92]
+            - listitem [ref=e93]:
+              - img "MakeMyTrip" [ref=e94]
+            - listitem [ref=e95]:
+              - img "Accor" [ref=e96]
+            - listitem [ref=e97]:
+              - img "Trip.com" [ref=e98]
+            - listitem [ref=e99]:
+              - img "OYO" [ref=e100]
+            - listitem [ref=e101]: +100 more
+        - generic [ref=e104]:
+          - button "Search simply Search simply Easily search through millions of hotels in seconds." [ref=e105]:
+            - img "Search simply" [ref=e107]
+            - generic [ref=e108]:
+              - heading "Search simply" [level=3] [ref=e109]
+              - paragraph [ref=e110]: Easily search through millions of hotels in seconds.
+          - button "Compare confidently Compare confidently Compare hotel prices from over 100 sites at once." [ref=e111]:
+            - img "Compare confidently" [ref=e113]
+            - generic [ref=e114]:
+              - heading "Compare confidently" [level=3] [ref=e115]
+              - paragraph [ref=e116]: Compare hotel prices from over 100 sites at once.
+          - button "Save big Save big Discover a great deal to book on our partner sites." [ref=e117]:
+            - img "Save big" [ref=e119]
+            - generic [ref=e120]:
+              - heading "Save big" [level=3] [ref=e121]
+              - paragraph [ref=e122]: Discover a great deal to book on our partner sites.
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - heading "Hot hotel deals right now" [level=1] [ref=e127]
+          - link "See more deals" [ref=e129] [cursor=pointer]:
+            - /url: /en-IN/lm/hotels-india?search=200-76;404-1;404-2;404-3
+            - text: See more deals
+            - generic [ref=e130] [cursor=pointer]:
+              - img
+        - generic [ref=e131]:
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - generic [ref=e136]:
+                - generic [ref=e139] [cursor=pointer]:
+                  - button "Loading..." [ref=e141] [cursor=pointer]:
+                    - generic [ref=e142] [cursor=pointer]: Loading...
+                  - generic [ref=e143] [cursor=pointer]:
+                    - button "Loading..." [ref=e144] [cursor=pointer]:
+                      - generic [ref=e145] [cursor=pointer]: Loading...
+                    - button "Loading..." [ref=e146] [cursor=pointer]:
+                      - generic [ref=e148] [cursor=pointer]:
+                        - img
+                      - generic [ref=e149] [cursor=pointer]: Loading...
+                - generic [ref=e150] [cursor=pointer]:
+                  - generic [ref=e151] [cursor=pointer]:
+                    - button "Loading..." [ref=e152] [cursor=pointer]:
+                      - generic [ref=e154] [cursor=pointer]: Loading...
+                    - button "21% lower than other sites" [ref=e156] [cursor=pointer]:
+                      - generic [ref=e161] [cursor=pointer]: 21% lower than other sites
+                    - list [ref=e162] [cursor=pointer]:
+                      - listitem "Free cancellation" [ref=e163] [cursor=pointer]:
+                        - button "Free cancellation" [ref=e164] [cursor=pointer]:
+                          - generic [ref=e165] [cursor=pointer]:
+                            - img
+                          - generic [ref=e167] [cursor=pointer]: Free cancellation
+                  - generic [ref=e168] [cursor=pointer]:
+                    - generic [ref=e170] [cursor=pointer]: ₹5,762
+                    - generic [ref=e171] [cursor=pointer]:
+                      - paragraph [ref=e172] [cursor=pointer]: per night
+                      - generic [ref=e173] [cursor=pointer]: 18 Oct - 20 Oct
+                  - button "Check deal" [ref=e174] [cursor=pointer]:
+                    - text: Check deal
+                    - generic [ref=e175] [cursor=pointer]:
+                      - img
+            - listitem [ref=e176]:
+              - generic [ref=e178]:
+                - generic [ref=e181] [cursor=pointer]:
+                  - button "Loading..." [ref=e183] [cursor=pointer]:
+                    - generic [ref=e184] [cursor=pointer]: Loading...
+                  - generic [ref=e185] [cursor=pointer]:
+                    - button "Loading..." [ref=e186] [cursor=pointer]:
+                      - generic [ref=e187] [cursor=pointer]: Loading...
+                    - button "Loading..." [ref=e188] [cursor=pointer]:
+                      - generic [ref=e190] [cursor=pointer]:
+                        - img
+                      - generic [ref=e191] [cursor=pointer]: Loading...
+                - generic [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193] [cursor=pointer]:
+                    - button "Loading..." [ref=e194] [cursor=pointer]:
+                      - generic [ref=e196] [cursor=pointer]: Loading...
+                    - button "13% lower than other sites" [ref=e198] [cursor=pointer]:
+                      - generic [ref=e203] [cursor=pointer]: 13% lower than other sites
+                  - generic [ref=e204] [cursor=pointer]:
+                    - generic [ref=e206] [cursor=pointer]: ₹17,027
+                    - generic [ref=e207] [cursor=pointer]:
+                      - paragraph [ref=e208] [cursor=pointer]: per night
+                      - generic [ref=e209] [cursor=pointer]: 4 Nov - 5 Nov
+                  - button "Check deal" [ref=e210] [cursor=pointer]:
+                    - text: Check deal
+                    - generic [ref=e211] [cursor=pointer]:
+                      - img
+            - listitem [ref=e212]:
+              - generic [ref=e214]:
+                - generic [ref=e217] [cursor=pointer]:
+                  - button "Loading..." [ref=e219] [cursor=pointer]:
+                    - generic [ref=e220] [cursor=pointer]: Loading...
+                  - generic [ref=e221] [cursor=pointer]:
+                    - button "Loading..." [ref=e222] [cursor=pointer]:
+                      - generic [ref=e223] [cursor=pointer]: Loading...
+                    - button "Loading..." [ref=e224] [cursor=pointer]:
+                      - generic [ref=e226] [cursor=pointer]:
+                        - img
+                      - generic [ref=e227] [cursor=pointer]: Loading...
+                - generic [ref=e228] [cursor=pointer]:
+                  - generic [ref=e229] [cursor=pointer]:
+                    - button "Loading..." [ref=e230] [cursor=pointer]:
+                      - generic [ref=e232] [cursor=pointer]: Loading...
+                    - button "23% lower than other sites" [ref=e234] [cursor=pointer]:
+                      - generic [ref=e239] [cursor=pointer]: 23% lower than other sites
+                    - list [ref=e240] [cursor=pointer]:
+                      - listitem "Free cancellation" [ref=e241] [cursor=pointer]:
+                        - button "Free cancellation" [ref=e242] [cursor=pointer]:
+                          - generic [ref=e243] [cursor=pointer]:
+                            - img
+                          - generic [ref=e245] [cursor=pointer]: Free cancellation
+                  - generic [ref=e246] [cursor=pointer]:
+                    - generic [ref=e248] [cursor=pointer]: ₹31,039
+                    - generic [ref=e249] [cursor=pointer]:
+                      - paragraph [ref=e250] [cursor=pointer]: per night
+                      - generic [ref=e251] [cursor=pointer]: 7 Oct - 13 Oct
+                  - button "Check deal" [ref=e252] [cursor=pointer]:
+                    - text: Check deal
+                    - generic [ref=e253] [cursor=pointer]:
+                      - img
+            - listitem [ref=e254]:
+              - generic [ref=e256]:
+                - generic [ref=e259] [cursor=pointer]:
+                  - button "Loading..." [ref=e261] [cursor=pointer]:
+                    - generic [ref=e262] [cursor=pointer]: Loading...
+                  - generic [ref=e263] [cursor=pointer]:
+                    - button "Loading..." [ref=e264] [cursor=pointer]:
+                      - generic [ref=e265] [cursor=pointer]: Loading...
+                    - button "Loading..." [ref=e266] [cursor=pointer]:
+                      - generic [ref=e268] [cursor=pointer]:
+                        - img
+                      - generic [ref=e269] [cursor=pointer]: Loading...
+                - generic [ref=e270] [cursor=pointer]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - button "Loading..." [ref=e272] [cursor=pointer]:
+                      - generic [ref=e274] [cursor=pointer]: Loading...
+                    - button "15% lower than other sites" [ref=e276] [cursor=pointer]:
+                      - generic [ref=e281] [cursor=pointer]: 15% lower than other sites
+                    - list [ref=e282] [cursor=pointer]:
+                      - listitem "Free cancellation" [ref=e283] [cursor=pointer]:
+                        - button "Free cancellation" [ref=e284] [cursor=pointer]:
+                          - generic [ref=e285] [cursor=pointer]:
+                            - img
+                          - generic [ref=e287] [cursor=pointer]: Free cancellation
+                  - generic [ref=e288] [cursor=pointer]:
+                    - generic [ref=e290] [cursor=pointer]: ₹14,023
+                    - generic [ref=e291] [cursor=pointer]:
+                      - paragraph [ref=e292] [cursor=pointer]: per night
+                      - generic [ref=e293] [cursor=pointer]: 8 Nov - 9 Nov
+                  - button "Check deal" [ref=e294] [cursor=pointer]:
+                    - text: Check deal
+                    - generic [ref=e295] [cursor=pointer]:
+                      - img
+            - listitem [ref=e296]:
+              - generic [ref=e298]:
+                - generic [ref=e301] [cursor=pointer]:
+                  - button "Loading..." [ref=e303] [cursor=pointer]:
+                    - generic [ref=e304] [cursor=pointer]: Loading...
+                  - generic [ref=e305] [cursor=pointer]:
+                    - button "Loading..." [ref=e306] [cursor=pointer]:
+                      - generic [ref=e307] [cursor=pointer]: Loading...
+                    - button "Loading..." [ref=e308] [cursor=pointer]:
+                      - generic [ref=e310] [cursor=pointer]:
+                        - img
+                      - generic [ref=e311] [cursor=pointer]: Loading...
+                - generic [ref=e312] [cursor=pointer]:
+                  - generic [ref=e313] [cursor=pointer]:
+                    - button "Loading..." [ref=e314] [cursor=pointer]:
+                      - generic [ref=e316] [cursor=pointer]: Loading...
+                    - button "29% lower than other sites" [ref=e318] [cursor=pointer]:
+                      - generic [ref=e323] [cursor=pointer]: 29% lower than other sites
+                    - list [ref=e324] [cursor=pointer]:
+                      - listitem "Free cancellation" [ref=e325] [cursor=pointer]:
+                        - button "Free cancellation" [ref=e326] [cursor=pointer]:
+                          - generic [ref=e327] [cursor=pointer]:
+                            - img
+                          - generic [ref=e329] [cursor=pointer]: Free cancellation
+                  - generic [ref=e330] [cursor=pointer]:
+                    - generic [ref=e332] [cursor=pointer]: ₹18,239
+                    - generic [ref=e333] [cursor=pointer]:
+                      - paragraph [ref=e334] [cursor=pointer]: per night
+                      - generic [ref=e335] [cursor=pointer]: 7 Oct - 13 Oct
+                  - button "Check deal" [ref=e336] [cursor=pointer]:
+                    - text: Check deal
+                    - generic [ref=e337] [cursor=pointer]:
+                      - img
+          - button "next" [ref=e338] [cursor=pointer]:
+            - generic [ref=e339] [cursor=pointer]: next
+            - generic [ref=e340] [cursor=pointer]:
+              - img
+      - generic [ref=e344]:
+        - heading "Discover the best time to book your next stay" [level=2] [ref=e345]
+        - generic [ref=e346]:
+          - generic [ref=e351]:
+            - tablist [ref=e353]:
+              - tab "Jaipur" [selected] [ref=e355] [cursor=pointer]:
+                - generic [ref=e356] [cursor=pointer]: Jaipur
+              - tab "Mumbai" [ref=e358] [cursor=pointer]:
+                - generic [ref=e359] [cursor=pointer]: Mumbai
+              - tab "Udaipur" [ref=e361] [cursor=pointer]:
+                - generic [ref=e362] [cursor=pointer]: Udaipur
+              - tab "Delhi" [ref=e364] [cursor=pointer]:
+                - generic [ref=e365] [cursor=pointer]: Delhi
+              - tab "Dubai" [ref=e367] [cursor=pointer]:
+                - generic [ref=e368] [cursor=pointer]: Dubai
+              - tab "Bengaluru" [ref=e370] [cursor=pointer]:
+                - generic [ref=e371] [cursor=pointer]: Bengaluru
+              - tab "Hyderabad" [ref=e373] [cursor=pointer]:
+                - generic [ref=e374] [cursor=pointer]: Hyderabad
+              - tab "Chennai" [ref=e376] [cursor=pointer]:
+                - generic [ref=e377] [cursor=pointer]: Chennai
+              - tab "Kolkata" [ref=e379] [cursor=pointer]:
+                - generic [ref=e380] [cursor=pointer]: Kolkata
+              - tab "Munnar" [ref=e382] [cursor=pointer]:
+                - generic [ref=e383] [cursor=pointer]: Munnar
+            - tabpanel "Jaipur"
+          - generic [ref=e384]:
+            - generic [ref=e387]:
+              - button "September ₹1,720 - ₹7,985" [ref=e388] [cursor=pointer]:
+                - generic [ref=e389] [cursor=pointer]: September
+                - generic [ref=e390] [cursor=pointer]:
+                  - text: ₹1,720 - ₹7,985
+                  - generic [ref=e391] [cursor=pointer]:
+                    - img
+              - button "October ₹2,070 - ₹10,355" [ref=e392] [cursor=pointer]:
+                - generic [ref=e393] [cursor=pointer]: October
+                - generic [ref=e394] [cursor=pointer]:
+                  - text: ₹2,070 - ₹10,355
+                  - generic [ref=e395] [cursor=pointer]:
+                    - img
+              - button "November ₹2,090 - ₹11,345" [ref=e396] [cursor=pointer]:
+                - generic [ref=e397] [cursor=pointer]: November
+                - generic [ref=e398] [cursor=pointer]:
+                  - text: ₹2,090 - ₹11,345
+                  - generic [ref=e399] [cursor=pointer]:
+                    - img
+              - button "December ₹2,315 - ₹12,455" [ref=e400] [cursor=pointer]:
+                - generic [ref=e401] [cursor=pointer]: December
+                - generic [ref=e402] [cursor=pointer]:
+                  - text: ₹2,315 - ₹12,455
+                  - generic [ref=e403] [cursor=pointer]:
+                    - img
+              - button "January ₹2,320 - ₹13,490" [ref=e404] [cursor=pointer]:
+                - generic [ref=e405] [cursor=pointer]: January
+                - generic [ref=e406] [cursor=pointer]:
+                  - text: ₹2,320 - ₹13,490
+                  - generic [ref=e407] [cursor=pointer]:
+                    - img
+              - button "February ₹2,275 - ₹13,015" [ref=e408] [cursor=pointer]:
+                - generic [ref=e409] [cursor=pointer]: February
+                - generic [ref=e410] [cursor=pointer]:
+                  - text: ₹2,275 - ₹13,015
+                  - generic [ref=e411] [cursor=pointer]:
+                    - img
+              - button "March ₹2,225 - ₹12,495" [ref=e412] [cursor=pointer]:
+                - generic [ref=e413] [cursor=pointer]: March
+                - generic [ref=e414] [cursor=pointer]:
+                  - text: ₹2,225 - ₹12,495
+                  - generic [ref=e415] [cursor=pointer]:
+                    - img
+              - button "April ₹2,100 - ₹11,300" [ref=e416] [cursor=pointer]:
+                - generic [ref=e417] [cursor=pointer]: April
+                - generic [ref=e418] [cursor=pointer]:
+                  - text: ₹2,100 - ₹11,300
+                  - generic [ref=e419] [cursor=pointer]:
+                    - img
+              - button "May ₹2,190 - ₹29,110" [ref=e420] [cursor=pointer]:
+                - generic [ref=e421] [cursor=pointer]: May
+                - generic [ref=e422] [cursor=pointer]:
+                  - text: ₹2,190 - ₹29,110
+                  - generic [ref=e423] [cursor=pointer]:
+                    - img
+              - button "June ₹2,040 - ₹12,380" [ref=e424] [cursor=pointer]:
+                - generic [ref=e425] [cursor=pointer]: June
+                - generic [ref=e426] [cursor=pointer]:
+                  - text: ₹2,040 - ₹12,380
+                  - generic [ref=e427] [cursor=pointer]:
+                    - img
+              - button "July ₹5,765 - ₹16,135" [ref=e428] [cursor=pointer]:
+                - generic [ref=e429] [cursor=pointer]: July
+                - generic [ref=e430] [cursor=pointer]:
+                  - text: ₹5,765 - ₹16,135
+                  - generic [ref=e431] [cursor=pointer]:
+                    - img
+              - button "August ₹2,055 - ₹15,910" [ref=e432] [cursor=pointer]:
+                - generic [ref=e433] [cursor=pointer]: August
+                - generic [ref=e434] [cursor=pointer]:
+                  - text: ₹2,055 - ₹15,910
+                  - generic [ref=e435] [cursor=pointer]:
+                    - img
+            - paragraph [ref=e436]: Prices are based on the average price range for 3-star hotels per night.
+      - generic [ref=e439]:
+        - heading "Popular searches" [level=2] [ref=e440]
+        - tablist [ref=e442]:
+          - tab "Cities" [selected] [ref=e444] [cursor=pointer]:
+            - generic [ref=e445] [cursor=pointer]: Cities
+          - tab "Destinations" [ref=e447] [cursor=pointer]:
+            - generic [ref=e448] [cursor=pointer]: Destinations
+        - tabpanel "Cities" [ref=e450]:
+          - generic [ref=e451]:
+            - list [ref=e452]:
+              - listitem [ref=e453]:
+                - link "Jaipur 4,970 Hotels Avg. ₹5,493" [ref=e456] [cursor=pointer]:
+                  - /url: /en-IN/odr/hotels-jaipur-india?search=200-64989
+                  - generic [ref=e459] [cursor=pointer]:
+                    - heading "Jaipur" [level=3] [ref=e460] [cursor=pointer]
+                    - paragraph [ref=e461] [cursor=pointer]:
+                      - generic [ref=e462] [cursor=pointer]:
+                        - generic [ref=e463] [cursor=pointer]: 4,970
+                        - text: Hotels
+                    - paragraph [ref=e464] [cursor=pointer]:
+                      - generic [ref=e465] [cursor=pointer]:
+                        - text: Avg.
+                        - generic [ref=e466] [cursor=pointer]: ₹5,493
+              - listitem [ref=e467]:
+                - link "Mumbai 5,300 Hotels Avg. ₹7,243" [ref=e470] [cursor=pointer]:
+                  - /url: /en-IN/odr/hotels-mumbai-india?search=200-64981
+                  - generic [ref=e473] [cursor=pointer]:
+                    - heading "Mumbai" [level=3] [ref=e474] [cursor=pointer]
+                    - paragraph [ref=e475] [cursor=pointer]:
+                      - generic [ref=e476] [cursor=pointer]:
+                        - generic [ref=e477] [cursor=pointer]: 5,300
+                        - text: Hotels
+                    - paragraph [ref=e478] [cursor=pointer]:
+                      - generic [ref=e479] [cursor=pointer]:
+                        - text: Avg.
+                        - generic [ref=e480] [cursor=pointer]: ₹7,243
+              - listitem [ref=e481]:
+                - link "Udaipur 2,593 Hotels Avg. ₹7,106" [ref=e484] [cursor=pointer]:
+                  - /url: /en-IN/odr/hotels-udaipur-india?search=200-73918
+                  - generic [ref=e487] [cursor=pointer]:
+                    - heading "Udaipur" [level=3] [ref=e488] [cursor=pointer]
+                    - paragraph [ref=e489] [cursor=pointer]:
+                      - generic [ref=e490] [cursor=pointer]:
+                        - generic [ref=e491] [cursor=pointer]: 2,593
+                        - text: Hotels
+                    - paragraph [ref=e492] [cursor=pointer]:
+                      - generic [ref=e493] [cursor=pointer]:
+                        - text: Avg.
+                        - generic [ref=e494] [cursor=pointer]: ₹7,106
+              - listitem [ref=e495]:
+                - link "Delhi 12,768 Hotels Avg. ₹5,556" [ref=e498] [cursor=pointer]:
+                  - /url: /en-IN/odr/hotels-delhi-india?search=200-64967
+                  - generic [ref=e501] [cursor=pointer]:
+                    - heading "Delhi" [level=3] [ref=e502] [cursor=pointer]
+                    - paragraph [ref=e503] [cursor=pointer]:
+                      - generic [ref=e504] [cursor=pointer]:
+                        - generic [ref=e505] [cursor=pointer]: 12,768
+                        - text: Hotels
+                    - paragraph [ref=e506] [cursor=pointer]:
+                      - generic [ref=e507] [cursor=pointer]:
+                        - text: Avg.
+                        - generic [ref=e508] [cursor=pointer]: ₹5,556
+              - listitem [ref=e509]:
+                - link "Dubai 4,586 Hotels Avg. ₹26,382" [ref=e512] [cursor=pointer]:
+                  - /url: /en-IN/odr/hotels-dubai-united-arab-emirates?search=200-15075
+                  - generic [ref=e515] [cursor=pointer]:
+                    - heading "Dubai" [level=3] [ref=e516] [cursor=pointer]
+                    - paragraph [ref=e517] [cursor=pointer]:
+                      - generic [ref=e518] [cursor=pointer]:
+                        - generic [ref=e519] [cursor=pointer]: 4,586
+                        - text: Hotels
+                    - paragraph [ref=e520] [cursor=pointer]:
+                      - generic [ref=e521] [cursor=pointer]:
+                        - text: Avg.
+                        - generic [ref=e522] [cursor=pointer]: ₹26,382
+              - listitem [ref=e523]:
+                - link "Bengaluru 7,718 Hotels Avg. ₹5,008" [ref=e526] [cursor=pointer]:
+                  - /url: /en-IN/odr/hotels-bengaluru-india?search=200-64975
+                  - generic [ref=e529] [cursor=pointer]:
+                    - heading "Bengaluru" [level=3] [ref=e530] [cursor=pointer]
+                    - paragraph [ref=e531] [cursor=pointer]:
+                      - generic [ref=e532] [cursor=pointer]:
+                        - generic [ref=e533] [cursor=pointer]: 7,718
+                        - text: Hotels
+                    - paragraph [ref=e534] [cursor=pointer]:
+                      - generic [ref=e535] [cursor=pointer]:
+                        - text: Avg.
+                        - generic [ref=e536] [cursor=pointer]: ₹5,008
+            - button "next" [ref=e537] [cursor=pointer]:
+              - generic [ref=e538] [cursor=pointer]: next
+              - generic [ref=e539] [cursor=pointer]:
+                - img
+      - generic [ref=e541]:
+        - generic [ref=e543]:
+          - heading "More popular searches" [level=2] [ref=e544]
+          - list "More popular searches" [ref=e548]:
+            - listitem [ref=e549]:
+              - link "Hotels in Jaipur" [ref=e550] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jaipur-india?search=200-64989
+            - listitem [ref=e551]:
+              - link "Hotels in Mumbai" [ref=e552] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mumbai-india?search=200-64981
+            - listitem [ref=e553]:
+              - link "Hotels in Udaipur" [ref=e554] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-udaipur-india?search=200-73918
+            - listitem [ref=e555]:
+              - link "Hotels in Delhi" [ref=e556] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-delhi-india?search=200-64967
+            - listitem [ref=e557]:
+              - link "Hotels in Dubai" [ref=e558] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-dubai-united-arab-emirates?search=200-15075
+            - listitem [ref=e559]:
+              - link "Hotels in Bengaluru" [ref=e560] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bengaluru-india?search=200-64975
+            - listitem [ref=e561]:
+              - link "Hotels in Hyderabad" [ref=e562] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hyderabad-india?search=200-64958
+            - listitem [ref=e563]:
+              - link "Hotels in Chennai" [ref=e564] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-chennai-india?search=200-64991
+            - listitem [ref=e565]:
+              - link "Hotels in Kolkata" [ref=e566] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kolkata-india?search=200-64995
+            - listitem [ref=e567]:
+              - link "Hotels in Munnar" [ref=e568] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-munnar-india?search=200-345103
+            - listitem [ref=e569]:
+              - link "Hotels in Udhagamandalam" [ref=e570] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-udhagamandalam-india?search=200-101331
+            - listitem [ref=e571]:
+              - link "Hotels in Puri" [ref=e572] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-puri-india?search=200-74041
+            - listitem [ref=e573]:
+              - link "Hotels in Singapore" [ref=e574] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-singapore?search=200-25025
+            - listitem [ref=e575]:
+              - link "Hotels in Ahmedabad" [ref=e576] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ahmedabad-india?search=200-85528
+            - listitem [ref=e577]:
+              - link "Hotels in Pune" [ref=e578] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-pune-india?search=200-84040
+            - listitem [ref=e579]:
+              - link "Hotels in Lonavala" [ref=e580] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-lonavala-india?search=200-82910
+            - listitem [ref=e581]:
+              - link "Hotels in Varanasi" [ref=e582] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-varanasi-india?search=200-73947
+            - listitem [ref=e583]:
+              - link "Hotels in Lucknow" [ref=e584] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-lucknow-india?search=200-345063
+            - listitem [ref=e585]:
+              - link "Hotels in Mahabaleshwar" [ref=e586] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mahabaleshwar-india?search=200-345078
+            - listitem [ref=e587]:
+              - link "Hotels in Agra" [ref=e588] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-agra-india?search=200-73666
+            - listitem [ref=e589]:
+              - link "Hotels in Gurgaon" [ref=e590] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gurgaon-india?search=200-74395
+            - listitem [ref=e591]:
+              - link "Hotels in Indore" [ref=e592] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-indore-india?search=200-344973
+            - listitem [ref=e593]:
+              - link "Hotels in Mysore" [ref=e594] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mysore-india?search=200-74383
+            - listitem [ref=e595]:
+              - link "Hotels in Bangkok" [ref=e596] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bangkok-thailand?search=200-15893
+            - listitem [ref=e597]:
+              - link "Hotels in Chandigarh" [ref=e598] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-chandigarh-india?search=200-64988
+            - listitem [ref=e599]:
+              - link "Hotels in Vrindavan" [ref=e600] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-vrindavan-india?search=200-424418
+            - listitem [ref=e601]:
+              - link "Hotels in Darjeeling" [ref=e602] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-darjeeling-india?search=200-80950
+            - listitem [ref=e603]:
+              - link "Hotels in Ujjain" [ref=e604] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ujjain-india?search=200-345253
+            - listitem [ref=e605]:
+              - link "Hotels in Coimbatore" [ref=e606] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-coimbatore-india?search=200-341656
+            - listitem [ref=e607]:
+              - link "Hotels in Madurai" [ref=e608] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-madurai-india?search=200-74265
+            - listitem [ref=e609]:
+              - link "Hotels in Puducherry" [ref=e610] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-puducherry-india?search=200-64987
+            - listitem [ref=e611]:
+              - link "Hotels in Tirupati" [ref=e612] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-tirupati-india?search=200-345243
+            - listitem [ref=e613]:
+              - link "Hotels in Kodaikanal" [ref=e614] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kodaikanal-india?search=200-345028
+            - listitem [ref=e615]:
+              - link "Hotels in Kuala Lumpur" [ref=e616] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kuala-lumpur-malaysia?search=200-56340
+            - listitem [ref=e617]:
+              - link "Hotels in Rameswaram" [ref=e618] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-rameswaram-india?search=200-74042
+            - listitem [ref=e619]:
+              - link "Hotels in Gokarna" [ref=e620] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gokarna-india?search=200-344928
+            - listitem [ref=e621]:
+              - link "Hotels in Nashik" [ref=e622] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nashik-india?search=200-345128
+            - listitem [ref=e623]:
+              - link "Hotels in Visakhapatnam" [ref=e624] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-visakhapatnam-india?search=200-101236
+            - listitem [ref=e625]:
+              - link "Hotels in Raipur" [ref=e626] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-raipur-india?search=200-64963
+            - listitem [ref=e627]:
+              - link "Hotels in Wayanad" [ref=e628] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-wayanad-india?search=200-81336
+            - listitem [ref=e629]:
+              - link "Hotels in Mount Abu" [ref=e630] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mount-abu-india?search=200-345093
+            - listitem [ref=e631]:
+              - link "Hotels in Jodhpur" [ref=e632] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jodhpur-india?search=200-74386
+            - listitem [ref=e633]:
+              - link "Hotels in Thiruvananthapuram" [ref=e634] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-thiruvananthapuram-india?search=200-428004
+            - listitem [ref=e635]:
+              - link "Hotels in Pattaya" [ref=e636] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-pattaya-thailand?search=200-15902
+            - listitem [ref=e637]:
+              - link "Hotels in Kanyakumari" [ref=e638] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kanyakumari-india?search=200-136891
+            - listitem [ref=e639]:
+              - link "Hotels in Daman" [ref=e640] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-daman-india?search=200-64962
+            - listitem [ref=e641]:
+              - link "Hotels in Calangute" [ref=e642] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-calangute-india?search=200-74396
+            - listitem [ref=e643]:
+              - link "Hotels in Amritsar" [ref=e644] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-amritsar-india?search=200-74040
+            - listitem [ref=e645]:
+              - link "Hotels in Bhopal" [ref=e646] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bhopal-india?search=200-64980
+            - listitem [ref=e647]:
+              - link "Hotels in Mussoorie" [ref=e648] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mussoorie-india?search=200-87125
+            - listitem [ref=e649]:
+              - link "Hotels in Bodh Gaya" [ref=e650] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bodh-gaya-india?search=200-344848
+            - listitem [ref=e651]:
+              - link "Hotels in Bhubaneswar" [ref=e652] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bhubaneswar-india?search=200-344838
+            - listitem [ref=e653]:
+              - link "Hotels in Dwarka" [ref=e654] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-dwarka-india?search=200-424220
+            - listitem [ref=e655]:
+              - link "Hotels in Vadodara" [ref=e656] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-vadodara-india?search=200-345258
+            - listitem [ref=e657]:
+              - link "Hotels in Panchgani" [ref=e658] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-panchgani-india?search=200-345143
+            - listitem [ref=e659]:
+              - link "Hotels in Patna" [ref=e660] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-patna-india?search=200-64961
+            - listitem [ref=e661]:
+              - link "Hotels in Alibaug" [ref=e662] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-alibaug-india?search=200-387355
+            - listitem [ref=e663]:
+              - link "Hotels in Abu Dhabi" [ref=e664] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-abu-dhabi-united-arab-emirates?search=200-15074
+            - listitem [ref=e665]:
+              - link "Hotels in London" [ref=e666] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-london-united-kingdom?search=200-17399
+            - listitem [ref=e667]:
+              - link "Hotels in Colombo" [ref=e668] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-colombo-sri-lanka?search=200-16098
+            - listitem [ref=e669]:
+              - link "Hotels in Guwahati" [ref=e670] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-guwahati-india?search=200-344953
+            - listitem [ref=e671]:
+              - link "Hotels in Kochi" [ref=e672] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kochi-india?search=200-74258
+            - listitem [ref=e673]:
+              - link "Hotels in Hong Kong" [ref=e674] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hong-kong?search=200-31497
+            - listitem [ref=e675]:
+              - link "Hotels in Surat" [ref=e676] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-surat-india?search=200-64966
+            - listitem [ref=e677]:
+              - link "Hotels in Matheran" [ref=e678] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-matheran-india?search=200-388094
+            - listitem [ref=e679]:
+              - link "Hotels in Dehradun" [ref=e680] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-dehradun-india?search=200-109106
+            - listitem [ref=e681]:
+              - link "Hotels in Digha" [ref=e682] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-digha-india?search=200-421294
+            - listitem [ref=e683]:
+              - link "Hotels in Kolhapur" [ref=e684] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kolhapur-india?search=200-424322
+            - listitem [ref=e685]:
+              - link "Hotels in Kozhikode" [ref=e686] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kozhikode-india?search=200-74259
+            - listitem [ref=e687]:
+              - link "Hotels in Aurangabad" [ref=e688] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-aurangabad-india?search=200-83185
+            - listitem [ref=e689]:
+              - link "Hotels in Thekkady" [ref=e690] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-thekkady-india?search=200-345008
+            - listitem [ref=e691]:
+              - link "Hotels in Port Blair" [ref=e692] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-port-blair-india?search=200-64957
+            - listitem [ref=e693]:
+              - link "Hotels in Vagamon" [ref=e694] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-vagamon-india?search=200-426291
+            - listitem [ref=e695]:
+              - link "Hotels in Shillong" [ref=e696] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-shillong-india?search=200-64983
+            - listitem [ref=e697]:
+              - link "Hotels in Hampi" [ref=e698] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hampi-india?search=200-74043
+            - listitem [ref=e699]:
+              - link "Hotels in Navi Mumbai" [ref=e700] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-navi-mumbai-india?search=200-426355
+            - listitem [ref=e701]:
+              - link "Hotels in Tokyo" [ref=e702] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-tokyo-japan?search=200-71462
+            - listitem [ref=e703]:
+              - link "Hotels in Jaisalmer" [ref=e704] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jaisalmer-india?search=200-82543
+            - listitem [ref=e705]:
+              - link "Hotels in Mangalore" [ref=e706] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mangalore-india?search=200-85357
+            - listitem [ref=e707]:
+              - link "Hotels in Nagpur" [ref=e708] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nagpur-india?search=200-343846
+            - listitem [ref=e709]:
+              - link "Hotels in Nainital" [ref=e710] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nainital-india?search=200-344056
+            - listitem [ref=e711]:
+              - link "Hotels in Udupi" [ref=e712] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-udupi-india?search=200-100076
+            - listitem [ref=e713]:
+              - link "Hotels in Guruvayoor" [ref=e714] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-guruvayoor-india?search=200-424298
+            - listitem [ref=e715]:
+              - link "Hotels in Igatpuri" [ref=e716] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-igatpuri-india?search=200-424332
+            - listitem [ref=e717]:
+              - link "Hotels in Mandarmoni" [ref=e718] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mandarmoni-india?search=200-424454
+            - listitem [ref=e719]:
+              - link "Hotels in Makkah" [ref=e720] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-makkah-saudi-arabia?search=200-67042
+            - listitem [ref=e721]:
+              - link "Hotels in Gangtok" [ref=e722] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gangtok-india?search=200-64990
+            - listitem [ref=e723]:
+              - link "Hotels in Yercaud" [ref=e724] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-yercaud-india?search=200-424390
+            - listitem [ref=e725]:
+              - link "Hotels in Diu" [ref=e726] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-diu-india?search=200-64965
+            - listitem [ref=e727]:
+              - link "Hotels in Panaji" [ref=e728] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-panaji-india?search=200-64968
+            - listitem [ref=e729]:
+              - link "Hotels in Neemrana" [ref=e730] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-neemrana-india?search=200-87228
+            - listitem [ref=e731]:
+              - link "Hotels in Noida" [ref=e732] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-noida-india?search=200-394737
+            - listitem [ref=e733]:
+              - link "Hotels in Karjat" [ref=e734] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-karjat-india?search=200-424316
+            - listitem [ref=e735]:
+              - link "Hotels in Haridwar" [ref=e736] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-haridwar-india?search=200-344958
+            - listitem [ref=e737]:
+              - link "Hotels in Shirdi" [ref=e738] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-shirdi-india?search=200-420385
+            - listitem [ref=e739]:
+              - link "Hotels in Madikeri" [ref=e740] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-madikeri-india?search=200-394375
+            - listitem [ref=e741]:
+              - link "Hotels in Hanoi" [ref=e742] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hanoi-vietnam?search=200-68088
+            - listitem [ref=e743]:
+              - link "Hotels in Rishikesh" [ref=e744] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-rishikesh-india?search=200-183611
+            - listitem [ref=e745]:
+              - link "Hotels in Vijayawada" [ref=e746] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-vijayawada-india?search=200-345283
+            - listitem [ref=e747]:
+              - link "Hotels in Velankanni" [ref=e748] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-velankanni-india?search=200-424404
+            - listitem [ref=e749]:
+              - link "Hotels in Somnath" [ref=e750] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-somnath-india?search=200-424222
+            - listitem [ref=e751]:
+              - link "Hotels in Alappuzha" [ref=e752] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-alappuzha-india?search=200-74262
+            - listitem [ref=e753]:
+              - link "Hotels in Pachmarhi" [ref=e754] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-pachmarhi-india?search=200-97452
+            - listitem [ref=e755]:
+              - link "Hotels in Havelock" [ref=e756] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-havelock-india?search=200-402263
+            - listitem [ref=e757]:
+              - link "Hotels in Patong Beach" [ref=e758] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-patong-beach-thailand?search=200-15956
+            - listitem [ref=e759]:
+              - link "Hotels in Varkala" [ref=e760] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-varkala-india?search=200-74264
+            - listitem [ref=e761]:
+              - link "Hotels in Paris" [ref=e762] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-paris-france?search=200-22235
+            - listitem [ref=e763]:
+              - link "Hotels in Gandhinagar" [ref=e764] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gandhinagar-india?search=200-85527
+            - listitem [ref=e765]:
+              - link "Hotels in Chikkamagaluru" [ref=e766] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-chikkamagaluru-india?search=200-344863
+            - listitem [ref=e767]:
+              - link "Hotels in Saputara" [ref=e768] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-saputara-india?search=200-424226
+            - listitem [ref=e769]:
+              - link "Hotels in Thane" [ref=e770] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-thane-india?search=200-426365
+            - listitem [ref=e771]:
+              - link "Hotels in Mathura" [ref=e772] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mathura-india?search=200-345083
+            - listitem [ref=e773]:
+              - link "Hotels in Anjuna" [ref=e774] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-anjuna-india?search=200-74378
+            - listitem [ref=e775]:
+              - link "Hotels in Prague" [ref=e776] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-prague-czech-republic?search=200-23442
+            - listitem [ref=e777]:
+              - link "Hotels in Shimla" [ref=e778] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-shimla-india?search=200-64971
+            - listitem [ref=e779]:
+              - link "Hotels in Jalandhar" [ref=e780] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jalandhar-india?search=200-87432
+            - listitem [ref=e781]:
+              - link "Hotels in Secunderabad" [ref=e782] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-secunderabad-india?search=200-424195
+            - listitem [ref=e783]:
+              - link "Hotels in Jabalpur" [ref=e784] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jabalpur-india?search=200-344978
+            - listitem [ref=e785]:
+              - link "Hotels in Mahabalipuram" [ref=e786] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mahabalipuram-india?search=200-82923
+            - listitem [ref=e787]:
+              - link "Hotels in Srinagar" [ref=e788] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-srinagar-india?search=200-64973
+            - listitem [ref=e789]:
+              - link "Hotels in Baga" [ref=e790] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-baga-india?search=200-426138
+            - listitem [ref=e791]:
+              - link "Hotels in Allahabad" [ref=e792] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-allahabad-india?search=200-64993
+            - listitem [ref=e793]:
+              - link "Hotels in Osaka" [ref=e794] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-osaka-japan?search=200-71692
+            - listitem [ref=e795]:
+              - link "Hotels in Kovalam" [ref=e796] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kovalam-india?search=200-99157
+            - listitem [ref=e797]:
+              - link "Hotels in Jamshedpur" [ref=e798] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jamshedpur-india?search=200-344983
+            - listitem [ref=e799]:
+              - link "Hotels in Kumbhalgarh" [ref=e800] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kumbhalgarh-india?search=200-345178
+            - listitem [ref=e801]:
+              - link "Hotels in Rajkot" [ref=e802] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-rajkot-india?search=200-394353
+            - listitem [ref=e803]:
+              - link "Hotels in Amreli" [ref=e804] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-amreli-india?search=200-423646
+            - listitem [ref=e805]:
+              - link "Hotels in Ranchi" [ref=e806] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ranchi-india?search=200-64974
+            - listitem [ref=e807]:
+              - link "Hotels in Candolim" [ref=e808] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-candolim-india?search=200-74398
+            - listitem [ref=e809]:
+              - link "Hotels in Gwalior" [ref=e810] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gwalior-india?search=200-80951
+            - listitem [ref=e811]:
+              - link "Hotels in Greater Noida" [ref=e812] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-greater-noida-india?search=200-426486
+            - listitem [ref=e813]:
+              - link "Hotels in Manali" [ref=e814] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-manali-india?search=200-136801
+            - listitem [ref=e815]:
+              - link "Hotels in New York" [ref=e816] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-new-york-new-york-state?search=200-14734
+            - listitem [ref=e817]:
+              - link "Hotels in Faridabad" [ref=e818] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-faridabad-india?search=200-344923
+            - listitem [ref=e819]:
+              - link "Hotels in Pushkar" [ref=e820] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-pushkar-india?search=200-82544
+            - listitem [ref=e821]:
+              - link "Hotels in Siliguri" [ref=e822] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-siliguri-india?search=200-343851
+            - listitem [ref=e823]:
+              - link "Hotels in Kanpur" [ref=e824] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kanpur-india?search=200-345003
+            - listitem [ref=e825]:
+              - link "Hotels in Bilaspur" [ref=e826] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bilaspur-india?search=200-420701
+            - listitem [ref=e827]:
+              - link "Hotels in Sakleshpur" [ref=e828] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sakleshpur-india?search=200-426239
+            - listitem [ref=e829]:
+              - link "Hotels in Macau" [ref=e830] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-macau-china?search=200-31480
+            - listitem [ref=e831]:
+              - link "Hotels in Belgaum" [ref=e832] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-belgaum-india?search=200-424290
+            - listitem [ref=e833]:
+              - link "Hotels in Kasauli" [ref=e834] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kasauli-india?search=200-394382
+            - listitem [ref=e835]:
+              - link "Hotels in Morjim" [ref=e836] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-morjim-india?search=200-426148
+            - listitem [ref=e837]:
+              - link "Hotels in Budapest" [ref=e838] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-budapest-hungary?search=200-61949
+            - listitem [ref=e839]:
+              - link "Hotels in Ho Chi Minh City" [ref=e840] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ho-chi-minh-city-vietnam?search=200-68089
+            - listitem [ref=e841]:
+              - link "Hotels in Gorakhpur" [ref=e842] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gorakhpur-india?search=200-394755
+            - listitem [ref=e843]:
+              - link "Hotels in Ghaziabad" [ref=e844] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ghaziabad-india?search=200-394809
+            - listitem [ref=e845]:
+              - link "Hotels in Valparai" [ref=e846] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-valparai-india?search=200-426468
+            - listitem [ref=e847]:
+              - link "Hotels in Ramnagar" [ref=e848] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ramnagar-india?search=200-426514
+            - listitem [ref=e849]:
+              - link "Hotels in Goa" [ref=e850] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-goa-india?search=200-64932
+            - listitem [ref=e851]:
+              - link "Hotels in Pondicherry" [ref=e852] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-pondicherry-india?search=200-64948
+            - listitem [ref=e853]:
+              - link "Hotels in India" [ref=e854] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-india?search=200-76
+            - listitem [ref=e855]:
+              - link "Hotels in Maldives" [ref=e856] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-maldives?search=200-121
+            - listitem [ref=e857]:
+              - link "Hotels in Bali" [ref=e858] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bali-indonesia?search=200-72435
+            - listitem [ref=e859]:
+              - link "Hotels in Maharashtra" [ref=e860] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-maharashtra-india?search=200-64942
+            - listitem [ref=e861]:
+              - link "Hotels in Mauritius" [ref=e862] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mauritius?search=200-127
+            - listitem [ref=e863]:
+              - link "Hotels in Dubai" [ref=e864] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-dubai-united-arab-emirates?search=200-15068
+            - listitem [ref=e865]:
+              - link "Hotels in Sri Lanka" [ref=e866] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sri-lanka?search=200-185
+            - listitem [ref=e867]:
+              - link "Hotels in Andaman and Nicobar Islands" [ref=e868] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-andaman-and-nicobar-islands-india?search=200-64922
+            - listitem [ref=e869]:
+              - link "Hotels in Delhi" [ref=e870] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-delhi-india?search=200-64931
+            - listitem [ref=e871]:
+              - link "Hotels in Kerala" [ref=e872] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kerala-india?search=200-64939
+            - listitem [ref=e873]:
+              - link "Hotels in Malaysia" [ref=e874] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-malaysia?search=200-120
+            - listitem [ref=e875]:
+              - link "Hotels in Al Madinah Region" [ref=e876] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-al-madinah-region-saudi-arabia?search=200-67008
+            - listitem [ref=e877]:
+              - link "Hotels in Istanbul Province" [ref=e878] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-istanbul-province-turkey?search=200-15149
+            - listitem [ref=e879]:
+              - link "Hotels in England" [ref=e880] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-england-united-kingdom?search=200-16235
+            - listitem [ref=e881]:
+              - link "Hotels in Valais" [ref=e882] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-valais-switzerland?search=200-27634
+            - listitem [ref=e883]:
+              - link "Hotels in Rajasthan" [ref=e884] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-rajasthan-india?search=200-64950
+            - listitem [ref=e885]:
+              - link "Hotels in Switzerland" [ref=e886] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-switzerland?search=200-174
+            - listitem [ref=e887]:
+              - link "Hotels in Geneva" [ref=e888] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-geneva-switzerland?search=200-27618
+            - listitem [ref=e889]:
+              - link "Hotels in Thailand" [ref=e890] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-thailand?search=200-196
+            - listitem [ref=e891]:
+              - link "Hotels in Mahe" [ref=e892] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mahe-seychelles?search=200-16060
+            - listitem [ref=e893]:
+              - link "Hotels in Penang" [ref=e894] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-penang-malaysia?search=200-55483
+            - listitem [ref=e895]:
+              - link "Hotels in Hong Kong" [ref=e896] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hong-kong?search=200-75
+            - listitem [ref=e897]:
+              - link "Hotels in Seychelles" [ref=e898] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-seychelles?search=200-177
+            - listitem [ref=e899]:
+              - link "Hotels in Vietnam" [ref=e900] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-vietnam?search=200-217
+            - listitem [ref=e901]:
+              - link "Hotels in Lucerne" [ref=e902] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-lucerne-switzerland?search=200-27622
+            - listitem [ref=e903]:
+              - link "Hotels in Lakshadweep" [ref=e904] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-lakshadweep-india?search=200-64940
+            - listitem [ref=e905]:
+              - link "Hotels in Sikkim" [ref=e906] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sikkim-india?search=200-64951
+            - listitem [ref=e907]:
+              - link "Hotels in Tamil Nadu" [ref=e908] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-tamil-nadu-india?search=200-64952
+            - listitem [ref=e909]:
+              - link "Hotels in Paro" [ref=e910] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-paro-bhutan?search=200-83143
+            - listitem [ref=e911]:
+              - link "Hotels in Hung Yen Province" [ref=e912] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hung-yen-province-vietnam?search=200-418552
+            - listitem [ref=e913]:
+              - link "Hotels in Germany" [ref=e914] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-germany?search=200-43
+            - listitem [ref=e915]:
+              - link "Hotels in La Digue" [ref=e916] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-la-digue-seychelles?search=200-16061
+            - listitem [ref=e917]:
+              - link "Hotels in Obwalden" [ref=e918] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-obwalden-switzerland?search=200-27625
+            - listitem [ref=e919]:
+              - link "Hotels in Zürich" [ref=e920] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-zürich-switzerland?search=200-27636
+            - listitem [ref=e921]:
+              - link "Hotels in Haryana" [ref=e922] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-haryana-india?search=200-64934
+            - listitem [ref=e923]:
+              - link "Hotels in San José" [ref=e924] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-san-josé-costa-rica?search=200-69183
+            - listitem [ref=e925]:
+              - link "Hotels in Kutch" [ref=e926] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kutch-india?search=200-424234
+            - listitem [ref=e927]:
+              - link "Hotels in Asia" [ref=e928] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-asia?search=200-2
+            - listitem [ref=e929]:
+              - link "Hotels in Egypt" [ref=e930] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-egypt?search=200-8
+            - listitem [ref=e931]:
+              - link "Hotels in Japan" [ref=e932] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-japan?search=200-85
+            - listitem [ref=e933]:
+              - link "Hotels in Nepal" [ref=e934] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nepal?search=200-137
+            - listitem [ref=e935]:
+              - link "Hotels in Singapore" [ref=e936] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-singapore?search=200-180
+            - listitem [ref=e937]:
+              - link "Hotels in Shanghai" [ref=e938] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-shanghai-china?search=200-31469
+            - listitem [ref=e939]:
+              - link "Hotels in Andhra Pradesh" [ref=e940] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-andhra-pradesh-india?search=200-64923
+            - listitem [ref=e941]:
+              - link "Hotels in Meghalaya" [ref=e942] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-meghalaya-india?search=200-64944
+            - listitem [ref=e943]:
+              - link "Hotels in Uttarakhand" [ref=e944] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-uttarakhand-india?search=200-64955
+            - listitem [ref=e945]:
+              - link "Hotels in Prefecture Tokyo" [ref=e946] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-prefecture-tokyo-japan?search=200-69788
+            - listitem [ref=e947]:
+              - link "Hotels in Kanton Sarajevo" [ref=e948] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kanton-sarajevo-bosnia-and-herzegovina?search=200-72584
+            - listitem [ref=e949]:
+              - link "Hotels in Zentral" [ref=e950] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-zentral-mongolia?search=200-75335
+            - listitem [ref=e951]:
+              - link "Hotels in China" [ref=e952] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-china?search=200-39
+            - listitem [ref=e953]:
+              - link "Hotels in Malta" [ref=e954] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-malta?search=200-123
+            - listitem [ref=e955]:
+              - link "Hotels in Saudi Arabia" [ref=e956] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-saudi-arabia?search=200-172
+            - listitem [ref=e957]:
+              - link "Hotels in Hamburg" [ref=e958] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hamburg-germany?search=200-227
+            - listitem [ref=e959]:
+              - link "Hotels in Hesse" [ref=e960] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hesse-germany?search=200-228
+            - listitem [ref=e961]:
+              - link "Hotels in New Jersey" [ref=e962] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-new-jersey?search=200-14170
+            - listitem [ref=e963]:
+              - link "Hotels in Central Region" [ref=e964] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-central-region-thailand?search=200-15814
+            - listitem [ref=e965]:
+              - link "Hotels in Sardinia" [ref=e966] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sardinia-italy?search=200-25078
+            - listitem [ref=e967]:
+              - link "Hotels in Brussels Capital region" [ref=e968] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-brussels-capital-region-belgium?search=200-25112
+            - listitem [ref=e969]:
+              - link "Hotels in Macau" [ref=e970] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-macau-china?search=200-31463
+            - listitem [ref=e971]:
+              - link "Hotels in Lisbon coast" [ref=e972] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-lisbon-coast-portugal?search=200-31528
+            - listitem [ref=e973]:
+              - link "Hotels in Larnaca" [ref=e974] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-larnaca-cyprus?search=200-52546
+            - listitem [ref=e975]:
+              - link "Hotels in Bihar" [ref=e976] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bihar-india?search=200-64926
+            - listitem [ref=e977]:
+              - link "Hotels in Dadra and Nagar Haveli" [ref=e978] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-dadra-and-nagar-haveli-india?search=200-64929
+            - listitem [ref=e979]:
+              - link "Hotels in Karnataka" [ref=e980] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-karnataka-india?search=200-64938
+            - listitem [ref=e981]:
+              - link "Hotels in Phnom Penh" [ref=e982] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-phnom-penh-cambodia?search=200-65269
+            - listitem [ref=e983]:
+              - link "Hotels in Nairobi" [ref=e984] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nairobi-kenya?search=200-65417
+            - listitem [ref=e985]:
+              - link "Hotels in Sétif" [ref=e986] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sétif-algeria?search=200-84435
+            - listitem [ref=e987]:
+              - link "Hotels in Boracay" [ref=e988] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-boracay-philippines?search=200-119571
+            - listitem [ref=e989]:
+              - link "Hotels in Europe" [ref=e990] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-europe?search=200-4
+            - listitem [ref=e991]:
+              - link "Hotels in Bahrain" [ref=e992] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bahrain?search=200-22
+            - listitem [ref=e993]:
+              - link "Hotels in Bangladesh" [ref=e994] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bangladesh?search=200-23
+            - listitem [ref=e995]:
+              - link "Hotels in Benin" [ref=e996] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-benin?search=200-27
+            - listitem [ref=e997]:
+              - link "Hotels in Italy" [ref=e998] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-italy?search=200-83
+            - listitem [ref=e999]:
+              - link "Hotels in Kazakhstan" [ref=e1000] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kazakhstan?search=200-94
+            - listitem [ref=e1001]:
+              - link "Hotels in Kyrgyzstan" [ref=e1002] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kyrgyzstan?search=200-97
+            - listitem [ref=e1003]:
+              - link "Hotels in Laos" [ref=e1004] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-laos?search=200-107
+            - listitem [ref=e1005]:
+              - link "Hotels in New Zealand" [ref=e1006] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-new-zealand?search=200-139
+            - listitem [ref=e1007]:
+              - link "Hotels in Portugal" [ref=e1008] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-portugal?search=200-158
+            - listitem [ref=e1009]:
+              - link "Hotels in Russia" [ref=e1010] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-russia?search=200-162
+            - listitem [ref=e1011]:
+              - link "Hotels in Tanzania" [ref=e1012] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-tanzania?search=200-195
+            - listitem [ref=e1013]:
+              - link "Hotels in United Arab Emirates" [ref=e1014] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-united-arab-emirates?search=200-215
+            - listitem [ref=e1015]:
+              - link "Hotels in Cyprus" [ref=e1016] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-cyprus?search=200-221
+            - listitem [ref=e1017]:
+              - link "Hotels in Catalonia" [ref=e1018] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-catalonia-spain?search=200-13342
+            - listitem [ref=e1019]:
+              - link "Hotels in Madrid" [ref=e1020] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-madrid-spain?search=200-13344
+            - listitem [ref=e1021]:
+              - link "Hotels in Gran Canaria" [ref=e1022] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gran-canaria-spain?search=200-13841
+            - listitem [ref=e1023]:
+              - link "Hotels in Florida" [ref=e1024] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-florida?search=200-14149
+            - listitem [ref=e1025]:
+              - link "Hotels in Minnesota" [ref=e1026] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-minnesota?search=200-14163
+            - listitem [ref=e1027]:
+              - link "Hotels in Abu Dhabi" [ref=e1028] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-abu-dhabi-united-arab-emirates?search=200-15067
+            - listitem [ref=e1029]:
+              - link "Hotels in Greater London" [ref=e1030] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-greater-london-united-kingdom?search=200-16240
+            - listitem [ref=e1031]:
+              - link "Hotels in Paris" [ref=e1032] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-paris-france?search=200-21303
+            - listitem [ref=e1033]:
+              - link "Hotels in Western Australia" [ref=e1034] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-western-australia-australia?search=200-25051
+            - listitem [ref=e1035]:
+              - link "Hotels in South Australia" [ref=e1036] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-south-australia-australia?search=200-25055
+            - listitem [ref=e1037]:
+              - link "Hotels in Sicily" [ref=e1038] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sicily-italy?search=200-25079
+            - listitem [ref=e1039]:
+              - link "Hotels in Nicosia" [ref=e1040] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nicosia-cyprus?search=200-52548
+            - listitem [ref=e1041]:
+              - link "Hotels in Johor" [ref=e1042] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-johor-malaysia?search=200-55475
+            - listitem [ref=e1043]:
+              - link "Hotels in Gujarat" [ref=e1044] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-gujarat-india?search=200-64933
+            - listitem [ref=e1045]:
+              - link "Hotels in Himachal Pradesh" [ref=e1046] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-himachal-pradesh-india?search=200-64935
+            - listitem [ref=e1047]:
+              - link "Hotels in Uttar Pradesh" [ref=e1048] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-uttar-pradesh-india?search=200-64954
+            - listitem [ref=e1049]:
+              - link "Hotels in Ba Ria-Vung Tau Province" [ref=e1050] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-ba-ria-vung-tau-province-vietnam?search=200-68051
+            - listitem [ref=e1051]:
+              - link "Hotels in Đà Nẵng" [ref=e1052] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-đà-nẵng-vietnam?search=200-68057
+            - listitem [ref=e1053]:
+              - link "Hotels in Hanoi" [ref=e1054] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-hanoi-vietnam?search=200-68062
+            - listitem [ref=e1055]:
+              - link "Hotels in Kyoto Prefecture" [ref=e1056] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-kyoto-prefecture-japan?search=200-69790
+            - listitem [ref=e1057]:
+              - link "Hotels in Sumatra" [ref=e1058] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sumatra-indonesia?search=200-72385
+            - listitem [ref=e1059]:
+              - link "Hotels in Nusa Tenggara" [ref=e1060] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nusa-tenggara-indonesia?search=200-72389
+            - listitem [ref=e1061]:
+              - link "Hotels in Jeju-do" [ref=e1062] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-jeju-do-south-korea?search=200-81328
+            - listitem [ref=e1063]:
+              - link "Hotels in Cebu Island" [ref=e1064] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-cebu-island-philippines?search=200-119596
+            - listitem [ref=e1065]:
+              - link "Hotels in Luanda" [ref=e1066] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-luanda-angola?search=200-388310
+            - listitem [ref=e1067]:
+              - link "Hotels in Lapland" [ref=e1068] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-lapland-finland?search=200-62035
+            - listitem [ref=e1069]:
+              - link "Hotels in Inner Islands" [ref=e1070] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-inner-islands-seychelles?search=200-55156
+            - listitem [ref=e1071]:
+              - link "Hotels in Bihar" [ref=e1072] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-bihar-india?search=200-64926
+            - listitem [ref=e1073]:
+              - link "Hotels in Metro Manila" [ref=e1074] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-metro-manila-philippines?search=200-123026
+            - listitem [ref=e1075]:
+              - link "Hotels in Chitradurga" [ref=e1076] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-chitradurga-india?search=200-436350
+            - listitem [ref=e1077]:
+              - link "Hotels in Madhya" [ref=e1078] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-madhya-nepal?search=200-66133
+            - listitem [ref=e1079]:
+              - link "Hotels in Masqat" [ref=e1080] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-masqat-oman?search=200-66344
+            - listitem [ref=e1081]:
+              - link "Hotels in Sifnos Island" [ref=e1082] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-sifnos-island-greece?search=200-389389
+            - listitem [ref=e1083]:
+              - link "Hotels in Musandam" [ref=e1084] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-musandam-oman?search=200-66345
+            - listitem [ref=e1085]:
+              - link "Hotels in Paros Island" [ref=e1086] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-paros-island-greece?search=200-389413
+            - listitem [ref=e1087]:
+              - link "Hotels in Edirne Province" [ref=e1088] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-edirne-province-turkey?search=200-412135
+            - listitem [ref=e1089]:
+              - link "Hotels in Occidental Mindoro" [ref=e1090] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-occidental-mindoro-philippines?search=200-427504
+            - listitem [ref=e1091]:
+              - link "Hotels in Uruguay" [ref=e1092] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-uruguay?search=200-210
+            - listitem [ref=e1093]:
+              - link "Hotels in Constantine" [ref=e1094] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-constantine-algeria?search=200-84413
+            - listitem [ref=e1095]:
+              - link "Hotels in Santiago de Chille" [ref=e1096] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-santiago-de-chille-chile?search=200-81576
+            - listitem [ref=e1097]:
+              - link "Hotels in Mexico" [ref=e1098] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-mexico?search=200-128
+            - listitem [ref=e1099]:
+              - link "Hotels in Nampula" [ref=e1100] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-nampula-mozambique?search=200-65999
+            - listitem [ref=e1101]:
+              - link "Hotels in Poland" [ref=e1102] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-poland?search=200-157
+            - listitem [ref=e1103]:
+              - link "Hotels in Scottish Borders" [ref=e1104] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-scottish-borders-united-kingdom?search=200-16302
+            - listitem [ref=e1105]:
+              - link "Hotels in Eskişehir Province" [ref=e1106] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-eskişehir-province-turkey?search=200-412081
+            - listitem [ref=e1107]:
+              - link "Hotels in Solomon Islands" [ref=e1108] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-solomon-islands?search=200-167
+            - listitem [ref=e1109]:
+              - link "Hotels in Cape Verde" [ref=e1110] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-cape-verde?search=200-93
+            - listitem [ref=e1111]:
+              - link "Hotels in Paraguay" [ref=e1112] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-paraguay?search=200-154
+            - listitem [ref=e1113]:
+              - link "Hotels in Eleuthera" [ref=e1114] [cursor=pointer]:
+                - /url: /en-IN/odr/hotels-eleuthera-bahamas?search=200-108931
+        - generic [ref=e1117]:
+          - heading "trivago international sites" [level=2] [ref=e1118]
+          - list "trivago international sites" [ref=e1122]:
+            - listitem [ref=e1123]:
+              - link "trivago‏ UAE" [ref=e1124] [cursor=pointer]:
+                - /url: https://www.trivago.ae
+                - generic [ref=e1125] [cursor=pointer]: trivago
+                - text: ‏ UAE
+            - listitem [ref=e1126]:
+              - link "trivago‏ Argentina" [ref=e1127] [cursor=pointer]:
+                - /url: https://www.trivago.com.ar
+                - generic [ref=e1128] [cursor=pointer]: trivago
+                - text: ‏ Argentina
+            - listitem [ref=e1129]:
+              - link "trivago‏ Österreich" [ref=e1130] [cursor=pointer]:
+                - /url: https://www.trivago.at
+                - generic [ref=e1131] [cursor=pointer]: trivago
+                - text: ‏ Österreich
+            - listitem [ref=e1132]:
+              - link "trivago‏ Australia" [ref=e1133] [cursor=pointer]:
+                - /url: https://www.trivago.com.au
+                - generic [ref=e1134] [cursor=pointer]: trivago
+                - text: ‏ Australia
+            - listitem [ref=e1135]:
+              - link "trivago‏ België" [ref=e1136] [cursor=pointer]:
+                - /url: https://www.trivago.be
+                - generic [ref=e1137] [cursor=pointer]: trivago
+                - text: ‏ België
+            - listitem [ref=e1138]:
+              - link "trivago‏ България" [ref=e1139] [cursor=pointer]:
+                - /url: https://www.trivago.bg
+                - generic [ref=e1140] [cursor=pointer]: trivago
+                - text: ‏ България
+            - listitem [ref=e1141]:
+              - link "trivago‏ Brasil" [ref=e1142] [cursor=pointer]:
+                - /url: https://www.trivago.com.br
+                - generic [ref=e1143] [cursor=pointer]: trivago
+                - text: ‏ Brasil
+            - listitem [ref=e1144]:
+              - link "trivago‏ Canada" [ref=e1145] [cursor=pointer]:
+                - /url: https://www.trivago.ca
+                - generic [ref=e1146] [cursor=pointer]: trivago
+                - text: ‏ Canada
+            - listitem [ref=e1147]:
+              - link "trivago‏ Schweiz" [ref=e1148] [cursor=pointer]:
+                - /url: https://www.trivago.ch
+                - generic [ref=e1149] [cursor=pointer]: trivago
+                - text: ‏ Schweiz
+            - listitem [ref=e1150]:
+              - link "trivago‏ Chile" [ref=e1151] [cursor=pointer]:
+                - /url: https://www.trivago.cl
+                - generic [ref=e1152] [cursor=pointer]: trivago
+                - text: ‏ Chile
+            - listitem [ref=e1153]:
+              - link "trivago‏ Colombia" [ref=e1154] [cursor=pointer]:
+                - /url: https://www.trivago.com.co
+                - generic [ref=e1155] [cursor=pointer]: trivago
+                - text: ‏ Colombia
+            - listitem [ref=e1156]:
+              - link "trivago‏ Česko" [ref=e1157] [cursor=pointer]:
+                - /url: https://www.trivago.cz
+                - generic [ref=e1158] [cursor=pointer]: trivago
+                - text: ‏ Česko
+            - listitem [ref=e1159]:
+              - link "trivago‏ Deutschland" [ref=e1160] [cursor=pointer]:
+                - /url: https://www.trivago.de
+                - generic [ref=e1161] [cursor=pointer]: trivago
+                - text: ‏ Deutschland
+            - listitem [ref=e1162]:
+              - link "trivago‏ Danmark" [ref=e1163] [cursor=pointer]:
+                - /url: https://www.trivago.dk
+                - generic [ref=e1164] [cursor=pointer]: trivago
+                - text: ‏ Danmark
+            - listitem [ref=e1165]:
+              - link "trivago‏ Ecuador" [ref=e1166] [cursor=pointer]:
+                - /url: https://www.trivago.com.ec
+                - generic [ref=e1167] [cursor=pointer]: trivago
+                - text: ‏ Ecuador
+            - listitem [ref=e1168]:
+              - link "trivago‏ España" [ref=e1169] [cursor=pointer]:
+                - /url: https://www.trivago.es
+                - generic [ref=e1170] [cursor=pointer]: trivago
+                - text: ‏ España
+            - listitem [ref=e1171]:
+              - link "trivago‏ Suomi" [ref=e1172] [cursor=pointer]:
+                - /url: https://www.trivago.fi
+                - generic [ref=e1173] [cursor=pointer]: trivago
+                - text: ‏ Suomi
+            - listitem [ref=e1174]:
+              - link "trivago‏ France" [ref=e1175] [cursor=pointer]:
+                - /url: https://www.trivago.fr
+                - generic [ref=e1176] [cursor=pointer]: trivago
+                - text: ‏ France
+            - listitem [ref=e1177]:
+              - link "trivago‏ Ελλάδα" [ref=e1178] [cursor=pointer]:
+                - /url: https://www.trivago.gr
+                - generic [ref=e1179] [cursor=pointer]: trivago
+                - text: ‏ Ελλάδα
+            - listitem [ref=e1180]:
+              - link "trivago‏ 香港" [ref=e1181] [cursor=pointer]:
+                - /url: https://www.trivago.hk
+                - generic [ref=e1182] [cursor=pointer]: trivago
+                - text: ‏ 香港
+            - listitem [ref=e1183]:
+              - link "trivago‏ Hrvatska" [ref=e1184] [cursor=pointer]:
+                - /url: https://www.trivago.hr
+                - generic [ref=e1185] [cursor=pointer]: trivago
+                - text: ‏ Hrvatska
+            - listitem [ref=e1186]:
+              - link "trivago‏ Magyarország" [ref=e1187] [cursor=pointer]:
+                - /url: https://www.trivago.hu
+                - generic [ref=e1188] [cursor=pointer]: trivago
+                - text: ‏ Magyarország
+            - listitem [ref=e1189]:
+              - link "trivago‏ Indonesia" [ref=e1190] [cursor=pointer]:
+                - /url: https://www.trivago.co.id
+                - generic [ref=e1191] [cursor=pointer]: trivago
+                - text: ‏ Indonesia
+            - listitem [ref=e1192]:
+              - link "trivago‏ Ireland" [ref=e1193] [cursor=pointer]:
+                - /url: https://www.trivago.ie
+                - generic [ref=e1194] [cursor=pointer]: trivago
+                - text: ‏ Ireland
+            - listitem [ref=e1195]:
+              - link "trivago‏ ישראל" [ref=e1196] [cursor=pointer]:
+                - /url: https://www.trivago.co.il
+                - generic [ref=e1197] [cursor=pointer]: trivago
+                - text: ‏ ישראל
+            - listitem [ref=e1198]:
+              - link "trivago‏ India" [ref=e1199] [cursor=pointer]:
+                - /url: https://www.trivago.in
+                - generic [ref=e1200] [cursor=pointer]: trivago
+                - text: ‏ India
+            - listitem [ref=e1201]:
+              - link "trivago‏ Italia" [ref=e1202] [cursor=pointer]:
+                - /url: https://www.trivago.it
+                - generic [ref=e1203] [cursor=pointer]: trivago
+                - text: ‏ Italia
+            - listitem [ref=e1204]:
+              - link "trivago‏ 日本" [ref=e1205] [cursor=pointer]:
+                - /url: https://www.trivago.jp
+                - generic [ref=e1206] [cursor=pointer]: trivago
+                - text: ‏ 日本
+            - listitem [ref=e1207]:
+              - link "trivago‏ 한국" [ref=e1208] [cursor=pointer]:
+                - /url: https://www.trivago.co.kr
+                - generic [ref=e1209] [cursor=pointer]: trivago
+                - text: ‏ 한국
+            - listitem [ref=e1210]:
+              - link "trivago‏ México" [ref=e1211] [cursor=pointer]:
+                - /url: https://www.trivago.com.mx
+                - generic [ref=e1212] [cursor=pointer]: trivago
+                - text: ‏ México
+            - listitem [ref=e1213]:
+              - link "trivago‏ Malaysia" [ref=e1214] [cursor=pointer]:
+                - /url: https://www.trivago.com.my
+                - generic [ref=e1215] [cursor=pointer]: trivago
+                - text: ‏ Malaysia
+            - listitem [ref=e1216]:
+              - link "trivago‏ Nederland" [ref=e1217] [cursor=pointer]:
+                - /url: https://www.trivago.nl
+                - generic [ref=e1218] [cursor=pointer]: trivago
+                - text: ‏ Nederland
+            - listitem [ref=e1219]:
+              - link "trivago‏ Norge" [ref=e1220] [cursor=pointer]:
+                - /url: https://www.trivago.no
+                - generic [ref=e1221] [cursor=pointer]: trivago
+                - text: ‏ Norge
+            - listitem [ref=e1222]:
+              - link "trivago‏ New Zealand" [ref=e1223] [cursor=pointer]:
+                - /url: https://www.trivago.co.nz
+                - generic [ref=e1224] [cursor=pointer]: trivago
+                - text: ‏ New Zealand
+            - listitem [ref=e1225]:
+              - link "trivago‏ Perú" [ref=e1226] [cursor=pointer]:
+                - /url: https://www.trivago.pe
+                - generic [ref=e1227] [cursor=pointer]: trivago
+                - text: ‏ Perú
+            - listitem [ref=e1228]:
+              - link "trivago‏ Pilipinas" [ref=e1229] [cursor=pointer]:
+                - /url: https://www.trivago.com.ph
+                - generic [ref=e1230] [cursor=pointer]: trivago
+                - text: ‏ Pilipinas
+            - listitem [ref=e1231]:
+              - link "trivago‏ Polska" [ref=e1232] [cursor=pointer]:
+                - /url: https://www.trivago.pl
+                - generic [ref=e1233] [cursor=pointer]: trivago
+                - text: ‏ Polska
+            - listitem [ref=e1234]:
+              - link "trivago‏ Portugal" [ref=e1235] [cursor=pointer]:
+                - /url: https://www.trivago.pt
+                - generic [ref=e1236] [cursor=pointer]: trivago
+                - text: ‏ Portugal
+            - listitem [ref=e1237]:
+              - link "trivago‏ România" [ref=e1238] [cursor=pointer]:
+                - /url: https://www.trivago.ro
+                - generic [ref=e1239] [cursor=pointer]: trivago
+                - text: ‏ România
+            - listitem [ref=e1240]:
+              - link "trivago‏ Srbija" [ref=e1241] [cursor=pointer]:
+                - /url: https://www.trivago.rs
+                - generic [ref=e1242] [cursor=pointer]: trivago
+                - text: ‏ Srbija
+            - listitem [ref=e1243]:
+              - link "trivago‏ Sverige" [ref=e1244] [cursor=pointer]:
+                - /url: https://www.trivago.se
+                - generic [ref=e1245] [cursor=pointer]: trivago
+                - text: ‏ Sverige
+            - listitem [ref=e1246]:
+              - link "trivago‏ Singapore" [ref=e1247] [cursor=pointer]:
+                - /url: https://www.trivago.sg
+                - generic [ref=e1248] [cursor=pointer]: trivago
+                - text: ‏ Singapore
+            - listitem [ref=e1249]:
+              - link "trivago‏ العالم العربي" [ref=e1250] [cursor=pointer]:
+                - /url: https://ar.trivago.com
+                - generic [ref=e1251] [cursor=pointer]: trivago
+                - text: ‏ العالم العربي
+            - listitem [ref=e1252]:
+              - link "trivago‏ Slovenija" [ref=e1253] [cursor=pointer]:
+                - /url: https://www.trivago.si
+                - generic [ref=e1254] [cursor=pointer]: trivago
+                - text: ‏ Slovenija
+            - listitem [ref=e1255]:
+              - link "trivago‏ Slovensko" [ref=e1256] [cursor=pointer]:
+                - /url: https://www.trivago.sk
+                - generic [ref=e1257] [cursor=pointer]: trivago
+                - text: ‏ Slovensko
+            - listitem [ref=e1258]:
+              - link "trivago‏ ประเทศไทย" [ref=e1259] [cursor=pointer]:
+                - /url: https://www.trivago.co.th
+                - generic [ref=e1260] [cursor=pointer]: trivago
+                - text: ‏ ประเทศไทย
+            - listitem [ref=e1261]:
+              - link "trivago‏ Türkiye" [ref=e1262] [cursor=pointer]:
+                - /url: https://www.trivago.com.tr
+                - generic [ref=e1263] [cursor=pointer]: trivago
+                - text: ‏ Türkiye
+            - listitem [ref=e1264]:
+              - link "trivago‏ 台灣" [ref=e1265] [cursor=pointer]:
+                - /url: https://www.trivago.com.tw
+                - generic [ref=e1266] [cursor=pointer]: trivago
+                - text: ‏ 台灣
+            - listitem [ref=e1267]:
+              - link "trivago‏ United Kingdom" [ref=e1268] [cursor=pointer]:
+                - /url: https://www.trivago.co.uk
+                - generic [ref=e1269] [cursor=pointer]: trivago
+                - text: ‏ United Kingdom
+            - listitem [ref=e1270]:
+              - link "trivago‏ USA" [ref=e1271] [cursor=pointer]:
+                - /url: https://www.trivago.com
+                - generic [ref=e1272] [cursor=pointer]: trivago
+                - text: ‏ USA
+            - listitem [ref=e1273]:
+              - link "trivago‏ Uruguay" [ref=e1274] [cursor=pointer]:
+                - /url: https://www.trivago.com.uy
+                - generic [ref=e1275] [cursor=pointer]: trivago
+                - text: ‏ Uruguay
+            - listitem [ref=e1276]:
+              - link "trivago‏ Việt Nam" [ref=e1277] [cursor=pointer]:
+                - /url: https://www.trivago.vn
+                - generic [ref=e1278] [cursor=pointer]: trivago
+                - text: ‏ Việt Nam
+            - listitem [ref=e1279]:
+              - link "trivago‏ South Africa" [ref=e1280] [cursor=pointer]:
+                - /url: https://www.trivago.co.za
+                - generic [ref=e1281] [cursor=pointer]: trivago
+                - text: ‏ South Africa
+      - generic [ref=e1285]:
+        - generic [ref=e1290]:
+          - paragraph [ref=e1291]: Members save time and money finding a great hotel deal.
+          - button "Create account" [ref=e1293] [cursor=pointer]:
+            - generic [ref=e1294] [cursor=pointer]: Create account
+        - button "Close" [ref=e1295] [cursor=pointer]:
+          - generic [ref=e1296] [cursor=pointer]:
+            - img
+          - generic [ref=e1297] [cursor=pointer]: Close
+    - contentinfo [ref=e1299]:
+      - generic [ref=e1300]:
+        - img [ref=e1301]
+        - list [ref=e1310]:
+          - listitem [ref=e1311]:
+            - link "Facebook" [ref=e1312] [cursor=pointer]:
+              - /url: https://www.facebook.com/trivago
+              - generic [ref=e1313] [cursor=pointer]:
+                - img
+              - generic [ref=e1314] [cursor=pointer]: Facebook
+          - listitem [ref=e1315]:
+            - link "Twitter" [ref=e1316] [cursor=pointer]:
+              - /url: https://twitter.com/trivago
+              - generic [ref=e1317] [cursor=pointer]:
+                - img
+              - generic [ref=e1318] [cursor=pointer]: Twitter
+          - listitem [ref=e1319]:
+            - link "Instagram" [ref=e1320] [cursor=pointer]:
+              - /url: https://instagram.com/trivago/
+              - generic [ref=e1321] [cursor=pointer]:
+                - img
+              - generic [ref=e1322] [cursor=pointer]: Instagram
+          - listitem [ref=e1323]:
+            - link "Youtube" [ref=e1324] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/trivago
+              - generic [ref=e1325] [cursor=pointer]:
+                - img
+              - generic [ref=e1326] [cursor=pointer]: Youtube
+          - listitem [ref=e1327]:
+            - link "Linkedin" [ref=e1328] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/trivagonv/
+              - generic [ref=e1329] [cursor=pointer]:
+                - img
+              - generic [ref=e1330] [cursor=pointer]: Linkedin
+      - generic [ref=e1332]:
+        - combobox [ref=e1333] [cursor=pointer]:
+          - option "Arab World (العالم العربي)"
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria (Österreich)"
+          - option "Belgium (België)"
+          - option "Brazil (Brasil)"
+          - option "Bulgaria (България)"
+          - option "Canada"
+          - option "Chile"
+          - option "Colombia"
+          - option "Croatia (Hrvatska)"
+          - option "Czechia (Česko)"
+          - option "Denmark (Danmark)"
+          - option "Ecuador"
+          - option "Finland (Suomi)"
+          - option "France"
+          - option "Germany (Deutschland)"
+          - option "Greece (Ελλάδα)"
+          - option "Hong Kong (香港)"
+          - option "Hungary (Magyarország)"
+          - option "India" [selected]
+          - option "Indonesia"
+          - option "Ireland"
+          - option "Israel (ישראל)"
+          - option "Italy (Italia)"
+          - option "Japan (日本)"
+          - option "Korea (한국)"
+          - option "Malaysia"
+          - option "Mexico (México)"
+          - option "Netherlands (Nederland)"
+          - option "New Zealand"
+          - option "Norway (Norge)"
+          - option "Peru (Perú)"
+          - option "Philippines (Pilipinas)"
+          - option "Poland (Polska)"
+          - option "Portugal"
+          - option "Romania (România)"
+          - option "Serbia (Srbija)"
+          - option "Singapore"
+          - option "Slovakia (Slovensko)"
+          - option "Slovenia (Slovenija)"
+          - option "South Africa"
+          - option "Spain (España)"
+          - option "Sweden (Sverige)"
+          - option "Switzerland (Schweiz)"
+          - option "Taiwan (台灣)"
+          - option "Thailand (ประเทศไทย)"
+          - option "Turkey (Türkiye)"
+          - option "UAE"
+          - option "United Kingdom"
+          - option "Uruguay"
+          - option "USA"
+          - option "Vietnam (Việt Nam)"
+        - generic:
+          - img
+      - generic [ref=e1334]:
+        - generic [ref=e1335]:
+          - generic [ref=e1336]:
+            - list [ref=e1337]:
+              - listitem [ref=e1338]:
+                - link "Company" [ref=e1339] [cursor=pointer]:
+                  - /url: https://company.trivago.com/
+              - listitem [ref=e1340]:
+                - link "Jobs" [ref=e1341] [cursor=pointer]:
+                  - /url: https://company.trivago.com/open-positions/?gh_src=21d449cf2
+              - listitem [ref=e1342]:
+                - link "Press" [ref=e1343] [cursor=pointer]:
+                  - /url: https://company.trivago.com/press/
+              - listitem [ref=e1344]:
+                - link "Investor relations" [ref=e1345] [cursor=pointer]:
+                  - /url: https://ir.trivago.com/
+            - list [ref=e1346]:
+              - listitem [ref=e1347]:
+                - link "Mobile apps - searching on the go" [ref=e1348] [cursor=pointer]:
+                  - /url: https://www.trivago.in/en-IN/app
+              - listitem [ref=e1349]:
+                - link "trivago for hoteliers" [ref=e1350] [cursor=pointer]:
+                  - /url: https://studio.trivago.com/home
+          - list [ref=e1351]:
+            - listitem [ref=e1352]:
+              - link "Help" [ref=e1353] [cursor=pointer]:
+                - /url: https://support.trivago.com/hc/en-in
+            - listitem [ref=e1354]:
+              - link "Learn how trivago works" [ref=e1355] [cursor=pointer]:
+                - /url: https://support.trivago.com/hc/en-in/sections/360000014707
+            - listitem [ref=e1356]:
+              - link "Terms and conditions" [ref=e1357] [cursor=pointer]:
+                - /url: https://www.trivago.in/en-IN/st/terms-of-service
+            - listitem [ref=e1358]:
+              - link "Legal information" [ref=e1359] [cursor=pointer]:
+                - /url: https://www.trivago.in/en-IN/sl/legal-information
+            - listitem [ref=e1360]:
+              - button "Do Not Sell My Personal Information" [ref=e1361] [cursor=pointer]
+            - listitem [ref=e1362]:
+              - link "Privacy notice" [ref=e1363] [cursor=pointer]:
+                - /url: https://www.trivago.in/en-IN/sp/privacy-policy
+            - listitem [ref=e1364]:
+              - link "DSA information" [ref=e1365] [cursor=pointer]:
+                - /url: https://company.trivago.com/dsa-information/
+            - listitem [ref=e1366]:
+              - link "Cybersecurity" [ref=e1367] [cursor=pointer]:
+                - /url: https://www.trivago.in/en-IN/scs/cyber-security
+            - listitem [ref=e1368]:
+              - link "Vulnerability Disclosure Programme" [ref=e1369] [cursor=pointer]:
+                - /url: https://vdp.trivago.com
+        - generic [ref=e1370]:
+          - generic [ref=e1371]:
+            - heading "Get exclusive inspiration for your next stay – subscribe to our newsletter." [level=2] [ref=e1372]:
+              - generic [ref=e1373]: Get exclusive inspiration for your next stay – subscribe to our newsletter.
+            - generic [ref=e1374]:
+              - textbox "Email address" [ref=e1375]
+              - generic [ref=e1376]: Email address
+              - button "Subscribe" [ref=e1377] [cursor=pointer]
+          - generic [ref=e1378]:
+            - paragraph [ref=e1379]:
+              - strong [ref=e1380]: trivago N.V.
+              - text: ", Kesselstraße 5 – 7, 40221 Düsseldorf, Germany"
+            - paragraph [ref=e1381]: Copyright 2025 trivago | All rights reserved.
+  - alert [ref=e1382]
+```

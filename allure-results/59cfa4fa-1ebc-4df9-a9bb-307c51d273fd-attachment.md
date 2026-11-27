@@ -1,0 +1,274 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+  - banner [ref=e9]:
+    - navigation "Primary" [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "Amazon.in" [ref=e14] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Bengaluru 562114 Update location" [ref=e17] [cursor=pointer]:
+            - generic [ref=e19] [cursor=pointer]:
+              - generic [ref=e20] [cursor=pointer]: Delivering to Bengaluru 562114
+              - generic [ref=e21] [cursor=pointer]: Update location
+        - search [ref=e24]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: All
+            - combobox "Select the department you want to search in" [ref=e31] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e34]
+          - button "Go" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e42] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e45] [cursor=pointer]:
+              - img "India" [ref=e46] [cursor=pointer]
+              - generic [ref=e47] [cursor=pointer]: EN
+          - link "Hello, sign in Account & Lists" [ref=e49] [cursor=pointer]:
+            - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3F_encoding%3DUTF8%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e51] [cursor=pointer]: Hello, sign in
+            - generic [ref=e52] [cursor=pointer]: Account & Lists
+          - link "Returns & Orders" [ref=e53] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e54] [cursor=pointer]: Returns
+            - generic [ref=e55] [cursor=pointer]: "& Orders"
+          - link "0 items in cart" [ref=e56] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e58] [cursor=pointer]: "0"
+            - generic [ref=e61] [cursor=pointer]: Cart
+      - generic [ref=e62]:
+        - button "Open All Categories Menu" [ref=e64] [cursor=pointer]:
+          - generic [ref=e66] [cursor=pointer]: All
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "Fresh" [ref=e73] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_grocery
+              - generic [ref=e74] [cursor=pointer]: Fresh
+          - listitem [ref=e75]:
+            - link "MX Player" [ref=e77] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e78]:
+            - link "Sell" [ref=e80] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e81]:
+            - link "Bestsellers" [ref=e83] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e84]:
+            - link "Today's Deals" [ref=e86] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e87]:
+            - link "Mobiles" [ref=e89] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e90]:
+            - link "New Releases" [ref=e92] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e93]:
+            - link "Electronics" [ref=e95] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e96]:
+            - link "Customer Service" [ref=e98] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e99]:
+            - link "Prime" [ref=e101] [cursor=pointer]:
+              - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - generic [ref=e102] [cursor=pointer]: Prime
+          - listitem [ref=e103]:
+            - link "Home & Kitchen" [ref=e105] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e106]:
+            - link "Fashion" [ref=e108] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e109]:
+            - link "Amazon Pay" [ref=e111] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e112]:
+            - link "Computers" [ref=e114] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e115]:
+            - link "Books" [ref=e117] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e118]:
+            - link "Home Improvement" [ref=e120] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e121]:
+            - link "Beauty & Personal Care" [ref=e123] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e124]:
+            - link "Car & Motorbike" [ref=e126] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e127]:
+            - link "Toys & Games" [ref=e129] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e130]:
+            - link "Gift Cards" [ref=e132] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e133]:
+            - link "Video Games" [ref=e135] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e136]:
+            - link "Sports, Fitness & Outdoors" [ref=e138] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e139]:
+            - link "Grocery & Gourmet Foods" [ref=e141] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e142]:
+            - link "Custom Products" [ref=e144] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e145]:
+            - link "Health, Household & Personal Care" [ref=e147] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e148]:
+            - link "Pet Supplies" [ref=e150] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e151]:
+            - link "AmazonBasics" [ref=e153] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e154]:
+            - link "Audible" [ref=e156] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e157]:
+            - link "Baby" [ref=e159] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e160]:
+            - link "Subscribe & Save" [ref=e162] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e163]:
+            - link "Gift Ideas" [ref=e165] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e166]:
+            - link "Flights" [ref=e168] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+  - main [ref=e172]:
+    - banner [ref=e174]:
+      - group "Featured content" [ref=e175]:
+        - group [ref=e179]:
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - link "Great Indian Festival | Live now" [ref=e184] [cursor=pointer]:
+                - /url: /events/greatindianfestival/?_encoding=UTF8&ref_=jup25_power_asins&bubble-id=deals-collection-powerasins-deals&pd_rd_w=dOD3s&content-id=amzn1.sym.c7693c44-8e01-492d-b6ff-ff68130f734d&pf_rd_p=c7693c44-8e01-492d-b6ff-ff68130f734d&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=FJyLj&pd_rd_r=29b2d50f-4847-457c-a767-c7324c4f6b44
+                - img "Great Indian Festival | Live now" [ref=e185] [cursor=pointer]
+            - listitem [ref=e186]
+            - listitem [ref=e188]
+            - listitem [ref=e190]
+            - listitem [ref=e192]
+            - listitem [ref=e194]
+            - listitem [ref=e196]
+    - generic [ref=e199]:
+      - generic [ref=e201]:
+        - heading "Up to 80% off | Electronics & Accessories" [level=2] [ref=e203]
+        - link "Electronics See all offers" [ref=e204] [cursor=pointer]:
+          - /url: /l/211002353031/?_encoding=UTF8&pd_rd_w=hPAuI&content-id=amzn1.sym.af9fd5b6-c722-4092-bc66-1e03ce0be208&pf_rd_p=af9fd5b6-c722-4092-bc66-1e03ce0be208&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+          - img "Electronics" [ref=e207] [cursor=pointer]
+          - generic [ref=e210] [cursor=pointer]: See all offers
+      - generic [ref=e212]:
+        - heading "Get wholesale pricing + 10% Welcome cashback" [level=2] [ref=e214]
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - link "Home appliances" [ref=e218] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=fwIPn&content-id=amzn1.sym.db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_p=db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - img "Home appliances" [ref=e220] [cursor=pointer]
+              - generic [ref=e222] [cursor=pointer]: Home appliances
+            - link "Electronics" [ref=e224] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=fwIPn&content-id=amzn1.sym.db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_p=db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - img "Electronics" [ref=e226] [cursor=pointer]
+              - generic [ref=e228] [cursor=pointer]: Electronics
+          - generic [ref=e229]:
+            - link "Furniture & decors" [ref=e231] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=fwIPn&content-id=amzn1.sym.db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_p=db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - img "Furniture & decors" [ref=e233] [cursor=pointer]
+              - generic [ref=e235] [cursor=pointer]: Furniture & decors
+            - link "For Business purchases" [ref=e237] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=fwIPn&content-id=amzn1.sym.db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_p=db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - img "For Business purchases" [ref=e239] [cursor=pointer]
+              - generic [ref=e241] [cursor=pointer]: For Business purchases
+        - link "Get wholesale pricing + 10% Welcome cashback - See all offers" [ref=e243] [cursor=pointer]:
+          - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=fwIPn&content-id=amzn1.sym.db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_p=db82750d-ccc8-4d71-93c6-0762bc79ce70&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+          - generic [ref=e245] [cursor=pointer]: See all offers
+      - generic [ref=e247]:
+        - heading "Up to 80% off | Home, kitchen & more" [level=2] [ref=e249]
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - link "Kitchen essentails" [ref=e253] [cursor=pointer]:
+              - /url: https://www.amazon.in/b/?_encoding=UTF8&_encoding=UTF8&node=4951860031&ref_=sv_top_hk_mega_1&pd_rd_w=W3hMB&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb
+              - generic [ref=e254] [cursor=pointer]:
+                - img "Kitchen essentails"
+              - generic [ref=e256] [cursor=pointer]: Kitchen essentials
+            - link "Home decor" [ref=e258] [cursor=pointer]:
+              - /url: https://www.amazon.in/b/?_encoding=UTF8&node=1380374031&pd_rd_w=W3hMB&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - generic [ref=e259] [cursor=pointer]:
+                - img "Home decor"
+              - generic [ref=e261] [cursor=pointer]: Home decor
+          - generic [ref=e262]:
+            - link "Furniture" [ref=e264] [cursor=pointer]:
+              - /url: https://www.amazon.in/l/1380441031/?_encoding=UTF8&pd_rd_w=W3hMB&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - generic [ref=e265] [cursor=pointer]:
+                - img "Furniture"
+              - generic [ref=e267] [cursor=pointer]: Furniture
+            - link "Home improvement" [ref=e269] [cursor=pointer]:
+              - /url: https://www.amazon.in/l/4286640031/?_encoding=UTF8&pd_rd_w=W3hMB&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+              - generic [ref=e270] [cursor=pointer]:
+                - img "Home improvement"
+              - generic [ref=e272] [cursor=pointer]: Home improvement
+        - link "Up to 80% off | Home, kitchen & more - See all deals" [ref=e274] [cursor=pointer]:
+          - /url: /l/976442031/?_encoding=UTF8&pd_rd_w=W3hMB&content-id=amzn1.sym.b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_p=b49e32c9-4cd8-4f83-b5bb-a05370c80bae&pf_rd_r=88W4BYD0FW7Y9HVDWHRD&pd_rd_wg=6XuFG&pd_rd_r=064f90b0-a31d-459a-8e7e-ecf217ce2feb&ref_=pd_hp_d_atf_unk
+          - generic [ref=e276] [cursor=pointer]: See all deals
+      - generic [ref=e279]:
+        - heading "Sign in for your best experience" [level=2] [ref=e281]:
+          - generic [ref=e283]: Sign in for your best experience
+        - link "Sign in securely" [ref=e287] [cursor=pointer]:
+          - /url: https://www.amazon.in/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pd_rd_w%3DYNtpe%26content-id%3Damzn1.sym.4804506a-ba73-4911-aeca-d76ceaaa8808%26pf_rd_p%3D4804506a-ba73-4911-aeca-d76ceaaa8808%26pf_rd_r%3D88W4BYD0FW7Y9HVDWHRD%26pd_rd_wg%3D6XuFG%26pd_rd_r%3D064f90b0-a31d-459a-8e7e-ecf217ce2feb&openid.assoc_handle=inflex&openid.pape.max_auth_age=0
+```

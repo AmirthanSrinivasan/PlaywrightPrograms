@@ -1,0 +1,2810 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14]:
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53] [cursor=pointer]:
+            - generic [ref=e54] [cursor=pointer]: Show/Hide shortcuts
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e56] [cursor=pointer]: shift
+              - generic [ref=e57] [cursor=pointer]: +
+              - generic [ref=e58] [cursor=pointer]: alt
+              - generic [ref=e59] [cursor=pointer]: +
+              - generic [ref=e60] [cursor=pointer]: Z
+    - generic [ref=e67]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e68]:
+    - navigation "Primary" [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link "Amazon.in" [ref=e73] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Bengaluru 562114 Update location" [ref=e76] [cursor=pointer]:
+            - generic [ref=e78] [cursor=pointer]:
+              - generic [ref=e79] [cursor=pointer]: Delivering to Bengaluru 562114
+              - generic [ref=e80] [cursor=pointer]: Update location
+        - search [ref=e83]:
+          - generic [ref=e86]:
+            - generic [ref=e88]: All
+            - combobox "Select the department you want to search in" [ref=e90] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e93]: samsung m36
+          - button "Go" [ref=e97] [cursor=pointer]
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e101] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e104] [cursor=pointer]:
+                - img "India" [ref=e105] [cursor=pointer]
+                - generic [ref=e106] [cursor=pointer]: EN
+            - button "Expand to Change Language or Country" [ref=e107] [cursor=pointer]
+          - generic [ref=e108]:
+            - link "Hello, sign in Account & Lists" [ref=e109] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Dsamsung%2Bm36%26crid%3D18YP55TBXFHX8%26sprefix%3DSamsung%252Caps%252C221%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e111] [cursor=pointer]: Hello, sign in
+              - generic [ref=e112] [cursor=pointer]: Account & Lists
+            - button "Expand Account and Lists" [ref=e113] [cursor=pointer]
+          - link "Returns & Orders" [ref=e114] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e115] [cursor=pointer]: Returns
+            - generic [ref=e116] [cursor=pointer]: "& Orders"
+          - link "0 items in cart" [ref=e117] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e119] [cursor=pointer]: "0"
+            - generic [ref=e122] [cursor=pointer]: Cart
+      - generic [ref=e123]:
+        - button "Open All Categories Menu" [ref=e125] [cursor=pointer]:
+          - generic [ref=e127] [cursor=pointer]: All
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - generic [ref=e133]:
+              - link "Fresh" [ref=e134] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+                - generic [ref=e135] [cursor=pointer]: Fresh
+              - button "Fresh Details" [ref=e136] [cursor=pointer]
+          - listitem [ref=e137]:
+            - link "MX Player" [ref=e139] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e140]:
+            - link "Sell" [ref=e142] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e143]:
+            - link "Bestsellers" [ref=e145] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e146]:
+            - link "Today's Deals" [ref=e148] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e149]:
+            - link "Mobiles" [ref=e151] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e152]:
+            - link "New Releases" [ref=e154] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e155]:
+            - link "Electronics" [ref=e157] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e158]:
+            - generic [ref=e159]:
+              - link "Prime" [ref=e160] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+                - generic [ref=e161] [cursor=pointer]: Prime
+              - button "Prime Details" [ref=e162] [cursor=pointer]
+          - listitem [ref=e163]:
+            - link "Customer Service" [ref=e165] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e166]:
+            - link "Fashion" [ref=e168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e169]:
+            - link "Home & Kitchen" [ref=e171] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e172]:
+            - link "Amazon Pay" [ref=e174] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e175]:
+            - link "Computers" [ref=e177] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e178]:
+            - link "Books" [ref=e180] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e181]:
+            - link "Home Improvement" [ref=e183] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e184]:
+            - link "Beauty & Personal Care" [ref=e186] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e187]:
+            - link "Car & Motorbike" [ref=e189] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e190]:
+            - link "Toys & Games" [ref=e192] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e193]:
+            - link "Video Games" [ref=e195] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e196]:
+            - link "Gift Cards" [ref=e198] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e199]:
+            - link "Sports, Fitness & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Custom Products" [ref=e204] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e205]:
+            - link "Grocery & Gourmet Foods" [ref=e207] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e208]:
+            - link "Health, Household & Personal Care" [ref=e210] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e211]:
+            - link "Audible" [ref=e213] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e214]:
+            - link "Pet Supplies" [ref=e216] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e217]:
+            - link "AmazonBasics" [ref=e219] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e220]:
+            - link "Baby" [ref=e222] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e223]:
+            - link "Subscribe & Save" [ref=e225] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e226]:
+            - link "Gift Ideas" [ref=e228] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e229]:
+            - link "Flights" [ref=e231] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+        - link "Big Savings, More Happiness" [ref=e235] [cursor=pointer]:
+          - /url: /events/greatindianfestival/?_encoding=UTF8&ref_=nav_swm_swm_gd&pf_rd_p=37c60729-11e4-49d4-b0d3-281b35b6a9ed&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ
+          - img "Big Savings, More Happiness" [ref=e236] [cursor=pointer]
+      - dialog [ref=e237]
+  - generic [ref=e241]:
+    - 'heading "1-16 of over 7,000 results for \"samsung m36\" Sort by: Featured" [level=1] [ref=e244]':
+      - generic [ref=e245]:
+        - heading "1-16 of over 7,000 results for \"samsung m36\"" [level=2] [ref=e250]:
+          - generic [ref=e251]: 1-16 of over 7,000 results for
+          - generic [ref=e253]: "\"samsung m36\""
+        - generic [ref=e258]:
+          - generic [ref=e259]: "Sort by:"
+          - combobox "Sort by:" [ref=e260]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e263] [cursor=pointer]:
+            - generic [ref=e264] [cursor=pointer]: "Sort by:"
+            - generic [ref=e265] [cursor=pointer]: Featured
+    - generic [ref=e267]:
+      - generic [ref=e269]:
+        - generic [ref=e271]:
+          - generic [ref=e275]:
+            - generic [ref=e280]:
+              - link [ref=e281] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+              - generic [ref=e282]:
+                - link [ref=e283] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                - generic [ref=e284]:
+                  - link [ref=e285] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                  - link [ref=e286] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                  - link "Shop the Samsung Store on Amazon" [ref=e287] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_logo&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                    - img "Shop the Samsung Store on Amazon" [ref=e289] [cursor=pointer]
+                  - generic [ref=e291]:
+                    - link "New Galaxy M36 5G - Monster AIcon | Sale Is Live - Shop the Samsung Store on Amazon" [ref=e293] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_hl&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                      - generic [ref=e295] [cursor=pointer]: New Galaxy M36 5G - Monster AIcon | Sale Is Live
+                    - link "Shop Samsung" [ref=e297] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_cta&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                      - generic [ref=e298] [cursor=pointer]:
+                        - generic [ref=e299] [cursor=pointer]: Shop
+                        - generic [ref=e300] [cursor=pointer]:
+                          - generic [ref=e301] [cursor=pointer]: Samsung
+                          - img [ref=e303] [cursor=pointer]
+              - generic [ref=e305]:
+                - generic [ref=e309]:
+                  - link "Sponsored video from Samsung, click to learn more about offerings from Samsung on Amazon." [ref=e310] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_vid&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d
+                  - button "Play Sponsored Video" [ref=e314] [cursor=pointer]:
+                    - img [ref=e315] [cursor=pointer]
+                - generic [ref=e329]:
+                  - generic:
+                    - group:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - group:
+                              - list:
+                                - listitem [ref=e330]:
+                                  - generic [ref=e333]:
+                                    - link "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e336] [cursor=pointer]:
+                                      - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_img&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                      - img "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e338] [cursor=pointer]
+                                    - generic [ref=e340]:
+                                      - link [ref=e341] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                      - generic [ref=e342]:
+                                        - link [ref=e343] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                        - link "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e344] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_tt&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                      - link "Rated 3.8 out of 5 stars from 1,566 reviews" [ref=e346] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_rev&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                        - generic [ref=e347] [cursor=pointer]: "3.8"
+                                        - generic [ref=e349] [cursor=pointer]: 1,566
+                                      - link "Great Indian Festival" [ref=e351] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_db&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                        - generic [ref=e354] [cursor=pointer]: Great Indian Festival
+                                - listitem [ref=e355]:
+                                  - generic [ref=e358]:
+                                    - link "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e361] [cursor=pointer]:
+                                      - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_img&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                      - img "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e363] [cursor=pointer]
+                                    - generic [ref=e365]:
+                                      - link [ref=e366] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                      - generic [ref=e367]:
+                                        - link [ref=e368] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                        - link "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e369] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_tt&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                      - link "Rated 3.8 out of 5 stars from 1,566 reviews" [ref=e371] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_rev&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                        - generic [ref=e372] [cursor=pointer]: "3.8"
+                                        - generic [ref=e374] [cursor=pointer]: 1,566
+                                      - link "Great Indian Festival" [ref=e376] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGZqOC3LyEyzqpr9F44R2GMAAAGZq96ldwoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICDqkunU/clv1_CEuOPUxokZA0iHrVaOIqnwbbXlFHdp0ssYlfxT6K19JE138DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1yAmcANU1kawWaCOvPN2YUY18pe1mhPLdNokfB8IkGXCR8U-W6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTcV-eSJNV12eJyYwUf_r4T6uV2L7VE71RWCnuo_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOnmCYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuAoU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FNzaLd7tBxlk8-KTWmYUuCBeFBA0jWTv-d5e5F9vLmwjRkJhcWcMfy4tcyivX3pwFT17HcaxyqThlmyvzL_rqYUvP94pQriPPwkUO49O-Gt_c3r7xphOj46DinTkS7YjwhLVHMpXBYwaj3Ht0KZsSiadvLf1aWVrtXC0DCwXL5UPr-BaYP0w22xVShuF9cFUjFTaxB8SpfH6SPdOE1GDTuM2rxM7VRrWosR6r2Gzj9_oiNBV8uInAlf3oEkkwx7RGS_R4uJMBX8W61QP98cVW-sVa7PNzE6CZiTAYKksfPnUhyCnbdyV9U6PhdTD4i-FnymPd9hol1BNJmfrNvXmpYRdKn_qhgmQc5h_UUiTk4kVfSZXkjtMJQ-jp3enryfxxb67G7805hdvClRUcYoK2S7A3H81k28SAcAoUL5EvSC2el8raRl1Cua4KZ1IEXNMGUIIUWE_FKFghcUNKz9fLMTrsqzQ3z0TahDeJ8zh3Yo7cBRk4mX_xKbzBaYM7TUKd5LTd7o-skhiTqF6LQSNa8yXRW2_X7Ml9AuBlMG4Li03PcH43QAdcFfEdpZmYMJnESSOE-H5NKQP1azZYdKMRziZUOwS3_AYidFSYqdapyUuiX3DFRI45Eyn6HtnWV8QT9S07coPM8wJTH5Mwimyy4OEkLktL2ZnBDACSnMYXHrzx6Qb-0M5LIY7_Ac30cC8mP_PBicNWRu0IYxid-skX_XQxtJeeNOMrXya981NRDfmMiXKkmEBX6Jd6BCgvmy98aUsL-FTqBlBfosu9RtZZ_0MUzo5rviTv3ADFI9RyNL5uHt_4sH8I_Eq03G6N6_dGfDFw6YrzBWt31ATKa_aiPiGUvy_-UsaUTVrSxxlPwregfUWnMLOpJNo9I-cd-yKNd_gZ7ddkcs85y8gs2SuPlScIyCgTB_plifh84ddAHuxwlhsxuigpZDaQzDyXe_i9iB-MM-QYlU4nnhD9MT7Ykd9xS9q7FBKP9faYFO8gM5EfTx3mHWKfSBJxPXn6elFLuH67kPhfA3RsCGlMNFmSwed_N0EJQc8sD3G2LlDY3KpKh3LMSwZsNcWzZuoxgyyNv7KqyWuH87cJy4kOowtMbhTAdMuPqd0T8QTCD7TZXnpR5RpMoGULz16oIVols_FhlvwL7qZ4I6xwCXCyR4gM7oeCMpX6oiShM6xDUItdW2_TqCzJN2j5NO1oRB3DQUF23ltmMtP1yxlme8rm5-RIw-CU0DA9NR_gE_yPXe8dP-kfJtPZnjSvE2YIZhUuAHj4NANlwDZZ940Hw0Ap6N53wcKlx6DY3zN2SJTmG7KnItDsGrxJHDIL5Kyw5OXbWKK-tKWy3PeLFxp7cVnAaPagI3nDgpY006cB6lITXK3AXOKYq-2Otd6YC0fPgoarkLP7XNF8v8BsMFfnZCE-hHzMzDnNAC4X2oXoEhaqQzaWFP7Q/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_db&qid=1759525119&pd_rd_w=BcmWU&content-id=amzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a%3Aamzn1.sym.6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_p=6dfd6df7-44a2-4792-8c83-3ac8a4ba533a&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=tUkkF&pd_rd_r=cf3e9488-c48b-4a52-a014-07a0461fb59d&pd_rd_plhdr=t
+                                        - generic [ref=e379] [cursor=pointer]: Great Indian Festival
+                          - button "Next page" [ref=e380] [cursor=pointer]:
+                            - generic [ref=e383] [cursor=pointer]: Next page
+            - button "Leave feedback on Sponsored ad" [ref=e389] [cursor=pointer]: Sponsored
+          - generic [ref=e392]:
+            - generic [ref=e395]:
+              - heading "Results" [level=2] [ref=e396]
+              - generic [ref=e398]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e399]:
+                  - generic [ref=e407]:
+                    - link [ref=e413] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDYyMjUyMjQwODYzMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDBB2VRC%2Fref%3Dsr_1_1_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1c3TYmMwmt&sp_cr=ZAZ
+                      - img [ref=e415] [cursor=pointer]
+                    - generic [ref=e418]:
+                      - generic [ref=e419]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e422] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e424] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e426] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDYyMjUyMjQwODYzMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDBB2VRC%2Fref%3Dsr_1_1_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1c3TYmMwmt&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e427] [cursor=pointer]:
+                            - generic [ref=e428] [cursor=pointer]: Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e429]:
+                        - generic [ref=e430]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e432] [cursor=pointer]:
+                            - generic [ref=e434] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e436] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDYyMjUyMjQwODYzMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDBB2VRC%2Fref%3Dsr_1_1_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1c3TYmMwmt&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e437] [cursor=pointer]: 1,566
+                        - generic [ref=e439]: 5K+ bought in past month
+                      - generic [ref=e442]:
+                        - generic [ref=e443]:
+                          - link "Great Indian Festival" [ref=e445] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e449] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e451]:
+                            - generic [ref=e452]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹22,999 M.R.P: ₹22,999" [ref=e453] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDYyMjUyMjQwODYzMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDBB2VRC%2Fref%3Dsr_1_1_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1c3TYmMwmt&sp_cr=ZAZ
+                              - generic [ref=e454] [cursor=pointer]:
+                                - generic [ref=e455] [cursor=pointer]: ₹13,999
+                                - generic [ref=e456] [cursor=pointer]:
+                                  - generic [ref=e457] [cursor=pointer]: ₹
+                                  - generic [ref=e458] [cursor=pointer]: 13,999
+                              - generic [ref=e459] [cursor=pointer]: "M.R.P: ₹22,999"
+                              - generic [ref=e460] [cursor=pointer]:
+                                - generic [ref=e461] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e462] [cursor=pointer]:
+                                  - generic [ref=e463] [cursor=pointer]: ₹22,999
+                                  - generic [ref=e464] [cursor=pointer]: ₹22,999
+                            - generic [ref=e465]: (39% off)
+                          - generic [ref=e469]:
+                            - generic [ref=e470]: Save extra with No Cost EMI
+                            - generic [ref=e471]: Save extra with No Cost EMI
+                        - generic [ref=e473]:
+                          - img "Amazon Prime" [ref=e477]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e479]:
+                            - generic [ref=e480]: FREE delivery
+                            - generic [ref=e481]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e483]:
+                            - generic [ref=e484]: Or fastest delivery
+                            - generic [ref=e485]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e498] [cursor=pointer]
+                        - group "colours available" [ref=e500]:
+                          - list
+                          - link "+2 other colors/patterns" [ref=e502] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDYyMjUyMjQwODYzMjo6MDo6&url=%2FSamsung-Storage-Enhanced-Unmatched-Nightography%2Fdp%2FB0FDBB2VRC%2Fref%3Dsr_1_1_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=1c3TYmMwmt&sp_cr=ZAZ
+                            - generic [ref=e503] [cursor=pointer]: +2 other colors/patterns
+                - listitem [ref=e506]:
+                  - generic [ref=e514]:
+                    - link [ref=e520] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDcyMTAxMDg4MzIzMjo6MDo6&url=%2FSamsung-Awesome-Storage-Nightography-Corning%2Fdp%2FB0CWPBBQ3M%2Fref%3Dsr_1_2_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NzcNMHVe1A&sp_cr=ZAZ
+                      - img [ref=e522] [cursor=pointer]
+                    - generic [ref=e525]:
+                      - generic [ref=e526]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e529] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e531] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - Samsung Galaxy A55 5G (Awesome Navy, 8GB RAM, 256GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [ref=e533] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDcyMTAxMDg4MzIzMjo6MDo6&url=%2FSamsung-Awesome-Storage-Nightography-Corning%2Fdp%2FB0CWPBBQ3M%2Fref%3Dsr_1_2_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NzcNMHVe1A&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Samsung Galaxy A55 5G (Awesome Navy, 8GB RAM, 256GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display" [level=2] [ref=e534] [cursor=pointer]:
+                            - generic [ref=e535] [cursor=pointer]: Samsung Galaxy A55 5G (Awesome Navy, 8GB RAM, 256GB Storage) | AI | Metal Frame | 50 MP Main Camera (OIS) | Super HDR Video| Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED Display
+                      - generic [ref=e536]:
+                        - generic [ref=e537]:
+                          - button "4.2 out of 5 stars, rating details" [ref=e539] [cursor=pointer]:
+                            - generic [ref=e541] [cursor=pointer]: 4.2 out of 5 stars
+                          - link "2,893 ratings" [ref=e543] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDcyMTAxMDg4MzIzMjo6MDo6&url=%2FSamsung-Awesome-Storage-Nightography-Corning%2Fdp%2FB0CWPBBQ3M%2Fref%3Dsr_1_2_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NzcNMHVe1A&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e544] [cursor=pointer]: 2,893
+                        - generic [ref=e546]: 5K+ bought in past month
+                      - generic [ref=e549]:
+                        - generic [ref=e550]:
+                          - link "Great Indian Festival" [ref=e552] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e556] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e558]:
+                            - generic [ref=e559]: Price, product page
+                            - 'link "₹25,999 M.R.P: ₹45,999 M.R.P: ₹45,999" [ref=e560] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDcyMTAxMDg4MzIzMjo6MDo6&url=%2FSamsung-Awesome-Storage-Nightography-Corning%2Fdp%2FB0CWPBBQ3M%2Fref%3Dsr_1_2_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NzcNMHVe1A&sp_cr=ZAZ
+                              - generic [ref=e561] [cursor=pointer]:
+                                - generic [ref=e562] [cursor=pointer]: ₹25,999
+                                - generic [ref=e563] [cursor=pointer]:
+                                  - generic [ref=e564] [cursor=pointer]: ₹
+                                  - generic [ref=e565] [cursor=pointer]: 25,999
+                              - generic [ref=e566] [cursor=pointer]: "M.R.P: ₹45,999"
+                              - generic [ref=e567] [cursor=pointer]:
+                                - generic [ref=e568] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e569] [cursor=pointer]:
+                                  - generic [ref=e570] [cursor=pointer]: ₹45,999
+                                  - generic [ref=e571] [cursor=pointer]: ₹45,999
+                            - generic [ref=e572]: (43% off)
+                          - generic [ref=e576]:
+                            - generic [ref=e577]: Save extra with No Cost EMI
+                            - generic [ref=e578]: Save extra with No Cost EMI
+                        - generic [ref=e580]:
+                          - img "Amazon Prime" [ref=e584]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e586]:
+                            - generic [ref=e587]: FREE delivery
+                            - generic [ref=e588]: Tue, 7 Oct
+                          - generic "Or fastest delivery Mon, 6 Oct" [ref=e590]:
+                            - generic [ref=e591]: Or fastest delivery
+                            - generic [ref=e592]: Mon, 6 Oct
+                        - button "Add to cart" [ref=e605] [cursor=pointer]
+                        - group "colours available" [ref=e607]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e609] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYXRmOjMwMDcyMTAxMDg4MzIzMjo6MDo6&url=%2FSamsung-Awesome-Storage-Nightography-Corning%2Fdp%2FB0CWPBBQ3M%2Fref%3Dsr_1_2_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NzcNMHVe1A&sp_cr=ZAZ
+                            - generic [ref=e610] [cursor=pointer]: +1 other color/pattern
+                - listitem [ref=e613]:
+                  - generic [ref=e619]:
+                    - link [ref=e625] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=sr_1_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3
+                      - img [ref=e627] [cursor=pointer]
+                    - generic [ref=e630]:
+                      - link "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e632] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=sr_1_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3
+                        - heading "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e633] [cursor=pointer]:
+                          - generic [ref=e634] [cursor=pointer]: Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e635]:
+                        - generic [ref=e636]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e638] [cursor=pointer]:
+                            - generic [ref=e640] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e642] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=sr_1_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3#customerReviews
+                            - generic [ref=e643] [cursor=pointer]: 1,566
+                        - generic [ref=e645]: 5K+ bought in past month
+                      - generic [ref=e648]:
+                        - generic [ref=e649]:
+                          - link "Great Indian Festival" [ref=e651] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e655] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e657]:
+                            - generic [ref=e658]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹22,999 M.R.P: ₹22,999" [ref=e659] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=sr_1_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3
+                              - generic [ref=e660] [cursor=pointer]:
+                                - generic [ref=e661] [cursor=pointer]: ₹13,999
+                                - generic [ref=e662] [cursor=pointer]:
+                                  - generic [ref=e663] [cursor=pointer]: ₹
+                                  - generic [ref=e664] [cursor=pointer]: 13,999
+                              - generic [ref=e665] [cursor=pointer]: "M.R.P: ₹22,999"
+                              - generic [ref=e666] [cursor=pointer]:
+                                - generic [ref=e667] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e668] [cursor=pointer]:
+                                  - generic [ref=e669] [cursor=pointer]: ₹22,999
+                                  - generic [ref=e670] [cursor=pointer]: ₹22,999
+                            - generic [ref=e671]: (39% off)
+                          - generic [ref=e675]:
+                            - generic [ref=e676]: Save extra with No Cost EMI
+                            - generic [ref=e677]: Save extra with No Cost EMI
+                        - generic [ref=e679]:
+                          - img "Amazon Prime" [ref=e683]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e685]:
+                            - generic [ref=e686]: FREE delivery
+                            - generic [ref=e687]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e689]:
+                            - generic [ref=e690]: Or fastest delivery
+                            - generic [ref=e691]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e704] [cursor=pointer]
+                        - group "colours available" [ref=e706]:
+                          - list [ref=e707]:
+                            - generic [ref=e708]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3
+                            - generic [ref=e711]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3
+                            - generic [ref=e714]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-3
+                - listitem [ref=e719]:
+                  - generic [ref=e725]:
+                    - link [ref=e731] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_4?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4
+                      - img [ref=e733] [cursor=pointer]
+                    - generic [ref=e736]:
+                      - link "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e738] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_4?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4
+                        - heading "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e739] [cursor=pointer]:
+                          - generic [ref=e740] [cursor=pointer]: Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e741]:
+                        - generic [ref=e742]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e744] [cursor=pointer]:
+                            - generic [ref=e746] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e748] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_4?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4#customerReviews
+                            - generic [ref=e749] [cursor=pointer]: 1,566
+                        - generic [ref=e751]: 5K+ bought in past month
+                      - generic [ref=e754]:
+                        - generic [ref=e755]:
+                          - link "Great Indian Festival" [ref=e757] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e761] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e763]:
+                            - generic [ref=e764]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹22,999 M.R.P: ₹22,999" [ref=e765] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=sr_1_4?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4
+                              - generic [ref=e766] [cursor=pointer]:
+                                - generic [ref=e767] [cursor=pointer]: ₹13,999
+                                - generic [ref=e768] [cursor=pointer]:
+                                  - generic [ref=e769] [cursor=pointer]: ₹
+                                  - generic [ref=e770] [cursor=pointer]: 13,999
+                              - generic [ref=e771] [cursor=pointer]: "M.R.P: ₹22,999"
+                              - generic [ref=e772] [cursor=pointer]:
+                                - generic [ref=e773] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e774] [cursor=pointer]:
+                                  - generic [ref=e775] [cursor=pointer]: ₹22,999
+                                  - generic [ref=e776] [cursor=pointer]: ₹22,999
+                            - generic [ref=e777]: (39% off)
+                          - generic [ref=e781]:
+                            - generic [ref=e782]: Save extra with No Cost EMI
+                            - generic [ref=e783]: Save extra with No Cost EMI
+                        - generic [ref=e785]:
+                          - img "Amazon Prime" [ref=e789]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e791]:
+                            - generic [ref=e792]: FREE delivery
+                            - generic [ref=e793]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e795]:
+                            - generic [ref=e796]: Or fastest delivery
+                            - generic [ref=e797]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e810] [cursor=pointer]
+                        - group "colours available" [ref=e812]:
+                          - list [ref=e813]:
+                            - generic [ref=e814]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4
+                            - generic [ref=e817]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4
+                            - generic [ref=e820]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-4
+                - listitem [ref=e825]:
+                  - generic [ref=e831]:
+                    - link [ref=e837] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB8V6PS/ref=sr_1_5?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5
+                      - img [ref=e839] [cursor=pointer]
+                    - generic [ref=e842]:
+                      - link "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e844] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB8V6PS/ref=sr_1_5?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5
+                        - heading "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e845] [cursor=pointer]:
+                          - generic [ref=e846] [cursor=pointer]: Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e847]:
+                        - generic [ref=e848]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e850] [cursor=pointer]:
+                            - generic [ref=e852] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e854] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB8V6PS/ref=sr_1_5?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5#customerReviews
+                            - generic [ref=e855] [cursor=pointer]: 1,566
+                        - generic [ref=e857]: 5K+ bought in past month
+                      - generic [ref=e860]:
+                        - generic [ref=e861]:
+                          - link "Great Indian Festival" [ref=e863] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e867] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e869]:
+                            - generic [ref=e870]: Price, product page
+                            - 'link "₹17,499 M.R.P: ₹27,499 M.R.P: ₹27,499" [ref=e871] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB8V6PS/ref=sr_1_5?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5
+                              - generic [ref=e872] [cursor=pointer]:
+                                - generic [ref=e873] [cursor=pointer]: ₹17,499
+                                - generic [ref=e874] [cursor=pointer]:
+                                  - generic [ref=e875] [cursor=pointer]: ₹
+                                  - generic [ref=e876] [cursor=pointer]: 17,499
+                              - generic [ref=e877] [cursor=pointer]: "M.R.P: ₹27,499"
+                              - generic [ref=e878] [cursor=pointer]:
+                                - generic [ref=e879] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e880] [cursor=pointer]:
+                                  - generic [ref=e881] [cursor=pointer]: ₹27,499
+                                  - generic [ref=e882] [cursor=pointer]: ₹27,499
+                            - generic [ref=e883]: (36% off)
+                          - generic [ref=e887]:
+                            - generic [ref=e888]: Save extra with No Cost EMI
+                            - generic [ref=e889]: Save extra with No Cost EMI
+                        - generic [ref=e891]:
+                          - img "Amazon Prime" [ref=e895]
+                          - generic "FREE delivery Thu, 9 Oct" [ref=e897]:
+                            - generic [ref=e898]: FREE delivery
+                            - generic [ref=e899]: Thu, 9 Oct
+                        - button "Add to cart" [ref=e912] [cursor=pointer]
+                        - group "colours available" [ref=e914]:
+                          - list [ref=e915]:
+                            - generic [ref=e916]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB8V6PS/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5
+                            - generic [ref=e919]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5
+                            - generic [ref=e922]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB6BHS5/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-5
+                - listitem [ref=e927]:
+                  - generic [ref=e933]:
+                    - link [ref=e939] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_6?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6
+                      - img [ref=e941] [cursor=pointer]
+                    - generic [ref=e944]:
+                      - link "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e946] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_6?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6
+                        - heading "Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e947] [cursor=pointer]:
+                          - generic [ref=e948] [cursor=pointer]: Samsung Galaxy M36 5G (Velvet Black, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e949]:
+                        - generic [ref=e950]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e952] [cursor=pointer]:
+                            - generic [ref=e954] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e956] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_6?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6#customerReviews
+                            - generic [ref=e957] [cursor=pointer]: 1,566
+                        - generic [ref=e959]: 5K+ bought in past month
+                      - generic [ref=e962]:
+                        - generic [ref=e963]:
+                          - link "Great Indian Festival" [ref=e965] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e969] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e971]:
+                            - generic [ref=e972]: Price, product page
+                            - 'link "₹15,499 M.R.P: ₹24,499 M.R.P: ₹24,499" [ref=e973] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=sr_1_6?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6
+                              - generic [ref=e974] [cursor=pointer]:
+                                - generic [ref=e975] [cursor=pointer]: ₹15,499
+                                - generic [ref=e976] [cursor=pointer]:
+                                  - generic [ref=e977] [cursor=pointer]: ₹
+                                  - generic [ref=e978] [cursor=pointer]: 15,499
+                              - generic [ref=e979] [cursor=pointer]: "M.R.P: ₹24,499"
+                              - generic [ref=e980] [cursor=pointer]:
+                                - generic [ref=e981] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e982] [cursor=pointer]:
+                                  - generic [ref=e983] [cursor=pointer]: ₹24,499
+                                  - generic [ref=e984] [cursor=pointer]: ₹24,499
+                            - generic [ref=e985]: (37% off)
+                          - generic [ref=e989]:
+                            - generic [ref=e990]: Save extra with No Cost EMI
+                            - generic [ref=e991]: Save extra with No Cost EMI
+                        - generic [ref=e993]:
+                          - img "Amazon Prime" [ref=e997]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e999]:
+                            - generic [ref=e1000]: FREE delivery
+                            - generic [ref=e1001]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1003]:
+                            - generic [ref=e1004]: Or fastest delivery
+                            - generic [ref=e1005]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1018] [cursor=pointer]
+                        - group "colours available" [ref=e1020]:
+                          - list [ref=e1021]:
+                            - generic [ref=e1022]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6
+                            - generic [ref=e1025]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6
+                            - generic [ref=e1028]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-6
+                - listitem [ref=e1033]:
+                  - generic [ref=e1039]:
+                    - link [ref=e1045] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB6BHS5/ref=sr_1_7?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7
+                      - img [ref=e1047] [cursor=pointer]
+                    - generic [ref=e1050]:
+                      - link "Samsung Galaxy M36 5G (Serene Green, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1052] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB6BHS5/ref=sr_1_7?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7
+                        - heading "Samsung Galaxy M36 5G (Serene Green, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e1053] [cursor=pointer]:
+                          - generic [ref=e1054] [cursor=pointer]: Samsung Galaxy M36 5G (Serene Green, 8 GB RAM, 256 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e1055]:
+                        - generic [ref=e1056]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e1058] [cursor=pointer]:
+                            - generic [ref=e1060] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e1062] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB6BHS5/ref=sr_1_7?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7#customerReviews
+                            - generic [ref=e1063] [cursor=pointer]: 1,566
+                        - generic [ref=e1065]: 4K+ bought in past month
+                      - generic [ref=e1068]:
+                        - generic [ref=e1069]:
+                          - link "Great Indian Festival" [ref=e1071] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1075] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1077]:
+                            - generic [ref=e1078]: Price, product page
+                            - 'link "₹17,499 M.R.P: ₹27,499 M.R.P: ₹27,499" [ref=e1079] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB6BHS5/ref=sr_1_7?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7
+                              - generic [ref=e1080] [cursor=pointer]:
+                                - generic [ref=e1081] [cursor=pointer]: ₹17,499
+                                - generic [ref=e1082] [cursor=pointer]:
+                                  - generic [ref=e1083] [cursor=pointer]: ₹
+                                  - generic [ref=e1084] [cursor=pointer]: 17,499
+                              - generic [ref=e1085] [cursor=pointer]: "M.R.P: ₹27,499"
+                              - generic [ref=e1086] [cursor=pointer]:
+                                - generic [ref=e1087] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1088] [cursor=pointer]:
+                                  - generic [ref=e1089] [cursor=pointer]: ₹27,499
+                                  - generic [ref=e1090] [cursor=pointer]: ₹27,499
+                            - generic [ref=e1091]: (36% off)
+                          - generic [ref=e1095]:
+                            - generic [ref=e1096]: Save extra with No Cost EMI
+                            - generic [ref=e1097]: Save extra with No Cost EMI
+                        - generic [ref=e1099]:
+                          - img "Amazon Prime" [ref=e1103]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1105]:
+                            - generic [ref=e1106]: FREE delivery
+                            - generic [ref=e1107]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1109]:
+                            - generic [ref=e1110]: Or fastest delivery
+                            - generic [ref=e1111]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1124] [cursor=pointer]
+                        - group "colours available" [ref=e1126]:
+                          - list [ref=e1127]:
+                            - generic [ref=e1128]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB6BHS5/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7
+                            - generic [ref=e1131]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7
+                            - generic [ref=e1134]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB8V6PS/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-7
+                - listitem [ref=e1139]:
+                  - generic [ref=e1145]:
+                    - link [ref=e1151] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=sr_1_8?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8
+                      - img [ref=e1153] [cursor=pointer]
+                    - generic [ref=e1156]:
+                      - link "Samsung Galaxy M36 5G (Serene Green, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1158] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=sr_1_8?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8
+                        - heading "Samsung Galaxy M36 5G (Serene Green, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e1159] [cursor=pointer]:
+                          - generic [ref=e1160] [cursor=pointer]: Samsung Galaxy M36 5G (Serene Green, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e1161]:
+                        - generic [ref=e1162]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e1164] [cursor=pointer]:
+                            - generic [ref=e1166] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e1168] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=sr_1_8?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8#customerReviews
+                            - generic [ref=e1169] [cursor=pointer]: 1,566
+                        - generic [ref=e1171]: 4K+ bought in past month
+                      - generic [ref=e1174]:
+                        - generic [ref=e1175]:
+                          - link "Great Indian Festival" [ref=e1177] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1181] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1183]:
+                            - generic [ref=e1184]: Price, product page
+                            - 'link "₹15,499 M.R.P: ₹24,499 M.R.P: ₹24,499" [ref=e1185] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=sr_1_8?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8
+                              - generic [ref=e1186] [cursor=pointer]:
+                                - generic [ref=e1187] [cursor=pointer]: ₹15,499
+                                - generic [ref=e1188] [cursor=pointer]:
+                                  - generic [ref=e1189] [cursor=pointer]: ₹
+                                  - generic [ref=e1190] [cursor=pointer]: 15,499
+                              - generic [ref=e1191] [cursor=pointer]: "M.R.P: ₹24,499"
+                              - generic [ref=e1192] [cursor=pointer]:
+                                - generic [ref=e1193] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1194] [cursor=pointer]:
+                                  - generic [ref=e1195] [cursor=pointer]: ₹24,499
+                                  - generic [ref=e1196] [cursor=pointer]: ₹24,499
+                            - generic [ref=e1197]: (37% off)
+                          - generic [ref=e1201]:
+                            - generic [ref=e1202]: Save extra with No Cost EMI
+                            - generic [ref=e1203]: Save extra with No Cost EMI
+                        - generic [ref=e1205]:
+                          - img "Amazon Prime" [ref=e1209]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1211]:
+                            - generic [ref=e1212]: FREE delivery
+                            - generic [ref=e1213]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1215]:
+                            - generic [ref=e1216]: Or fastest delivery
+                            - generic [ref=e1217]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1230] [cursor=pointer]
+                        - group "colours available" [ref=e1232]:
+                          - list [ref=e1233]:
+                            - generic [ref=e1234]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8
+                            - generic [ref=e1237]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8
+                            - generic [ref=e1240]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-8
+                - listitem [ref=e1245]:
+                  - generic [ref=e1251]:
+                    - link [ref=e1257] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=sr_1_9?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9
+                      - img [ref=e1259] [cursor=pointer]
+                    - generic [ref=e1262]:
+                      - link "Samsung Galaxy M36 5G (Orange Haze, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1264] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=sr_1_9?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9
+                        - heading "Samsung Galaxy M36 5G (Orange Haze, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e1265] [cursor=pointer]:
+                          - generic [ref=e1266] [cursor=pointer]: Samsung Galaxy M36 5G (Orange Haze, 8 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e1267]:
+                        - generic [ref=e1268]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e1270] [cursor=pointer]:
+                            - generic [ref=e1272] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e1274] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=sr_1_9?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9#customerReviews
+                            - generic [ref=e1275] [cursor=pointer]: 1,566
+                        - generic [ref=e1277]: 3K+ bought in past month
+                      - generic [ref=e1280]:
+                        - generic [ref=e1281]:
+                          - link "Great Indian Festival" [ref=e1283] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1287] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1289]:
+                            - generic [ref=e1290]: Price, product page
+                            - 'link "₹15,499 M.R.P: ₹24,499 M.R.P: ₹24,499" [ref=e1291] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=sr_1_9?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9
+                              - generic [ref=e1292] [cursor=pointer]:
+                                - generic [ref=e1293] [cursor=pointer]: ₹15,499
+                                - generic [ref=e1294] [cursor=pointer]:
+                                  - generic [ref=e1295] [cursor=pointer]: ₹
+                                  - generic [ref=e1296] [cursor=pointer]: 15,499
+                              - generic [ref=e1297] [cursor=pointer]: "M.R.P: ₹24,499"
+                              - generic [ref=e1298] [cursor=pointer]:
+                                - generic [ref=e1299] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1300] [cursor=pointer]:
+                                  - generic [ref=e1301] [cursor=pointer]: ₹24,499
+                                  - generic [ref=e1302] [cursor=pointer]: ₹24,499
+                            - generic [ref=e1303]: (37% off)
+                          - generic [ref=e1307]:
+                            - generic [ref=e1308]: Save extra with No Cost EMI
+                            - generic [ref=e1309]: Save extra with No Cost EMI
+                        - generic [ref=e1311]:
+                          - img "Amazon Prime" [ref=e1315]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1317]:
+                            - generic [ref=e1318]: FREE delivery
+                            - generic [ref=e1319]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1321]:
+                            - generic [ref=e1322]: Or fastest delivery
+                            - generic [ref=e1323]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1336] [cursor=pointer]
+                        - group "colours available" [ref=e1338]:
+                          - list [ref=e1339]:
+                            - generic [ref=e1340]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9T213/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9
+                            - generic [ref=e1343]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H9Z7/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9
+                            - generic [ref=e1346]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9ZCTD/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-9
+                - listitem [ref=e1351]:
+                  - generic [ref=e1357]:
+                    - link [ref=e1363] [cursor=pointer]:
+                      - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=sr_1_10?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10
+                      - img [ref=e1365] [cursor=pointer]
+                    - generic [ref=e1368]:
+                      - link "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1370] [cursor=pointer]:
+                        - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=sr_1_10?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10
+                        - heading "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [level=2] [ref=e1371] [cursor=pointer]:
+                          - generic [ref=e1372] [cursor=pointer]: Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography
+                      - generic [ref=e1373]:
+                        - generic [ref=e1374]:
+                          - button "3.8 out of 5 stars, rating details" [ref=e1376] [cursor=pointer]:
+                            - generic [ref=e1378] [cursor=pointer]: 3.8 out of 5 stars
+                          - link "1,566 ratings" [ref=e1380] [cursor=pointer]:
+                            - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=sr_1_10?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10#customerReviews
+                            - generic [ref=e1381] [cursor=pointer]: 1,566
+                        - generic [ref=e1383]: 5K+ bought in past month
+                      - generic [ref=e1386]:
+                        - generic [ref=e1387]:
+                          - link "Great Indian Festival" [ref=e1389] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1393] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1395]:
+                            - generic [ref=e1396]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹22,999 M.R.P: ₹22,999" [ref=e1397] [cursor=pointer]':
+                              - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=sr_1_10?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10
+                              - generic [ref=e1398] [cursor=pointer]:
+                                - generic [ref=e1399] [cursor=pointer]: ₹13,999
+                                - generic [ref=e1400] [cursor=pointer]:
+                                  - generic [ref=e1401] [cursor=pointer]: ₹
+                                  - generic [ref=e1402] [cursor=pointer]: 13,999
+                              - generic [ref=e1403] [cursor=pointer]: "M.R.P: ₹22,999"
+                              - generic [ref=e1404] [cursor=pointer]:
+                                - generic [ref=e1405] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1406] [cursor=pointer]:
+                                  - generic [ref=e1407] [cursor=pointer]: ₹22,999
+                                  - generic [ref=e1408] [cursor=pointer]: ₹22,999
+                            - generic [ref=e1409]: (39% off)
+                          - generic [ref=e1413]:
+                            - generic [ref=e1414]: Save extra with No Cost EMI
+                            - generic [ref=e1415]: Save extra with No Cost EMI
+                        - generic [ref=e1417]:
+                          - img "Amazon Prime" [ref=e1421]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1423]:
+                            - generic [ref=e1424]: FREE delivery
+                            - generic [ref=e1425]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1427]:
+                            - generic [ref=e1428]: Or fastest delivery
+                            - generic [ref=e1429]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1442] [cursor=pointer]
+                        - group "colours available" [ref=e1444]:
+                          - list [ref=e1445]:
+                            - generic [ref=e1446]:
+                              - listitem:
+                                - link "Orange Haze":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB765TN/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10
+                            - generic [ref=e1449]:
+                              - listitem:
+                                - link "Serene Green":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDB9H277/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10
+                            - generic [ref=e1452]:
+                              - listitem:
+                                - link "Velvet Black":
+                                  - /url: /Samsung-Storage-Enhanced-Unmatched-Nightography/dp/B0FDBB2VRC/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-10
+                - listitem [ref=e1457]:
+                  - generic [ref=e1465]:
+                    - link [ref=e1471] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDcyMjQ0NTU5NzIzMjo6MDo6&url=%2FiQOO-Dimensity-Processor-Military-Grade-Durability%2Fdp%2FB0F2T674FJ%2Fref%3Dsr_1_11_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=yFSNn0c44F&sp_cr=ZAZ
+                      - img [ref=e1473] [cursor=pointer]
+                    - generic [ref=e1476]:
+                      - generic [ref=e1477]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1480] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e1482] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Grade Durability" [ref=e1484] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDcyMjQ0NTU5NzIzMjo6MDo6&url=%2FiQOO-Dimensity-Processor-Military-Grade-Durability%2Fdp%2FB0F2T674FJ%2Fref%3Dsr_1_11_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=yFSNn0c44F&sp_cr=ZAZ
+                          - heading "Sponsored Ad - iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Grade Durability" [level=2] [ref=e1485] [cursor=pointer]:
+                            - generic [ref=e1486] [cursor=pointer]: iQOO Z10x 5G (Titanium, 6GB RAM, 128GB Storage) | 6500 mAh Large Capacity Battery | Dimensity 7300 Processor | Military-Grade Durability
+                      - generic [ref=e1487]:
+                        - generic [ref=e1488]:
+                          - button "4.3 out of 5 stars, rating details" [ref=e1490] [cursor=pointer]:
+                            - generic [ref=e1492] [cursor=pointer]: 4.3 out of 5 stars
+                          - link "5,115 ratings" [ref=e1494] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDcyMjQ0NTU5NzIzMjo6MDo6&url=%2FiQOO-Dimensity-Processor-Military-Grade-Durability%2Fdp%2FB0F2T674FJ%2Fref%3Dsr_1_11_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=yFSNn0c44F&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e1495] [cursor=pointer]: 5,115
+                        - generic [ref=e1497]: 5K+ bought in past month
+                      - generic [ref=e1500]:
+                        - generic [ref=e1501]:
+                          - link "Great Indian Festival" [ref=e1503] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1507] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1509]:
+                            - generic [ref=e1510]: Price, product page
+                            - 'link "₹12,998 M.R.P: ₹17,499 M.R.P: ₹17,499" [ref=e1511] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDcyMjQ0NTU5NzIzMjo6MDo6&url=%2FiQOO-Dimensity-Processor-Military-Grade-Durability%2Fdp%2FB0F2T674FJ%2Fref%3Dsr_1_11_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=yFSNn0c44F&sp_cr=ZAZ
+                              - generic [ref=e1512] [cursor=pointer]:
+                                - generic [ref=e1513] [cursor=pointer]: ₹12,998
+                                - generic [ref=e1514] [cursor=pointer]:
+                                  - generic [ref=e1515] [cursor=pointer]: ₹
+                                  - generic [ref=e1516] [cursor=pointer]: 12,998
+                              - generic [ref=e1517] [cursor=pointer]: "M.R.P: ₹17,499"
+                              - generic [ref=e1518] [cursor=pointer]:
+                                - generic [ref=e1519] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1520] [cursor=pointer]:
+                                  - generic [ref=e1521] [cursor=pointer]: ₹17,499
+                                  - generic [ref=e1522] [cursor=pointer]: ₹17,499
+                            - generic [ref=e1523]: (26% off)
+                          - generic [ref=e1527]:
+                            - generic [ref=e1528]: 10% on select bank cards
+                            - generic [ref=e1529]: 10% on select bank cards
+                        - generic [ref=e1533]: FREE delivery
+                        - button "Add to cart" [ref=e1546] [cursor=pointer]
+                        - group "colours available" [ref=e1548]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e1550] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDcyMjQ0NTU5NzIzMjo6MDo6&url=%2FiQOO-Dimensity-Processor-Military-Grade-Durability%2Fdp%2FB0F2T674FJ%2Fref%3Dsr_1_11_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-11-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=yFSNn0c44F&sp_cr=ZAZ
+                            - generic [ref=e1551] [cursor=pointer]: +1 other color/pattern
+                - listitem [ref=e1554]:
+                  - generic [ref=e1562]:
+                    - link [ref=e1568] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDczODU0NDAyMjIzMjo6MDo6&url=%2FiQOO-Moonstone-Quad-Curved-Dimensity-Processor%2Fdp%2FB0FHB59PXX%2Fref%3Dsr_1_12_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=HO3aS7amhd&sp_cr=ZAZ
+                      - img [ref=e1570] [cursor=pointer]
+                    - generic [ref=e1573]:
+                      - generic [ref=e1574]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1577] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e1579] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - iQOO Z10R 5G (Moonstone, 8GB RAM, 256GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu" [ref=e1581] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDczODU0NDAyMjIzMjo6MDo6&url=%2FiQOO-Moonstone-Quad-Curved-Dimensity-Processor%2Fdp%2FB0FHB59PXX%2Fref%3Dsr_1_12_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=HO3aS7amhd&sp_cr=ZAZ
+                          - heading "Sponsored Ad - iQOO Z10R 5G (Moonstone, 8GB RAM, 256GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu" [level=2] [ref=e1582] [cursor=pointer]:
+                            - generic [ref=e1583] [cursor=pointer]: iQOO Z10R 5G (Moonstone, 8GB RAM, 256GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu
+                      - generic [ref=e1584]:
+                        - generic [ref=e1585]:
+                          - button "4.3 out of 5 stars, rating details" [ref=e1587] [cursor=pointer]:
+                            - generic [ref=e1589] [cursor=pointer]: 4.3 out of 5 stars
+                          - link "1,227 ratings" [ref=e1591] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDczODU0NDAyMjIzMjo6MDo6&url=%2FiQOO-Moonstone-Quad-Curved-Dimensity-Processor%2Fdp%2FB0FHB59PXX%2Fref%3Dsr_1_12_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=HO3aS7amhd&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e1592] [cursor=pointer]: 1,227
+                        - generic [ref=e1594]: 5K+ bought in past month
+                      - generic [ref=e1597]:
+                        - generic [ref=e1598]:
+                          - link "Great Indian Festival" [ref=e1600] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1604] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1606]:
+                            - generic [ref=e1607]: Price, product page
+                            - 'link "₹21,498 M.R.P: ₹24,999 M.R.P: ₹24,999" [ref=e1608] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDczODU0NDAyMjIzMjo6MDo6&url=%2FiQOO-Moonstone-Quad-Curved-Dimensity-Processor%2Fdp%2FB0FHB59PXX%2Fref%3Dsr_1_12_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=HO3aS7amhd&sp_cr=ZAZ
+                              - generic [ref=e1609] [cursor=pointer]:
+                                - generic [ref=e1610] [cursor=pointer]: ₹21,498
+                                - generic [ref=e1611] [cursor=pointer]:
+                                  - generic [ref=e1612] [cursor=pointer]: ₹
+                                  - generic [ref=e1613] [cursor=pointer]: 21,498
+                              - generic [ref=e1614] [cursor=pointer]: "M.R.P: ₹24,999"
+                              - generic [ref=e1615] [cursor=pointer]:
+                                - generic [ref=e1616] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1617] [cursor=pointer]:
+                                  - generic [ref=e1618] [cursor=pointer]: ₹24,999
+                                  - generic [ref=e1619] [cursor=pointer]: ₹24,999
+                            - generic [ref=e1620]: (14% off)
+                        - generic [ref=e1622]:
+                          - img "Amazon Prime" [ref=e1626]
+                          - generic "FREE delivery Thu, 9 Oct" [ref=e1628]:
+                            - generic [ref=e1629]: FREE delivery
+                            - generic [ref=e1630]: Thu, 9 Oct
+                        - button "Add to cart" [ref=e1643] [cursor=pointer]
+                        - group "colours available" [ref=e1645]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e1647] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfbXRmOjMwMDczODU0NDAyMjIzMjo6MDo6&url=%2FiQOO-Moonstone-Quad-Curved-Dimensity-Processor%2Fdp%2FB0FHB59PXX%2Fref%3Dsr_1_12_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=HO3aS7amhd&sp_cr=ZAZ
+                            - generic [ref=e1648] [cursor=pointer]: +1 other color/pattern
+                - listitem [ref=e1651]:
+                  - generic [ref=e1657]:
+                    - link [ref=e1663] [cursor=pointer]:
+                      - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-13
+                      - img [ref=e1665] [cursor=pointer]
+                    - generic [ref=e1668]:
+                      - link "Samsung Galaxy M35 5G (DayBreak Blue,8GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+| Vapour Cooling Chamber| 6000mAh Battery| 120Hz Super AMOLED Display| AI| Without Charger" [ref=e1670] [cursor=pointer]:
+                        - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-13
+                        - heading "Samsung Galaxy M35 5G (DayBreak Blue,8GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+| Vapour Cooling Chamber| 6000mAh Battery| 120Hz Super AMOLED Display| AI| Without Charger" [level=2] [ref=e1671] [cursor=pointer]:
+                          - generic [ref=e1672] [cursor=pointer]: Samsung Galaxy M35 5G (DayBreak Blue,8GB RAM,128GB Storage)| Corning Gorilla Glass Victus+| AnTuTu Score 595K+| Vapour Cooling Chamber| 6000mAh Battery| 120Hz Super AMOLED Display| AI| Without Charger
+                      - generic [ref=e1673]:
+                        - generic [ref=e1674]:
+                          - button "4.2 out of 5 stars, rating details" [ref=e1676] [cursor=pointer]:
+                            - generic [ref=e1678] [cursor=pointer]: 4.2 out of 5 stars
+                          - link "14,497 ratings" [ref=e1680] [cursor=pointer]:
+                            - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-13#customerReviews
+                            - generic [ref=e1681] [cursor=pointer]: 14,497
+                        - generic [ref=e1683]: 2K+ bought in past month
+                      - generic [ref=e1686]:
+                        - generic [ref=e1687]:
+                          - generic [ref=e1689]:
+                            - generic [ref=e1690]: Price, product page
+                            - 'link "₹15,999 M.R.P: ₹25,999 M.R.P: ₹25,999" [ref=e1691] [cursor=pointer]':
+                              - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=sr_1_13?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-13
+                              - generic [ref=e1692] [cursor=pointer]:
+                                - generic [ref=e1693] [cursor=pointer]: ₹15,999
+                                - generic [ref=e1694] [cursor=pointer]:
+                                  - generic [ref=e1695] [cursor=pointer]: ₹
+                                  - generic [ref=e1696] [cursor=pointer]: 15,999
+                              - generic [ref=e1697] [cursor=pointer]: "M.R.P: ₹25,999"
+                              - generic [ref=e1698] [cursor=pointer]:
+                                - generic [ref=e1699] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1700] [cursor=pointer]:
+                                  - generic [ref=e1701] [cursor=pointer]: ₹25,999
+                                  - generic [ref=e1702] [cursor=pointer]: ₹25,999
+                            - generic [ref=e1703]: (38% off)
+                          - generic [ref=e1707]:
+                            - generic [ref=e1708]: Save extra with No Cost EMI
+                            - generic [ref=e1709]: Save extra with No Cost EMI
+                        - generic [ref=e1711]:
+                          - img "Amazon Prime" [ref=e1715]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1717]:
+                            - generic [ref=e1718]: FREE delivery
+                            - generic [ref=e1719]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1721]:
+                            - generic [ref=e1722]: Or fastest delivery
+                            - generic [ref=e1723]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1736] [cursor=pointer]
+                        - group "colours available" [ref=e1738]:
+                          - list [ref=e1739]:
+                            - generic [ref=e1740]:
+                              - listitem:
+                                - link "DayBreak Blue":
+                                  - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D7Z8FJZ9/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-13
+                            - generic [ref=e1743]:
+                              - listitem:
+                                - link "Moonlight Blue":
+                                  - /url: /Samsung-Daybreak-Storage-Corning-Gorilla/dp/B0D813HQFN/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-13
+                - listitem [ref=e1748]:
+                  - generic [ref=e1754]:
+                    - link [ref=e1760] [cursor=pointer]:
+                      - /url: /Spigen-Essential-Blast-Samsung-Galaxy/dp/B0F9YMR1GT/ref=sr_1_14?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-14
+                      - img [ref=e1762] [cursor=pointer]
+                    - generic [ref=e1765]:
+                      - link "Spigen Essential Sand Blast for Samsung Galaxy M36 5G Case, Galaxy F36 5G Back Cover (2025) - TPU｜Matte Black" [ref=e1767] [cursor=pointer]:
+                        - /url: /Spigen-Essential-Blast-Samsung-Galaxy/dp/B0F9YMR1GT/ref=sr_1_14?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-14
+                        - heading "Spigen Essential Sand Blast for Samsung Galaxy M36 5G Case, Galaxy F36 5G Back Cover (2025) - TPU｜Matte Black" [level=2] [ref=e1768] [cursor=pointer]:
+                          - generic [ref=e1769] [cursor=pointer]: Spigen Essential Sand Blast for Samsung Galaxy M36 5G Case, Galaxy F36 5G Back Cover (2025) - TPU｜Matte Black
+                      - generic [ref=e1770]:
+                        - generic [ref=e1771]:
+                          - button "4.6 out of 5 stars, rating details" [ref=e1773] [cursor=pointer]:
+                            - generic [ref=e1775] [cursor=pointer]: 4.6 out of 5 stars
+                          - link "183 ratings" [ref=e1777] [cursor=pointer]:
+                            - /url: /Spigen-Essential-Blast-Samsung-Galaxy/dp/B0F9YMR1GT/ref=sr_1_14?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-14#customerReviews
+                            - generic [ref=e1778] [cursor=pointer]: "183"
+                        - generic [ref=e1780]: 1K+ bought in past month
+                      - generic [ref=e1783]:
+                        - generic [ref=e1784]:
+                          - link "Great Indian Festival" [ref=e1786] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1790] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e1792]:
+                            - generic [ref=e1793]: Price, product page
+                            - 'link "₹650 M.R.P: ₹1,099 M.R.P: ₹1,099" [ref=e1794] [cursor=pointer]':
+                              - /url: /Spigen-Essential-Blast-Samsung-Galaxy/dp/B0F9YMR1GT/ref=sr_1_14?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-14
+                              - generic [ref=e1795] [cursor=pointer]:
+                                - generic [ref=e1796] [cursor=pointer]: ₹650
+                                - generic [ref=e1797] [cursor=pointer]:
+                                  - generic [ref=e1798] [cursor=pointer]: ₹
+                                  - generic [ref=e1799] [cursor=pointer]: "650"
+                              - generic [ref=e1800] [cursor=pointer]: "M.R.P: ₹1,099"
+                              - generic [ref=e1801] [cursor=pointer]:
+                                - generic [ref=e1802] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1803] [cursor=pointer]:
+                                  - generic [ref=e1804] [cursor=pointer]: ₹1,099
+                                  - generic [ref=e1805] [cursor=pointer]: ₹1,099
+                            - generic [ref=e1806]: (41% off)
+                        - generic [ref=e1808]:
+                          - img "Amazon Prime" [ref=e1812]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1814]:
+                            - generic [ref=e1815]: FREE delivery
+                            - generic [ref=e1816]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1818]:
+                            - generic [ref=e1819]: Or fastest delivery
+                            - generic [ref=e1820]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1833] [cursor=pointer]
+                - listitem [ref=e1836]:
+                  - generic [ref=e1842]:
+                    - link [ref=e1848] [cursor=pointer]:
+                      - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_15?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-15
+                      - img [ref=e1850] [cursor=pointer]
+                    - generic [ref=e1853]:
+                      - link "Samsung Galaxy A35 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) Without Offer" [ref=e1855] [cursor=pointer]:
+                        - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_15?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-15
+                        - heading "Samsung Galaxy A35 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) Without Offer" [level=2] [ref=e1856] [cursor=pointer]:
+                          - generic [ref=e1857] [cursor=pointer]: Samsung Galaxy A35 5G (Awesome Iceblue, 8GB RAM, 128GB Storage) Without Offer
+                      - generic [ref=e1858]:
+                        - generic [ref=e1859]:
+                          - button "4.1 out of 5 stars, rating details" [ref=e1861] [cursor=pointer]:
+                            - generic [ref=e1863] [cursor=pointer]: 4.1 out of 5 stars
+                          - link "449 ratings" [ref=e1865] [cursor=pointer]:
+                            - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_15?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-15#customerReviews
+                            - generic [ref=e1866] [cursor=pointer]: "449"
+                        - generic [ref=e1868]: 1K+ bought in past month
+                      - generic [ref=e1871]:
+                        - generic [ref=e1872]:
+                          - generic [ref=e1874]:
+                            - generic [ref=e1875]: Price, product page
+                            - 'link "₹19,990 M.R.P: ₹33,999 M.R.P: ₹33,999" [ref=e1876] [cursor=pointer]':
+                              - /url: /samsung-Awesome-Iceblue-Storage-Without/dp/B0CXMCX9MD/ref=sr_1_15?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-15
+                              - generic [ref=e1877] [cursor=pointer]:
+                                - generic [ref=e1878] [cursor=pointer]: ₹19,990
+                                - generic [ref=e1879] [cursor=pointer]:
+                                  - generic [ref=e1880] [cursor=pointer]: ₹
+                                  - generic [ref=e1881] [cursor=pointer]: 19,990
+                              - generic [ref=e1882] [cursor=pointer]: "M.R.P: ₹33,999"
+                              - generic [ref=e1883] [cursor=pointer]:
+                                - generic [ref=e1884] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e1885] [cursor=pointer]:
+                                  - generic [ref=e1886] [cursor=pointer]: ₹33,999
+                                  - generic [ref=e1887] [cursor=pointer]: ₹33,999
+                            - generic [ref=e1888]: (41% off)
+                          - generic [ref=e1892]:
+                            - generic [ref=e1893]: 10% on select bank cards
+                            - generic [ref=e1894]: 10% on select bank cards
+                        - generic [ref=e1896]:
+                          - img "Amazon Prime" [ref=e1900]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e1902]:
+                            - generic [ref=e1903]: FREE delivery
+                            - generic [ref=e1904]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e1906]:
+                            - generic [ref=e1907]: Or fastest delivery
+                            - generic [ref=e1908]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e1921] [cursor=pointer]
+                        - generic [ref=e1923]:
+                          - generic [ref=e1924]: More Buying Choices
+                          - generic [ref=e1925]: ₹19,343
+                          - link "(17 new offers)" [ref=e1927] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0CXMCX9MD/ref=sr_1_15_olp?keywords=samsung+m36&crid=18YP55TBXFHX8&sprefix=Samsung%2Caps%2C221&dib_tag=se&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&qid=1759525119&sr=8-15
+          - generic [ref=e1933]:
+            - generic [ref=e1938]:
+              - link [ref=e1939] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+              - generic [ref=e1940]:
+                - link [ref=e1941] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                - generic [ref=e1942]:
+                  - link [ref=e1943] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                  - link [ref=e1944] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                  - link "Shop the Samsung Store on Amazon" [ref=e1945] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_logo&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                    - img "Shop the Samsung Store on Amazon" [ref=e1947] [cursor=pointer]
+                  - generic [ref=e1949]:
+                    - link "New Galaxy M36 5G - Monster AIcon | Sale Is Live - Shop the Samsung Store on Amazon" [ref=e1951] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_hl&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                      - generic [ref=e1953] [cursor=pointer]: New Galaxy M36 5G - Monster AIcon | Sale Is Live
+                    - link "Shop Samsung" [ref=e1955] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_cta&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                      - generic [ref=e1956] [cursor=pointer]:
+                        - generic [ref=e1957] [cursor=pointer]: Shop
+                        - generic [ref=e1958] [cursor=pointer]:
+                          - generic [ref=e1959] [cursor=pointer]: Samsung
+                          - img [ref=e1961] [cursor=pointer]
+              - generic [ref=e1963]:
+                - link "Sponsored video from Samsung, click to learn more about offerings from Samsung on Amazon." [ref=e1968] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/stores/page/9E29ADE8-3242-4FA3-8AAB-83DFFDACE0B1/?_encoding=UTF8&aref=54zqlHvjrq&pd_rd_plhdr=t&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_vid&store_ref=SBV_A09638212J4HZB98B13VB-A00999502X15Q7X1B0D0B&lp_asins=B0FDB9H277%2CB0FDB765TN%2CB0FDBB2VRC&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d
+                - generic [ref=e1972]:
+                  - generic:
+                    - group:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - group:
+                              - list:
+                                - listitem [ref=e1973]:
+                                  - generic [ref=e1976]:
+                                    - link "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1979] [cursor=pointer]:
+                                      - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_img&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - img "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1981] [cursor=pointer]
+                                    - generic [ref=e1983]:
+                                      - link [ref=e1984] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - generic [ref=e1985]:
+                                        - link [ref=e1986] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                        - link "Samsung Galaxy M36 5G (Serene Green, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1987] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_tt&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - link "Rated 3.8 out of 5 stars from 1,566 reviews" [ref=e1989] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB9H277/?_encoding=UTF8&pd_rd_i=B0FDB9H277&ref_=sbx_be_s_sparkle_ssd_rev&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                        - generic [ref=e1990] [cursor=pointer]: "3.8"
+                                        - generic [ref=e1992] [cursor=pointer]: 1,566
+                                - listitem [ref=e1993]:
+                                  - generic [ref=e1996]:
+                                    - link "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e1999] [cursor=pointer]:
+                                      - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_img&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - img "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e2001] [cursor=pointer]
+                                    - generic [ref=e2003]:
+                                      - link [ref=e2004] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - generic [ref=e2005]:
+                                        - link [ref=e2006] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                        - link "Samsung Galaxy M36 5G (Orange Haze, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e2007] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_tt&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - link "Rated 3.8 out of 5 stars from 1,566 reviews" [ref=e2009] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDB765TN/?_encoding=UTF8&pd_rd_i=B0FDB765TN&ref_=sbx_be_s_sparkle_ssd_rev&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                        - generic [ref=e2010] [cursor=pointer]: "3.8"
+                                        - generic [ref=e2012] [cursor=pointer]: 1,566
+                                - listitem [ref=e2013]:
+                                  - generic [ref=e2016]:
+                                    - link "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e2019] [cursor=pointer]:
+                                      - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDBB2VRC/?_encoding=UTF8&pd_rd_i=B0FDBB2VRC&ref_=sbx_be_s_sparkle_ssd_img&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - img "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e2021] [cursor=pointer]
+                                    - generic [ref=e2023]:
+                                      - link [ref=e2024] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDBB2VRC/?_encoding=UTF8&pd_rd_i=B0FDBB2VRC&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - generic [ref=e2025]:
+                                        - link [ref=e2026] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDBB2VRC/?_encoding=UTF8&pd_rd_i=B0FDBB2VRC&ref_=sbx_be_s_sparkle_ssd_bkg&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                        - link "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=e2027] [cursor=pointer]:
+                                          - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDBB2VRC/?_encoding=UTF8&pd_rd_i=B0FDBB2VRC&ref_=sbx_be_s_sparkle_ssd_tt&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                      - link "Rated 3.8 out of 5 stars from 1,566 reviews" [ref=e2029] [cursor=pointer]:
+                                        - /url: https://aax-eu-zaz.amazon.in/x/c/JLooiQw9GrdeelVESs84yeYAAAGZq96lhgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICBdaPuD/clv1_CEuOPUxokZA0iHrVR-Ys4Q78GHlnC-driqo91i6Y9cEox38DtmXuD_018HHz9hvVjq0yzpNb3X7OfU1pBWcAGkliFQ29TsPvShxTWHxLaEmzHqQhskfB8IkGXCRXUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflpfmCuGPCv9a8M5YBhwOkvQn3upSK8FEtmZ7CRCW_yWr3JYqfnqDdhxLjmOcuEw9tBLIB-qvWEICfLr3hPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2OYfChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajw-85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjBlIj_6zD-assPGhvRiew27lxmkinlHmgW-yqgrF1fkpqcEnsiXfH_sdL94sEdC97OOY4BhbMiA5NFrIogb-lANZI3EvOHV1Vjj56EOnpSibX4fbwaCor9bd2G6JaqYUPNWZfLPI_WWgfA4hF8cRGTN9RVl_ZJvG6AzSMl0ZBSeNxbhU1jE6ZYIAz7eAzh1yoiNBEMi2hApczo1ikxxjR2esZpuYHhXlYL9ECd94OiuqfYvFMTEAT5iUdICltPzteibb2IltS9kBBCl0AO2mCnz5WuVXh3tbN_6TkuHtkswUZPz8kDcYHsxIiEcjS0Eufc7AG3byLJgFtKPjk7OxtSeR8C7_0-8FgjlVfPAdJ329K2nH61K4RxYphwP4O4GGzexBvqYQ-jqj2qJPF0XzMmZtRl28xTXlskkYIaz-WqgTv-u5RXveSJNcToklknki_Z9Zj4iI-wqgqUepALWjY-xFc5zR6-grjzqr7KAXCKoNTS__x0bmqOguZUYXyYG14YU6-XR1AsNkAfRWiKowyVW8JFa9uIeVM3mNf5NPDB7iek_ycxrYXiZFcICbbJuepRyUEFN2-4U0n_DomVhaQjVX7a08OfIvJG_fLzCfrHYzDXzitOPblhbGDiPRT0_myTOMf-1q4KUS-s4Gy0I_q13gJFKtHnh614kxn9jZtHXRRDFMQvx4JKPnZNUdADL0ru3kMnDaGWiJdoIAvMKqyfzKw7qFTJJKO-U4sMVEXJnzF1C18K7tRNXqIkMEYhUQ3NTx17hyzp3EqXTM7t6RcHPGKgqblThQiW1cVbeWU3bzNkPb8rxPDXSzrSZC3fQRTS-7dUEZGPJVmOshX969Le1_gZfmHCE08-iGsvbnneZ-WfSbgCt_u2KL7IgnESPzxwlhoQOiiplANQifyF6VhdDf5MswbKxb-UXyOuMOsYYq8i2enLBgL9dOZoBJhmg5LfnPx2GIfdeUDxfXiZOEF5HfzuIS79oJTM2KrfNT5hApdKJXG6kuotziJXjOUpGTpLNwcPiRfsdiRkZvjxhzld30H6yGgl0jQZO8w_oNkc32QnQMkMz3yi9NagjDTPakph5r4uACU5_GtbwljnQrajRvyM3SS4Z7wAa-EiF-prXbS1UXLPe5l6K9d4inHhreoeliLGqmc74ZJB7QKtneJAQbasGvYI7EoTbdt3wERI13fDxHV6UqnltniqLyi-6ktbQ8Zc-Kf6o_U7ojfqUgj6V9LHoxZ9824EogNba7y3YjQwN9BPiha3LEdq9_vNK7lRMxTr2g32GyP7vRO4tXg0u2i8P9PVfyPhBKZS-xLXoxmWFwfDJtM1L_eEepsH_PHI38zzYuh0qfXMxbRrM-MobiT8HTG-VHJn8eNGYgr7yxAbrgrouBpK5bOqlowvDEtY5IhgAqo_rmcEtGw-YOP8dCMR_W6KD1cuTiiclGO1-pBZaeh3nojxMqMLsAVavpT47B1EdnTrGH1O8o4CPCgLJIOxZvbm791IncKJ1o30OnPaN3lzljpfNEAHFr4gnJW9rmBJKi/https://www.amazon.in/dp/B0FDBB2VRC/?_encoding=UTF8&pd_rd_i=B0FDBB2VRC&ref_=sbx_be_s_sparkle_ssd_rev&qid=1759525119&pd_rd_w=9xFID&content-id=amzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d%3Aamzn1.sym.eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_p=eadef63f-1178-4313-af11-ebc58d0abc4d&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=4XVKf&pd_rd_r=59795630-16be-4aba-b71d-595934b5959d&pd_rd_plhdr=t
+                                        - generic [ref=e2030] [cursor=pointer]: "3.8"
+                                        - generic [ref=e2032] [cursor=pointer]: 1,566
+            - button "Leave feedback on Sponsored ad" [ref=e2038] [cursor=pointer]: Sponsored
+          - generic [ref=e2041]:
+            - heading "More results" [level=2] [ref=e2045]
+            - generic:
+              - list:
+                - listitem [ref=e2046]:
+                  - generic [ref=e2052]:
+                    - link [ref=e2058] [cursor=pointer]:
+                      - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_16?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16
+                      - img [ref=e2060] [cursor=pointer]
+                    - generic [ref=e2063]:
+                      - link "Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [ref=e2065] [cursor=pointer]:
+                        - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_16?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16
+                        - heading "Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment" [level=2] [ref=e2066] [cursor=pointer]:
+                          - generic [ref=e2067] [cursor=pointer]: Redmi 13 5G Prime Edition, Hawaiian Blue, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment
+                      - generic [ref=e2068]:
+                        - generic [ref=e2069]:
+                          - button "4.1 out of 5 stars, rating details" [ref=e2071] [cursor=pointer]:
+                            - generic [ref=e2073] [cursor=pointer]: 4.1 out of 5 stars
+                          - link "2,399 ratings" [ref=e2075] [cursor=pointer]:
+                            - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_16?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16#customerReviews
+                            - generic [ref=e2076] [cursor=pointer]: 2,399
+                        - generic [ref=e2078]: 5K+ bought in past month
+                      - generic [ref=e2081]:
+                        - generic [ref=e2082]:
+                          - link "Great Indian Festival" [ref=e2084] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2088] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2090]:
+                            - generic [ref=e2091]: Price, product page
+                            - 'link "₹10,999 M.R.P: ₹19,999 M.R.P: ₹19,999" [ref=e2092] [cursor=pointer]':
+                              - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=sr_1_16?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16
+                              - generic [ref=e2093] [cursor=pointer]:
+                                - generic [ref=e2094] [cursor=pointer]: ₹10,999
+                                - generic [ref=e2095] [cursor=pointer]:
+                                  - generic [ref=e2096] [cursor=pointer]: ₹
+                                  - generic [ref=e2097] [cursor=pointer]: 10,999
+                              - generic [ref=e2098] [cursor=pointer]: "M.R.P: ₹19,999"
+                              - generic [ref=e2099] [cursor=pointer]:
+                                - generic [ref=e2100] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2101] [cursor=pointer]:
+                                  - generic [ref=e2102] [cursor=pointer]: ₹19,999
+                                  - generic [ref=e2103] [cursor=pointer]: ₹19,999
+                            - generic [ref=e2104]: (45% off)
+                          - generic [ref=e2108]:
+                            - generic [ref=e2109]: 10% on select bank cards
+                            - generic [ref=e2110]: 10% on select bank cards
+                        - generic [ref=e2112]:
+                          - img "Amazon Prime" [ref=e2116]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e2118]:
+                            - generic [ref=e2119]: FREE delivery
+                            - generic [ref=e2120]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e2122]:
+                            - generic [ref=e2123]: Or fastest delivery
+                            - generic [ref=e2124]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e2137] [cursor=pointer]
+                        - group "colours available" [ref=e2139]:
+                          - list [ref=e2140]:
+                            - generic [ref=e2141]:
+                              - listitem:
+                                - link "Hawaiian Blue":
+                                  - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X544X/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16
+                            - generic [ref=e2144]:
+                              - listitem:
+                                - link "Diaomond Black":
+                                  - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78Y577J/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16
+                            - generic [ref=e2147]:
+                              - listitem:
+                                - link "Orchid Pink":
+                                  - /url: /Redmi-Hawaiian-Largest-Display-Segment/dp/B0D78X5CMJ/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-16
+                - listitem [ref=e2152]:
+                  - generic [ref=e2158]:
+                    - link [ref=e2164] [cursor=pointer]:
+                      - /url: /Hoerrye-Samsung-Charger-Adapter-Adaptor/dp/B0DZ111Z7F/ref=sr_1_17?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-17
+                      - img [ref=e2166] [cursor=pointer]
+                    - generic [ref=e2169]:
+                      - link "Samsung 25W Pd 3.0 Type C Super Fast Charger Adapter for Samsung Galaxy M36|A17|S25|M06|F06|M16| F16|M05|M35 |F05|A06|A16|Tab S10 Ultra|S10+|A9+|Tablet 25 Watt USB C Quick Charge Power Adaptor, White" [ref=e2171] [cursor=pointer]:
+                        - /url: /Hoerrye-Samsung-Charger-Adapter-Adaptor/dp/B0DZ111Z7F/ref=sr_1_17?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-17
+                        - heading "Samsung 25W Pd 3.0 Type C Super Fast Charger Adapter for Samsung Galaxy M36|A17|S25|M06|F06|M16| F16|M05|M35 |F05|A06|A16|Tab S10 Ultra|S10+|A9+|Tablet 25 Watt USB C Quick Charge Power Adaptor, White" [level=2] [ref=e2172] [cursor=pointer]:
+                          - generic [ref=e2173] [cursor=pointer]: Samsung 25W Pd 3.0 Type C Super Fast Charger Adapter for Samsung Galaxy M36|A17|S25|M06|F06|M16| F16|M05|M35 |F05|A06|A16|Tab S10 Ultra|S10+|A9+|Tablet 25 Watt USB C Quick Charge Power Adaptor, White
+                      - generic [ref=e2174]:
+                        - generic [ref=e2175]:
+                          - button "4.0 out of 5 stars, rating details" [ref=e2177] [cursor=pointer]:
+                            - generic [ref=e2179] [cursor=pointer]: 4.0 out of 5 stars
+                          - link "1,501 ratings" [ref=e2181] [cursor=pointer]:
+                            - /url: /Hoerrye-Samsung-Charger-Adapter-Adaptor/dp/B0DZ111Z7F/ref=sr_1_17?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-17#customerReviews
+                            - generic [ref=e2182] [cursor=pointer]: 1,501
+                        - generic [ref=e2184]: 1K+ bought in past month
+                      - generic [ref=e2187]:
+                        - generic [ref=e2188]:
+                          - link "Limited time deal" [ref=e2190] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2194] [cursor=pointer]: Limited time deal
+                          - generic [ref=e2196]:
+                            - generic [ref=e2197]: Price, product page
+                            - 'link "₹419 M.R.P: ₹1,699 M.R.P: ₹1,699" [ref=e2198] [cursor=pointer]':
+                              - /url: /Hoerrye-Samsung-Charger-Adapter-Adaptor/dp/B0DZ111Z7F/ref=sr_1_17?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-17
+                              - generic [ref=e2199] [cursor=pointer]:
+                                - generic [ref=e2200] [cursor=pointer]: ₹419
+                                - generic [ref=e2201] [cursor=pointer]:
+                                  - generic [ref=e2202] [cursor=pointer]: ₹
+                                  - generic [ref=e2203] [cursor=pointer]: "419"
+                              - generic [ref=e2204] [cursor=pointer]: "M.R.P: ₹1,699"
+                              - generic [ref=e2205] [cursor=pointer]:
+                                - generic [ref=e2206] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2207] [cursor=pointer]:
+                                  - generic [ref=e2208] [cursor=pointer]: ₹1,699
+                                  - generic [ref=e2209] [cursor=pointer]: ₹1,699
+                            - generic [ref=e2210]: (75% off)
+                          - generic [ref=e2213]:
+                            - generic [ref=e2214]: Save 2%
+                            - generic [ref=e2215]: with coupon
+                        - generic "FREE delivery Sat, 11 Oct on first order" [ref=e2218]:
+                          - generic [ref=e2219]: FREE delivery
+                          - generic [ref=e2220]: Sat, 11 Oct
+                          - generic [ref=e2221]: on first order
+                        - button "Add to cart" [ref=e2234] [cursor=pointer]
+                        - group "colours available" [ref=e2236]:
+                          - list
+                          - link "+104 other colors/patterns" [ref=e2238] [cursor=pointer]:
+                            - /url: /Hoerrye-Samsung-Charger-Adapter-Adaptor/dp/B0DZ111Z7F/ref=cs_sr_dp?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-17
+                            - generic [ref=e2239] [cursor=pointer]: +104 other colors/patterns
+                - listitem [ref=e2242]:
+                  - generic [ref=e2248]:
+                    - link [ref=e2254] [cursor=pointer]:
+                      - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_18?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-18
+                      - img [ref=e2256] [cursor=pointer]
+                    - generic [ref=e2259]:
+                      - link "Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger" [ref=e2261] [cursor=pointer]:
+                        - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_18?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-18
+                        - heading "Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger" [level=2] [ref=e2262] [cursor=pointer]:
+                          - generic [ref=e2263] [cursor=pointer]: Samsung Galaxy M06 5G (Sage Green, 6GB RAM, 128 GB Storage) | MediaTek Dimensity 6300 | AnTuTu Score 422K+ | 12 5G Bands| 25W Fast Charging | 4 Gen of OS Upgrades | Without Charger
+                      - generic [ref=e2264]:
+                        - generic [ref=e2265]:
+                          - button "3.9 out of 5 stars, rating details" [ref=e2267] [cursor=pointer]:
+                            - generic [ref=e2269] [cursor=pointer]: 3.9 out of 5 stars
+                          - link "3,350 ratings" [ref=e2271] [cursor=pointer]:
+                            - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_18?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-18#customerReviews
+                            - generic [ref=e2272] [cursor=pointer]: 3,350
+                        - generic [ref=e2274]: 5K+ bought in past month
+                      - generic [ref=e2277]:
+                        - generic [ref=e2278]:
+                          - link "Great Indian Festival" [ref=e2280] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2284] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2286]:
+                            - generic [ref=e2287]: Price, product page
+                            - 'link "₹8,999 M.R.P: ₹15,499 M.R.P: ₹15,499" [ref=e2288] [cursor=pointer]':
+                              - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=sr_1_18?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-18
+                              - generic [ref=e2289] [cursor=pointer]:
+                                - generic [ref=e2290] [cursor=pointer]: ₹8,999
+                                - generic [ref=e2291] [cursor=pointer]:
+                                  - generic [ref=e2292] [cursor=pointer]: ₹
+                                  - generic [ref=e2293] [cursor=pointer]: 8,999
+                              - generic [ref=e2294] [cursor=pointer]: "M.R.P: ₹15,499"
+                              - generic [ref=e2295] [cursor=pointer]:
+                                - generic [ref=e2296] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2297] [cursor=pointer]:
+                                  - generic [ref=e2298] [cursor=pointer]: ₹15,499
+                                  - generic [ref=e2299] [cursor=pointer]: ₹15,499
+                            - generic [ref=e2300]: (42% off)
+                          - generic [ref=e2304]:
+                            - generic [ref=e2305]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e2306]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e2308]:
+                          - img "Amazon Prime" [ref=e2312]
+                          - generic "FREE delivery Tue, 7 Oct" [ref=e2314]:
+                            - generic [ref=e2315]: FREE delivery
+                            - generic [ref=e2316]: Tue, 7 Oct
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e2318]:
+                            - generic [ref=e2319]: Or fastest delivery
+                            - generic [ref=e2320]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e2333] [cursor=pointer]
+                        - group "colours available" [ref=e2335]:
+                          - list [ref=e2336]:
+                            - generic [ref=e2337]:
+                              - listitem:
+                                - link "Sage Green":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0DX655V11/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-18
+                            - generic [ref=e2340]:
+                              - listitem:
+                                - link "Blazing Black":
+                                  - /url: /Samsung-MediaTek-Dimensity-Charging-Upgrades/dp/B0F3X4R33R/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-18
+                - listitem [ref=e2345]:
+                  - generic [ref=e2351]:
+                    - link [ref=e2357] [cursor=pointer]:
+                      - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL34B3Y/ref=sr_1_19?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                      - img [ref=e2359] [cursor=pointer]
+                    - generic [ref=e2362]:
+                      - link "Amazon Brand-Solimo Basic Case for Samsung Galaxy M36 5G (Silicone_Purple)" [ref=e2364] [cursor=pointer]:
+                        - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL34B3Y/ref=sr_1_19?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                        - heading "Amazon Brand-Solimo Basic Case for Samsung Galaxy M36 5G (Silicone_Purple)" [level=2] [ref=e2365] [cursor=pointer]:
+                          - generic [ref=e2366] [cursor=pointer]: Amazon Brand-Solimo Basic Case for Samsung Galaxy M36 5G (Silicone_Purple)
+                      - generic [ref=e2367]:
+                        - generic [ref=e2368]:
+                          - button "4.4 out of 5 stars, rating details" [ref=e2370] [cursor=pointer]:
+                            - generic [ref=e2372] [cursor=pointer]: 4.4 out of 5 stars
+                          - link "19 ratings" [ref=e2374] [cursor=pointer]:
+                            - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL34B3Y/ref=sr_1_19?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19#customerReviews
+                            - generic [ref=e2375] [cursor=pointer]: "19"
+                        - generic [ref=e2377]: 50+ bought in past month
+                      - generic [ref=e2380]:
+                        - generic [ref=e2381]:
+                          - link "Great Indian Festival" [ref=e2383] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2387] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2389]:
+                            - generic [ref=e2390]: Price, product page
+                            - 'link "₹299 M.R.P: ₹499 M.R.P: ₹499" [ref=e2391] [cursor=pointer]':
+                              - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL34B3Y/ref=sr_1_19?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                              - generic [ref=e2392] [cursor=pointer]:
+                                - generic [ref=e2393] [cursor=pointer]: ₹299
+                                - generic [ref=e2394] [cursor=pointer]:
+                                  - generic [ref=e2395] [cursor=pointer]: ₹
+                                  - generic [ref=e2396] [cursor=pointer]: "299"
+                              - generic [ref=e2397] [cursor=pointer]: "M.R.P: ₹499"
+                              - generic [ref=e2398] [cursor=pointer]:
+                                - generic [ref=e2399] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2400] [cursor=pointer]:
+                                  - generic [ref=e2401] [cursor=pointer]: ₹499
+                                  - generic [ref=e2402] [cursor=pointer]: ₹499
+                            - generic [ref=e2403]: (40% off)
+                        - generic [ref=e2405]:
+                          - generic "FREE delivery Tue, 7 Oct on first order" [ref=e2407]:
+                            - generic [ref=e2408]: FREE delivery
+                            - generic [ref=e2409]: Tue, 7 Oct
+                            - generic [ref=e2410]: on first order
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e2412]:
+                            - generic [ref=e2413]: Or fastest delivery
+                            - generic [ref=e2414]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e2427] [cursor=pointer]
+                        - group "colours available" [ref=e2429]:
+                          - list [ref=e2430]:
+                            - generic [ref=e2431]:
+                              - listitem:
+                                - link "Purple":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL34B3Y/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                            - generic [ref=e2434]:
+                              - listitem:
+                                - link "Black":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL2VNV9/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                            - generic [ref=e2437]:
+                              - listitem:
+                                - link "Dark Blue":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL4M76Z/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                            - generic [ref=e2440]:
+                              - listitem:
+                                - link "Green":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL5TV8L/ref=cs_sr_dp_4?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                            - generic [ref=e2443]:
+                              - listitem:
+                                - link "Red":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Purple/dp/B0FDL3F4V9/ref=cs_sr_dp_5?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-19
+                - listitem [ref=e2448]:
+                  - generic [ref=e2454]:
+                    - link [ref=e2460] [cursor=pointer]:
+                      - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL37JLY/ref=sr_1_20?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20
+                      - img [ref=e2462] [cursor=pointer]
+                    - generic [ref=e2465]:
+                      - link "Amazon Brand-Solimo Basic Case for Samsung Galaxy M36 5G (Silicone_Matte Black)" [ref=e2467] [cursor=pointer]:
+                        - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL37JLY/ref=sr_1_20?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20
+                        - heading "Amazon Brand-Solimo Basic Case for Samsung Galaxy M36 5G (Silicone_Matte Black)" [level=2] [ref=e2468] [cursor=pointer]:
+                          - generic [ref=e2469] [cursor=pointer]: Amazon Brand-Solimo Basic Case for Samsung Galaxy M36 5G (Silicone_Matte Black)
+                      - generic [ref=e2470]:
+                        - generic [ref=e2471]:
+                          - button "4.4 out of 5 stars, rating details" [ref=e2473] [cursor=pointer]:
+                            - generic [ref=e2475] [cursor=pointer]: 4.4 out of 5 stars
+                          - link "100 ratings" [ref=e2477] [cursor=pointer]:
+                            - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL37JLY/ref=sr_1_20?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20#customerReviews
+                            - generic [ref=e2478] [cursor=pointer]: "100"
+                        - generic [ref=e2480]: 400+ bought in past month
+                      - generic [ref=e2483]:
+                        - generic [ref=e2484]:
+                          - link "Great Indian Festival" [ref=e2486] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2490] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2492]:
+                            - generic [ref=e2493]: Price, product page
+                            - 'link "₹179 M.R.P: ₹499 M.R.P: ₹499" [ref=e2494] [cursor=pointer]':
+                              - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL37JLY/ref=sr_1_20?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20
+                              - generic [ref=e2495] [cursor=pointer]:
+                                - generic [ref=e2496] [cursor=pointer]: ₹179
+                                - generic [ref=e2497] [cursor=pointer]:
+                                  - generic [ref=e2498] [cursor=pointer]: ₹
+                                  - generic [ref=e2499] [cursor=pointer]: "179"
+                              - generic [ref=e2500] [cursor=pointer]: "M.R.P: ₹499"
+                              - generic [ref=e2501] [cursor=pointer]:
+                                - generic [ref=e2502] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2503] [cursor=pointer]:
+                                  - generic [ref=e2504] [cursor=pointer]: ₹499
+                                  - generic [ref=e2505] [cursor=pointer]: ₹499
+                            - generic [ref=e2506]: (64% off)
+                        - generic [ref=e2508]:
+                          - generic "FREE delivery Tue, 7 Oct on first order" [ref=e2510]:
+                            - generic [ref=e2511]: FREE delivery
+                            - generic [ref=e2512]: Tue, 7 Oct
+                            - generic [ref=e2513]: on first order
+                          - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e2515]:
+                            - generic [ref=e2516]: Or fastest delivery
+                            - generic [ref=e2517]: Tomorrow, 5 Oct
+                        - button "Add to cart" [ref=e2530] [cursor=pointer]
+                        - group "colours available" [ref=e2532]:
+                          - list [ref=e2533]:
+                            - generic [ref=e2534]:
+                              - listitem:
+                                - link "Matte Black":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL37JLY/ref=cs_sr_dp_1?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20
+                            - generic [ref=e2537]:
+                              - listitem:
+                                - link "Graphite Grey":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL2W2ZZ/ref=cs_sr_dp_2?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20
+                            - generic [ref=e2540]:
+                              - listitem:
+                                - link "Steel Blue":
+                                  - /url: /Amazon-Brand-Solimo-Samsung-Galaxy-Silicone_Matte/dp/B0FDL169Y8/ref=cs_sr_dp_3?crid=18YP55TBXFHX8&dib=eyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg&dib_tag=se&keywords=samsung+m36&nsdOptOutParam=true&qid=1759525119&sprefix=Samsung%2Caps%2C221&sr=8-20
+                - listitem [ref=e2545]:
+                  - generic [ref=e2553]:
+                    - link [ref=e2559] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMzY2NDMzNzUzMjo6MDo6&url=%2Frealme-Smartphone-6-72-inch-SuperVOOC-Dimensity%2Fdp%2FB0F9FKQVS6%2Fref%3Dsr_1_21_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=Fjoq8zqa0R&sp_cr=ZAZ
+                      - img [ref=e2561] [cursor=pointer]
+                    - generic [ref=e2564]:
+                      - generic [ref=e2565]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2568] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e2570] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - realme P3x 5G Smartphone 6+128GB Lunar Silver,6.72-inch Screen,120Hz Display,6000mAh Battery,45W SuperVOOC, 50MP Camera, MediaTek Dimensity 6400 Processor, IP64" [ref=e2572] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMzY2NDMzNzUzMjo6MDo6&url=%2Frealme-Smartphone-6-72-inch-SuperVOOC-Dimensity%2Fdp%2FB0F9FKQVS6%2Fref%3Dsr_1_21_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=Fjoq8zqa0R&sp_cr=ZAZ
+                          - heading "Sponsored Ad - realme P3x 5G Smartphone 6+128GB Lunar Silver,6.72-inch Screen,120Hz Display,6000mAh Battery,45W SuperVOOC, 50MP Camera, MediaTek Dimensity 6400 Processor, IP64" [level=2] [ref=e2573] [cursor=pointer]:
+                            - generic [ref=e2574] [cursor=pointer]: realme P3x 5G Smartphone 6+128GB Lunar Silver,6.72-inch Screen,120Hz Display,6000mAh Battery,45W SuperVOOC, 50MP Camera, MediaTek Dimensity 6400 Processor, IP64
+                      - generic [ref=e2575]:
+                        - generic [ref=e2576]:
+                          - button "4.4 out of 5 stars, rating details" [ref=e2578] [cursor=pointer]:
+                            - generic [ref=e2580] [cursor=pointer]: 4.4 out of 5 stars
+                          - link "1,262 ratings" [ref=e2582] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMzY2NDMzNzUzMjo6MDo6&url=%2Frealme-Smartphone-6-72-inch-SuperVOOC-Dimensity%2Fdp%2FB0F9FKQVS6%2Fref%3Dsr_1_21_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=Fjoq8zqa0R&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e2583] [cursor=pointer]: 1,262
+                        - generic [ref=e2585]: 400+ bought in past month
+                      - generic [ref=e2588]:
+                        - generic [ref=e2589]:
+                          - generic [ref=e2591]:
+                            - generic [ref=e2592]: Price, product page
+                            - 'link "₹12,999 M.R.P: ₹16,999 M.R.P: ₹16,999" [ref=e2593] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMzY2NDMzNzUzMjo6MDo6&url=%2Frealme-Smartphone-6-72-inch-SuperVOOC-Dimensity%2Fdp%2FB0F9FKQVS6%2Fref%3Dsr_1_21_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=Fjoq8zqa0R&sp_cr=ZAZ
+                              - generic [ref=e2594] [cursor=pointer]:
+                                - generic [ref=e2595] [cursor=pointer]: ₹12,999
+                                - generic [ref=e2596] [cursor=pointer]:
+                                  - generic [ref=e2597] [cursor=pointer]: ₹
+                                  - generic [ref=e2598] [cursor=pointer]: 12,999
+                              - generic [ref=e2599] [cursor=pointer]: "M.R.P: ₹16,999"
+                              - generic [ref=e2600] [cursor=pointer]:
+                                - generic [ref=e2601] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2602] [cursor=pointer]:
+                                  - generic [ref=e2603] [cursor=pointer]: ₹16,999
+                                  - generic [ref=e2604] [cursor=pointer]: ₹16,999
+                            - generic [ref=e2605]: (24% off)
+                          - generic [ref=e2609]:
+                            - generic [ref=e2610]: 10% on select bank cards
+                            - generic [ref=e2611]: 10% on select bank cards
+                        - generic [ref=e2613]:
+                          - img "Amazon Prime" [ref=e2617]
+                          - generic "FREE delivery Mon, 13 Oct" [ref=e2619]:
+                            - generic [ref=e2620]: FREE delivery
+                            - generic [ref=e2621]: Mon, 13 Oct
+                        - button "Add to cart" [ref=e2634] [cursor=pointer]
+                        - group "colours available" [ref=e2636]:
+                          - list
+                          - link "+1 other color/pattern" [ref=e2638] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMzY2NDMzNzUzMjo6MDo6&url=%2Frealme-Smartphone-6-72-inch-SuperVOOC-Dimensity%2Fdp%2FB0F9FKQVS6%2Fref%3Dsr_1_21_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-21-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=Fjoq8zqa0R&sp_cr=ZAZ
+                            - generic [ref=e2639] [cursor=pointer]: +1 other color/pattern
+                - listitem [ref=e2642]:
+                  - generic [ref=e2650]:
+                    - link [ref=e2656] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMjg2MjcwOTUzMjo6MDo6&url=%2Frealme-Smartphone-6-67-inch-ArmorShell-Protection%2Fdp%2FB0F3VWLMLK%2Fref%3Dsr_1_22_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=eEkstt2kzS&sp_cr=ZAZ
+                      - img [ref=e2658] [cursor=pointer]
+                    - generic [ref=e2661]:
+                      - generic [ref=e2662]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2665] [cursor=pointer]:
+                          - generic "View Sponsored information or leave ad feedback" [ref=e2667] [cursor=pointer]: Sponsored
+                        - link "Sponsored Ad - realme 14x 5G Smartphone 8+128GB red, 6.67-inch Screen, 120Hz Display, 6000mAh Battery, 80MP, MediaTek Dimensity 6300, ArmorShell Protection, IP69" [ref=e2669] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMjg2MjcwOTUzMjo6MDo6&url=%2Frealme-Smartphone-6-67-inch-ArmorShell-Protection%2Fdp%2FB0F3VWLMLK%2Fref%3Dsr_1_22_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=eEkstt2kzS&sp_cr=ZAZ
+                          - heading "Sponsored Ad - realme 14x 5G Smartphone 8+128GB red, 6.67-inch Screen, 120Hz Display, 6000mAh Battery, 80MP, MediaTek Dimensity 6300, ArmorShell Protection, IP69" [level=2] [ref=e2670] [cursor=pointer]:
+                            - generic [ref=e2671] [cursor=pointer]: realme 14x 5G Smartphone 8+128GB red, 6.67-inch Screen, 120Hz Display, 6000mAh Battery, 80MP, MediaTek Dimensity 6300, ArmorShell Protection, IP69
+                      - generic [ref=e2672]:
+                        - generic [ref=e2673]:
+                          - button "4.3 out of 5 stars, rating details" [ref=e2675] [cursor=pointer]:
+                            - generic [ref=e2677] [cursor=pointer]: 4.3 out of 5 stars
+                          - link "1,808 ratings" [ref=e2679] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMjg2MjcwOTUzMjo6MDo6&url=%2Frealme-Smartphone-6-67-inch-ArmorShell-Protection%2Fdp%2FB0F3VWLMLK%2Fref%3Dsr_1_22_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=eEkstt2kzS&sp_cr=ZAZ#customerReviews
+                            - generic [ref=e2680] [cursor=pointer]: 1,808
+                        - generic [ref=e2682]: 200+ bought in past month
+                      - generic [ref=e2685]:
+                        - generic [ref=e2686]:
+                          - link "Great Indian Festival" [ref=e2688] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e2692] [cursor=pointer]: Great Indian Festival
+                          - generic [ref=e2694]:
+                            - generic [ref=e2695]: Price, product page
+                            - 'link "₹15,199 M.R.P: ₹17,999 M.R.P: ₹17,999" [ref=e2696] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMjg2MjcwOTUzMjo6MDo6&url=%2Frealme-Smartphone-6-67-inch-ArmorShell-Protection%2Fdp%2FB0F3VWLMLK%2Fref%3Dsr_1_22_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=eEkstt2kzS&sp_cr=ZAZ
+                              - generic [ref=e2697] [cursor=pointer]:
+                                - generic [ref=e2698] [cursor=pointer]: ₹15,199
+                                - generic [ref=e2699] [cursor=pointer]:
+                                  - generic [ref=e2700] [cursor=pointer]: ₹
+                                  - generic [ref=e2701] [cursor=pointer]: 15,199
+                              - generic [ref=e2702] [cursor=pointer]: "M.R.P: ₹17,999"
+                              - generic [ref=e2703] [cursor=pointer]:
+                                - generic [ref=e2704] [cursor=pointer]: "M.R.P:"
+                                - generic [ref=e2705] [cursor=pointer]:
+                                  - generic [ref=e2706] [cursor=pointer]: ₹17,999
+                                  - generic [ref=e2707] [cursor=pointer]: ₹17,999
+                            - generic [ref=e2708]: (16% off)
+                          - generic [ref=e2711]:
+                            - generic [ref=e2712]: Save ₹310
+                            - generic [ref=e2713]: with coupon
+                        - generic [ref=e2715]:
+                          - img "Amazon Prime" [ref=e2719]
+                          - generic "FREE delivery Mon, 13 Oct" [ref=e2721]:
+                            - generic [ref=e2722]: FREE delivery
+                            - generic [ref=e2723]: Mon, 13 Oct
+                        - button "Add to cart" [ref=e2736] [cursor=pointer]
+                        - group "colours available" [ref=e2738]:
+                          - list
+                          - link "+2 other colors/patterns" [ref=e2740] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MToyMDU0MzY2NjU2MjMwNDY3OjE3NTk1MjUxMTk6c3BfYnRmOjMwMDYyMjg2MjcwOTUzMjo6MDo6&url=%2Frealme-Smartphone-6-67-inch-ArmorShell-Protection%2Fdp%2FB0F3VWLMLK%2Fref%3Dsr_1_22_sspa%3Fcrid%3D18YP55TBXFHX8%26dib%3DeyJ2IjoiMSJ9.xS50JwapH6837KqkSF8v2mF3yDW-qF0HwdT1KLCautSqKF4RISJr8wKdDSDDA0My7KHUondsc_0_2UJY7QwfzO2KzKaTpLGkHQw5NBdstqIuEVgYOAg2gQLq7exC7P85npYhu51l9tp6PqzFL4mibJeZcYte6JyrsoxiOKYcMsK2m_IQkGXe8NcL5yKK3YvdXdMD-lT6UvSHvqKaUAunw2z3kFgEwkG2Mx1NHBLZJV8.Gkfa8o1QDbFfDattcq9F9sJrcRbfnfWuwlvb8pHPGAg%26dib_tag%3Dse%26keywords%3Dsamsung%2Bm36%26nsdOptOutParam%3Dtrue%26qid%3D1759525119%26sprefix%3DSamsung%252Caps%252C221%26sr%3D8-22-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=eEkstt2kzS&sp_cr=ZAZ
+                            - generic [ref=e2741] [cursor=pointer]: +2 other colors/patterns
+          - generic [ref=e2751]:
+            - link "Sponsored video; click to navigate to featured product page. VEMIGON Sport Band Compatible With Samsung Galaxy Watch 7 Band 40mm 44mm (2024), No Gap Soft Silicone Waterproof Strap with Decorative Woven Line for Galaxy Watch 6 5 4 40mm 44mm (Watch Not Included)" [ref=e2755] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JGMf--gfQGp9xcdnLYFhYt0AAAGZq96lfQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAOBqgG/clv1_CEuOPUxokZA0iHrVa_drnHz6EVlyVOEbpM0M6TO12eIu8X8GtmXuD_018HHz9hvVjq0yzpNb3X7OfU1IBWcANlglaH-7R-P6FRojdht6V1SeMocnhEfB8IkGXCQ3UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTpAeSSG_dc8txYXjMwiYEU9vZrHLVQ2FV9DVuZ1SWr3JYqfnqDdhxLjmOcuEwx_BDIMe6sSGwAf4TdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qaw5_r8sDJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1h8ZJuL6B_BYVkgIDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikDJ_DmS8fpCNGTi4TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu9fyHQmaFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSmMmGvWm0Lmrd7qVHRuGie1uKW2pdIY1JwGLKtbGZhxDI8GvcKCDiTbe8Vc4O9JBYxJmZowmpWlditTmmPr-qcI1ec2VGKchMvu6rgSZHQjau81jGRHGbbS427_nNeXT2byIJoAIn_NW8VU8XHtQQYW-nI2AYvkJjhFMUqH7Up18S3LKcrYqgdtw4UqlUiEtnSlvJXErYQ2iLAaCrCaAAYu0zi8-gQ_dAI0VSrsiK8K1TNjPAOQYLWtfXS00uqzvVuqwirj0mKVGYa9_gdK10PAXsTod4ernNRd70-YHe5k_RQrVn6Pib_Y1_fyqfBrgOpCskW7asQ1mI7c3BPTtIOE_kGo_PcIjmk5QGrzOU9-CfQeY8WY/https://www.amazon.in/dp/B0D9YGK76J?pd_rd_i=B0D9YGK76J&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=E1DCT&pd_rd_w=STu27&pd_rd_r=6cff3927-fa01-4feb-9ab3-ca68fcc73580
+            - generic [ref=e2764]:
+              - link [ref=e2770] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JGMf--gfQGp9xcdnLYFhYt0AAAGZq96lfQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAOBqgG/clv1_CEuOPUxokZA0iHrVa_drnHz6EVlyVOEbpM0M6TO12eIu8X8GtmXuD_018HHz9hvVjq0yzpNb3X7OfU1IBWcANlglaH-7R-P6FRojdht6V1SeMocnhEfB8IkGXCQ3UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTpAeSSG_dc8txYXjMwiYEU9vZrHLVQ2FV9DVuZ1SWr3JYqfnqDdhxLjmOcuEwx_BDIMe6sSGwAf4TdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qaw5_r8sDJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1h8ZJuL6B_BYVkgIDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikDJ_DmS8fpCNGTi4TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu9fyHQmaFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSmMmGvWm0Lmrd7qVHRuGie1uKW2pdIY1JwGLKtbGZhxDI8GvcKCDiTbe8Vc4O9JBYxJmZowmpWlditTmmPr-qcI1ec2VGKchMvu6rgSZHQjau81jGRHGbbS427_nNeXT2byIJoAIn_NW8VU8XHtQQYW-nI2AYvkJjhFMUqH7Up18S3LKcrYqgdtw4UqlUiEtnSlvJXErYQ2iLAaCrCaAAYu0zi8-gQ_dAI0VSrsiK8K1TNjPAOQYLWtfXS00uqzvVuqwirj0mKVGYa9_gdK10PAXsTod4ernNRd70-YHe5k_RQrVn6Pib_Y1_fyqfBrgOpCskW7asQ1mI7c3BPTtIOE_kGo_PcIjmk5QGrzOU9-CfQeY8WY/https://www.amazon.in/VEMIGON-Compatible-Silicone-Waterproof-Decorative/dp/B0D9YGK76J/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=18YP55TBXFHX8&cv_ct_cx=samsung+m36&keywords=samsung+m36&nsdOptOutParam=true&pd_rd_i=B0D9YGK76J&pd_rd_r=6cff3927-fa01-4feb-9ab3-ca68fcc73580&pd_rd_w=STu27&pd_rd_wg=E1DCT&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&qid=1759525119&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=Samsung%2Caps%2C221&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                - img [ref=e2772] [cursor=pointer]
+              - generic [ref=e2775]:
+                - generic [ref=e2776]:
+                  - generic [ref=e2780] [cursor=pointer]: Sponsored
+                  - link "VEMIGON Sport Band Compatible With Samsung Galaxy Watch 7 Band 40mm 44mm (2024), No Gap Soft Silicone Waterproof Strap with Decorative Woven Line for Galaxy Watch 6 5 4 40mm 44mm (Watch Not Included)" [ref=e2782] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JGMf--gfQGp9xcdnLYFhYt0AAAGZq96lfQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAOBqgG/clv1_CEuOPUxokZA0iHrVa_drnHz6EVlyVOEbpM0M6TO12eIu8X8GtmXuD_018HHz9hvVjq0yzpNb3X7OfU1IBWcANlglaH-7R-P6FRojdht6V1SeMocnhEfB8IkGXCQ3UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTpAeSSG_dc8txYXjMwiYEU9vZrHLVQ2FV9DVuZ1SWr3JYqfnqDdhxLjmOcuEwx_BDIMe6sSGwAf4TdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qaw5_r8sDJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1h8ZJuL6B_BYVkgIDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikDJ_DmS8fpCNGTi4TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu9fyHQmaFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSmMmGvWm0Lmrd7qVHRuGie1uKW2pdIY1JwGLKtbGZhxDI8GvcKCDiTbe8Vc4O9JBYxJmZowmpWlditTmmPr-qcI1ec2VGKchMvu6rgSZHQjau81jGRHGbbS427_nNeXT2byIJoAIn_NW8VU8XHtQQYW-nI2AYvkJjhFMUqH7Up18S3LKcrYqgdtw4UqlUiEtnSlvJXErYQ2iLAaCrCaAAYu0zi8-gQ_dAI0VSrsiK8K1TNjPAOQYLWtfXS00uqzvVuqwirj0mKVGYa9_gdK10PAXsTod4ernNRd70-YHe5k_RQrVn6Pib_Y1_fyqfBrgOpCskW7asQ1mI7c3BPTtIOE_kGo_PcIjmk5QGrzOU9-CfQeY8WY/https://www.amazon.in/VEMIGON-Compatible-Silicone-Waterproof-Decorative/dp/B0D9YGK76J/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=18YP55TBXFHX8&cv_ct_cx=samsung+m36&keywords=samsung+m36&nsdOptOutParam=true&pd_rd_i=B0D9YGK76J&pd_rd_r=6cff3927-fa01-4feb-9ab3-ca68fcc73580&pd_rd_w=STu27&pd_rd_wg=E1DCT&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&qid=1759525119&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=Samsung%2Caps%2C221&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                    - heading "VEMIGON Sport Band Compatible With Samsung Galaxy Watch 7 Band 40mm 44mm (2024), No Gap Soft Silicone Waterproof Strap with Decorative Woven Line for Galaxy Watch 6 5 4 40mm 44mm (Watch Not Included)" [level=2] [ref=e2783] [cursor=pointer]:
+                      - generic [ref=e2784] [cursor=pointer]: VEMIGON Sport Band Compatible With Samsung Galaxy Watch 7 Band 40mm 44mm (2024), No Gap Soft Silicone Waterproof Strap with Decorative Woven Line for Galaxy Watch 6 5 4 40mm 44mm (Watch Not Included)
+                - generic [ref=e2785]:
+                  - generic [ref=e2786]:
+                    - button "4.0 out of 5 stars, rating details" [ref=e2788] [cursor=pointer]:
+                      - generic [ref=e2790] [cursor=pointer]: 4.0 out of 5 stars
+                    - link "193 ratings" [ref=e2792] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JGMf--gfQGp9xcdnLYFhYt0AAAGZq96lfQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAOBqgG/clv1_CEuOPUxokZA0iHrVa_drnHz6EVlyVOEbpM0M6TO12eIu8X8GtmXuD_018HHz9hvVjq0yzpNb3X7OfU1IBWcANlglaH-7R-P6FRojdht6V1SeMocnhEfB8IkGXCQ3UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTpAeSSG_dc8txYXjMwiYEU9vZrHLVQ2FV9DVuZ1SWr3JYqfnqDdhxLjmOcuEwx_BDIMe6sSGwAf4TdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qaw5_r8sDJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1h8ZJuL6B_BYVkgIDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikDJ_DmS8fpCNGTi4TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu9fyHQmaFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSmMmGvWm0Lmrd7qVHRuGie1uKW2pdIY1JwGLKtbGZhxDI8GvcKCDiTbe8Vc4O9JBYxJmZowmpWlditTmmPr-qcI1ec2VGKchMvu6rgSZHQjau81jGRHGbbS427_nNeXT2byIJoAIn_NW8VU8XHtQQYW-nI2AYvkJjhFMUqH7Up18S3LKcrYqgdtw4UqlUiEtnSlvJXErYQ2iLAaCrCaAAYu0zi8-gQ_dAI0VSrsiK8K1TNjPAOQYLWtfXS00uqzvVuqwirj0mKVGYa9_gdK10PAXsTod4ernNRd70-YHe5k_RQrVn6Pib_Y1_fyqfBrgOpCskW7asQ1mI7c3BPTtIOE_kGo_PcIjmk5QGrzOU9-CfQeY8WY/https://www.amazon.in/VEMIGON-Compatible-Silicone-Waterproof-Decorative/dp/B0D9YGK76J/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=18YP55TBXFHX8&cv_ct_cx=samsung+m36&keywords=samsung+m36&nsdOptOutParam=true&pd_rd_i=B0D9YGK76J&pd_rd_r=6cff3927-fa01-4feb-9ab3-ca68fcc73580&pd_rd_w=STu27&pd_rd_wg=E1DCT&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&qid=1759525119&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=Samsung%2Caps%2C221&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55#customerReviews
+                      - generic [ref=e2793] [cursor=pointer]: "193"
+                  - generic [ref=e2795]: 400+ bought in past month
+                - generic [ref=e2798]:
+                  - generic [ref=e2799]:
+                    - link "Limited time deal" [ref=e2801] [cursor=pointer]:
+                      - /url: /deals
+                      - generic [ref=e2805] [cursor=pointer]: Limited time deal
+                    - generic [ref=e2807]:
+                      - generic [ref=e2808]: Price, product page
+                      - 'link "₹567 M.R.P: ₹899 M.R.P: ₹899" [ref=e2809] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JGMf--gfQGp9xcdnLYFhYt0AAAGZq96lfQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICAOBqgG/clv1_CEuOPUxokZA0iHrVa_drnHz6EVlyVOEbpM0M6TO12eIu8X8GtmXuD_018HHz9hvVjq0yzpNb3X7OfU1IBWcANlglaH-7R-P6FRojdht6V1SeMocnhEfB8IkGXCQ3UuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqTpAeSSG_dc8txYXjMwiYEU9vZrHLVQ2FV9DVuZ1SWr3JYqfnqDdhxLjmOcuEwx_BDIMe6sSGwAf4TdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGpFulAwI26fNZSdTWHskqs5v9IsdfH94UieRl1Ubhh_wWNRn0l4R6H0w4ucE_94PFyqULn9H2abWKsnd46bxfXRQKgPikSHhZdZW_xdBz9oYFv6Av_9cMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qaw5_r8sDJ8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1h8ZJuL6B_BYVkgIDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikDJ_DmS8fpCNGTi4TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu9fyHQmaFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSmMmGvWm0Lmrd7qVHRuGie1uKW2pdIY1JwGLKtbGZhxDI8GvcKCDiTbe8Vc4O9JBYxJmZowmpWlditTmmPr-qcI1ec2VGKchMvu6rgSZHQjau81jGRHGbbS427_nNeXT2byIJoAIn_NW8VU8XHtQQYW-nI2AYvkJjhFMUqH7Up18S3LKcrYqgdtw4UqlUiEtnSlvJXErYQ2iLAaCrCaAAYu0zi8-gQ_dAI0VSrsiK8K1TNjPAOQYLWtfXS00uqzvVuqwirj0mKVGYa9_gdK10PAXsTod4ernNRd70-YHe5k_RQrVn6Pib_Y1_fyqfBrgOpCskW7asQ1mI7c3BPTtIOE_kGo_PcIjmk5QGrzOU9-CfQeY8WY/https://www.amazon.in/VEMIGON-Compatible-Silicone-Waterproof-Decorative/dp/B0D9YGK76J/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=18YP55TBXFHX8&cv_ct_cx=samsung+m36&keywords=samsung+m36&nsdOptOutParam=true&pd_rd_i=B0D9YGK76J&pd_rd_r=6cff3927-fa01-4feb-9ab3-ca68fcc73580&pd_rd_w=STu27&pd_rd_wg=E1DCT&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&qid=1759525119&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=Samsung%2Caps%2C221&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                        - generic [ref=e2810] [cursor=pointer]:
+                          - generic [ref=e2811] [cursor=pointer]: ₹567
+                          - generic [ref=e2812] [cursor=pointer]:
+                            - generic [ref=e2813] [cursor=pointer]: ₹
+                            - generic [ref=e2814] [cursor=pointer]: "567"
+                        - generic [ref=e2815] [cursor=pointer]: "M.R.P: ₹899"
+                        - generic [ref=e2816] [cursor=pointer]:
+                          - generic [ref=e2817] [cursor=pointer]: "M.R.P:"
+                          - generic [ref=e2818] [cursor=pointer]:
+                            - generic [ref=e2819] [cursor=pointer]: ₹899
+                            - generic [ref=e2820] [cursor=pointer]: ₹899
+                      - generic [ref=e2821]: (37% off)
+                    - generic [ref=e2824]:
+                      - generic [ref=e2825]: Save 2%
+                      - generic [ref=e2826]: with coupon (limited sizes/colours)
+                  - generic [ref=e2828]:
+                    - img "Amazon Prime" [ref=e2832]
+                    - generic "FREE delivery Tue, 7 Oct" [ref=e2834]:
+                      - generic [ref=e2835]: FREE delivery
+                      - generic [ref=e2836]: Tue, 7 Oct
+                    - generic "Or fastest delivery Tomorrow, 5 Oct" [ref=e2838]:
+                      - generic [ref=e2839]: Or fastest delivery
+                      - generic [ref=e2840]: Tomorrow, 5 Oct
+          - navigation "pagination" [ref=e2843]:
+            - list [ref=e2845]:
+              - button "Previous" [disabled] [ref=e2846]:
+                - img [ref=e2847]
+                - text: Previous
+              - listitem [ref=e2849]:
+                - button "Page 1" [ref=e2851]: "1"
+              - listitem [ref=e2852]:
+                - button "Go to page 2" [ref=e2854] [cursor=pointer]: "2"
+              - listitem [ref=e2855]:
+                - button "Go to page 3" [ref=e2857] [cursor=pointer]: "3"
+              - button [disabled] [ref=e2858]:
+                - img [ref=e2859]: ...
+              - button "20" [disabled] [ref=e2861]
+              - listitem [ref=e2862]:
+                - button "Go to next page, page 2" [ref=e2864] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e2865] [cursor=pointer]
+          - generic [ref=e2869]:
+            - separator [ref=e2870]
+            - generic [ref=e2871]:
+              - heading "Brands related to your search" [ref=e2872]
+              - button "Leave feedback on Sponsored ad" [ref=e2877] [cursor=pointer]: Sponsored
+              - generic [ref=e2881]:
+                - generic [ref=e2883]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCwGDHidcY8hgQh_hpjX5UcAAAGZq96mIgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICB91bm1/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0XAmcAI2FSEiyzT9rxAm4nTWE0ZF6HEoJGokfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqf0IMuINvtU8NF2RzQPo4Uggtt1KsAFz119HnKo_yWr3JYqfnqDdhxLjmOcuEwHthLYB-isWE4Af7rFhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFxuL2SokY3lMy0Mt2Eo_6Zvn2o5ln093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FBsLJjnukhXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwbZZ8-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8et2NNwr2T7x9MvJrRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS42GLW1VVChLvlPpVpRIKW9tsvtntYqZtb-kGg5AudkvlshYnw4esrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyW5bdUSYmuikPsxHs-sVf_AOu6oohTRBpVMRpBMEdIw0IcuvVuJeUHkdoUdB9QPqhpgDB9Qs3R9GxDdFxhFsi9YCaGET7mL3QnRIWgxdnCIapSuQcdHuu4D8FvWy2Ucq0xxJUno0X6DXwomyMlYXoqKQyjOB7wpXXDX7mQ5Ao-gVTXHM12aIkdaLfSMsfIG-gaGnsGTystkZaWJufGuZbIecYutcwftIy34OZAsyU47d76Hggf3qJbuPNiH1_f_2R945mWXIZv4NqxdH--/https://www.amazon.in/stores/page/5DC790F0-F630-47C6-ADA5-9F8A26E40DB4/?_encoding=UTF8&store_ref=SB_A058022320PE0ILFBMM2J-A07235771O34QFLSRAOWT&pd_rd_plhdr=t&aaxitk=e20eb2560164970178c22e7ec4ad2443&hsa_cr_id=0&lp_asins=B0D78X5CMJ%2CB0D78X544X%2CB0D78Y577J&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=arjzArBDPA&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                      - link "Xiaomi Phones" [ref=e2884] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCwGDHidcY8hgQh_hpjX5UcAAAGZq96mIgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICB91bm1/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0XAmcAI2FSEiyzT9rxAm4nTWE0ZF6HEoJGokfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqf0IMuINvtU8NF2RzQPo4Uggtt1KsAFz119HnKo_yWr3JYqfnqDdhxLjmOcuEwHthLYB-isWE4Af7rFhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFxuL2SokY3lMy0Mt2Eo_6Zvn2o5ln093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FBsLJjnukhXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwbZZ8-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8et2NNwr2T7x9MvJrRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS42GLW1VVChLvlPpVpRIKW9tsvtntYqZtb-kGg5AudkvlshYnw4esrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyW5bdUSYmuikPsxHs-sVf_AOu6oohTRBpVMRpBMEdIw0IcuvVuJeUHkdoUdB9QPqhpgDB9Qs3R9GxDdFxhFsi9YCaGET7mL3QnRIWgxdnCIapSuQcdHuu4D8FvWy2Ucq0xxJUno0X6DXwomyMlYXoqKQyjOB7wpXXDX7mQ5Ao-gVTXHM12aIkdaLfSMsfIG-gaGnsGTystkZaWJufGuZbIecYutcwftIy34OZAsyU47d76Hggf3qJbuPNiH1_f_2R945mWXIZv4NqxdH--/https://www.amazon.in/stores/page/5DC790F0-F630-47C6-ADA5-9F8A26E40DB4/?_encoding=UTF8&store_ref=SB_A058022320PE0ILFBMM2J-A07235771O34QFLSRAOWT&pd_rd_plhdr=t&aaxitk=e20eb2560164970178c22e7ec4ad2443&hsa_cr_id=0&lp_asins=B0D78X5CMJ%2CB0D78X544X%2CB0D78Y577J&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=arjzArBDPA&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                        - img "Xiaomi Phones" [ref=e2885] [cursor=pointer]
+                      - generic [ref=e2887]:
+                        - generic [ref=e2888]:
+                          - link [ref=e2889] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JCwGDHidcY8hgQh_hpjX5UcAAAGZq96mIgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICB91bm1/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0XAmcAI2FSEiyzT9rxAm4nTWE0ZF6HEoJGokfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqf0IMuINvtU8NF2RzQPo4Uggtt1KsAFz119HnKo_yWr3JYqfnqDdhxLjmOcuEwHthLYB-isWE4Af7rFhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFxuL2SokY3lMy0Mt2Eo_6Zvn2o5ln093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FBsLJjnukhXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwbZZ8-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8et2NNwr2T7x9MvJrRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS42GLW1VVChLvlPpVpRIKW9tsvtntYqZtb-kGg5AudkvlshYnw4esrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyW5bdUSYmuikPsxHs-sVf_AOu6oohTRBpVMRpBMEdIw0IcuvVuJeUHkdoUdB9QPqhpgDB9Qs3R9GxDdFxhFsi9YCaGET7mL3QnRIWgxdnCIapSuQcdHuu4D8FvWy2Ucq0xxJUno0X6DXwomyMlYXoqKQyjOB7wpXXDX7mQ5Ao-gVTXHM12aIkdaLfSMsfIG-gaGnsGTystkZaWJufGuZbIecYutcwftIy34OZAsyU47d76Hggf3qJbuPNiH1_f_2R945mWXIZv4NqxdH--/https://www.amazon.in/stores/page/5DC790F0-F630-47C6-ADA5-9F8A26E40DB4/?_encoding=UTF8&store_ref=SB_A058022320PE0ILFBMM2J-A07235771O34QFLSRAOWT&pd_rd_plhdr=t&aaxitk=e20eb2560164970178c22e7ec4ad2443&hsa_cr_id=0&lp_asins=B0D78X5CMJ%2CB0D78X544X%2CB0D78Y577J&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=arjzArBDPA&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                          - link "Xiaomi Phones" [ref=e2890] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JCwGDHidcY8hgQh_hpjX5UcAAAGZq96mIgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICB91bm1/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0XAmcAI2FSEiyzT9rxAm4nTWE0ZF6HEoJGokfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqf0IMuINvtU8NF2RzQPo4Uggtt1KsAFz119HnKo_yWr3JYqfnqDdhxLjmOcuEwHthLYB-isWE4Af7rFhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFxuL2SokY3lMy0Mt2Eo_6Zvn2o5ln093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FBsLJjnukhXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwbZZ8-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8et2NNwr2T7x9MvJrRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS42GLW1VVChLvlPpVpRIKW9tsvtntYqZtb-kGg5AudkvlshYnw4esrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyW5bdUSYmuikPsxHs-sVf_AOu6oohTRBpVMRpBMEdIw0IcuvVuJeUHkdoUdB9QPqhpgDB9Qs3R9GxDdFxhFsi9YCaGET7mL3QnRIWgxdnCIapSuQcdHuu4D8FvWy2Ucq0xxJUno0X6DXwomyMlYXoqKQyjOB7wpXXDX7mQ5Ao-gVTXHM12aIkdaLfSMsfIG-gaGnsGTystkZaWJufGuZbIecYutcwftIy34OZAsyU47d76Hggf3qJbuPNiH1_f_2R945mWXIZv4NqxdH--/https://www.amazon.in/stores/page/5DC790F0-F630-47C6-ADA5-9F8A26E40DB4/?_encoding=UTF8&store_ref=SB_A058022320PE0ILFBMM2J-A07235771O34QFLSRAOWT&pd_rd_plhdr=t&aaxitk=e20eb2560164970178c22e7ec4ad2443&hsa_cr_id=0&lp_asins=B0D78X5CMJ%2CB0D78X544X%2CB0D78Y577J&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=arjzArBDPA&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                            - img "Xiaomi Phones" [ref=e2892] [cursor=pointer]
+                        - generic [ref=e2893]:
+                          - link [ref=e2894] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JCwGDHidcY8hgQh_hpjX5UcAAAGZq96mIgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICB91bm1/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0XAmcAI2FSEiyzT9rxAm4nTWE0ZF6HEoJGokfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqf0IMuINvtU8NF2RzQPo4Uggtt1KsAFz119HnKo_yWr3JYqfnqDdhxLjmOcuEwHthLYB-isWE4Af7rFhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFxuL2SokY3lMy0Mt2Eo_6Zvn2o5ln093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FBsLJjnukhXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwbZZ8-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8et2NNwr2T7x9MvJrRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS42GLW1VVChLvlPpVpRIKW9tsvtntYqZtb-kGg5AudkvlshYnw4esrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyW5bdUSYmuikPsxHs-sVf_AOu6oohTRBpVMRpBMEdIw0IcuvVuJeUHkdoUdB9QPqhpgDB9Qs3R9GxDdFxhFsi9YCaGET7mL3QnRIWgxdnCIapSuQcdHuu4D8FvWy2Ucq0xxJUno0X6DXwomyMlYXoqKQyjOB7wpXXDX7mQ5Ao-gVTXHM12aIkdaLfSMsfIG-gaGnsGTystkZaWJufGuZbIecYutcwftIy34OZAsyU47d76Hggf3qJbuPNiH1_f_2R945mWXIZv4NqxdH--/https://www.amazon.in/stores/page/5DC790F0-F630-47C6-ADA5-9F8A26E40DB4/?_encoding=UTF8&store_ref=SB_A058022320PE0ILFBMM2J-A07235771O34QFLSRAOWT&pd_rd_plhdr=t&aaxitk=e20eb2560164970178c22e7ec4ad2443&hsa_cr_id=0&lp_asins=B0D78X5CMJ%2CB0D78X544X%2CB0D78Y577J&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=arjzArBDPA&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                          - link "Redmi 13 Prime Edition - 5G 108MP Quad Camera" [ref=e2895] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JCwGDHidcY8hgQh_hpjX5UcAAAGZq96mIgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICB91bm1/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0XAmcAI2FSEiyzT9rxAm4nTWE0ZF6HEoJGokfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqf0IMuINvtU8NF2RzQPo4Uggtt1KsAFz119HnKo_yWr3JYqfnqDdhxLjmOcuEwHthLYB-isWE4Af7rFhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFxuL2SokY3lMy0Mt2Eo_6Zvn2o5ln093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FBsLJjnukhXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwbZZ8-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8et2NNwr2T7x9MvJrRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAUNcuLS42GLW1VVChLvlPpVpRIKW9tsvtntYqZtb-kGg5AudkvlshYnw4esrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyW5bdUSYmuikPsxHs-sVf_AOu6oohTRBpVMRpBMEdIw0IcuvVuJeUHkdoUdB9QPqhpgDB9Qs3R9GxDdFxhFsi9YCaGET7mL3QnRIWgxdnCIapSuQcdHuu4D8FvWy2Ucq0xxJUno0X6DXwomyMlYXoqKQyjOB7wpXXDX7mQ5Ao-gVTXHM12aIkdaLfSMsfIG-gaGnsGTystkZaWJufGuZbIecYutcwftIy34OZAsyU47d76Hggf3qJbuPNiH1_f_2R945mWXIZv4NqxdH--/https://www.amazon.in/stores/page/5DC790F0-F630-47C6-ADA5-9F8A26E40DB4/?_encoding=UTF8&store_ref=SB_A058022320PE0ILFBMM2J-A07235771O34QFLSRAOWT&pd_rd_plhdr=t&aaxitk=e20eb2560164970178c22e7ec4ad2443&hsa_cr_id=0&lp_asins=B0D78X5CMJ%2CB0D78X544X%2CB0D78Y577J&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=arjzArBDPA&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                            - generic [ref=e2897] [cursor=pointer]:
+                              - generic [ref=e2898] [cursor=pointer]: Redmi 13 Prime Edition - 5G 108MP Quad Camera
+                              - generic [ref=e2899] [cursor=pointer]: Redmi 13 Prime Edition - 5G 108MP Quad Camera
+                - generic [ref=e2901]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JFpWkNFdJ4dVlwCNFgHUNpcAAAGZq96mIwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCTUG58/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0pAmcAOExqDnmvTszzSn49T2ApdHKtJdx4okfB8IkGXCQQUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqWDHvmJNe9I8M4rWRwMo58g59d2LsJy61JELFKo_yWr3JYqfnqDdhxLjmOcuEwH_BDILeqtZkZKfITdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHROQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFBuYOiuxkVtcnvTeS0mMCQtmK0-EL093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FA0NCFbikgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwPZZ4U5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8etmPGQ6_T4JDefBVSmKFeqHFMTYhFreId52JoOD7YBzlzqRActouLS5wG4u5U1OfOvlPm3AaI7acptrDns8RdMLIkAxWRuFMm1EnYlZ9eMnLHUr2MJEFt7f8pInC6ReP8HLHtucYvDhBbsMSM32NK3H86zm4WyxY-1b8EtqGzexBvqR1p2Ka775RG1XzFGYHeG-FoVKlhC0EfZXHQp4tleuvaFfkTa5MYJA2q242-LRgjoni0Qqik3W3BMDicdExd93o-4t4kmOe948_NbMNUhGs7UHQj9MUR0oV2bDgzdkD-HRqecFcAehPgdtAhWm5PA-8k-i8Ln-VYZNPDB7iZXHwcSDQeBAZZJWKRaLLiUG1NmRalKs5-OzLkk1jMj9S0KgSE7wMEjDiNiaO7i8wEnigt4agmQudMCPRTkfH1DSIZOkx8LAUnN0g1FI4hGvhBUGFHkV_0JYxid-srHr7dhdNeJhSPbDebNsNOib0ofbWJ2OEP36_DYYGgpy28cbKx7yDZrxdOI4grv9AbezNB0js8r7cEfjPABo9XD9AzOHT04ot5Mb-wnDD9oaGb1yzEwCIkhFNn3N5RrW4XCrxLVvb85Y3CVienDl4548cSgrIdkEJAKx8msk8ZdqMd-wPmYjnHFA0ysKGovXm_uRHTfCagCtnoGPA6YsddBn_xyNbshWm9ZV4DByK8wKgl9jd_OQ8RLdO9VDuAewmh9EYli28rJtBLc9fV5BLh2xwF-blw2KJR9eUDxfXiZW2BpS1tLk45OMMdviWqfZHrwIpdKJXJKo1vsrJanjjDqiXmbNocOijQ8JpMRNVvyBBqujpE5mMkXsVQ6-rmeM0t8bydxMBveGOjwNaagz9J-G-sCsMpeErSKbttYonpUYNbSRVxI_RZI006DWqFC0YprPsEiZjJPq2k7yCUqOmeE7xiO9MC2uDbJU3HyDOPezvJB0iUI2tb8bNz31bPs72jEPsxIUvJSbfRNfWVtSzNFNmX1GZVItBz1_03ve_MbV8yp5VaQNSJLdrnCh9XMrMpzcLch5nDdXkOiXXUDD5N3A3Hong2NLEKrlQwk9mW_KqEsB8TCncb-4xh5lvrEymU2FqxDwzI3tyYQrhPgXt_C_MS9r3_RgDoEfAGIdKBpAPEKGoJP3uAPVBIDEgSzYgp6idNpzU5KnepKSGEdCvqI7ul-BfsRcJxOnwHFFqhqQOIsjKEVyfsaVXeVTIe8-BU6X8p2c36Cw/https://www.amazon.in/stores/page/65258547-796F-454E-A508-7D8BA0613D1B/?_encoding=UTF8&store_ref=SB_A05687921LL0S3W27F9HT-A0368319SNRVO7X5T3LK&pd_rd_plhdr=t&aaxitk=54e420ba256b56d6309db03e4ca81ba9&hsa_cr_id=0&lp_asins=B08RZ5K9YH%2CB09XBJ1CTN%2CB0D1TTDFYS&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=rD7stsqCNb&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                      - link "Xiaomi Wearables" [ref=e2902] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JFpWkNFdJ4dVlwCNFgHUNpcAAAGZq96mIwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCTUG58/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0pAmcAOExqDnmvTszzSn49T2ApdHKtJdx4okfB8IkGXCQQUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqWDHvmJNe9I8M4rWRwMo58g59d2LsJy61JELFKo_yWr3JYqfnqDdhxLjmOcuEwH_BDILeqtZkZKfITdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHROQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFBuYOiuxkVtcnvTeS0mMCQtmK0-EL093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FA0NCFbikgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwPZZ4U5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8etmPGQ6_T4JDefBVSmKFeqHFMTYhFreId52JoOD7YBzlzqRActouLS5wG4u5U1OfOvlPm3AaI7acptrDns8RdMLIkAxWRuFMm1EnYlZ9eMnLHUr2MJEFt7f8pInC6ReP8HLHtucYvDhBbsMSM32NK3H86zm4WyxY-1b8EtqGzexBvqR1p2Ka775RG1XzFGYHeG-FoVKlhC0EfZXHQp4tleuvaFfkTa5MYJA2q242-LRgjoni0Qqik3W3BMDicdExd93o-4t4kmOe948_NbMNUhGs7UHQj9MUR0oV2bDgzdkD-HRqecFcAehPgdtAhWm5PA-8k-i8Ln-VYZNPDB7iZXHwcSDQeBAZZJWKRaLLiUG1NmRalKs5-OzLkk1jMj9S0KgSE7wMEjDiNiaO7i8wEnigt4agmQudMCPRTkfH1DSIZOkx8LAUnN0g1FI4hGvhBUGFHkV_0JYxid-srHr7dhdNeJhSPbDebNsNOib0ofbWJ2OEP36_DYYGgpy28cbKx7yDZrxdOI4grv9AbezNB0js8r7cEfjPABo9XD9AzOHT04ot5Mb-wnDD9oaGb1yzEwCIkhFNn3N5RrW4XCrxLVvb85Y3CVienDl4548cSgrIdkEJAKx8msk8ZdqMd-wPmYjnHFA0ysKGovXm_uRHTfCagCtnoGPA6YsddBn_xyNbshWm9ZV4DByK8wKgl9jd_OQ8RLdO9VDuAewmh9EYli28rJtBLc9fV5BLh2xwF-blw2KJR9eUDxfXiZW2BpS1tLk45OMMdviWqfZHrwIpdKJXJKo1vsrJanjjDqiXmbNocOijQ8JpMRNVvyBBqujpE5mMkXsVQ6-rmeM0t8bydxMBveGOjwNaagz9J-G-sCsMpeErSKbttYonpUYNbSRVxI_RZI006DWqFC0YprPsEiZjJPq2k7yCUqOmeE7xiO9MC2uDbJU3HyDOPezvJB0iUI2tb8bNz31bPs72jEPsxIUvJSbfRNfWVtSzNFNmX1GZVItBz1_03ve_MbV8yp5VaQNSJLdrnCh9XMrMpzcLch5nDdXkOiXXUDD5N3A3Hong2NLEKrlQwk9mW_KqEsB8TCncb-4xh5lvrEymU2FqxDwzI3tyYQrhPgXt_C_MS9r3_RgDoEfAGIdKBpAPEKGoJP3uAPVBIDEgSzYgp6idNpzU5KnepKSGEdCvqI7ul-BfsRcJxOnwHFFqhqQOIsjKEVyfsaVXeVTIe8-BU6X8p2c36Cw/https://www.amazon.in/stores/page/65258547-796F-454E-A508-7D8BA0613D1B/?_encoding=UTF8&store_ref=SB_A05687921LL0S3W27F9HT-A0368319SNRVO7X5T3LK&pd_rd_plhdr=t&aaxitk=54e420ba256b56d6309db03e4ca81ba9&hsa_cr_id=0&lp_asins=B08RZ5K9YH%2CB09XBJ1CTN%2CB0D1TTDFYS&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=rD7stsqCNb&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                        - img "Xiaomi Wearables" [ref=e2903] [cursor=pointer]
+                      - generic [ref=e2905]:
+                        - generic [ref=e2906]:
+                          - link [ref=e2907] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JFpWkNFdJ4dVlwCNFgHUNpcAAAGZq96mIwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCTUG58/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0pAmcAOExqDnmvTszzSn49T2ApdHKtJdx4okfB8IkGXCQQUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqWDHvmJNe9I8M4rWRwMo58g59d2LsJy61JELFKo_yWr3JYqfnqDdhxLjmOcuEwH_BDILeqtZkZKfITdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHROQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFBuYOiuxkVtcnvTeS0mMCQtmK0-EL093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FA0NCFbikgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwPZZ4U5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8etmPGQ6_T4JDefBVSmKFeqHFMTYhFreId52JoOD7YBzlzqRActouLS5wG4u5U1OfOvlPm3AaI7acptrDns8RdMLIkAxWRuFMm1EnYlZ9eMnLHUr2MJEFt7f8pInC6ReP8HLHtucYvDhBbsMSM32NK3H86zm4WyxY-1b8EtqGzexBvqR1p2Ka775RG1XzFGYHeG-FoVKlhC0EfZXHQp4tleuvaFfkTa5MYJA2q242-LRgjoni0Qqik3W3BMDicdExd93o-4t4kmOe948_NbMNUhGs7UHQj9MUR0oV2bDgzdkD-HRqecFcAehPgdtAhWm5PA-8k-i8Ln-VYZNPDB7iZXHwcSDQeBAZZJWKRaLLiUG1NmRalKs5-OzLkk1jMj9S0KgSE7wMEjDiNiaO7i8wEnigt4agmQudMCPRTkfH1DSIZOkx8LAUnN0g1FI4hGvhBUGFHkV_0JYxid-srHr7dhdNeJhSPbDebNsNOib0ofbWJ2OEP36_DYYGgpy28cbKx7yDZrxdOI4grv9AbezNB0js8r7cEfjPABo9XD9AzOHT04ot5Mb-wnDD9oaGb1yzEwCIkhFNn3N5RrW4XCrxLVvb85Y3CVienDl4548cSgrIdkEJAKx8msk8ZdqMd-wPmYjnHFA0ysKGovXm_uRHTfCagCtnoGPA6YsddBn_xyNbshWm9ZV4DByK8wKgl9jd_OQ8RLdO9VDuAewmh9EYli28rJtBLc9fV5BLh2xwF-blw2KJR9eUDxfXiZW2BpS1tLk45OMMdviWqfZHrwIpdKJXJKo1vsrJanjjDqiXmbNocOijQ8JpMRNVvyBBqujpE5mMkXsVQ6-rmeM0t8bydxMBveGOjwNaagz9J-G-sCsMpeErSKbttYonpUYNbSRVxI_RZI006DWqFC0YprPsEiZjJPq2k7yCUqOmeE7xiO9MC2uDbJU3HyDOPezvJB0iUI2tb8bNz31bPs72jEPsxIUvJSbfRNfWVtSzNFNmX1GZVItBz1_03ve_MbV8yp5VaQNSJLdrnCh9XMrMpzcLch5nDdXkOiXXUDD5N3A3Hong2NLEKrlQwk9mW_KqEsB8TCncb-4xh5lvrEymU2FqxDwzI3tyYQrhPgXt_C_MS9r3_RgDoEfAGIdKBpAPEKGoJP3uAPVBIDEgSzYgp6idNpzU5KnepKSGEdCvqI7ul-BfsRcJxOnwHFFqhqQOIsjKEVyfsaVXeVTIe8-BU6X8p2c36Cw/https://www.amazon.in/stores/page/65258547-796F-454E-A508-7D8BA0613D1B/?_encoding=UTF8&store_ref=SB_A05687921LL0S3W27F9HT-A0368319SNRVO7X5T3LK&pd_rd_plhdr=t&aaxitk=54e420ba256b56d6309db03e4ca81ba9&hsa_cr_id=0&lp_asins=B08RZ5K9YH%2CB09XBJ1CTN%2CB0D1TTDFYS&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=rD7stsqCNb&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                          - link "Xiaomi Wearables" [ref=e2908] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JFpWkNFdJ4dVlwCNFgHUNpcAAAGZq96mIwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCTUG58/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0pAmcAOExqDnmvTszzSn49T2ApdHKtJdx4okfB8IkGXCQQUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqWDHvmJNe9I8M4rWRwMo58g59d2LsJy61JELFKo_yWr3JYqfnqDdhxLjmOcuEwH_BDILeqtZkZKfITdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHROQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFBuYOiuxkVtcnvTeS0mMCQtmK0-EL093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FA0NCFbikgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwPZZ4U5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8etmPGQ6_T4JDefBVSmKFeqHFMTYhFreId52JoOD7YBzlzqRActouLS5wG4u5U1OfOvlPm3AaI7acptrDns8RdMLIkAxWRuFMm1EnYlZ9eMnLHUr2MJEFt7f8pInC6ReP8HLHtucYvDhBbsMSM32NK3H86zm4WyxY-1b8EtqGzexBvqR1p2Ka775RG1XzFGYHeG-FoVKlhC0EfZXHQp4tleuvaFfkTa5MYJA2q242-LRgjoni0Qqik3W3BMDicdExd93o-4t4kmOe948_NbMNUhGs7UHQj9MUR0oV2bDgzdkD-HRqecFcAehPgdtAhWm5PA-8k-i8Ln-VYZNPDB7iZXHwcSDQeBAZZJWKRaLLiUG1NmRalKs5-OzLkk1jMj9S0KgSE7wMEjDiNiaO7i8wEnigt4agmQudMCPRTkfH1DSIZOkx8LAUnN0g1FI4hGvhBUGFHkV_0JYxid-srHr7dhdNeJhSPbDebNsNOib0ofbWJ2OEP36_DYYGgpy28cbKx7yDZrxdOI4grv9AbezNB0js8r7cEfjPABo9XD9AzOHT04ot5Mb-wnDD9oaGb1yzEwCIkhFNn3N5RrW4XCrxLVvb85Y3CVienDl4548cSgrIdkEJAKx8msk8ZdqMd-wPmYjnHFA0ysKGovXm_uRHTfCagCtnoGPA6YsddBn_xyNbshWm9ZV4DByK8wKgl9jd_OQ8RLdO9VDuAewmh9EYli28rJtBLc9fV5BLh2xwF-blw2KJR9eUDxfXiZW2BpS1tLk45OMMdviWqfZHrwIpdKJXJKo1vsrJanjjDqiXmbNocOijQ8JpMRNVvyBBqujpE5mMkXsVQ6-rmeM0t8bydxMBveGOjwNaagz9J-G-sCsMpeErSKbttYonpUYNbSRVxI_RZI006DWqFC0YprPsEiZjJPq2k7yCUqOmeE7xiO9MC2uDbJU3HyDOPezvJB0iUI2tb8bNz31bPs72jEPsxIUvJSbfRNfWVtSzNFNmX1GZVItBz1_03ve_MbV8yp5VaQNSJLdrnCh9XMrMpzcLch5nDdXkOiXXUDD5N3A3Hong2NLEKrlQwk9mW_KqEsB8TCncb-4xh5lvrEymU2FqxDwzI3tyYQrhPgXt_C_MS9r3_RgDoEfAGIdKBpAPEKGoJP3uAPVBIDEgSzYgp6idNpzU5KnepKSGEdCvqI7ul-BfsRcJxOnwHFFqhqQOIsjKEVyfsaVXeVTIe8-BU6X8p2c36Cw/https://www.amazon.in/stores/page/65258547-796F-454E-A508-7D8BA0613D1B/?_encoding=UTF8&store_ref=SB_A05687921LL0S3W27F9HT-A0368319SNRVO7X5T3LK&pd_rd_plhdr=t&aaxitk=54e420ba256b56d6309db03e4ca81ba9&hsa_cr_id=0&lp_asins=B08RZ5K9YH%2CB09XBJ1CTN%2CB0D1TTDFYS&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=rD7stsqCNb&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                            - img "Xiaomi Wearables" [ref=e2910] [cursor=pointer]
+                        - generic [ref=e2911]:
+                          - link [ref=e2912] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JFpWkNFdJ4dVlwCNFgHUNpcAAAGZq96mIwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCTUG58/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0pAmcAOExqDnmvTszzSn49T2ApdHKtJdx4okfB8IkGXCQQUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqWDHvmJNe9I8M4rWRwMo58g59d2LsJy61JELFKo_yWr3JYqfnqDdhxLjmOcuEwH_BDILeqtZkZKfITdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHROQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFBuYOiuxkVtcnvTeS0mMCQtmK0-EL093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FA0NCFbikgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwPZZ4U5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8etmPGQ6_T4JDefBVSmKFeqHFMTYhFreId52JoOD7YBzlzqRActouLS5wG4u5U1OfOvlPm3AaI7acptrDns8RdMLIkAxWRuFMm1EnYlZ9eMnLHUr2MJEFt7f8pInC6ReP8HLHtucYvDhBbsMSM32NK3H86zm4WyxY-1b8EtqGzexBvqR1p2Ka775RG1XzFGYHeG-FoVKlhC0EfZXHQp4tleuvaFfkTa5MYJA2q242-LRgjoni0Qqik3W3BMDicdExd93o-4t4kmOe948_NbMNUhGs7UHQj9MUR0oV2bDgzdkD-HRqecFcAehPgdtAhWm5PA-8k-i8Ln-VYZNPDB7iZXHwcSDQeBAZZJWKRaLLiUG1NmRalKs5-OzLkk1jMj9S0KgSE7wMEjDiNiaO7i8wEnigt4agmQudMCPRTkfH1DSIZOkx8LAUnN0g1FI4hGvhBUGFHkV_0JYxid-srHr7dhdNeJhSPbDebNsNOib0ofbWJ2OEP36_DYYGgpy28cbKx7yDZrxdOI4grv9AbezNB0js8r7cEfjPABo9XD9AzOHT04ot5Mb-wnDD9oaGb1yzEwCIkhFNn3N5RrW4XCrxLVvb85Y3CVienDl4548cSgrIdkEJAKx8msk8ZdqMd-wPmYjnHFA0ysKGovXm_uRHTfCagCtnoGPA6YsddBn_xyNbshWm9ZV4DByK8wKgl9jd_OQ8RLdO9VDuAewmh9EYli28rJtBLc9fV5BLh2xwF-blw2KJR9eUDxfXiZW2BpS1tLk45OMMdviWqfZHrwIpdKJXJKo1vsrJanjjDqiXmbNocOijQ8JpMRNVvyBBqujpE5mMkXsVQ6-rmeM0t8bydxMBveGOjwNaagz9J-G-sCsMpeErSKbttYonpUYNbSRVxI_RZI006DWqFC0YprPsEiZjJPq2k7yCUqOmeE7xiO9MC2uDbJU3HyDOPezvJB0iUI2tb8bNz31bPs72jEPsxIUvJSbfRNfWVtSzNFNmX1GZVItBz1_03ve_MbV8yp5VaQNSJLdrnCh9XMrMpzcLch5nDdXkOiXXUDD5N3A3Hong2NLEKrlQwk9mW_KqEsB8TCncb-4xh5lvrEymU2FqxDwzI3tyYQrhPgXt_C_MS9r3_RgDoEfAGIdKBpAPEKGoJP3uAPVBIDEgSzYgp6idNpzU5KnepKSGEdCvqI7ul-BfsRcJxOnwHFFqhqQOIsjKEVyfsaVXeVTIe8-BU6X8p2c36Cw/https://www.amazon.in/stores/page/65258547-796F-454E-A508-7D8BA0613D1B/?_encoding=UTF8&store_ref=SB_A05687921LL0S3W27F9HT-A0368319SNRVO7X5T3LK&pd_rd_plhdr=t&aaxitk=54e420ba256b56d6309db03e4ca81ba9&hsa_cr_id=0&lp_asins=B08RZ5K9YH%2CB09XBJ1CTN%2CB0D1TTDFYS&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=rD7stsqCNb&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                          - link "Fast Chargers" [ref=e2913] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JFpWkNFdJ4dVlwCNFgHUNpcAAAGZq96mIwoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICCTUG58/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0pAmcAOExqDnmvTszzSn49T2ApdHKtJdx4okfB8IkGXCQQUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqWDHvmJNe9I8M4rWRwMo58g59d2LsJy61JELFKo_yWr3JYqfnqDdhxLjmOcuEwH_BDILeqtZkZKfITdhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M16FY95lxgJ2InKPzMldWgkqs4m9IskJHwdXieFukpBhQzgXMJn6wYFxml19fcE-N0yAymULklH2ab3Ncrd56fyC3cJPQPxgjX2ao9B_whVzNomEf6ugqhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHROQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFBuYOiuxkVtcnvTeS0mMCQtmK0-EL093A06hPLh2C-4wmgiP8WusIimBHMAMslSNgRCtui7OOboCN1FA0NCFbikgXDjRVaEmwUOWV0UTnI8Vb_xRuyRPnV17HqrOrc_TWcXptNDtjiQ4jg2H2gfA1hOcAwRR9AF0hTZZjO_yDsJXZHHTqL241V-AwPZZ4U5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8etmPGQ6_T4JDefBVSmKFeqHFMTYhFreId52JoOD7YBzlzqRActouLS5wG4u5U1OfOvlPm3AaI7acptrDns8RdMLIkAxWRuFMm1EnYlZ9eMnLHUr2MJEFt7f8pInC6ReP8HLHtucYvDhBbsMSM32NK3H86zm4WyxY-1b8EtqGzexBvqR1p2Ka775RG1XzFGYHeG-FoVKlhC0EfZXHQp4tleuvaFfkTa5MYJA2q242-LRgjoni0Qqik3W3BMDicdExd93o-4t4kmOe948_NbMNUhGs7UHQj9MUR0oV2bDgzdkD-HRqecFcAehPgdtAhWm5PA-8k-i8Ln-VYZNPDB7iZXHwcSDQeBAZZJWKRaLLiUG1NmRalKs5-OzLkk1jMj9S0KgSE7wMEjDiNiaO7i8wEnigt4agmQudMCPRTkfH1DSIZOkx8LAUnN0g1FI4hGvhBUGFHkV_0JYxid-srHr7dhdNeJhSPbDebNsNOib0ofbWJ2OEP36_DYYGgpy28cbKx7yDZrxdOI4grv9AbezNB0js8r7cEfjPABo9XD9AzOHT04ot5Mb-wnDD9oaGb1yzEwCIkhFNn3N5RrW4XCrxLVvb85Y3CVienDl4548cSgrIdkEJAKx8msk8ZdqMd-wPmYjnHFA0ysKGovXm_uRHTfCagCtnoGPA6YsddBn_xyNbshWm9ZV4DByK8wKgl9jd_OQ8RLdO9VDuAewmh9EYli28rJtBLc9fV5BLh2xwF-blw2KJR9eUDxfXiZW2BpS1tLk45OMMdviWqfZHrwIpdKJXJKo1vsrJanjjDqiXmbNocOijQ8JpMRNVvyBBqujpE5mMkXsVQ6-rmeM0t8bydxMBveGOjwNaagz9J-G-sCsMpeErSKbttYonpUYNbSRVxI_RZI006DWqFC0YprPsEiZjJPq2k7yCUqOmeE7xiO9MC2uDbJU3HyDOPezvJB0iUI2tb8bNz31bPs72jEPsxIUvJSbfRNfWVtSzNFNmX1GZVItBz1_03ve_MbV8yp5VaQNSJLdrnCh9XMrMpzcLch5nDdXkOiXXUDD5N3A3Hong2NLEKrlQwk9mW_KqEsB8TCncb-4xh5lvrEymU2FqxDwzI3tyYQrhPgXt_C_MS9r3_RgDoEfAGIdKBpAPEKGoJP3uAPVBIDEgSzYgp6idNpzU5KnepKSGEdCvqI7ul-BfsRcJxOnwHFFqhqQOIsjKEVyfsaVXeVTIe8-BU6X8p2c36Cw/https://www.amazon.in/stores/page/65258547-796F-454E-A508-7D8BA0613D1B/?_encoding=UTF8&store_ref=SB_A05687921LL0S3W27F9HT-A0368319SNRVO7X5T3LK&pd_rd_plhdr=t&aaxitk=54e420ba256b56d6309db03e4ca81ba9&hsa_cr_id=0&lp_asins=B08RZ5K9YH%2CB09XBJ1CTN%2CB0D1TTDFYS&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=rD7stsqCNb&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                            - generic [ref=e2915] [cursor=pointer]:
+                              - generic [ref=e2916] [cursor=pointer]: Fast Chargers
+                              - generic [ref=e2917] [cursor=pointer]: Fast Chargers
+                - generic [ref=e2919]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JG_sViQ7tx0BJyn7joG1bGQAAAGZq96mJAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAbNSX3/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0WAmcADQ1zCAO9C5HTKmwLRU9sbFSrIp1OlEfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqrYV6WKUd1a2d1QfwQPkbMigOYwLMBQ6VF-KECd1SWr3JYqfnqDdhxLjmecuEw9_RPmA--vWEIBf5TRzPFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn49lHHpNuhxRA2JrNZyR9cWgkquAm9JwwInwnXXqSh1YJkgzzAcN0_BQG1nJu9fcA-coiDymUAElH2pvzMcrN-6bmCGxSPgT2kSHPedZCwhgezfQiE_-8naJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtBSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8Cpd_lIuAuEczz9btEMa0ose-vX-s-FXhyWog7y7WvG-quTHVtvgfzeB7mXuRD_IOSLgXFc-t_cqi9TJdFB0MUynlmAD9lwFfL28UXBJ3ayni726mvm61cvnA74uR89fJw2qLcaZuCeGdc5nK6W2xUn5uO_o4Wxx6ZFNgTb7V9DKbJ3Ajfn-33rMK-h9qIJw-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8atqOJzz0TJJDPPNVRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAVNcuLSo0GJuTVVGPKr9PpXAZIoqyvNvtuM0hdKH8lgxaR9thgAQjcQ19ecrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyV5adifPasikPsxHs-mxSpI8bN4ogNRBomLUABMBNs8SCIEVkTTNxFiIcIdQJPO7JxhCxhQMjJv3wbKkB7F9T4fzrLHTz7KnU2D8Kn38jVPaVfzzlYHvKzGdZrSDrLMKwwhtshqkWmD2N1mT4uKDI6cVK_Ih_s4GrTW96Q_QEIllDEC5AXZ58ZFN3CNPvSGvRdZ0wXWiMoopuQMIq5m4vDr3IyDWgLvIbkxMR9jCgE-PzSNHsZgPpWL19mFVaWL4t328KlqGRFcF6uLJbq7Q/https://www.amazon.in/stores/page/C6C2D3C8-40EB-48C9-ACEA-C19C83639EED/?_encoding=UTF8&store_ref=SB_A09899152WA8WSU4ISS-A06114733G7IT5D0Z9LFY&pd_rd_plhdr=t&aaxitk=0d381c229d463fdfa03ad83af099060b&hsa_cr_id=8139755060502&lp_asins=B0FCR8HZVF%2CB0FCRJ984R&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=KNeL6QDz43&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                      - link "Lenovo Tablets" [ref=e2920] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JG_sViQ7tx0BJyn7joG1bGQAAAGZq96mJAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAbNSX3/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0WAmcADQ1zCAO9C5HTKmwLRU9sbFSrIp1OlEfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqrYV6WKUd1a2d1QfwQPkbMigOYwLMBQ6VF-KECd1SWr3JYqfnqDdhxLjmecuEw9_RPmA--vWEIBf5TRzPFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn49lHHpNuhxRA2JrNZyR9cWgkquAm9JwwInwnXXqSh1YJkgzzAcN0_BQG1nJu9fcA-coiDymUAElH2pvzMcrN-6bmCGxSPgT2kSHPedZCwhgezfQiE_-8naJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtBSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8Cpd_lIuAuEczz9btEMa0ose-vX-s-FXhyWog7y7WvG-quTHVtvgfzeB7mXuRD_IOSLgXFc-t_cqi9TJdFB0MUynlmAD9lwFfL28UXBJ3ayni726mvm61cvnA74uR89fJw2qLcaZuCeGdc5nK6W2xUn5uO_o4Wxx6ZFNgTb7V9DKbJ3Ajfn-33rMK-h9qIJw-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8atqOJzz0TJJDPPNVRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAVNcuLSo0GJuTVVGPKr9PpXAZIoqyvNvtuM0hdKH8lgxaR9thgAQjcQ19ecrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyV5adifPasikPsxHs-mxSpI8bN4ogNRBomLUABMBNs8SCIEVkTTNxFiIcIdQJPO7JxhCxhQMjJv3wbKkB7F9T4fzrLHTz7KnU2D8Kn38jVPaVfzzlYHvKzGdZrSDrLMKwwhtshqkWmD2N1mT4uKDI6cVK_Ih_s4GrTW96Q_QEIllDEC5AXZ58ZFN3CNPvSGvRdZ0wXWiMoopuQMIq5m4vDr3IyDWgLvIbkxMR9jCgE-PzSNHsZgPpWL19mFVaWL4t328KlqGRFcF6uLJbq7Q/https://www.amazon.in/stores/page/C6C2D3C8-40EB-48C9-ACEA-C19C83639EED/?_encoding=UTF8&store_ref=SB_A09899152WA8WSU4ISS-A06114733G7IT5D0Z9LFY&pd_rd_plhdr=t&aaxitk=0d381c229d463fdfa03ad83af099060b&hsa_cr_id=8139755060502&lp_asins=B0FCR8HZVF%2CB0FCRJ984R&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=KNeL6QDz43&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                        - img "Lenovo Tablets" [ref=e2921] [cursor=pointer]
+                      - generic [ref=e2923]:
+                        - generic [ref=e2924]:
+                          - link [ref=e2925] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JG_sViQ7tx0BJyn7joG1bGQAAAGZq96mJAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAbNSX3/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0WAmcADQ1zCAO9C5HTKmwLRU9sbFSrIp1OlEfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqrYV6WKUd1a2d1QfwQPkbMigOYwLMBQ6VF-KECd1SWr3JYqfnqDdhxLjmecuEw9_RPmA--vWEIBf5TRzPFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn49lHHpNuhxRA2JrNZyR9cWgkquAm9JwwInwnXXqSh1YJkgzzAcN0_BQG1nJu9fcA-coiDymUAElH2pvzMcrN-6bmCGxSPgT2kSHPedZCwhgezfQiE_-8naJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtBSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8Cpd_lIuAuEczz9btEMa0ose-vX-s-FXhyWog7y7WvG-quTHVtvgfzeB7mXuRD_IOSLgXFc-t_cqi9TJdFB0MUynlmAD9lwFfL28UXBJ3ayni726mvm61cvnA74uR89fJw2qLcaZuCeGdc5nK6W2xUn5uO_o4Wxx6ZFNgTb7V9DKbJ3Ajfn-33rMK-h9qIJw-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8atqOJzz0TJJDPPNVRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAVNcuLSo0GJuTVVGPKr9PpXAZIoqyvNvtuM0hdKH8lgxaR9thgAQjcQ19ecrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyV5adifPasikPsxHs-mxSpI8bN4ogNRBomLUABMBNs8SCIEVkTTNxFiIcIdQJPO7JxhCxhQMjJv3wbKkB7F9T4fzrLHTz7KnU2D8Kn38jVPaVfzzlYHvKzGdZrSDrLMKwwhtshqkWmD2N1mT4uKDI6cVK_Ih_s4GrTW96Q_QEIllDEC5AXZ58ZFN3CNPvSGvRdZ0wXWiMoopuQMIq5m4vDr3IyDWgLvIbkxMR9jCgE-PzSNHsZgPpWL19mFVaWL4t328KlqGRFcF6uLJbq7Q/https://www.amazon.in/stores/page/C6C2D3C8-40EB-48C9-ACEA-C19C83639EED/?_encoding=UTF8&store_ref=SB_A09899152WA8WSU4ISS-A06114733G7IT5D0Z9LFY&pd_rd_plhdr=t&aaxitk=0d381c229d463fdfa03ad83af099060b&hsa_cr_id=8139755060502&lp_asins=B0FCR8HZVF%2CB0FCRJ984R&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=KNeL6QDz43&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                          - link "Lenovo Tablets" [ref=e2926] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JG_sViQ7tx0BJyn7joG1bGQAAAGZq96mJAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAbNSX3/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0WAmcADQ1zCAO9C5HTKmwLRU9sbFSrIp1OlEfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqrYV6WKUd1a2d1QfwQPkbMigOYwLMBQ6VF-KECd1SWr3JYqfnqDdhxLjmecuEw9_RPmA--vWEIBf5TRzPFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn49lHHpNuhxRA2JrNZyR9cWgkquAm9JwwInwnXXqSh1YJkgzzAcN0_BQG1nJu9fcA-coiDymUAElH2pvzMcrN-6bmCGxSPgT2kSHPedZCwhgezfQiE_-8naJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtBSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8Cpd_lIuAuEczz9btEMa0ose-vX-s-FXhyWog7y7WvG-quTHVtvgfzeB7mXuRD_IOSLgXFc-t_cqi9TJdFB0MUynlmAD9lwFfL28UXBJ3ayni726mvm61cvnA74uR89fJw2qLcaZuCeGdc5nK6W2xUn5uO_o4Wxx6ZFNgTb7V9DKbJ3Ajfn-33rMK-h9qIJw-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8atqOJzz0TJJDPPNVRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAVNcuLSo0GJuTVVGPKr9PpXAZIoqyvNvtuM0hdKH8lgxaR9thgAQjcQ19ecrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyV5adifPasikPsxHs-mxSpI8bN4ogNRBomLUABMBNs8SCIEVkTTNxFiIcIdQJPO7JxhCxhQMjJv3wbKkB7F9T4fzrLHTz7KnU2D8Kn38jVPaVfzzlYHvKzGdZrSDrLMKwwhtshqkWmD2N1mT4uKDI6cVK_Ih_s4GrTW96Q_QEIllDEC5AXZ58ZFN3CNPvSGvRdZ0wXWiMoopuQMIq5m4vDr3IyDWgLvIbkxMR9jCgE-PzSNHsZgPpWL19mFVaWL4t328KlqGRFcF6uLJbq7Q/https://www.amazon.in/stores/page/C6C2D3C8-40EB-48C9-ACEA-C19C83639EED/?_encoding=UTF8&store_ref=SB_A09899152WA8WSU4ISS-A06114733G7IT5D0Z9LFY&pd_rd_plhdr=t&aaxitk=0d381c229d463fdfa03ad83af099060b&hsa_cr_id=8139755060502&lp_asins=B0FCR8HZVF%2CB0FCRJ984R&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=KNeL6QDz43&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                            - img "Lenovo Tablets" [ref=e2928] [cursor=pointer]
+                        - generic [ref=e2929]:
+                          - link [ref=e2930] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JG_sViQ7tx0BJyn7joG1bGQAAAGZq96mJAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAbNSX3/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0WAmcADQ1zCAO9C5HTKmwLRU9sbFSrIp1OlEfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqrYV6WKUd1a2d1QfwQPkbMigOYwLMBQ6VF-KECd1SWr3JYqfnqDdhxLjmecuEw9_RPmA--vWEIBf5TRzPFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn49lHHpNuhxRA2JrNZyR9cWgkquAm9JwwInwnXXqSh1YJkgzzAcN0_BQG1nJu9fcA-coiDymUAElH2pvzMcrN-6bmCGxSPgT2kSHPedZCwhgezfQiE_-8naJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtBSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8Cpd_lIuAuEczz9btEMa0ose-vX-s-FXhyWog7y7WvG-quTHVtvgfzeB7mXuRD_IOSLgXFc-t_cqi9TJdFB0MUynlmAD9lwFfL28UXBJ3ayni726mvm61cvnA74uR89fJw2qLcaZuCeGdc5nK6W2xUn5uO_o4Wxx6ZFNgTb7V9DKbJ3Ajfn-33rMK-h9qIJw-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8atqOJzz0TJJDPPNVRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAVNcuLSo0GJuTVVGPKr9PpXAZIoqyvNvtuM0hdKH8lgxaR9thgAQjcQ19ecrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyV5adifPasikPsxHs-mxSpI8bN4ogNRBomLUABMBNs8SCIEVkTTNxFiIcIdQJPO7JxhCxhQMjJv3wbKkB7F9T4fzrLHTz7KnU2D8Kn38jVPaVfzzlYHvKzGdZrSDrLMKwwhtshqkWmD2N1mT4uKDI6cVK_Ih_s4GrTW96Q_QEIllDEC5AXZ58ZFN3CNPvSGvRdZ0wXWiMoopuQMIq5m4vDr3IyDWgLvIbkxMR9jCgE-PzSNHsZgPpWL19mFVaWL4t328KlqGRFcF6uLJbq7Q/https://www.amazon.in/stores/page/C6C2D3C8-40EB-48C9-ACEA-C19C83639EED/?_encoding=UTF8&store_ref=SB_A09899152WA8WSU4ISS-A06114733G7IT5D0Z9LFY&pd_rd_plhdr=t&aaxitk=0d381c229d463fdfa03ad83af099060b&hsa_cr_id=8139755060502&lp_asins=B0FCR8HZVF%2CB0FCRJ984R&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=KNeL6QDz43&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                          - link "Lenovo's First AI Tablet" [ref=e2931] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JG_sViQ7tx0BJyn7joG1bGQAAAGZq96mJAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICAbNSX3/clv1_CEuOPUxokZA0iHrVQ_1z0gPMRHNQd4IKt7U-pRmk8NMq4X8it2XuD_018HHz9hvVjq0yzpNb3X7OfU0WAmcADQ1zCAO9C5HTKmwLRU9sbFSrIp1OlEfB8IkGXCQRUuW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7icy4j-a7UEL2ef1aK1xkuNcA7FBIOT3_cq0eVrbNPflqrYV6WKUd1a2d1QfwQPkbMigOYwLMBQ6VF-KECd1SWr3JYqfnqDdhxLjmecuEw9_RPmA--vWEIBf5TRzPFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn49lHHpNuhxRA2JrNZyR9cWgkquAm9JwwInwnXXqSh1YJkgzzAcN0_BQG1nJu9fcA-coiDymUAElH2pvzMcrN-6bmCGxSPgT2kSHPedZCwhgezfQiE_-8naJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtBSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8Cpd_lIuAuEczz9btEMa0ose-vX-s-FXhyWog7y7WvG-quTHVtvgfzeB7mXuRD_IOSLgXFc-t_cqi9TJdFB0MUynlmAD9lwFfL28UXBJ3ayni726mvm61cvnA74uR89fJw2qLcaZuCeGdc5nK6W2xUn5uO_o4Wxx6ZFNgTb7V9DKbJ3Ajfn-33rMK-h9qIJw-5beAyTRjiwpWHuK1pUFI_Ipfhw5FV2W8atqOJzz0TJJDPPNVRmOEVa7PIWkpCraXc4WyxbHEaQ3AxKJAVNcuLSo0GJuTVVGPKr9PpXAZIoqyvNvtuM0hdKH8lgxaR9thgAQjcQ19ecrUDVvYFpQDnrPppYmx8iD76HT8tusGszZJZ_t3K1a8KH3-1k2GXSwGuVz6EvSC2el8p6dMwD6j2sFMIEe6MloaRlOC1WyhvyIQIZXVRuoTr4jqWXzoFZBdQZowq0Ay7LFdnYuX_xubqXGNM8Dcc9JUEMXQwuwYoj2S4o88E6gNQzCm60b6iugLcVwDzL_q3YYL5HV1fdlnZLl-sto3z1u3Ak2Fgsm2KH-7ZYdKMRvddUu5Sxj6RygZB4CbbJvKtDOILGQv46kC6MLEg2RaZy58zLEoT-kJHh_cLDKL0y0wDXTij-O4pQqdCSnXSEDNyw3reO4P6KQSnIwl0G8eh2HkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8RRVudhylpyotWTS_ELn8ZMvdKmPc0dPO1Iv0hu53dfSQ58_ievvWD_vx_d5eZvTRZpmOb7IUkHgW0whl5tAOtioN7AxCZy3P2iuX09OotboZe5H6dHu8li5oiliXkkotFCMJQW5tw7Wg3FubbwWHuffaWCimIi6u1R5S-zukS9N4cT8Kk9vBXkVovANEbEqhspvLdGyfJGZGWpLxzc-6gZu9iMjFNvSNNu-iMC5aQk38MQ5DemfoOidzhQi0FkMi3ji9OZlX6POnhnShv5-EvSLzFj9cno0YJNSRv9pDeeoU97QC2FhF-hIHsTkE_G-qPyrqBd46tenyDv5pYclbeZKcHMCyLEsXJagQfK42tZoyV5adifPasikPsxHs-mxSpI8bN4ogNRBomLUABMBNs8SCIEVkTTNxFiIcIdQJPO7JxhCxhQMjJv3wbKkB7F9T4fzrLHTz7KnU2D8Kn38jVPaVfzzlYHvKzGdZrSDrLMKwwhtshqkWmD2N1mT4uKDI6cVK_Ih_s4GrTW96Q_QEIllDEC5AXZ58ZFN3CNPvSGvRdZ0wXWiMoopuQMIq5m4vDr3IyDWgLvIbkxMR9jCgE-PzSNHsZgPpWL19mFVaWL4t328KlqGRFcF6uLJbq7Q/https://www.amazon.in/stores/page/C6C2D3C8-40EB-48C9-ACEA-C19C83639EED/?_encoding=UTF8&store_ref=SB_A09899152WA8WSU4ISS-A06114733G7IT5D0Z9LFY&pd_rd_plhdr=t&aaxitk=0d381c229d463fdfa03ad83af099060b&hsa_cr_id=8139755060502&lp_asins=B0FCR8HZVF%2CB0FCRJ984R&lp_query=samsung%20m36&lp_slot=desktop-hsa-3psl&aref=KNeL6QDz43&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=XjE0g&content-id=amzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f%3Aamzn1.sym.b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_p=b886e04b-39e7-411c-8add-a6879775de2f&pf_rd_r=RCFW4VT7JXY6ZX0XV2SZ&pd_rd_wg=HLJtC&pd_rd_r=dfabbdf0-3333-4467-90db-deb42404e792
+                            - generic [ref=e2933] [cursor=pointer]:
+                              - generic [ref=e2934] [cursor=pointer]: Lenovo's First AI Tablet
+                              - generic [ref=e2935] [cursor=pointer]: Lenovo's First AI Tablet
+          - generic [ref=e2941]:
+            - heading "Need help?" [level=2] [ref=e2944]
+            - generic [ref=e2945]:
+              - link "Visit the help section" [ref=e2946] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - generic [ref=e2947]: or
+              - link "contact us" [ref=e2948] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+          - generic [ref=e2951]:
+            - iframe [ref=e2952]:
+              - generic [ref=f1e3]:
+                - generic [ref=f1e4]: Sponsored Ad. Brand logo. Product image. Honeywell 7-in-1 TypeC Docking Station with 4K HDMI,1xUSB 3.0, 2xUSB 2.0 & TypeC 3.0 PD 100W Charging Port, SD & Micro SD Slot,for All Type C Devices- MacBook,Laptop, Thunderbolt 3,PC,3 Years Warranty 1989
+                - link "Sponsored Ad. Brand logo. Product image. Honeywell 7-in-1 TypeC Docking Station with 4K HDMI,1xUSB 3.0, 2xUSB 2.0 & TypeC 3.0 PD 100W Charging Port, SD & Micro SD Slot,for All Type C Devices- MacBook,Laptop, Thunderbolt 3,PC,3 Years Warranty 1989" [ref=f1e7] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/ROSPo2XZLlzk08u32oC0YQkAAAGZq96l_QoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICBIZGq7/clv1_CEuOPUxokZA9iHrVU7wL5xP_cnJ4V55quocM9Di0p8FI4X8etWXuD_018HFItlC9gqEp25IbmnkC2dLPA3sjJg1hBS2SC_rUL30cOU94RH-bHK1FxaMd6JJGP-iOMfm6WN3Lfwzxr9YWFk9hg0v2YAFBKg8QBt9hBRY9HqMnUhKFyLqDhUk3Q0G-Kp7vPuogBnoOdtqahJ1BBWh2KcNaYfAXkcOsktIiVBKEZpAkjwMt7q9FwOmESBUKnUiigUVjPGfAC8yX5UA_jkcRbvpYVi-GQ2mQi1fGFf2V_vDJTIwkLkn_7b-Z_hStQFDzH7Cm6espw7pqHczEjKffA-O9LppAyP1McD0_8Yol0N83TsdF6XJmMneiwVmHoqkkQmfjFgw21mLaoV8v-zTPNu6wYmhcZJXDsuRUQM8-NWBmph5IKuBMgzVWR0FUzJ1mIlUmHoGbfOvEkrSkHR4OWSmZkMBLfxSF3HvobxkwJtRu-IGoKyVanoyM-mapdm1MA7uCxa1GzQseCeMBw0yJ0ESllWXjSzZITGwaJhG3enrTGrPJJB6eOwJZ7n4jUgapUW3jVqMzkPxCfRe5yKoIsNMZGBTdLS5HnSh7_P8FntiXql0Prd6__LA2QQjBq1yKYPSILWdgF48mIz9269ZLZaxUnSsR3oPGbQd0SCANj-1F9cAfJFMAdjuPqCoQ8TrCAb8B1l0-3wNXl-YV-Mw8Mnu3CmUguqjTFP3V1KudF3UkLAqDsBnpZ_Z9-A5K6dwzSMjNoftVGTHBtXHZzyfdOxv6fA9RoFPoFHFwn8JcRt4UaTy11gNyMLd94Wo584i4SkTMcc2FeR16_z3Eo-dPA59sl7-f3HlIit6YDt-N29aGqhOUx3_x-EAIzz3VjwLPuh3H0tIfqpt5txybAMomQv08Gu220vGd-jlXbDsdFznFtyLegD15U2MGflU1Ck62slqvxgCibYXZupeu_v7F_Sa6fbUQEuCcT5uXxWCidR1ZPpgSeyhHFxNARrzu8hfeaXBHMQqBys5I1Tw6Iqsu_OGhlys4iTc3H-zFr1hg1Y5wqy0HDXWwfaaOKxe1N7dCJd91b0D5dO__PwQ_HLjmW6DbguLlXh2EyLlgd_VeE2cXvXs11ahWKyQEtSMBB7zo5LKt5pFdEqiny2NBEvYPul0bfFFgBo3PAX_FD5UC94z-s4GF7xSlpDr_5aYegwx1ctBoEn-waFjx3mbaGWMavFrRVdCErNlZorFKv2DikbVlGlHuKEk6Ygao01eGyT8XHqDlZLBmqtiubXjCephfdNwvs24lBvQNRezCo3KCmWakFs3seslqYpmExI51bFbGk-2BeBKAiIihD-rON-KzBwKv/http://www.amazon.in/dp/B0CHBHYLLR/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=pd4dK4q58w
+                - generic [ref=f1e8]:
+                  - img "Brand logo" [ref=f1e12]
+                  - img "Product image" [ref=f1e16]
+            - button "Leave feedback on Sponsored advertisement" [ref=e2954] [cursor=pointer]:
+              - generic [ref=e2955] [cursor=pointer]: Sponsored
+        - link "Go back to filtering menu" [ref=e2957] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e2958]:
+        - generic [ref=e2959]:
+          - link "Skip to main search results" [ref=e2960] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e2962]:
+            - generic [ref=e2966]:
+              - group "Deals & Discounts" [ref=e2967]:
+                - heading "Deals & Discounts" [level=2] [ref=e2968]:
+                  - generic [ref=e2969]: Deals & Discounts
+                - list "Deals & Discounts" [ref=e2970]:
+                  - listitem [ref=e2971]:
+                    - link "Great Indian Festival" [ref=e2973] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_deal_type%3A26921224031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=26921223031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_deal_type_1&ds=v1%3A9Xh2hzRI5%2BDkvohN1eGfg%2Fghjr2OqlvZsUg%2Bz5yD6Jc
+                      - generic [ref=e2974] [cursor=pointer]: Great Indian Festival
+              - group "Delivery Day" [ref=e2975]:
+                - heading "Delivery Day" [level=2] [ref=e2976]:
+                  - generic [ref=e2977]: Delivery Day
+                - list "Delivery Day" [ref=e2978]:
+                  - listitem [ref=e2979]:
+                    - link "Apply the filter Get It by Tomorrow to narrow results" [ref=e2981] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_90%3A6741118031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=6741116031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_90_1&ds=v1%3AREtbd6ebm2H8wQ6eJoIocekFbCtsbNUsIWm4UyeG0ns
+                      - checkbox [ref=e2984] [cursor=pointer]
+                      - generic [ref=e2986] [cursor=pointer]: Get It by Tomorrow
+                  - listitem [ref=e2987]:
+                    - link "Apply the filter Get It in 2 Days to narrow results" [ref=e2989] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_90%3A20912642031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=6741116031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_90_2&ds=v1%3A%2FbMn0zQAYP%2FxgNbxI5%2BuMmzSKVNb2k7VFyQjuNJx6io
+                      - checkbox [ref=e2992] [cursor=pointer]
+                      - generic [ref=e2994] [cursor=pointer]: Get It in 2 Days
+              - group "Brands" [ref=e2995]:
+                - heading "Brands" [level=2] [ref=e2996]:
+                  - generic [ref=e2997]: Brands
+                - list "Brands" [ref=e2998]:
+                  - listitem [ref=e2999]:
+                    - link "Apply the filter Samsung to narrow results" [ref=e3001] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A46655&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_1&ds=v1%3AlCQHIErCxvNC8r5dN%2BKirdIZP8ynnUUFxZAGdJql5zI
+                      - checkbox [ref=e3004] [cursor=pointer]
+                      - generic [ref=e3006] [cursor=pointer]: Samsung
+                  - listitem [ref=e3007]:
+                    - link "Apply the filter Redmi to narrow results" [ref=e3009] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A339703&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_2&ds=v1%3AkMSLMEXAkoT4bBh3r7PGTy%2FnbzLoBWF4ihNTR5extqQ
+                      - checkbox [ref=e3012] [cursor=pointer]
+                      - generic [ref=e3014] [cursor=pointer]: Redmi
+                  - listitem [ref=e3015]:
+                    - link "Apply the filter iQOO to narrow results" [ref=e3017] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A646111&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_3&ds=v1%3AruwA0uhSnJ1uAkhlED4nyQu8oXjK%2Fh9TRjANhC0leYU
+                      - checkbox [ref=e3020] [cursor=pointer]
+                      - generic [ref=e3022] [cursor=pointer]: iQOO
+                  - listitem [ref=e3023]:
+                    - link "Apply the filter OnePlus to narrow results" [ref=e3025] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A253649&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_4&ds=v1%3AdgHBBJ%2FDB5Ht60kTkmL53pvsiJfe%2FLYBZ0%2FRNv8Ipks
+                      - checkbox [ref=e3028] [cursor=pointer]
+                      - generic [ref=e3030] [cursor=pointer]: OnePlus
+                  - listitem [ref=e3031]:
+                    - link "Apply the filter Amazon Brand - Solimo to narrow results" [ref=e3033] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A445047&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_5&ds=v1%3AJA91anj8Kbze2D5J1ihkeeEQb1Rjm45TGcVAYvqpsbw
+                      - checkbox [ref=e3036] [cursor=pointer]
+                      - generic [ref=e3038] [cursor=pointer]: Amazon Brand - Solimo
+                  - listitem [ref=e3039]:
+                    - link "Apply the filter amazon basics to narrow results" [ref=e3041] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A234478&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_6&ds=v1%3AEz35hWJh20JKk66qGgeH6%2FDE7UgTmso2u9DAyouj4Zk
+                      - checkbox [ref=e3044] [cursor=pointer]
+                      - generic [ref=e3046] [cursor=pointer]: amazon basics
+                  - listitem [ref=e3047]:
+                    - link "Apply the filter TheGiftKart to narrow results" [ref=e3049] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_123%3A454086&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91049095031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_123_7&ds=v1%3ANmxjaegNM5Cx5TKui9KVLR9DXu1XUQlcgnaEHgRtYvw
+                      - checkbox [ref=e3052] [cursor=pointer]
+                      - generic [ref=e3054] [cursor=pointer]: TheGiftKart
+                  - listitem [ref=e3055]:
+                    - button "See more, Brands" [ref=e3058] [cursor=pointer]:
+                      - generic [ref=e3060] [cursor=pointer]: See more
+              - group [ref=e3061]:
+                - generic [ref=e3062]:
+                  - generic [ref=e3064]: Price
+                  - generic [ref=e3067]:
+                    - generic [ref=e3068]:
+                      - generic [ref=e3070]: ₹88
+                      - generic [ref=e3072]: –
+                      - generic [ref=e3074]: ₹44,800+
+                    - generic [ref=e3075]:
+                      - generic [ref=e3076]:
+                        - generic:
+                          - slider "Minimum price": "0"
+                        - generic [ref=e3077]:
+                          - slider "Maximum price": "188"
+                      - generic [ref=e3080] [cursor=pointer]:
+                        - button "Go - Submit price range" [ref=e3081] [cursor=pointer]
+                        - generic [ref=e3083] [cursor=pointer]: Go
+              - group "Storage Capacity" [ref=e3084]:
+                - heading "Storage Capacity" [level=2] [ref=e3085]:
+                  - generic [ref=e3086]: Storage Capacity
+                - list "Storage Capacity" [ref=e3087]:
+                  - listitem [ref=e3088]:
+                    - link "Apply the filter 128 GB to narrow results" [ref=e3090] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003492455111%3A81332994031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=44349045031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_1&ds=v1%3A0fL6QfkPJa71hiN8nbsEelVEUtJFaDreaZF4mDV%2BT1Q
+                      - checkbox [ref=e3093] [cursor=pointer]
+                      - generic [ref=e3095] [cursor=pointer]: 128 GB
+                  - listitem [ref=e3096]:
+                    - link "Apply the filter 256 GB to narrow results" [ref=e3098] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003492455111%3A81332996031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=44349045031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003492455111_2&ds=v1%3AHP0yWNqEcIdvn0ttWCLWsk4z3rAmSfVNDr1N1ZdR5co
+                      - checkbox [ref=e3101] [cursor=pointer]
+                      - generic [ref=e3103] [cursor=pointer]: 256 GB
+              - group "Category" [ref=e3104]:
+                - heading "Category" [level=2] [ref=e3105]:
+                  - generic [ref=e3106]: Category
+                - list "Category" [ref=e3107]:
+                  - listitem [ref=e3108]:
+                    - link "Smartphones & Basic Mobiles" [ref=e3110] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=n%3A1389432031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=3576079031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_n_1&ds=v1%3AVUW14VCdyWzjMkaa6Lcy1YRosSgsXL0oBBjYCQhZk9k
+                      - generic [ref=e3111] [cursor=pointer]: Smartphones & Basic Mobiles
+                  - listitem [ref=e3112]:
+                    - link "Smartphones" [ref=e3114] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=n%3A1389432031%2Cn%3A1805560031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=3576079031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_n_2&ds=v1%3A7TEsT9QT333zxmpCAtCa%2BwZn4vsF8zT70QuqgaUwVTQ
+                      - generic [ref=e3115] [cursor=pointer]: Smartphones
+              - group "Customer Review" [ref=e3116]:
+                - heading "Customer Review" [level=2] [ref=e3117]:
+                  - generic [ref=e3118]: Customer Review
+                - list "Customer Review" [ref=e3119]:
+                  - listitem [ref=e3120]:
+                    - link "Apply the filter 4 Stars & Up to narrow results" [ref=e3123] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_72%3A1318476031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1318475031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_72_1&ds=v1%3AOHmSKRI7e8UwVBBPvtJC2tTAxKED3VIw1zUUP4rbE%2Bo
+                      - generic [ref=e3125] [cursor=pointer]: 4 Stars
+                      - generic [ref=e3126] [cursor=pointer]: "& Up"
+              - group "RAM Size" [ref=e3127]:
+                - heading "RAM Size" [level=2] [ref=e3128]:
+                  - generic [ref=e3129]: RAM Size
+                - list "RAM Size" [ref=e3130]:
+                  - listitem [ref=e3131]:
+                    - link "Apply the filter 8 to 9.9 GB to narrow results" [ref=e3133] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003495121111%3A44897288031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=44897277031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_1&ds=v1%3ADrZpkjL%2B%2FVHs3zsC66%2Bi4U7pj8hXoynStH4vl7%2Fq%2FyU
+                      - checkbox [ref=e3136] [cursor=pointer]
+                      - generic [ref=e3138] [cursor=pointer]: 8 to 9.9 GB
+                  - listitem [ref=e3139]:
+                    - link "Apply the filter 10 GB & Above to narrow results" [ref=e3141] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003495121111%3A44897292031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=44897277031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003495121111_2&ds=v1%3Avp%2BMMmzu3XpItKLjOHgVvVqCOJwLz2A2llVWmMl0%2BB4
+                      - checkbox [ref=e3144] [cursor=pointer]
+                      - generic [ref=e3146] [cursor=pointer]: 10 GB & Above
+              - group "Cellular Technology" [ref=e3147]:
+                - heading "Cellular Technology" [level=2] [ref=e3148]:
+                  - generic [ref=e3149]: Cellular Technology
+                - list "Cellular Technology" [ref=e3150]:
+                  - listitem [ref=e3151]:
+                    - link "Apply the filter 5G to narrow results" [ref=e3153] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003469290111%3A33962382031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=33962288031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003469290111_1&ds=v1%3AMGLPFZ6DjxwpTpOr3zDGBaxRcQBzv0dd75xlk5E5TRA
+                      - checkbox [ref=e3156] [cursor=pointer]
+                      - generic [ref=e3158] [cursor=pointer]: 5G
+              - group "Item Condition" [ref=e3159]:
+                - heading "Item Condition" [level=2] [ref=e3160]:
+                  - generic [ref=e3161]: Item Condition
+                - list "Item Condition" [ref=e3162]:
+                  - listitem [ref=e3163]:
+                    - link "Apply the filter New to narrow results" [ref=e3165] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_condition-type%3A8609960031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=8609959031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_condition-type_1&ds=v1%3AS5r5u3twExq0cawqNu2GCXh9oq6dY0wlMjWZnhfm6NM
+                      - checkbox [ref=e3168] [cursor=pointer]
+                      - generic [ref=e3170] [cursor=pointer]: New
+              - group "Discount" [ref=e3171]:
+                - heading "Discount" [level=2] [ref=e3172]:
+                  - generic [ref=e3173]: Discount
+                - list "Discount" [ref=e3174]:
+                  - listitem [ref=e3175]:
+                    - link "10% Off or more" [ref=e3177] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=2665398031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3An0p5gotJAe%2Frk%2Bx2uVPWobvnQUg3vpeK1SGfYmJ9N5s
+                      - generic [ref=e3178] [cursor=pointer]: 10% Off or more
+                  - listitem [ref=e3179]:
+                    - link "25% Off or more" [ref=e3181] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_pct-off-with-tax%3A2665400031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=2665398031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3A8yzmVEymAU%2FkMjNPOIQRyFn0KZvwwwbRkcFFUbh4gD0
+                      - generic [ref=e3182] [cursor=pointer]: 25% Off or more
+                  - listitem [ref=e3183]:
+                    - link "35% Off or more" [ref=e3185] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_pct-off-with-tax%3A2665402031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=2665398031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AXK0GFMkWW6k1oQ0cg59hqCeJuHiTozSdxJfRI1JZ%2B74
+                      - generic [ref=e3186] [cursor=pointer]: 35% Off or more
+                  - listitem [ref=e3187]:
+                    - link "50% Off or more" [ref=e3189] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_pct-off-with-tax%3A2665401031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=2665398031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3A8%2FmJWfhe70hNjwDXZBi7cL6M7V8EgjfuxShXj5VmtQs
+                      - generic [ref=e3190] [cursor=pointer]: 50% Off or more
+                  - listitem [ref=e3191]:
+                    - link "60% Off or more" [ref=e3193] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_pct-off-with-tax%3A27060456031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=2665398031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3Aize3gexhakaKcUtIjjZYxLJ0S7hmsVJ4sWhcgYqwtfQ
+                      - generic [ref=e3194] [cursor=pointer]: 60% Off or more
+                  - listitem [ref=e3195]:
+                    - link "70% Off or more" [ref=e3197] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_pct-off-with-tax%3A27060457031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=2665398031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3A1MDtaGio0EB3kdix8Ya9VUmCQjFbCc1XsuN2uEA0qrU
+                      - generic [ref=e3198] [cursor=pointer]: 70% Off or more
+              - group "Battery Capacity" [ref=e3199]:
+                - heading "Battery Capacity" [level=2] [ref=e3200]:
+                  - generic [ref=e3201]: Battery Capacity
+                - list "Battery Capacity" [ref=e3202]:
+                  - listitem [ref=e3203]:
+                    - link "Apply the filter 4,000 to 4,999 mAh to narrow results" [ref=e3205] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015098008111%3A91805325031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91805324031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_1&ds=v1%3ARFhmGKFW1%2FltrtlcDBAn%2Bd6Mnc3Caeko6rh1RZqKJ48
+                      - checkbox [ref=e3208] [cursor=pointer]
+                      - generic [ref=e3210] [cursor=pointer]: 4,000 to 4,999 mAh
+                  - listitem [ref=e3211]:
+                    - link "Apply the filter 5,000 to 5,999 mAh to narrow results" [ref=e3213] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015098008111%3A91805326031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91805324031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_2&ds=v1%3A%2Bg9BmkZbTnRfrr2Hqx6sASvx3zB96XxIsZhj4EdnZOI
+                      - checkbox [ref=e3216] [cursor=pointer]
+                      - generic [ref=e3218] [cursor=pointer]: 5,000 to 5,999 mAh
+                  - listitem [ref=e3219]:
+                    - link "Apply the filter 6,000 mAh & Above to narrow results" [ref=e3221] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015098008111%3A92071917031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=91805324031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015098008111_3&ds=v1%3Ayv%2FyMN2oe75iLpC1oHI5PefG%2Fmx7l30iJjN53TSVKTI
+                      - checkbox [ref=e3224] [cursor=pointer]
+                      - generic [ref=e3226] [cursor=pointer]: 6,000 mAh & Above
+              - group "Display Type" [ref=e3227]:
+                - heading "Display Type" [level=2] [ref=e3228]:
+                  - generic [ref=e3229]: Display Type
+                - list "Display Type" [ref=e3230]:
+                  - listitem [ref=e3231]:
+                    - link "Apply the filter AMOLED to narrow results" [ref=e3233] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101013595158111%3A66009619031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=66009617031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101013595158111_1&ds=v1%3A%2FMrsnsk8MNrd5Gl6EJUI1LmPo%2BaUQ7qaG7Ablvkx8Nk
+                      - checkbox [ref=e3236] [cursor=pointer]
+                      - generic [ref=e3238] [cursor=pointer]: AMOLED
+              - group "Display Size" [ref=e3239]:
+                - heading "Display Size" [level=2] [ref=e3240]:
+                  - generic [ref=e3241]: Display Size
+                - list "Display Size" [ref=e3242]:
+                  - listitem [ref=e3243]:
+                    - link "Apply the filter 5.5 in & above to narrow results" [ref=e3245] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1004194492091%3A6631756031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=6631751031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1004194492091_1&ds=v1%3AIkgV%2Fw2FsmHkLUWymJfdTJswWiMHIZTJ5WGVRZFn7AI
+                      - checkbox [ref=e3248] [cursor=pointer]
+                      - generic [ref=e3250] [cursor=pointer]: 5.5 in & above
+              - group "Mobile Phone Primary Camera Resolution" [ref=e3251]:
+                - heading "Mobile Phone Primary Camera Resolution" [level=2] [ref=e3252]:
+                  - generic [ref=e3253]: Mobile Phone Primary Camera Resolution
+                - list "Mobile Phone Primary Camera Resolution" [ref=e3254]:
+                  - listitem [ref=e3255]:
+                    - link "Apply the filter 32 MP & Above to narrow results" [ref=e3257] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_feature_fourteen_browse-bin%3A21329559031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=21345983031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_feature_fourteen_browse-bin_1&ds=v1%3ApQvLSURqDGICLN4iis7d9OBniPQgbOTAsAMJQYRyZEw
+                      - checkbox [ref=e3260] [cursor=pointer]
+                      - generic [ref=e3262] [cursor=pointer]: 32 MP & Above
+              - group "Processor Speed" [ref=e3263]:
+                - heading "Processor Speed" [level=2] [ref=e3264]:
+                  - generic [ref=e3265]: Processor Speed
+                - list "Processor Speed" [ref=e3266]:
+                  - listitem [ref=e3267]:
+                    - link "Apply the filter 2 - 2.4 GHz to narrow results" [ref=e3269] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_feature_nine_browse-bin%3A8561126031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=8561123031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3AGcArJx8Fbk%2FT7V%2FPHaApKVcwr1LxGSJHEdGkMZWy25U
+                      - checkbox [ref=e3272] [cursor=pointer]
+                      - generic [ref=e3274] [cursor=pointer]: 2 - 2.4 GHz
+                  - listitem [ref=e3275]:
+                    - link "Apply the filter 2.5 GHz & Above to narrow results" [ref=e3277] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_feature_nine_browse-bin%3A8561127031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=8561123031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3Ac79lfhch%2F6VnDBPoAAz4POUqY1WOMUudiSGk%2Fru1%2B54
+                      - checkbox [ref=e3280] [cursor=pointer]
+                      - generic [ref=e3282] [cursor=pointer]: 2.5 GHz & Above
+              - group "Pay On Delivery" [ref=e3283]:
+                - heading "Pay On Delivery" [level=2] [ref=e3284]:
+                  - generic [ref=e3285]: Pay On Delivery
+                - list "Pay On Delivery" [ref=e3286]:
+                  - listitem [ref=e3287]:
+                    - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e3289] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=4931670031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3A4MjHQkf6IwSctrSrRaDTPcZpvY2x0WmuBKqQBSeO7OY
+                      - checkbox [ref=e3292] [cursor=pointer]
+                      - generic [ref=e3294] [cursor=pointer]: Eligible for Pay On Delivery
+              - group "Availability" [ref=e3295]:
+                - heading "Availability" [level=2] [ref=e3296]:
+                  - generic [ref=e3297]: Availability
+                - list "Availability" [ref=e3298]:
+                  - listitem [ref=e3299]:
+                    - link "Apply the filter Include Out of Stock to narrow results" [ref=e3301] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_availability%3A1318485031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1318483031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_availability_2&ds=v1%3AokY0DiLGM0swMiUbLbl18fPc3fky%2FiSfXAQ0%2FY2RJrc
+                      - checkbox [ref=e3304] [cursor=pointer]
+                      - generic [ref=e3306] [cursor=pointer]: Include Out of Stock
+              - group "Operating System Version" [ref=e3307]:
+                - heading "Operating System Version" [level=2] [ref=e3308]:
+                  - generic [ref=e3309]: Operating System Version
+                - list "Operating System Version" [ref=e3310]:
+                  - listitem [ref=e3311]:
+                    - link "Apply the filter Android 14 to narrow results" [ref=e3313] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003517064111%3A206818075031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=51258619031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_1&ds=v1%3AygBMDvFXwPq992RDUVRxJVE747oMpXYkqrl8l2Q1qzk
+                      - checkbox [ref=e3316] [cursor=pointer]
+                      - generic [ref=e3318] [cursor=pointer]: Android 14
+                  - listitem [ref=e3319]:
+                    - link "Apply the filter OxygenOS to narrow results" [ref=e3321] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003517064111%3A51258674031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=51258619031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003517064111_2&ds=v1%3AgsH0DfjTdi5OPUqS80MHHu7nUSt9Aj2CBSR3SLom6Ug
+                      - checkbox [ref=e3324] [cursor=pointer]
+                      - generic [ref=e3326] [cursor=pointer]: OxygenOS
+              - group "Colour" [ref=e3327]:
+                - heading "Colour" [level=2] [ref=e3328]:
+                  - generic [ref=e3329]: Colour
+                - list "Colour" [ref=e3330]:
+                  - listitem [ref=e3331]:
+                    - generic:
+                      - link "Apply the filter Black to narrow results":
+                        - /url: /s?k=samsung+m36&rh=p_n_size_two_browse-vebin%3A15563995031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=15563994031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3A%2FOaQtDrBUPF0%2FjLe90Sql%2F9nI04M%2BiskgBSwddGp6KY
+                  - listitem [ref=e3333]:
+                    - generic:
+                      - link "Apply the filter Multicoloured to narrow results":
+                        - /url: /s?k=samsung+m36&rh=p_n_size_two_browse-vebin%3A15564011031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=15563994031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3Ak0zVmVRfV%2F3HZ6Pg4o1b800%2BlmDUACRbO2AwSM2oqHU
+                  - listitem [ref=e3335]:
+                    - generic:
+                      - link "Apply the filter White to narrow results":
+                        - /url: /s?k=samsung+m36&rh=p_n_size_two_browse-vebin%3A15563997031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=15563994031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_3&ds=v1%3A31MTEv01vUDOXUFyxc7f6cZOMa3dITWtHM0glnRovPo
+                  - listitem [ref=e3337]:
+                    - generic:
+                      - link "Apply the filter Red to narrow results":
+                        - /url: /s?k=samsung+m36&rh=p_n_size_two_browse-vebin%3A15564000031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=15563994031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_4&ds=v1%3A8E1U2mXbNTTJFK0bxmHNFUYC6I3EE1ZaAZIomdWng5w
+                  - listitem [ref=e3339]:
+                    - generic:
+                      - link "Apply the filter Green to narrow results":
+                        - /url: /s?k=samsung+m36&rh=p_n_size_two_browse-vebin%3A15564005031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=15563994031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_size_two_browse-vebin_5&ds=v1%3AkoRYvgNwDxmmxnmfUTVZuvvaCyHT8vdgeHQrg6kl87c
+              - group "Display Refresh Rate" [ref=e3341]:
+                - heading "Display Refresh Rate" [level=2] [ref=e3342]:
+                  - generic [ref=e3343]: Display Refresh Rate
+                - list "Display Refresh Rate" [ref=e3344]:
+                  - listitem [ref=e3345]:
+                    - link "Apply the filter 105 to 120 Hz to narrow results" [ref=e3347] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003533222111%3A56163447031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=56162597031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003533222111_1&ds=v1%3AsW1u70lMVUGZlqGCXtslkgMz7bugaRFFKxHguVQGCBc
+                      - checkbox [ref=e3350] [cursor=pointer]
+                      - generic [ref=e3352] [cursor=pointer]: 105 to 120 Hz
+              - group "Connectivity" [ref=e3353]:
+                - heading "Connectivity" [level=2] [ref=e3354]:
+                  - generic [ref=e3355]: Connectivity
+                - list "Connectivity" [ref=e3356]:
+                  - listitem [ref=e3357]:
+                    - link "Apply the filter Bluetooth to narrow results" [ref=e3359] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002112230111%3A27363277031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27363274031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_1&ds=v1%3A0kj4mvFhkNItdxYxa0e6rUMMFBOGIUeJvSPuxFjzHQQ
+                      - checkbox [ref=e3362] [cursor=pointer]
+                      - generic [ref=e3364] [cursor=pointer]: Bluetooth
+                  - listitem [ref=e3365]:
+                    - link "Apply the filter Infrared to narrow results" [ref=e3367] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002112230111%3A27363275031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27363274031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_2&ds=v1%3A%2FpM%2F8IofTNOFFjtLG3MOlnD6nV4bKasbRmUadUQhYww
+                      - checkbox [ref=e3370] [cursor=pointer]
+                      - generic [ref=e3372] [cursor=pointer]: Infrared
+                  - listitem [ref=e3373]:
+                    - link "Apply the filter NFC to narrow results" [ref=e3375] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002112230111%3A27363279031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27363274031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_3&ds=v1%3ArFQqid6LQPJJOpU5He6gRFR4GiBrzfVzKMxCG1L%2Fuxc
+                      - checkbox [ref=e3378] [cursor=pointer]
+                      - generic [ref=e3380] [cursor=pointer]: NFC
+                  - listitem [ref=e3381]:
+                    - link "Apply the filter USB to narrow results" [ref=e3383] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002112230111%3A27363276031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27363274031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_4&ds=v1%3AeJwMRAKOnMgawRZY6Otc5V8SQ%2B8nq04bjyfj0MUx4pU
+                      - checkbox [ref=e3386] [cursor=pointer]
+                      - generic [ref=e3388] [cursor=pointer]: USB
+                  - listitem [ref=e3389]:
+                    - link "Apply the filter Wi-Fi to narrow results" [ref=e3391] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002112230111%3A27363278031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27363274031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002112230111_5&ds=v1%3A6W5gIypQHv89hDWeWJ90E%2BJQ9kBAZ%2BdlNgTmyV%2BaM6U
+                      - checkbox [ref=e3394] [cursor=pointer]
+                      - generic [ref=e3396] [cursor=pointer]: Wi-Fi
+              - group "SIM Card Slot Count" [ref=e3397]:
+                - heading "SIM Card Slot Count" [level=2] [ref=e3398]:
+                  - generic [ref=e3399]: SIM Card Slot Count
+                - list "SIM Card Slot Count" [ref=e3400]:
+                  - listitem [ref=e3401]:
+                    - link "Apply the filter Single SIM to narrow results" [ref=e3403] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002989427111%3A27179458031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27179439031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002989427111_1&ds=v1%3A7fDzdAwpaxi9JRWNs2Bdter3NFu6Ao3n7vxr9opvIw8
+                      - checkbox [ref=e3406] [cursor=pointer]
+                      - generic [ref=e3408] [cursor=pointer]: Single SIM
+                  - listitem [ref=e3409]:
+                    - link "Apply the filter Dual SIM to narrow results" [ref=e3411] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002989427111%3A27179459031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27179439031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002989427111_2&ds=v1%3AT48IK69ac2%2BeZ33I%2F7oycOd1fw7psN0%2FnnjzwujNAao
+                      - checkbox [ref=e3414] [cursor=pointer]
+                      - generic [ref=e3416] [cursor=pointer]: Dual SIM
+              - group "Connector Type" [ref=e3417]:
+                - heading "Connector Type" [level=2] [ref=e3418]:
+                  - generic [ref=e3419]: Connector Type
+                - list "Connector Type" [ref=e3420]:
+                  - listitem [ref=e3421]:
+                    - link "Apply the filter USB Type C to narrow results" [ref=e3423] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002085485111%3A27403491031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27403487031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002085485111_1&ds=v1%3AM2YTAcr8brKlPiKVSKRR1qtn7hHpMr7lNIa9j0DOvEU
+                      - checkbox [ref=e3426] [cursor=pointer]
+                      - generic [ref=e3428] [cursor=pointer]: USB Type C
+              - group "Front Camera Resolution" [ref=e3429]:
+                - heading "Front Camera Resolution" [level=2] [ref=e3430]:
+                  - generic [ref=e3431]: Front Camera Resolution
+                - list "Front Camera Resolution" [ref=e3432]:
+                  - listitem [ref=e3433]:
+                    - link "Apply the filter 13.0 MP & above to narrow results" [ref=e3435] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003565058111%3A61505197031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=61505195031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003565058111_1&ds=v1%3AVauJ5JG2dJNNe0nhyLDXub8jA7YbxyfSn9gXxE4aOKk
+                      - checkbox [ref=e3438] [cursor=pointer]
+                      - generic [ref=e3440] [cursor=pointer]: 13.0 MP & above
+              - group "Features" [ref=e3441]:
+                - heading "Features" [level=2] [ref=e3442]:
+                  - generic [ref=e3443]: Features
+                - list "Features" [ref=e3444]:
+                  - listitem [ref=e3445]:
+                    - link "Apply the filter Dual SIM to narrow results" [ref=e3447] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1004151224091%3A1897963031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1484941031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1004151224091_1&ds=v1%3AyoosQjvpGBOgrGPGRiCIxZvGYoylAXCoNoDfD1UAHtA
+                      - checkbox [ref=e3450] [cursor=pointer]
+                      - generic [ref=e3452] [cursor=pointer]: Dual SIM
+              - group "Security Feature" [ref=e3453]:
+                - heading "Security Feature" [level=2] [ref=e3454]:
+                  - generic [ref=e3455]: Security Feature
+                - list "Security Feature" [ref=e3456]:
+                  - listitem [ref=e3457]:
+                    - link "Apply the filter Fingerprint Recognition to narrow results" [ref=e3459] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002085472111%3A27355812031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27355796031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002085472111_1&ds=v1%3AiIzjk0O%2FXu54Bd9jovUGHEcP57ZA3hzRgdoJya0Am7M
+                      - checkbox [ref=e3462] [cursor=pointer]
+                      - generic [ref=e3464] [cursor=pointer]: Fingerprint Recognition
+                  - listitem [ref=e3465]:
+                    - link "Apply the filter Face Recognition to narrow results" [ref=e3467] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002085472111%3A27355807031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27355796031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002085472111_2&ds=v1%3A6KUXMvwumkroYWtG29QZMaGOR4UPE%2F3dVHEpVPnI3Gw
+                      - checkbox [ref=e3470] [cursor=pointer]
+                      - generic [ref=e3472] [cursor=pointer]: Face Recognition
+              - group "Seller" [ref=e3473]:
+                - heading "Seller" [level=2] [ref=e3474]:
+                  - generic [ref=e3475]: Seller
+                - list "Seller" [ref=e3476]:
+                  - listitem [ref=e3477]:
+                    - link "Apply the filter Cocoblu Retail to narrow results" [ref=e3479] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_6%3AA1WYWER0W24N8S&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1318474031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_6_1&ds=v1%3AP8Kd40AgjE1y5lkrRUOn2D4jaByGwbsA7B%2BPvtaHuUs
+                      - checkbox [ref=e3482] [cursor=pointer]
+                      - generic [ref=e3484] [cursor=pointer]: Cocoblu Retail
+                  - listitem [ref=e3485]:
+                    - link "Apply the filter Clicktech Business to narrow results" [ref=e3487] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_6%3AA34RBS7MAVZ4G4&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1318474031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_6_2&ds=v1%3ADXoS3tMAAxuBECC%2BeopO8zL4kuVLm6k%2BhapSlUixp34
+                      - checkbox [ref=e3490] [cursor=pointer]
+                      - generic [ref=e3492] [cursor=pointer]: Clicktech Business
+                  - listitem [ref=e3493]:
+                    - button "See more, Seller" [ref=e3496] [cursor=pointer]:
+                      - generic [ref=e3498] [cursor=pointer]: See more
+              - group "New Arrivals" [ref=e3499]:
+                - heading "New Arrivals" [level=2] [ref=e3500]:
+                  - generic [ref=e3501]: New Arrivals
+                - list "New Arrivals" [ref=e3502]:
+                  - listitem [ref=e3503]:
+                    - link "Last 30 days" [ref=e3505] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_date_first_available_absolute%3A1318487031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1318486031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3ACuGJs5ekrhJbKffI8LQL%2BOTPxuXKR%2FjFgwN7ZZOb9Ug
+                      - generic [ref=e3506] [cursor=pointer]: Last 30 days
+                  - listitem [ref=e3507]:
+                    - link "Last 90 days" [ref=e3509] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_date_first_available_absolute%3A1318488031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=1318486031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AYkVt45rclfhwCK%2FZba4rb9GakIohHhLLtZ%2F%2BmqHNvLY
+                      - generic [ref=e3510] [cursor=pointer]: Last 90 days
+              - group "Video Capture Resolution" [ref=e3511]:
+                - heading "Video Capture Resolution" [level=2] [ref=e3512]:
+                  - generic [ref=e3513]: Video Capture Resolution
+                - list "Video Capture Resolution" [ref=e3514]:
+                  - listitem [ref=e3515]:
+                    - link "Apply the filter 1080p to narrow results" [ref=e3517] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003305462111%3A28430295031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=28430291031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_1&ds=v1%3AmmgeCdqo2FOMbtKS9YeHSfUEdDRfPmfst47JhDI79rk
+                      - checkbox [ref=e3520] [cursor=pointer]
+                      - generic [ref=e3522] [cursor=pointer]: 1080p
+                  - listitem [ref=e3523]:
+                    - link "Apply the filter 4k to narrow results" [ref=e3525] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003305462111%3A28430294031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=28430291031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003305462111_2&ds=v1%3APjmRRimtEM%2BclLDvXahKS8oe8LqnGzCUwv0y0RzC41k
+                      - checkbox [ref=e3528] [cursor=pointer]
+                      - generic [ref=e3530] [cursor=pointer]: 4k
+              - group "Weight" [ref=e3531]:
+                - heading "Weight" [level=2] [ref=e3532]:
+                  - generic [ref=e3533]: Weight
+                - list "Weight" [ref=e3534]:
+                  - listitem [ref=e3535]:
+                    - link "Apply the filter 142 to 197.9 g to narrow results" [ref=e3537] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003491669111%3A42659588031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42659587031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_1&ds=v1%3ADJh%2Bys996D0grgIqsJ1257UW%2FLWCpiiE35D8MAen8Xg
+                      - checkbox [ref=e3540] [cursor=pointer]
+                      - generic [ref=e3542] [cursor=pointer]: 142 to 197.9 g
+                  - listitem [ref=e3543]:
+                    - link "Apply the filter 198 to 254.9 g to narrow results" [ref=e3545] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003491669111%3A42659589031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42659587031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_2&ds=v1%3AFDl0xaWT0vlt7%2B5WMfnKv04gobX3X9sLRcg%2FkrdSaTY
+                      - checkbox [ref=e3548] [cursor=pointer]
+                      - generic [ref=e3550] [cursor=pointer]: 198 to 254.9 g
+                  - listitem [ref=e3551]:
+                    - link "Apply the filter 255 g & Above to narrow results" [ref=e3553] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003491669111%3A42659591031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42659587031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003491669111_3&ds=v1%3An9iFcRvlqA7lCkkHCA89RhEYokYnRl0SbgG6o4F3Wu0
+                      - checkbox [ref=e3556] [cursor=pointer]
+                      - generic [ref=e3558] [cursor=pointer]: 255 g & Above
+              - group "Sim Card Size" [ref=e3559]:
+                - heading "Sim Card Size" [level=2] [ref=e3560]:
+                  - generic [ref=e3561]: Sim Card Size
+                - list "Sim Card Size" [ref=e3562]:
+                  - listitem [ref=e3563]:
+                    - link "Apply the filter Nano to narrow results" [ref=e3565] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002989370111%3A27179455031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27179438031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002989370111_1&ds=v1%3A7PZObSeC56sKNf1N8LZWM%2FvkM7yyNUxFF3mTGanm3jo
+                      - checkbox [ref=e3568] [cursor=pointer]
+                      - generic [ref=e3570] [cursor=pointer]: Nano
+              - group "GPS Navigation" [ref=e3571]:
+                - heading "GPS Navigation" [level=2] [ref=e3572]:
+                  - generic [ref=e3573]: GPS Navigation
+                - list "GPS Navigation" [ref=e3574]:
+                  - listitem [ref=e3575]:
+                    - link "Apply the filter True to narrow results" [ref=e3577] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015364874111%3A96329643031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=96329629031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015364874111_1&ds=v1%3A%2B5Np%2FN9tA36w%2F%2BjaRB3N5hQiWyqqTEIBOT%2BxwSz0ITM
+                      - checkbox [ref=e3580] [cursor=pointer]
+                      - generic [ref=e3582] [cursor=pointer]: "True"
+              - group "Input" [ref=e3583]:
+                - heading "Input" [level=2] [ref=e3584]:
+                  - generic [ref=e3585]: Input
+                - list "Input" [ref=e3586]:
+                  - listitem [ref=e3587]:
+                    - link "Apply the filter Touchscreen to narrow results" [ref=e3589] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1002097072111%3A27362061031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=27362059031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1002097072111_1&ds=v1%3AHpg3dh5DPdpTzRTq8EhY0%2BbqaJdKMKx%2FIB4sMtAZhEo
+                      - checkbox [ref=e3592] [cursor=pointer]
+                      - generic [ref=e3594] [cursor=pointer]: Touchscreen
+              - group "Rear Camera Photo Sensor Resolution" [ref=e3595]:
+                - heading "Rear Camera Photo Sensor Resolution" [level=2] [ref=e3596]:
+                  - generic [ref=e3597]: Rear Camera Photo Sensor Resolution
+                - list "Rear Camera Photo Sensor Resolution" [ref=e3598]:
+                  - listitem [ref=e3599]:
+                    - link "Apply the filter 16 MP & Above to narrow results" [ref=e3601] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003477899111%3A42253778031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42253749031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003477899111_1&ds=v1%3AJWbntk0oQGqBGQaixpFJWt9IIcVmk%2BWNYUzgFAZ0Svw
+                      - checkbox [ref=e3604] [cursor=pointer]
+                      - generic [ref=e3606] [cursor=pointer]: 16 MP & Above
+              - group "Inclusions" [ref=e3607]:
+                - heading "Inclusions" [level=2] [ref=e3608]:
+                  - generic [ref=e3609]: Inclusions
+                - list "Inclusions" [ref=e3610]:
+                  - listitem [ref=e3611]:
+                    - link "Apply the filter SIM Tray Ejector to narrow results" [ref=e3613] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101013594324111%3A66008617031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=66008593031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_1&ds=v1%3AKjouIEzgLxEN41JYiJPoUgMeSnbBTwDdNtqZPWvJqfY
+                      - checkbox [ref=e3616] [cursor=pointer]
+                      - generic [ref=e3618] [cursor=pointer]: SIM Tray Ejector
+                  - listitem [ref=e3619]:
+                    - link "Apply the filter Power Adapter to narrow results" [ref=e3621] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101013594324111%3A66008624031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=66008593031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_2&ds=v1%3AM28Uw5oKVkOdaAVBg9U9zNCsxqExVgstCbAcTb5dl6U
+                      - checkbox [ref=e3624] [cursor=pointer]
+                      - generic [ref=e3626] [cursor=pointer]: Power Adapter
+                  - listitem [ref=e3627]:
+                    - link "Apply the filter Phone Case to narrow results" [ref=e3629] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101013594324111%3A66008623031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=66008593031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_3&ds=v1%3APnw1lh7Fbx1OR6BY8DwYD9pML94W8AQhW%2FDJmLkFgnU
+                      - checkbox [ref=e3632] [cursor=pointer]
+                      - generic [ref=e3634] [cursor=pointer]: Phone Case
+                  - listitem [ref=e3635]:
+                    - link "Apply the filter USB Cable to narrow results" [ref=e3637] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101013594324111%3A66008618031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=66008593031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_4&ds=v1%3A6zt7%2FeogsA6oJ%2BVNMCdEz432dxtF3Xl29dMNNQqZMzc
+                      - checkbox [ref=e3640] [cursor=pointer]
+                      - generic [ref=e3642] [cursor=pointer]: USB Cable
+                  - listitem [ref=e3643]:
+                    - link "Apply the filter Screen Protector to narrow results" [ref=e3645] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101013594324111%3A66008622031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=66008593031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101013594324111_5&ds=v1%3Ag3tKKW6WyupSi5JXJvxPDkv0d375u%2FI4eYpkr03V1C0
+                      - checkbox [ref=e3648] [cursor=pointer]
+                      - generic [ref=e3650] [cursor=pointer]: Screen Protector
+              - group "Battery Type" [ref=e3651]:
+                - heading "Battery Type" [level=2] [ref=e3652]:
+                  - generic [ref=e3653]: Battery Type
+                - list "Battery Type" [ref=e3654]:
+                  - listitem [ref=e3655]:
+                    - link "Apply the filter Lithium-Ion to narrow results" [ref=e3657] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015500034111%3A100427319031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100427310031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015500034111_1&ds=v1%3AlAS3caRUfOdDEbPQ6noqfJvCyruB3EqT2lX3XJWabRI
+                      - checkbox [ref=e3660] [cursor=pointer]
+                      - generic [ref=e3662] [cursor=pointer]: Lithium-Ion
+              - group "Supported Satellite Navigation System" [ref=e3663]:
+                - heading "Supported Satellite Navigation System" [level=2] [ref=e3664]:
+                  - generic [ref=e3665]: Supported Satellite Navigation System
+                - list "Supported Satellite Navigation System" [ref=e3666]:
+                  - listitem [ref=e3667]:
+                    - link "Apply the filter GLONASS to narrow results" [ref=e3669] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498432111%3A100424903031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100424895031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_1&ds=v1%3AgMZ9Ty4%2B%2B0%2B0gBphmOppcTyHN0R%2FaONwnyEUdcMg4ws
+                      - checkbox [ref=e3672] [cursor=pointer]
+                      - generic [ref=e3674] [cursor=pointer]: GLONASS
+                  - listitem [ref=e3675]:
+                    - link "Apply the filter Galileo to narrow results" [ref=e3677] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498432111%3A100424904031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100424895031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_2&ds=v1%3AGhqrIvFJZ%2BMwxIjazOId6j6ZxBze0%2B8BFsxvuf4w2A8
+                      - checkbox [ref=e3680] [cursor=pointer]
+                      - generic [ref=e3682] [cursor=pointer]: Galileo
+                  - listitem [ref=e3683]:
+                    - link "Apply the filter GPS to narrow results" [ref=e3685] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498432111%3A100424905031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100424895031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_3&ds=v1%3AyxW2OcBFb%2FyQ62Dqj5IYNY1HU1AmOH%2FezhB1f%2BejhEo
+                      - checkbox [ref=e3688] [cursor=pointer]
+                      - generic [ref=e3690] [cursor=pointer]: GPS
+                  - listitem [ref=e3691]:
+                    - link "Apply the filter BeiDou to narrow results" [ref=e3693] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498432111%3A100424900031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100424895031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498432111_4&ds=v1%3AQ9S02%2BMQu8by7%2BkLX5FzC8hPGsg4R6o9oE9dobEfajs
+                      - checkbox [ref=e3696] [cursor=pointer]
+                      - generic [ref=e3698] [cursor=pointer]: BeiDou
+              - group "Flash" [ref=e3699]:
+                - heading "Flash" [level=2] [ref=e3700]:
+                  - generic [ref=e3701]: Flash
+                - list "Flash" [ref=e3702]:
+                  - listitem [ref=e3703]:
+                    - link "Apply the filter LED to narrow results" [ref=e3705] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015500208111%3A100427321031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100427311031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015500208111_1&ds=v1%3AxZ42QrugyNj5qnBc2VrzjobcgiaIwaCRCblPeyGIlrA
+                      - checkbox [ref=e3708] [cursor=pointer]
+                      - generic [ref=e3710] [cursor=pointer]: LED
+              - group "All Top Brands" [ref=e3711]:
+                - heading "All Top Brands" [level=2] [ref=e3712]:
+                  - generic [ref=e3713]: All Top Brands
+                - list "All Top Brands" [ref=e3714]:
+                  - listitem [ref=e3715]:
+                    - link "Apply the filter Top Brands to narrow results" [ref=e3717] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101014971069111%3A206270883031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=206270882031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3A8i021k1X%2BAxPe4fFwFBrIOxnE9i1QmvLcrbobQbzINk
+                      - checkbox [ref=e3720] [cursor=pointer]
+                      - generic [ref=e3722] [cursor=pointer]: Top Brands
+              - group "Battery Life" [ref=e3723]:
+                - heading "Battery Life" [level=2] [ref=e3724]:
+                  - generic [ref=e3725]: Battery Life
+                - list "Battery Life" [ref=e3726]:
+                  - listitem [ref=e3727]:
+                    - link "Apply the filter 7 to 12.9 h to narrow results" [ref=e3729] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003486052111%3A42062131031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42062008031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003486052111_1&ds=v1%3ABnjlfvPIQt3s7vHqPXrboIVbQg%2F6RkUHdJki0jfsi%2FQ
+                      - checkbox [ref=e3732] [cursor=pointer]
+                      - generic [ref=e3734] [cursor=pointer]: 7 to 12.9 h
+                  - listitem [ref=e3735]:
+                    - link "Apply the filter 13 to 18.9 h to narrow results" [ref=e3737] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003486052111%3A42062132031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42062008031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003486052111_2&ds=v1%3A6PESVsSVFOwk2UVKE%2BZLfbD8jAm9%2FK2Ci7Hxu10efbo
+                      - checkbox [ref=e3740] [cursor=pointer]
+                      - generic [ref=e3742] [cursor=pointer]: 13 to 18.9 h
+                  - listitem [ref=e3743]:
+                    - link "Apply the filter 19 h & above to narrow results" [ref=e3745] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-1003486052111%3A42062130031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=42062008031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-1003486052111_3&ds=v1%3A%2BbnkjbRM0hG4Ppc%2FGAwi5Y31wG03yk4utIg3CPEuQyU
+                      - checkbox [ref=e3748] [cursor=pointer]
+                      - generic [ref=e3750] [cursor=pointer]: 19 h & above
+              - group "Wireless Network Technology" [ref=e3751]:
+                - heading "Wireless Network Technology" [level=2] [ref=e3752]:
+                  - generic [ref=e3753]: Wireless Network Technology
+                - list "Wireless Network Technology" [ref=e3754]:
+                  - listitem [ref=e3755]:
+                    - link "Apply the filter LTE to narrow results" [ref=e3757] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498571111%3A100436153031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100436133031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_1&ds=v1%3ABfOYIVs9EHMNN8mnpd8%2B2EJcuXQS4i7%2FgPG9mRmCHLU
+                      - checkbox [ref=e3760] [cursor=pointer]
+                      - generic [ref=e3762] [cursor=pointer]: LTE
+                  - listitem [ref=e3763]:
+                    - link "Apply the filter GSM to narrow results" [ref=e3765] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498571111%3A100436155031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100436133031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_2&ds=v1%3Aav%2FTNlkIDatS8464k3hFLYVb0M918i4fWjwG8tyf7Qw
+                      - checkbox [ref=e3768] [cursor=pointer]
+                      - generic [ref=e3770] [cursor=pointer]: GSM
+                  - listitem [ref=e3771]:
+                    - link "Apply the filter Wi-Fi to narrow results" [ref=e3773] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498571111%3A100436151031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100436133031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_3&ds=v1%3A6ZKH%2Fashkzs1np%2BiJJSJUmhZcuM0cnc1v2UHf0GlME8
+                      - checkbox [ref=e3776] [cursor=pointer]
+                      - generic [ref=e3778] [cursor=pointer]: Wi-Fi
+                  - listitem [ref=e3779]:
+                    - link "Apply the filter CDMA to narrow results" [ref=e3781] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498571111%3A100436160031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100436133031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_4&ds=v1%3ALwt0hgevFT8VrmlCdh9Bqoa0JzmJQwC5pQJQgiFumgs
+                      - checkbox [ref=e3784] [cursor=pointer]
+                      - generic [ref=e3786] [cursor=pointer]: CDMA
+                  - listitem [ref=e3787]:
+                    - link "Apply the filter Bluetooth to narrow results" [ref=e3789] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015498571111%3A207962825031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=100436133031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015498571111_5&ds=v1%3A54A%2FprQ9%2BIkK0c%2FN6chsRtlbXAFG9Q2kt7x750g5pwc
+                      - checkbox [ref=e3792] [cursor=pointer]
+                      - generic [ref=e3794] [cursor=pointer]: Bluetooth
+              - group "Aspect Ratio" [ref=e3795]:
+                - heading "Aspect Ratio" [level=2] [ref=e3796]:
+                  - generic [ref=e3797]: Aspect Ratio
+                - list "Aspect Ratio" [ref=e3798]:
+                  - listitem [ref=e3799]:
+                    - link "Apply the filter 16:9 to narrow results" [ref=e3801] [cursor=pointer]:
+                      - /url: /s?k=samsung+m36&rh=p_n_g-101015688486111%3A204879948031&dc&crid=18YP55TBXFHX8&qid=1759525119&rnid=204879945031&sprefix=Samsung%2Caps%2C221&ref=sr_nr_p_n_g-101015688486111_1&ds=v1%3A9wru4azxdxv08A30fsaqscxzPzSH6OJVwINHCVHeaKM
+                      - checkbox [ref=e3804] [cursor=pointer]
+                      - generic [ref=e3806] [cursor=pointer]: 16:9
+            - generic [ref=e3810]:
+              - iframe [ref=e3811]:
+                - generic [ref=f2e4]:
+                  - generic [ref=f2e5]:
+                    - link "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=f2e6] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RHcjGq1Nbd1vSLGwdst9pcwAAAGZq96mEAoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA_CHVW/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2QrDHwlvIkF5CniNTfWiMloHTBtgEAGlDq8EC1UE89J9PA5kwCVn1hgbr4CVzRjC1r_tXn2BkPynoZb_LYqBwezpOGJTSGvLz-TP0A9_AwL6a8OsaPJxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_8xTpoEva0WZCnNSpfKkvwjOWJaXoAVrCk37w/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjg1OTE3Mzc2MTYxNTE1OjE3NTk1MjUxMTk6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDYyMjUyMjQwODYzMjo6Ojo&url=%2Fdp%2FB0FDBB2VRC%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&sp_cr=ZAZ
+                    - img "Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, 128 GB Storage)| Circle to Search| Google Gemini| Corning Gorilla Glass Victus+| 7.7mm Slim| AI Enhanced 50 MP OIS Triple Camera| Unmatched Nightography" [ref=f2e10]
+                    - generic [ref=f2e12]:
+                      - generic [ref=f2e14]: Samsung Galaxy M36 5G (Velvet Black, 6 GB RAM, ...
+                      - link "1,560" [ref=f2e16] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RHcjGq1Nbd1vSLGwdst9pcwAAAGZq96mEAoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA_CHVW/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2QrDHwlvIkF5CniNTfWiMloHTBtgEAGlDq8EC1UE89J9PA5kwCVn1hgbr4CVzRjC1r_tXn2BkPynoZb_LYqBwezpOGJTSGvLz-TP0A9_AwL6a8OsaPJxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_8xTpoEva0WZCnNSpfKkvwjOWJaXoAVrCk37w/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjg1OTE3Mzc2MTYxNTE1OjE3NTk1MjUxMTk6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDYyMjUyMjQwODYzMjo6Ojo&url=%2Fdp%2FB0FDBB2VRC%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&sp_cr=ZAZ#customerReviews
+                        - generic [ref=f2e18] [cursor=pointer]: 1,560
+                      - generic [ref=f2e20]: ₹13,999.00
+                    - link "Shop now" [ref=f2e25] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RHcjGq1Nbd1vSLGwdst9pcwAAAGZq96mEAoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA_CHVW/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2QrDHwlvIkF5CniNTfWiMloHTBtgEAGlDq8EC1UE89J9PA5kwCVn1hgbr4CVzRjC1r_tXn2BkPynoZb_LYqBwezpOGJTSGvLz-TP0A9_AwL6a8OsaPJxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_8xTpoEva0WZCnNSpfKkvwjOWJaXoAVrCk37w/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjg1OTE3Mzc2MTYxNTE1OjE3NTk1MjUxMTk6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDYyMjUyMjQwODYzMjo6Ojo&url=%2Fdp%2FB0FDBB2VRC%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&sp_cr=ZAZ
+                  - separator [ref=f2e27]
+                  - generic [ref=f2e28]:
+                    - link "iQOO Z10R 5G (Moonstone, 8GB RAM, 256GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu" [ref=f2e29] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RHcjGq1Nbd1vSLGwdst9pcwAAAGZq96mEAoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA_CHVW/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2QrDHwlvIkF5CniNTfWiMloHTBtgEAGlDq8EC1UE89J9PA5kwCVn1hgbr4CVzRjC1r_tXn2BkPynoZb_LYqBwezpOGJTSGvLz-TP0A9_AwL6a8OsaPJxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_8xTpoEva0WZCnNSpfKkvwjOWJaXoAVrCk37w/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjg1OTE3Mzc2MTYxNTE1OjE3NTk1MjUxMTk6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDcyMjMzNDcwMDEzMjo6Ojo&url=%2Fdp%2FB0FHB59PXX%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&sp_cr=ZAZ
+                    - img "iQOO Z10R 5G (Moonstone, 8GB RAM, 256GB Storage) | 32MP 4K Selfie Camera | Quad-Curved AMOLED Display | Dimensity 7400 Processor with 750K+ AnTuTu" [ref=f2e33]
+                    - generic [ref=f2e35]:
+                      - generic [ref=f2e37]: iQOO Z10R 5G (Moonstone, 8GB RAM, 256GB Storage...
+                      - link "1,214" [ref=f2e39] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RHcjGq1Nbd1vSLGwdst9pcwAAAGZq96mEAoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA_CHVW/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2QrDHwlvIkF5CniNTfWiMloHTBtgEAGlDq8EC1UE89J9PA5kwCVn1hgbr4CVzRjC1r_tXn2BkPynoZb_LYqBwezpOGJTSGvLz-TP0A9_AwL6a8OsaPJxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_8xTpoEva0WZCnNSpfKkvwjOWJaXoAVrCk37w/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjg1OTE3Mzc2MTYxNTE1OjE3NTk1MjUxMTk6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDcyMjMzNDcwMDEzMjo6Ojo&url=%2Fdp%2FB0FHB59PXX%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&sp_cr=ZAZ#customerReviews
+                        - generic [ref=f2e41] [cursor=pointer]: 1,214
+                      - generic [ref=f2e43]: ₹21,498.00
+                    - link "Shop now" [ref=f2e48] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RHcjGq1Nbd1vSLGwdst9pcwAAAGZq96mEAoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICA_CHVW/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2QrDHwlvIkF5CniNTfWiMloHTBtgEAGlDq8EC1UE89J9PA5kwCVn1hgbr4CVzRjC1r_tXn2BkPynoZb_LYqBwezpOGJTSGvLz-TP0A9_AwL6a8OsaPJxRX4BNMfblYxfByksK9hSfeAQh46plcUsGR_YO9xk3QYPrYhyg725A00ugAazyVxAXSeoLebJsFxjyQkBONlrb1HuNDebuj33Nful-q-oa6AWBAeJ95iD5AqTPTLMBIOiw8QiwMsvdcvfm0G3fDPac7cP_u5bThYQsaUw2_8xTpoEva0WZCnNSpfKkvwjOWJaXoAVrCk37w/https://www.amazon.in/sspa/click?ie=UTF8&spc=MToxNjg1OTE3Mzc2MTYxNTE1OjE3NTk1MjUxMTk6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDcyMjMzNDcwMDEzMjo6Ojo&url=%2Fdp%2FB0FHB59PXX%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&sp_cr=ZAZ
+              - button "Leave feedback on Sponsored advertisement" [ref=e3813] [cursor=pointer]:
+                - generic [ref=e3814] [cursor=pointer]: Sponsored
+            - generic [ref=e3819]:
+              - iframe [ref=e3820]:
+                - generic [ref=f3e3]:
+                  - generic [ref=f3e4]: Sponsored Ad. Brand logo. Product image. Honeywell New Launch 6-in-1 Type C Docking Station with 4K HDMI Port, 1GBPS RJ45 Ethernet Port, 3xUSB Port & Type C 3.0 PD 100W, for All Type C Devices-Windows/MacBook, On-The-Go Feature 2149
+                  - link "Sponsored Ad. Brand logo. Product image. Honeywell New Launch 6-in-1 Type C Docking Station with 4K HDMI Port, 1GBPS RJ45 Ethernet Port, 3xUSB Port & Type C 3.0 PD 100W, for All Type C Devices-Windows/MacBook, On-The-Go Feature 2149" [ref=f3e7] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/RFd-OWmBxL8oRKhJ0B-AdAgAAAGZq96mEwoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDEgICDD6rp5/clv1_CEuOPUxokZA9iHrVa8wM_wXdXmwhD6E1rc0jr2WY_qZe138etWXuD_018HFItlC9gqEp25IbmnkC2d7PA3tAXBQ-PhCxO9TiE2wUS0dIaweLRK1VxaMd6JJGP-yOMfm6WN3Lfwzxr9YWFk9hg0v2YAFBKg8QBt9hBRY9HqMnUhKFyLqDhUk3Q0G-Kp7vPuogBnoOdtqahJ1BBWh2KcNaYfAXkcOsktIiVBKEZpAkjwMt7q9FwOmESBUKnUiigUVjPGfAC8yX5UA_jkcRZvQvSyXrf0ufzwbwH_OG567SXNMVAB39m_qp8Eiwey76PZW_zdhCrNloFM3JnMWABMfvB9kuz8AmRGMIjKAT3PRZNqdisTBxXhX-1hq9380EZ0-hcAx8gRiOglAi-zLrDrKKH0VaRrrDoeVURvMfK2FTsT0LIP1B4xxCQD146JFQQX53GumEU8jdnNm3bgwabz6Vu7ZMUVWA2xqqJjReOLAghf6fHC5C85WC9xnsd1BTC4_ojfcK_14aRpEWhgaFll6dxSTGZj8Bak4LADarWQLyO7H3WiH5PnNywisAFQ3GaWSwaeY8oo5Fe2fB1OsOkvMqXgnfDBNczSwvz_ExsbumrHMMuYj53qEYP2XOyyHZY6KxFnASV5cnGTVSr-1yLrxOsG1G47ilGiJtTnkI4eck_5VNCm0lQiyFzzZH_2PuBupZ1g0hi1ND2pYW2NVlY36RF3Un8enbDdLVjfX-LhEWNAzdtxvwHshx0CNjseEpSNGVhoFKJx3G_m701S7NdHX7OjNspyj3IHdd9OZLIaADOymJoQN0fNRpl2dghauKF3K5TOmhdxAfnlb0qegJWt9RvMG8okZcrM2RQceShOn5vlqZ5nrI8GMS4Q-Up2StqmXY0Mw4ne4ojAHwGt8uKMoYEK_85uW2zB5BPzw8ByCSpAjBkm8kVTV-XRQtCzD_s3n6gS77bcbb-o-QpbvF5x_-eYNCM9eddJ3H4UioaRguatwqXTBAQFQcROHE7QvtJmAWOxne54NdgA4wReIx666-zgBQiRU2JeOE5A4j-7ZbkwZidgfgWbCuPxX4W9lHedxodV6qfu_QIGgKKri9BI-Mo978Zgr2kNBQFbDr-aiuu3u0yhiwfaVrvxwaXuH34q-y4ItBFaCkly5CBOxXvVpDOhcuW87cG2bQVIgJrYDiqYWbm1Go32bt4awbgwwueMwqUHK6KVekgCeaWSEO41DAVcae9N5e-vcAtBOB76dBMHTuKBARUX61vUWAtRU3Oae_Qr09mdS2U0P6Z-VbRJwbcwdbFvQF_fqT3ie5uWmqMsbzWrg1SZmPBrhKzlHFdT1ryBzXiWPJiclKVzop/http://www.amazon.in/dp/B0DD4G8YL2/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=MFspyqDAvS
+                  - generic [ref=f3e8]:
+                    - img "Brand logo" [ref=f3e12]
+                    - img "Product image" [ref=f3e16]
+              - button "Leave feedback on Sponsored advertisement" [ref=e3822] [cursor=pointer]:
+                - generic [ref=e3823] [cursor=pointer]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e3825]:
+    - button "Back to top" [ref=e3826]:
+      - generic [ref=e3828]: Back to top
+    - generic [ref=e3829]:
+      - generic [ref=e3830]:
+        - heading "Get to Know Us" [level=6] [ref=e3831]
+        - list [ref=e3832]:
+          - listitem [ref=e3833]:
+            - link "About Amazon" [ref=e3834] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3835]:
+            - link "Careers" [ref=e3836] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e3837]:
+            - link "Press Releases" [ref=e3838] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3839]:
+            - link "Amazon Science" [ref=e3840] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e3842]:
+        - heading "Connect with Us" [level=6] [ref=e3843]
+        - list [ref=e3844]:
+          - listitem [ref=e3845]:
+            - link "Facebook" [ref=e3846] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e3847]:
+            - link "Twitter" [ref=e3848] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e3849]:
+            - link "Instagram" [ref=e3850] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e3852]:
+        - heading "Make Money with Us" [level=6] [ref=e3853]
+        - list [ref=e3854]:
+          - listitem [ref=e3855]:
+            - link "Sell on Amazon" [ref=e3856] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e3857]:
+            - link "Sell under Amazon Accelerator" [ref=e3858] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e3859]:
+            - link "Protect and Build Your Brand" [ref=e3860] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e3861]:
+            - link "Amazon Global Selling" [ref=e3862] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e3863]:
+            - link "Supply to Amazon" [ref=e3864] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e3865]:
+            - link "Become an Affiliate" [ref=e3866] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e3867]:
+            - link "Fulfilment by Amazon" [ref=e3868] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e3869]:
+            - link "Advertise Your Products" [ref=e3870] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e3871]:
+            - link "Amazon Pay on Merchants" [ref=e3872] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e3874]:
+        - heading "Let Us Help You" [level=6] [ref=e3875]
+        - list [ref=e3876]:
+          - listitem [ref=e3877]:
+            - link "Your Account" [ref=e3878] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e3879]:
+            - link "Returns Centre" [ref=e3880] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e3881]:
+            - link "Recalls and Product Safety Alerts" [ref=e3882] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e3883]:
+            - link "100% Purchase Protection" [ref=e3884] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e3885]:
+            - link "Amazon App Download" [ref=e3886] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e3887]:
+            - link "Help" [ref=e3888] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e3890]:
+      - link "Amazon India Home" [ref=e3893] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e3896]:
+        - generic [ref=e3897]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e3898] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e3900] [cursor=pointer]: English
+          - button "Expand to Change Language or Country" [ref=e3901] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e3902] [cursor=pointer]:
+          - generic [ref=e3904] [cursor=pointer]: India
+    - generic "More on Amazon" [ref=e3906]:
+      - list [ref=e3907]:
+        - listitem [ref=e3908]:
+          - link "AbeBooks Books, art & collectibles" [ref=e3909] [cursor=pointer]:
+            - /url: https://www.abebooks.com/
+            - heading "AbeBooks" [level=5] [ref=e3910] [cursor=pointer]
+            - generic [ref=e3911] [cursor=pointer]:
+              - text: Books, art
+              - text: "& collectibles"
+        - listitem [ref=e3912]
+        - listitem [ref=e3913]:
+          - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e3914] [cursor=pointer]:
+            - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+            - heading "Amazon Web Services" [level=5] [ref=e3915] [cursor=pointer]
+            - generic [ref=e3916] [cursor=pointer]:
+              - text: Scalable Cloud
+              - text: Computing Services
+        - listitem [ref=e3917]
+        - listitem [ref=e3918]:
+          - link "Audible Download Audio Books" [ref=e3919] [cursor=pointer]:
+            - /url: https://www.audible.in/
+            - heading "Audible" [level=5] [ref=e3920] [cursor=pointer]
+            - generic [ref=e3921] [cursor=pointer]:
+              - text: Download
+              - text: Audio Books
+        - listitem [ref=e3922]
+        - listitem [ref=e3923]:
+          - link "IMDb Movies, TV & Celebrities" [ref=e3924] [cursor=pointer]:
+            - /url: https://www.imdb.com/
+            - heading "IMDb" [level=5] [ref=e3925] [cursor=pointer]
+            - generic [ref=e3926] [cursor=pointer]:
+              - text: Movies, TV
+              - text: "& Celebrities"
+      - list [ref=e3927]:
+        - listitem [ref=e3928]:
+          - link "Shopbop Designer Fashion Brands" [ref=e3929] [cursor=pointer]:
+            - /url: https://www.shopbop.com/
+            - heading "Shopbop" [level=5] [ref=e3930] [cursor=pointer]
+            - generic [ref=e3931] [cursor=pointer]:
+              - text: Designer
+              - text: Fashion Brands
+        - listitem [ref=e3932]
+        - listitem [ref=e3933]:
+          - link "Amazon Business Everything For Your Business" [ref=e3934] [cursor=pointer]:
+            - /url: /business?ref=footer_aingw
+            - heading "Amazon Business" [level=5] [ref=e3935] [cursor=pointer]
+            - generic [ref=e3936] [cursor=pointer]:
+              - text: Everything For
+              - text: Your Business
+        - listitem [ref=e3937]
+        - listitem [ref=e3938]:
+          - link "Prime Now 2-Hour Delivery on Everyday Items" [ref=e3939] [cursor=pointer]:
+            - /url: /now?ref=footer_amznow
+            - heading "Prime Now" [level=5] [ref=e3940] [cursor=pointer]
+            - generic [ref=e3941] [cursor=pointer]:
+              - text: 2-Hour Delivery
+              - text: on Everyday Items
+        - listitem [ref=e3942]
+        - listitem [ref=e3943]:
+          - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e3944] [cursor=pointer]:
+            - /url: /music/prime?ref=footer_apm
+            - heading "Amazon Prime Music" [level=5] [ref=e3945] [cursor=pointer]
+            - generic [ref=e3946] [cursor=pointer]:
+              - text: 100 million songs, ad-free
+              - text: Over 15 million podcast episodes
+    - generic [ref=e3947]:
+      - list [ref=e3948]:
+        - listitem [ref=e3949]:
+          - link "Conditions of Use & Sale" [ref=e3950] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e3951]:
+          - link "Privacy Notice" [ref=e3952] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e3953]:
+          - link "Interest-Based Ads" [ref=e3954] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e3955]: © 1996-2025, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e3957]:
+    - iframe [ref=f4e2]:
+      - generic [active]:
+        - img [ref=f5e1]
+        - img [ref=f5e2]
+        - img [ref=f5e3]
+        - img [ref=f5e4]
+        - img [ref=f5e5]
+        - img [ref=f5e6]
+        - img [ref=f5e7]
+        - img [ref=f5e8]
+        - img [ref=f5e9]
+        - img [ref=f5e10]
+        - img [ref=f5e11]
+        - img [ref=f5e12]
+        - img [ref=f5e13]
+        - img [ref=f5e14]
+        - img [ref=f5e15]
+        - img [ref=f5e16]
+        - img [ref=f5e17]
+        - img [ref=f5e18]
+        - img [ref=f5e19]
+```

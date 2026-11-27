@@ -1,0 +1,1280 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "Flipkart" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Flipkart" [ref=e11] [cursor=pointer]
+      - link "Explore Plus" [ref=e12] [cursor=pointer]:
+        - /url: /plus
+        - text: Explore
+        - generic [ref=e13] [cursor=pointer]: Plus
+        - img [ref=e14] [cursor=pointer]
+    - generic [ref=e17]:
+      - textbox "Search for products, brands and more" [ref=e19]: Allen Solly Shirt
+      - button [ref=e20] [cursor=pointer]:
+        - img [ref=e21] [cursor=pointer]
+    - link "Login" [ref=e29] [cursor=pointer]:
+      - /url: /account/login?ret=/search%3Fq%3DAllen%2520Solly%2520Shirt%26otracker%3Dsearch%26otracker1%3Dsearch%26marketplace%3DFLIPKART%26as-show%3Doff%26as%3Doff
+    - link "Become a Seller" [ref=e31] [cursor=pointer]:
+      - /url: https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+      - generic [ref=e32] [cursor=pointer]: Become a Seller
+    - generic [ref=e34] [cursor=pointer]:
+      - generic [ref=e37] [cursor=pointer]: More
+      - img [ref=e38] [cursor=pointer]
+    - link "Cart" [ref=e43] [cursor=pointer]:
+      - /url: /viewcart?exploreMode=true&preference=FLIPKART
+      - img [ref=e44] [cursor=pointer]
+      - generic [ref=e46] [cursor=pointer]: Cart
+  - generic [ref=e51]:
+    - generic [ref=e52] [cursor=pointer]:
+      - text: Electronics
+      - img [ref=e53] [cursor=pointer]
+    - generic [ref=e55] [cursor=pointer]:
+      - text: TVs & Appliances
+      - img [ref=e56] [cursor=pointer]
+    - generic [ref=e58] [cursor=pointer]:
+      - text: Men
+      - img [ref=e59] [cursor=pointer]
+    - generic [ref=e61] [cursor=pointer]:
+      - text: Women
+      - img [ref=e62] [cursor=pointer]
+    - generic [ref=e64] [cursor=pointer]:
+      - text: Baby & Kids
+      - img [ref=e65] [cursor=pointer]
+    - generic [ref=e67] [cursor=pointer]:
+      - text: Home & Furniture
+      - img [ref=e68] [cursor=pointer]
+    - generic [ref=e70] [cursor=pointer]:
+      - text: Sports, Books & More
+      - img [ref=e71] [cursor=pointer]
+    - link "Flights" [ref=e73] [cursor=pointer]:
+      - /url: /travel/flights?otracker=nmenu_Flights
+    - link "Offer Zone" [ref=e74] [cursor=pointer]:
+      - /url: /offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone
+  - generic [ref=e75]:
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - link "spoyl spoyl Textured Shirts, Stripped... From ₹249 + Extra 15% Off" [ref=e79] [cursor=pointer]:
+          - /url: /mens-formal-shirts/pr?sid=clo%2Cash%2Caxc%2Cmmk%2Cbk1&p%5B%5D=facets.trend_markers%3D1&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRleHR1cmVkIFNoaXJ0cywgU3RyaXBwZWQuLi4iXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJzZWFyY2hRdWVyeUluQnJvd3NlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNlYXJjaFF1ZXJ5SW5Ccm93c2UiLCJpbmZlcmVuY2VUeXBlIjoiUVVFUllfRkFDRVQiLCJ2YWx1ZSI6IkFsbGVuIFNvbGx5IFNoaXJ0IiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&otracker=sp_browse_announcement_search.flipkart.com
+          - generic [ref=e81] [cursor=pointer]:
+            - img "spoyl" [ref=e82] [cursor=pointer]
+            - img "spoyl" [ref=e83] [cursor=pointer]
+          - generic [ref=e84] [cursor=pointer]:
+            - generic [ref=e85] [cursor=pointer]: Textured Shirts, Stripped...
+            - generic [ref=e86] [cursor=pointer]: From ₹249 + Extra 15% Off
+        - generic [ref=e89]:
+          - generic [ref=e93]: Filters
+          - generic [ref=e95]:
+            - generic [ref=e97]: CATEGORIES
+            - generic [ref=e99]:
+              - img [ref=e101] [cursor=pointer]
+              - link "Clothing and Accessories" [ref=e103] [cursor=pointer]:
+                - /url: /clothing-and-accessories/pr?sid=clo&q=Allen+Solly+Shirt&otracker=categorytree
+            - generic [ref=e105]:
+              - img [ref=e107] [cursor=pointer]
+              - link "Topwear" [ref=e109] [cursor=pointer]:
+                - /url: /clothing-and-accessories/topwear/pr?sid=clo,ash&q=Allen+Solly+Shirt&otracker=categorytree
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - img [ref=e113] [cursor=pointer]
+                - link "Shirts" [ref=e115] [cursor=pointer]:
+                  - /url: /clothing-and-accessories/topwear/shirts/pr?sid=clo,ash,axc&q=Allen+Solly+Shirt&otracker=categorytree
+              - generic [ref=e116]:
+                - link "Women's Shirts" [ref=e117] [cursor=pointer]:
+                  - /url: /clothing-and-accessories/topwear/shirts/womens-shirts/pr?sid=clo,ash,axc,vop&q=Allen+Solly+Shirt&otracker=categorytree
+                - link "Kids' Shirts" [ref=e118] [cursor=pointer]:
+                  - /url: /clothing-and-accessories/topwear/shirts/kids-shirts/pr?sid=clo,ash,axc,znf&q=Allen+Solly+Shirt&otracker=categorytree
+                - link "Men's Shirts" [ref=e119] [cursor=pointer]:
+                  - /url: /clothing-and-accessories/topwear/shirts/mens-shirts/pr?sid=clo,ash,axc,mmk&q=Allen+Solly+Shirt&otracker=categorytree
+          - generic [ref=e120]:
+            - generic [ref=e123]: Price
+            - generic [ref=e140]:
+              - generic [ref=e141]: .
+              - generic [ref=e142]: .
+              - generic [ref=e143]: .
+              - generic [ref=e144]: .
+              - generic [ref=e145]: .
+              - generic [ref=e146]: .
+              - generic: .
+            - generic [ref=e147]:
+              - combobox [ref=e149]:
+                - option "Min" [selected]
+                - option "₹300"
+                - option "₹500"
+                - option "₹700"
+                - option "₹1000"
+                - option "₹1500"
+              - generic [ref=e150]: to
+              - combobox [ref=e152]:
+                - option "₹300"
+                - option "₹500"
+                - option "₹700"
+                - option "₹1000"
+                - option "₹1500"
+                - option "₹1500+" [selected]
+          - generic [ref=e154] [cursor=pointer]:
+            - generic [ref=e155] [cursor=pointer]: Brand
+            - img [ref=e156] [cursor=pointer]
+          - generic [ref=e159] [cursor=pointer]:
+            - generic [ref=e160] [cursor=pointer]: Gender
+            - img [ref=e161] [cursor=pointer]
+          - generic [ref=e164] [cursor=pointer]:
+            - generic [ref=e165] [cursor=pointer]: Discount
+            - img [ref=e166] [cursor=pointer]
+          - generic [ref=e169] [cursor=pointer]:
+            - generic [ref=e170] [cursor=pointer]: Size
+            - img [ref=e171] [cursor=pointer]
+          - generic [ref=e174] [cursor=pointer]:
+            - generic [ref=e175] [cursor=pointer]: Sleeves
+            - img [ref=e176] [cursor=pointer]
+          - generic [ref=e179] [cursor=pointer]:
+            - generic [ref=e180] [cursor=pointer]: Collar
+            - img [ref=e181] [cursor=pointer]
+          - generic [ref=e184] [cursor=pointer]:
+            - generic [ref=e185] [cursor=pointer]: fabric
+            - img [ref=e186] [cursor=pointer]
+          - generic [ref=e189] [cursor=pointer]:
+            - generic [ref=e190] [cursor=pointer]: Pattern
+            - img [ref=e191] [cursor=pointer]
+          - generic [ref=e194] [cursor=pointer]:
+            - generic [ref=e195] [cursor=pointer]: Occasion
+            - img [ref=e196] [cursor=pointer]
+          - generic [ref=e199] [cursor=pointer]:
+            - generic [ref=e200] [cursor=pointer]: Color
+            - img [ref=e201] [cursor=pointer]
+          - generic [ref=e203]:
+            - generic [ref=e204] [cursor=pointer]:
+              - generic [ref=e205] [cursor=pointer]: Customer Ratings
+              - img [ref=e206] [cursor=pointer]
+            - generic [ref=e209]:
+              - generic [ref=e214] [cursor=pointer]: 4★ & above
+              - generic [ref=e219] [cursor=pointer]: 3★ & above
+          - generic [ref=e220]:
+            - img [ref=e225] [cursor=pointer]
+            - generic [ref=e227] [cursor=pointer]: "?"
+          - generic [ref=e229] [cursor=pointer]:
+            - generic [ref=e230] [cursor=pointer]: Fit
+            - img [ref=e231] [cursor=pointer]
+          - generic [ref=e234] [cursor=pointer]:
+            - generic [ref=e235] [cursor=pointer]: Collections
+            - img [ref=e236] [cursor=pointer]
+          - generic [ref=e239] [cursor=pointer]:
+            - generic [ref=e240] [cursor=pointer]: New Arrivals
+            - img [ref=e241] [cursor=pointer]
+          - generic [ref=e243]:
+            - generic [ref=e244] [cursor=pointer]:
+              - generic [ref=e245] [cursor=pointer]: Offers
+              - img [ref=e246] [cursor=pointer]
+            - generic [ref=e249]:
+              - generic [ref=e254] [cursor=pointer]: Special Price
+              - generic [ref=e259] [cursor=pointer]: Buy More, Save More
+          - generic [ref=e261] [cursor=pointer]:
+            - generic [ref=e262] [cursor=pointer]: Availability
+            - img [ref=e263] [cursor=pointer]
+      - generic [ref=e265]:
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - link "Home" [ref=e271] [cursor=pointer]:
+                - /url: /
+              - img [ref=e272]
+            - generic [ref=e274]:
+              - link "Clothing and Accessories" [ref=e275] [cursor=pointer]:
+                - /url: /clothing-and-accessories/pr?sid=clo&marketplace=FLIPKART
+              - img [ref=e276]
+            - generic [ref=e278]:
+              - link "Topwear" [ref=e279] [cursor=pointer]:
+                - /url: /clothing-and-accessories/topwear/pr?sid=clo,ash&marketplace=FLIPKART
+              - img [ref=e280]
+            - link "Shirts" [ref=e283] [cursor=pointer]:
+              - /url: /clothing-and-accessories/topwear/shirts/pr?sid=clo,ash,axc&marketplace=FLIPKART
+          - generic [ref=e284]:
+            - text: Showing 1 – 40 of 4,529 results for "
+            - generic [ref=e285]: Allen Solly Shirt
+            - text: "\""
+          - generic [ref=e286]:
+            - generic [ref=e287]: Sort By
+            - generic [ref=e288]: Relevance
+            - generic [ref=e289] [cursor=pointer]: Popularity
+            - generic [ref=e290] [cursor=pointer]: Price -- Low to High
+            - generic [ref=e291] [cursor=pointer]: Price -- High to Low
+            - generic [ref=e292] [cursor=pointer]: Newest First
+        - generic [ref=e294]:
+          - generic [ref=e296]:
+            - link [ref=e297] [cursor=pointer]:
+              - /url: /arrow-men-self-design-formal-green-shirt/p/itmff73f97d040aa?pid=SHTGHKJTCV8FC2FU&lid=LSTSHTGHKJTCV8FC2FU6SO1B1&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR59bs63LfhHd_cWQpawsaXYIIYHK7T_gQ8Q22xVZx4bDE4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e304] [cursor=pointer]
+            - generic [ref=e306]:
+              - img [ref=e308]
+              - generic [ref=e311]: ARROW
+              - link "Men Slim Fit Self Design Cut Away Collar Formal Shirt" [ref=e312] [cursor=pointer]:
+                - /url: /arrow-men-self-design-formal-green-shirt/p/itmff73f97d040aa?pid=SHTGHKJTCV8FC2FU&lid=LSTSHTGHKJTCV8FC2FU6SO1B1&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR59bs63LfhHd_cWQpawsaXYIIYHK7T_gQ8Q22xVZx4bDE4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - link "₹1,499 ₹2,499 40% off" [ref=e313] [cursor=pointer]:
+                - /url: /arrow-men-self-design-formal-green-shirt/p/itmff73f97d040aa?pid=SHTGHKJTCV8FC2FU&lid=LSTSHTGHKJTCV8FC2FU6SO1B1&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_1&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR59bs63LfhHd_cWQpawsaXYIIYHK7T_gQ8Q22xVZx4bDE4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e314] [cursor=pointer]:
+                  - generic [ref=e315] [cursor=pointer]: ₹1,499
+                  - generic [ref=e316] [cursor=pointer]: ₹2,499
+                  - generic [ref=e318] [cursor=pointer]: 40% off
+          - generic [ref=e320]:
+            - link [ref=e321] [cursor=pointer]:
+              - /url: /allen-solly-men-striped-casual-blue-black-shirt/p/itm3457585b6bd41?pid=SHTFY8NJH7YZZCRW&lid=LSTSHTFY8NJH7YZZCRWTCCHAF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR6DqF0GTL40qACPLO2a_iTdUioNpuM7Z_9HhYmzjucsYfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e328] [cursor=pointer]
+            - generic [ref=e330]:
+              - img [ref=e332]
+              - generic [ref=e335]: Allen Solly
+              - link "Men Super Slim Fit Striped Button Down Collar Casual Sh..." [ref=e336] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-blue-black-shirt/p/itm3457585b6bd41?pid=SHTFY8NJH7YZZCRW&lid=LSTSHTFY8NJH7YZZCRWTCCHAF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR6DqF0GTL40qACPLO2a_iTdUioNpuM7Z_9HhYmzjucsYfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e338]
+              - link "₹628 ₹1,699 63% off" [ref=e339] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-blue-black-shirt/p/itm3457585b6bd41?pid=SHTFY8NJH7YZZCRW&lid=LSTSHTFY8NJH7YZZCRWTCCHAF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_2&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR6DqF0GTL40qACPLO2a_iTdUioNpuM7Z_9HhYmzjucsYfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e340] [cursor=pointer]:
+                  - generic [ref=e341] [cursor=pointer]: ₹628
+                  - generic [ref=e342] [cursor=pointer]: ₹1,699
+                  - generic [ref=e344] [cursor=pointer]: 63% off
+              - generic [ref=e347]: Top Discount of the Sale
+          - generic [ref=e349]:
+            - link [ref=e350] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-formal-blue-shirt/p/itm8dcb059e818d0?pid=SHTHDPXDFHJBGH6F&lid=LSTSHTHDPXDFHJBGH6F4XDSEF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_3&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXDFHJBGH6F.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e357] [cursor=pointer]
+            - generic [ref=e359]:
+              - generic [ref=e360]: Allen Solly
+              - link "Men Slim Fit Printed Formal Shirt" [ref=e361] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-formal-blue-shirt/p/itm8dcb059e818d0?pid=SHTHDPXDFHJBGH6F&lid=LSTSHTHDPXDFHJBGH6F4XDSEF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_3&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXDFHJBGH6F.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e363]
+              - link "₹665 ₹1,799 63% off" [ref=e364] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-formal-blue-shirt/p/itm8dcb059e818d0?pid=SHTHDPXDFHJBGH6F&lid=LSTSHTHDPXDFHJBGH6F4XDSEF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_3&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXDFHJBGH6F.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e365] [cursor=pointer]:
+                  - generic [ref=e366] [cursor=pointer]: ₹665
+                  - generic [ref=e367] [cursor=pointer]: ₹1,799
+                  - generic [ref=e369] [cursor=pointer]: 63% off
+              - generic [ref=e372]: Top Discount of the Sale
+          - generic [ref=e374]:
+            - link [ref=e375] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-maroon-shirt/p/itm80ca2cae43dc8?pid=SHTFUSC93FABBNJ4&lid=LSTSHTFUSC93FABBNJ4F89PPU&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_4&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSC93FABBNJ4.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e382] [cursor=pointer]
+            - generic [ref=e384]:
+              - generic [ref=e385]: Allen Solly
+              - link "Men Slim Fit Printed Cut Away Collar Casual Shirt" [ref=e386] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-maroon-shirt/p/itm80ca2cae43dc8?pid=SHTFUSC93FABBNJ4&lid=LSTSHTFUSC93FABBNJ4F89PPU&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_4&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSC93FABBNJ4.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e388]
+              - link "₹529 ₹1,499 64% off" [ref=e389] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-maroon-shirt/p/itm80ca2cae43dc8?pid=SHTFUSC93FABBNJ4&lid=LSTSHTFUSC93FABBNJ4F89PPU&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_4&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSC93FABBNJ4.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e390] [cursor=pointer]:
+                  - generic [ref=e391] [cursor=pointer]: ₹529
+                  - generic [ref=e392] [cursor=pointer]: ₹1,499
+                  - generic [ref=e394] [cursor=pointer]: 64% off
+              - generic [ref=e397]: Top Discount of the Sale
+        - generic [ref=e399]:
+          - generic [ref=e401]:
+            - link [ref=e402] [cursor=pointer]:
+              - /url: /indian-terrain-men-solid-casual-black-shirt/p/itm534f3bd07ab26?pid=SHTHDUE9THKHCYGR&lid=LSTSHTHDUE9THKHCYGRLCM363&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_5&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR4ekUp7530e2Qx45CQyyMQasaBzR9xxj8TROD-4587DZ04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e409] [cursor=pointer]
+            - generic [ref=e411]:
+              - img [ref=e413]
+              - generic [ref=e416]: INDIAN TERRAIN
+              - link "Men Slim Fit Solid Casual Shirt" [ref=e417] [cursor=pointer]:
+                - /url: /indian-terrain-men-solid-casual-black-shirt/p/itm534f3bd07ab26?pid=SHTHDUE9THKHCYGR&lid=LSTSHTHDUE9THKHCYGRLCM363&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_5&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR4ekUp7530e2Qx45CQyyMQasaBzR9xxj8TROD-4587DZ04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e419]
+              - link "₹615 ₹2,199 72% off" [ref=e420] [cursor=pointer]:
+                - /url: /indian-terrain-men-solid-casual-black-shirt/p/itm534f3bd07ab26?pid=SHTHDUE9THKHCYGR&lid=LSTSHTHDUE9THKHCYGRLCM363&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_5&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR4ekUp7530e2Qx45CQyyMQasaBzR9xxj8TROD-4587DZ04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e421] [cursor=pointer]:
+                  - generic [ref=e422] [cursor=pointer]: ₹615
+                  - generic [ref=e423] [cursor=pointer]: ₹2,199
+                  - generic [ref=e425] [cursor=pointer]: 72% off
+          - generic [ref=e427]:
+            - link [ref=e428] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm416265a664ee4?pid=SHTHB4E5FNANZFBG&lid=LSTSHTHB4E5FNANZFBGYCI5LV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_6&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR796l0TOcHAmImxzDBG6abKeEK2rhZV_nAvYsdxeSQR6RhTy0lUJ14SzoMSv_CzLF0%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e435] [cursor=pointer]
+            - generic [ref=e437]:
+              - img [ref=e439]
+              - generic [ref=e442]: Allen Solly
+              - link "Men Regular Fit Checkered Casual Shirt" [ref=e443] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm416265a664ee4?pid=SHTHB4E5FNANZFBG&lid=LSTSHTHB4E5FNANZFBGYCI5LV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_6&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR796l0TOcHAmImxzDBG6abKeEK2rhZV_nAvYsdxeSQR6RhTy0lUJ14SzoMSv_CzLF0%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e445]
+              - link "₹599 ₹1,999 70% off" [ref=e446] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm416265a664ee4?pid=SHTHB4E5FNANZFBG&lid=LSTSHTHB4E5FNANZFBGYCI5LV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_6&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR796l0TOcHAmImxzDBG6abKeEK2rhZV_nAvYsdxeSQR6RhTy0lUJ14SzoMSv_CzLF0%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e447] [cursor=pointer]:
+                  - generic [ref=e448] [cursor=pointer]: ₹599
+                  - generic [ref=e449] [cursor=pointer]: ₹1,999
+                  - generic [ref=e451] [cursor=pointer]: 70% off
+              - generic [ref=e454]: Top Discount of the Sale
+          - generic [ref=e456]:
+            - link [ref=e457] [cursor=pointer]:
+              - /url: /allen-solly-men-striped-casual-light-blue-shirt/p/itm8c6baac0871a8?pid=SHTHDPXD4GGBGGTF&lid=LSTSHTHDPXD4GGBGGTFJEYJTF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_7&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD4GGBGGTF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e464] [cursor=pointer]
+            - generic [ref=e466]:
+              - generic [ref=e467]: Allen Solly
+              - link "Men Regular Fit Striped Casual Shirt" [ref=e468] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-light-blue-shirt/p/itm8c6baac0871a8?pid=SHTHDPXD4GGBGGTF&lid=LSTSHTHDPXD4GGBGGTFJEYJTF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_7&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD4GGBGGTF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e470]
+              - link "₹647 ₹1,749 63% off" [ref=e471] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-light-blue-shirt/p/itm8c6baac0871a8?pid=SHTHDPXD4GGBGGTF&lid=LSTSHTHDPXD4GGBGGTFJEYJTF&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_7&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD4GGBGGTF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e472] [cursor=pointer]:
+                  - generic [ref=e473] [cursor=pointer]: ₹647
+                  - generic [ref=e474] [cursor=pointer]: ₹1,749
+                  - generic [ref=e476] [cursor=pointer]: 63% off
+              - generic [ref=e479]: Top Discount of the Sale
+          - generic [ref=e481]:
+            - link [ref=e482] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-white-shirt/p/itm042cd320f2c9e?pid=SHTHFMR3SGHCTMGA&lid=LSTSHTHFMR3SGHCTMGAJXK5KV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHFMR3SGHCTMGA.SEARCH&ppt=sp&ppn=sp&qH=3953cb816b7c57d3
+              - img [ref=e489] [cursor=pointer]
+            - generic [ref=e491]:
+              - generic [ref=e492]: Allen Solly
+              - link "Men Regular Fit Solid Casual Shirt" [active] [ref=e493] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-white-shirt/p/itm042cd320f2c9e?pid=SHTHFMR3SGHCTMGA&lid=LSTSHTHFMR3SGHCTMGAJXK5KV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHFMR3SGHCTMGA.SEARCH&ppt=sp&ppn=sp&qH=3953cb816b7c57d3
+              - img [ref=e495]
+              - link "₹628 ₹1,699 63% off" [ref=e496] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-white-shirt/p/itm042cd320f2c9e?pid=SHTHFMR3SGHCTMGA&lid=LSTSHTHFMR3SGHCTMGAJXK5KV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHFMR3SGHCTMGA.SEARCH&ppt=sp&ppn=sp&qH=3953cb816b7c57d3
+                - generic [ref=e497] [cursor=pointer]:
+                  - generic [ref=e498] [cursor=pointer]: ₹628
+                  - generic [ref=e499] [cursor=pointer]: ₹1,699
+                  - generic [ref=e501] [cursor=pointer]: 63% off
+              - generic [ref=e504]: Top Discount of the Sale
+        - generic [ref=e506]:
+          - generic [ref=e508]:
+            - link [ref=e509] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm3f7ca0bd40746?pid=SHTHEZN5UGHKXWUX&lid=LSTSHTHEZN5UGHKXWUXKTQDMC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_9&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN5UGHKXWUX.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e516] [cursor=pointer]
+            - generic [ref=e518]:
+              - generic [ref=e519]: Allen Solly
+              - link "Men Regular Fit Checkered Spread Collar Casual Shirt" [ref=e520] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm3f7ca0bd40746?pid=SHTHEZN5UGHKXWUX&lid=LSTSHTHEZN5UGHKXWUXKTQDMC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_9&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN5UGHKXWUX.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e522]
+              - link "₹599 ₹1,799 66% off" [ref=e523] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm3f7ca0bd40746?pid=SHTHEZN5UGHKXWUX&lid=LSTSHTHEZN5UGHKXWUXKTQDMC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_9&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN5UGHKXWUX.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e524] [cursor=pointer]:
+                  - generic [ref=e525] [cursor=pointer]: ₹599
+                  - generic [ref=e526] [cursor=pointer]: ₹1,799
+                  - generic [ref=e528] [cursor=pointer]: 66% off
+              - generic [ref=e531]: Top Discount of the Sale
+          - generic [ref=e533]:
+            - link [ref=e534] [cursor=pointer]:
+              - /url: /allen-solly-men-self-design-casual-blue-shirt/p/itmf70566355a929?pid=SHTG2MD5KGCDPPD7&lid=LSTSHTG2MD5KGCDPPD7S7LMKC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG2MD5KGCDPPD7.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e541] [cursor=pointer]
+            - generic [ref=e543]:
+              - generic [ref=e544]: Allen Solly
+              - link "Men Slim Fit Self Design Cut Away Collar Casual Shirt" [ref=e545] [cursor=pointer]:
+                - /url: /allen-solly-men-self-design-casual-blue-shirt/p/itmf70566355a929?pid=SHTG2MD5KGCDPPD7&lid=LSTSHTG2MD5KGCDPPD7S7LMKC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG2MD5KGCDPPD7.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e547]
+              - link "₹529 ₹1,399 62% off" [ref=e548] [cursor=pointer]:
+                - /url: /allen-solly-men-self-design-casual-blue-shirt/p/itmf70566355a929?pid=SHTG2MD5KGCDPPD7&lid=LSTSHTG2MD5KGCDPPD7S7LMKC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_10&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG2MD5KGCDPPD7.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e549] [cursor=pointer]:
+                  - generic [ref=e550] [cursor=pointer]: ₹529
+                  - generic [ref=e551] [cursor=pointer]: ₹1,399
+                  - generic [ref=e553] [cursor=pointer]: 62% off
+              - generic [ref=e556]: Top Discount of the Sale
+          - generic [ref=e558]:
+            - link [ref=e559] [cursor=pointer]:
+              - /url: /indian-terrain-men-checkered-casual-green-shirt/p/itm254d6bce2e2ba?pid=SHTHDUEAWAXAAP2Q&lid=LSTSHTHDUEAWAXAAP2QN87DTV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_11&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR7YYbxnix_CAwszZx03W_-wCWXk2GpWwm2G1yvzLLVGWEKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e566] [cursor=pointer]
+            - generic [ref=e568]:
+              - img [ref=e570]
+              - generic [ref=e573]: INDIAN TERRAIN
+              - link "Men Slim Fit Checkered Casual Shirt" [ref=e574] [cursor=pointer]:
+                - /url: /indian-terrain-men-checkered-casual-green-shirt/p/itm254d6bce2e2ba?pid=SHTHDUEAWAXAAP2Q&lid=LSTSHTHDUEAWAXAAP2QN87DTV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_11&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR7YYbxnix_CAwszZx03W_-wCWXk2GpWwm2G1yvzLLVGWEKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e576]
+              - link "₹699 ₹2,499 72% off" [ref=e577] [cursor=pointer]:
+                - /url: /indian-terrain-men-checkered-casual-green-shirt/p/itm254d6bce2e2ba?pid=SHTHDUEAWAXAAP2Q&lid=LSTSHTHDUEAWAXAAP2QN87DTV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_11&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR7YYbxnix_CAwszZx03W_-wCWXk2GpWwm2G1yvzLLVGWEKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e578] [cursor=pointer]:
+                  - generic [ref=e579] [cursor=pointer]: ₹699
+                  - generic [ref=e580] [cursor=pointer]: ₹2,499
+                  - generic [ref=e582] [cursor=pointer]: 72% off
+              - generic [ref=e585]: Top Discount of the Sale
+          - generic [ref=e587]:
+            - link [ref=e588] [cursor=pointer]:
+              - /url: /indian-terrain-men-printed-casual-beige-shirt/p/itmfebef07e47c68?pid=SHTHDUCJFTZUBYQT&lid=LSTSHTHDUCJFTZUBYQTYH7W7H&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_12&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR6n-LRMkcqlZFT00tLmBCx05ungnCblRwqtMHwUxsSCyOo15S0a61Wzzbg3qNOknKY%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e595] [cursor=pointer]
+            - generic [ref=e597]:
+              - img [ref=e599]
+              - generic [ref=e602]: INDIAN TERRAIN
+              - link "Men Slim Fit Printed Casual Shirt" [ref=e603] [cursor=pointer]:
+                - /url: /indian-terrain-men-printed-casual-beige-shirt/p/itmfebef07e47c68?pid=SHTHDUCJFTZUBYQT&lid=LSTSHTHDUCJFTZUBYQTYH7W7H&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_12&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR6n-LRMkcqlZFT00tLmBCx05ungnCblRwqtMHwUxsSCyOo15S0a61Wzzbg3qNOknKY%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e605]
+              - link "₹671 ₹2,399 72% off" [ref=e606] [cursor=pointer]:
+                - /url: /indian-terrain-men-printed-casual-beige-shirt/p/itmfebef07e47c68?pid=SHTHDUCJFTZUBYQT&lid=LSTSHTHDUCJFTZUBYQTYH7W7H&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_12&otracker=search&otracker1=search&fm=organic&iid=en_-1usUDqNvTT75Z6OmKGkgLLezV4pUIpso2F360aeRR6n-LRMkcqlZFT00tLmBCx05ungnCblRwqtMHwUxsSCyOo15S0a61Wzzbg3qNOknKY%3D&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e607] [cursor=pointer]:
+                  - generic [ref=e608] [cursor=pointer]: ₹671
+                  - generic [ref=e609] [cursor=pointer]: ₹2,399
+                  - generic [ref=e611] [cursor=pointer]: 72% off
+              - generic [ref=e614]: Top Discount of the Sale
+        - generic [ref=e616]:
+          - generic [ref=e618]:
+            - link [ref=e619] [cursor=pointer]:
+              - /url: /allen-solly-men-self-design-casual-blue-shirt/p/itm4831d2d9a6c22?pid=SHTFGEWPXFNXZUPD&lid=LSTSHTFGEWPXFNXZUPDTWZOAM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_13&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFGEWPXFNXZUPD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e626] [cursor=pointer]
+            - generic [ref=e628]:
+              - generic [ref=e629]: Allen Solly
+              - link "Men Slim Fit Self Design Spread Collar Casual Shirt" [ref=e630] [cursor=pointer]:
+                - /url: /allen-solly-men-self-design-casual-blue-shirt/p/itm4831d2d9a6c22?pid=SHTFGEWPXFNXZUPD&lid=LSTSHTFGEWPXFNXZUPDTWZOAM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_13&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFGEWPXFNXZUPD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e632]
+              - link "₹599 ₹1,499 60% off" [ref=e633] [cursor=pointer]:
+                - /url: /allen-solly-men-self-design-casual-blue-shirt/p/itm4831d2d9a6c22?pid=SHTFGEWPXFNXZUPD&lid=LSTSHTFGEWPXFNXZUPDTWZOAM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_13&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFGEWPXFNXZUPD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e634] [cursor=pointer]:
+                  - generic [ref=e635] [cursor=pointer]: ₹599
+                  - generic [ref=e636] [cursor=pointer]: ₹1,499
+                  - generic [ref=e638] [cursor=pointer]: 60% off
+              - generic [ref=e641]: Top Discount of the Sale
+          - generic [ref=e643]:
+            - link [ref=e644] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-maroon-shirt/p/itmc03035ed6f03e?pid=SHTG36BHRMJCHGEK&lid=LSTSHTG36BHRMJCHGEKBXC8RG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_14&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG36BHRMJCHGEK.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e651] [cursor=pointer]
+            - generic [ref=e653]:
+              - generic [ref=e654]: Allen Solly
+              - link "Men Slim Fit Solid Cut Away Collar Casual Shirt" [ref=e655] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-maroon-shirt/p/itmc03035ed6f03e?pid=SHTG36BHRMJCHGEK&lid=LSTSHTG36BHRMJCHGEKBXC8RG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_14&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG36BHRMJCHGEK.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - link "₹647 ₹1,749 63% off" [ref=e656] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-maroon-shirt/p/itmc03035ed6f03e?pid=SHTG36BHRMJCHGEK&lid=LSTSHTG36BHRMJCHGEKBXC8RG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_14&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG36BHRMJCHGEK.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e657] [cursor=pointer]:
+                  - generic [ref=e658] [cursor=pointer]: ₹647
+                  - generic [ref=e659] [cursor=pointer]: ₹1,749
+                  - generic [ref=e661] [cursor=pointer]: 63% off
+              - generic [ref=e664]: Top Discount of the Sale
+          - generic [ref=e666]:
+            - link [ref=e667] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-yellow-shirt/p/itm1f54886b63797?pid=SHTFZDHRFCANWZD7&lid=LSTSHTFZDHRFCANWZD7BNA9PS&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_15&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFZDHRFCANWZD7.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e674] [cursor=pointer]
+            - generic [ref=e676]:
+              - generic [ref=e677]: Allen Solly
+              - link "Men Slim Fit Printed Cut Away Collar Casual Shirt" [ref=e678] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-yellow-shirt/p/itm1f54886b63797?pid=SHTFZDHRFCANWZD7&lid=LSTSHTFZDHRFCANWZD7BNA9PS&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_15&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFZDHRFCANWZD7.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e680]
+              - link "₹573 ₹1,549 63% off" [ref=e681] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-yellow-shirt/p/itm1f54886b63797?pid=SHTFZDHRFCANWZD7&lid=LSTSHTFZDHRFCANWZD7BNA9PS&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_15&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFZDHRFCANWZD7.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e682] [cursor=pointer]:
+                  - generic [ref=e683] [cursor=pointer]: ₹573
+                  - generic [ref=e684] [cursor=pointer]: ₹1,549
+                  - generic [ref=e686] [cursor=pointer]: 63% off
+              - generic [ref=e689]: Top Discount of the Sale
+          - generic [ref=e691]:
+            - link [ref=e692] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-green-shirt/p/itmf9ab203dc3b11?pid=SHTFUS9YHGJYXM7S&lid=LSTSHTFUS9YHGJYXM7SC51INM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_16&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUS9YHGJYXM7S.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e699] [cursor=pointer]
+            - generic [ref=e701]:
+              - generic [ref=e702]: Allen Solly
+              - link "Men Slim Fit Solid Cut Away Collar Casual Shirt" [ref=e703] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-green-shirt/p/itmf9ab203dc3b11?pid=SHTFUS9YHGJYXM7S&lid=LSTSHTFUS9YHGJYXM7SC51INM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_16&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUS9YHGJYXM7S.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e705]
+              - link "₹559 ₹1,399 60% off" [ref=e706] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-green-shirt/p/itmf9ab203dc3b11?pid=SHTFUS9YHGJYXM7S&lid=LSTSHTFUS9YHGJYXM7SC51INM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_16&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUS9YHGJYXM7S.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e707] [cursor=pointer]:
+                  - generic [ref=e708] [cursor=pointer]: ₹559
+                  - generic [ref=e709] [cursor=pointer]: ₹1,399
+                  - generic [ref=e711] [cursor=pointer]: 60% off
+              - generic [ref=e714]: Top Discount of the Sale
+        - generic [ref=e716]:
+          - generic [ref=e718]:
+            - link [ref=e719] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-brown-shirt/p/itm826061a259ea5?pid=SHTHD2KKYBQMD2MD&lid=LSTSHTHD2KKYBQMD2MDDNUPQX&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_17&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHD2KKYBQMD2MD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e726] [cursor=pointer]
+            - generic [ref=e728]:
+              - generic [ref=e729]: Allen Solly
+              - link "Men Regular Fit Solid Casual Shirt" [ref=e730] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-brown-shirt/p/itm826061a259ea5?pid=SHTHD2KKYBQMD2MD&lid=LSTSHTHD2KKYBQMD2MDDNUPQX&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_17&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHD2KKYBQMD2MD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e732]
+              - link "₹628 ₹1,699 63% off" [ref=e733] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-brown-shirt/p/itm826061a259ea5?pid=SHTHD2KKYBQMD2MD&lid=LSTSHTHD2KKYBQMD2MDDNUPQX&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_17&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHD2KKYBQMD2MD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e734] [cursor=pointer]:
+                  - generic [ref=e735] [cursor=pointer]: ₹628
+                  - generic [ref=e736] [cursor=pointer]: ₹1,699
+                  - generic [ref=e738] [cursor=pointer]: 63% off
+              - generic [ref=e741]: Top Discount of the Sale
+          - generic [ref=e743]:
+            - link [ref=e744] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-formal-dark-blue-shirt/p/itm86cfd936a4460?pid=SHTHEZN42YZ59WY4&lid=LSTSHTHEZN42YZ59WY4VUJERQ&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_18&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN42YZ59WY4.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e751] [cursor=pointer]
+            - generic [ref=e753]:
+              - generic [ref=e754]: Allen Solly
+              - link "Men Slim Fit Checkered Formal Shirt" [ref=e755] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-formal-dark-blue-shirt/p/itm86cfd936a4460?pid=SHTHEZN42YZ59WY4&lid=LSTSHTHEZN42YZ59WY4VUJERQ&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_18&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN42YZ59WY4.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e757]
+              - link "₹665 ₹1,799 63% off" [ref=e758] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-formal-dark-blue-shirt/p/itm86cfd936a4460?pid=SHTHEZN42YZ59WY4&lid=LSTSHTHEZN42YZ59WY4VUJERQ&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_18&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN42YZ59WY4.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e759] [cursor=pointer]:
+                  - generic [ref=e760] [cursor=pointer]: ₹665
+                  - generic [ref=e761] [cursor=pointer]: ₹1,799
+                  - generic [ref=e763] [cursor=pointer]: 63% off
+              - generic [ref=e766]: Top Discount of the Sale
+          - generic [ref=e768]:
+            - link [ref=e769] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-white-shirt/p/itm8ad24223bd7ad?pid=SHTG5QJFN3XVZ4FJ&lid=LSTSHTG5QJFN3XVZ4FJ3AKCVC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_19&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG5QJFN3XVZ4FJ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e776] [cursor=pointer]
+            - generic [ref=e778]:
+              - generic [ref=e779]: Allen Solly
+              - link "Men Slim Fit Printed Cut Away Collar Casual Shirt" [ref=e780] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-shirt/p/itm8ad24223bd7ad?pid=SHTG5QJFN3XVZ4FJ&lid=LSTSHTG5QJFN3XVZ4FJ3AKCVC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_19&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG5QJFN3XVZ4FJ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e782]
+              - link "₹591 ₹1,599 63% off" [ref=e783] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-shirt/p/itm8ad24223bd7ad?pid=SHTG5QJFN3XVZ4FJ&lid=LSTSHTG5QJFN3XVZ4FJ3AKCVC&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_19&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG5QJFN3XVZ4FJ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e784] [cursor=pointer]:
+                  - generic [ref=e785] [cursor=pointer]: ₹591
+                  - generic [ref=e786] [cursor=pointer]: ₹1,599
+                  - generic [ref=e788] [cursor=pointer]: 63% off
+              - generic [ref=e791]: Top Discount of the Sale
+          - generic [ref=e793]:
+            - link [ref=e794] [cursor=pointer]:
+              - /url: /allen-solly-boys-checkered-casual-light-blue-shirt/p/itm1db46462062d2?pid=SHTHBYSFQGYZCAHE&lid=LSTSHTHBYSFQGYZCAHEXGAYGM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_20&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHBYSFQGYZCAHE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e801] [cursor=pointer]
+            - generic [ref=e803]:
+              - generic [ref=e804]: Allen Solly
+              - link "Boys Regular Fit Checkered Casual Shirt" [ref=e805] [cursor=pointer]:
+                - /url: /allen-solly-boys-checkered-casual-light-blue-shirt/p/itm1db46462062d2?pid=SHTHBYSFQGYZCAHE&lid=LSTSHTHBYSFQGYZCAHEXGAYGM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_20&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHBYSFQGYZCAHE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e807]
+              - link "₹529 ₹1,599 66% off" [ref=e808] [cursor=pointer]:
+                - /url: /allen-solly-boys-checkered-casual-light-blue-shirt/p/itm1db46462062d2?pid=SHTHBYSFQGYZCAHE&lid=LSTSHTHBYSFQGYZCAHEXGAYGM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_20&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHBYSFQGYZCAHE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e809] [cursor=pointer]:
+                  - generic [ref=e810] [cursor=pointer]: ₹529
+                  - generic [ref=e811] [cursor=pointer]: ₹1,599
+                  - generic [ref=e813] [cursor=pointer]: 66% off
+              - generic [ref=e816]: Top Discount of the Sale
+        - generic [ref=e818]:
+          - generic [ref=e820]:
+            - link [ref=e821] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-white-blue-shirt/p/itm5a8b1bbe7ee5c?pid=SHTGCRYSU4X8TFSF&lid=LSTSHTGCRYSU4X8TFSFX0ZMBA&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_21&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGCRYSU4X8TFSF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e828] [cursor=pointer]
+            - generic [ref=e830]:
+              - generic [ref=e831]: Allen Solly
+              - link "Men Slim Fit Printed Cut Away Collar Casual Shirt" [ref=e832] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-blue-shirt/p/itm5a8b1bbe7ee5c?pid=SHTGCRYSU4X8TFSF&lid=LSTSHTGCRYSU4X8TFSFX0ZMBA&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_21&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGCRYSU4X8TFSF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e834]
+              - link "₹628 ₹1,699 63% off" [ref=e835] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-blue-shirt/p/itm5a8b1bbe7ee5c?pid=SHTGCRYSU4X8TFSF&lid=LSTSHTGCRYSU4X8TFSFX0ZMBA&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_21&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGCRYSU4X8TFSF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e836] [cursor=pointer]:
+                  - generic [ref=e837] [cursor=pointer]: ₹628
+                  - generic [ref=e838] [cursor=pointer]: ₹1,699
+                  - generic [ref=e840] [cursor=pointer]: 63% off
+              - generic [ref=e843]: Top Discount of the Sale
+          - generic [ref=e845]:
+            - link [ref=e846] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-khaki-shirt/p/itm92d2dc7a89496?pid=SHTFPZW7S3NHNWKS&lid=LSTSHTFPZW7S3NHNWKS1YODXN&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_22&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFPZW7S3NHNWKS.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e853] [cursor=pointer]
+            - generic [ref=e855]:
+              - generic [ref=e856]: Allen Solly
+              - link "Men Regular Fit Solid Spread Collar Casual Shirt" [ref=e857] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-khaki-shirt/p/itm92d2dc7a89496?pid=SHTFPZW7S3NHNWKS&lid=LSTSHTFPZW7S3NHNWKS1YODXN&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_22&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFPZW7S3NHNWKS.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e859]
+              - link "₹628 ₹1,699 63% off" [ref=e860] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-khaki-shirt/p/itm92d2dc7a89496?pid=SHTFPZW7S3NHNWKS&lid=LSTSHTFPZW7S3NHNWKS1YODXN&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_22&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFPZW7S3NHNWKS.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e861] [cursor=pointer]:
+                  - generic [ref=e862] [cursor=pointer]: ₹628
+                  - generic [ref=e863] [cursor=pointer]: ₹1,699
+                  - generic [ref=e865] [cursor=pointer]: 63% off
+              - generic [ref=e868]: Top Discount of the Sale
+          - generic [ref=e870]:
+            - link [ref=e871] [cursor=pointer]:
+              - /url: /allen-solly-men-striped-casual-dark-blue-white-shirt/p/itm3979c1915081e?pid=SHTGQR7DYVYRJEYJ&lid=LSTSHTGQR7DYVYRJEYJV7VNIU&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_23&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQR7DYVYRJEYJ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e878] [cursor=pointer]
+            - generic [ref=e880]:
+              - generic [ref=e881]: Allen Solly
+              - link "Men Slim Fit Striped Spread Collar Casual Shirt" [ref=e882] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-dark-blue-white-shirt/p/itm3979c1915081e?pid=SHTGQR7DYVYRJEYJ&lid=LSTSHTGQR7DYVYRJEYJV7VNIU&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_23&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQR7DYVYRJEYJ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e884]
+              - link "₹628 ₹1,699 63% off" [ref=e885] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-dark-blue-white-shirt/p/itm3979c1915081e?pid=SHTGQR7DYVYRJEYJ&lid=LSTSHTGQR7DYVYRJEYJV7VNIU&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_23&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQR7DYVYRJEYJ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e886] [cursor=pointer]:
+                  - generic [ref=e887] [cursor=pointer]: ₹628
+                  - generic [ref=e888] [cursor=pointer]: ₹1,699
+                  - generic [ref=e890] [cursor=pointer]: 63% off
+              - generic [ref=e893]: Top Discount of the Sale
+          - generic [ref=e895]:
+            - link [ref=e896] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-blue-shirt/p/itmf1ca528ebcd91?pid=SHTFUSCFVRGBGGWD&lid=LSTSHTFUSCFVRGBGGWDDE0ER9&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_24&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSCFVRGBGGWD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e903] [cursor=pointer]
+            - generic [ref=e905]:
+              - generic [ref=e906]: Allen Solly
+              - link "Men Slim Fit Printed Cut Away Collar Casual Shirt" [ref=e907] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-blue-shirt/p/itmf1ca528ebcd91?pid=SHTFUSCFVRGBGGWD&lid=LSTSHTFUSCFVRGBGGWDDE0ER9&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_24&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSCFVRGBGGWD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e909]
+              - link "₹529 ₹1,499 64% off" [ref=e910] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-blue-shirt/p/itmf1ca528ebcd91?pid=SHTFUSCFVRGBGGWD&lid=LSTSHTFUSCFVRGBGGWDDE0ER9&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_24&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSCFVRGBGGWD.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e911] [cursor=pointer]:
+                  - generic [ref=e912] [cursor=pointer]: ₹529
+                  - generic [ref=e913] [cursor=pointer]: ₹1,499
+                  - generic [ref=e915] [cursor=pointer]: 64% off
+              - generic [ref=e918]: Top Discount of the Sale
+        - generic [ref=e920]:
+          - generic [ref=e922]:
+            - link [ref=e923] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-formal-green-shirt/p/itm1c02676271ea6?pid=SHTHDPXD4PNKWHWW&lid=LSTSHTHDPXD4PNKWHWWVWUWIW&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_25&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD4PNKWHWW.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e930] [cursor=pointer]
+            - generic [ref=e932]:
+              - generic [ref=e933]: Allen Solly
+              - link "Men Slim Fit Solid Formal Shirt" [ref=e934] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-formal-green-shirt/p/itm1c02676271ea6?pid=SHTHDPXD4PNKWHWW&lid=LSTSHTHDPXD4PNKWHWWVWUWIW&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_25&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD4PNKWHWW.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e936]
+              - link "₹599 ₹1,499 60% off" [ref=e937] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-formal-green-shirt/p/itm1c02676271ea6?pid=SHTHDPXD4PNKWHWW&lid=LSTSHTHDPXD4PNKWHWWVWUWIW&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_25&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD4PNKWHWW.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e938] [cursor=pointer]:
+                  - generic [ref=e939] [cursor=pointer]: ₹599
+                  - generic [ref=e940] [cursor=pointer]: ₹1,499
+                  - generic [ref=e942] [cursor=pointer]: 60% off
+              - generic [ref=e945]: Top Discount of the Sale
+          - generic [ref=e947]:
+            - link [ref=e948] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itmf893d12c6c5f3?pid=SHTGQWRKZGBQXPYZ&lid=LSTSHTGQWRKZGBQXPYZE4YYER&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_26&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQWRKZGBQXPYZ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e955] [cursor=pointer]
+            - generic [ref=e957]:
+              - generic [ref=e958]: Allen Solly
+              - link "Men Regular Fit Checkered Cut Away Collar Casual Shirt" [ref=e959] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itmf893d12c6c5f3?pid=SHTGQWRKZGBQXPYZ&lid=LSTSHTGQWRKZGBQXPYZE4YYER&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_26&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQWRKZGBQXPYZ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e961]
+              - link "₹502 ₹1,699 70% off" [ref=e962] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itmf893d12c6c5f3?pid=SHTGQWRKZGBQXPYZ&lid=LSTSHTGQWRKZGBQXPYZE4YYER&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_26&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQWRKZGBQXPYZ.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e963] [cursor=pointer]:
+                  - generic [ref=e964] [cursor=pointer]: ₹502
+                  - generic [ref=e965] [cursor=pointer]: ₹1,699
+                  - generic [ref=e967] [cursor=pointer]: 70% off
+              - generic [ref=e970]: Top Discount of the Sale
+          - generic [ref=e972]:
+            - link [ref=e973] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-yellow-shirt/p/itm99b43442e9632?pid=SHTFUSCA3C2ZGTPT&lid=LSTSHTFUSCA3C2ZGTPTZ8I7PG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_27&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSCA3C2ZGTPT.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e980] [cursor=pointer]
+            - generic [ref=e982]:
+              - generic [ref=e983]: Allen Solly
+              - link "Men Slim Fit Solid Cut Away Collar Casual Shirt" [ref=e984] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-yellow-shirt/p/itm99b43442e9632?pid=SHTFUSCA3C2ZGTPT&lid=LSTSHTFUSCA3C2ZGTPTZ8I7PG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_27&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSCA3C2ZGTPT.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e986]
+              - link "₹579 ₹1,449 60% off" [ref=e987] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-yellow-shirt/p/itm99b43442e9632?pid=SHTFUSCA3C2ZGTPT&lid=LSTSHTFUSCA3C2ZGTPTZ8I7PG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_27&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUSCA3C2ZGTPT.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e988] [cursor=pointer]:
+                  - generic [ref=e989] [cursor=pointer]: ₹579
+                  - generic [ref=e990] [cursor=pointer]: ₹1,449
+                  - generic [ref=e992] [cursor=pointer]: 60% off
+              - generic [ref=e995]: Only 1 left
+          - generic [ref=e997]:
+            - link [ref=e998] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-formal-white-shirt/p/itm80eae79b71d79?pid=SHTG5N8F8MZECSFY&lid=LSTSHTG5N8F8MZECSFY5IPE0O&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_28&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG5N8F8MZECSFY.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1005] [cursor=pointer]
+            - generic [ref=e1007]:
+              - generic [ref=e1008]: Allen Solly
+              - link "Men Slim Fit Checkered Spread Collar Formal Shirt" [ref=e1009] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-formal-white-shirt/p/itm80eae79b71d79?pid=SHTG5N8F8MZECSFY&lid=LSTSHTG5N8F8MZECSFY5IPE0O&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_28&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG5N8F8MZECSFY.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1011]
+              - link "₹684 ₹1,849 63% off" [ref=e1012] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-formal-white-shirt/p/itm80eae79b71d79?pid=SHTG5N8F8MZECSFY&lid=LSTSHTG5N8F8MZECSFY5IPE0O&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_28&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTG5N8F8MZECSFY.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1013] [cursor=pointer]:
+                  - generic [ref=e1014] [cursor=pointer]: ₹684
+                  - generic [ref=e1015] [cursor=pointer]: ₹1,849
+                  - generic [ref=e1017] [cursor=pointer]: 63% off
+              - generic [ref=e1020]: Top Discount of the Sale
+        - generic [ref=e1022]:
+          - generic [ref=e1024]:
+            - link [ref=e1025] [cursor=pointer]:
+              - /url: /allen-solly-boys-solid-casual-white-shirt/p/itmd18498d815a29?pid=SHTH3VQRFVUH5TNR&lid=LSTSHTH3VQRFVUH5TNR7U3AGM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_29&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTH3VQRFVUH5TNR.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1032] [cursor=pointer]
+            - generic [ref=e1034]:
+              - generic [ref=e1035]: Allen Solly
+              - link "Boys Slim Fit Solid Spread Collar Casual Shirt" [ref=e1036] [cursor=pointer]:
+                - /url: /allen-solly-boys-solid-casual-white-shirt/p/itmd18498d815a29?pid=SHTH3VQRFVUH5TNR&lid=LSTSHTH3VQRFVUH5TNR7U3AGM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_29&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTH3VQRFVUH5TNR.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1038]
+              - link "₹639 ₹999 36% off" [ref=e1039] [cursor=pointer]:
+                - /url: /allen-solly-boys-solid-casual-white-shirt/p/itmd18498d815a29?pid=SHTH3VQRFVUH5TNR&lid=LSTSHTH3VQRFVUH5TNR7U3AGM&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_29&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTH3VQRFVUH5TNR.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1040] [cursor=pointer]:
+                  - generic [ref=e1041] [cursor=pointer]: ₹639
+                  - generic [ref=e1042] [cursor=pointer]: ₹999
+                  - generic [ref=e1044] [cursor=pointer]: 36% off
+              - generic [ref=e1047]: Only 1 left
+          - generic [ref=e1049]:
+            - link [ref=e1050] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-formal-pink-shirt/p/itmc141d600bd295?pid=SHTGSZ2VHTTYFGRT&lid=LSTSHTGSZ2VHTTYFGRTZIVYHA&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_30&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGSZ2VHTTYFGRT.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1057] [cursor=pointer]
+            - generic [ref=e1059]:
+              - generic [ref=e1060]: Allen Solly
+              - link "Men Regular Fit Checkered Spread Collar Formal Shirt" [ref=e1061] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-formal-pink-shirt/p/itmc141d600bd295?pid=SHTGSZ2VHTTYFGRT&lid=LSTSHTGSZ2VHTTYFGRTZIVYHA&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_30&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGSZ2VHTTYFGRT.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1063]
+              - link "₹574 ₹1,599 64% off" [ref=e1064] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-formal-pink-shirt/p/itmc141d600bd295?pid=SHTGSZ2VHTTYFGRT&lid=LSTSHTGSZ2VHTTYFGRTZIVYHA&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_30&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGSZ2VHTTYFGRT.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1065] [cursor=pointer]:
+                  - generic [ref=e1066] [cursor=pointer]: ₹574
+                  - generic [ref=e1067] [cursor=pointer]: ₹1,599
+                  - generic [ref=e1069] [cursor=pointer]: 64% off
+              - generic [ref=e1072]: Top Discount of the Sale
+          - generic [ref=e1074]:
+            - link [ref=e1075] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-white-shirt/p/itm6728ca8f12616?pid=SHTFXEPZ4CYBVHGE&lid=LSTSHTFXEPZ4CYBVHGEHUQRE9&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_31&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFXEPZ4CYBVHGE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1082] [cursor=pointer]
+            - generic [ref=e1084]:
+              - generic [ref=e1085]: Allen Solly
+              - link "Men Slim Fit Printed Casual Shirt" [ref=e1086] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-shirt/p/itm6728ca8f12616?pid=SHTFXEPZ4CYBVHGE&lid=LSTSHTFXEPZ4CYBVHGEHUQRE9&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_31&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFXEPZ4CYBVHGE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1088]
+              - link "₹599 ₹1,499 60% off" [ref=e1089] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-shirt/p/itm6728ca8f12616?pid=SHTFXEPZ4CYBVHGE&lid=LSTSHTFXEPZ4CYBVHGEHUQRE9&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_31&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFXEPZ4CYBVHGE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1090] [cursor=pointer]:
+                  - generic [ref=e1091] [cursor=pointer]: ₹599
+                  - generic [ref=e1092] [cursor=pointer]: ₹1,499
+                  - generic [ref=e1094] [cursor=pointer]: 60% off
+              - generic [ref=e1097]: Top Discount of the Sale
+          - generic [ref=e1099]:
+            - link [ref=e1100] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-multicolor-shirt/p/itmb07c2c8850c72?pid=SHTHEZN4XTGYTUYU&lid=LSTSHTHEZN4XTGYTUYUG2E4E0&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_32&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN4XTGYTUYU.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1107] [cursor=pointer]
+            - generic [ref=e1109]:
+              - generic [ref=e1110]: Allen Solly
+              - link "Men Regular Fit Solid Casual Shirt" [ref=e1111] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-multicolor-shirt/p/itmb07c2c8850c72?pid=SHTHEZN4XTGYTUYU&lid=LSTSHTHEZN4XTGYTUYUG2E4E0&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_32&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN4XTGYTUYU.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1113]
+              - link "₹628 ₹1,699 63% off" [ref=e1114] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-multicolor-shirt/p/itmb07c2c8850c72?pid=SHTHEZN4XTGYTUYU&lid=LSTSHTHEZN4XTGYTUYUG2E4E0&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_32&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN4XTGYTUYU.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1115] [cursor=pointer]:
+                  - generic [ref=e1116] [cursor=pointer]: ₹628
+                  - generic [ref=e1117] [cursor=pointer]: ₹1,699
+                  - generic [ref=e1119] [cursor=pointer]: 63% off
+              - generic [ref=e1122]: Top Discount of the Sale
+        - generic [ref=e1124]:
+          - generic [ref=e1126]:
+            - link [ref=e1127] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-casual-blue-yellow-shirt/p/itm47b33eb500352?pid=SHTHEZN54UYVKFXK&lid=LSTSHTHEZN54UYVKFXKY2VFVW&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_33&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN54UYVKFXK.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1134] [cursor=pointer]
+            - generic [ref=e1136]:
+              - generic [ref=e1137]: Allen Solly
+              - link "Men Regular Fit Checkered Casual Shirt" [ref=e1138] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-blue-yellow-shirt/p/itm47b33eb500352?pid=SHTHEZN54UYVKFXK&lid=LSTSHTHEZN54UYVKFXKY2VFVW&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_33&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN54UYVKFXK.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1140]
+              - link "₹924 ₹2,499 63% off" [ref=e1141] [cursor=pointer]:
+                - /url: /allen-solly-men-checkered-casual-blue-yellow-shirt/p/itm47b33eb500352?pid=SHTHEZN54UYVKFXK&lid=LSTSHTHEZN54UYVKFXKY2VFVW&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_33&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN54UYVKFXK.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1142] [cursor=pointer]:
+                  - generic [ref=e1143] [cursor=pointer]: ₹924
+                  - generic [ref=e1144] [cursor=pointer]: ₹2,499
+                  - generic [ref=e1146] [cursor=pointer]: 63% off
+          - generic [ref=e1148]:
+            - link [ref=e1149] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-white-shirt/p/itm037ac00fecbfd?pid=SHTHDPXD6GY4QQUE&lid=LSTSHTHDPXD6GY4QQUENWQCMB&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_34&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD6GY4QQUE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1156] [cursor=pointer]
+            - generic [ref=e1158]:
+              - generic [ref=e1159]: Allen Solly
+              - link "Men Slim Fit Printed Casual Shirt" [ref=e1160] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-shirt/p/itm037ac00fecbfd?pid=SHTHDPXD6GY4QQUE&lid=LSTSHTHDPXD6GY4QQUENWQCMB&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_34&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD6GY4QQUE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1162]
+              - link "₹599 ₹1,799 66% off" [ref=e1163] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-white-shirt/p/itm037ac00fecbfd?pid=SHTHDPXD6GY4QQUE&lid=LSTSHTHDPXD6GY4QQUENWQCMB&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_34&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXD6GY4QQUE.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1164] [cursor=pointer]:
+                  - generic [ref=e1165] [cursor=pointer]: ₹599
+                  - generic [ref=e1166] [cursor=pointer]: ₹1,799
+                  - generic [ref=e1168] [cursor=pointer]: 66% off
+              - generic [ref=e1171]: Top Discount of the Sale
+          - generic [ref=e1173]:
+            - link [ref=e1174] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-orange-shirt/p/itmcf5353754ab57?pid=SHTHEZ8VUYSKHMDF&lid=LSTSHTHEZ8VUYSKHMDFLGRYJL&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_35&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZ8VUYSKHMDF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1181] [cursor=pointer]
+            - generic [ref=e1183]:
+              - generic [ref=e1184]: Allen Solly
+              - link "Men Relaxed Fit Fit Solid Casual Shirt" [ref=e1185] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-orange-shirt/p/itmcf5353754ab57?pid=SHTHEZ8VUYSKHMDF&lid=LSTSHTHEZ8VUYSKHMDFLGRYJL&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_35&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZ8VUYSKHMDF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1187]
+              - link "₹647 ₹1,749 63% off" [ref=e1188] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-orange-shirt/p/itmcf5353754ab57?pid=SHTHEZ8VUYSKHMDF&lid=LSTSHTHEZ8VUYSKHMDFLGRYJL&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_35&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZ8VUYSKHMDF.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1189] [cursor=pointer]:
+                  - generic [ref=e1190] [cursor=pointer]: ₹647
+                  - generic [ref=e1191] [cursor=pointer]: ₹1,749
+                  - generic [ref=e1193] [cursor=pointer]: 63% off
+              - generic [ref=e1196]: Only few left
+          - generic [ref=e1198]:
+            - link [ref=e1199] [cursor=pointer]:
+              - /url: /allen-solly-men-printed-casual-blue-shirt/p/itm83b5c7bdef489?pid=SHTGQWRKP9XGGQWG&lid=LSTSHTGQWRKP9XGGQWGY0VU2L&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_36&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQWRKP9XGGQWG.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1206] [cursor=pointer]
+            - generic [ref=e1208]:
+              - generic [ref=e1209]: Allen Solly
+              - link "Men Regular Fit Printed Cut Away Collar Casual Shirt" [ref=e1210] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-blue-shirt/p/itm83b5c7bdef489?pid=SHTGQWRKP9XGGQWG&lid=LSTSHTGQWRKP9XGGQWGY0VU2L&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_36&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQWRKP9XGGQWG.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1212]
+              - link "₹591 ₹1,599 63% off" [ref=e1213] [cursor=pointer]:
+                - /url: /allen-solly-men-printed-casual-blue-shirt/p/itm83b5c7bdef489?pid=SHTGQWRKP9XGGQWG&lid=LSTSHTGQWRKP9XGGQWGY0VU2L&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_36&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGQWRKP9XGGQWG.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1214] [cursor=pointer]:
+                  - generic [ref=e1215] [cursor=pointer]: ₹591
+                  - generic [ref=e1216] [cursor=pointer]: ₹1,599
+                  - generic [ref=e1218] [cursor=pointer]: 63% off
+              - generic [ref=e1221]: Top Discount of the Sale
+        - generic [ref=e1223]:
+          - generic [ref=e1225]:
+            - link [ref=e1226] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-grey-shirt/p/itm333b4a731dcf6?pid=SHTHDPXDKTFSPEK2&lid=LSTSHTHDPXDKTFSPEK2YR9NCD&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_37&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXDKTFSPEK2.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1233] [cursor=pointer]
+            - generic [ref=e1235]:
+              - generic [ref=e1236]: Allen Solly
+              - link "Men Regular Fit Solid Spread Collar Casual Shirt" [ref=e1237] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-grey-shirt/p/itm333b4a731dcf6?pid=SHTHDPXDKTFSPEK2&lid=LSTSHTHDPXDKTFSPEK2YR9NCD&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_37&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXDKTFSPEK2.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1239]
+              - link "₹599 ₹1,799 66% off" [ref=e1240] [cursor=pointer]:
+                - /url: /allen-solly-men-solid-casual-grey-shirt/p/itm333b4a731dcf6?pid=SHTHDPXDKTFSPEK2&lid=LSTSHTHDPXDKTFSPEK2YR9NCD&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_37&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHDPXDKTFSPEK2.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1241] [cursor=pointer]:
+                  - generic [ref=e1242] [cursor=pointer]: ₹599
+                  - generic [ref=e1243] [cursor=pointer]: ₹1,799
+                  - generic [ref=e1245] [cursor=pointer]: 66% off
+              - generic [ref=e1248]: Top Discount of the Sale
+          - generic [ref=e1250]:
+            - link [ref=e1251] [cursor=pointer]:
+              - /url: /allen-solly-men-striped-casual-multicolor-shirt/p/itm19b645dcda77a?pid=SHTHEZN43F4ZWEQ9&lid=LSTSHTHEZN43F4ZWEQ96WGEAV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_38&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN43F4ZWEQ9.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1258] [cursor=pointer]
+            - generic [ref=e1260]:
+              - generic [ref=e1261]: Allen Solly
+              - link "Men Regular Fit Striped Spread Collar Casual Shirt" [ref=e1262] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-multicolor-shirt/p/itm19b645dcda77a?pid=SHTHEZN43F4ZWEQ9&lid=LSTSHTHEZN43F4ZWEQ96WGEAV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_38&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN43F4ZWEQ9.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1264]
+              - link "₹599 ₹1,799 66% off" [ref=e1265] [cursor=pointer]:
+                - /url: /allen-solly-men-striped-casual-multicolor-shirt/p/itm19b645dcda77a?pid=SHTHEZN43F4ZWEQ9&lid=LSTSHTHEZN43F4ZWEQ96WGEAV&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_38&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTHEZN43F4ZWEQ9.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1266] [cursor=pointer]:
+                  - generic [ref=e1267] [cursor=pointer]: ₹599
+                  - generic [ref=e1268] [cursor=pointer]: ₹1,799
+                  - generic [ref=e1270] [cursor=pointer]: 66% off
+              - generic [ref=e1273]: Top Discount of the Sale
+          - generic [ref=e1275]:
+            - link [ref=e1276] [cursor=pointer]:
+              - /url: /allen-solly-anti-bacterial-men-solid-casual-beige-shirt/p/itm4b6687fd36d6f?pid=SHTFUTT8RXPRNXFN&lid=LSTSHTFUTT8RXPRNXFNSP2M1U&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_39&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUTT8RXPRNXFN.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1283] [cursor=pointer]
+            - generic [ref=e1285]:
+              - generic [ref=e1286]: Allen Solly
+              - link "Anti-Bacterial Men Slim Fit Solid Cut Away Collar Casua..." [ref=e1287] [cursor=pointer]:
+                - /url: /allen-solly-anti-bacterial-men-solid-casual-beige-shirt/p/itm4b6687fd36d6f?pid=SHTFUTT8RXPRNXFN&lid=LSTSHTFUTT8RXPRNXFNSP2M1U&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_39&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUTT8RXPRNXFN.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1289]
+              - link "₹601 ₹1,699 64% off" [ref=e1290] [cursor=pointer]:
+                - /url: /allen-solly-anti-bacterial-men-solid-casual-beige-shirt/p/itm4b6687fd36d6f?pid=SHTFUTT8RXPRNXFN&lid=LSTSHTFUTT8RXPRNXFNSP2M1U&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_39&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTFUTT8RXPRNXFN.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1291] [cursor=pointer]:
+                  - generic [ref=e1292] [cursor=pointer]: ₹601
+                  - generic [ref=e1293] [cursor=pointer]: ₹1,699
+                  - generic [ref=e1295] [cursor=pointer]: 64% off
+              - generic [ref=e1298]: Top Discount of the Sale
+          - generic [ref=e1300]:
+            - link [ref=e1301] [cursor=pointer]:
+              - /url: /allen-solly-women-solid-casual-black-shirt/p/itm8d374b4f1735a?pid=SHTGYVTJVWJAPGD5&lid=LSTSHTGYVTJVWJAPGD5VBRAGG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_40&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGYVTJVWJAPGD5.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1308] [cursor=pointer]
+            - generic [ref=e1310]:
+              - generic [ref=e1311]: Allen Solly
+              - link "Women Regular Fit Solid Spread Collar Casual Shirt" [ref=e1312] [cursor=pointer]:
+                - /url: /allen-solly-women-solid-casual-black-shirt/p/itm8d374b4f1735a?pid=SHTGYVTJVWJAPGD5&lid=LSTSHTGYVTJVWJAPGD5VBRAGG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_40&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGYVTJVWJAPGD5.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+              - img [ref=e1314]
+              - link "₹959 ₹1,599 40% off" [ref=e1315] [cursor=pointer]:
+                - /url: /allen-solly-women-solid-casual-black-shirt/p/itm8d374b4f1735a?pid=SHTGYVTJVWJAPGD5&lid=LSTSHTGYVTJVWJAPGD5VBRAGG&marketplace=FLIPKART&q=Allen+Solly+Shirt&store=clo%2Fash%2Faxc&srno=s_1_40&otracker=search&otracker1=search&fm=organic&iid=56bfdab7-d937-4b56-a500-0fe8f98900f2.SHTGYVTJVWJAPGD5.SEARCH&ppt=hp&ppn=homepage&ssid=5chuayelmo0000001759414614039&qH=3953cb816b7c57d3
+                - generic [ref=e1316] [cursor=pointer]:
+                  - generic [ref=e1317] [cursor=pointer]: ₹959
+                  - generic [ref=e1318] [cursor=pointer]: ₹1,599
+                  - generic [ref=e1320] [cursor=pointer]: 40% off
+        - generic [ref=e1323]:
+          - generic [ref=e1324]: Page 1 of 114
+          - navigation [ref=e1325]:
+            - link "1" [ref=e1326] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=1
+            - link "2" [ref=e1327] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=2
+            - link "3" [ref=e1328] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=3
+            - link "4" [ref=e1329] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=4
+            - link "5" [ref=e1330] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=5
+            - link "6" [ref=e1331] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=6
+            - link "7" [ref=e1332] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=7
+            - link "8" [ref=e1333] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=8
+            - link "9" [ref=e1334] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=9
+            - link "10" [ref=e1335] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=10
+            - link "Next" [ref=e1336] [cursor=pointer]:
+              - /url: /search?q=Allen+Solly+Shirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page=2
+              - generic [ref=e1337] [cursor=pointer]: Next
+        - generic [ref=e1339]:
+          - generic [ref=e1340]: Did you find what you were looking for?
+          - generic [ref=e1341]:
+            - generic [ref=e1342] [cursor=pointer]: "Yes"
+            - generic [ref=e1343] [cursor=pointer]: "No"
+    - generic [ref=e1345]:
+      - generic [ref=e1346]: Reviews for Popular Shirts
+      - generic [ref=e1347]:
+        - generic [ref=e1348]:
+          - generic [ref=e1350]:
+            - img "Allen Solly Men Checkered Casual Multicolor Shirt"
+          - generic [ref=e1351]:
+            - link "1. Allen Solly Men Checkered C... 4.3 141 Ratings&5 Reviews ₹599 70% off" [ref=e1352] [cursor=pointer]:
+              - /url: /allen-solly-men-checkered-casual-multicolor-shirt/p/itm416265a664ee4?pid=SHTHB4E5FNANZFBG&marketplace=FLIPKART
+              - generic [ref=e1354] [cursor=pointer]: 1. Allen Solly Men Checkered C...
+              - generic [ref=e1355] [cursor=pointer]:
+                - generic [ref=e1356] [cursor=pointer]:
+                  - text: "4.3"
+                  - img [ref=e1357] [cursor=pointer]
+                - generic [ref=e1358] [cursor=pointer]:
+                  - generic [ref=e1359] [cursor=pointer]: 141 Ratings
+                  - generic [ref=e1360] [cursor=pointer]:
+                    - generic [ref=e1361] [cursor=pointer]: "&"
+                    - generic [ref=e1362] [cursor=pointer]: 5 Reviews
+              - generic [ref=e1364] [cursor=pointer]:
+                - generic [ref=e1365] [cursor=pointer]: ₹599
+                - generic [ref=e1367] [cursor=pointer]: 70% off
+            - list [ref=e1368]:
+              - listitem [ref=e1369]: Fabric:Cotton Blend
+              - listitem [ref=e1370]: RegularFit, Full Sleeve
+              - listitem [ref=e1371]: Pattern:Checkered
+        - generic [ref=e1372]:
+          - generic [ref=e1373]: Most Helpful Review
+          - generic [ref=e1375]:
+            - generic [ref=e1376]:
+              - generic [ref=e1377]:
+                - text: "4"
+                - img [ref=e1378]
+              - paragraph [ref=e1379]: Very Good
+            - generic [ref=e1383]:
+              - text: Liked this shirt
+              - text: 100% cotton
+              - text: But size issue
+            - generic [ref=e1385]:
+              - paragraph [ref=e1386]: Prince Kumar
+              - img [ref=e1387]
+              - paragraph [ref=e1391]:
+                - generic [ref=e1392]: Certified Buyer
+              - paragraph [ref=e1393]: 5 days ago
+        - generic [ref=e1394]:
+          - generic [ref=e1395]: Recent Review
+          - generic [ref=e1397]:
+            - generic [ref=e1398]:
+              - generic [ref=e1399]:
+                - text: "4"
+                - img [ref=e1400]
+              - paragraph [ref=e1401]: Very Good
+            - generic [ref=e1405]:
+              - text: Liked this shirt
+              - text: 100% cotton
+              - text: But size issue
+            - generic [ref=e1407]:
+              - paragraph [ref=e1408]: Prince Kumar
+              - img [ref=e1409]
+              - paragraph [ref=e1413]:
+                - generic [ref=e1414]: Certified Buyer
+              - paragraph [ref=e1415]: 5 days ago
+      - generic [ref=e1416]:
+        - generic [ref=e1417]:
+          - generic [ref=e1419]:
+            - img "Allen Solly Men Solid Formal Green Shirt"
+          - generic [ref=e1420]:
+            - link "2. Allen Solly Men Solid Forma... 4 62 Ratings&5 Reviews ₹599 60% off" [ref=e1421] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-formal-green-shirt/p/itm1c02676271ea6?pid=SHTHDPXD4PNKWHWW&marketplace=FLIPKART
+              - generic [ref=e1423] [cursor=pointer]: 2. Allen Solly Men Solid Forma...
+              - generic [ref=e1424] [cursor=pointer]:
+                - generic [ref=e1425] [cursor=pointer]:
+                  - text: "4"
+                  - img [ref=e1426] [cursor=pointer]
+                - generic [ref=e1427] [cursor=pointer]:
+                  - generic [ref=e1428] [cursor=pointer]: 62 Ratings
+                  - generic [ref=e1429] [cursor=pointer]:
+                    - generic [ref=e1430] [cursor=pointer]: "&"
+                    - generic [ref=e1431] [cursor=pointer]: 5 Reviews
+              - generic [ref=e1433] [cursor=pointer]:
+                - generic [ref=e1434] [cursor=pointer]: ₹599
+                - generic [ref=e1436] [cursor=pointer]: 60% off
+            - list [ref=e1437]:
+              - listitem [ref=e1438]: Fabric:Polycotton
+              - listitem [ref=e1439]: SlimFit, Full Sleeve
+              - listitem [ref=e1440]: Pattern:Solid
+        - generic [ref=e1441]:
+          - generic [ref=e1442]: Most Helpful Review
+          - generic [ref=e1444]:
+            - generic [ref=e1445]:
+              - generic [ref=e1446]:
+                - text: "3"
+                - img [ref=e1447]
+              - paragraph [ref=e1448]: Does the job
+            - generic [ref=e1452]: Good product but shirt not proper cotton mix cotton
+            - generic [ref=e1454]:
+              - paragraph [ref=e1455]: Ravi Ram
+              - img [ref=e1456]
+              - paragraph [ref=e1460]:
+                - generic [ref=e1461]: Certified Buyer
+              - paragraph [ref=e1462]: 1 day ago
+        - generic [ref=e1463]:
+          - generic [ref=e1464]: Recent Review
+          - generic [ref=e1466]:
+            - generic [ref=e1467]:
+              - generic [ref=e1468]:
+                - text: "3"
+                - img [ref=e1469]
+              - paragraph [ref=e1470]: Does the job
+            - generic [ref=e1474]: Good product but shirt not proper cotton mix cotton
+            - generic [ref=e1476]:
+              - paragraph [ref=e1477]: Ravi Ram
+              - img [ref=e1478]
+              - paragraph [ref=e1482]:
+                - generic [ref=e1483]: Certified Buyer
+              - paragraph [ref=e1484]: 1 day ago
+      - generic [ref=e1485]:
+        - generic [ref=e1486]:
+          - generic [ref=e1488]:
+            - img "Allen Solly Women Solid Casual Black Shirt"
+          - generic [ref=e1489]:
+            - link "3. Allen Solly Women Solid Cas... 4.3 19 Ratings&2 Reviews ₹959 40% off" [ref=e1490] [cursor=pointer]:
+              - /url: /allen-solly-women-solid-casual-black-shirt/p/itm8d374b4f1735a?pid=SHTGYVTJVWJAPGD5&marketplace=FLIPKART
+              - generic [ref=e1492] [cursor=pointer]: 3. Allen Solly Women Solid Cas...
+              - generic [ref=e1493] [cursor=pointer]:
+                - generic [ref=e1494] [cursor=pointer]:
+                  - text: "4.3"
+                  - img [ref=e1495] [cursor=pointer]
+                - generic [ref=e1496] [cursor=pointer]:
+                  - generic [ref=e1497] [cursor=pointer]: 19 Ratings
+                  - generic [ref=e1498] [cursor=pointer]:
+                    - generic [ref=e1499] [cursor=pointer]: "&"
+                    - generic [ref=e1500] [cursor=pointer]: 2 Reviews
+              - generic [ref=e1502] [cursor=pointer]:
+                - generic [ref=e1503] [cursor=pointer]: ₹959
+                - generic [ref=e1505] [cursor=pointer]: 40% off
+            - list [ref=e1506]:
+              - listitem [ref=e1507]: Fabric:Cotton Blend
+              - listitem [ref=e1508]: RegularFit, Full Sleeve
+              - listitem [ref=e1509]: CollarType:Spread
+        - generic [ref=e1510]:
+          - generic [ref=e1511]: Most Helpful Review
+          - generic [ref=e1513]:
+            - generic [ref=e1514]:
+              - generic [ref=e1515]:
+                - text: "5"
+                - img [ref=e1516]
+              - paragraph [ref=e1517]: Classy product
+            - generic [ref=e1521]: Orginal colour,and cotton
+            - generic [ref=e1523]:
+              - paragraph [ref=e1524]: Bhaskar Bittu
+              - img [ref=e1525]
+              - paragraph [ref=e1529]:
+                - generic [ref=e1530]: Certified Buyer
+              - paragraph [ref=e1531]: Apr, 2024
+        - generic [ref=e1532]:
+          - generic [ref=e1533]: Recent Review
+          - generic [ref=e1535]:
+            - generic [ref=e1536]:
+              - generic [ref=e1537]:
+                - text: "5"
+                - img [ref=e1538]
+              - paragraph [ref=e1539]: Classy product
+            - generic [ref=e1543]: Orginal colour,and cotton
+            - generic [ref=e1545]:
+              - paragraph [ref=e1546]: Bhaskar Bittu
+              - img [ref=e1547]
+              - paragraph [ref=e1551]:
+                - generic [ref=e1552]: Certified Buyer
+              - paragraph [ref=e1553]: Apr, 2024
+      - generic [ref=e1554]:
+        - generic [ref=e1555]:
+          - generic [ref=e1557]:
+            - img "Allen Solly Men Solid Casual Brown Shirt"
+          - generic [ref=e1558]:
+            - link "4. Allen Solly Men Solid Casua... 4 82 Ratings&5 Reviews ₹628 63% off" [ref=e1559] [cursor=pointer]:
+              - /url: /allen-solly-men-solid-casual-brown-shirt/p/itm826061a259ea5?pid=SHTHD2KKYBQMD2MD&marketplace=FLIPKART
+              - generic [ref=e1561] [cursor=pointer]: 4. Allen Solly Men Solid Casua...
+              - generic [ref=e1562] [cursor=pointer]:
+                - generic [ref=e1563] [cursor=pointer]:
+                  - text: "4"
+                  - img [ref=e1564] [cursor=pointer]
+                - generic [ref=e1565] [cursor=pointer]:
+                  - generic [ref=e1566] [cursor=pointer]: 82 Ratings
+                  - generic [ref=e1567] [cursor=pointer]:
+                    - generic [ref=e1568] [cursor=pointer]: "&"
+                    - generic [ref=e1569] [cursor=pointer]: 5 Reviews
+              - generic [ref=e1571] [cursor=pointer]:
+                - generic [ref=e1572] [cursor=pointer]: ₹628
+                - generic [ref=e1574] [cursor=pointer]: 63% off
+            - list [ref=e1575]:
+              - listitem [ref=e1576]: Fabric:Cotton Blend
+              - listitem [ref=e1577]: RegularFit, Full Sleeve
+              - listitem [ref=e1578]: Pattern:Solid
+        - generic [ref=e1579]:
+          - generic [ref=e1580]: Most Helpful Review
+          - generic [ref=e1582]:
+            - generic [ref=e1583]:
+              - generic [ref=e1584]:
+                - text: "4"
+                - img [ref=e1585]
+              - paragraph [ref=e1586]: Good quality product
+            - generic [ref=e1590]: My brother liked it very much.
+            - generic [ref=e1592]:
+              - paragraph [ref=e1593]: OP Singh Dagur
+              - img [ref=e1594]
+              - paragraph [ref=e1598]:
+                - generic [ref=e1599]: Certified Buyer
+              - paragraph [ref=e1600]: 2 days ago
+        - generic [ref=e1601]:
+          - generic [ref=e1602]: Recent Review
+          - generic [ref=e1604]:
+            - generic [ref=e1605]:
+              - generic [ref=e1606]:
+                - text: "4"
+                - img [ref=e1607]
+              - paragraph [ref=e1608]: Good quality product
+            - generic [ref=e1612]: My brother liked it very much.
+            - generic [ref=e1614]:
+              - paragraph [ref=e1615]: OP Singh Dagur
+              - img [ref=e1616]
+              - paragraph [ref=e1620]:
+                - generic [ref=e1621]: Certified Buyer
+              - paragraph [ref=e1622]: 2 days ago
+      - generic [ref=e1623]:
+        - generic [ref=e1624]:
+          - generic [ref=e1626]:
+            - img "STONEBERG Men Solid Formal Dark Blue Shirt"
+          - generic [ref=e1627]:
+            - link "5. STONEBERG Men Solid Formal ... 4 1,09,314 Ratings&6,041 Reviews ₹299 81% off" [ref=e1628] [cursor=pointer]:
+              - /url: /stoneberg-men-solid-formal-dark-blue-shirt/p/itm1427db21f25c6?pid=SHTGEUM8KFYRMMGF&marketplace=FLIPKART
+              - generic [ref=e1630] [cursor=pointer]: 5. STONEBERG Men Solid Formal ...
+              - generic [ref=e1631] [cursor=pointer]:
+                - generic [ref=e1632] [cursor=pointer]:
+                  - text: "4"
+                  - img [ref=e1633] [cursor=pointer]
+                - generic [ref=e1634] [cursor=pointer]:
+                  - generic [ref=e1635] [cursor=pointer]: 1,09,314 Ratings
+                  - generic [ref=e1636] [cursor=pointer]:
+                    - generic [ref=e1637] [cursor=pointer]: "&"
+                    - generic [ref=e1638] [cursor=pointer]: 6,041 Reviews
+              - generic [ref=e1640] [cursor=pointer]:
+                - generic [ref=e1641] [cursor=pointer]: ₹299
+                - generic [ref=e1643] [cursor=pointer]: 81% off
+            - list [ref=e1644]:
+              - listitem [ref=e1645]: Fabric:Cotton Blend
+              - listitem [ref=e1646]: SlimFit, Full Sleeve
+              - listitem [ref=e1647]: CollarType:Spread
+        - generic [ref=e1648]:
+          - generic [ref=e1649]: Most Helpful Review
+          - generic [ref=e1651]:
+            - generic [ref=e1652]:
+              - generic [ref=e1653]:
+                - text: "5"
+                - img [ref=e1654]
+              - paragraph [ref=e1655]: Terrific purchase
+            - generic [ref=e1659]: Very nice product. Quality is really good at this price. I loved it 😍
+            - generic [ref=e1661]:
+              - paragraph [ref=e1662]: Karamjit
+              - img [ref=e1663]
+              - paragraph [ref=e1667]:
+                - generic [ref=e1668]: Certified Buyer
+              - paragraph [ref=e1669]: Aug, 2022
+        - generic [ref=e1670]:
+          - generic [ref=e1671]: Recent Review
+          - generic [ref=e1673]:
+            - generic [ref=e1674]:
+              - generic [ref=e1675]:
+                - text: "4"
+                - img [ref=e1676]
+              - paragraph [ref=e1677]: Pretty good
+            - generic [ref=e1681]: Very nice stitching and cloth material
+            - generic [ref=e1683]:
+              - paragraph [ref=e1684]: Thendralarasi Mathivanan
+              - img [ref=e1685]
+              - paragraph [ref=e1689]:
+                - generic [ref=e1690]: Certified Buyer
+              - paragraph [ref=e1691]: 1 day ago
+  - contentinfo [ref=e1692]:
+    - generic [ref=e1694]:
+      - generic [ref=e1695]:
+        - generic [ref=e1696]:
+          - generic [ref=e1697]: ABOUT
+          - link "Contact Us" [ref=e1698] [cursor=pointer]:
+            - /url: /helpcentre?otracker=footer_navlinks
+          - link "About Us" [ref=e1699] [cursor=pointer]:
+            - /url: https://corporate.flipkart.net/corporate-home
+          - link "Careers" [ref=e1700] [cursor=pointer]:
+            - /url: https://www.flipkartcareers.com/?otracker=footer_navlinks
+          - link "Flipkart Stories" [ref=e1701] [cursor=pointer]:
+            - /url: http://stories.flipkart.com/?otracker=footer_navlinks
+          - link "Press" [ref=e1702] [cursor=pointer]:
+            - /url: http://stories.flipkart.com/category/top-stories/news/
+          - link "Corporate Information" [ref=e1703] [cursor=pointer]:
+            - /url: /corporate-information
+        - generic [ref=e1704]:
+          - generic [ref=e1705]: GROUP COMPANIES
+          - link "Myntra" [ref=e1706] [cursor=pointer]:
+            - /url: https://www.myntra.com/
+          - link "Cleartrip" [ref=e1707] [cursor=pointer]:
+            - /url: https://www.cleartrip.com/
+          - link "Shopsy" [ref=e1708] [cursor=pointer]:
+            - /url: https://www.shopsy.in/
+        - generic [ref=e1709]:
+          - generic [ref=e1710]: HELP
+          - link "Payments" [ref=e1711] [cursor=pointer]:
+            - /url: /pages/payments
+          - link "Shipping" [ref=e1712] [cursor=pointer]:
+            - /url: /pages/shipping
+          - link "Cancellation & Returns" [ref=e1713] [cursor=pointer]:
+            - /url: /helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG
+          - link "FAQ" [ref=e1714] [cursor=pointer]:
+            - /url: /helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG
+        - generic [ref=e1715]:
+          - generic [ref=e1716]: CONSUMER POLICY
+          - link "Cancellation & Returns" [ref=e1717] [cursor=pointer]:
+            - /url: /pages/returnpolicy?otracker=footer_navlinks
+          - link "Terms Of Use" [ref=e1718] [cursor=pointer]:
+            - /url: /pages/terms?otracker=footer_navlinks
+          - link "Security" [ref=e1719] [cursor=pointer]:
+            - /url: /pages/paymentsecurity?otracker=footer_navlinks
+          - link "Privacy" [ref=e1720] [cursor=pointer]:
+            - /url: /pages/privacypolicy?otracker=footer_navlinks
+          - link "Sitemap" [ref=e1721] [cursor=pointer]:
+            - /url: /sitemap?otracker=footer_navlinks
+          - link "Grievance Redressal" [ref=e1722] [cursor=pointer]:
+            - /url: /pages/grievance-redressal-mechanism?otracker=footer_navlinks
+          - link "EPR Compliance" [ref=e1723] [cursor=pointer]:
+            - /url: /pages/ewaste-compliance-tnc?otracker=footer_navlinks
+        - generic [ref=e1725]:
+          - generic [ref=e1727]: "Mail Us:"
+          - generic [ref=e1730]:
+            - paragraph [ref=e1731]: Flipkart Internet Private Limited,
+            - paragraph [ref=e1732]: Buildings Alyssa, Begonia &
+            - paragraph [ref=e1733]: Clove Embassy Tech Village,
+            - paragraph [ref=e1734]: Outer Ring Road, Devarabeesanahalli Village,
+            - paragraph [ref=e1735]: Bengaluru, 560103,
+            - paragraph [ref=e1736]: Karnataka, India
+          - generic [ref=e1737]: Social
+          - generic [ref=e1738]:
+            - link [ref=e1740] [cursor=pointer]:
+              - /url: https://www.facebook.com/flipkart
+              - img [ref=e1741] [cursor=pointer]
+            - link [ref=e1743] [cursor=pointer]:
+              - /url: https://www.twitter.com/flipkart
+              - img [ref=e1744] [cursor=pointer]
+            - link [ref=e1746] [cursor=pointer]:
+              - /url: https://www.youtube.com/flipkart
+              - img [ref=e1747] [cursor=pointer]
+            - link [ref=e1749] [cursor=pointer]:
+              - /url: https://www.instagram.com/flipkart
+              - img [ref=e1750] [cursor=pointer]
+        - generic [ref=e1752]:
+          - generic [ref=e1754]: "Registered Office Address:"
+          - generic [ref=e1757]:
+            - paragraph [ref=e1758]: Flipkart Internet Private Limited,
+            - paragraph [ref=e1759]: Buildings Alyssa, Begonia &
+            - paragraph [ref=e1760]: Clove Embassy Tech Village,
+            - paragraph [ref=e1761]: Outer Ring Road, Devarabeesanahalli Village,
+            - paragraph [ref=e1762]: Bengaluru, 560103,
+            - paragraph [ref=e1763]: Karnataka, India
+            - paragraph [ref=e1764]: "CIN : U51109KA2012PTC066107"
+            - paragraph [ref=e1765]:
+              - text: "Telephone:"
+              - link "044-45614700" [ref=e1766] [cursor=pointer]:
+                - /url: tel:044-45614700
+              - text: /
+              - link "044-67415800" [ref=e1767] [cursor=pointer]:
+                - /url: tel:044-67415800
+      - generic [ref=e1769]:
+        - generic [ref=e1770]:
+          - img [ref=e1771]
+          - link "Become a Seller" [ref=e1772] [cursor=pointer]:
+            - /url: https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect
+            - generic [ref=e1773] [cursor=pointer]: Become a Seller
+        - generic [ref=e1774]:
+          - img [ref=e1775]
+          - link "Advertise" [ref=e1776] [cursor=pointer]:
+            - /url: https://brands.flipkart.com
+            - generic [ref=e1777] [cursor=pointer]: Advertise
+        - generic [ref=e1778]:
+          - img [ref=e1779]
+          - link "Gift Cards" [ref=e1780] [cursor=pointer]:
+            - /url: /the-gift-card-store?otracker=footer_navlinks
+            - generic [ref=e1781] [cursor=pointer]: Gift Cards
+        - generic [ref=e1782]:
+          - img [ref=e1783]
+          - link "Help Center" [ref=e1784] [cursor=pointer]:
+            - /url: /helpcentre?otracker=footer_navlinks
+            - generic [ref=e1785] [cursor=pointer]: Help Center
+        - generic [ref=e1786]:
+          - text: © 2007-2025
+          - generic [ref=e1787]: Flipkart.com
+        - img [ref=e1788]
+```

@@ -1,0 +1,28 @@
+Total Number of Results: 24
+Cards Count24
+Map(24) {
+  'Apple iPhone 15 (Pink, 128 GB)' => '₹59,999',
+  'Apple iPhone 15 (Green, 128 GB)' => '₹59,999',
+  'Apple iPhone 15 (Black, 128 GB)' => '₹59,999',
+  'Apple iPhone 15 (Green, 256 GB)' => '₹69,999',
+  'Apple iPhone 15 (Blue, 256 GB)' => '₹69,999',
+  'Apple iPhone 15 (Black, 256 GB)' => '₹69,999',
+  'Apple iPhone 15 (Pink, 256 GB)' => '₹69,999',
+  'Apple iPhone 15 (Blue, 128 GB)' => '₹59,999',
+  'Apple iPhone 15 (Yellow, 128 GB)' => '₹59,999',
+  'Apple iPhone 15 (Yellow, 256 GB)' => '₹69,999',
+  'Apple iPhone 15 (Yellow, 512 GB)' => '₹89,999',
+  'Apple iPhone 15 (Green, 512 GB)' => '₹89,999',
+  'Apple iPhone 15 (Pink, 512 GB)' => '₹89,999',
+  'Apple iPhone 15 (Black, 512 GB)' => '₹89,999',
+  'Apple iPhone 15 (Blue, 512 GB)' => '₹89,999',
+  'Apple iPhone 15 Plus (Pink, 128 GB)' => '₹69,999',
+  'Apple iPhone 15 Plus (Black, 128 GB)' => '₹69,999',
+  'Apple iPhone 15 Plus (Green, 128 GB)' => '₹69,999',
+  'Apple iPhone 15 Plus (Green, 512 GB)' => '₹99,999',
+  'Apple iPhone 15 Plus (Blue, 128 GB)' => '₹69,999',
+  'Apple iPhone 15 Plus (Green, 256 GB)' => '₹79,999',
+  'Apple iPhone 15 Pro (White Titanium, 128 GB)' => '₹90,999\n₹1,34,90032% off',
+  'Apple iPhone 15 Plus (Blue, 512 GB)' => '₹99,999',
+  'Apple iPhone 15 Pro (Natural Titanium, 128 GB)' => '₹90,999\n₹1,34,90032% off'
+}

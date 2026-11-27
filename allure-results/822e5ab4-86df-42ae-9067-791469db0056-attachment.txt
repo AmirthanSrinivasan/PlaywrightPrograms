@@ -1,0 +1,7 @@
+[
+  'Hotel Presa di Goa',
+  'Centaur Hotel IGI Airport',
+  'Bali Dynasty Resort',
+  'Crowne Plaza New Delhi Mayur Vihar Noida by IHG',
+  'Aamby Valley City'
+]

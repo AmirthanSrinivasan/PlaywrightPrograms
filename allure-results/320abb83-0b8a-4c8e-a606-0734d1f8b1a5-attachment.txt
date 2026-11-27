@@ -1,0 +1,4 @@
+Get Element: Ball
+Iterate and Print :Apple
+Iterate and Print :Ball
+Iterate and Print :Cat

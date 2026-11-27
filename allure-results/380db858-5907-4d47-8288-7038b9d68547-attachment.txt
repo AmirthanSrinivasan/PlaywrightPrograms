@@ -1,0 +1,22 @@
+ProductName: IPHONE 13 PRO
+Product Price : $ 55000
+IPHONE 13 PRO
+MRP $ 55000
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 18563,
+  [Symbol(trigger_async_id_symbol)]: 18348,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 18581,
+  [Symbol(trigger_async_id_symbol)]: 18348,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 18599,
+  [Symbol(trigger_async_id_symbol)]: 18348,
+  [Symbol(kResourceStore)]: undefined
+}

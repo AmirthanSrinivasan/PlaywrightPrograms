@@ -1,0 +1,1 @@
+locator('div[role=\'listitem\']').filter({ has: locator('span').filter({ hasText: /iPhone 15.*256.*Blue/i }) })

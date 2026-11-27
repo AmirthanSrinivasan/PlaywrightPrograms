@@ -1,0 +1,48 @@
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8705,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8721,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8737,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8753,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8769,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8785,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8801,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 8817,
+  [Symbol(trigger_async_id_symbol)]: 7648,
+  [Symbol(kResourceStore)]: undefined
+}

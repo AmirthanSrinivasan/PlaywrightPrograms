@@ -1,0 +1,10 @@
+Hotels under Hot hotel deals right now: [
+  'Hyatt Centric MG Road Bangalore',
+  'Free cancellation',
+  'Adaaran Select Meedhupparu',
+  'The First Collection Dubai Marina',
+  'Centaur Hotel IGI Airport',
+  'Free cancellation',
+  'Parakkat Nature Resort',
+  'Free cancellation'
+]

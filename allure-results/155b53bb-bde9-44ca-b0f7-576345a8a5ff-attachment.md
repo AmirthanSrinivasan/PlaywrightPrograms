@@ -1,0 +1,399 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation "Global" [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Apple" [ref=e7] [cursor=pointer]:
+          - /url: https://www.apple.com
+          - generic:
+            - img
+          - generic: Apple
+      - listitem [ref=e8]:
+        - generic [ref=e10]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Store" [ref=e14] [cursor=pointer]:
+                - /url: https://www.apple.com/us/store
+                - generic [ref=e15] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Store
+            - listitem:
+              - button "Store menu":
+                - generic:
+                  - img
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "Mac" [ref=e19] [cursor=pointer]:
+                - /url: https://www.apple.com/mac/
+                - generic [ref=e20] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Mac
+            - listitem:
+              - button "Mac menu":
+                - generic:
+                  - img
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "iPad" [ref=e24] [cursor=pointer]:
+                - /url: https://www.apple.com/ipad/
+                - generic [ref=e25] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: iPad
+            - listitem:
+              - button "iPad menu":
+                - generic:
+                  - img
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - link "iPhone" [ref=e29] [cursor=pointer]:
+                - /url: https://www.apple.com/iphone/
+                - generic [ref=e30] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: iPhone
+            - listitem:
+              - button "iPhone menu":
+                - generic:
+                  - img
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Watch" [ref=e34] [cursor=pointer]:
+                - /url: https://www.apple.com/watch/
+                - generic [ref=e35] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Watch
+            - listitem:
+              - button "Watch menu":
+                - generic:
+                  - img
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Vision" [ref=e39] [cursor=pointer]:
+                - /url: https://www.apple.com/apple-vision-pro/
+                - generic [ref=e40] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Vision
+            - listitem:
+              - button "Vision menu":
+                - generic:
+                  - img
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "AirPods" [ref=e44] [cursor=pointer]:
+                - /url: https://www.apple.com/airpods/
+                - generic [ref=e45] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: AirPods
+            - listitem:
+              - button "AirPods menu":
+                - generic:
+                  - img
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "TV and Home" [ref=e49] [cursor=pointer]:
+                - /url: https://www.apple.com/tv-home/
+                - generic [ref=e50] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: TV & Home
+            - listitem:
+              - button "TV and Home menu":
+                - generic:
+                  - img
+          - list [ref=e52]:
+            - listitem [ref=e53]:
+              - link "Entertainment" [ref=e54] [cursor=pointer]:
+                - /url: https://www.apple.com/entertainment/
+                - generic [ref=e55] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Entertainment
+            - listitem:
+              - button "Entertainment menu":
+                - generic:
+                  - img
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - link "Accessories" [ref=e59] [cursor=pointer]:
+                - /url: https://www.apple.com/us/shop/goto/buy_accessories
+                - generic [ref=e60] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Accessories
+            - listitem:
+              - button "Accessories menu":
+                - generic:
+                  - img
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Support" [ref=e64] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e65] [cursor=pointer]:
+                  - generic:
+                    - img
+                  - generic: Support
+            - listitem:
+              - button "Support menu":
+                - generic:
+                  - img
+      - listitem [ref=e66]:
+        - button "Search Support" [ref=e67] [cursor=pointer]:
+          - generic:
+            - img
+      - listitem [ref=e68]:
+        - button "Shopping Bag" [ref=e70] [cursor=pointer]:
+          - generic:
+            - img
+  - main [ref=e72]:
+    - img "Official Apple Support" [ref=e77]
+    - generic [ref=e80]:
+      - heading "Apple Support" [level=1] [ref=e81]
+      - paragraph [ref=e82]: Need help? Start here.
+    - generic [ref=e83]:
+      - link "iPhone Support" [ref=e85] [cursor=pointer]:
+        - /url: /iphone
+        - generic "iPhone Support" [ref=e87] [cursor=pointer]: iPhone
+      - link "Mac Support" [ref=e89] [cursor=pointer]:
+        - /url: /mac
+        - generic "Mac Support" [ref=e91] [cursor=pointer]: Mac
+      - link "iPad Support" [ref=e93] [cursor=pointer]:
+        - /url: /ipad
+        - generic "iPad Support" [ref=e95] [cursor=pointer]: iPad
+      - link "Apple Watch Support" [ref=e97] [cursor=pointer]:
+        - /url: /watch
+        - generic "Apple Watch Support" [ref=e99] [cursor=pointer]: Watch
+      - link "Vision Support" [ref=e101] [cursor=pointer]:
+        - /url: /apple-vision-pro
+        - generic "Vision Support" [ref=e103] [cursor=pointer]: Vision
+      - link "AirPods Support" [ref=e105] [cursor=pointer]:
+        - /url: /airpods
+        - generic "AirPods Support" [ref=e107] [cursor=pointer]: AirPods
+    - generic [ref=e108]:
+      - link "Reset your Apple Account password at iforgot.apple.com" [ref=e110] [cursor=pointer]:
+        - /url: https://iforgot.apple.com/
+        - paragraph [ref=e112] [cursor=pointer]: Reset Apple Account password
+      - link "To change a subscription, sign in at the Apple Account site" [ref=e114] [cursor=pointer]:
+        - /url: https://account.apple.com/account/manage/section/subscriptions
+        - paragraph [ref=e116] [cursor=pointer]: Change a subscription
+      - link "Billing and payments" [ref=e118] [cursor=pointer]:
+        - /url: /billing
+        - paragraph [ref=e120] [cursor=pointer]: Billing and payments
+    - generic [ref=e121]:
+      - heading "Search for More Topics" [level=2] [ref=e125]
+      - generic [ref=e130]:
+        - generic [ref=e131]: Search Support
+        - textbox "Search Support" [ref=e132]
+        - generic: Search Support
+        - button "Submit" [disabled] [ref=e133]
+    - generic [ref=e136]:
+      - generic [ref=e140]:
+        - heading "Handled with AppleCare" [level=2] [ref=e141]
+        - paragraph [ref=e143]: Every AppleCare plan provides one-stop service for your Apple products, with quick and easy repairs for accidents like drops and spills. You’re also covered if your iPhone, iPad, or Apple Watch is lost or stolen.
+        - link "Learn more and get AppleCare coverage at apple.com" [ref=e144] [cursor=pointer]:
+          - /url: https://www.apple.com/applecare/?cid=aaa-ols-home-acpp-psp-0922
+          - generic "Learn more and get AppleCare coverage at apple.com" [ref=e145] [cursor=pointer]: Learn more
+          - generic [ref=e146] [cursor=pointer]: 
+      - generic [ref=e151]:
+        - heading "Apple Repair and Service" [level=2] [ref=e152]
+        - paragraph [ref=e154]: We can help you find an Apple-certified repair, performed by trusted experts who use genuine Apple parts.
+        - link "Start a repair at the Apple Repair site" [ref=e155] [cursor=pointer]:
+          - /url: /repair
+          - generic "Start a repair at the Apple Repair site" [ref=e156] [cursor=pointer]: Start a repair
+          - generic [ref=e157] [cursor=pointer]: 
+      - heading "More to Explore" [level=2] [ref=e162]
+      - generic [ref=e164]:
+        - generic [ref=e167]:
+          - heading "Apple Support on YouTube" [level=3] [ref=e168]
+          - paragraph [ref=e170]: Watch videos to get the most out of the latest features, devices, and services.
+          - link "Watch Apple Support videos on YouTube" [ref=e171] [cursor=pointer]:
+            - /url: https://www.youtube.com/applesupport
+            - generic "Watch Apple Support videos on YouTube" [ref=e172] [cursor=pointer]: Visit Apple Support on YouTube
+            - generic [ref=e173] [cursor=pointer]: 
+        - generic [ref=e176]:
+          - heading "Today at Apple" [level=3] [ref=e177]
+          - paragraph [ref=e179]: Learn, create, and be inspired in hands-on sessions at your Apple Store.
+          - link "Sign up for a free session near you" [ref=e180] [cursor=pointer]:
+            - /url: https://www.apple.com/today/
+            - generic "Sign up for a free session near you" [ref=e181] [cursor=pointer]: Sign up
+            - generic [ref=e182] [cursor=pointer]: 
+      - generic [ref=e186]:
+        - heading "Designing for longevity" [level=2] [ref=e187]
+        - generic [ref=e188]:
+          - paragraph [ref=e189]: At Apple, we are always working to create the best experience for our customers, which is why we design products that last. Designing for longevity is a company-wide effort, informing our earliest decisions long before the first prototype is built and guided by historical customer-use data and predictions on future usage. It requires striking a balance between durability and repairability while not compromising on safety, security, and privacy.
+          - paragraph [ref=e190]:
+            - text: Learn more about Apple's approach to designing for longevity, which includes access to safe and reliable repairs.
+            - link "View (PDF)" [ref=e191] [cursor=pointer]:
+              - /url: /content/dam/edam/applecare/images/en_US/otherassets/programs/Longevity_by_Design.pdf
+      - generic [ref=e192]:
+        - generic [ref=e195]:
+          - heading "Beware of counterfeit parts" [level=2] [ref=e196]
+          - generic [ref=e197]:
+            - paragraph [ref=e198]:
+              - text: Some counterfeit and third party power adapters and batteries may not be designed properly and could result in safety issues. To ensure you receive a genuine Apple battery during a battery replacement, we recommend visiting an
+              - link "Apple Store" [ref=e199] [cursor=pointer]:
+                - /url: https://www.apple.com/retail/
+              - text: or
+              - link "Apple Authorized Service Provider" [ref=e200] [cursor=pointer]:
+                - /url: https://locate.apple.com/
+              - text: . If you need a replacement adapter to charge your Apple device, we recommend getting an Apple power adapter.
+            - paragraph [ref=e201]: Also non-genuine replacement displays may have compromised visual quality and may fail to work correctly. Apple-certified screen repairs are performed by trusted experts who use genuine Apple parts.
+        - generic [ref=e204]:
+          - heading "Be aware of gift card scams" [level=2] [ref=e205]
+          - paragraph [ref=e207]: Be aware of scams involving Apple Gift Cards, App Store & iTunes Gift Cards, and Apple Store Gift Cards.
+          - link "Learn more about gift card scams" [ref=e208] [cursor=pointer]:
+            - /url: /en-us/120933
+            - generic "Learn more about gift card scams" [ref=e209] [cursor=pointer]: Learn more
+            - generic [ref=e210] [cursor=pointer]: 
+    - generic [ref=e216]:
+      - heading "Apple Service Programs" [level=2] [ref=e217]
+      - list [ref=e218]:
+        - listitem [ref=e219]:
+          - link "Mac&nbsp;mini Service Program for No Power Issue" [ref=e220] [cursor=pointer]:
+            - /url: /mac-mini-2023-service-program-for-no-power-issue
+            - generic "Mac&nbsp;mini Service Program for No Power Issue" [ref=e221] [cursor=pointer]: Mac mini Service Program for No Power Issue
+        - listitem [ref=e222]:
+          - link "iPhone&nbsp;14&nbsp;Plus Service Program for Rear Camera Issue" [ref=e223] [cursor=pointer]:
+            - /url: /iphone-14-plus-service-program-for-rear-camera-issue
+            - generic "iPhone&nbsp;14&nbsp;Plus Service Program for Rear Camera Issue" [ref=e224] [cursor=pointer]: iPhone 14 Plus Service Program for Rear Camera Issue
+        - listitem [ref=e225]:
+          - link "15-inch MacBook Pro Battery Recall Program" [ref=e226] [cursor=pointer]:
+            - /url: /15-inch-macbook-pro-battery-recall
+        - listitem [ref=e228]:
+          - link "See all programs" [ref=e229] [cursor=pointer]:
+            - /url: /service-programs
+            - generic [ref=e231] [cursor=pointer]: 
+  - contentinfo "Apple Footer" [ref=e232]:
+    - generic [ref=e233]:
+      - heading "Apple Footer" [level=2] [ref=e234]
+      - navigation "Breadcrumbs" [ref=e235]:
+        - link "Apple" [ref=e236] [cursor=pointer]:
+          - /url: https://www.apple.com
+          - generic [ref=e238] [cursor=pointer]: Apple
+        - generic [ref=e239]:
+          - list:
+            - listitem [ref=e240]:
+              - generic [ref=e241]: Support
+      - navigation "Apple Directory" [ref=e242]:
+        - generic [ref=e243]:
+          - generic:
+            - generic:
+              - heading "Product Support" [level=3]
+            - list:
+              - listitem [ref=e244]:
+                - link "iPhone Support" [ref=e245] [cursor=pointer]:
+                  - /url: /iphone
+                  - text: iPhone
+                  - generic [ref=e246] [cursor=pointer]: Support
+              - listitem [ref=e247]:
+                - link "Mac Support" [ref=e248] [cursor=pointer]:
+                  - /url: /mac
+                  - text: Mac
+                  - generic [ref=e249] [cursor=pointer]: Support
+              - listitem [ref=e250]:
+                - link "iPad Support" [ref=e251] [cursor=pointer]:
+                  - /url: /ipad
+                  - text: iPad
+                  - generic [ref=e252] [cursor=pointer]: Support
+              - listitem [ref=e253]:
+                - link "Watch Support" [ref=e254] [cursor=pointer]:
+                  - /url: /watch
+                  - text: Watch
+                  - generic [ref=e255] [cursor=pointer]: Support
+              - listitem [ref=e256]:
+                - link "Apple Vision Pro Support" [ref=e257] [cursor=pointer]:
+                  - /url: /apple-vision-pro
+                  - text: Apple Vision Pro
+                  - generic [ref=e258] [cursor=pointer]: Support
+              - listitem [ref=e259]:
+                - link "AirPods Support" [ref=e260] [cursor=pointer]:
+                  - /url: /airpods
+                  - text: AirPods
+                  - generic [ref=e261] [cursor=pointer]: Support
+              - listitem [ref=e262]:
+                - link "TV Support" [ref=e263] [cursor=pointer]:
+                  - /url: /tv
+                  - text: TV
+                  - generic [ref=e264] [cursor=pointer]: Support
+              - listitem [ref=e265]:
+                - link "Support Site Map" [ref=e266] [cursor=pointer]:
+                  - /url: /sitemap
+        - generic [ref=e267]:
+          - generic:
+            - generic:
+              - heading "Service and Repair" [level=3]
+            - list:
+              - listitem [ref=e268]:
+                - link "Apple Repair Options" [ref=e269] [cursor=pointer]:
+                  - /url: /repair
+              - listitem [ref=e270]:
+                - link "Service and Repair Information" [ref=e271] [cursor=pointer]:
+                  - /url: /repair-products
+              - listitem [ref=e272]:
+                - link "AppleCare Products" [ref=e273] [cursor=pointer]:
+                  - /url: http://www.apple.com/support/products/
+              - listitem [ref=e274]:
+                - link "Hardware Warranties" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.apple.com/legal/warranty/
+              - listitem [ref=e276]:
+                - link "Software License Agreements" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.apple.com/legal/sla/
+              - listitem [ref=e278]:
+                - link "Complimentary Support" [ref=e279] [cursor=pointer]:
+                  - /url: /complimentary
+        - generic [ref=e280]:
+          - generic:
+            - generic:
+              - heading "Resources" [level=3]
+            - list:
+              - listitem [ref=e281]:
+                - link "My Support" [ref=e282] [cursor=pointer]:
+                  - /url: /en-us/my-support
+              - listitem [ref=e283]:
+                - link "Product Documentation" [ref=e284] [cursor=pointer]:
+                  - /url: /en-us/docs
+              - listitem [ref=e285]:
+                - link "Apple Support Videos" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.youtube.com/applesupport
+              - listitem [ref=e287]:
+                - link "Accessibility" [ref=e288] [cursor=pointer]:
+                  - /url: /accessibility
+        - generic [ref=e289]:
+          - generic:
+            - generic:
+              - heading "Connect" [level=3]
+            - list:
+              - listitem [ref=e290]:
+                - link "Contact Us" [ref=e291] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=e292]:
+                - link "Support app" [ref=e293] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/apple-support/id1130498044?pt=2003&ct=support.footer&mt=8&l=en
+              - listitem [ref=e294]:
+                - link "Apple Communities" [ref=e295] [cursor=pointer]:
+                  - /url: https://discussions.apple.com
+      - generic [ref=e296]:
+        - link "United States. Choose your country or region" [ref=e299] [cursor=pointer]:
+          - /url: /choose-country-region
+          - text: United States
+        - generic [ref=e300]:
+          - generic [ref=e301]: Copyright © 2026 Apple Inc. All rights reserved.
+          - generic [ref=e302]:
+            - link "Privacy Policy" [ref=e303] [cursor=pointer]:
+              - /url: https://www.apple.com/legal/privacy/
+            - link "Terms of Use" [ref=e304] [cursor=pointer]:
+              - /url: https://www.apple.com/legal/internet-services/terms/site.html
+            - link "Sales and Refunds" [ref=e305] [cursor=pointer]:
+              - /url: https://www.apple.com/shop/goto/help/sales_refunds
+            - link "Legal" [ref=e306] [cursor=pointer]:
+              - /url: https://www.apple.com/legal/
+            - link "Site Map" [ref=e307] [cursor=pointer]:
+              - /url: https://www.apple.com/sitemap/
+```
