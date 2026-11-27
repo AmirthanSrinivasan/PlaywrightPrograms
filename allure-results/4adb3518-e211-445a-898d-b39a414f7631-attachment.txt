@@ -1,7 +1,0 @@
-3
-Frame name: 
-Frame URL: https://www.tutorialspoint.com/selenium/practice/frames.php
-Frame name: 
-Frame URL: https://www.tutorialspoint.com/selenium/practice/new-tab-sample.php
-Frame name: 
-Frame URL: https://www.tutorialspoint.com/selenium/practice/new-tab-sample.php

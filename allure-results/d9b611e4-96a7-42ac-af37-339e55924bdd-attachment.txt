@@ -1,4 +1,0 @@
-Get ElementBall
-Iterate and PrintApple
-Iterate and PrintBall
-Iterate and PrintCat

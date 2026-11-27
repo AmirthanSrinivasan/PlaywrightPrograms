@@ -1,6 +1,0 @@
-[AsyncFunction: allInnerTexts]
-[AsyncFunction: allInnerTexts]
-[AsyncFunction: allInnerTexts]
-[AsyncFunction: allInnerTexts]
-[AsyncFunction: allInnerTexts]
-The count is: 5

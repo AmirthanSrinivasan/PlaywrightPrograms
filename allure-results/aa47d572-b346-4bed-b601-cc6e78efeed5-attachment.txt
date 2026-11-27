@@ -1,1 +1,0 @@
-Set(3) { 'Hi', 'Hello', 'How' }

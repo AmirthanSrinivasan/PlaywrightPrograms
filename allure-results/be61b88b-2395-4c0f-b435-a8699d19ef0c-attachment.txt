@@ -1,2 +1,0 @@
-IPHONE 13 PRO
-locator('.card-body').locator('b:has-text(\'iphone 13 pro\')')
