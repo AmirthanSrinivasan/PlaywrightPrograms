@@ -1,0 +1,56 @@
+## Causes of Playwright Test Instability and Their Solutions
+
+### 1. Tests Running Faster Than Application State Updates
+
+- **Problem:** Playwright executes test steps faster than the application updates its state, causing test failures.
+- **Example:** In a Pet Clinic app, editing a pet type from "cat" to "rabbit" fails because although Playwright fills "rabbit" and clicks update, the field still shows "cat."
+- **Root Cause:** Playwright fills the input immediately without waiting for an asynchronous API call that still returns the old value ("cat"). The API response overrides the input value after Playwright has filled it.
+- **Solution Options:**
+  - **Locator Assertion:** Before filling the input, use `await expect(locator).toHaveValue('cat')` to wait until the field has the current expected value, synchronizing Playwright with the app state.
+  - **Wait for API Response:** Instead of waiting on the UI, wait for the relevant API call to complete using `await page.waitForResponse()` targeting the API URL to ensure the backend state update is done.
+- **Result:** Both methods ensure Playwright only inputs new data after the app is ready, preventing race conditions.
+
+---
+
+### 2. Random API Delays Causing Test Timeouts
+
+- **Symptom:** Tests fail intermittently at different steps with timeout errors.
+- **Cause:** Some API endpoints become slow or delayed during test execution, causing longer wait times than the configured test timeout.
+- **Diagnosis:** Use Playwright Test Runner’s network tab to filter API calls by duration and identify slow or inconsistent endpoints.
+- **Mitigation:**
+  - **Increase Timeout:** Use `test.slow()` to triple the default timeout, allowing longer executions.
+  - **Mock Slow APIs:** For APIs that consistently delay (e.g., large JSON files loaded into browser storage), mock their responses locally to speed up tests.
+- **Best Practice:** After stabilizing with longer timeouts, optimize by mocking or improving slow endpoints to reduce test duration.
+
+---
+
+### 3. Unstable Locators (Selectors)
+
+- **Issue:** Using XPath, absolute paths, or overly complex CSS selectors leads to flaky tests.
+- **Reason:** Long or fragile selectors break easily with UI changes and cause test instability.
+- **Recommendation:** 
+  - Prefer user-visible locators like `getByRole()`, `getByTitle()`, or other semantic selectors.
+  - Use short, stable selectors that reflect user interaction rather than DOM structure.
+- **Impact:** Short and meaningful locators significantly improve test reliability.
+
+---
+
+## Summary Table
+
+| Cause                           | Explanation                                                                                         | Solution                                                                                  |
+|--------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Test executes faster than app   | Playwright inputs data before app finishes async API update, causing old values to persist         | Use locator assertions or wait for API response before filling input                      |
+| Random API delays               | Unpredictable slow API responses cause intermittent timeouts and test failures                     | Increase timeout with `test.slow()`, identify slow APIs, and mock or optimize them         |
+| Fragile locators (XPath, etc.) | Long, complex selectors easily break with UI changes, causing test flakiness                       | Use short, user-centric locators like `getByRole()` for stable and maintainable selectors |
+
+
+
+
+
+
+
+“Sometimes tests fail because Playwright acts before the page has finished loading its data. So I don’t use fixed sleeps. I wait for a clear signal that the app is ready, like checking that a field has its expected value, or waiting for the API response to complete. Then I do the action.”
+
+Even simpler, one line
+
+“I make the test wait for the app to be ready, instead of guessing how long to wait.”

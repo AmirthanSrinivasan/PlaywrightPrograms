@@ -1,33 +1,17 @@
-const{test, expect} = require('@playwright/test')
+const{test, expect, chromium} = require('@playwright/test')
 
-test('New', async({page})=>{
+test('newTest', async()=>{
 
-    const date = 24
-    const month = "December"
-    const year = 2027
-
-    await page.goto("https://testautomationpractice.blogspot.com/")
-    await page.locator("//*[@id='datepicker']").click()
-
-    while(true){
-        const currentMonth = await page.locator(".ui-datepicker-month").textContent()
-        const currentYear = await page.locator(".ui-datepicker-year").textContent()
-
-        if(currentMonth==month && currentYear==year){
-            break;
-        }
-        await page.locator(".ui-icon-circle-triangle-e").click()
-    }
+const browser = await chromium.launch()
+const context = await browser.newContext()
+const page1 = await context.newPage()
 
 
-const allDates = await page.$$(".ui-state-default")
+await page1.goto('asjbdkjas')
+const pagePromise = context.waitForEvent('page')
+await page1.locator('sfdksnlsk').click()
 
-for(let dt of allDates){
-    if(await dt.textContent()==date){
-await dt.click()
-    }
-    
-}
+const page2 = await pagePromise
+console.log(await page2.title())
 
-await page.pause()
 })

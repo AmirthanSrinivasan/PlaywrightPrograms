@@ -1,0 +1,15 @@
+
+
+let input = "Hi4 hello3 h2w a43 y78787ou"
+let inputArray = input.split('')
+let sentence = ""
+
+for(let each of inputArray){
+    if(each >= '0' && each <= '9'){
+        sentence = sentence + "*"
+    }
+    else{
+        sentence = sentence + each
+    }
+}
+console.log(sentence)

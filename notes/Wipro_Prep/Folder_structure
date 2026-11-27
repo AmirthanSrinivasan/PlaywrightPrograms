@@ -1,0 +1,23 @@
+proj_folder
+-tests
+	-application
+		-features or scenarios
+-pages
+-fixtures
+-utils
+-test-data
+-allure-results
+-allure-report
+-test-results
+-package.json
+-playwright.config.js
+
+
+tests/ holds the spec files, grouped by feature or module (for example, search, workflow, notifications).
+pages/ holds the page objects. Each page or component has its own class with locators and reusable actions, so the tests stay clean and a UI change only needs a fix in one place.
+fixtures/ holds custom Playwright fixtures for shared setup, such as login or authenticated sessions and page object initialization.
+utils/ or helpers/ holds common functions like API helpers, data generators and wait handlers.
+test-data/ holds JSON or env-specific data, kept separate from the test logic.
+playwright.config.ts holds the global config: base URL, browsers or projects, retries, timeouts, reporters and parallel workers.
+reports/ or test-results/ holds the HTML reports, screenshots, videos and traces generated on failures.
+package.json and .env hold the dependencies, scripts and environment variables.”

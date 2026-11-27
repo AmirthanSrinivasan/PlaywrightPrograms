@@ -1,0 +1,160 @@
+The below are not drafted by gou=ing through each episodes completely. 
+It is just created by topic wise.
+
+EP 4: Locating Web Elements
+xpath, css
+
+--------------------------------------------------------------------------------------
+Ep5: Playwright In-built Locators:
+
+getByRole() = Locates elements by ARIA role and accessible name.
+
+getByText() = Locates elements by visible text.
+
+getByLabel() = Locates form controls by their associated label.
+
+getByPlaceholder() = Locates input elements by placeholder text.
+
+getByAltText() = Locates elements by their alt text.
+
+getByTitle() = Locates elements by their title attribute.
+
+getByTestId() = Locates elements by their test ID attribute.
+
+
+
+
+
+getByRole() = page.getByRole('button', { name: 'Login' })
+
+getByText() = page.getByText('Welcome')
+
+getByLabel() = page.getByLabel('Email address')
+
+getByPlaceholder() = page.getByPlaceholder('Enter email')
+
+getByAltText() = page.getByAltText('Company logo')
+
+getByTitle() = page.getByTitle('Close')
+
+getByTestId() = page.getByTestId('submit-button')
+
+---------------------------------------------------------------------------
+
+EP 7: Assertions
+1) expect(page).toHaveURL()   Page has URL
+2) expect(page).toHaveTitle()   Page has title
+3) expect(locator).toBeVisible()  Element is visible
+4) expect(locator).toBeEnabled()  Control is enabled
+5) expect(locator).toBeChecked()  Radio/Checkbox is checked
+6) expect(locator).toHaveAttribute() Element has attribute
+7) expect(locator).toHaveText()  Element matches text
+8) expect(locator).toContainText()  Element contains text
+9) expect(locator).toHaveValue(value) Input has a value
+10) expect(locator).toHaveCount()  List of elements has given length
+
+
+-----------------------------------------------------------------------------------
+EP 8: Soft Assertions
+await  expect.soft(page).toHaveURL()   Page has URL
+
+
+------------------------------------------------------------------------------------
+EP9: inputBox & Radio Button
+//Radio button
+await page.locator("//input[@value='option2']").check(); //male
+//await page.check("//input[@value='option2']");
+await expect(await page.locator("//input[@value='option2']")).toBeChecked();
+await expect(await page. locator("//input [@value='option2']").isChecked()).toBeTruthy();//male
+
+await expect(await page.locator("//input[@value='option1']").isChecked()).toBeFalsy(); //female
+
+------------------------------------------------------------------------------------
+
+EP10: CheckBoxes
+
+//Multiple checkboxes
+const checkboxLocators=[
+"//input [@id='monday' and @type='checkbox']",
+"//input [@id='sunday' and @type='checkbox']",
+"//input [@id='saturday' and @type='checkbox']"
+
+];
+
+for(const locator of checkboxLocators)
+{
+await page. locator(locator).check();
+
+}
+
+-----------------------------------------------------------------------------------------
+
+EP11: Dropdowns
+
+//Multiple ways to select option from the dropdown
+await page.locator("#country").selectOption({label:'India'}); //label/ visible text
+await page.locator("#country").select0ption('India'); //visible text
+await page.locator("#country").selectOption({value: 'uk'}); // by using value
+await page.locator("#country").selectOption({index: 1}); // by using index
+
+
+===============================================
+EP 29: Screenshot
+await page.screenshot({path: 'C:\Users\HP\Documents\Playwright_Automation\tests-examples\screenshot'+Date.now()+'HomePage.png',fullPage:true})
+await page.locator("sdasd").screenshot({path: 'C:\Users\HP\Documents\Playwright_Automation\tests-examples\screenshot'+Date.now()+'HomePage.png',fullPage:true})
+
+
+=====================================================
+EP 16: alert, popup, dialog
+
+page.on('dialog', async dialog => {
+    expect(dialog.type()).toContain('alert')
+    expect(dialog.message()).toContain('I am an alert box')
+    await dialog.accept()
+})
+
+await page.locator('sdfsdf').click() 
+
+=====================================================
+
+EP 26: Upload Files
+//Single
+await page.locator('adasdasd').setInputFiles('ssdf/sfsd/pic.img')
+//Multiple
+await page.locator('adasdasd').setInputFiles(['ssdf/sfsd/pic.img','ssdf/sfsd/pic2.img'])
+//Clear
+await page.locator('adasdasd').setInputFiles([])
+
+
+===========================================================
+
+EP 24: Drag and Drop
+
+//Appraoch 1
+await rome.hover()
+await page.mouse.down()
+
+await italy.hover()
+await page.mouse.up()
+
+//Appraoch 2
+await rome.dragTo(italy)
+
+await page.waitForTimeout(5000)
+
+================================================================================
+EP 25: Keyboard Actions
+
+await page.goto("https://gotranscript.com/text-compare")
+
+await page.type('[name="text1"]', 'welcome to automation')
+
+//Ctrl + A - Select the text
+await page.keyboard.press('Control+A')
+
+//Ctrl + C - copy the text
+await page.keyboard.press ('Control+C')
+
+//Tab
+await page.keyboard.down('Tab')
+await page.keyboard.up('Tab')

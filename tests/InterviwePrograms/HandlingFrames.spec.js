@@ -22,4 +22,6 @@ test.only('Nested Frames', async({page})=>{
     //nested
     await frame3.childFrames()
 
+    await page.pause()
+
 })

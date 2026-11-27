@@ -1,0 +1,32 @@
+Most Frequently Asked Playwright Scenario Questions
+The questions that come up in almost every Playwright or automation interview, ordered by how often they appear. Question numbers in brackets refer to the full scenario list.
+Top 10 (Almost Guaranteed)
+1.  A test passes locally but fails intermittently in CI. How do you investigate? (Q1) Compare environments, open the trace and video, look for hard-coded waits and race conditions, and reproduce with --repeat-each.
+2.  How do you handle flaky tests? (Q3, Q5) Replace waitForTimeout with web-first assertions and auto-waiting. Use retries only as a safety net, and track tests that pass only on retry.
+3.  How do you build stable locators when IDs and classes keep changing? (Q6) Prefer getByRole, getByLabel, getByTestId. Work with devs on data-testid. Avoid long XPath chains and nth().
+4.  Every test logs in through the UI and the suite is slow. How do you speed it up? (Q11) Log in once in a setup project, save storageState, and reuse it across tests. Use API login where possible.
+5.  How do you handle multiple user roles or multi-user interactions? (Q13, Q19) One storageState per role. Use multiple browser contexts in a single test for cross-user flows like notifications.
+6.  How do you mock or intercept network calls? (Q15, Q16) Use page.route() to mock or abort, and waitForRequest / waitForResponse to assert payloads and status codes.
+7.  How do you handle new tabs, iframes, alerts, and file upload/download? (Q22, Q23, Q25, Q26) context.waitForEvent('page'), frameLocator(), page.on('dialog'), setInputFiles, and waitForEvent('download').
+8.  How do you structure your Playwright framework? (Q29, Q30) Page Objects plus custom fixtures, a utilities layer, environment-based config, tagging, and reporting. Explain POM vs. fixtures and how they complement each other.
+9.  How do you run tests in parallel and reduce execution time? (Q33) Workers, sharding, storageState reuse, API-based setup, smoke vs. regression tagging, and removing redundant UI checks.
+10.  A test failed overnight. Walk me through your first 15 minutes. (Q36) Classify it as product bug, test issue, data issue, or environment issue. Check trace, screenshots, and network logs. Reproduce with --debug or UI mode, then file a defect, fix the test, or quarantine it.
+Next 5 (Very Common)
+11.  A test depends on data created by another test. What's wrong? (Q18) Tests must be independent. Seed data via API in fixtures and clean up afterward.
+12.  You find a bug through automation. What goes in the defect? (Q37) Steps, expected vs. actual, environment and build, test data, trace/video/screenshot, network details, and severity.
+13.  What do you automate and what do you keep manual? (Q40) Automate stable, repetitive, regression-critical flows. Keep exploratory and subjective UX checks manual.
+14.  How do you handle dynamic elements like custom dropdowns, tables, or infinite scroll? (Q7, Q9, Q10) Scope locators with filter(), handle pagination or scroll loops with a guard, and interact with custom components by role or text.
+15.  The UI changes and many tests break. How do you reduce maintenance? (Q39) Centralize locators in page objects, use resilient locators, and coordinate with devs early.
+Likely Follow-Ups
+• What is the difference between locator and page.$?
+• How does Playwright's auto-waiting work?
+• waitForSelector vs. expect(locator).toBeVisible()?
+• What is the Trace Viewer and when do you use it?
+• How do you test across Chromium, Firefox, and WebKit?
+• How do you manage secrets and environment config in CI?
+Quick Strategy
+Answer each question in four steps: problem → investigation → fix → prevention, and add one example from your own project (such as notification validation across two sessions or token expiry testing). That makes the answer sound lived-in rather than memorized.
+
+
+
+https://claude.ai/artifact/RUArjm5g4H11rubjK1t5Lk#4b560d8f-5cf6.m5yc1x0sy6n.3526

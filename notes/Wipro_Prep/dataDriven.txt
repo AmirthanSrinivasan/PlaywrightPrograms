@@ -1,0 +1,68 @@
+{.username: "12", errorMessage: "username .is .too short . (minimum is 3.characters)", isErrorDisplayed: true }
+{username: "123", errorMessage: "username", isErrorDisplayed: false },
+{username: "12345678901234567890", errorMessage: "username", isErrorDisplayed: false },
+{username: "123456789012345678901", errorMessage: "username is too long (maximum is 20 characters)", isErrorDisplayed: true }
+].forEach(({username, errorMessage, isErrorDisplayed }) =>{
+test(`Error message .test .${username}', async.({page }) =>{
+await page.goto('https://conduit.bondaracademy.com/') ;
+await page.getByRole('link', {name: 'Sign.up' }).click();
+await page.getByRole('textbox', { name: 'Username' }) . fill (username) ;
+await page.getByRole('textbox', {name: 'Email' } ) . fill( '12');
+await page.getByRole('textbox', {name: 'Password' }).fill( 'HelloWorld');
+await page.getByRole('button', {name: 'Sign.up' }) .click();
+if(isErrorDisplayed) {
+.await expect (page. locator('.error-messages' ) ).toContainText (errorMessage)
+}.else.
+await .expect (page. locator('.error-messages' ) ) . not. toContainText (errorMessage
+
+
+
+======================================
+file name = testData.json
+{
+  "profile": {
+    "firstName": ["Arun", "Kumar", "Suresh"],
+    "lastName": ["Raj", "Mohan", "Pillai"],
+    "email": ["arun@test.com", "kumar@test.com", "suresh@test.com"],
+    "phone": ["9876543210", "9123456780", "9988776655"],
+    "city": ["Chennai", "Bangalore", "Mumbai"]
+  },
+  "nominee": {
+    "name": ["Lakshmi", "Meena", "Divya"],
+    "relationship": ["Spouse", "Mother", "Sister"],
+    "dob": ["1990-05-12", "1962-03-08", "1995-11-23"],
+    "share": ["100", "50", "25"],
+    "phone": ["9000000001", "9000000002", "9000000003"]
+  }
+}
+
+=================================================
+const { test, expect } = require('@playwright/test');
+const testData = require('../testdata/formData.json');
+
+const profile = testData.profile;
+const nominee = testData.nominee;
+
+test('create profile', async ({ page }) => {
+  await page.goto('https://example.com/profile');
+
+  await page.getByLabel('First Name').fill(profile.firstName[2]);  // Suresh
+  await page.getByLabel('Last Name').fill(profile.lastName[2]);    // Pillai
+  await page.getByLabel('Email').fill(profile.email[2]);           // suresh@test.com
+  await page.getByLabel('Phone').fill(profile.phone[2]);           // 9988776655
+  await page.getByLabel('City').fill(profile.city[0]);             // Chennai
+
+  await page.getByRole('button', { name: 'Submit' }).click();
+});
+
+test('add nominee', async ({ page }) => {
+  await page.goto('https://example.com/nominee');
+
+  await page.getByLabel('Name').fill(nominee.name[0]);                 // Lakshmi
+  await page.getByLabel('Relationship').fill(nominee.relationship[0]); // Spouse
+  await page.getByLabel('Date of Birth').fill(nominee.dob[0]);         // 1990-05-12
+  await page.getByLabel('Share').fill(nominee.share[0]);               // 100
+  await page.getByLabel('Phone').fill(nominee.phone[0]);               // 9000000001
+
+  await page.getByRole('button', { name: 'Save' }).click();
+});

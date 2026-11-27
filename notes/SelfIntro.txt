@@ -1,4 +1,4 @@
-I have overall 7 years of experience in Software Testing — about 3 years in Manual Testing 
+I have overall 8 years of experience in Software Testing — about 4 years in Manual Testing 
 and 4 years in Automation.
 
 I began my career at Amazon Chennai, 
@@ -17,3 +17,94 @@ and the previous releases P0 scenarios we will be adding into the regression sui
 
 
 -----------and maintaining progression and regression suites for monthly releases.
+
+
+
+
+===============================================================================
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+================================================================================
+###############################################################################
+===============================================================================
+
+Professional Summary: Interview Introduction
+Amirthan | Software Test Engineer | Interview preparation notes
+Overview
+•	8 years of experience in Software Testing
+•	About 4 years in Manual/Functional Testing and 4 years in Automation
+•	Hands-on with Selenium (Java) for 2 years and Playwright (JavaScript) for 2 years
+Career Journey
+1. Amazon, Chennai: Functional Testing
+•	Tested the Amazon retail website across 17 global locales
+•	Performed extensive cross-browser and device testing for Android and iOS apps
+2. SLK Software, Bangalore: Selenium Automation
+•	Client: CNA (Chicago-based bank), insurance domain applications
+•	Gained strong hands-on experience in Java Selenium automation
+3. Capgemini, Bangalore: Playwright Automation
+•	Client: ANZ Bank (Australia and New Zealand Banking Group), Home Lending applications
+•	Deeply involved in Playwright JavaScript automation
+•	Migrated the framework from Selenium to Playwright
+•	Designed the framework from scratch using the Page Object Model and a Data-Driven approach
+•	For every monthly release:
+◦	Script the progression scenarios
+◦	Add the previous release’s P0 scenarios to the regression suite
+•	Maintained both the progression and regression suites
+4. Wipro (Apple), Last 1 Year: Functional Testing
+•	Working as a functional tester, based on the team’s requirement
+•	Applications: Gutenberg and Octavia, content management tools
+Gutenberg (authoring platform)
+•	An author creates topics
+•	Collaborators can be added
+•	Different types of content blocks can be added
+•	The topic is assigned for review
+Octavia (review platform)
+•	Reviewers can approve or reject a topic
+•	Reviewers can add comments and pin them, so the author knows what to correct
+Workflow: Author creates in Gutenberg → assigns for review → reviewer approves or rejects in Octavia with pinned comments → author corrects.
+My role: writing test scenarios, validating user stories, and raising defects in Radar.
+Spoken Version (about 1.5 minutes)
+“I have 8 years of experience in software testing, about 4 years in manual testing and 4 years in automation - which includes 2 years of hands on in Selenium Java and 2 years in Playwright JavaScript.
+I started my career at Amazon, Chennai, where I tested the retail website across 17 global locales and did extensive cross-browser and device testing on Android and iOS apps.
+Then I joined SLK Software, Bangalore, for the client CNA, a Chicago-based bank. There I gained strong hands-on experience in Java Selenium automation for insurance domain applications.
+After that, I moved to Capgemini, Bangalore, for ANZ Bank, working on Home Lending applications. There I was deeply involved in Playwright JavaScript automation. I migrated the framework from Selenium to Playwright and designed it from scratch using the Page Object Model and a data-driven approach. For every monthly release, we script the progression scenarios, add the previous release’s P0 scenarios to the regression suite, and maintain both suites.
+For the last year, I’ve been with Wipro, working for Apple as a functional tester based on the team’s requirement. I work on two content management applications. Gutenberg is the authoring platform, where authors create topics, add collaborators and content blocks, and assign them for review. Octavia is the review platform, where reviewers approve or reject topics and add pinned comments for the author to correct. I write test scenarios, validate user stories and raise defects in Radar.”
+Tips
+•	Keep the numbers consistent with your resume (for example, the 17 locales).
+•	The Capgemini section is your strongest part, so slow down there. It shows framework design, migration and release ownership.
+•	If asked why Wipro is functional, say: “I was hired for automation, but the team needed functional testing, so I adapted. I’ve kept my Playwright skills up through practice.”
+•	Be ready for follow-ups on the Selenium to Playwright migration, since interviewers will likely dig into it: why you migrated, how, challenges and results.
+
+
+
+playwright-project/
+├── tests/
+│   └── login.spec.js
+├── pages/
+│   ├── LoginPage.js
+│   └── HomePage.js
+├── pomanager/
+│   └── POManager.js
+├── fixtures/
+│   └── baseTest.js
+├── testdata/
+│   └── login.json
+├── utils/
+│   └── helpers.js
+├── playwright.config.js
+└── package.json
+
+
+Playwright Project
+    -test
+        -login.spec.js
+    -Pages
+        -LoginPage.js
+        -HomePage.js
+    -PoManager
+        -GbPoManager
+    -fixtures
+        -basetest
+    -testdata
+        -.json
+    Playwright.config.js
+    package.json

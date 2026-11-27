@@ -1,0 +1,134 @@
+
+I have around 8 years of experience in Software Testing (4 years into Functional and 4 years into Automation).
+In that 4 years I have hands on Selenium Java for 2 years and Playwright Java script for 2 years.
+
+I started my career as Functional tester in Amazon developmental centre - Chennai.
+and then got an opportunity to work in SLK banglore and Capgemini Banglore.
+In SLK I worked for CNA bank got hands on Selenium Java and then pitched into Capgemini for the client ANZ Bank and got hands on Playwright Java script.
+Then got an opportunity to work with Wipro for Apple. I worked on the content management application Gutenberg & Octavia. Here I was hired for Automation but based on the teams requirement I worked on Functional testing.
+
+Explain about the applications Gutenberg & Octavia.
+Gutenberg & Octavia are apple's Internal content management applications.
+For example the content of the apple's support sites will be created using Gutenberg. for example adding text content by paragraph, list , tables and then we can also add images or videos, We also have options to secure a content so only the person who has the secure access can view it. We can Publish, UnPublish, Localise a content.
+we have different Dashboards like Activity dashboard where we can monitor each activity we perform and then Portal Dashboard where we can create or search for the existing topic, we have translation dashboard where we can translate a particular topic and localise it for other countries based on certain conditions. We also can assign a topic for a user to review.
+
+the assigned topic from Gutenberg will appear for the user in Octavia - it is the reviewing platform where we can add comments for a block, pin a comment, approve or reject a topic
+
+
+Roles and responsibilities for functional work I did in Wipro Apple:
+
+Roles and responsibilities for Automation work I did in CApgemini ANZ:
+==========================================================================================
+Your two blank sections are the ones she'll probe hardest, so here they are, written as you'd say them. Anything marked **[your detail]** is something only you know, so fill it in with the real story.
+
+## Quick fixes to your intro
+
+- **Playwright "2 years":** your Capgemini dates are Mar 2024 to Sep 2025, which is about 1.5 years. Say "close to two years" or "around 1.5 to 2 years". Don't let the numbers contradict the resume.
+- **Say JavaScript, not Java Script.** Playwright with JavaScript, Selenium with Java.
+- **Add the client to the resume:** "Capgemini, client ANZ Bank" and "SLK, client CNA". Right now the resume doesn't name either.
+- **Your Wipro line is a strength.** "I was hired for automation, and based on the team's priority I took on functional QE" shows flexibility. Close it with "and I've been exploring Playwright automation for the team in our internal repo".
+
+## Roles and responsibilities: functional work at Wipro (Apple)
+
+> "On Gutenberg and Octavia I worked as a QE on the functional side. My responsibilities were:
+>
+> - **Understanding user stories** and acceptance criteria, and raising clarifications with the PM and developers before testing started.
+> - **Writing test scenarios and test cases**. I created 600+ across features like Portal Search, saved searches, the Locked By filter, Show Secured toggle, Octavia workflows, pin comments, and email notifications.
+> - **End-to-end validation across both applications.** For example, a topic created and assigned in Gutenberg has to show up correctly in Octavia for the reviewer, and the approve or reject result has to reflect back properly.
+> - **Localization and translation testing.** I verified translation through WorldServer and localization through Eikon, including stubs, secure topics, and asset replacement after translation. I checked results in both WorldServer Preview and the Editor JSON source view.
+> - **Non-functional and integration checks.** I tested OIDC and WebSocket token expiry across Perf environments, and validated CDS responses, for example `sfSymbolLinkHrefs`.
+> - **Defect management.** I filed defects in Radar with clear steps, expected and actual results, and evidence. I raised 123 defects, 93 valid, a 75% acceptance rate, and I now check for duplicates and confirm expected behavior before filing.
+> - **Agile participation:** sprint planning, stand-ups, defect discussions with developers, and release validation."
+
+## Roles and responsibilities: automation work at Capgemini (ANZ Bank)
+
+> "At Capgemini I worked as an Automation Test Consultant for ANZ Bank, using Playwright with JavaScript. My responsibilities were:
+>
+> - **Identifying scenarios for automation** with the functional team, picking stable, high-value, repetitive flows such as [your detail: e.g. login, account views, payments] for regression.
+> - **Building and maintaining the framework** using Page Object Model. I had a page class per page, for example a LoginPage with locators and a login method, and a POManager that creates and returns all the page objects, so test scripts stay clean and don't create pages themselves.
+> - **Writing end-to-end test scripts** with role-based locators, and web-first assertions in place of hard waits.
+> - **Test data and environments:** [your detail: how you handled data, credentials, and test vs UAT environments].
+> - **Execution and reporting:** [your detail: HTML report, CI pipeline, how often it ran]. I sent daily status reports to stakeholders covering progress, failures, blockers, and risks.
+> - **Debugging failures and flaky tests.** I looked at whether a failure was a real defect, a locator or timing issue, or an environment issue, and fixed the root cause. [your detail: one real example.]
+> - **Collaboration** with developers and manual QA to review failures and keep the suite aligned with application changes."
+
+Banking is a domain she may ask about, so be ready to say what you tested there and how you handled sensitive data and security.
+
+## Your Gutenberg and Octavia explanation: small improvements
+
+Your content is good. To make it flow, say it in this order: **what it is, who uses it, the lifecycle, how the two apps connect**.
+
+> "Gutenberg and Octavia are Apple's internal content management applications. Gutenberg is where authors create content, for example for Apple support sites. They add blocks like paragraphs, lists, tables, images and videos, and can secure content so only users with secure access can view it. Content can be published, unpublished and localized. There are dashboards for activity, for searching and creating topics (Portal), and for translation. A topic can be assigned to a reviewer, and it shows up in Octavia, the review platform, where they add block comments, pin comments, and approve or reject."
+
+Add one line on why QE matters here: wrong content, a wrong locale, or a security slip on a support page reaches customers.
+
+## Your framework code: how to talk about it
+
+The code you pasted is a clean and correct structure. If she asks you to explain it, say:
+
+- **LoginPage** holds locators and the `login()` action, so UI changes are fixed in one place.
+- **POManager** creates page objects once and hands them out, so tests don't use `new` for every page.
+- **The spec** uses `POManager`, calls the action, and keeps test logic separate from page logic.
+
+Be ready for these follow-up improvements, because she may ask "what would you improve?":
+1. Add **assertions** after login, for example check the dashboard is visible.
+2. **Don't hardcode credentials.** Use environment variables or a config file.
+3. Use **fixtures** so tests receive `POManager` automatically.
+4. Use **`baseURL`** in config instead of a full URL in the test.
+5. Prefer **role or `data-testid` locators** over placeholder text, which is more fragile.
+6. Add **`beforeEach`**, tags (`@smoke`), and a **storageState** login so you log in once.
+
+Shall I ask you the next interview question now, perhaps the hypothetical one on automating an Apple site?
+
+=====================================================
+
+**Question:** You're given an Apple Support article page (text, images, videos, search, country/region selector) that you've never seen before. What's your approach to automate it, and what defects, especially high-priority ones, would you expect to find?
+
+**Answer headings:**
+
+1. **Understand the page:** explore manually, identify users, key elements, browsers and devices (Safari and mobile), and link it to your Gutenberg content experience.
+2. **Decide what to automate (risk-based):**
+   - Smoke: page loads, title and heading, no console or network errors
+   - Core functionality: search, region selector, links, media
+   - Content rendering: text, lists, tables, images, alt text
+   - Localization: parameterize by locale
+   - Not automated: frequently changing or purely visual content (use visual snapshots or manual review)
+3. **Framework:**
+   - Playwright with JavaScript, Page Object Model with POManager
+   - Role-based or test-id locators, web-first assertions
+   - Chromium, Firefox, WebKit and mobile viewports
+   - Config-driven URLs and credentials
+   - Smoke and regression tags, CI runs, traces and screenshots on failure
+4. **Expected defects by priority:**
+   - High: page load errors, wrong or missing content, wrong locale, secured or unpublished content visible publicly, broken search, broken main navigation
+   - Medium: media controls, region selector losing the article, broken related links, cross-browser issues
+   - Low: layout at breakpoints, accessibility gaps, slow images, typos
+5. **Defect reporting:** steps, expected vs actual, environment and evidence, with severity and priority based on user impact.
+
+
+=========================================================================
+
+Question 3
+
+You wrote a Playwright test that passes every time on your machine. In the CI pipeline, it fails about one run in four, with no code changes. The team is starting to ignore the failures and just rerun the pipeline.
+
+How would you investigate this, what are the common causes, and how would you fix it so the team can trust the suite again?
+
+Gather evidence: CI trace, screenshot, video and error; trace on first retry; reproduce with --repeat-each and CI worker count
+Find the root cause:
+Timing and waits (hard waits, non-retrying assertions)
+Test data and dependencies (shared data, order dependence, parallel conflicts)
+Environment differences (headless, viewport, timezone, network, unstable environment)
+Fragile locators
+A real race condition in the app (raise it as a defect)
+Fix and verify: fix the cause, use retries only as a safety net, rerun many times in CI
+Rebuild trust: quarantine with an owner and deadline, track flaky tests, never dismiss red runs with “just rerun”
+
+============================================================
+
+Question: A user story to reset saved search preferences to defaults, cancel, or update arrives three days before sprint end, with two lines of acceptance criteria and a busy developer. How do you create test scenarios, handle unclear requirements, and decide what to test manually and what to automate?
+
+Clarify first: list unclear points, send one short message to the PM or developer, record assumptions and keep testing
+Scenarios: Reset Defaults, Cancel, Update, negative and edge cases, integration with Portal Search results
+Prioritize by risk: manual first for main flows, automate stable and repeatable ones afterwards
+Report coverage and risk: state what was and wasn’t covered before sprint end

@@ -1,0 +1,77 @@
+// import { test as .setup, expect.} from '@playwright/test';
+// import path from 'path';
+
+
+const { test: setup, expect } = require('@playwright/test');
+const path = require('path');
+
+const authFile = path.join(_dirname, ' .. /playwright/.auth/user. json') ;
+
+setup('authentication', async ({ page })=>{
+await page.goto('https://conduit.bondaracademy.com/');
+await page.getByRole('link', { name: 'Sign in' }).click();
+await page.getByRole('textbox', {name: 'Email'}).fill('testgen@test.com');
+await page.getByRole('textbox', {name: 'Password' }).fill('test12345678');
+await page.getByRole('button', {name: 'Sign in' }) .click()]
+await page.waitForResponse('')
+await page.context().storageState({ path: authFile });
+
+
+
+===================================================================
+
+projects: [
+{ name: 'setup', testMatch: '**/*.setup.js'},
+{
+name: 'chromium',
+use: {
+.devices ['Desktop .Chrome' ],
+storageState: 'playwright/. auth/user. json',
+},
+dependencies: ['setup'],
+
+},
+
+
+
+
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+projects: [
+  {
+    name: 'setup',
+    testMatch: /.*\.setup\.js/,
+  },
+  {
+    name: 'admin-tests',
+    testMatch: /.*admin\.spec\.js/,
+    use: {
+      ...devices['Desktop Chrome'],
+      storageState: 'playwright/.auth/admin.json',
+    },
+    dependencies: ['setup'],
+  },
+  {
+    name: 'user-tests',
+    testMatch: /.*user\.spec\.js/,
+    use: {
+      ...devices['Desktop Chrome'],
+      storageState: 'playwright/.auth/user.json',
+    },
+    dependencies: ['setup'],
+  },
+],
+
+==========
+test('author submits, reviewer approves', async ({ browser }) => {
+  const authorContext = await browser.newContext({ storageState: 'playwright/.auth/author.json' })
+  const reviewerContext = await browser.newContext({ storageState: 'playwright/.auth/reviewer.json' })
+
+  const authorPage = await authorContext.newPage()
+  const reviewerPage = await reviewerContext.newPage()
+
+  // author actions on authorPage, reviewer actions on reviewerPage
+
+  await authorContext.close()
+  await reviewerContext.close()
+})
