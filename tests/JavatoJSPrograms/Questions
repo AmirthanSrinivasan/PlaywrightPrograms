@@ -1,0 +1,216 @@
+
+/*
+JavaScript – 20 Medium-Level Coding Practice Questions
+Topics: Strings, map(), filter(), reduce()
+
+========================================
+SECTION 1: STRINGS (Q1–Q5)
+========================================
+
+// Q1. Reverse each word in a sentence.
+// Input:
+let str1 = "JavaScript is awesome";
+// Expected Output:
+// "tpircSavaJ si emosewa"
+
+
+// Q2. Find the first non-repeating character.
+// Input:
+let str2 = "swiss";
+// Expected Output:
+// "w"
+
+
+// Q3. Count the occurrence of each character.
+// Input:
+let str3 = "javascript";
+// Expected Output:
+// { j: 1, a: 2, v: 1, s: 1, c: 1, r: 1, i: 1, p: 1, t: 1 }
+
+
+// Q4. Check whether two strings are anagrams.
+// Input:
+let str4a = "listen";
+let str4b = "silent";
+// Expected Output:
+// true
+
+
+// Q5. Find the longest word in a sentence.
+// Input:
+let str5 = "I am learning JavaScript programming";
+// Expected Output:
+// "programming"
+
+
+========================================
+SECTION 2: MAP() (Q6–Q9)
+========================================
+
+// Q6. Extract employee names and convert them to uppercase.
+// Input:
+let employees6 = [
+    { name: "John", age: 25 },
+    { name: "David", age: 30 },
+    { name: "Sam", age: 28 }
+];
+// Expected Output:
+// ["JOHN", "DAVID", "SAM"]
+
+
+// Q7. Add 18% GST to each product price.
+// Input:
+let prices7 = [1000, 2000, 3000, 4000];
+// Expected Output:
+// [1180, 2360, 3540, 4720]
+
+
+// Q8. Extract the first name from each full name.
+// Input:
+let names8 = [
+    "John Smith",
+    "David Miller",
+    "Sam Wilson"
+];
+// Expected Output:
+// ["John", "David", "Sam"]
+
+
+// Q9. Convert numbers into objects containing the number and its square.
+// Input:
+let numbers9 = [2, 3, 4, 5];
+// Expected Output:
+// [
+//     { number: 2, square: 4 },
+//     { number: 3, square: 9 },
+//     { number: 4, square: 16 },
+//     { number: 5, square: 25 }
+// ]
+
+
+========================================
+SECTION 3: FILTER() (Q10–Q13)
+========================================
+
+// Q10. Find employees whose salary is greater than 50000.
+// Input:
+let employees10 = [
+    { name: "John", salary: 45000 },
+    { name: "David", salary: 65000 },
+    { name: "Sam", salary: 75000 },
+    { name: "Peter", salary: 40000 }
+];
+// Expected Output:
+// [
+//     { name: "David", salary: 65000 },
+//     { name: "Sam", salary: 75000 }
+// ]
+
+
+// Q11. Find all duplicate numbers without repeating duplicates.
+// Input:
+let numbers11 = [1, 2, 3, 2, 4, 5, 1, 6];
+// Expected Output:
+// [1, 2]
+
+
+// Q12. Filter products whose names contain "Phone".
+// Input:
+let products12 = [
+    "iPhone 16",
+    "Samsung TV",
+    "OnePlus Phone",
+    "MacBook",
+    "Google Phone"
+];
+// Expected Output:
+// ["iPhone 16", "OnePlus Phone", "Google Phone"]
+
+
+// Q13. Remove all falsy values from an array.
+// Input:
+let values13 = [0, "Hello", false, 25, "", null, undefined, true];
+// Expected Output:
+// ["Hello", 25, true]
+
+
+========================================
+SECTION 4: REDUCE() (Q14–Q17)
+========================================
+
+// Q14. Find the sum of all even numbers.
+// Input:
+let numbers14 = [10, 15, 20, 25, 30, 35];
+// Expected Output:
+// 60
+
+
+// Q15. Find the frequency of each number.
+// Input:
+let numbers15 = [1, 2, 2, 3, 3, 3, 4, 4];
+// Expected Output:
+// { 1: 1, 2: 2, 3: 3, 4: 2 }
+
+
+// Q16. Find the employee with the highest salary.
+// Input:
+let employees16 = [
+    { name: "John", salary: 45000 },
+    { name: "David", salary: 85000 },
+    { name: "Sam", salary: 65000 }
+];
+// Expected Output:
+// { name: "David", salary: 85000 }
+
+
+// Q17. Calculate the total shopping cart value.
+// Input:
+let cart17 = [
+    { product: "Laptop", price: 50000, quantity: 2 },
+    { product: "Mouse", price: 500, quantity: 3 },
+    { product: "Keyboard", price: 1500, quantity: 1 }
+];
+// Expected Output:
+// 103000
+
+
+========================================
+SECTION 5: MIXED PROGRAMS (Q18–Q20)
+========================================
+
+// Q18. Find unique words in a sentence and convert them to lowercase.
+// Input:
+let str18 = "JavaScript is easy and JavaScript is powerful";
+// Expected Output:
+// ["javascript", "is", "easy", "and", "powerful"]
+
+
+// Q19. Find the total salary of employees whose age is above 25.
+// Use filter() and reduce().
+// Input:
+let employees19 = [
+    { name: "John", age: 24, salary: 40000 },
+    { name: "David", age: 30, salary: 60000 },
+    { name: "Sam", age: 28, salary: 50000 },
+    { name: "Peter", age: 22, salary: 35000 }
+];
+// Expected Output:
+// 110000
+
+
+// Q20. Find product names whose price is greater than 1000
+// and calculate their total price.
+// Use filter(), map(), and reduce().
+// Input:
+let products20 = [
+    { name: "Laptop", price: 50000 },
+    { name: "Mouse", price: 500 },
+    { name: "Keyboard", price: 1500 },
+    { name: "Monitor", price: 12000 },
+    { name: "USB Cable", price: 300 }
+];
+// Expected Output:
+// {
+//     names: ["Laptop", "Keyboard", "Monitor"],
+//     totalPrice: 63500
+// }

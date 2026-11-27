@@ -1,28 +1,24 @@
-//Find the most occurred character in a sentence.
+let input = "Hi hello howefsddaasdasd are you hello"
+let inputArray = input.split(" ")
+let occCount = 0
+let mostOccWord = ""
 
-let input = "Amirthan"
-let inputArray = input.toLowerCase().split('')
-let mostOccuredCharacter = ""
-let occurenceCount = 0
-let map = new Map()
+let m = new Map()
 
 for(let each of inputArray){
-    if(each != ' '){
-        if(map.has(each)){
-            map.set(each, map.get(each) + 1)
-        }
-
-        else{
-            map.set(each,1)
-        }
+    if(m.has(each)){
+        m.set(each, m.get(each)+1)
+    }
+    else{
+        m.set(each, 1)
     }
 }
 
-for(let [k,v] of map){
-    if(v>occurenceCount){
-        mostOccuredCharacter = k
-        occurenceCount = v
+for(let [k,v] of m){
+    if(v>occCount){
+        mostOccWord = k
+        occCount = v
     }
 }
 
-console.log(mostOccuredCharacter,":",occurenceCount)
+console.log(mostOccWord + ":" + occCount)

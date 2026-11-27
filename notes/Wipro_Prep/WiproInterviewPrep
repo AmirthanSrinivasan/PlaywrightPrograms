@@ -1,0 +1,2 @@
+Constructor: (Special Method - Runs Automatically - initial value)
+A constructor is a special method in a class that runs automatically when you create a new object with "new" keyword. Its job is to set up the object with its initial values.

@@ -1,14 +1,21 @@
-//Fibonacci
+//Find the number of vowels in a String. -
 
 
-let input = 10;
-let first = 0;
-let second = 1;
+let input = "Hi45 h45ello"
+let inputArray = input.split('')
+let count = 0
 
-for(let i =0; i<=input-1; i++){
-    console.log(first + " ")
+let sentence = ""
 
-    let next = first + second
-    first = second
-    second = next
-}
+for(let each of inputArray){
+    
+        if(each == 'a' || each == 'e' || each == 'i' || each =='o' || each =='u' ){
+                sentence = sentence + "*"
+        }
+        else{
+            sentence = sentence + each
+        }
+    }
+
+
+console.log(sentence)
